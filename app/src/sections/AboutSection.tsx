@@ -122,7 +122,7 @@ export default function AboutSection() {
             >
               I look forward to the opportunity to work with you in the future!
               <br />
-              &mdash; William &quot;B.A.&quot; Washington
+              <span className="inline-block mt-4">&mdash; William &quot;B.A.&quot; Washington</span>
             </p>
           </div>
         </div>
