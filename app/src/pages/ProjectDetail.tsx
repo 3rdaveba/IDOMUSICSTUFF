@@ -52,7 +52,7 @@ export default function ProjectDetail() {
     } else {
       window.scrollTo(0, 0)
     }
-  }, [])
+  }, [id])
 
   useEffect(() => {
     if (heroRef.current) {
