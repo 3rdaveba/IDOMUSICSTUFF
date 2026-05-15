@@ -15,7 +15,7 @@ const credits = [
     recognition: 'GRAMMY® Award Winner',
     description:
       'Featured vocalist on the original soundtrack and score for Ryan Coogler\'s Sinners. Contributed vocal performances that anchored key emotional moments in the film. The soundtrack received a GRAMMY® Award, marking my first win as a credited artist.',
-    image: '/images/film-sinners.jpg',
+    image: 'images/film-sinners.jpg',
   },
   {
     id: 'kpops',
@@ -26,7 +26,7 @@ const credits = [
     recognition: 'Featured Film Performance',
     description:
       'Acted and performed onscreen in K-Pops!, a film by Anderson .Paak. Brought both musical performance and screen presence to the project, bridging the worlds of film and music in a unique creative collaboration.',
-    image: '/images/film-kpops.jpg',
+    image: 'images/film-kpops.jpg',
   },
 ]
 

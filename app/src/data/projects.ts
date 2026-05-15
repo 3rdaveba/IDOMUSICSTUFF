@@ -45,7 +45,7 @@ export const projects: Project[] = [
     category: 'systems',
     role: 'Architect & Systems Designer',
     status: 'active',
-    heroImage: '/images/project-lukas.jpg',
+    heroImage: 'images/project-lukas.jpg',
     description: 'Design a private, autonomous agent infrastructure for creative workflow intelligence, operating 24/7 without human intervention.',
     dmaic: {
       D: { label: 'Define', text: 'Design a private, autonomous agent infrastructure for creative workflow intelligence, operating 24/7 without human intervention.' },
@@ -75,7 +75,7 @@ export const projects: Project[] = [
     category: 'music',
     role: 'Vocal Producer & Audio Engineer',
     status: 'complete',
-    heroImage: '/images/project-calby.jpg',
+    heroImage: 'images/project-calby.jpg',
     description: 'Capturing voices and stunning visuals to be used for artist archival and future marketing campaigns.',
     dmaic: {
       D: { label: 'Define', text: 'Capture high-quality audio and visual content for long-term artist archival and future marketing use on behalf of Sony Music Denmark.' },
@@ -113,7 +113,7 @@ export const projects: Project[] = [
     category: 'music',
     role: 'Vocal Producer & Arranger',
     status: 'complete',
-    heroImage: '/images/project-lukas.jpg',
+    heroImage: 'images/project-lukas.jpg',
     description: 'Arranging and producing vocals for an international pop album project.',
     dmaic: {
       D: { label: 'Define', text: 'Arrange and produce vocals for an international pop album release with a globally recognized artist.' },
@@ -151,7 +151,7 @@ export const projects: Project[] = [
     category: 'music',
     role: 'Music & Technology Educator',
     status: 'complete',
-    heroImage: '/images/project-heart.jpg',
+    heroImage: 'images/project-heart.jpg',
     description: 'Creating impactful experiences for youth in South Central Los Angeles through the power of music and technology.',
     dmaic: {
       D: { label: 'Define', text: 'Create impactful music and technology experiences for youth in South Central Los Angeles.' },
@@ -188,7 +188,7 @@ export const projects: Project[] = [
     category: 'music',
     role: 'Creative Collaborator & Live Production',
     status: 'complete',
-    heroImage: '/images/project-jimmy.jpg',
+    heroImage: 'images/project-jimmy.jpg',
     description: 'Collaborating to create a dynamic live performance of an unreleased alt. hip hop album during the global pandemic.',
     dmaic: {
       D: { label: 'Define', text: 'Produce a dynamic live performance of an unreleased alt. hip hop album during the global pandemic.' },

@@ -79,7 +79,7 @@ export default function AboutSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-12">
           {/* Portrait */}
           <ImageReveal
-            src="/images/portrait-william.jpg"
+            src="images/portrait-william.jpg"
             alt="William B.A. Washington portrait"
             aspectRatio="4/5"
             className="w-full"
