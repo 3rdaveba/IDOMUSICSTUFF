@@ -208,7 +208,7 @@ export default function ProjectDetail() {
           <div className="flex items-center gap-1.5">
             {project.category === 'music' ? <Music size={13} style={{ color: 'var(--accent-amber)' }} /> : <Cpu size={13} style={{ color: 'var(--accent-amber)' }} />}
             <span className="text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--text-secondary)' }}>
-              {project.category === 'music' ? (project.id === 'lmu-gospel-choir' ? 'Music & Education' : 'Music & Production') : 'Systems & Technology'}
+              {project.category === 'music' ? (project.id === 'lmu-gospel-choir' || project.id === 'heart-soul-image-village' ? 'Music & Education' : 'Music & Production') : 'Systems & Technology'}
             </span>
           </div>
 

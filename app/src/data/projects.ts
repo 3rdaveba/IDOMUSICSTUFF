@@ -170,7 +170,7 @@ export const projects: Project[] = [
   },
   {
     id: 'heart-soul-image-village',
-    title: 'Heart & Soul — Image Village 2023',
+    title: 'Heart & Soul Center - Image Village 2023',
     category: 'music',
     role: 'Music & Technology Educator',
     status: 'complete',
