@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { getProjectById } from '@/data/projects'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
+import { lenisInstance } from '@/hooks/useLenis'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -38,7 +39,11 @@ export default function ProjectDetail() {
   const mediaRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    window.scrollTo(0, 0)
+    if (lenisInstance) {
+      lenisInstance.scrollTo(0, { immediate: true })
+    } else {
+      window.scrollTo(0, 0)
+    }
   }, [])
 
   useEffect(() => {

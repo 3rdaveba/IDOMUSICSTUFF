@@ -5,6 +5,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger)
 
+export let lenisInstance: Lenis | null = null
+
 export function useLenis() {
   const lenisRef = useRef<Lenis | null>(null)
 
@@ -15,6 +17,7 @@ export function useLenis() {
     })
 
     lenisRef.current = lenis
+    lenisInstance = lenis
 
     lenis.on('scroll', ScrollTrigger.update)
 
@@ -27,6 +30,7 @@ export function useLenis() {
     return () => {
       lenis.destroy()
       lenisRef.current = null
+      lenisInstance = null
     }
   }, [])
 

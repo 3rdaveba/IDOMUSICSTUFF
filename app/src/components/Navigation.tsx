@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from 'react'
 import { useNavigate, useLocation } from 'react-router'
+import { lenisInstance } from '@/hooks/useLenis'
 
 const navLinks = [
   { label: 'About', href: '#about' },
@@ -42,9 +43,13 @@ export default function Navigation() {
 
   const scrollToSection = (href: string) => {
     const id = href.replace('#', '')
-    const el = document.getElementById(id)
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth' })
+    if (lenisInstance) {
+      lenisInstance.scrollTo(`#${id}`, { offset: -64 })
+    } else {
+      const el = document.getElementById(id)
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' })
+      }
     }
   }
 
@@ -54,7 +59,10 @@ export default function Navigation() {
       scrollToSection(href)
     } else {
       navigate('/')
-      setTimeout(() => scrollToSection(href), 100)
+      if (lenisInstance) {
+        lenisInstance.scrollTo(0, { immediate: true })
+      }
+      setTimeout(() => scrollToSection(href), 200)
     }
   }
 
