@@ -153,6 +153,11 @@ export const projects: Project[] = [
       'Aligned with artist vision and label standards',
       'Sustained through pre-production to final mix',
     ],
+    streaming: [
+      { platform: 'Spotify', url: 'https://open.spotify.com/album/02gV87QEIFp2T9q7OqVBjj' },
+      { platform: 'Pandora', url: 'https://www.pandora.com/AL:1831323' },
+      { platform: 'Tidal', url: 'https://listen.tidal.com/album/96589868' },
+    ],
     media: {
       items: [
         { type: 'photo-slot', label: 'Photo', src: 'project media/Lukas Graham - The Purple Album/LGLP3 2018.jpg' },
