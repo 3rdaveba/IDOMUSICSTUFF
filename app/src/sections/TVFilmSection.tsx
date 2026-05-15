@@ -1,37 +1,15 @@
 import { useEffect, useRef } from 'react'
+import { useNavigate } from 'react-router'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { Film, Award } from 'lucide-react'
+import { Film, Award, ArrowRight } from 'lucide-react'
+import { films } from '@/data/films'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const credits = [
-  {
-    id: 'sinners',
-    title: 'Sinners',
-    studio: 'Warner Bros.',
-    year: 2025,
-    role: 'Featured Vocalist — Original Motion Picture Soundtrack',
-    recognition: 'GRAMMY® Award Winner',
-    description:
-      'Featured vocalist on the original motion picture soundtrack for Ryan Coogler\'s Sinners. Contributed vocal performances that anchored key emotional moments in the film. The soundtrack received a GRAMMY® Award, marking my first win as a credited artist.',
-    image: 'images/film-sinners.jpg',
-  },
-  {
-    id: 'kpops',
-    title: 'K-Pops!',
-    studio: 'Anderson .Paak',
-    year: 2024,
-    role: 'Featured Actor & Onscreen Performer',
-    recognition: 'Featured Film Performance',
-    description:
-      'Acted and performed onscreen in K-Pops!, a film by Anderson .Paak. Brought both musical performance and screen presence to the project, bridging the worlds of film and music in a unique creative collaboration.',
-    image: 'images/film-kpops.jpg',
-  },
-]
-
 export default function TVFilmSection() {
   const itemsRef = useRef<HTMLDivElement>(null)
+  const navigate = useNavigate()
 
   useEffect(() => {
     if (!itemsRef.current) return
@@ -85,14 +63,15 @@ export default function TVFilmSection() {
 
         {/* Credits */}
         <div ref={itemsRef} className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {credits.map((credit) => (
+          {films.map((credit) => (
             <div
               key={credit.id}
-              className="group rounded-md overflow-hidden"
+              className="group rounded-md overflow-hidden cursor-pointer"
               style={{
                 backgroundColor: 'var(--bg-surface)',
                 border: '1px solid var(--border-color)',
               }}
+              onClick={() => navigate(`/film/${credit.id}`)}
             >
               {/* Image */}
               <div className="relative overflow-hidden" style={{ aspectRatio: '9/16' }}>
@@ -148,6 +127,9 @@ export default function TVFilmSection() {
                 <p className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
                   {credit.description}
                 </p>
+                <span className="inline-flex items-center gap-1 mt-4 text-xs font-medium transition-colors duration-300 group-hover:text-[var(--accent-amber)]" style={{ color: 'var(--text-tertiary)' }}>
+                  View details <ArrowRight size={12} />
+                </span>
               </div>
             </div>
           ))}
