@@ -1,4 +1,5 @@
 import { useEffect, useState, useRef } from 'react'
+import { useNavigate, useLocation } from 'react-router'
 
 const navLinks = [
   { label: 'About', href: '#about' },
@@ -12,12 +13,16 @@ export default function Navigation() {
   const [scrolled, setScrolled] = useState(false)
   const [activeSection, setActiveSection] = useState('home')
   const navRef = useRef<HTMLElement>(null)
+  const navigate = useNavigate()
+  const location = useLocation()
+  const isHome = location.pathname === '/'
 
   useEffect(() => {
     const onScroll = () => {
       setScrolled(window.scrollY > 100)
 
-      // Determine active section
+      // Determine active section (only on home page)
+      if (!isHome) return
       const sections = ['home', 'about', 'work', 'tv-film', 'discography', 'contact']
       for (let i = sections.length - 1; i >= 0; i--) {
         const el = document.getElementById(sections[i])
@@ -33,13 +38,23 @@ export default function Navigation() {
 
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)
-  }, [])
+  }, [isHome])
+
+  const scrollToSection = (href: string) => {
+    const id = href.replace('#', '')
+    const el = document.getElementById(id)
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault()
-    const target = document.querySelector(href)
-    if (target) {
-      target.scrollIntoView({ behavior: 'smooth' })
+    if (isHome) {
+      scrollToSection(href)
+    } else {
+      navigate('/')
+      setTimeout(() => scrollToSection(href), 100)
     }
   }
 
