@@ -45,7 +45,7 @@ export default function Lightbox({ items, initialIndex, onClose }: LightboxProps
   return (
     <div
       className="fixed inset-0 z-50 flex items-center justify-center"
-      style={{ backgroundColor: 'rgba(10,9,8,0.65)' }}
+      style={{ backgroundColor: 'rgba(10,9,8,0.35)' }}
       onClick={onClose}
     >
       {/* Close button */}
