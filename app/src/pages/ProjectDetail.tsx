@@ -413,12 +413,16 @@ export default function ProjectDetail() {
                     />
                   )}
                   {item.type === 'video-slot' && item.src && (
-                    <video
-                      src={item.src}
-                      controls
-                      className="w-full h-full object-cover"
-                      preload="metadata"
-                    />
+                    <>
+                      <video
+                        src={item.src}
+                        className="w-full h-full object-cover"
+                        preload="metadata"
+                      />
+                      <div className="absolute inset-0 flex items-center justify-center bg-black/20">
+                        <Video size={28} style={{ color: 'var(--text-primary)' }} />
+                      </div>
+                    </>
                   )}
                   {item.type === 'link-slot' && item.url && (
                     <a
