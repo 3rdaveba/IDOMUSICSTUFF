@@ -1,9 +1,9 @@
 import { useParams, useNavigate } from 'react-router'
 import { useState, useEffect, useRef } from 'react'
-import { ArrowLeft, Music, Cpu, Image, Video, ExternalLink, CheckCircle2 } from 'lucide-react'
+import { ArrowLeft, ArrowRight, Music, Cpu, Image, Video, ExternalLink, CheckCircle2 } from 'lucide-react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { getProjectById } from '@/data/projects'
+import { getProjectById, getAdjacentProjects } from '@/data/projects'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 import Lightbox from '@/components/Lightbox'
@@ -32,6 +32,7 @@ export default function ProjectDetail() {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
   const project = getProjectById(id || '')
+  const { prev, next } = getAdjacentProjects(id || '')
 
   const heroRef = useRef<HTMLDivElement>(null)
   const overviewRef = useRef<HTMLDivElement>(null)
@@ -489,6 +490,52 @@ export default function ProjectDetail() {
           initialIndex={lightboxIndex}
           onClose={() => setLightboxIndex(null)}
         />
+      )}
+
+      {/* ===== PROJECT NAVIGATION ===== */}
+      {(prev || next) && (
+        <div className="content-container py-12">
+          <div
+            className="flex flex-col sm:flex-row items-stretch gap-4 rounded-md overflow-hidden"
+            style={{ border: '1px solid var(--border-color)' }}
+          >
+            {prev && (
+              <button
+                onClick={() => navigate(`/project/${prev.id}`)}
+                className="group flex-1 flex items-center gap-4 p-6 text-left transition-colors duration-200 hover:bg-[var(--bg-surface)]"
+              >
+                <ArrowLeft size={20} style={{ color: 'var(--text-tertiary)' }} className="group-hover:text-[var(--accent-amber)] transition-colors flex-shrink-0" />
+                <div>
+                  <span className="text-[11px] font-medium uppercase tracking-wider block mb-1" style={{ color: 'var(--text-tertiary)' }}>
+                    Previous
+                  </span>
+                  <span className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>
+                    {prev.title}
+                  </span>
+                </div>
+              </button>
+            )}
+            {prev && next && (
+              <div className="hidden sm:block w-px self-stretch" style={{ backgroundColor: 'var(--border-color)' }} />
+            )}
+            {next && (
+              <button
+                onClick={() => navigate(`/project/${next.id}`)}
+                className="group flex-1 flex items-center gap-4 p-6 text-right justify-end transition-colors duration-200 hover:bg-[var(--bg-surface)]"
+              >
+                <div>
+                  <span className="text-[11px] font-medium uppercase tracking-wider block mb-1" style={{ color: 'var(--text-tertiary)' }}>
+                    Next
+                  </span>
+                  <span className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>
+                    {next.title}
+                  </span>
+                </div>
+                <ArrowRight size={20} style={{ color: 'var(--text-tertiary)' }} className="group-hover:text-[var(--accent-amber)] transition-colors flex-shrink-0" />
+              </button>
+            )}
+          </div>
+        </div>
       )}
 
       <Footer />

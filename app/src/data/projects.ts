@@ -245,3 +245,11 @@ export const projects: Project[] = [
 export function getProjectById(id: string): Project | undefined {
   return projects.find((p) => p.id === id)
 }
+
+export function getAdjacentProjects(id: string): { prev: Project | undefined; next: Project | undefined } {
+  const idx = projects.findIndex((p) => p.id === id)
+  return {
+    prev: idx > 0 ? projects[idx - 1] : undefined,
+    next: idx >= 0 && idx < projects.length - 1 ? projects[idx + 1] : undefined,
+  }
+}
