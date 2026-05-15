@@ -72,7 +72,7 @@ export default function Navigation() {
       className="fixed top-0 left-0 w-full transition-all duration-300"
       style={{
         zIndex: 50,
-        backgroundColor: scrolled ? 'rgba(10, 9, 8, 0.8)' : 'rgba(10, 9, 8, 0.4)',
+        backgroundColor: 'rgba(10, 9, 8, 0.45)',
         backdropFilter: 'blur(12px)',
         WebkitBackdropFilter: 'blur(12px)',
         borderBottom: scrolled ? '1px solid var(--border-color)' : '1px solid transparent',
