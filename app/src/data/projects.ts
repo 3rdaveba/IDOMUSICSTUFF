@@ -242,6 +242,39 @@ export const projects: Project[] = [
       ],
     },
   },
+  {
+    id: 'lmu-gospel-choir',
+    title: 'LMU Gospel Choir',
+    category: 'music',
+    role: 'TBD',
+    status: 'complete',
+    heroImage: 'images/project-lmu-gospel-choir.jpg',
+    description: 'TBD',
+    dmaic: {
+      D: { label: 'Define', text: 'TBD' },
+      M: { label: 'Measure', text: 'TBD' },
+      A: { label: 'Analyze', text: 'TBD' },
+      I: { label: 'Improve', text: 'TBD' },
+      C: { label: 'Control', text: 'TBD' },
+    },
+    timeline: [
+      { phase: '01', label: 'TBD' },
+      { phase: '02', label: 'TBD' },
+      { phase: '03', label: 'TBD' },
+      { phase: '04', label: 'TBD' },
+      { phase: '05', label: 'TBD' },
+    ],
+    tools: ['TBD'],
+    outcomes: [
+      'TBD',
+    ],
+    media: {
+      items: [
+        { type: 'photo-slot', label: 'Photo' },
+        { type: 'video-slot', label: 'BTS' },
+      ],
+    },
+  },
 ]
 
 export function getProjectById(id: string): Project | undefined {
