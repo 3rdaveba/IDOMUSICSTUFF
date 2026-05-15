@@ -16,6 +16,11 @@ export interface TimelineEvent {
   label: string
 }
 
+export interface StreamingLink {
+  platform: string
+  url: string
+}
+
 export interface Project {
   id: string
   title: string
@@ -35,6 +40,7 @@ export interface Project {
   timeline: TimelineEvent[]
   tools: string[]
   outcomes: string[]
+  streaming?: StreamingLink[]
   media?: {
     items: MediaItem[]
   }
@@ -100,6 +106,11 @@ export const projects: Project[] = [
       'Materials archived for long-term artist use',
       'Marketing-ready content for future campaigns',
       'Structured delivery to Sony Music Denmark',
+    ],
+    streaming: [
+      { platform: 'Spotify', url: 'https://open.spotify.com/album/3QhpZrBYmjDXLP0lu35Tg7' },
+      { platform: 'Pandora', url: 'https://www.pandora.com/AL:28125140' },
+      { platform: 'Tidal', url: 'https://listen.tidal.com/album/321639547' },
     ],
     media: {
       items: [

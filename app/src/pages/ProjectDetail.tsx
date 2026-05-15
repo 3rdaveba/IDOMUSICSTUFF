@@ -159,6 +159,34 @@ export default function ProjectDetail() {
         </p>
       </div>
 
+      {/* ===== STREAMING LINKS ===== */}
+      {project.streaming && project.streaming.length > 0 && (
+        <div className="content-container pb-4">
+          <div className="flex flex-wrap items-center gap-3">
+            <span className="text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--text-tertiary)' }}>
+              Listen:
+            </span>
+            {project.streaming.map((link) => (
+              <a
+                key={link.platform}
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-md transition-colors duration-200 hover:border-[var(--accent-amber)] hover:text-[var(--accent-amber)]"
+                style={{
+                  backgroundColor: 'var(--bg-surface)',
+                  color: 'var(--text-secondary)',
+                  border: '1px solid var(--border-color)',
+                }}
+              >
+                {link.platform}
+                <ExternalLink size={12} />
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
       {/* ===== OVERVIEW BAR ===== */}
       <div ref={overviewRef} className="content-container relative z-10 mb-16">
         <div
