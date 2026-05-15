@@ -11,10 +11,10 @@ const credits = [
     title: 'Sinners',
     studio: 'Warner Bros.',
     year: 2025,
-    role: 'Featured Vocalist — Soundtrack & Score',
+    role: 'Featured Vocalist — Original Motion Picture Soundtrack',
     recognition: 'GRAMMY® Award Winner',
     description:
-      'Featured vocalist on the original soundtrack and score for Ryan Coogler\'s Sinners. Contributed vocal performances that anchored key emotional moments in the film. The soundtrack received a GRAMMY® Award, marking my first win as a credited artist.',
+      'Featured vocalist on the original motion picture soundtrack for Ryan Coogler\'s Sinners. Contributed vocal performances that anchored key emotional moments in the film. The soundtrack received a GRAMMY® Award, marking my first win as a credited artist.',
     image: 'images/film-sinners.jpg',
   },
   {
