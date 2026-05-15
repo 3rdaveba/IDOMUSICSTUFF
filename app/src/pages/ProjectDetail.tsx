@@ -137,24 +137,23 @@ export default function ProjectDetail() {
           <span style={{ color: 'var(--text-primary)' }}>{project.title}</span>
         </nav>
 
-        {/* Title overlay */}
-        <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12">
-          <div className="content-container">
-            <h1
-              className="font-display text-3xl md:text-5xl font-bold leading-tight"
-              style={{ color: 'var(--text-primary)', letterSpacing: '-0.01em' }}
-            >
-              {project.title}
-            </h1>
-            <p className="mt-2 text-base md:text-lg font-light" style={{ color: 'var(--text-secondary)' }}>
-              {project.role}
-            </p>
-          </div>
-        </div>
+      </div>
+
+      {/* ===== PROJECT TITLE ===== */}
+      <div className="content-container pt-10 pb-4">
+        <h1
+          className="font-display text-3xl md:text-5xl font-bold leading-tight"
+          style={{ color: 'var(--text-primary)', letterSpacing: '-0.01em' }}
+        >
+          {project.title}
+        </h1>
+        <p className="mt-2 text-base md:text-lg font-light" style={{ color: 'var(--text-secondary)' }}>
+          {project.role}
+        </p>
       </div>
 
       {/* ===== OVERVIEW BAR ===== */}
-      <div ref={overviewRef} className="content-container -mt-6 relative z-10 mb-16">
+      <div ref={overviewRef} className="content-container relative z-10 mb-16">
         <div
           className="flex flex-wrap items-center gap-x-8 gap-y-3 px-6 py-4 rounded-md"
           style={{ backgroundColor: 'var(--bg-surface)', border: '1px solid var(--border-color)' }}
