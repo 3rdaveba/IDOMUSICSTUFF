@@ -95,7 +95,7 @@ export default function TVFilmSection() {
               }}
             >
               {/* Image */}
-              <div className="relative overflow-hidden" style={{ aspectRatio: '16/10' }}>
+              <div className="relative overflow-hidden" style={{ aspectRatio: '9/16' }}>
                 <img
                   src={credit.image}
                   alt={credit.title}
