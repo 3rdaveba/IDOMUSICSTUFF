@@ -113,7 +113,7 @@ export const projects: Project[] = [
     category: 'music',
     role: 'Vocal Producer & Arranger',
     status: 'complete',
-    heroImage: 'images/project-lukas.jpg',
+    heroImage: 'images/project-lukas-graham.jpg',
     description: 'Arranging and producing vocals for an international pop album project.',
     dmaic: {
       D: { label: 'Define', text: 'Arrange and produce vocals for an international pop album release with a globally recognized artist.' },
@@ -151,7 +151,7 @@ export const projects: Project[] = [
     category: 'music',
     role: 'Music & Technology Educator',
     status: 'complete',
-    heroImage: 'images/project-heart.jpg',
+    heroImage: 'images/project-heart-soul.jpg',
     description: 'Creating impactful experiences for youth in South Central Los Angeles through the power of music and technology.',
     dmaic: {
       D: { label: 'Define', text: 'Create impactful music and technology experiences for youth in South Central Los Angeles.' },
