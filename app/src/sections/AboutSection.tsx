@@ -109,7 +109,7 @@ export default function AboutSection() {
 
             <p
               ref={bio2Ref}
-              className="mt-4 text-lg md:text-xl font-light leading-relaxed"
+              className="mt-8 text-lg md:text-xl font-light leading-relaxed"
               style={{ color: 'var(--text-secondary)' }}
             >
               This site is designed to give you insight into my passion for creating impactful experiences, my creative thought process, and a look at some of the projects I&apos;ve been a part of from behind the scenes.
