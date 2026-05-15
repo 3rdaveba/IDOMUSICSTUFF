@@ -94,7 +94,7 @@ export default function HeroSection() {
             transform: 'translateY(-20px)',
           }}
         >
-          GRAMMY&reg; AWARD-WINNING VOCAL PRODUCER &middot; LOS ANGELES
+          GRAMMY&reg; AWARD-WINNING VOCAL PRODUCER &middot; MUSIC TECHNOLOGIST &middot; CREATIVE SYSTEMS ARCHITECT &middot; LOS ANGELES
         </p>
 
         {/* Name */}
