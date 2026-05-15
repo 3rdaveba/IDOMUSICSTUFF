@@ -70,7 +70,7 @@ export default function DiscographySection() {
             <em style={{ color: 'var(--accent-amber)' }}>{streamingStats.totalSpotifyStreams}M+</em> streams
           </h2>
           <p className="mt-2 text-base font-light" style={{ color: 'var(--text-secondary)' }}>
-            {streamingStats.tracksWithData} tracks &middot; sourced from {streamingStats.dataSource}
+            Select discography from notable projects as vocal producer, featured artist, or performer &middot; {streamingStats.tracksWithData} tracks &middot; sourced from {streamingStats.dataSource}
           </p>
         </div>
 
