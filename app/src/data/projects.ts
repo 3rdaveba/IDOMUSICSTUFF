@@ -274,8 +274,9 @@ export const projects: Project[] = [
     ],
     media: {
       items: [
-        { type: 'photo-slot', label: 'Photo' },
-        { type: 'video-slot', label: 'BTS' },
+        { type: 'photo-slot', label: 'Photo', src: 'project media/LMU Gospel Choir/lmu gospel choir_edited.jpg' },
+        { type: 'photo-slot', label: 'Photo', src: 'project media/LMU Gospel Choir/LMU GOSPEL CHOIR.00_19_42_31.Still010.jpg' },
+        { type: 'video-slot', label: 'Interlude', src: 'project media/LMU Gospel Choir/LMU GOSPEL CHOIR interlude video.mp4' },
       ],
     },
   },
