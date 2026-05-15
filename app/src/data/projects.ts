@@ -130,6 +130,7 @@ export const projects: Project[] = [
     role: 'Vocal Producer & Arranger',
     status: 'complete',
     heroImage: 'images/project-lukas-graham.jpg',
+    heroVideo: 'project media/Lukas Graham - The Purple Album/LGLP BTS UPDATED.mp4',
     description: 'Arranging and producing vocals for an international pop album project.',
     dmaic: {
       D: { label: 'Define', text: 'Arrange and produce vocals for an international pop album release with a globally recognized artist.' },
@@ -154,10 +155,9 @@ export const projects: Project[] = [
     ],
     media: {
       items: [
-        { type: 'photo-slot', label: 'Photo' },
-        { type: 'video-slot', label: 'BTS' },
-        { type: 'link-slot', icon: 'Spotify', label: 'Spotify' },
-        { type: 'link-slot', icon: 'Apple', label: 'Apple' },
+        { type: 'photo-slot', label: 'Photo', src: 'project media/Lukas Graham - The Purple Album/LGLP3 2018.jpg' },
+        { type: 'photo-slot', label: 'Photo', src: 'project media/Lukas Graham - The Purple Album/William & Lukas LGLP3 2018.jpg' },
+        { type: 'video-slot', label: 'BTS', src: 'project media/Lukas Graham - The Purple Album/LGLP BTS UPDATED.mp4' },
       ],
     },
   },
