@@ -128,7 +128,7 @@ export default function HeroSection() {
       {/* Scroll Cue */}
       <div
         ref={scrollCueRef}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center opacity-0 hidden md:flex"
+        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center opacity-0"
       >
         <div
           className="relative"
