@@ -79,7 +79,7 @@ export default function AboutSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-12">
           {/* Portrait */}
           <ImageReveal
-            src="https://static.wixstatic.com/media/a5a306_8bb7caa1f37949de8f6b535d1ad7d22c~mv2.jpg/v1/fill/w_1512,h_1390,fp_0.57_0.53,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Washingtons2025(20of20).jpg"
+            src="images/portrait-william.jpg"
             alt="William B.A. Washington portrait"
             aspectRatio="4/5"
             className="w-full"
