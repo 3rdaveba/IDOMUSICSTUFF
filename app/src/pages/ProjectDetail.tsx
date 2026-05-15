@@ -146,46 +146,46 @@ export default function ProjectDetail() {
 
       </div>
 
-      {/* ===== PROJECT TITLE ===== */}
+      {/* ===== PROJECT TITLE + STREAMING ===== */}
       <div className="content-container pt-10 pb-4">
-        <h1
-          className="font-display text-3xl md:text-5xl font-bold leading-tight"
-          style={{ color: 'var(--text-primary)', letterSpacing: '-0.01em' }}
-        >
-          {project.title}
-        </h1>
-        <p className="mt-2 text-base md:text-lg font-light" style={{ color: 'var(--text-secondary)' }}>
-          {project.role}
-        </p>
-      </div>
-
-      {/* ===== STREAMING LINKS ===== */}
-      {project.streaming && project.streaming.length > 0 && (
-        <div className="content-container pb-4">
-          <div className="flex flex-wrap items-center gap-3">
-            <span className="text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--text-tertiary)' }}>
-              Listen:
-            </span>
-            {project.streaming.map((link) => (
-              <a
-                key={link.platform}
-                href={link.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-md transition-colors duration-200 hover:border-[var(--accent-amber)] hover:text-[var(--accent-amber)]"
-                style={{
-                  backgroundColor: 'var(--bg-surface)',
-                  color: 'var(--text-secondary)',
-                  border: '1px solid var(--border-color)',
-                }}
-              >
-                {link.platform}
-                <ExternalLink size={12} />
-              </a>
-            ))}
+        <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
+          <div>
+            <h1
+              className="font-display text-3xl md:text-5xl font-bold leading-tight"
+              style={{ color: 'var(--text-primary)', letterSpacing: '-0.01em' }}
+            >
+              {project.title}
+            </h1>
+            <p className="mt-2 text-base md:text-lg font-light" style={{ color: 'var(--text-secondary)' }}>
+              {project.role}
+            </p>
           </div>
+          {project.streaming && project.streaming.length > 0 && (
+            <div className="flex flex-wrap items-center gap-3 md:pt-2">
+              <span className="text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--text-tertiary)' }}>
+                Listen:
+              </span>
+              {project.streaming.map((link) => (
+                <a
+                  key={link.platform}
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-md transition-colors duration-200 hover:border-[var(--accent-amber)] hover:text-[var(--accent-amber)]"
+                  style={{
+                    backgroundColor: 'var(--bg-surface)',
+                    color: 'var(--text-secondary)',
+                    border: '1px solid var(--border-color)',
+                  }}
+                >
+                  {link.platform}
+                  <ExternalLink size={12} />
+                </a>
+              ))}
+            </div>
+          )}
         </div>
-      )}
+      </div>
 
       {/* ===== OVERVIEW BAR ===== */}
       <div ref={overviewRef} className="content-container relative z-10 mb-16">
