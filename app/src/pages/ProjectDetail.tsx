@@ -1,11 +1,12 @@
 import { useParams, useNavigate } from 'react-router'
-import { useEffect, useRef } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { ArrowLeft, Music, Cpu, Image, Video, ExternalLink, CheckCircle2 } from 'lucide-react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { getProjectById } from '@/data/projects'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
+import Lightbox from '@/components/Lightbox'
 import { lenisInstance } from '@/hooks/useLenis'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -37,6 +38,12 @@ export default function ProjectDetail() {
   const narrativeRef = useRef<HTMLDivElement>(null)
   const detailsRef = useRef<HTMLDivElement>(null)
   const mediaRef = useRef<HTMLDivElement>(null)
+
+  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null)
+
+  const lightboxItems = project?.media?.items.filter(
+    (item) => (item.type === 'photo-slot' || item.type === 'video-slot') && item.src
+  ) ?? []
 
   useEffect(() => {
     if (lenisInstance) {
@@ -384,11 +391,17 @@ export default function ProjectDetail() {
               {project.media.items.map((item, i) => (
                 <div
                   key={i}
-                  className="group relative overflow-hidden rounded-md transition-all duration-200 hover:border-[var(--accent-amber)]"
+                  className={`group relative overflow-hidden rounded-md transition-all duration-200 hover:border-[var(--accent-amber)] ${item.src && item.type !== 'link-slot' ? 'cursor-pointer' : ''}`}
                   style={{
                     aspectRatio: '4/3',
                     border: item.src ? '1px solid var(--border-color)' : '1px dashed var(--border-color)',
                     backgroundColor: 'var(--bg-surface)',
+                  }}
+                  onClick={() => {
+                    if (item.src && item.type !== 'link-slot') {
+                      const idx = lightboxItems.findIndex((li) => li.src === item.src)
+                      if (idx !== -1) setLightboxIndex(idx)
+                    }
                   }}
                 >
                   {item.type === 'photo-slot' && item.src && (
@@ -437,6 +450,14 @@ export default function ProjectDetail() {
           </div>
         )}
       </div>
+
+      {lightboxIndex !== null && (
+        <Lightbox
+          items={lightboxItems}
+          initialIndex={lightboxIndex}
+          onClose={() => setLightboxIndex(null)}
+        />
+      )}
 
       <Footer />
     </div>
