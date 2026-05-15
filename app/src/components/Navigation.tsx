@@ -94,7 +94,7 @@ export default function Navigation() {
               strokeLinejoin="round"
             />
           </svg>
-          <span className="text-nav text-[var(--text-primary)] hidden sm:inline">
+          <span className="text-nav text-[var(--text-secondary)] hidden sm:inline">
             WILLIAM "B.A." WASHINGTON
           </span>
         </a>
