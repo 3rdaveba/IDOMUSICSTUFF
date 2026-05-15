@@ -95,7 +95,7 @@ export default function ProjectDetail() {
       <Navigation />
 
       {/* ===== HERO ===== */}
-      <div ref={heroRef} className="relative w-full overflow-hidden" style={{ height: 'clamp(260px, 38vh, 420px)' }}>
+      <div ref={heroRef} className="relative w-full overflow-hidden" style={{ height: 'clamp(400px, 65vh, 750px)' }}>
         {project.heroVideo ? (
           <video
             src={project.heroVideo}
