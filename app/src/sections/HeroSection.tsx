@@ -122,35 +122,33 @@ export default function HeroSection() {
           </span>
         </h1>
 
-
-      </div>
-
-      {/* Scroll Cue */}
-      <div
-        ref={scrollCueRef}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center opacity-0"
-      >
+        {/* Scroll Cue */}
         <div
-          className="relative"
-          style={{ width: 1, height: 48, backgroundColor: 'var(--text-tertiary)' }}
+          ref={scrollCueRef}
+          className="flex flex-col items-center opacity-0 mt-12"
         >
           <div
-            ref={dotRef}
-            className="absolute top-0 left-1/2 -translate-x-1/2 rounded-full"
-            style={{
-              width: 4,
-              height: 4,
-              backgroundColor: 'var(--accent-amber)',
-              opacity: 0.4,
-            }}
-          />
+            className="relative"
+            style={{ width: 1, height: 48, backgroundColor: 'var(--text-tertiary)' }}
+          >
+            <div
+              ref={dotRef}
+              className="absolute top-0 left-1/2 -translate-x-1/2 rounded-full"
+              style={{
+                width: 4,
+                height: 4,
+                backgroundColor: 'var(--accent-amber)',
+                opacity: 0.4,
+              }}
+            />
+          </div>
+          <span
+            className="text-eyebrow mt-2"
+            style={{ color: 'var(--text-tertiary)' }}
+          >
+            SCROLL
+          </span>
         </div>
-        <span
-          className="text-eyebrow mt-2"
-          style={{ color: 'var(--text-tertiary)' }}
-        >
-          SCROLL
-        </span>
       </div>
     </section>
   )
