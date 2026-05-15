@@ -49,7 +49,7 @@ export const discography: DiscographyEntry[] = [
     year: 2020,
     role: 'Vocal Producer',
     type: 'single',
-    image: '/images/project-lukas.jpg',
+    image: '/images/discography/lukas-graham-share-that-love.jpg',
     links: {},
     stats: {
       spotifyStreams: 141.5,
@@ -68,7 +68,7 @@ export const discography: DiscographyEntry[] = [
     year: 2020,
     role: 'Vocal Producer',
     type: 'single',
-    image: '/images/project-lukas.jpg',
+    image: '/images/discography/lady-gaga-babylon.jpg',
     links: {},
     stats: {
       spotifyStreams: 77.6,
@@ -87,7 +87,7 @@ export const discography: DiscographyEntry[] = [
     year: 2020,
     role: 'Vocal Producer',
     type: 'single',
-    image: '/images/project-calby.jpg',
+    image: '/images/discography/kesi-tilbage.jpg',
     links: {},
     stats: {
       spotifyStreams: 23.5,
@@ -106,7 +106,7 @@ export const discography: DiscographyEntry[] = [
     year: 2020,
     role: 'Vocal Producer',
     type: 'single',
-    image: '/images/project-calby.jpg',
+    image: '/images/discography/future-animals-crazy-love.jpg',
     links: {},
     stats: {
       spotifyStreams: 15.6,
@@ -125,7 +125,7 @@ export const discography: DiscographyEntry[] = [
     year: 2023,
     role: 'Vocal Producer',
     type: 'single',
-    image: '/images/project-lukas.jpg',
+    image: '/images/discography/lukas-graham-4-pink-album.jpg',
     links: {},
     stats: {
       spotifyStreams: 11.5,
@@ -144,7 +144,7 @@ export const discography: DiscographyEntry[] = [
     year: 2023,
     role: 'Vocal Producer',
     type: 'single',
-    image: '/images/project-lukas.jpg',
+    image: '/images/discography/lukas-graham-4-pink-album.jpg',
     links: {},
     stats: {
       spotifyStreams: 11.5,
@@ -163,7 +163,7 @@ export const discography: DiscographyEntry[] = [
     year: 2020,
     role: 'Vocal Producer',
     type: 'single',
-    image: '/images/project-calby.jpg',
+    image: '/images/discography/hedegaard-need-you-right-now.jpg',
     links: {},
     stats: {
       spotifyStreams: 11.1,
@@ -182,7 +182,7 @@ export const discography: DiscographyEntry[] = [
     year: 2023,
     role: 'Vocal Producer',
     type: 'single',
-    image: '/images/project-lukas.jpg',
+    image: '/images/discography/lukas-graham-4-pink-album.jpg',
     links: {},
     stats: {
       spotifyStreams: 8.6,
@@ -201,7 +201,7 @@ export const discography: DiscographyEntry[] = [
     year: 2022,
     role: 'Vocal Producer & Audio Engineer',
     type: 'single',
-    image: '/images/project-calby.jpg',
+    image: '/images/discography/calby-heartbeat.jpg',
     links: {},
     stats: {
       spotifyStreams: 0.6,
