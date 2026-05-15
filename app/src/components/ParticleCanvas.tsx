@@ -94,11 +94,16 @@ const vertexShader = `
 `
 
 const fragmentShader = `
-  uniform vec3 uBaseColor;
-  uniform vec3 uAccentColor;
-
   varying float vAlpha;
   varying vec3 vColor;
+
+  vec3 palette(float t) {
+    vec3 a = vec3(0.75, 0.50, 0.35);
+    vec3 b = vec3(0.30, 0.25, 0.25);
+    vec3 c = vec3(1.0, 0.9, 0.7);
+    vec3 d = vec3(0.0, 0.15, 0.35);
+    return a + b * cos(6.28318 * (c * t + d));
+  }
 
   void main() {
     vec2 uv = gl_PointCoord - 0.5;
@@ -108,9 +113,8 @@ const fragmentShader = `
     // Smooth radial falloff
     float alpha = pow(1.0 - dist * 2.0, 1.5);
 
-    // Mix colors: 97% base, 3% accent
-    float isAccent = step(0.97, vColor.x);
-    vec3 color = mix(uBaseColor, uAccentColor, isAccent);
+    // Multicolored palette based on particle hash
+    vec3 color = palette(vColor.x);
 
     gl_FragColor = vec4(color, alpha * vAlpha);
   }
@@ -137,7 +141,7 @@ export default function ParticleCanvas() {
 
     // Scene
     const scene = new THREE.Scene()
-    scene.fog = new THREE.FogExp2(0x141210, 0.008)
+    scene.fog = new THREE.FogExp2(0xF5F0EB, 0.008)
 
     // Camera
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000)
@@ -168,8 +172,6 @@ export default function ParticleCanvas() {
         uMouse: { value: new THREE.Vector2(0.0, 0.0) },
         uPixelRatio: { value: Math.min(window.devicePixelRatio, 2) },
         uParticleScale: { value: 2.5 },
-        uBaseColor: { value: new THREE.Color(0xC4956A) },
-        uAccentColor: { value: new THREE.Color(0xC45B4A) },
       },
       blending: THREE.AdditiveBlending,
       depthTest: false,

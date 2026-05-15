@@ -4,16 +4,16 @@
 
 @layer base {
   :root {
-    --bg-void: #141210;
-    --bg-surface: #1C1917;
-    --bg-surface-elevated: #262320;
-    --text-primary: #FAF6F1;
-    --text-secondary: #9C948A;
-    --text-tertiary: #6B6560;
-    --accent-amber: #C4956A;
-    --accent-amber-light: #D4A97A;
+    --bg-void: #F5F0EB;
+    --bg-surface: #EDE8E2;
+    --bg-surface-elevated: #E5E0DA;
+    --text-primary: #1A1816;
+    --text-secondary: #6B6560;
+    --text-tertiary: #9C948A;
+    --accent-amber: #B07D4A;
+    --accent-amber-light: #C4956A;
     --accent-red: #C45B4A;
-    --border-color: #38322D;
+    --border-color: #D5CFC8;
     --content-max-width: 1280px;
     --section-padding-y: 120px;
     --grid-gap: 48px;
@@ -38,7 +38,7 @@
 
   ::selection {
     background-color: var(--accent-amber);
-    color: var(--bg-void);
+    color: #FAF6F1;
   }
 }
 
