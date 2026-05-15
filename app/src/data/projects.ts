@@ -8,6 +8,7 @@ export interface MediaItem {
   label: string
   icon?: string
   url?: string
+  src?: string
 }
 
 export interface TimelineEvent {
@@ -102,10 +103,12 @@ export const projects: Project[] = [
     ],
     media: {
       items: [
-        { type: 'photo-slot', label: 'Photo' },
-        { type: 'photo-slot', label: 'Photo' },
-        { type: 'video-slot', label: 'BTS' },
-        { type: 'link-slot', icon: 'Music', label: 'Stream' },
+        { type: 'photo-slot', label: 'Photo', src: 'project media/Calby \u2014 Inner Critic\'s Choice Awards/wix-image-1.png' },
+        { type: 'photo-slot', label: 'Photo', src: 'project media/Calby \u2014 Inner Critic\'s Choice Awards/wix-image-2.png' },
+        { type: 'photo-slot', label: 'Photo', src: 'project media/Calby \u2014 Inner Critic\'s Choice Awards/calby project photo 3.jpg' },
+        { type: 'photo-slot', label: 'Artwork', src: 'project media/Calby \u2014 Inner Critic\'s Choice Awards/Calby Daydream Artwork.jpg' },
+        { type: 'video-slot', label: 'Pre Production', src: 'project media/Calby \u2014 Inner Critic\'s Choice Awards/Calby - Pre Production Session 2023.mp4' },
+        { type: 'video-slot', label: 'Studio Session', src: 'project media/Calby \u2014 Inner Critic\'s Choice Awards/Calby studio session 2 .mp4' },
       ],
     },
   },

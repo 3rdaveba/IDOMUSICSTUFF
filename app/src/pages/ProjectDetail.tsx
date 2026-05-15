@@ -384,23 +384,53 @@ export default function ProjectDetail() {
               {project.media.items.map((item, i) => (
                 <div
                   key={i}
-                  className="group flex flex-col items-center justify-center gap-2 rounded-md cursor-pointer transition-all duration-200 hover:border-[var(--accent-amber)]"
+                  className="group relative overflow-hidden rounded-md transition-all duration-200 hover:border-[var(--accent-amber)]"
                   style={{
                     aspectRatio: '4/3',
-                    border: '1px dashed var(--border-color)',
+                    border: item.src ? '1px solid var(--border-color)' : '1px dashed var(--border-color)',
                     backgroundColor: 'var(--bg-surface)',
                   }}
                 >
-                  {item.type === 'photo-slot' && <Image size={22} style={{ color: 'var(--text-tertiary)' }} className="group-hover:text-[var(--accent-amber)] transition-colors" />}
-                  {item.type === 'video-slot' && <Video size={22} style={{ color: 'var(--text-tertiary)' }} className="group-hover:text-[var(--accent-amber)] transition-colors" />}
-                  {item.type === 'link-slot' && (
-                    <span className="group-hover:text-[var(--accent-amber)] transition-colors" style={{ color: 'var(--text-tertiary)' }}>
-                      {iconMap[item.icon || ''] || <ExternalLink size={22} />}
-                    </span>
+                  {item.type === 'photo-slot' && item.src && (
+                    <img
+                      src={item.src}
+                      alt={item.label}
+                      className="w-full h-full object-cover"
+                      loading="lazy"
+                    />
                   )}
-                  <span className="text-[11px] font-medium" style={{ color: 'var(--text-tertiary)' }}>
-                    {item.label}
-                  </span>
+                  {item.type === 'video-slot' && item.src && (
+                    <video
+                      src={item.src}
+                      controls
+                      className="w-full h-full object-cover"
+                      preload="metadata"
+                    />
+                  )}
+                  {item.type === 'link-slot' && item.url && (
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="absolute inset-0 flex flex-col items-center justify-center gap-2"
+                    >
+                      <span className="group-hover:text-[var(--accent-amber)] transition-colors" style={{ color: 'var(--text-tertiary)' }}>
+                        {iconMap[item.icon || ''] || <ExternalLink size={22} />}
+                      </span>
+                      <span className="text-[11px] font-medium" style={{ color: 'var(--text-tertiary)' }}>
+                        {item.label}
+                      </span>
+                    </a>
+                  )}
+                  {!item.src && item.type !== 'link-slot' && (
+                    <div className="absolute inset-0 flex flex-col items-center justify-center gap-2">
+                      {item.type === 'photo-slot' && <Image size={22} style={{ color: 'var(--text-tertiary)' }} className="group-hover:text-[var(--accent-amber)] transition-colors" />}
+                      {item.type === 'video-slot' && <Video size={22} style={{ color: 'var(--text-tertiary)' }} className="group-hover:text-[var(--accent-amber)] transition-colors" />}
+                      <span className="text-[11px] font-medium" style={{ color: 'var(--text-tertiary)' }}>
+                        {item.label}
+                      </span>
+                    </div>
+                  )}
                 </div>
               ))}
             </div>
