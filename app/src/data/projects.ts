@@ -175,6 +175,7 @@ export const projects: Project[] = [
     role: 'Music & Technology Educator',
     status: 'complete',
     heroImage: 'images/project-heart-soul.jpg',
+    heroVideo: 'project media/Heart and Soul Center/HAS CENTER bg.mp4',
     description: 'Led the choral and recording studio components of Image Village 2023, a summer camp at Heart and Soul Center in South Central Los Angeles. Taught vocal technique and ensemble skills to two age groups while guiding students through songwriting, DAW production, and music video creation.',
     dmaic: {
       D: { label: 'Define', text: 'Deliver a summer camp music program at Heart and Soul Center combining choral instruction and recording studio education for youth in South Central Los Angeles.' },
@@ -200,9 +201,13 @@ export const projects: Project[] = [
     ],
     media: {
       items: [
-        { type: 'photo-slot', label: 'Photo' },
-        { type: 'photo-slot', label: 'Photo' },
-        { type: 'video-slot', label: 'BTS' },
+        { type: 'photo-slot', label: 'Photo', src: 'project media/Heart and Soul Center/HAS CENTER.00_00_00_27.Still001.jpg' },
+        { type: 'photo-slot', label: 'Photo', src: 'project media/Heart and Soul Center/HAS CENTER.00_00_22_47.Still002.jpg' },
+        { type: 'photo-slot', label: 'Photo', src: 'project media/Heart and Soul Center/HAS CENTER.00_00_43_12.Still003.jpg' },
+        { type: 'video-slot', label: 'PRVBLEMS', src: 'project media/Heart and Soul Center/Image Village 2023 - PRVBLEMS.mp4' },
+        { type: 'video-slot', label: 'Recording Studio', src: 'project media/Heart and Soul Center/Has Center - Recording Studio.mp4' },
+        { type: 'video-slot', label: 'Rehearsal', src: 'project media/Heart and Soul Center/C0021-HD 720p.mp4' },
+        { type: 'video-slot', label: 'Choir Rehearsal', src: 'project media/Heart and Soul Center/06 - The Name Game - Choir Rehearsal.mp4' },
       ],
     },
   },
