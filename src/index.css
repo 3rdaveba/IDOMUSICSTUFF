@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-void: #141210;
+    --bg-surface: #1C1917;
+    --bg-surface-elevated: #262320;
+    --text-primary: #FAF6F1;
+    --text-secondary: #9C948A;
+    --text-tertiary: #6B6560;
+    --accent-amber: #C4956A;
+    --accent-amber-light: #D4A97A;
+    --accent-red: #C45B4A;
+    --border-color: #38322D;
+    --content-max-width: 1280px;
+    --section-padding-y: 120px;
+    --grid-gap: 48px;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-void);
+    color: var(--text-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  * {
+    @apply border-[var(--border-color)];
+  }
+
+  ::selection {
+    background-color: var(--accent-amber);
+    color: var(--bg-void);
+  }
+}
+
+@layer components {
+  .font-display {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .font-body {
+    font-family: 'Inter', sans-serif;
+  }
+
+  .text-eyebrow {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--text-tertiary);
+  }
+
+  .text-nav {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+}
+
+@layer utilities {
+  .content-container {
+    max-width: var(--content-max-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  @media (min-width: 768px) {
+    .content-container {
+      padding-left: 48px;
+      padding-right: 48px;
+    }
+  }
+}
