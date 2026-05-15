@@ -26,7 +26,7 @@ export default function ProjectCard({
       onClick={() => navigate(`/project/${projectId}`)}
     >
       {/* Image container */}
-      <div className="relative overflow-hidden rounded" style={{ aspectRatio: '16/10' }}>
+      <div className="relative overflow-hidden rounded" style={{ aspectRatio: '1/1' }}>
         <img
           src={image}
           alt={title}

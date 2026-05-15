@@ -58,8 +58,8 @@ export default function TVFilmSection() {
       id="tv-film"
       style={{
         backgroundColor: 'var(--bg-void)',
-        paddingTop: 'var(--section-padding-y)',
-        paddingBottom: 'var(--section-padding-y)',
+        paddingTop: '60px',
+        paddingBottom: '60px',
       }}
     >
       <div className="content-container">

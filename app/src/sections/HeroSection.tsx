@@ -9,7 +9,6 @@ export default function HeroSection() {
   const eyebrowRef = useRef<HTMLParagraphElement>(null)
   const name1Ref = useRef<HTMLHeadingElement>(null)
   const name2Ref = useRef<HTMLHeadingElement>(null)
-  const subtitleRef = useRef<HTMLParagraphElement>(null)
   const scrollCueRef = useRef<HTMLDivElement>(null)
   const dotRef = useRef<HTMLDivElement>(null)
 
@@ -35,12 +34,6 @@ export default function HeroSection() {
       duration: 1.0,
       ease: 'power3.out',
     }, 0.8)
-    tl.to(subtitleRef.current, {
-      opacity: 1,
-      y: 0,
-      duration: 0.8,
-      ease: 'power3.out',
-    }, 1.2)
     tl.to(scrollCueRef.current, {
       opacity: 1,
       duration: 0.6,
@@ -101,7 +94,7 @@ export default function HeroSection() {
             transform: 'translateY(-20px)',
           }}
         >
-          GRAMMY&reg; NOMINATED VOCAL PRODUCER &middot; CREATIVE SYSTEMS ARCHITECT &middot; LOS ANGELES
+          GRAMMY&reg; AWARD-WINNING VOCAL PRODUCER &middot; LOS ANGELES
         </p>
 
         {/* Name */}
@@ -125,21 +118,11 @@ export default function HeroSection() {
             className="block opacity-0"
             style={{ transform: 'translateY(40px)' }}
           >
-            B.A. WASHINGTON
+            &quot;B.A.&quot; WASHINGTON
           </span>
         </h1>
 
-        {/* Subtitle */}
-        <p
-          ref={subtitleRef}
-          className="mt-8 text-lg md:text-xl font-light opacity-0"
-          style={{
-            color: 'var(--text-secondary)',
-            transform: 'translateY(20px)',
-          }}
-        >
-          Creative Systems Architect
-        </p>
+
       </div>
 
       {/* Scroll Cue */}

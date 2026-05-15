@@ -37,7 +37,7 @@ export default function Footer({ showCTA = true }: FooterProps) {
           style={{ borderTop: '1px solid var(--border-color)' }}
         >
           <span className="text-eyebrow" style={{ color: 'var(--text-tertiary)' }}>
-            &copy; 2025 William &quot;B.A.&quot; Washington
+            &copy; 2026 Epiphany Music Group
           </span>
           <span className="text-eyebrow mt-2 sm:mt-0" style={{ color: 'var(--text-tertiary)' }}>
             Los Angeles, CA

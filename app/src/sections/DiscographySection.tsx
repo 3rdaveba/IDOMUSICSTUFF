@@ -53,7 +53,7 @@ export default function DiscographySection() {
       id="discography"
       style={{
         backgroundColor: 'var(--bg-void)',
-        paddingTop: 'var(--section-padding-y)',
+        paddingTop: '60px',
         paddingBottom: 'var(--section-padding-y)',
       }}
     >

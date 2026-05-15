@@ -45,7 +45,7 @@ export default function WorkSection() {
         zIndex: 1,
         minHeight: '100vh',
         paddingTop: 'var(--section-padding-y)',
-        paddingBottom: 'var(--section-padding-y)',
+        paddingBottom: '60px',
       }}
     >
       <div className="content-container">

@@ -117,7 +117,7 @@ export default function AboutSection() {
 
             <p
               ref={sigRef}
-              className="mt-8 text-base italic leading-relaxed"
+              className="mt-8 text-lg md:text-xl font-light leading-relaxed"
               style={{ color: 'var(--text-secondary)' }}
             >
               I look forward to the opportunity to work with you in the future!
