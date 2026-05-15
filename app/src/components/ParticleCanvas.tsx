@@ -171,7 +171,7 @@ export default function ParticleCanvas() {
         uTime: { value: 0.0 },
         uMouse: { value: new THREE.Vector2(0.0, 0.0) },
         uPixelRatio: { value: Math.min(window.devicePixelRatio, 2) },
-        uParticleScale: { value: 2.5 },
+        uParticleScale: { value: 3.75 },
       },
       blending: THREE.AdditiveBlending,
       depthTest: false,

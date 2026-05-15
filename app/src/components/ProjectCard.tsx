@@ -17,7 +17,6 @@ export default function ProjectCard({
   image,
   projectId,
   category = 'music',
-  status = 'complete',
 }: ProjectCardProps) {
   const navigate = useNavigate()
 
@@ -35,18 +34,7 @@ export default function ProjectCard({
           style={{ transitionDuration: '400ms' }}
           loading="lazy"
         />
-        {/* Status indicator */}
-        <div className="absolute top-3 right-3 flex items-center gap-1.5 px-2 py-1 rounded-md" style={{ backgroundColor: 'rgba(10, 9, 8, 0.7)' }}>
-          <span
-            className="inline-block w-1.5 h-1.5 rounded-full"
-            style={{
-              backgroundColor: status === 'active' ? '#1D9E75' : 'var(--text-tertiary)',
-            }}
-          />
-          <span className="text-[10px] font-medium uppercase tracking-wider" style={{ color: 'var(--text-primary)' }}>
-            {status === 'active' ? 'Active' : 'Complete'}
-          </span>
-        </div>
+
       </div>
 
       {/* Meta */}

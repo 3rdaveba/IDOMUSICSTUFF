@@ -95,8 +95,8 @@ export default function AboutSection() {
               Hi! My name is{' '}
               <span style={{ color: 'var(--accent-amber)' }}>William</span>{' '}
               and I&apos;m a{' '}
-              <span style={{ color: 'var(--accent-amber)' }}>GRAMMY&reg; Award-nominated</span>{' '}
-              <em>vocal producer, educator,</em> and <em>music technologist.</em>
+              <span style={{ color: 'var(--accent-amber)' }}>GRAMMY&reg; Award-winning</span>{' '}
+              vocal producer, music technologist, and creative systems architect.
             </h2>
 
             <p
@@ -109,7 +109,7 @@ export default function AboutSection() {
 
             <p
               ref={bio2Ref}
-              className="mt-4 text-base leading-relaxed"
+              className="mt-4 text-lg md:text-xl font-light leading-relaxed"
               style={{ color: 'var(--text-secondary)' }}
             >
               This site is designed to give you insight into my passion for creating impactful experiences, my creative thought process, and a look at some of the projects I&apos;ve been a part of from behind the scenes.
@@ -122,7 +122,7 @@ export default function AboutSection() {
             >
               I look forward to the opportunity to work with you in the future!
               <br />
-              &mdash; William B.A. Washington
+              &mdash; William &quot;B.A.&quot; Washington
             </p>
           </div>
         </div>
