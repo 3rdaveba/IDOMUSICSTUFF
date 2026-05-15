@@ -49,7 +49,7 @@ export default function ProjectCard({
             color: 'var(--accent-amber)',
           }}
         >
-          {category === 'music' ? 'Music & Education' : 'Systems & Technology'}
+          {category === 'music' ? (projectId === 'lmu-gospel-choir' ? 'Music & Education' : 'Music & Production') : 'Systems & Technology'}
         </span>
       </div>
       <h3
