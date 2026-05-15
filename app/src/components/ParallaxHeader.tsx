@@ -56,7 +56,7 @@ export default function ParallaxHeader({
   }, [triggerSelector])
 
   return (
-    <div ref={containerRef} className="overflow-hidden select-none">
+    <div ref={containerRef} className="select-none">
       <div
         ref={line1Ref}
         className="font-display font-bold whitespace-nowrap leading-[0.9]"
