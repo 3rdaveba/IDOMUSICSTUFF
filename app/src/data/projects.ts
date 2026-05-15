@@ -249,7 +249,7 @@ export const projects: Project[] = [
     role: 'Adjunct Professor / Gospel Choir Director',
     status: 'complete',
     heroImage: 'images/project-lmu-gospel-choir.jpg',
-    description: 'Directed the LMU Gospel Choir, housed in the Department of African American Studies, through semester-long cycles of recruitment, rehearsal, and performance. Assumed the role upon recommendation from the previous director and managed all aspects of production including graphic design for promotional materials, hiring session musicians, negotiating departmental budgets, and collaborating with alumni vocalists for end-of-semester concerts.',
+    description: 'Directed the LMU Gospel Choir, leading semester-long cycles of recruitment, rehearsal, and performance. Managed vocal coaching, promotional design, musician hiring, budget negotiation, and alumni collaborations.',
     dmaic: {
       D: { label: 'Define', text: 'Sustain and direct the LMU Gospel Choir within the Department of African American Studies, focusing on student vocal development, culturally informed performance, and successful end-of-semester concerts each term across all four course levels.' },
       M: { label: 'Measure', text: 'Student enrollment and retention across non-audition course levels, performance quality, vocal growth across the semester, successful execution of end-of-semester concerts, and community engagement.' },
