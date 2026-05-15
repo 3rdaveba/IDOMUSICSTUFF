@@ -26,7 +26,7 @@ export const films: Film[] = [
     role: 'Featured Vocalist — Original Motion Picture Soundtrack',
     recognition: 'GRAMMY® Award Winner',
     description:
-      'Featured vocalist on the original motion picture soundtrack for Ryan Coogler\'s Sinners. Contributed vocal performances that anchored key emotional moments in the film. The soundtrack received a GRAMMY® Award, marking my first win as a credited artist.',
+      'Sinners is a 2025 film written and directed by Ryan Coogler, starring Michael B. Jordan, Hailee Steinfeld, and Jack O\'Connell. Set in 1932 Mississippi, the story follows twin brothers who return home to find their town haunted by supernatural forces. I am a member of The DC6 Singers Collective, a vocal ensemble that contributed to the film\'s original motion picture soundtrack. Our performances anchored key emotional moments throughout the film. The soundtrack went on to win a GRAMMY® Award, marking my first win as a credited artist.',
     image: 'images/film-sinners.jpg',
   },
   {
