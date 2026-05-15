@@ -22,6 +22,7 @@ export interface Project {
   role: string
   status: 'active' | 'complete'
   heroImage: string
+  heroVideo?: string
   description: string
   dmaic: {
     D: DMAICStep
@@ -76,6 +77,7 @@ export const projects: Project[] = [
     role: 'Vocal Producer & Audio Engineer',
     status: 'complete',
     heroImage: 'images/project-calby.jpg',
+    heroVideo: 'project media/Calby \u2014 Inner Critic\'s Choice Awards/CALBY PROJECT BANNER VIDEO.mp4',
     description: 'Capturing voices and stunning visuals to be used for artist archival and future marketing campaigns.',
     dmaic: {
       D: { label: 'Define', text: 'Capture high-quality audio and visual content for long-term artist archival and future marketing use on behalf of Sony Music Denmark.' },

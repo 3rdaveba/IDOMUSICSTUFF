@@ -96,7 +96,18 @@ export default function ProjectDetail() {
 
       {/* ===== HERO ===== */}
       <div ref={heroRef} className="relative w-full overflow-hidden" style={{ height: 'clamp(260px, 38vh, 420px)' }}>
-        <img src={project.heroImage} alt={project.title} className="w-full h-full object-cover" />
+        {project.heroVideo ? (
+          <video
+            src={project.heroVideo}
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="w-full h-full object-cover"
+          />
+        ) : (
+          <img src={project.heroImage} alt={project.title} className="w-full h-full object-cover" />
+        )}
         <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(10,9,8,0.2) 0%, rgba(10,9,8,0.85) 100%)' }} />
 
         {/* Breadcrumb navigation */}
