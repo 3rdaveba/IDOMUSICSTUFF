@@ -51,7 +51,10 @@ export const discography: DiscographyEntry[] = [
     role: 'Performer',
     type: 'single',
     image: 'images/discography/sinners-rocky-road-to-dublin.jpg',
-    links: {},
+    links: {
+      spotify: 'https://open.spotify.com/track/1esmJ8t2PRbYt2yMx2aSEW?si=81585929586f4d9b',
+      apple: 'https://geo.music.apple.com/us/album/_/1808534010?i=1808534203&mt=1&app=music&ls=1',
+    },
     stats: {
       spotifyStreams: 35.4,
       youtubeViews: 11100,
