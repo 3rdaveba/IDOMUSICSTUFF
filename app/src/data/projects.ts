@@ -282,7 +282,12 @@ export const projects: Project[] = [
       items: [
         { type: 'photo-slot', label: 'Photo', src: 'project media/LMU Gospel Choir/lmu gospel choir_edited.jpg' },
         { type: 'photo-slot', label: 'Photo', src: 'project media/LMU Gospel Choir/LMU GOSPEL CHOIR.00_19_42_31.Still010.jpg' },
+        { type: 'photo-slot', label: 'Photo', src: 'project media/LMU Gospel Choir/IMG_9187.jpeg' },
+        { type: 'photo-slot', label: 'Photo', src: 'project media/LMU Gospel Choir/IMG_9596.JPG' },
+        { type: 'photo-slot', label: 'Photo', src: 'project media/LMU Gospel Choir/IMG_9721.jpeg' },
         { type: 'video-slot', label: 'Interlude', src: 'project media/LMU Gospel Choir/LMU GOSPEL CHOIR interlude video.mp4' },
+        { type: 'video-slot', label: 'Rehearsal', src: 'project media/LMU Gospel Choir/I get to spend Monday Nights working with some awesome students and we all get to spend our rehe.mp4' },
+        { type: 'video-slot', label: 'Sunday Service', src: 'project media/LMU Gospel Choir/If Waves and Man in the Mirror were Sunday Service songs (Private).mp4' },
       ],
     },
   },
