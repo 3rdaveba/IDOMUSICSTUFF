@@ -63,7 +63,7 @@ export const artistWork: ArtistWorkEntry[] = [
     year: 2023,
     category: 'release',
     subcategory: 'feature',
-    image: 'images/placeholder-cover.jpg',
+    image: 'https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0210528bc05892cdc7b60d1126',
     links: {
       spotify: 'https://open.spotify.com/track/5AC3jJ4aFDWXrTRVm3XKdh',
       tidal: 'https://listen.tidal.com/track/360223419',
@@ -77,7 +77,7 @@ export const artistWork: ArtistWorkEntry[] = [
     year: 2025,
     category: 'release',
     subcategory: 'feature',
-    image: 'images/placeholder-cover.jpg',
+    image: 'https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b9f8c80a195a9874616f803e',
     links: {
       spotify: 'https://open.spotify.com/track/3ba4kKQbDim0DQCDXx3Uwi?si=b7e66356770e487d',
       apple: 'https://music.apple.com/us/album/one-of-a-kind-feat-b-a-single/1799988815',
