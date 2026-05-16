@@ -38,37 +38,18 @@ export const artistWorkCategories = [
 ] as const
 
 export const artistWork: ArtistWorkEntry[] = [
-  // ─── SOLO RELEASES ───
   {
-    id: 'ba-born-again-album',
-    title: 'Born Again',
-    subtitle: 'Album',
-    year: 2016,
-    category: 'release',
-    subcategory: 'solo',
-    image: 'https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0208d93e8c86262b85a6729c28',
+    id: 'ba-freestyle-therealasethic',
+    title: 'Freestyle',
+    subtitle: 'with @therealasethic',
+    year: 2026,
+    category: 'social',
+    subcategory: 'collaboration',
+    image: 'https://img.youtube.com/vi/Aj1vCcyG8q4/maxresdefault.jpg',
     links: {
-      spotify: 'https://open.spotify.com/album/4VAMEGhdJrBYyqyDxYn0jp',
-      apple: 'https://music.apple.com/us/album/born-again/1140026373',
-      tidal: 'https://listen.tidal.com/album/63599285',
+      youtube: 'https://youtube.com/shorts/Aj1vCcyG8q4',
     },
-    description: 'Debut album. Music written, produced and performed by William "B.A." Washington.',
-  },
-
-  // ─── FEATURES ───
-  {
-    id: 'ba-we-get-the-party-started',
-    title: 'We Get The Party Started',
-    subtitle: 'CherryNL — feat. B.A.',
-    year: 2023,
-    category: 'release',
-    subcategory: 'feature',
-    image: 'https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0210528bc05892cdc7b60d1126',
-    links: {
-      spotify: 'https://open.spotify.com/track/5AC3jJ4aFDWXrTRVm3XKdh',
-      tidal: 'https://listen.tidal.com/track/360223419',
-    },
-    description: 'Feature credit. Streaming on Spotify and Tidal.',
+    description: 'Freestyle verse over production by @therealasethic.',
   },
   {
     id: 'ba-one-of-a-kind',
@@ -85,18 +66,69 @@ export const artistWork: ArtistWorkEntry[] = [
     },
     description: 'Feature credit. Streaming on Spotify, Apple Music, and Tidal.',
   },
-
-  // ─── MUSIC VIDEOS ───
   {
-    id: 'ba-54-17-mv',
-    title: '54:17',
+    id: 'ba-joker-open-verse',
+    title: 'Joker Open Verse',
+    subtitle: 'with @Dax',
+    year: 2023,
+    category: 'social',
+    subcategory: 'collaboration',
+    image: 'https://img.youtube.com/vi/6uZz2-R64Qc/maxresdefault.jpg',
+    links: {
+      youtube: 'https://youtube.com/shorts/6uZz2-R64Qc',
+    },
+    description: 'Had fun getting into character for this one 😈.',
+  },
+  {
+    id: 'ba-we-get-the-party-started',
+    title: 'We Get The Party Started',
+    subtitle: 'CherryNL — feat. B.A.',
+    year: 2023,
+    category: 'release',
+    subcategory: 'feature',
+    image: 'https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0210528bc05892cdc7b60d1126',
+    links: {
+      spotify: 'https://open.spotify.com/track/5AC3jJ4aFDWXrTRVm3XKdh',
+      tidal: 'https://listen.tidal.com/track/360223419',
+    },
+    description: 'Feature credit. Streaming on Spotify and Tidal.',
+  },
+  {
+    id: 'ba-grinch-flow-valentinbeatz',
+    title: 'Grinch Flow',
+    subtitle: 'with @valentinbeatz',
+    year: 2022,
+    category: 'social',
+    subcategory: 'collaboration',
+    image: 'https://img.youtube.com/vi/UEx_Y9SCUCE/maxresdefault.jpg',
+    links: {
+      youtube: 'https://youtube.com/shorts/UEx_Y9SCUCE',
+    },
+    description: 'Christmas Grinch flow over production by @valentinbeatz.',
+  },
+  {
+    id: 'ba-where-would-i-be-mv',
+    title: 'Where Would I Be?',
     subtitle: 'Official Music Video',
-    year: 2016,
+    year: 2020,
     category: 'video',
     subcategory: 'music-video',
-    image: 'https://img.youtube.com/vi/gDux9KLzWzU/maxresdefault.jpg',
+    image: 'https://img.youtube.com/vi/ApQ2lEBVUbc/maxresdefault.jpg',
     links: {
-      youtube: 'https://youtu.be/gDux9KLzWzU',
+      youtube: 'https://youtu.be/ApQ2lEBVUbc',
+    },
+    description: 'From the album "Born Again". Music written, produced and performed by William "B.A." Washington.',
+  },
+  {
+    id: 'ba-glow-lv',
+    title: 'Glow',
+    subtitle: 'Official Lyric Video',
+    year: 2020,
+    category: 'video',
+    subcategory: 'lyric-video',
+    image: 'https://img.youtube.com/vi/98iblEJBjSs/maxresdefault.jpg',
+    links: {
+      youtube: 'https://youtu.be/4gnRFbj9-dw',
     },
     description: 'From the album "Born Again". Music written, produced and performed by William "B.A." Washington.',
   },
@@ -114,72 +146,31 @@ export const artistWork: ArtistWorkEntry[] = [
     description: 'From the album "Born Again". Music written, produced and performed by William "B.A." Washington.',
   },
   {
-    id: 'ba-where-would-i-be-mv',
-    title: 'Where Would I Be?',
+    id: 'ba-born-again-album',
+    title: 'Born Again',
+    subtitle: 'Album',
+    year: 2016,
+    category: 'release',
+    subcategory: 'solo',
+    image: 'https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0208d93e8c86262b85a6729c28',
+    links: {
+      spotify: 'https://open.spotify.com/album/4VAMEGhdJrBYyqyDxYn0jp',
+      apple: 'https://music.apple.com/us/album/born-again/1140026373',
+      tidal: 'https://listen.tidal.com/album/63599285',
+    },
+    description: 'Debut album. Music written, produced and performed by William "B.A." Washington.',
+  },
+  {
+    id: 'ba-54-17-mv',
+    title: '54:17',
     subtitle: 'Official Music Video',
-    year: 2020,
+    year: 2016,
     category: 'video',
     subcategory: 'music-video',
-    image: 'https://img.youtube.com/vi/ApQ2lEBVUbc/maxresdefault.jpg',
+    image: 'https://img.youtube.com/vi/gDux9KLzWzU/maxresdefault.jpg',
     links: {
-      youtube: 'https://youtu.be/ApQ2lEBVUbc',
+      youtube: 'https://youtu.be/gDux9KLzWzU',
     },
     description: 'From the album "Born Again". Music written, produced and performed by William "B.A." Washington.',
-  },
-
-  // ─── LYRIC VIDEOS ───
-  {
-    id: 'ba-glow-lv',
-    title: 'Glow',
-    subtitle: 'Official Lyric Video',
-    year: 2020,
-    category: 'video',
-    subcategory: 'lyric-video',
-    image: 'https://img.youtube.com/vi/98iblEJBjSs/maxresdefault.jpg',
-    links: {
-      youtube: 'https://youtu.be/4gnRFbj9-dw',
-    },
-    description: 'From the album "Born Again". Music written, produced and performed by William "B.A." Washington.',
-  },
-
-  // ─── SOCIAL COLLABORATIONS ───
-  {
-    id: 'ba-grinch-flow-valentinbeatz',
-    title: 'Grinch Flow',
-    subtitle: 'with @valentinbeatz',
-    year: 2022,
-    category: 'social',
-    subcategory: 'collaboration',
-    image: 'https://img.youtube.com/vi/UEx_Y9SCUCE/maxresdefault.jpg',
-    links: {
-      youtube: 'https://youtube.com/shorts/UEx_Y9SCUCE',
-    },
-    description: 'Christmas Grinch flow over production by @valentinbeatz.',
-  },
-  {
-    id: 'ba-freestyle-therealasethic',
-    title: 'Freestyle',
-    subtitle: 'with @therealasethic',
-    year: 2026,
-    category: 'social',
-    subcategory: 'collaboration',
-    image: 'https://img.youtube.com/vi/Aj1vCcyG8q4/maxresdefault.jpg',
-    links: {
-      youtube: 'https://youtube.com/shorts/Aj1vCcyG8q4',
-    },
-    description: 'Freestyle verse over production by @therealasethic.',
-  },
-  {
-    id: 'ba-joker-open-verse',
-    title: 'Joker Open Verse',
-    subtitle: 'with @Dax',
-    year: 2023,
-    category: 'social',
-    subcategory: 'collaboration',
-    image: 'https://img.youtube.com/vi/6uZz2-R64Qc/maxresdefault.jpg',
-    links: {
-      youtube: 'https://youtube.com/shorts/6uZz2-R64Qc',
-    },
-    description: 'Had fun getting into character for this one 😈.',
   },
 ]
