@@ -40,8 +40,20 @@ export const films: Film[] = [
     image: 'images/film-sinners.jpg',
     streaming: [
       {
+        platform: 'Spotify',
+        url: 'https://open.spotify.com/album/0zjAqh1Fr7XQWy1SlzGhMn',
+      },
+      {
         platform: 'Apple Music',
         url: 'https://music.apple.com/us/album/sinners-original-motion-picture-soundtrack/1808534010',
+      },
+      {
+        platform: 'Pandora',
+        url: 'https://www.pandora.com/artist/sinners-movie/sinners-original-motion-picture-soundtrack/ALX2n574lwX4hn6',
+      },
+      {
+        platform: 'TIDAL',
+        url: 'https://listen.tidal.com/album/430131352',
       },
     ],
     details: [
@@ -51,7 +63,7 @@ export const films: Film[] = [
       },
       {
         heading: 'The Music',
-        text: 'I performed as a member of The DC6 Singers Collective, a Los Angeles-based vocal ensemble led by Ayo Awosika and Sha\'Leah Nikole. Our collective — alongside fellow members Aretha Scruggs, Tia Simone, Eric "ELYN" Lyn, David Saul Lee, Jared Jenkins, and Ronnie O\'Hannon — contributed featured vocals to the film\'s soundtrack, most notably on "This Little Light of Mine" alongside Miles Caton and the Pleasant Valley Youth Choir of New Orleans. The soundtrack was executive produced by Ludwig Göransson, Ryan Coogler, and Serena Göransson, and released digitally on April 18, 2025 through Sony Masterworks.',
+        text: 'I performed as a member of The DC6 Singers Collective, a Los Angeles-based vocal ensemble - alongside fellow members who contributed featured vocals to the film\'s soundtrack, most notably on "This Little Light of Mine" alongside Miles Caton and the Pleasant Valley Youth Choir of New Orleans. The soundtrack was executive produced by Ludwig Goransson, Ryan Coogler, and Serena Goransson, and released digitally on April 18, 2025 through Sony Masterworks.',
       },
       {
         heading: 'Recognition',
