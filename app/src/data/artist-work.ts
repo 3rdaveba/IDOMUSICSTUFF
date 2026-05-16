@@ -54,21 +54,6 @@ export const artistWork: ArtistWorkEntry[] = [
     },
     description: 'Debut album. Music written, produced and performed by William "B.A." Washington.',
   },
-  {
-    id: 'ba-solo-1',
-    title: 'Solo Track Title',
-    subtitle: 'Single',
-    year: 2024,
-    category: 'release',
-    subcategory: 'solo',
-    image: 'images/placeholder-cover.jpg',
-    links: {
-      spotify: 'https://open.spotify.com',
-      apple: 'https://music.apple.com',
-      youtube: 'https://youtube.com',
-    },
-    description: 'Replace with your solo release. Add streaming links and artwork.',
-  },
 
   // ─── FEATURES ───
   {
@@ -99,20 +84,6 @@ export const artistWork: ArtistWorkEntry[] = [
       tidal: 'https://listen.tidal.com/track/421820687',
     },
     description: 'Feature credit. Streaming on Spotify, Apple Music, and Tidal.',
-  },
-  {
-    id: 'ba-feature-1',
-    title: 'Track Title',
-    subtitle: 'feat. B.A.',
-    year: 2024,
-    category: 'release',
-    subcategory: 'feature',
-    image: 'images/placeholder-cover.jpg',
-    links: {
-      spotify: 'https://open.spotify.com',
-      youtube: 'https://youtube.com',
-    },
-    description: 'Replace with a feature credit. Mention the primary artist and your contribution.',
   },
 
   // ─── MUSIC VIDEOS ───
@@ -155,19 +126,6 @@ export const artistWork: ArtistWorkEntry[] = [
     },
     description: 'From the album "Born Again". Music written, produced and performed by William "B.A." Washington.',
   },
-  {
-    id: 'ba-mv-1',
-    title: 'Music Video Title',
-    subtitle: 'Official Music Video',
-    year: 2024,
-    category: 'video',
-    subcategory: 'music-video',
-    image: 'images/placeholder-cover.jpg',
-    links: {
-      youtube: 'https://youtube.com',
-    },
-    description: 'Replace with a music video. Add a thumbnail or still frame.',
-  },
 
   // ─── LYRIC VIDEOS ───
   {
@@ -182,19 +140,6 @@ export const artistWork: ArtistWorkEntry[] = [
       youtube: 'https://youtu.be/4gnRFbj9-dw',
     },
     description: 'From the album "Born Again". Music written, produced and performed by William "B.A." Washington.',
-  },
-  {
-    id: 'ba-lv-1',
-    title: 'Lyric Video Title',
-    subtitle: 'Lyric Video',
-    year: 2024,
-    category: 'video',
-    subcategory: 'lyric-video',
-    image: 'images/placeholder-cover.jpg',
-    links: {
-      youtube: 'https://youtube.com',
-    },
-    description: 'Replace with a lyric video entry.',
   },
 
   // ─── SOCIAL COLLABORATIONS ───
@@ -236,18 +181,5 @@ export const artistWork: ArtistWorkEntry[] = [
       youtube: 'https://youtube.com/shorts/6uZz2-R64Qc',
     },
     description: 'Had fun getting into character for this one 😈.',
-  },
-  {
-    id: 'ba-social-1',
-    title: 'Collaboration Title',
-    subtitle: 'with @creator',
-    year: 2025,
-    category: 'social',
-    subcategory: 'collaboration',
-    image: 'images/placeholder-cover.jpg',
-    links: {
-      youtube: 'https://youtube.com',
-    },
-    description: 'Replace with a social media collaboration. Mention the platform, creator, and any traction.',
   },
 ]
