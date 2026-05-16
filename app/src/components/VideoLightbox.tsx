@@ -26,7 +26,7 @@ export default function VideoLightbox({ youtubeId, title, onClose }: VideoLightb
   return (
     <div
       className="fixed inset-0 z-50 flex items-center justify-center"
-      style={{ backgroundColor: 'rgba(10,9,8,0.92)' }}
+      style={{ backgroundColor: 'rgba(10,9,8,0.35)' }}
       onClick={onClose}
     >
       {/* Close button */}
