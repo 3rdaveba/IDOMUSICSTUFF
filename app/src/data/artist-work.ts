@@ -40,6 +40,21 @@ export const artistWorkCategories = [
 export const artistWork: ArtistWorkEntry[] = [
   // ─── SOLO RELEASES ───
   {
+    id: 'ba-born-again-album',
+    title: 'Born Again',
+    subtitle: 'Album',
+    year: 2020,
+    category: 'release',
+    subcategory: 'solo',
+    image: 'https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0208d93e8c86262b85a6729c28',
+    links: {
+      spotify: 'https://open.spotify.com/album/4VAMEGhdJrBYyqyDxYn0jp',
+      apple: 'https://music.apple.com/us/album/born-again/1140026373',
+      tidal: 'https://listen.tidal.com/album/63599285',
+    },
+    description: 'Debut album. Music written, produced and performed by William "B.A." Washington.',
+  },
+  {
     id: 'ba-solo-1',
     title: 'Solo Track Title',
     subtitle: 'Single',
