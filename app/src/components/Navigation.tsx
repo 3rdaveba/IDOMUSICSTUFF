@@ -3,6 +3,7 @@ import { useNavigate, useLocation } from 'react-router'
 import { lenisInstance } from '@/hooks/useLenis'
 
 const navLinks = [
+  { label: 'Home', href: '#home', type: 'hash' as const },
   { label: 'About', href: '#about', type: 'hash' as const },
   { label: 'Projects', href: '#work', type: 'hash' as const },
   { label: 'Film', href: '#tv-film', type: 'hash' as const },
@@ -69,10 +70,15 @@ export default function Navigation() {
       scrollToSection(href)
     } else {
       navigate('/')
-      if (lenisInstance) {
-        lenisInstance.scrollTo(0, { immediate: true })
-      }
-      setTimeout(() => scrollToSection(href), 200)
+      // Wait for React to mount the homepage, then scroll reliably
+      setTimeout(() => {
+        const id = href.replace('#', '')
+        const el = document.getElementById(id)
+        if (el) {
+          const top = el.getBoundingClientRect().top + window.scrollY - 64
+          window.scrollTo({ top, behavior: 'smooth' })
+        }
+      }, 400)
     }
   }
 
@@ -93,7 +99,7 @@ export default function Navigation() {
         <a
           href="#home"
           onClick={(e) => handleNavClick(e, '#home', 'hash')}
-          className="flex items-center gap-2.5 group"
+          className="flex items-center gap-2.5 group flex-shrink-0"
         >
           <svg width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -105,12 +111,24 @@ export default function Navigation() {
             />
           </svg>
           <span className="text-nav text-[var(--text-secondary)] hidden sm:inline">
-            WILLIAM "B.A." WASHINGTON
+            WILLIAM &quot;B.A.&quot; WASHINGTON
           </span>
         </a>
 
         {/* Nav Links */}
-        <div className="flex items-center gap-8">
+        <div
+          className="flex items-center gap-5 md:gap-8 overflow-x-auto"
+          style={{
+            scrollbarWidth: 'none',
+            msOverflowStyle: 'none',
+            WebkitOverflowScrolling: 'touch',
+          }}
+        >
+          <style>{`
+            div::-webkit-scrollbar {
+              display: none;
+            }
+          `}</style>
           {navLinks.map((link) => {
             const isActive =
               link.type === 'route'
@@ -121,7 +139,7 @@ export default function Navigation() {
                 key={link.href}
                 href={link.href}
                 onClick={(e) => handleNavClick(e, link.href, link.type)}
-                className="text-nav transition-colors duration-300 relative"
+                className="text-nav transition-colors duration-300 relative flex-shrink-0"
                 style={{
                   color: isActive
                     ? 'var(--text-primary)'
