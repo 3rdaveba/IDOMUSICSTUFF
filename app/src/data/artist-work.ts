@@ -144,7 +144,7 @@ export const artistWork: ArtistWorkEntry[] = [
   {
     id: 'ba-joker-open-verse',
     title: 'Joker Open Verse',
-    subtitle: '#comejoinmycircus',
+    subtitle: 'with @Dax',
     year: 2023,
     category: 'social',
     subcategory: 'collaboration',
@@ -152,7 +152,7 @@ export const artistWork: ArtistWorkEntry[] = [
     links: {
       youtube: 'https://youtube.com/shorts/6uZz2-R64Qc',
     },
-    description: 'Had fun getting into character for this 😈. Open verse collaboration.',
+    description: 'Had fun getting into character for this one 😈.',
   },
   {
     id: 'ba-social-1',
