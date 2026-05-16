@@ -59,7 +59,7 @@ export const artistWork: ArtistWorkEntry[] = [
   {
     id: 'ba-we-get-the-party-started',
     title: 'We Get The Party Started',
-    subtitle: 'feat. B.A.',
+    subtitle: 'CherryNL — feat. B.A.',
     year: 2023,
     category: 'release',
     subcategory: 'feature',
@@ -73,7 +73,7 @@ export const artistWork: ArtistWorkEntry[] = [
   {
     id: 'ba-one-of-a-kind',
     title: 'One of a Kind',
-    subtitle: 'feat. B.A.',
+    subtitle: 'Angelo Vivo — feat. B.A.',
     year: 2025,
     category: 'release',
     subcategory: 'feature',
