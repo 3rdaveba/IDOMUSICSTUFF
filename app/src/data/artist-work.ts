@@ -94,6 +94,19 @@ export const artistWork: ArtistWorkEntry[] = [
     description: 'Feature credit. Streaming on Spotify and Tidal.',
   },
   {
+    id: 'ba-rain-rain-remix',
+    title: 'Rain Rain, Go Away',
+    subtitle: '#remixthis',
+    year: 2022,
+    category: 'social',
+    subcategory: 'collaboration',
+    image: 'https://img.youtube.com/vi/T-krg-ocR4M/maxresdefault.jpg',
+    links: {
+      youtube: 'https://youtube.com/shorts/T-krg-ocR4M',
+    },
+    description: '🌧️ rain rain, go away…but different. ☔️',
+  },
+  {
     id: 'ba-grinch-flow-valentinbeatz',
     title: 'Grinch Flow',
     subtitle: 'with @valentinbeatz',
