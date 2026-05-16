@@ -18,7 +18,7 @@ export const artistProfile = {
     paragraphs: [
       'As B.A., I don\'t box myself into a single sound or formula. My foundation is in Christian Hip Hop and rap, but I write and create across whatever genre moves me in the moment — from melodic R&B textures to hard-hitting bars to global rhythms that push boundaries.',
       'My process always starts with the lyrics and concept. Once the idea is there, the production can come from anywhere — sometimes I build the beat myself, sometimes I collaborate with producers who catch the vision, and sometimes I find an instrumental that speaks to exactly what I\'m trying to say. Every song is its own world.',
-      'Since *Born Again* (2016), my sound has matured across every dimension — tighter production, more vulnerable writing, and a vocal delivery that\'s grown with experience. The Lost Files series and my recent singles show that evolution in real time. Whether it\'s a full album, a feature, or a 60-second short, the goal is the same: make something honest, something versatile, and something that moves people.',
+      'Whether it\'s a full album, a feature, or a 60-second short, the goal is the same: make something honest, something versatile, and something that moves people.',
     ],
   },
 
