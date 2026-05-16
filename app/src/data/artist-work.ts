@@ -137,6 +137,21 @@ export const artistWork: ArtistWorkEntry[] = [
     description: 'Music written, produced and performed by William "B.A." Washington.',
   },
   {
+    id: 'ba-lost-files-vol-3',
+    title: 'The Lost Files, Vol. 3',
+    subtitle: 'Album',
+    year: 2019,
+    category: 'release',
+    subcategory: 'solo',
+    image: 'https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0273d0bbb0d206a14473beb2ed',
+    links: {
+      spotify: 'https://open.spotify.com/album/6o1TP1LqobiUENXuMiORvz',
+      apple: 'https://music.apple.com/ca/album/the-lost-files-vol-3/1478959796',
+      tidal: 'https://listen.tidal.com/album/117076714',
+    },
+    description: 'Music written, produced and performed by William "B.A." Washington.',
+  },
+  {
     id: 'ba-where-would-i-be-mv',
     title: 'Where Would I Be?',
     subtitle: 'Official Music Video',
