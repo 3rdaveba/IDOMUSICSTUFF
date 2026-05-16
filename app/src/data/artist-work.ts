@@ -43,7 +43,7 @@ export const artistWork: ArtistWorkEntry[] = [
     id: 'ba-born-again-album',
     title: 'Born Again',
     subtitle: 'Album',
-    year: 2020,
+    year: 2016,
     category: 'release',
     subcategory: 'solo',
     image: 'https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0208d93e8c86262b85a6729c28',
