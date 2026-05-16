@@ -120,7 +120,7 @@ export const artistWork: ArtistWorkEntry[] = [
     year: 2020,
     category: 'video',
     subcategory: 'lyric-video',
-    image: 'https://img.youtube.com/vi/4gnRFbj9-dw/maxresdefault.jpg',
+    image: 'https://img.youtube.com/vi/98iblEJBjSs/maxresdefault.jpg',
     links: {
       youtube: 'https://youtu.be/4gnRFbj9-dw',
     },
