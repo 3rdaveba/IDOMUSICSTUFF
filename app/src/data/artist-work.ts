@@ -60,7 +60,7 @@ export const artistWork: ArtistWorkEntry[] = [
     id: 'ba-we-get-the-party-started',
     title: 'We Get The Party Started',
     subtitle: 'feat. B.A.',
-    year: 2024,
+    year: 2023,
     category: 'release',
     subcategory: 'feature',
     image: 'images/placeholder-cover.jpg',
