@@ -63,7 +63,7 @@ export const films: Film[] = [
       },
       {
         heading: 'The Music',
-        text: 'I performed as a member of The DC6 Singers Collective, a Los Angeles-based vocal ensemble - alongside fellow members who contributed featured vocals to the film\'s soundtrack, most notably on "This Little Light of Mine" alongside Miles Caton and the Pleasant Valley Youth Choir of New Orleans. The soundtrack was executive produced by Ludwig Goransson, Ryan Coogler, and Serena Goransson, and released digitally on April 18, 2025 through Sony Masterworks.',
+        text: 'I performed as a member of The DC6 Singers Collective, a Los Angeles-based vocal ensemble - alongside fellow members who contributed featured vocals to the film\'s soundtrack, most notably on "This Little Light of Mine" alongside Miles Caton and the Pleasant Valley Youth Choir of New Orleans. The soundtrack was executive produced by Ludwig Göransson, Ryan Coogler, and Serena Göransson, and released digitally on April 18, 2025 through Sony Masterworks.',
       },
       {
         heading: 'Recognition',
