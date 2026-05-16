@@ -154,6 +154,19 @@ export const artistWork: ArtistWorkEntry[] = [
 
   // ─── SOCIAL COLLABORATIONS ───
   {
+    id: 'ba-grinch-flow-valentinbeatz',
+    title: 'Grinch Flow',
+    subtitle: 'with @valentinbeatz',
+    year: 2022,
+    category: 'social',
+    subcategory: 'collaboration',
+    image: 'https://img.youtube.com/vi/UEx_Y9SCUCE/maxresdefault.jpg',
+    links: {
+      youtube: 'https://youtube.com/shorts/UEx_Y9SCUCE',
+    },
+    description: 'Christmas Grinch flow over production by @valentinbeatz.',
+  },
+  {
     id: 'ba-freestyle-therealasethic',
     title: 'Freestyle',
     subtitle: 'with @therealasethic',
