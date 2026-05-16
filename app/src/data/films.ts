@@ -1,3 +1,8 @@
+export interface StreamingLink {
+  platform: string
+  url: string
+}
+
 export interface Film {
   id: string
   title: string
@@ -8,6 +13,11 @@ export interface Film {
   description: string
   image: string
   heroVideo?: string
+  streaming?: StreamingLink[]
+  details?: {
+    heading: string
+    text: string
+  }[]
   media?: {
     items: {
       type: 'photo' | 'video'
@@ -26,8 +36,28 @@ export const films: Film[] = [
     role: 'Featured Vocalist — Original Motion Picture Soundtrack',
     recognition: 'GRAMMY® Award Winner',
     description:
-      'Sinners is a 2025 film written and directed by Ryan Coogler, starring Michael B. Jordan, Hailee Steinfeld, and Jack O\'Connell. Set in 1932 Mississippi, the story follows twin brothers who return home to find their town haunted by supernatural forces. I am a member of The DC6 Singers Collective, a vocal ensemble that contributed to the film\'s original motion picture soundtrack. Our performances anchored key emotional moments throughout the film. The soundtrack went on to win a GRAMMY® Award, marking my first win as a credited artist.',
+      'Featured vocalist on the original motion picture soundtrack for Sinners, the 2025 Warner Bros. film written and directed by Ryan Coogler.',
     image: 'images/film-sinners.jpg',
+    streaming: [
+      {
+        platform: 'Apple Music',
+        url: 'https://music.apple.com/us/album/sinners-original-motion-picture-soundtrack/1808534010',
+      },
+    ],
+    details: [
+      {
+        heading: 'About the Film',
+        text: 'Sinners is a 2025 period thriller written and directed by Ryan Coogler, starring Michael B. Jordan, Hailee Steinfeld, and Jack O\'Connell. Set in 1932 Mississippi, the story follows twin brothers who return to their hometown and find it haunted by supernatural forces. The film blends Southern Gothic horror with deep blues and gospel musical traditions, using music as both narrative device and emotional anchor.',
+      },
+      {
+        heading: 'The Music',
+        text: 'I performed as a member of The DC6 Singers Collective, a Los Angeles-based vocal ensemble led by Ayo Awosika and Sha\'Leah Nikole. Our collective — alongside fellow members Aretha Scruggs, Tia Simone, Eric "ELYN" Lyn, David Saul Lee, Jared Jenkins, and Ronnie O\'Hannon — contributed featured vocals to the film\'s soundtrack, most notably on "This Little Light of Mine" alongside Miles Caton and the Pleasant Valley Youth Choir of New Orleans. The soundtrack was executive produced by Ludwig Göransson, Ryan Coogler, and Serena Göransson, and released digitally on April 18, 2025 through Sony Masterworks.',
+      },
+      {
+        heading: 'Recognition',
+        text: 'The Sinners Original Motion Picture Soundtrack received a GRAMMY® Award for Best Compilation Soundtrack for Visual Media at the 68th Annual Grammy Awards. The songs "I Lied to You," "Pale Pale Moon," and "Sinners" were also nominated for Best Song Written for Visual Media. This marked my first win as a credited featured artist on a GRAMMY-recognized release.',
+      },
+    ],
   },
   {
     id: 'kpops',

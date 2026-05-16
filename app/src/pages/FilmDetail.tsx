@@ -1,6 +1,6 @@
 import { useParams, useNavigate } from 'react-router'
 import { useState, useEffect, useRef } from 'react'
-import { ArrowLeft, ArrowRight, Film, Video, ChevronLeft, ChevronRight, X } from 'lucide-react'
+import { ArrowLeft, ArrowRight, Film, Video, ChevronLeft, ChevronRight, X, ExternalLink } from 'lucide-react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { getFilmById, getAdjacentFilms } from '@/data/films'
@@ -169,7 +169,7 @@ export default function FilmDetail() {
         </nav>
       </div>
 
-      {/* Title */}
+      {/* Title + Streaming */}
       <div className="content-container pt-10 pb-4">
         <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
           <div>
@@ -180,6 +180,30 @@ export default function FilmDetail() {
               {film.role}
             </p>
           </div>
+          {film.streaming && film.streaming.length > 0 && (
+            <div className="flex flex-wrap items-center gap-3 md:pt-2">
+              <span className="text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--text-tertiary)' }}>
+                Listen:
+              </span>
+              {film.streaming.map((link) => (
+                <a
+                  key={link.platform}
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-md transition-colors duration-200 hover:border-[var(--accent-amber)] hover:text-[var(--accent-amber)]"
+                  style={{
+                    backgroundColor: 'var(--bg-surface)',
+                    color: 'var(--text-secondary)',
+                    border: '1px solid var(--border-color)',
+                  }}
+                >
+                  {link.platform}
+                  <ExternalLink size={12} />
+                </a>
+              ))}
+            </div>
+          )}
         </div>
       </div>
 
@@ -207,10 +231,25 @@ export default function FilmDetail() {
       {/* Info + Media */}
       <div className="content-container mb-16 space-y-16">
         <div ref={infoRef} className="max-w-3xl">
-          <span className="text-eyebrow block mb-5" style={{ color: 'var(--text-tertiary)' }}>ABOUT THIS PROJECT</span>
-          <p className="text-base md:text-lg font-light leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-            {film.description}
-          </p>
+          {film.details && film.details.length > 0 ? (
+            <div className="space-y-10">
+              {film.details.map((detail, i) => (
+                <div key={i}>
+                  <span className="text-eyebrow block mb-4" style={{ color: 'var(--text-tertiary)' }}>{detail.heading.toUpperCase()}</span>
+                  <p className="text-base md:text-lg font-light leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+                    {detail.text}
+                  </p>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <>
+              <span className="text-eyebrow block mb-5" style={{ color: 'var(--text-tertiary)' }}>ABOUT THIS PROJECT</span>
+              <p className="text-base md:text-lg font-light leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+                {film.description}
+              </p>
+            </>
+          )}
         </div>
 
         {lightboxItems.length > 0 && (
