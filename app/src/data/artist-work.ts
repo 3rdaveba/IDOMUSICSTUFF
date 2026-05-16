@@ -180,6 +180,21 @@ export const artistWork: ArtistWorkEntry[] = [
     description: 'Music written, produced and performed by William "B.A." Washington.',
   },
   {
+    id: 'ba-glow-single',
+    title: 'Glow',
+    subtitle: 'Single',
+    year: 2020,
+    category: 'release',
+    subcategory: 'solo',
+    image: 'https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b79c4bde2a843862a147e3ef',
+    links: {
+      spotify: 'https://open.spotify.com/track/19ehOdDYBoZj6Ua3rOBSEZ',
+      apple: 'https://music.apple.com/ke/song/glow/1516028222',
+      tidal: 'https://listen.tidal.com/track/143209938',
+    },
+    description: 'Music written, produced and performed by William "B.A." Washington.',
+  },
+  {
     id: 'ba-the-last-supper',
     title: 'The Last Supper',
     subtitle: 'Single',
