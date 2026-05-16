@@ -79,8 +79,28 @@ export const films: Film[] = [
     role: 'Featured Actor & Onscreen Performer',
     recognition: 'Featured Film Performance',
     description:
-      'Acted and performed onscreen in K-Pops!, a film by Anderson .Paak. Brought both musical performance and screen presence to the project, bridging the worlds of film and music in a unique creative collaboration.',
+      'Featured actor and onscreen performer in K-Pops!, the directorial debut of Grammy-winning artist Anderson .Paak.',
     image: 'images/film-kpops.jpg',
+    streaming: [
+      {
+        platform: 'Apple Music',
+        url: 'https://music.apple.com/us/album/k-pops-music-from-and-inspired-by-k-pops-motion-picture/6768487478',
+      },
+    ],
+    details: [
+      {
+        heading: 'About the Film',
+        text: 'K-Pops! is the feature film directorial debut of nine-time Grammy Award winner Anderson .Paak, co-written with Khaila Amazan. The film stars .Paak as BJ, a washed-up musician who lands a gig with a house band in Seoul for a K-pop competition show called Wildcard. While working on the show, he discovers that one of the contestants — Tae Young, played by .Paak\'s real-life son Soul Rasheed — is the long-lost son he never knew he had. The cast includes Jee Young Han, Jonnie "Dumbfoundead" Park, Cathy Shim, Kevin Woo, and Yvette Nicole Brown. The film premiered at the Toronto International Film Festival in 2024, made its U.S. debut at Tribeca in 2025, and was released theatrically in February 2026 before streaming on Netflix.',
+      },
+      {
+        heading: 'My Role',
+        text: 'I appeared as a featured actor and onscreen performer, bringing both musical performance and screen presence to the project. Working on set alongside .Paak and a cast that blended K-pop stars, veteran actors, and musicians, I contributed to the film\'s unique fusion of film and live performance. The production was shot across Los Angeles, South Korea, and Saudi Arabia.',
+      },
+      {
+        heading: 'The Music',
+        text: 'The soundtrack is a seamless blend of Anderson .Paak\'s signature soul-funk sound with authentic K-pop production, shaped in collaboration with legendary producer Dem Jointz. The film features original songs and collaborations including "Keychain" with aespa, "Aftertaste" with DEAN, and contributions from NMIXX. Cameo appearances throughout the film include Vernon of Seventeen, Jessi, Jay Park, The Rose, IShowSpeed, Saweetie, Jaden Smith, Diplo, and Earth, Wind & Fire.',
+      },
+    ],
   },
 ]
 
