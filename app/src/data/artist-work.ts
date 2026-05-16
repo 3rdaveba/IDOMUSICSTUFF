@@ -180,6 +180,21 @@ export const artistWork: ArtistWorkEntry[] = [
     description: 'Music written, produced and performed by William "B.A." Washington.',
   },
   {
+    id: 'ba-money',
+    title: 'Money',
+    subtitle: 'Jae Anthonie — feat. B.A.',
+    year: 2020,
+    category: 'release',
+    subcategory: 'feature',
+    image: 'https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02360568a8b059da664430dfed',
+    links: {
+      spotify: 'https://open.spotify.com/track/1Cx94paclXGdniSyZKCo5l',
+      apple: 'https://music.apple.com/ke/song/money-feat-b-a/1504258952',
+      tidal: 'https://listen.tidal.com/track/135306148',
+    },
+    description: 'Feature credit. Streaming on Spotify, Apple Music, and Tidal.',
+  },
+  {
     id: 'ba-glow-single',
     title: 'Glow',
     subtitle: 'Single',
