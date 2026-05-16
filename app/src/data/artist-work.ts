@@ -96,7 +96,7 @@ export const artistWork: ArtistWorkEntry[] = [
   {
     id: 'ba-rain-rain-remix',
     title: 'Rain Rain, Go Away',
-    subtitle: '#remixthis',
+    subtitle: 'with @istormiweather',
     year: 2022,
     category: 'social',
     subcategory: 'collaboration',
