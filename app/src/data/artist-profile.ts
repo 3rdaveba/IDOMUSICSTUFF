@@ -14,7 +14,7 @@ export const artistProfile = {
 
   statement: {
     headline:
-      'I love music in every form it can possibly exist in.',
+      'I love music with every part of my soul.',
     paragraphs: [
       'As an artist, I don\'t box myself into a single sound or formula. I write and create across whatever genre moves me in the moment ... from melodic R&B textures to hard-hitting bars to global rhythms that push boundaries.',
       'My process is pretty random. I can be riding down the street and start beatboxing an idea for a track, or I could be inspired by something I see and start conceptualizing an idea around a theme that I want to start writing lyrics to. There are no hard and fast rules ... I just follow what I feel speaks to me at the moment. Every song is its own world.',
