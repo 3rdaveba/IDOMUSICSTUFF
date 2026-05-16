@@ -103,6 +103,20 @@ export const artistWork: ArtistWorkEntry[] = [
 
   // ─── SOCIAL COLLABORATIONS ───
   {
+    id: 'ba-joker-open-verse',
+    title: 'Joker Open Verse',
+    subtitle: '#comejoinmycircus',
+    year: 2023,
+    category: 'social',
+    subcategory: 'collaboration',
+    image: 'https://img.youtube.com/vi/6uZz2-R64Qc/maxresdefault.jpg',
+    links: {
+      youtube: 'https://youtube.com/shorts/6uZz2-R64Qc',
+      instagram: 'https://www.instagram.com/reel/CnCgO83owJw/',
+    },
+    description: 'Had fun getting into character for this 😈. Open verse collaboration.',
+  },
+  {
     id: 'ba-social-1',
     title: 'Collaboration Title',
     subtitle: 'with @creator',
