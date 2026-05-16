@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { Headphones, Youtube, Radio, Music, TrendingUp, Award } from 'lucide-react'
+import { Headphones, Youtube, Music, TrendingUp, Award } from 'lucide-react'
 import { discography, streamingStats } from '@/data/discography'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -90,12 +90,6 @@ export default function DiscographySection() {
             <Youtube size={13} style={{ color: 'var(--accent-amber)' }} />
             <span className="text-xs font-medium" style={{ color: 'var(--text-secondary)' }}>
               {(streamingStats.totalYoutubeViews / 1000).toFixed(1)}M YouTube
-            </span>
-          </div>
-          <div className="flex items-center gap-2">
-            <Radio size={13} style={{ color: 'var(--accent-amber)' }} />
-            <span className="text-xs font-medium" style={{ color: 'var(--text-secondary)' }}>
-              {streamingStats.totalAirplaySpins.toLocaleString()} airplay spins
             </span>
           </div>
           <div className="flex items-center gap-2">
@@ -195,14 +189,6 @@ export default function DiscographySection() {
                       : `${entry.stats.youtubeViews}K`} YouTube
                   </span>
                 </div>
-                {entry.stats.airplaySpins > 0 && (
-                  <div className="flex items-center gap-1.5">
-                    <Radio size={11} style={{ color: 'var(--text-tertiary)' }} />
-                    <span className="text-[11px]" style={{ color: 'var(--text-secondary)' }}>
-                      {entry.stats.airplaySpins.toLocaleString()} spins
-                    </span>
-                  </div>
-                )}
                 {entry.stats.tikTokViews > 0 && (
                   <div className="flex items-center gap-1.5">
                     <Music size={11} style={{ color: 'var(--text-tertiary)' }} />
@@ -235,7 +221,7 @@ export default function DiscographySection() {
 
         {/* Disclaimer */}
         <p className="text-[10px] mt-5" style={{ color: 'var(--text-tertiary)' }}>
-          * All streaming, airplay, and performance data sourced from Chartmetric.
+          * All streaming and performance data sourced from Chartmetric.
           Accurate as of {streamingStats.lastUpdated}.
           Spotify streams represent cumulative all-time totals.
         </p>
