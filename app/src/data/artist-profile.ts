@@ -16,8 +16,8 @@ export const artistProfile = {
     headline:
       'I love music in every form it can possibly exist in.',
     paragraphs: [
-      'As an artist, I don\'t box myself into a single sound or formula. I write and create across whatever genre moves me in the moment — from melodic R&B textures to hard-hitting bars to global rhythms that push boundaries.',
-      'My process is pretty random. I can be riding down the street and start beatboxing an idea for a track, or I could be inspired by something I see and start conceptualizing an idea around a theme that I want to start writing lyrics to. There are no hard and fast rules — I just follow what I feel speaks to me at the moment. Every song is its own world.',
+      'As an artist, I don\'t box myself into a single sound or formula. I write and create across whatever genre moves me in the moment ... from melodic R&B textures to hard-hitting bars to global rhythms that push boundaries.',
+      'My process is pretty random. I can be riding down the street and start beatboxing an idea for a track, or I could be inspired by something I see and start conceptualizing an idea around a theme that I want to start writing lyrics to. There are no hard and fast rules ... I just follow what I feel speaks to me at the moment. Every song is its own world.',
       'Whether it\'s a full album, a feature, or a 60-second short, the goal is the same: make something honest, something versatile, and something that moves people.',
     ],
   },
