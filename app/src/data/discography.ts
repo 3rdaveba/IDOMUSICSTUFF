@@ -48,7 +48,7 @@ export const discography: DiscographyEntry[] = [
     artist: 'Sinners',
     title: 'Rocky Road to Dublin',
     year: 2025,
-    role: 'Performer',
+    role: 'Featured Artist · DC6 Singers Collective',
     type: 'single',
     image: 'images/discography/sinners-rocky-road-to-dublin.jpg',
     links: {
@@ -70,7 +70,7 @@ export const discography: DiscographyEntry[] = [
     artist: 'Sinners',
     title: 'This Little Light of Mine',
     year: 2025,
-    role: 'Performer',
+    role: 'Featured Artist · DC6 Singers Collective',
     type: 'single',
     image: 'images/discography/sinners-rocky-road-to-dublin.jpg',
     links: {},
