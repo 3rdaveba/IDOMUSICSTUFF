@@ -52,7 +52,7 @@ export default function WorkSection() {
         {/* Parallax Header */}
         <ParallaxHeader
           line1="SELECTED"
-          line2="WORK"
+          line2="PROJECTS"
           triggerSelector="#work"
         />
 
