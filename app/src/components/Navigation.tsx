@@ -110,7 +110,7 @@ export default function Navigation() {
               strokeLinejoin="round"
             />
           </svg>
-          <span className="text-nav text-[var(--text-secondary)] hidden sm:inline">
+          <span className="text-nav hidden sm:inline" style={{ color: 'rgba(250, 246, 241, 0.7)' }}>
             WILLIAM &quot;B.A.&quot; WASHINGTON
           </span>
         </a>
@@ -142,8 +142,8 @@ export default function Navigation() {
                 className="text-nav transition-colors duration-300 relative flex-shrink-0"
                 style={{
                   color: isActive
-                    ? 'var(--text-primary)'
-                    : 'var(--text-secondary)',
+                    ? '#FAF6F1'
+                    : 'rgba(250, 246, 241, 0.65)',
                 }}
               >
                 {link.label}
