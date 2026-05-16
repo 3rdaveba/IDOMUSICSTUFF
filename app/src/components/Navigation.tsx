@@ -3,11 +3,12 @@ import { useNavigate, useLocation } from 'react-router'
 import { lenisInstance } from '@/hooks/useLenis'
 
 const navLinks = [
-  { label: 'About', href: '#about' },
-  { label: 'Work', href: '#work' },
-  { label: 'Film', href: '#tv-film' },
-  { label: 'Music', href: '#discography' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'About', href: '#about', type: 'hash' as const },
+  { label: 'Projects', href: '#work', type: 'hash' as const },
+  { label: 'Film', href: '#tv-film', type: 'hash' as const },
+  { label: 'Music', href: '#discography', type: 'hash' as const },
+  { label: 'Artist Work', href: '/artist-work', type: 'route' as const },
+  { label: 'Contact', href: '#contact', type: 'hash' as const },
 ]
 
 export default function Navigation() {
@@ -53,8 +54,17 @@ export default function Navigation() {
     }
   }
 
-  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+  const handleNavClick = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    href: string,
+    type: 'hash' | 'route'
+  ) => {
     e.preventDefault()
+    if (type === 'route') {
+      navigate(href)
+      return
+    }
+    // hash link
     if (isHome) {
       scrollToSection(href)
     } else {
@@ -82,7 +92,7 @@ export default function Navigation() {
         {/* Logo */}
         <a
           href="#home"
-          onClick={(e) => handleNavClick(e, '#home')}
+          onClick={(e) => handleNavClick(e, '#home', 'hash')}
           className="flex items-center gap-2.5 group"
         >
           <svg width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -101,27 +111,33 @@ export default function Navigation() {
 
         {/* Nav Links */}
         <div className="flex items-center gap-8">
-          {navLinks.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              onClick={(e) => handleNavClick(e, link.href)}
-              className="text-nav transition-colors duration-300 relative"
-              style={{
-                color: activeSection === link.href.slice(1)
-                  ? 'var(--text-primary)'
-                  : 'var(--text-secondary)',
-              }}
-            >
-              {link.label}
-              {activeSection === link.href.slice(1) && (
-                <span
-                  className="absolute -bottom-1 left-0 w-full h-0.5"
-                  style={{ backgroundColor: 'var(--accent-amber)' }}
-                />
-              )}
-            </a>
-          ))}
+          {navLinks.map((link) => {
+            const isActive =
+              link.type === 'route'
+                ? location.pathname === link.href
+                : isHome && activeSection === link.href.slice(1)
+            return (
+              <a
+                key={link.href}
+                href={link.href}
+                onClick={(e) => handleNavClick(e, link.href, link.type)}
+                className="text-nav transition-colors duration-300 relative"
+                style={{
+                  color: isActive
+                    ? 'var(--text-primary)'
+                    : 'var(--text-secondary)',
+                }}
+              >
+                {link.label}
+                {isActive && (
+                  <span
+                    className="absolute -bottom-1 left-0 w-full h-0.5"
+                    style={{ backgroundColor: 'var(--accent-amber)' }}
+                  />
+                )}
+              </a>
+            )
+          })}
         </div>
       </div>
     </nav>

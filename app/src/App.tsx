@@ -5,6 +5,7 @@ import CustomCursor from '@/components/CustomCursor'
 import HomePage from '@/pages/HomePage'
 import ProjectDetail from '@/pages/ProjectDetail'
 import FilmDetail from '@/pages/FilmDetail'
+import ArtistWorkPage from '@/pages/ArtistWorkPage'
 
 export default function App() {
   useLenis()
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/project/:id" element={<ProjectDetail />} />
         <Route path="/film/:id" element={<FilmDetail />} />
+        <Route path="/artist-work" element={<ArtistWorkPage />} />
       </Routes>
     </>
   )
