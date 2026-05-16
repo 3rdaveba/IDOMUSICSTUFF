@@ -60,6 +60,32 @@ export const artistWork: ArtistWorkEntry[] = [
 
   // ─── MUSIC VIDEOS ───
   {
+    id: 'ba-54-17-mv',
+    title: '54:17',
+    subtitle: 'Official Music Video',
+    year: 2016,
+    category: 'video',
+    subcategory: 'music-video',
+    image: 'https://img.youtube.com/vi/gDux9KLzWzU/maxresdefault.jpg',
+    links: {
+      youtube: 'https://youtu.be/gDux9KLzWzU',
+    },
+    description: 'From the debut album "Born Again".',
+  },
+  {
+    id: 'ba-he-set-me-free-mv',
+    title: 'He Set Me Free',
+    subtitle: 'Official Music Video',
+    year: 2017,
+    category: 'video',
+    subcategory: 'music-video',
+    image: 'https://img.youtube.com/vi/LywstQIMsp0/maxresdefault.jpg',
+    links: {
+      youtube: 'https://youtu.be/LywstQIMsp0',
+    },
+    description: 'Produced by KKO PRODUCTIONS. Directed by Alicia Raye, Kelby Joseph, and Chris Saballos.',
+  },
+  {
     id: 'ba-where-would-i-be-mv',
     title: 'Where Would I Be?',
     subtitle: 'Official Music Video',
@@ -87,6 +113,19 @@ export const artistWork: ArtistWorkEntry[] = [
   },
 
   // ─── LYRIC VIDEOS ───
+  {
+    id: 'ba-glow-lv',
+    title: 'Glow',
+    subtitle: 'Official Lyric Video',
+    year: 2020,
+    category: 'video',
+    subcategory: 'lyric-video',
+    image: 'https://img.youtube.com/vi/4gnRFbj9-dw/maxresdefault.jpg',
+    links: {
+      youtube: 'https://youtu.be/4gnRFbj9-dw',
+    },
+    description: 'From the album "Born Again".',
+  },
   {
     id: 'ba-lv-1',
     title: 'Lyric Video Title',
