@@ -14,11 +14,11 @@ export const artistProfile = {
 
   statement: {
     headline:
-      'I don\'t just make music — I build it from the ground up. Every lyric, every beat, every mix.',
+      'I love music in every form it can possibly exist in.',
     paragraphs: [
-      'As B.A., I operate at the intersection of faith, craft, and raw storytelling. My sound lives in the space between Christian Hip Hop and rap — unapologetically spiritual, relentlessly polished, and entirely self-made.',
-      'From my debut album *Born Again* (2016) through *The Lost Files* series and into recent singles and features, every release carries the same signature: written, produced, and performed by me. No ghostwriters. No outside producers. Just one artist with a message and a studio.',
-      'When I\'m not releasing my own music, you\'ll find me in collaboration mode — trading bars with artists like Dax and Angelo Vivo, or jumping on open verses from producers around the world. The common thread? A commitment to excellence, whether it\'s a full album or a 60-second short.',
+      'As B.A., I don\'t box myself into a single sound or formula. My foundation is in Christian Hip Hop and rap, but I write and create across whatever genre moves me in the moment — from melodic R&B textures to hard-hitting bars to global rhythms that push boundaries.',
+      'My process always starts with the lyrics and concept. Once the idea is there, the production can come from anywhere — sometimes I build the beat myself, sometimes I collaborate with producers who catch the vision, and sometimes I find an instrumental that speaks to exactly what I\'m trying to say. Every song is its own world.',
+      'Since *Born Again* (2016), my sound has matured across every dimension — tighter production, more vulnerable writing, and a vocal delivery that\'s grown with experience. The Lost Files series and my recent singles show that evolution in real time. Whether it\'s a full album, a feature, or a 60-second short, the goal is the same: make something honest, something versatile, and something that moves people.',
     ],
   },
 

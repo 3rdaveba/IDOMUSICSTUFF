@@ -9,11 +9,9 @@ import VideoLightbox from '@/components/VideoLightbox'
 import ReleaseCard from '@/components/ReleaseCard'
 import VideoCard from '@/components/VideoCard'
 import CollabCard from '@/components/CollabCard'
-import ArtistHeroSection from '@/sections/ArtistHeroSection'
 import ArtistStatementSection from '@/sections/ArtistStatementSection'
 import ArtistStatsBar from '@/sections/ArtistStatsBar'
 import { artistWork } from '@/data/artist-work'
-import { artistProfile } from '@/data/artist-profile'
 import { lenisInstance } from '@/hooks/useLenis'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -25,10 +23,6 @@ export default function ArtistWorkPage() {
   const releasesRef = useRef<HTMLDivElement>(null)
   const videosRef = useRef<HTMLDivElement>(null)
   const collabsRef = useRef<HTMLDivElement>(null)
-
-  // Featured = most recent entry matching the featuredEntryId, or first entry
-  const featured =
-    artistWork.find((e) => e.id === artistProfile.featuredEntryId) || artistWork[0]
 
   const releases = artistWork.filter((e) => e.category === 'release')
   const videos = artistWork.filter((e) => e.category === 'video')
@@ -74,13 +68,12 @@ export default function ArtistWorkPage() {
     <div className="min-h-screen" style={{ backgroundColor: 'var(--bg-void)' }}>
       <Navigation />
 
-      {/* 1. Featured Release Hero */}
-      {featured && <ArtistHeroSection featured={featured} />}
+      {/* 1. Artist Statement */}
+      <div style={{ paddingTop: 80 }}>
+        <ArtistStatementSection />
+      </div>
 
-      {/* 2. Artist Statement */}
-      <ArtistStatementSection />
-
-      {/* 3. Stats Bar */}
+      {/* 2. Stats Bar */}
       <ArtistStatsBar />
 
       <div className="content-container py-16 md:py-24 space-y-20 md:space-y-28">
