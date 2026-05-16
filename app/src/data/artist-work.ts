@@ -70,7 +70,7 @@ export const artistWork: ArtistWorkEntry[] = [
     links: {
       youtube: 'https://youtu.be/gDux9KLzWzU',
     },
-    description: 'From the debut album "Born Again".',
+    description: 'From the album "Born Again". Music written, produced and performed by William "B.A." Washington.',
   },
   {
     id: 'ba-he-set-me-free-mv',
@@ -83,7 +83,7 @@ export const artistWork: ArtistWorkEntry[] = [
     links: {
       youtube: 'https://youtu.be/LywstQIMsp0',
     },
-    description: 'Produced by KKO PRODUCTIONS. Directed by Alicia Raye, Kelby Joseph, and Chris Saballos.',
+    description: 'From the album "Born Again". Music written, produced and performed by William "B.A." Washington.',
   },
   {
     id: 'ba-where-would-i-be-mv',
@@ -124,7 +124,7 @@ export const artistWork: ArtistWorkEntry[] = [
     links: {
       youtube: 'https://youtu.be/4gnRFbj9-dw',
     },
-    description: 'From the album "Born Again".',
+    description: 'From the album "Born Again". Music written, produced and performed by William "B.A." Washington.',
   },
   {
     id: 'ba-lv-1',
