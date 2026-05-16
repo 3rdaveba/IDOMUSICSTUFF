@@ -57,6 +57,20 @@ export const artistWork: ArtistWorkEntry[] = [
 
   // ─── FEATURES ───
   {
+    id: 'ba-we-get-the-party-started',
+    title: 'We Get The Party Started',
+    subtitle: 'feat. B.A.',
+    year: 2024,
+    category: 'release',
+    subcategory: 'feature',
+    image: 'images/placeholder-cover.jpg',
+    links: {
+      spotify: 'https://open.spotify.com/track/5AC3jJ4aFDWXrTRVm3XKdh',
+      tidal: 'https://listen.tidal.com/track/360223419',
+    },
+    description: 'Feature credit. Streaming on Spotify and Tidal.',
+  },
+  {
     id: 'ba-one-of-a-kind',
     title: 'One of a Kind',
     subtitle: 'feat. B.A.',
