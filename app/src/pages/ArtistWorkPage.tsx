@@ -307,7 +307,16 @@ export default function ArtistWorkPage() {
       {/* Back to Home */}
       <div className="content-container pb-16">
         <button
-          onClick={() => navigate('/')}
+          onClick={() => {
+            navigate('/')
+            setTimeout(() => {
+              if (lenisInstance) {
+                lenisInstance.scrollTo(0, { immediate: true })
+              } else {
+                window.scrollTo(0, 0)
+              }
+            }, 100)
+          }}
           className="inline-flex items-center gap-2 text-sm transition-colors duration-300 hover:text-[var(--accent-amber)]"
           style={{ color: 'var(--text-secondary)' }}
         >
