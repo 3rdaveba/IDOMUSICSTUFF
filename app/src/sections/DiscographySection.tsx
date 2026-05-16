@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { Headphones, Youtube, Music, TrendingUp, Award } from 'lucide-react'
+import { Headphones, Youtube, Music, TrendingUp, Award, ExternalLink } from 'lucide-react'
 import { discography, streamingStats } from '@/data/discography'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -69,7 +69,7 @@ export default function DiscographySection() {
           >
             <em style={{ color: 'var(--accent-amber)' }}>{streamingStats.totalSpotifyStreams}M+</em> streams
           </h2>
-          <p className="mt-2 text-base font-light" style={{ color: 'var(--text-secondary)' }}>
+          <p className="mt-2 text-base md:text-lg font-light" style={{ color: 'var(--text-secondary)' }}>
             Select discography from notable projects as vocal producer, featured artist, or performer &middot; {streamingStats.tracksWithData} tracks &middot; sourced from {streamingStats.dataSource}
           </p>
         </div>
@@ -102,119 +102,145 @@ export default function DiscographySection() {
 
         {/* Track list */}
         <div ref={listRef} className="space-y-0">
-          {discography.map((entry, i) => (
+          {discography.map((entry) => (
             <div
               key={entry.id}
-              className="group py-5 transition-colors duration-200"
+              className="group py-6 transition-colors duration-200"
               style={{ borderBottom: '1px solid var(--border-color)' }}
             >
               {/* Main row */}
-              <div className="flex items-center gap-4 md:gap-5">
-                {/* Index */}
-                <span
-                  className="hidden md:block text-xs font-medium w-5 flex-shrink-0"
-                  style={{ color: 'var(--text-tertiary)' }}
-                >
-                  {String(i + 1).padStart(2, '0')}
-                </span>
-
+              <div className="flex items-start gap-5">
                 {/* Album art */}
                 <div
-                  className="flex-shrink-0 overflow-hidden rounded-sm"
-                  style={{ width: 52, height: 52 }}
+                  className="flex-shrink-0 overflow-hidden rounded-md"
+                  style={{ width: 96, height: 96 }}
                 >
                   <img
                     src={entry.image}
                     alt={`${entry.artist} - ${entry.title}`}
-                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                     loading="lazy"
                   />
                 </div>
 
                 {/* Info */}
-                <div className="flex-1 min-w-0">
-                  <div className="flex items-center gap-2 mb-0.5">
+                <div className="flex-1 min-w-0 pt-0.5">
+                  <div className="flex flex-wrap items-center gap-2 mb-1">
                     <h3
-                      className="font-display text-sm md:text-base font-bold truncate"
+                      className="font-display text-base md:text-lg font-bold"
                       style={{ color: 'var(--text-primary)' }}
                     >
                       {entry.title}
                     </h3>
                     {entry.milestones && entry.milestones.length > 0 && (
                       <span
-                        className="flex-shrink-0 flex items-center gap-1 text-[9px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded"
+                        className="flex-shrink-0 flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded"
                         style={{ backgroundColor: 'rgba(196, 149, 106, 0.15)', color: 'var(--accent-amber)' }}
                       >
-                        <Award size={8} /> Charted
+                        <Award size={9} /> Charted
                       </span>
                     )}
                   </div>
-                  <p className="text-xs truncate" style={{ color: 'var(--text-secondary)' }}>
+                  <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
                     {entry.artist} &middot; {entry.role}
                   </p>
+
+                  {/* Streaming links */}
+                  {Object.keys(entry.links).length > 0 && (
+                    <div className="flex flex-wrap items-center gap-2 mt-2">
+                      <span className="text-[10px] font-medium uppercase tracking-wider" style={{ color: 'var(--text-tertiary)' }}>
+                        Listen:
+                      </span>
+                      {Object.entries(entry.links).map(([platform, url]) => {
+                        if (!url) return null
+                        const label =
+                          platform === 'spotify'
+                            ? 'Spotify'
+                            : platform === 'apple'
+                              ? 'Apple Music'
+                              : platform === 'youtube'
+                                ? 'YouTube'
+                                : platform
+                        return (
+                          <a
+                            key={platform}
+                            href={url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1 text-[11px] font-medium px-2 py-1 rounded transition-colors duration-200 hover:border-[var(--accent-amber)] hover:text-[var(--accent-amber)]"
+                            style={{
+                              backgroundColor: 'var(--bg-surface)',
+                              color: 'var(--text-secondary)',
+                              border: '1px solid var(--border-color)',
+                            }}
+                          >
+                            {label}
+                            <ExternalLink size={10} />
+                          </a>
+                        )
+                      })}
+                    </div>
+                  )}
+
+                  {/* Stats row */}
+                  <div className="flex flex-wrap items-center gap-x-5 gap-y-1 mt-3">
+                    <div className="flex items-center gap-1.5">
+                      <Headphones size={12} style={{ color: 'var(--text-tertiary)' }} />
+                      <span className="text-xs font-medium" style={{ color: 'var(--text-secondary)' }}>
+                        {entry.stats.spotifyStreams}M Spotify
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-1.5">
+                      <Youtube size={12} style={{ color: 'var(--text-tertiary)' }} />
+                      <span className="text-xs" style={{ color: 'var(--text-secondary)' }}>
+                        {entry.stats.youtubeViews >= 1000
+                          ? `${(entry.stats.youtubeViews / 1000).toFixed(1)}M`
+                          : `${entry.stats.youtubeViews}K`} YouTube
+                      </span>
+                    </div>
+                    {entry.stats.tikTokViews > 0 && (
+                      <div className="flex items-center gap-1.5">
+                        <Music size={12} style={{ color: 'var(--text-tertiary)' }} />
+                        <span className="text-xs" style={{ color: 'var(--text-secondary)' }}>
+                          {entry.stats.tikTokViews >= 1000
+                            ? `${(entry.stats.tikTokViews / 1000).toFixed(1)}M`
+                            : `${entry.stats.tikTokViews}K`} TikTok
+                        </span>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Milestones */}
+                  {entry.milestones && entry.milestones.length > 0 && (
+                    <div className="mt-2">
+                      {entry.milestones.map((m, j) => (
+                        <span
+                          key={j}
+                          className="inline-flex items-center gap-1 text-xs font-medium"
+                          style={{ color: 'var(--accent-amber)' }}
+                        >
+                          <Award size={10} /> {m}
+                        </span>
+                      ))}
+                    </div>
+                  )}
                 </div>
 
-                {/* Chartmetric Score */}
-                <div className="hidden sm:flex flex-col items-end flex-shrink-0">
-                  <span className="font-display text-sm font-bold" style={{ color: 'var(--accent-amber)' }}>
-                    {entry.stats.chartmetricScore}
+                {/* Year + CM Score */}
+                <div className="hidden md:flex flex-col items-end gap-2 flex-shrink-0 pt-0.5">
+                  <span className="text-sm" style={{ color: 'var(--text-tertiary)' }}>
+                    {entry.year}
                   </span>
-                  <span className="text-[9px] uppercase tracking-wider" style={{ color: 'var(--text-tertiary)' }}>
-                    CM Score
-                  </span>
-                </div>
-
-                {/* Year */}
-                <span
-                  className="hidden md:block text-xs flex-shrink-0 w-10 text-right"
-                  style={{ color: 'var(--text-tertiary)' }}
-                >
-                  {entry.year}
-                </span>
-              </div>
-
-              {/* Stats row */}
-              <div className="flex flex-wrap items-center gap-x-5 gap-y-1 mt-3 ml-0 md:ml-16 pl-0 md:pl-[68px]">
-                <div className="flex items-center gap-1.5">
-                  <Headphones size={11} style={{ color: 'var(--text-tertiary)' }} />
-                  <span className="text-[11px] font-medium" style={{ color: 'var(--text-secondary)' }}>
-                    {entry.stats.spotifyStreams}M Spotify
-                  </span>
-                </div>
-                <div className="flex items-center gap-1.5">
-                  <Youtube size={11} style={{ color: 'var(--text-tertiary)' }} />
-                  <span className="text-[11px]" style={{ color: 'var(--text-secondary)' }}>
-                    {entry.stats.youtubeViews >= 1000
-                      ? `${(entry.stats.youtubeViews / 1000).toFixed(1)}M`
-                      : `${entry.stats.youtubeViews}K`} YouTube
-                  </span>
-                </div>
-                {entry.stats.tikTokViews > 0 && (
-                  <div className="flex items-center gap-1.5">
-                    <Music size={11} style={{ color: 'var(--text-tertiary)' }} />
-                    <span className="text-[11px]" style={{ color: 'var(--text-secondary)' }}>
-                      {entry.stats.tikTokViews >= 1000
-                        ? `${(entry.stats.tikTokViews / 1000).toFixed(1)}M`
-                        : `${entry.stats.tikTokViews}K`} TikTok
+                  <div className="hidden sm:flex flex-col items-end">
+                    <span className="font-display text-sm font-bold" style={{ color: 'var(--accent-amber)' }}>
+                      {entry.stats.chartmetricScore}
+                    </span>
+                    <span className="text-[10px] uppercase tracking-wider" style={{ color: 'var(--text-tertiary)' }}>
+                      CM Score
                     </span>
                   </div>
-                )}
-              </div>
-
-              {/* Milestones */}
-              {entry.milestones && entry.milestones.length > 0 && (
-                <div className="mt-2 ml-0 md:ml-16 pl-0 md:pl-[68px]">
-                  {entry.milestones.map((m, j) => (
-                    <span
-                      key={j}
-                      className="inline-flex items-center gap-1 text-[10px] font-medium"
-                      style={{ color: 'var(--accent-amber)' }}
-                    >
-                      <Award size={9} /> {m}
-                    </span>
-                  ))}
                 </div>
-              )}
+              </div>
             </div>
           ))}
         </div>
