@@ -180,6 +180,21 @@ export const artistWork: ArtistWorkEntry[] = [
     description: 'Music written, produced and performed by William "B.A." Washington.',
   },
   {
+    id: 'ba-the-last-supper',
+    title: 'The Last Supper',
+    subtitle: 'Single',
+    year: 2020,
+    category: 'release',
+    subcategory: 'solo',
+    image: 'https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02198be5d434622d0b18ad7adb',
+    links: {
+      spotify: 'https://open.spotify.com/track/2DUTbI82WPJ7mNXtZqU2cB',
+      apple: 'https://music.apple.com/ca/song/the-last-supper/1505801064',
+      tidal: 'https://listen.tidal.com/track/136089802',
+    },
+    description: 'Music written, produced and performed by William "B.A." Washington.',
+  },
+  {
     id: 'ba-where-would-i-be-mv',
     title: 'Where Would I Be?',
     subtitle: 'Official Music Video',
