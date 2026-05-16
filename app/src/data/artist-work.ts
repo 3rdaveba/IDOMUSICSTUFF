@@ -22,6 +22,7 @@ export interface ArtistWorkEntry {
     spotify?: string
     apple?: string
     youtube?: string
+    tidal?: string
     tiktok?: string
     instagram?: string
     soundcloud?: string
@@ -55,6 +56,21 @@ export const artistWork: ArtistWorkEntry[] = [
   },
 
   // ─── FEATURES ───
+  {
+    id: 'ba-one-of-a-kind',
+    title: 'One of a Kind',
+    subtitle: 'feat. B.A.',
+    year: 2025,
+    category: 'release',
+    subcategory: 'feature',
+    image: 'images/placeholder-cover.jpg',
+    links: {
+      spotify: 'https://open.spotify.com/track/3ba4kKQbDim0DQCDXx3Uwi?si=b7e66356770e487d',
+      apple: 'https://music.apple.com/us/album/one-of-a-kind-feat-b-a-single/1799988815',
+      tidal: 'https://listen.tidal.com/track/421820687',
+    },
+    description: 'Feature credit. Streaming on Spotify, Apple Music, and Tidal.',
+  },
   {
     id: 'ba-feature-1',
     title: 'Track Title',

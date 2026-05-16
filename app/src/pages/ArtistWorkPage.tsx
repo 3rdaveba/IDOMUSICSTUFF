@@ -31,6 +31,7 @@ const platformLabels: Record<string, string> = {
   spotify: 'Spotify',
   apple: 'Apple Music',
   youtube: 'YouTube',
+  tidal: 'Tidal',
   tiktok: 'TikTok',
   instagram: 'Instagram',
   soundcloud: 'SoundCloud',
