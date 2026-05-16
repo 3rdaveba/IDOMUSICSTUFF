@@ -62,7 +62,7 @@ export default function TVFilmSection() {
         </div>
 
         {/* Credits */}
-        <div ref={itemsRef} className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div ref={itemsRef} className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
           {films.map((credit) => (
             <div
               key={credit.id}
