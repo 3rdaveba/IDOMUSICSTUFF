@@ -1,3 +1,15 @@
+// =============================================================================
+// EDIT FROM YOUR PHONE:
+// 1. Go to github.com/3rdaveba/IDOMUSICSTUFF on your phone browser
+// 2. Navigate to: app/src/data/artist-work.ts
+// 3. Tap the pencil (✎) icon
+// 4. Add/modify entries below, then commit to main
+// 5. GitHub Actions auto-builds and deploys — no computer needed
+//
+// For new YouTube videos, just paste the URL and copy an existing entry format.
+// For local image/video files, you still need a computer to upload to public/.
+// =============================================================================
+
 export interface ArtistWorkEntry {
   id: string
   title: string
