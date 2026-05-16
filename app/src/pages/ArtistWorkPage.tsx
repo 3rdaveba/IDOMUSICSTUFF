@@ -182,18 +182,18 @@ export default function ArtistWorkPage() {
               return (
                 <div
                   key={entry.id}
-                  className={`group flex gap-5 p-5 rounded-md transition-colors duration-200 hover:bg-[var(--bg-surface)] ${isClickable ? 'cursor-pointer' : ''}`}
+                  className="group flex gap-5 p-5 rounded-md transition-colors duration-200 hover:bg-[var(--bg-surface)]"
                   style={{ border: '1px solid var(--border-color)' }}
-                  onClick={() => {
-                    if (youtubeId) {
-                      setLightboxVideo({ id: youtubeId, title: entry.title })
-                    }
-                  }}
                 >
                   {/* Artwork / Thumbnail */}
                   <div
-                    className="flex-shrink-0 overflow-hidden rounded-sm relative"
+                    className={`flex-shrink-0 overflow-hidden rounded-sm relative ${isClickable ? 'cursor-pointer' : ''}`}
                     style={{ width: 140, height: 140 }}
+                    onClick={() => {
+                      if (youtubeId) {
+                        setLightboxVideo({ id: youtubeId, title: entry.title })
+                      }
+                    }}
                   >
                     {entry.image ? (
                       <img

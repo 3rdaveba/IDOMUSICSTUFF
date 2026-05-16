@@ -112,7 +112,6 @@ export const artistWork: ArtistWorkEntry[] = [
     image: 'https://img.youtube.com/vi/6uZz2-R64Qc/maxresdefault.jpg',
     links: {
       youtube: 'https://youtube.com/shorts/6uZz2-R64Qc',
-      instagram: 'https://www.instagram.com/reel/CnCgO83owJw/',
     },
     description: 'Had fun getting into character for this 😈. Open verse collaboration.',
   },
@@ -125,8 +124,7 @@ export const artistWork: ArtistWorkEntry[] = [
     subcategory: 'collaboration',
     image: 'images/placeholder-cover.jpg',
     links: {
-      tiktok: 'https://tiktok.com',
-      instagram: 'https://instagram.com',
+      youtube: 'https://youtube.com',
     },
     description: 'Replace with a social media collaboration. Mention the platform, creator, and any traction.',
   },
