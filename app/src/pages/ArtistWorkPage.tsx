@@ -5,6 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useNavigate } from 'react-router'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
+import VideoLightbox from '@/components/VideoLightbox'
 import { artistWork, artistWorkCategories } from '@/data/artist-work'
 import { lenisInstance } from '@/hooks/useLenis'
 
@@ -35,9 +36,22 @@ const platformLabels: Record<string, string> = {
   soundcloud: 'SoundCloud',
 }
 
+function extractYouTubeId(url?: string): string | null {
+  if (!url) return null
+  const patterns = [
+    /(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/|youtube\.com\/shorts\/)([a-zA-Z0-9_-]{11})/,
+  ]
+  for (const p of patterns) {
+    const m = url.match(p)
+    if (m) return m[1]
+  }
+  return null
+}
+
 export default function ArtistWorkPage() {
   const navigate = useNavigate()
   const [activeCategory, setActiveCategory] = useState<string>('all')
+  const [lightboxVideo, setLightboxVideo] = useState<{ id: string; title: string } | null>(null)
   const heroRef = useRef<HTMLDivElement>(null)
   const gridRef = useRef<HTMLDivElement>(null)
 
@@ -161,11 +175,20 @@ export default function ArtistWorkPage() {
         {/* Entry Grid */}
         {filtered.length > 0 ? (
           <div ref={gridRef} className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
-            {filtered.map((entry) => (
+            {filtered.map((entry) => {
+              const youtubeId = extractYouTubeId(entry.links.youtube)
+              const isClickable = !!youtubeId
+
+              return (
                 <div
                   key={entry.id}
-                  className="group flex gap-5 p-5 rounded-md transition-colors duration-200 hover:bg-[var(--bg-surface)]"
+                  className={`group flex gap-5 p-5 rounded-md transition-colors duration-200 hover:bg-[var(--bg-surface)] ${isClickable ? 'cursor-pointer' : ''}`}
                   style={{ border: '1px solid var(--border-color)' }}
+                  onClick={() => {
+                    if (youtubeId) {
+                      setLightboxVideo({ id: youtubeId, title: entry.title })
+                    }
+                  }}
                 >
                   {/* Artwork / Thumbnail */}
                   <div
@@ -192,8 +215,8 @@ export default function ArtistWorkPage() {
                       </div>
                     )}
 
-                    {/* Play overlay for videos */}
-                    {entry.category === 'video' && (
+                    {/* Play overlay for YouTube embeddable entries */}
+                    {isClickable && (
                       <div className="absolute inset-0 flex items-center justify-center bg-black/20 opacity-80 group-hover:opacity-100 transition-opacity">
                         <div
                           className="w-10 h-10 rounded-full flex items-center justify-center"
@@ -252,6 +275,7 @@ export default function ArtistWorkPage() {
                             href={url}
                             target="_blank"
                             rel="noopener noreferrer"
+                            onClick={(e) => e.stopPropagation()}
                             className="inline-flex items-center gap-1 text-[11px] font-medium px-2 py-1 rounded transition-colors duration-200 hover:border-[var(--accent-amber)] hover:text-[var(--accent-amber)]"
                             style={{
                               backgroundColor: 'rgba(196, 149, 106, 0.08)',
@@ -267,7 +291,8 @@ export default function ArtistWorkPage() {
                     </div>
                   </div>
                 </div>
-            ))}
+              )
+            })}
           </div>
         ) : (
           <div className="text-center py-20">
@@ -288,6 +313,15 @@ export default function ArtistWorkPage() {
           <ArrowLeft size={16} /> Back to Home
         </button>
       </div>
+
+      {/* Video Lightbox */}
+      {lightboxVideo && (
+        <VideoLightbox
+          youtubeId={lightboxVideo.id}
+          title={lightboxVideo.title}
+          onClose={() => setLightboxVideo(null)}
+        />
+      )}
 
       <Footer />
     </div>
