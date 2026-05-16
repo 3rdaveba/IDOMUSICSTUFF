@@ -154,6 +154,19 @@ export const artistWork: ArtistWorkEntry[] = [
 
   // ─── SOCIAL COLLABORATIONS ───
   {
+    id: 'ba-freestyle-therealasethic',
+    title: 'Freestyle',
+    subtitle: 'with @therealasethic',
+    year: 2026,
+    category: 'social',
+    subcategory: 'collaboration',
+    image: 'https://img.youtube.com/vi/Aj1vCcyG8q4/maxresdefault.jpg',
+    links: {
+      youtube: 'https://youtube.com/shorts/Aj1vCcyG8q4',
+    },
+    description: 'Freestyle verse over production by @therealasethic.',
+  },
+  {
     id: 'ba-joker-open-verse',
     title: 'Joker Open Verse',
     subtitle: 'with @Dax',
