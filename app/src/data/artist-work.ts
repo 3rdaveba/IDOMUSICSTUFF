@@ -152,6 +152,21 @@ export const artistWork: ArtistWorkEntry[] = [
     description: 'Music written, produced and performed by William "B.A." Washington.',
   },
   {
+    id: 'ba-changes',
+    title: 'Changes',
+    subtitle: 'Single',
+    year: 2020,
+    category: 'release',
+    subcategory: 'solo',
+    image: 'https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02cdb2dc994258098175286db9',
+    links: {
+      spotify: 'https://open.spotify.com/track/27w4Mk8uzBikXZz4XMcICS',
+      apple: 'https://music.apple.com/ke/song/changes/1502407761',
+      tidal: 'https://listen.tidal.com/track/134021626',
+    },
+    description: 'Music written, produced and performed by William "B.A." Washington.',
+  },
+  {
     id: 'ba-where-would-i-be-mv',
     title: 'Where Would I Be?',
     subtitle: 'Official Music Video',
