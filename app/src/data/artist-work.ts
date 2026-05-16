@@ -1,10 +1,10 @@
 export interface ArtistWorkEntry {
   id: string
   title: string
-  artist: string
+  subtitle?: string
   year: number
-  role: 'Featured Artist' | 'Songwriter' | 'Co-Writer' | 'Co-Creator'
-  category: 'feature' | 'songwriting' | 'social'
+  category: 'release' | 'video' | 'social'
+  subcategory: 'solo' | 'feature' | 'music-video' | 'lyric-video' | 'collaboration'
   image: string
   links: {
     spotify?: string
@@ -12,58 +12,95 @@ export interface ArtistWorkEntry {
     youtube?: string
     tiktok?: string
     instagram?: string
+    soundcloud?: string
   }
   description?: string
 }
 
-export const artistWork: ArtistWorkEntry[] = [
-  {
-    id: 'template-feature-1',
-    title: 'Song Title',
-    artist: 'Primary Artist Name',
-    year: 2024,
-    role: 'Featured Artist',
-    category: 'feature',
-    image: 'images/placeholder-cover.jpg',
-    links: {
-      spotify: 'https://open.spotify.com/track/',
-    },
-    description:
-      'Replace this entry with a real feature credit. Include context about how the collaboration came together and what you contributed.',
-  },
-  {
-    id: 'template-songwriter-1',
-    title: 'Song Title',
-    artist: 'Primary Artist Name',
-    year: 2023,
-    role: 'Songwriter',
-    category: 'songwriting',
-    image: 'images/placeholder-cover.jpg',
-    links: {
-      apple: 'https://music.apple.com/us/album/',
-    },
-    description:
-      'Replace this entry with a real songwriting credit. Describe your writing process and the lyrical themes you explored.',
-  },
-  {
-    id: 'template-social-1',
-    title: 'Challenge Title',
-    artist: 'Collaborator Name',
-    year: 2025,
-    role: 'Co-Creator',
-    category: 'social',
-    image: 'images/placeholder-cover.jpg',
-    links: {
-      tiktok: 'https://www.tiktok.com/',
-    },
-    description:
-      'Replace this entry with a real social collaboration. Mention the challenge name, the creator you worked with, and any traction it gained.',
-  },
-]
-
 export const artistWorkCategories = [
   { key: 'all', label: 'All' },
-  { key: 'feature', label: 'Featured On' },
-  { key: 'songwriting', label: 'Written By' },
+  { key: 'release', label: 'Releases' },
+  { key: 'video', label: 'Videos' },
   { key: 'social', label: 'Social' },
 ] as const
+
+export const artistWork: ArtistWorkEntry[] = [
+  // ─── SOLO RELEASES ───
+  {
+    id: 'ba-solo-1',
+    title: 'Solo Track Title',
+    subtitle: 'Single',
+    year: 2024,
+    category: 'release',
+    subcategory: 'solo',
+    image: 'images/placeholder-cover.jpg',
+    links: {
+      spotify: 'https://open.spotify.com',
+      apple: 'https://music.apple.com',
+      youtube: 'https://youtube.com',
+    },
+    description: 'Replace with your solo release. Add streaming links and artwork.',
+  },
+
+  // ─── FEATURES ───
+  {
+    id: 'ba-feature-1',
+    title: 'Track Title',
+    subtitle: 'feat. B.A.',
+    year: 2024,
+    category: 'release',
+    subcategory: 'feature',
+    image: 'images/placeholder-cover.jpg',
+    links: {
+      spotify: 'https://open.spotify.com',
+      youtube: 'https://youtube.com',
+    },
+    description: 'Replace with a feature credit. Mention the primary artist and your contribution.',
+  },
+
+  // ─── MUSIC VIDEOS ───
+  {
+    id: 'ba-mv-1',
+    title: 'Music Video Title',
+    subtitle: 'Official Music Video',
+    year: 2024,
+    category: 'video',
+    subcategory: 'music-video',
+    image: 'images/placeholder-cover.jpg',
+    links: {
+      youtube: 'https://youtube.com',
+    },
+    description: 'Replace with a music video. Add a thumbnail or still frame.',
+  },
+
+  // ─── LYRIC VIDEOS ───
+  {
+    id: 'ba-lv-1',
+    title: 'Lyric Video Title',
+    subtitle: 'Lyric Video',
+    year: 2024,
+    category: 'video',
+    subcategory: 'lyric-video',
+    image: 'images/placeholder-cover.jpg',
+    links: {
+      youtube: 'https://youtube.com',
+    },
+    description: 'Replace with a lyric video entry.',
+  },
+
+  // ─── SOCIAL COLLABORATIONS ───
+  {
+    id: 'ba-social-1',
+    title: 'Collaboration Title',
+    subtitle: 'with @creator',
+    year: 2025,
+    category: 'social',
+    subcategory: 'collaboration',
+    image: 'images/placeholder-cover.jpg',
+    links: {
+      tiktok: 'https://tiktok.com',
+      instagram: 'https://instagram.com',
+    },
+    description: 'Replace with a social media collaboration. Mention the platform, creator, and any traction.',
+  },
+]

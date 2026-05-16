@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
-import { ExternalLink, ArrowLeft, Music, PenTool, Users } from 'lucide-react'
+import { ExternalLink, ArrowLeft, Play, Video, Music, Users, Disc3 } from 'lucide-react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useNavigate } from 'react-router'
@@ -10,16 +10,29 @@ import { lenisInstance } from '@/hooks/useLenis'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const categoryIcons: Record<string, React.ReactNode> = {
-  feature: <Music size={14} />,
-  songwriting: <PenTool size={14} />,
-  social: <Users size={14} />,
+const subcategoryLabels: Record<string, string> = {
+  solo: 'Solo',
+  feature: 'Feature',
+  'music-video': 'Music Video',
+  'lyric-video': 'Lyric Video',
+  collaboration: 'Collab',
 }
 
-const categoryLabels: Record<string, string> = {
-  feature: 'Featured On',
-  songwriting: 'Written By',
-  social: 'Social',
+const subcategoryIcons: Record<string, React.ReactNode> = {
+  solo: <Disc3 size={12} />,
+  feature: <Music size={12} />,
+  'music-video': <Video size={12} />,
+  'lyric-video': <Play size={12} />,
+  collaboration: <Users size={12} />,
+}
+
+const platformLabels: Record<string, string> = {
+  spotify: 'Spotify',
+  apple: 'Apple Music',
+  youtube: 'YouTube',
+  tiktok: 'TikTok',
+  instagram: 'Instagram',
+  soundcloud: 'SoundCloud',
 }
 
 export default function ArtistWorkPage() {
@@ -71,6 +84,8 @@ export default function ArtistWorkPage() {
     })
   }, [activeCategory])
 
+  const isVideoCategory = (cat: string) => cat === 'video'
+
   return (
     <div className="min-h-screen" style={{ backgroundColor: 'var(--bg-void)' }}>
       <Navigation />
@@ -103,7 +118,7 @@ export default function ArtistWorkPage() {
 
         <div className="content-container pb-12 relative z-10">
           <span className="text-eyebrow block mb-3" style={{ color: 'var(--text-tertiary)' }}>
-            THE PEN & THE VOICE
+            B.A.
           </span>
           <h1
             className="font-display text-3xl md:text-5xl font-bold leading-tight max-w-3xl"
@@ -112,8 +127,7 @@ export default function ArtistWorkPage() {
             Artist Work
           </h1>
           <p className="mt-4 text-base md:text-lg font-light max-w-2xl" style={{ color: 'var(--text-secondary)' }}>
-            A collection of features, songwriting credits, and social collaborations
-            that showcase lyricism, creative partnerships, and community-driven artistry.
+            Solo releases, features, music videos, and social collaborations — all under the name B.A.
           </p>
         </div>
       </div>
@@ -148,95 +162,111 @@ export default function ArtistWorkPage() {
         {filtered.length > 0 ? (
           <div ref={gridRef} className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
             {filtered.map((entry) => (
-              <div
-                key={entry.id}
-                className="group flex gap-5 p-5 rounded-md transition-colors duration-200 hover:bg-[var(--bg-surface)]"
-                style={{ border: '1px solid var(--border-color)' }}
-              >
-                {/* Artwork */}
                 <div
-                  className="flex-shrink-0 overflow-hidden rounded-sm"
-                  style={{ width: 120, height: 120 }}
+                  key={entry.id}
+                  className="group flex gap-5 p-5 rounded-md transition-colors duration-200 hover:bg-[var(--bg-surface)]"
+                  style={{ border: '1px solid var(--border-color)' }}
                 >
-                  <img
-                    src={entry.image}
-                    alt={`${entry.artist} — ${entry.title}`}
-                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                    loading="lazy"
-                  />
-                </div>
-
-                {/* Info */}
-                <div className="flex-1 min-w-0 flex flex-col">
-                  <div className="flex items-center gap-2 mb-1">
-                    <span
-                      className="inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded"
-                      style={{
-                        backgroundColor: 'rgba(196, 149, 106, 0.15)',
-                        color: 'var(--accent-amber)',
-                      }}
-                    >
-                      {categoryIcons[entry.category]}
-                      {categoryLabels[entry.category]}
-                    </span>
-                    <span className="text-[11px]" style={{ color: 'var(--text-tertiary)' }}>
-                      {entry.year}
-                    </span>
-                  </div>
-
-                  <h3
-                    className="font-display text-base md:text-lg font-bold truncate"
-                    style={{ color: 'var(--text-primary)' }}
+                  {/* Artwork / Thumbnail */}
+                  <div
+                    className="flex-shrink-0 overflow-hidden rounded-sm relative"
+                    style={{ width: 140, height: 140 }}
                   >
-                    {entry.title}
-                  </h3>
-                  <p className="text-sm truncate" style={{ color: 'var(--text-secondary)' }}>
-                    {entry.artist}
-                  </p>
+                    {entry.image ? (
+                      <img
+                        src={entry.image}
+                        alt={entry.title}
+                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                        loading="lazy"
+                      />
+                    ) : (
+                      <div
+                        className="w-full h-full flex items-center justify-center"
+                        style={{ backgroundColor: 'var(--bg-surface-elevated)' }}
+                      >
+                        {isVideoCategory(entry.category) ? (
+                          <Video size={32} style={{ color: 'var(--text-tertiary)' }} />
+                        ) : (
+                          <Music size={32} style={{ color: 'var(--text-tertiary)' }} />
+                        )}
+                      </div>
+                    )}
 
-                  {entry.description && (
-                    <p className="mt-2 text-xs leading-relaxed line-clamp-2" style={{ color: 'var(--text-tertiary)' }}>
-                      {entry.description}
-                    </p>
-                  )}
-
-                  {/* Platform Links */}
-                  <div className="mt-auto pt-3 flex flex-wrap gap-2">
-                    {Object.entries(entry.links).map(([platform, url]) => {
-                      if (!url) return null
-                      const label =
-                        platform === 'spotify'
-                          ? 'Spotify'
-                          : platform === 'apple'
-                            ? 'Apple Music'
-                            : platform === 'youtube'
-                              ? 'YouTube'
-                              : platform === 'tiktok'
-                                ? 'TikTok'
-                                : platform === 'instagram'
-                                  ? 'Instagram'
-                                  : platform
-                      return (
-                        <a
-                          key={platform}
-                          href={url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1 text-[11px] font-medium px-2 py-1 rounded transition-colors duration-200 hover:border-[var(--accent-amber)] hover:text-[var(--accent-amber)]"
-                          style={{
-                            backgroundColor: 'rgba(196, 149, 106, 0.08)',
-                            color: 'var(--text-secondary)',
-                            border: '1px solid var(--border-color)',
-                          }}
+                    {/* Play overlay for videos */}
+                    {entry.category === 'video' && (
+                      <div className="absolute inset-0 flex items-center justify-center bg-black/20 opacity-80 group-hover:opacity-100 transition-opacity">
+                        <div
+                          className="w-10 h-10 rounded-full flex items-center justify-center"
+                          style={{ backgroundColor: 'rgba(255,255,255,0.9)' }}
                         >
-                          {label}
-                          <ExternalLink size={10} />
-                        </a>
-                      )
-                    })}
+                          <Play size={16} fill="var(--bg-void)" style={{ color: 'var(--bg-void)' }} />
+                        </div>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Info */}
+                  <div className="flex-1 min-w-0 flex flex-col">
+                    <div className="flex items-center gap-2 mb-1 flex-wrap">
+                      <span
+                        className="inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded"
+                        style={{
+                          backgroundColor: 'rgba(196, 149, 106, 0.15)',
+                          color: 'var(--accent-amber)',
+                        }}
+                      >
+                        {subcategoryIcons[entry.subcategory]}
+                        {subcategoryLabels[entry.subcategory]}
+                      </span>
+                      <span className="text-[11px]" style={{ color: 'var(--text-tertiary)' }}>
+                        {entry.year}
+                      </span>
+                    </div>
+
+                    <h3
+                      className="font-display text-base md:text-lg font-bold truncate"
+                      style={{ color: 'var(--text-primary)' }}
+                    >
+                      {entry.title}
+                    </h3>
+                    {entry.subtitle && (
+                      <p className="text-sm truncate" style={{ color: 'var(--text-secondary)' }}>
+                        {entry.subtitle}
+                      </p>
+                    )}
+
+                    {entry.description && (
+                      <p className="mt-2 text-xs leading-relaxed line-clamp-2" style={{ color: 'var(--text-tertiary)' }}>
+                        {entry.description}
+                      </p>
+                    )}
+
+                    {/* Platform Links */}
+                    <div className="mt-auto pt-3 flex flex-wrap gap-2">
+                      {Object.entries(entry.links).map(([platform, url]) => {
+                        if (!url) return null
+                        const label = platformLabels[platform] || platform
+                        return (
+                          <a
+                            key={platform}
+                            href={url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1 text-[11px] font-medium px-2 py-1 rounded transition-colors duration-200 hover:border-[var(--accent-amber)] hover:text-[var(--accent-amber)]"
+                            style={{
+                              backgroundColor: 'rgba(196, 149, 106, 0.08)',
+                              color: 'var(--text-secondary)',
+                              border: '1px solid var(--border-color)',
+                            }}
+                          >
+                            {label}
+                            <ExternalLink size={10} />
+                          </a>
+                        )
+                      })}
+                    </div>
                   </div>
                 </div>
-              </div>
             ))}
           </div>
         ) : (
