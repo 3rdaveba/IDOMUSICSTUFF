@@ -3,6 +3,7 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Headphones, Youtube, Music, TrendingUp, Award, ExternalLink } from 'lucide-react'
 import { discography, streamingStats } from '@/data/discography'
+import ParallaxHeader from '@/components/ParallaxHeader'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -63,13 +64,12 @@ export default function DiscographySection() {
           <span className="text-eyebrow block mb-3" style={{ color: 'var(--text-tertiary)' }}>
             MUSIC
           </span>
-          <h2
-            className="font-display text-3xl md:text-5xl font-bold leading-tight"
-            style={{ color: 'var(--text-primary)', letterSpacing: '-0.01em' }}
-          >
-            <em style={{ color: 'var(--accent-amber)' }}>{streamingStats.totalSpotifyStreams}M+</em> streams
-          </h2>
-          <p className="mt-2 text-base md:text-lg font-light" style={{ color: 'var(--text-secondary)' }}>
+          <ParallaxHeader
+            line1={`${streamingStats.totalSpotifyStreams}M+`}
+            line2="STREAMS"
+            triggerSelector="#discography"
+          />
+          <p className="mt-6 text-base md:text-lg font-light max-w-2xl" style={{ color: 'var(--text-secondary)' }}>
             Select discography from notable projects as vocal producer, featured artist, or performer &middot; {streamingStats.tracksWithData} tracks &middot; sourced from {streamingStats.dataSource}
           </p>
         </div>
