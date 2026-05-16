@@ -60,6 +60,19 @@ export const artistWork: ArtistWorkEntry[] = [
 
   // ─── MUSIC VIDEOS ───
   {
+    id: 'ba-where-would-i-be-mv',
+    title: 'Where Would I Be?',
+    subtitle: 'Official Music Video',
+    year: 2020,
+    category: 'video',
+    subcategory: 'music-video',
+    image: 'https://img.youtube.com/vi/ApQ2lEBVUbc/maxresdefault.jpg',
+    links: {
+      youtube: 'https://youtu.be/ApQ2lEBVUbc',
+    },
+    description: 'From the album "Born Again". Music written, produced and performed by William "B.A." Washington.',
+  },
+  {
     id: 'ba-mv-1',
     title: 'Music Video Title',
     subtitle: 'Official Music Video',
