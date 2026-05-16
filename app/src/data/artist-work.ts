@@ -107,6 +107,21 @@ export const artistWork: ArtistWorkEntry[] = [
     description: 'Christmas Grinch flow over production by @valentinbeatz.',
   },
   {
+    id: 'ba-lost-files-vol-1',
+    title: 'The Lost Files Vol. 1',
+    subtitle: 'Album',
+    year: 2019,
+    category: 'release',
+    subcategory: 'solo',
+    image: 'https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c2efa83cd2fbb09d230f36b1',
+    links: {
+      spotify: 'https://open.spotify.com/album/3IFUKUkoA3rZtmr2K5UbrO',
+      apple: 'https://music.apple.com/ca/album/the-lost-files-vol-1/1465694829',
+      tidal: 'https://listen.tidal.com/album/110245935',
+    },
+    description: 'Music written, produced and performed by William "B.A." Washington.',
+  },
+  {
     id: 'ba-where-would-i-be-mv',
     title: 'Where Would I Be?',
     subtitle: 'Official Music Video',
