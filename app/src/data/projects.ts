@@ -78,12 +78,12 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 'pineapple-jim',
-    title: 'Pineapple Jim',
+    id: 'the-reimagination-engine',
+    title: 'The Reimagination Engine',
     category: 'systems',
     role: 'Founder & Systems Designer',
     status: 'active',
-    heroImage: 'images/project-pineapple-jim.jpg',
+    heroImage: 'images/project-reimagination-engine.jpg',
     description: 'An experimental release project where old demos and unfinished song ideas are reimagined through AI tools and released to the public on a fixed schedule. The goal is to see if consistent releases alone can generate streaming revenue and organic traction without any marketing, social media presence, or paid promotion.',
     dmaic: {
       D: { label: 'Define', text: 'Take old demos and song ideas, run them through AI tools to create new iterations, and release them publicly every other week for one year with zero marketing or social media push.' },
@@ -109,8 +109,8 @@ export const projects: Project[] = [
     ],
     media: {
       items: [
-        { type: 'photo-slot', label: 'Photo', src: 'project media/Pineapple Jim/placeholder.jpg' },
-        { type: 'video-slot', label: 'Workflow', src: 'project media/Pineapple Jim/placeholder.mp4' },
+        { type: 'photo-slot', label: 'Photo', src: 'project media/The Reimagination Engine/placeholder.jpg' },
+        { type: 'video-slot', label: 'Workflow', src: 'project media/The Reimagination Engine/placeholder.mp4' },
       ],
     },
   },
