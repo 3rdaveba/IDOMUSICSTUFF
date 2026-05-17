@@ -78,6 +78,43 @@ export const projects: Project[] = [
     ],
   },
   {
+    id: 'pineapple-jim',
+    title: 'Pineapple Jim',
+    category: 'systems',
+    role: 'Founder & Creative Systems Architect',
+    status: 'active',
+    heroImage: 'images/project-pineapple-jim.jpg',
+    description: 'A Lean Six Sigma-style experimental case study exploring how AI-assisted music tools can be integrated into a professional songwriting and production workflow while preserving human authorship, publishing ownership, and artistic integrity.',
+    dmaic: {
+      D: { label: 'Define', text: 'Build a structured AI-assisted IP incubation and validation system. Generate $300 streaming revenue within 12 months and produce at least one reproduction-qualified asset. Scope: biweekly Pineapple Jim releases in clustered deployment.' },
+      M: { label: 'Measure', text: 'Establish baseline performance metrics using cluster-based deployment. Track save rate, completion rate, stream velocity, listener retention, and algorithmic pickup across a 12-release minimum observation window with rolling 45-day reviews.' },
+      A: { label: 'Analyze', text: 'Compare 6 Relational vs 6 Energetic releases. Identify top 20% performers within facet cohorts. Evaluate instrumental vs vocal behavior differences and assess tempo band performance patterns to detect early facet dominance.' },
+      I: { label: 'Improve', text: 'Trigger reproduction of validated assets based on performance data. Prioritize low-overhead instrumental reproduction and Beatport expansion. Evaluate vocal paths for resale, publishing leverage, and artist pitch opportunities. Reinvest profits beyond $300 into production hardening.' },
+      C: { label: 'Control', text: 'No major strategy pivot before 12 releases. Facet migration only after 12–20 releases and confirmed dominance. All profits beyond sustainability threshold reinvested in Year 1. Annual evaluation against $300 sustainability metric.' },
+    },
+    timeline: [
+      { phase: '01', label: 'Validation & Baseline' },
+      { phase: '02', label: 'Cohort Analysis' },
+      { phase: '03', label: 'Reproduction Trigger' },
+      { phase: '04', label: 'Optimization' },
+      { phase: '05', label: 'Scale & Governance' },
+    ],
+    tools: ['Suno', 'AI-Assisted Composition', 'Lean Six Sigma', 'DMAIC Governance', 'DSP Streaming', 'BeatStars', 'Metadata Systems', 'Cluster-Based Deployment'],
+    outcomes: [
+      'Scalable AI-assisted music pipeline with human authorship preserved',
+      'First reproduction-qualified asset triggered by data-driven criteria',
+      '$300 sustainability threshold established within 12 months',
+      'Documented case study for educational and consulting leverage',
+      'Clear recreation workflow from reference master to commercial master',
+    ],
+    media: {
+      items: [
+        { type: 'photo-slot', label: 'Photo', src: 'project media/Pineapple Jim/placeholder.jpg' },
+        { type: 'video-slot', label: 'Workflow', src: 'project media/Pineapple Jim/placeholder.mp4' },
+      ],
+    },
+  },
+  {
     id: 'calby-inner-critic',
     title: "Calby — Inner Critic's Choice Awards",
     category: 'music',
