@@ -81,7 +81,7 @@ export const projects: Project[] = [
     id: 'the-reimagination-engine',
     title: 'The Reimagination Engine',
     category: 'systems',
-    role: 'Founder & Systems Designer',
+    role: 'Music Researcher & Systems Designer',
     status: 'active',
     heroImage: 'images/project-reimagination-engine.jpg',
     description: 'An experimental release project where old demos and unfinished song ideas are reimagined through AI tools and released to the public on a fixed schedule. The goal is to see if consistent releases alone can generate streaming revenue and organic traction without any marketing, social media presence, or paid promotion.',
