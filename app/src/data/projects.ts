@@ -149,7 +149,7 @@ export const projects: Project[] = [
       items: [
         { type: 'photo-slot', label: 'Photo' },
         { type: 'video-slot', label: 'Course Trailer' },
-        { type: 'link-slot', icon: 'Youtube', label: 'Watch' },
+        { type: 'link-slot', icon: 'ExternalLink', label: 'Take Course', url: 'https://epiphanymusicgroup.thinkific.com/courses/the-vocal-production-lab' },
       ],
     },
   },
