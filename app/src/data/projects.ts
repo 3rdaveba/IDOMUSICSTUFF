@@ -83,7 +83,7 @@ export const projects: Project[] = [
     category: 'systems',
     role: 'Creative Systems & Technology Lead',
     status: 'active',
-    heroImage: 'images/project-reimagination-engine.jpg',
+    heroImage: 'project media/The Reimagination Engine/image.png',
     description: 'An experimental release project where old demos and unfinished song ideas are reimagined through AI tools and released in clustered waves. Drops happen every other week in alternating three-track clusters — one wave relational, the next energetic — with performance reviewed every 45 days. The goal is to see if consistent releases alone can generate streaming revenue and organic traction without any marketing, social media presence, or paid promotion. If a track lands in the top tier of its cluster, it gets flagged for potential reproduction or licensing.',
     dmaic: {
       D: { label: 'Define', text: 'Take old demos and song ideas, run them through AI tools to create new iterations, and release them publicly every other week for one year with zero marketing or social media push.' },
@@ -110,7 +110,7 @@ export const projects: Project[] = [
     ],
     media: {
       items: [
-        { type: 'photo-slot', label: 'Photo', src: 'project media/The Reimagination Engine/placeholder.jpg' },
+        { type: 'photo-slot', label: 'Photo', src: 'project media/The Reimagination Engine/image.png' },
         { type: 'video-slot', label: 'Workflow', src: 'project media/The Reimagination Engine/placeholder.mp4' },
       ],
     },
