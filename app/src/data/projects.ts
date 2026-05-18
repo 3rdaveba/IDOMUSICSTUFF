@@ -149,7 +149,6 @@ export const projects: Project[] = [
     media: {
       items: [
         { type: 'photo-slot', label: 'Course Image', src: 'project media/The Vocal Production Lab/course-image.png' },
-        { type: 'photo-slot', label: 'Course Curriculum', src: 'project media/The Vocal Production Lab/course-curriculum.jpg' },
         { type: 'photo-slot', label: 'Lesson Title Card', src: 'project media/The Vocal Production Lab/lesson-title-card.jpg' },
         { type: 'photo-slot', label: 'Interactive Quiz', src: 'project media/The Vocal Production Lab/quiz-interactive.jpg' },
         { type: 'photo-slot', label: 'Instructor-Led Lesson', src: 'project media/The Vocal Production Lab/lesson-instructor.jpg' },
