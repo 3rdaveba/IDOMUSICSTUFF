@@ -48,8 +48,8 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: 'audiolab-intelligence',
-    title: 'Audiolab Intelligence',
+    id: 'creative-intelligence-production-system',
+    title: 'Creative Intelligence Production System',
     category: 'systems',
     role: 'Architect & Systems Designer',
     status: 'active',
