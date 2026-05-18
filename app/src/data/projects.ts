@@ -122,7 +122,7 @@ export const projects: Project[] = [
     role: 'Course Creator & Instructor',
     status: 'complete',
     heroImage: 'project media/The Vocal Production Lab/course-image.png',
-    heroVideo: 'project media/The Vocal Production Lab/introduction.mp4',
+    heroVideo: 'project media/The Vocal Production Lab/new hero banner video.mp4',
     description: 'An online instructional course designed to teach intermediate music technology users what vocal production is, why it matters, and how to achieve professional vocal recordings at home or in the studio.',
     dmaic: {
       D: { label: 'Define', text: 'Create an accessible online course that teaches vocal production concepts — from understanding the voice through recording, editing, and mixing — without requiring expensive equipment or overly complex language.' },
