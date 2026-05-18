@@ -53,7 +53,7 @@ export const projects: Project[] = [
     category: 'systems',
     role: 'Architect & Systems Designer',
     status: 'active',
-    heroImage: 'images/project-lukas.jpg',
+    heroImage: 'project media/Creative Intelligence Production System/image-web.jpg',
     description: 'Design a private, autonomous agent infrastructure for creative workflow intelligence, operating 24/7 without human intervention.',
     dmaic: {
       D: { label: 'Define', text: 'Design a private, autonomous agent infrastructure for creative workflow intelligence, operating 24/7 without human intervention.' },
