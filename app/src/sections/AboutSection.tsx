@@ -120,7 +120,7 @@ export default function AboutSection() {
               className="mt-8 text-lg md:text-xl font-light leading-relaxed"
               style={{ color: 'var(--text-secondary)' }}
             >
-              I look forward to connecting and exploring how we can work together!
+              I look forward to exploring how we can work together!
               <br />
               <span className="inline-block mt-4">&mdash; William &quot;B.A.&quot; Washington</span>
             </p>
