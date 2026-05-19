@@ -104,7 +104,7 @@ export default function AboutSection() {
               className="mt-8 text-lg md:text-xl font-light leading-relaxed"
               style={{ color: 'var(--text-secondary)' }}
             >
-              Over the course of my career, I&apos;ve acquired tons of experience as an artist, stage performer, audio engineer, and creative project manager. From organizing live performances, collaborating with artists, teaching students, and working with underserved communities, I&apos;ve been able to build a track record of successfully delivering projects from concept to completion.
+              Throughout my career, I&apos;ve built a robust body of experience across music, live performance, audio production, education, and creative project management. As an artist, stage performer, audio engineer, and collaborator, I&apos;ve had the opportunity to help bring ideas to life across a wide range of spaces&hellip;from live events and recording sessions to student programs, community initiatives, and artist-driven projects.
             </p>
 
             <p
@@ -112,7 +112,9 @@ export default function AboutSection() {
               className="mt-8 text-lg md:text-xl font-light leading-relaxed"
               style={{ color: 'var(--text-secondary)' }}
             >
-              This site is designed to give you insight into my passion for creating impactful experiences, my creative thought process, and a look at some of the projects I&apos;ve been a part of from behind the scenes.
+              My work is rooted in creating meaningful experiences, supporting creative vision, and guiding projects from concept to completion with intention, care, and professionalism.
+              <br /><br />
+              This site offers a look into my creative process, the work I&apos;ve contributed to behind the scenes, and the projects that reflect my passion for building experiences that connect with people.
             </p>
 
             <p
@@ -120,7 +122,7 @@ export default function AboutSection() {
               className="mt-8 text-lg md:text-xl font-light leading-relaxed"
               style={{ color: 'var(--text-secondary)' }}
             >
-              I look forward to the opportunity to work with you in the future!
+              I look forward to connecting and exploring how we can work together!
               <br />
               <span className="inline-block mt-4">&mdash; William &quot;B.A.&quot; Washington</span>
             </p>
