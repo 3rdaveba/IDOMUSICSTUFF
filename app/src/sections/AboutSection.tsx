@@ -112,9 +112,7 @@ export default function AboutSection() {
               className="mt-8 text-lg md:text-xl font-light leading-relaxed"
               style={{ color: 'var(--text-secondary)' }}
             >
-              My work is rooted in creating meaningful experiences, supporting creative vision, and guiding projects from concept to completion with intention, care, and professionalism.
-              <br /><br />
-              This site offers a look into my creative process, the work I&apos;ve contributed to behind the scenes, and the projects that reflect my passion for building experiences that connect with people.
+              My work is rooted in creating meaningful experiences, supporting creative vision, and guiding projects from concept to completion with intention, care, and professionalism. This site offers a look into my creative process, the work I&apos;ve contributed to behind the scenes, and the projects that reflect my passion for building experiences that connect with people.
             </p>
 
             <p
