@@ -122,7 +122,7 @@ export default function AboutSection() {
             >
               I look forward to exploring how we can work together!
               <br />
-              <span className="inline-block mt-4">&mdash; William &quot;B.A.&quot; Washington</span>
+              <span className="inline-block mt-4" style={{ color: 'var(--accent-amber)' }}>&mdash; William &quot;B.A.&quot; Washington</span>
             </p>
           </div>
         </div>
