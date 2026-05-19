@@ -1,5 +1,4 @@
 import type { Certification } from '@/data/certifications'
-import { ExternalLink } from 'lucide-react'
 
 interface CertificationCardProps {
   cert: Certification
