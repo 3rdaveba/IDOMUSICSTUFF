@@ -6,7 +6,7 @@ gsap.registerPlugin(ScrollTrigger)
 
 const stats = [
   { number: 15, suffix: '+', label: 'Years in Music' },
-  { number: 10, suffix: '+', label: 'Countries Worked In' },
+  { number: 4, suffix: '', label: 'Certifications' },
   { number: 50, suffix: '+', label: 'Projects Completed' },
 ]
 

@@ -2,8 +2,6 @@ import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import ImageReveal from '@/components/ImageReveal'
-import CertificationCard from '@/components/CertificationCard'
-import { certifications } from '@/data/certifications'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -80,31 +78,12 @@ export default function AboutSection() {
       <div className="content-container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-12">
           {/* Portrait */}
-          <div>
-            <ImageReveal
-              src="images/portrait-william.jpg"
-              alt="William B.A. Washington portrait"
-              aspectRatio="4/5"
-              className="w-full"
-            />
-
-            {/* Certifications */}
-            {certifications.length > 0 && (
-              <div className="mt-8">
-                <span
-                  className="text-eyebrow block mb-3"
-                  style={{ color: 'var(--text-tertiary)' }}
-                >
-                  CERTIFICATIONS
-                </span>
-                <div className="space-y-3">
-                  {certifications.map((cert) => (
-                    <CertificationCard key={cert.id} cert={cert} />
-                  ))}
-                </div>
-              </div>
-            )}
-          </div>
+          <ImageReveal
+            src="images/portrait-william.jpg"
+            alt="William B.A. Washington portrait"
+            aspectRatio="4/5"
+            className="w-full"
+          />
 
           {/* Text Content */}
           <div className="flex flex-col justify-center">
