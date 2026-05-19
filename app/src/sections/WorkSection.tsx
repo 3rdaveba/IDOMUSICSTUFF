@@ -65,7 +65,7 @@ export default function WorkSection() {
           systems architecture, and creative technology — each built with the same
           intention: craft something meaningful, scalable, and human.
           <br /><br />
-          Every project is presented in DMAIC format — Define, Measure, Analyze, Improve, Control — so you can see how each moves from concept to measurable outcome.
+          Every project is presented in DMAIC format (Define, Measure, Analyze, Improve, Control) so you can see how each moves from concept to measurable outcome.
         </p>
 
         {/* Divider */}
