@@ -1,7 +1,6 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import ImageReveal from '@/components/ImageReveal'
 import { artistProfile } from '@/data/artist-profile'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -62,12 +61,16 @@ export default function ArtistStatementSection() {
       <div className="content-container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-start">
           {/* Portrait */}
-          <ImageReveal
-            src="images/portrait-william.jpg"
-            alt={`${artistProfile.fullName} portrait`}
-            aspectRatio="4/5"
-            className="w-full"
-          />
+          <div className="relative overflow-hidden rounded w-full" style={{ aspectRatio: '4/5' }}>
+            <video
+              src="project media/artist work/artist-work-video.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="w-full h-full object-cover"
+            />
+          </div>
 
           {/* Text */}
           <div className="flex flex-col justify-center">
