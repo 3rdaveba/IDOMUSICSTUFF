@@ -1,5 +1,6 @@
 import { useParams, useNavigate } from 'react-router'
 import { useState, useEffect, useRef } from 'react'
+import { Helmet } from 'react-helmet-async'
 import { ArrowLeft, ArrowRight, Film, Video, ChevronLeft, ChevronRight, X, ExternalLink } from 'lucide-react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -103,6 +104,8 @@ export default function FilmDetail() {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
   const film = getFilmById(id || '')
+  const pageTitle = film ? `${film.title} | Film` : 'Film'
+  const pageDesc = film?.description || 'Film details'
   const { prev, next } = getAdjacentFilms(id || '')
 
   const heroRef = useRef<HTMLDivElement>(null)
@@ -137,6 +140,9 @@ export default function FilmDetail() {
   if (!film) {
     return (
       <div className="min-h-screen flex items-center justify-center" style={{ backgroundColor: 'var(--bg-void)' }}>
+        <Helmet>
+          <title>Film Not Found | William &quot;B.A.&quot; Washington</title>
+        </Helmet>
         <div className="text-center">
           <h1 className="font-display text-3xl font-bold" style={{ color: 'var(--text-primary)' }}>Film not found</h1>
           <button onClick={() => navigate('/')} className="mt-6 inline-flex items-center gap-2 transition-colors duration-300" style={{ color: 'var(--accent-amber)' }}>
@@ -149,6 +155,10 @@ export default function FilmDetail() {
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: 'var(--bg-void)' }}>
+      <Helmet>
+        <title>{pageTitle} | William &quot;B.A.&quot; Washington</title>
+        <meta name="description" content={pageDesc} />
+      </Helmet>
       <Navigation />
 
       {/* Hero */}

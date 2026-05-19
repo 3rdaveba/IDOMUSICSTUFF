@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
+import { Helmet } from 'react-helmet-async'
 import { ArrowLeft, Disc3, Video, Users } from 'lucide-react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -66,6 +67,10 @@ export default function ArtistWorkPage() {
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: 'var(--bg-void)' }}>
+      <Helmet>
+        <title>Artist Work | William &quot;B.A.&quot; Washington</title>
+        <meta name="description" content="Releases, music videos, and collaborations from William &quot;B.A.&quot; Washington." />
+      </Helmet>
       <Navigation />
 
       {/* 1. Artist Statement */}

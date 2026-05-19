@@ -1,5 +1,6 @@
 import { useParams, useNavigate } from 'react-router'
 import { useState, useEffect, useRef } from 'react'
+import { Helmet } from 'react-helmet-async'
 import { ArrowLeft, ArrowRight, Music, Cpu, Image, Video, ExternalLink, CheckCircle2 } from 'lucide-react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -32,6 +33,8 @@ export default function ProjectDetail() {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
   const project = getProjectById(id || '')
+  const pageTitle = project ? `${project.title} | Project` : 'Project'
+  const pageDesc = project?.description || 'Project details'
   const { prev, next } = getAdjacentProjects(id || '')
 
   const heroRef = useRef<HTMLDivElement>(null)
@@ -84,6 +87,9 @@ export default function ProjectDetail() {
   if (!project) {
     return (
       <div className="min-h-screen flex items-center justify-center" style={{ backgroundColor: 'var(--bg-void)' }}>
+        <Helmet>
+          <title>Project Not Found | William &quot;B.A.&quot; Washington</title>
+        </Helmet>
         <div className="text-center">
           <h1 className="font-display text-3xl font-bold" style={{ color: 'var(--text-primary)' }}>Project not found</h1>
           <button
@@ -100,6 +106,10 @@ export default function ProjectDetail() {
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: 'var(--bg-void)' }}>
+      <Helmet>
+        <title>{pageTitle} | William &quot;B.A.&quot; Washington</title>
+        <meta name="description" content={pageDesc} />
+      </Helmet>
       <Navigation />
 
       {/* ===== HERO ===== */}
