@@ -101,13 +101,19 @@ export default function Navigation() {
           onClick={(e) => handleNavClick(e, '#home', 'hash')}
           className="flex items-center gap-2.5 group flex-shrink-0"
         >
-          <svg width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
-              d="M1 12V8C1 8 1.5 4 3 4C4.5 4 5 7 5 7V12M5 7C5 7 5.5 2 7 2C8.5 2 9 5 9 5V12M9 5C9 5 9.5 3 11 3"
+              d="M12 2C12 2 14 4 16 4C16 4 15 6 15 8C15 8 17 7 19 8C19 8 17 10 16 11C16 11 18 12 18 14C18 16 16 18 14 18V20C14 21.1 13.1 22 12 22C10.9 22 10 21.1 10 20V18C8 18 6 16 6 14C6 12 8 11 8 11C7 10 5 8 5 8C7 7 9 8 9 8C9 6 8 4 8 4C10 4 12 2 12 2Z"
               stroke="var(--accent-amber)"
               strokeWidth="1.5"
               strokeLinecap="round"
               strokeLinejoin="round"
+            />
+            <path
+              d="M10 14H14M10 11H14M11 8H13"
+              stroke="var(--accent-amber)"
+              strokeWidth="1.5"
+              strokeLinecap="round"
             />
           </svg>
           <span className="text-nav hidden sm:inline" style={{ color: 'rgba(250, 246, 241, 0.7)' }}>
