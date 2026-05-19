@@ -104,7 +104,7 @@ export default function AboutSection() {
               className="mt-8 text-lg md:text-xl font-light leading-relaxed"
               style={{ color: 'var(--text-secondary)' }}
             >
-              Throughout my career, I&apos;ve built a body of experience across music, live performance, audio production, education, and creative project management. As an artist, stage performer, audio engineer, and collaborator, I&apos;ve had the opportunity to help bring ideas to life across a wide range of spaces&hellip;from live events and recording sessions to student programs, community initiatives, and artist-driven projects.
+              Throughout my career, I&apos;ve built a body of experience across music, live performance, education, and creative project management. As an artist, stage performer, audio engineer, and collaborator, I&apos;ve had the opportunity to help bring ideas to life across a wide range of spaces&hellip;from live events and recording sessions to student programs, community initiatives, and artist-driven projects.
             </p>
 
             <p
