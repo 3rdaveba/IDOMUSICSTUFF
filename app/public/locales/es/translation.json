@@ -1,9 +1,9 @@
 {
   "about": {
     "bio1": "A lo largo de mi carrera, he construido una amplia experiencia en música, actuaciones en vivo, educación y gestión creativa de proyectos. Como artista, artista escénico, ingeniero de audio y colaborador, he tenido la oportunidad de ayudar a dar vida a ideas en una gran variedad de espacios…desde eventos en vivo y sesiones de grabación hasta programas estudiantiles, iniciativas comunitarias y proyectos liderados por artistas.",
-    "bio2": "Mi trabajo está arraigado en la creación de experiencias de impacto, el apoyo a la visión creativa y la guía de proyectos desde el concepto hasta la finalización con intención, cuidado y profesionalismo. Este portfolio ofrece una mirada a mi proceso creativo, el trabajo al que he contribuido y los proyectos que reflejan mi pasión por construir experiencias que conecten con las personas.",
+    "bio2": "Mi trabajo se basa en crear experiencias impactantes, apoyar la visión creativa y guiar proyectos desde su concepto hasta su finalización con intención, cuidado y profesionalismo. Este portafolio ofrece un vistazo a mi proceso creativo, el trabajo en el que he contribuido y los proyectos que reflejan mi pasión por construir experiencias que conecten con la gente.",
     "headline": "¡Hola! Mi nombre es William y soy un productor vocal ganador del GRAMMY®, tecnólogo musical y arquitecto de sistemas creativos.",
-    "signature": "¡Espero tener la oportunidad de trabajar contigo en el futuro!",
+    "signature": "¡Espero con ansias explorar cómo podemos trabajar juntos!",
     "signatureName": "— William \"B.A.\" Washington"
   },
   "artistWork": {
@@ -15,7 +15,7 @@
     "releases": "Lanzamientos",
     "releasesHeading": "Lanzamientos",
     "statementHeadline": "Amo la música con toda mi alma.",
-    "statementP1": "Como artista, no me encasillo en un solo sonido o fórmula. Escribo y creo a través de cualquier género que me mueve en el momento, desde texturas melódicas de R&B, hasta letras contundentes, hasta ritmos globales que empujan los límites.",
+    "statementP1": "Como artista, no me encierro en un solo sonido ni en una fórmula. Escribo y creo en cualquier género que me mueva en el momento, desde texturas melódicas de R&B hasta barras contundentes y ritmos globales que empujan límites.",
     "statementP2": "Mi proceso es bastante aleatorio. Puedo estar conduciendo por la calle y comenzar a beatboxear una idea para una canción, o puedo inspirarme en algo que veo y comenzar a conceptualizar una idea alrededor de un tema sobre el que quiero empezar a escribir letras. No hay reglas estrictas... simplemente sigo lo que siento que me habla en el momento. Cada canción es su propio mundo.",
     "statementP3": "Ya sea un álbum completo, un featuring o un cortometraje de 60 segundos, el objetivo es el mismo: hacer algo honesto, algo versátil y algo que mueva a la gente.",
     "videos": "Videos",
@@ -26,7 +26,7 @@
     "emailLabel": "Email",
     "errorMessage": "Algo salió mal.",
     "formEmailLabel": "Email",
-    "formEmailPlaceholder": "your@email.com",
+    "formEmailPlaceholder": "tu@email.com",
     "formMessageLabel": "Mensaje",
     "formMessagePlaceholder": "Cuéntame sobre tu proyecto...",
     "formNameLabel": "Nombre",
@@ -51,7 +51,7 @@
     "artistProfile": {
       "statement": {
         "headline": "Amo la música con toda mi alma.",
-        "p1": "Como artista, no me encasillo en un solo sonido o fórmula. Escribo y creo a través de cualquier género que me mueve en el momento, desde texturas melódicas de R&B, hasta letras contundentes, hasta ritmos globales que empujan los límites.",
+        "p1": "Como artista, no me encierro en un solo sonido ni en una fórmula. Escribo y creo en cualquier género que me mueva en el momento, desde texturas melódicas de R&B hasta barras contundentes y ritmos globales que empujan límites.",
         "p2": "Mi proceso es bastante aleatorio. Puedo estar conduciendo por la calle y comenzar a beatboxear una idea para una canción, o puedo inspirarme en algo que veo y comenzar a conceptualizar una idea alrededor de un tema sobre el que quiero empezar a escribir letras. No hay reglas estrictas... simplemente sigo lo que siento que me habla en el momento. Cada canción es su propio mundo.",
         "p3": "Ya sea un álbum completo, un featuring o un cortometraje de 60 segundos, el objetivo es el mismo: hacer algo honesto, algo versátil y algo que mueva a la gente."
       },
@@ -60,7 +60,7 @@
         "features": "3",
         "releases": "10+",
         "videos": "4",
-        "yearsActive": "2016–Present"
+        "yearsActive": "2016–Presente"
       },
       "tagline": "Writer. Producer. Performer."
     },
@@ -97,7 +97,7 @@
           "description": "Del álbum \"Born Again\". Música escrita, producida e interpretada por William \"B.A.\" Washington."
         },
         "ba-joker-open-verse": {
-          "description": "Me divertí metiéndome en el personaje para este 😈."
+          "description": "Me divertí metiéndome en personaje para este 😈."
         },
         "ba-lost-files-vol-1": {
           "description": "Música escrita, producida e interpretada por William \"B.A.\" Washington."
@@ -177,20 +177,20 @@
           "milestones": [
             "Spotify Viral 50 – Islandia #38 (mar. 2026)"
           ],
-          "role": "Featured Artist · DC6 Singers Collective"
+          "role": "Artista invitado · DC6 Singers Collective"
         },
         "sinners-this-little-light": {
-          "role": "Featured Artist · DC6 Singers Collective"
+          "role": "Artista invitado · DC6 Singers Collective"
         }
       },
       "listen": "Escuchar",
       "milestoneViral": "Spotify Viral 50",
-      "roleFeature": "Featured Artist",
+      "roleFeature": "Artista invitado",
       "rolePrefix": "Productor vocal"
     },
     "films": {
       "kpops": {
-        "description": "Actor destacado e intérprete en pantalla en K-Pops!, el debut como director del artista ganador de nueve Grammy Anderson .Paak.",
+        "description": "Actor destacado e intérprete en pantalla en K-Pops!, el debut como director del artista ganador del Grammy Anderson .Paak.",
         "details": [
           {
             "heading": "Sobre la película",
@@ -230,11 +230,11 @@
     },
     "projects": {
       "audiolab-intelligence": {
-        "description": "Diseñar una infraestructura de agentes privada y autónoma para la inteligencia de flujo de trabajo creativo, que opere las 24 horas del día, 7 días a la semana sin intervención humana.",
+        "description": "Diseño de una infraestructura privada de agentes autónomos para inteligencia de workflows creativos, operando 24/7 sin intervención humana.",
         "dmaic": {
           "A": "Identificadas brechas entre las herramientas creativas existentes y la automatización inteligente. Diseñado alrededor de estrictos límites de seguridad de solo lectura y orquestación multi-modelo.",
           "C": "Todas las salidas de los agentes registradas y rastreables. Sin secretos en memoria. Sin ejecución arbitraria. Monitoreo continuo mediante programador heartbeat.",
-          "D": "Diseñar una infraestructura de agentes privada y autónoma para la inteligencia de flujo de trabajo creativo, que opere las 24 horas del día, 7 días a la semana sin intervención humana.",
+          "D": "Diseñar una infraestructura privada de agentes autónomos para inteligencia de workflows creativos, operando 24/7 sin intervención humana.",
           "I": "Implementado sistema de agentes en contenedores con memoria estructurada, pipelines de inteligencia programados y restricciones de seguridad en capas.",
           "M": "Tiempo de actividad del sistema, tasa de finalización de tareas, cero escrituras no autorizadas al código de producción, cobertura completa del rastro de auditoría."
         },
@@ -249,7 +249,7 @@
           "Investigación y arquitectura",
           "Construcción del sistema central",
           "Integración de agentes",
-          "Endurecimiento de seguridad",
+          "Refuerzo de seguridad",
           "Optimización continua"
         ],
         "tools": [
@@ -268,7 +268,7 @@
           "C": "Todas las canciones prioritarias grabadas exitosamente. Los interesados dieron retroalimentación positiva. Activos de audio y visuales de alta calidad entregados para uso de archivo y marketing.",
           "D": "Producir arreglos de coros para 12 canciones del álbum de Calby, gestionando talento, logística de producción y presupuesto para Sony Music Denmark / Bogs Agency.",
           "I": "Creó y refinó arreglos vocales bajo presión, adquirió y gestionó talento vocal, coordinó sesiones de estudio, colaboró con videógrafos y entregó todas las canciones prioritarias dentro del presupuesto y el plazo.",
-          "M": "Completar los arreglos vocales, grabación exitosa de las canciones prioritarias, aprobación de los interesados y entrega de contenido de video promocional."
+          "M": "Finalización de arreglos vocales, grabación exitosa de las canciones priorizadas, aprobación de los arreglos por stakeholders y entrega de contenido de video promocional."
         },
         "outcomes": [
           "Arreglos vocales para 12 canciones entregados",
@@ -329,20 +329,20 @@
         ]
       },
       "heart-soul-image-village": {
-        "description": "Lideró los componentes coral y de estudio de grabación de Image Village 2023, un campamento de verano en Heart and Soul Center en South Central Los Angeles. Enseñó técnica vocal y habilidades de conjunto a dos grupos de edad mientras guiaba a los estudiantes a través de la composición, producción DAW y creación de videos musicales.",
+        "description": "Lideró los componentes de coro y estudio de grabación de Image Village 2023, un campamento de verano en Heart and Soul Center en South Central Los Angeles. Enseñó técnica vocal y habilidades de ensamble a dos grupos de edad mientras guiaba a estudiantes en composición, producción con DAW y creación de videos musicales.",
         "dmaic": {
           "A": "Enseñar a dos grupos de edad distintos con diferentes niveles de habilidad. Equilibrar el ensayo coral con la producción de estudio en tiempo limitado. Coordinar planes de lecciones, materiales y una presentación final dentro de un programa de tres semanas.",
-          "C": "Actuación final del campamento entregada exitosamente con ambos grupos de edad. Los estudiantes completaron proyectos de composición y producción. Video musical creado. Planes de lección ejecutados y documentados. Fotografías y videos archivados.",
+          "C": "Presentación final del campamento entregada con éxito con ambos grupos de edad. Los estudiantes completaron proyectos de composición y producción. Video musical creado. Planes de lecciones ejecutados y documentados. Material fotográfico y de video archivado para el portafolio.",
           "D": "Ofrecer un programa musical de campamento de verano en Heart and Soul Center que combine instrucción coral y educación en estudio de grabación para jóvenes de South Central Los Angeles.",
           "I": "Creó planes de lección completos con objetivos de aprendizaje claros. Enseñó técnica vocal, habilidades de conjunto y presencia escénica para el componente coral. Guió a los estudiantes a través de la composición, producción DAW y creación de videos musicales para el componente de estudio. Preparó a ambos grupos para la actuación final del campamento.",
-          "M": "Desarrollo de habilidades de los estudiantes en técnica vocal y producción musical, actuación exitosa al final del campamento, finalización del video musical de los estudiantes y entrega de planes de lección."
+          "M": "Desarrollo de habilidades de los estudiantes en técnica vocal y producción musical, presentación final exitosa del campamento, finalización del video musical de los estudiantes y entrega del plan de lecciones."
         },
         "outcomes": [
           "Presentación final con ambos grupos de edad",
           "Proyectos estudiantiles de composición y producción con DAW completados",
           "Video musical creado por los estudiantes",
           "Planes de clase integrales desarrollados y ejecutados",
-          "Material de foto y video archivado para el portfolio"
+          "Material de foto y video archivado para el portafolio"
         ],
         "role": "Director coral & instructor de recording studio",
         "timeline": [
@@ -363,11 +363,11 @@
         ]
       },
       "jimmy-gnarly-live": {
-        "description": "Colaboración para crear una actuación en vivo dinámica de un álbum inédito de alt. hip hop durante la pandemia global.",
+        "description": "Colaboración para crear una presentación en vivo dinámica de un álbum inédito de alt. hip hop durante la pandemia global.",
         "dmaic": {
           "A": "Resolvió el desafío creativo y logístico de montar un espectáculo en vivo convincente bajo las restricciones de la era pandémica.",
           "C": "Actuación completada y documentada. Sirvió como un proof-of-concept creativo controlado para el material inédito del artista.",
-          "D": "Producir una actuación en vivo dinámica de un álbum inédito de alt. hip hop durante la pandemia global.",
+          "D": "Producir una presentación en vivo dinámica de un álbum inédito de alt. hip hop durante la pandemia global.",
           "I": "Colaboró para diseñar y ejecutar un set en vivo de alta energía que dio vida al álbum sin un lanzamiento tradicional.",
           "M": "Impacto en la audiencia, cohesión artística y ejecución exitosa de un material inédito en formato en vivo."
         },
@@ -377,7 +377,7 @@
           "Actuación documentada bajo restricciones pandémicas",
           "Alto engagement de audiencia y cohesión artística"
         ],
-        "role": "Productor creativo & director de performance en vivo",
+        "role": "Productor creativo & director de presentaciones en vivo",
         "timeline": [
           "Conceptualización creativa",
           "Diseño de set & logística",
@@ -399,7 +399,7 @@
           "A": "Operar un conjunto sin audición dentro de un departamento fuera del área musical, gestionar la disminución de inscripciones, navegar las restricciones presupuestarias del departamento, trabajar con estudiantes de niveles de habilidad variados y trabajar dentro de un currículo establecido mientras se añade dirección personal a los ensayos y actuaciones.",
           "C": "Múltiples semestres de conciertos finales exitosos entregados. Los estudiantes desarrollaron técnica vocal y comprensión cultural en un conjunto sin audición. Las colaboraciones con exalumnos fortalecieron el legado del programa. Los materiales promocionales impulsaron consistentemente la asistencia del público.",
           "D": "Mantener y dirigir el LMU Gospel Choir dentro del Department of African American Studies, enfocándose en el desarrollo vocal de los estudiantes, actuaciones culturalmente fundamentadas y conciertos exitosos al final de cada semestre en todos los cuatro niveles del curso.",
-          "I": "Lideró un programa de coro gospel existente que combinaba la historia de la música gospel afroamericana con la formación vocal práctica. Enseñó música de memoria con apoyo de lectura de partitura. Proporcionó instrucción vocal individual y en grupos pequeños. Creó volantes y gráficos promocionales para actuaciones. Contrató músicos de sesión. Negoció la asignación del presupuesto con el liderazgo del departamento. Invitó a exalumnos a regresar como vocalistas principales en conciertos. Abogó por la cotización cruzada del curso para aumentar las inscripciones.",
+          "I": "Lideró un programa de coro gospel existente que combinaba la historia de la música gospel afroamericana con la formación vocal práctica. Enseñó música de memoria con apoyo de lectura de partitura. Proporcionó instrucción vocal individual y en grupos pequeños. Creó volantes y gráficos promocionales para actuaciones. Contrató músicos de sesión. Negoció la asignación del presupuesto con el liderazgo del departamento. Invitó a exalumnos a regresar como vocalistas principales en conciertos. Abogó por el listado cruzado del curso para aumentar las inscripciones.",
           "M": "Inscripción y retención de estudiantes en todos los niveles del curso sin audición, calidad de la actuación, crecimiento vocal durante el semestre, ejecución exitosa de los conciertos finales y compromiso comunitario."
         },
         "outcomes": [
@@ -407,14 +407,14 @@
           "Desarrollo vocal estudiantil y educación cultural entregados cada semestre",
           "Vocalistas alumni incorporados para colaboraciones en conciertos",
           "Materiales promocionales y volantes diseñados para presentaciones",
-          "Session musicians contratados y coordinados para presentaciones en vivo"
+          "Músicos de sesión contratados y coordinados para presentaciones en vivo"
         ],
         "role": "Director, LMU Gospel Choir",
         "timeline": [
           "Planificación semestral y presupuesto",
           "Reclutamiento y audiciones",
           "Ensayos y dirección",
-          "Producción de performance",
+          "Producción de presentaciones",
           "Concierto y evaluación"
         ],
         "tools": [
@@ -472,7 +472,7 @@
           "M": "Rastrear números de streaming, guardados, tasas de finalización y retención de oyentes en aproximadamente 30 lanzamientos durante 12 meses. Cada 45 días, revisar el rendimiento del clúster para ver qué estilo de oleada está ganando tracción y qué canciones individuales están subiendo."
         },
         "outcomes": [
-          "Aproximadamente 30 lanzamientos desplegados en clusters relacionales/energéticos alternos",
+          "Aproximadamente 30 lanzamientos desplegados en clústeres relacionales/energéticos alternos",
           "Cadencia quincenal de lanzamientos sostenida durante 12 meses",
           "Revisiones de rendimiento cada 45 días identificando tracks top-tier para reproducción",
           "Ingresos orgánicos de streaming generados sin gasto en marketing",
@@ -481,7 +481,7 @@
         ],
         "role": "Arquitecto de sistemas creativos y artista",
         "timeline": [
-          "Curaduría de catálogo",
+          "Curaduría del catálogo",
           "Iteración con IA y lanzamiento",
           "Seguimiento de rendimiento",
           "Evaluación de ingresos y licenciamiento",
@@ -510,7 +510,7 @@
           "12 lecciones que cubren voz, grabación, edición y mezcla",
           "3 cuestionarios y 6 tareas prácticas con ejemplos de audio descargables",
           "Plataforma de curso alojada construida y organizada para la usabilidad del estudiante",
-          "Framework de curso replicable establecido para futura expansión"
+          "Marco de curso replicable establecido para futura expansión"
         ],
         "role": "Creador del curso e instructor",
         "timeline": [
@@ -537,7 +537,7 @@
   "discography": {
     "charted": "En listas",
     "cmScore": "CM Score",
-    "disclaimer": "* Todos los datos de streaming y rendimiento provienen de Chartmetric. Exacto al {{date}}. Las reproducciones de Spotify representan totales acumulados de todos los tiempos.",
+    "disclaimer": "* Todos los datos de streaming y rendimiento provienen de Chartmetric. Exactos al {{date}}. Los streams de Spotify representan totales acumulados históricos.",
     "eyebrow": "MÚSICA",
     "intro": "Discografía selecta de proyectos notables como productor vocal, artista invitado o intérprete · {{tracks}} temas · obtenido de {{source}}",
     "line1": "{{streams}}M+",
@@ -552,19 +552,19 @@
     "backHome": "Volver al inicio",
     "breadcrumbFilm": "Cine",
     "breadcrumbHome": "Inicio",
-    "categoryFilm": "Cine & televisión",
+    "categoryFilm": "Cine y Televisión",
     "filmNotFound": "Película no encontrada",
     "listen": "Escuchar",
-    "mediaResources": "MEDIOS & RECURSOS",
+    "mediaResources": "MEDIOS Y RECURSOS",
     "next": "Siguiente",
     "previous": "Anterior",
-    "statusComplete": "Completo"
+    "statusComplete": "Completado"
   },
   "footer": {
     "copyright": "© 2026 Epiphany Music Group",
     "ctaLine1": "Hagamos algo",
     "ctaLine2": "que valga la pena escuchar.",
-    "ctaLink": "Ponte en contacto",
+    "ctaLink": "Contáctame",
     "location": "Los Angeles, CA"
   },
   "hero": {
@@ -575,7 +575,7 @@
   },
   "navigation": {
     "about": "Acerca de",
-    "artistWork": "Trabajo artístico",
+    "artistWork": "Artist Work",
     "contact": "Contacto",
     "film": "Cine",
     "home": "Inicio",
@@ -584,22 +584,22 @@
     "projects": "Proyectos"
   },
   "projectCard": {
-    "musicEducation": "Música & educación",
-    "musicProduction": "Música & producción",
+    "musicEducation": "Música y Educación",
+    "musicProduction": "Música y Producción",
     "systemsTechnology": "Sistemas y Tecnología",
     "viewDetails": "Ver detalles del proyecto"
   },
   "projectDetail": {
-    "approach": "El enfoque",
-    "backToWork": "Volver al trabajo",
+    "approach": "El Enfoque",
+    "backToWork": "Volver a proyectos",
     "breadcrumbHome": "Inicio",
-    "breadcrumbWork": "Trabajo",
+    "breadcrumbWork": "Proyectos",
     "bts": "BTS",
-    "categoryMusicEducation": "Música & educación",
-    "categoryMusicProduction": "Música & producción",
+    "categoryMusicEducation": "Música y Educación",
+    "categoryMusicProduction": "Música y Producción",
     "categorySystems": "Sistemas y Tecnología",
-    "challenge": "El desafío",
-    "choirRehearsal": "Ensayo de coro",
+    "challenge": "El Desafío",
+    "choirRehearsal": "Ensayo coral",
     "dmaicA": "A",
     "dmaicAnalyze": "Analizar",
     "dmaicC": "C",
@@ -615,10 +615,10 @@
     "dmaicQuestionD": "¿Cuál era el objetivo?",
     "dmaicQuestionI": "¿Qué se implementó?",
     "dmaicQuestionM": "¿Cómo se veía el éxito?",
-    "interlude": "Interlude",
+    "interlude": "Interludio",
     "keyOutcomes": "RESULTADOS CLAVE",
     "listen": "Escuchar",
-    "mediaResources": "MEDIOS & RECURSOS",
+    "mediaResources": "MEDIOS Y RECURSOS",
     "next": "Siguiente",
     "outcomes": "Resultados",
     "photo": "Foto",
@@ -627,15 +627,15 @@
     "processFramework": "MARCO DE PROCESO",
     "projectNotFound": "Proyecto no encontrado",
     "projectOverview": "RESUMEN DEL PROYECTO",
-    "projectTimeline": "CRONOLOGÍA DEL PROYECTO",
+    "projectTimeline": "CRONOGRAMA DEL PROYECTO",
     "prvblems": "PRVBLEMS",
-    "recordingStudio": "Recording Studio",
+    "recordingStudio": "Estudio de grabación",
     "rehearsal": "Ensayo",
     "statusActive": "Activo / En curso",
-    "statusComplete": "Completo",
+    "statusComplete": "Completado",
     "studioSession": "Sesión de estudio",
     "sundayService": "Sunday Service",
-    "toolsSkills": "HERRAMIENTAS & HABILIDADES",
+    "toolsSkills": "HERRAMIENTAS Y HABILIDADES",
     "watch": "Ver",
     "workflow": "Workflow"
   },
@@ -646,7 +646,7 @@
   "tvFilm": {
     "description": "Descripción",
     "eyebrow": "PANTALLA & SOUNDTRACK",
-    "heading": "Cine y televisión",
+    "heading": "Cine y Televisión",
     "intro": "Tendiendo puentes entre la música y la narrativa visual — desde soundtracks ganadores del GRAMMY hasta actuaciones en pantalla junto a íconos de la industria.",
     "role": "Rol",
     "studio": "Estudio",
@@ -654,14 +654,14 @@
     "year": "Año"
   },
   "videoCard": {
-    "lyricVideo": "Lyric video",
+    "lyricVideo": "Video lírico",
     "musicVideo": "Video musical"
   },
   "work": {
     "active": "Activo",
-    "complete": "Completo",
+    "complete": "Completado",
     "intro": "Una muestra transversal de proyectos que abarcan producción musical, educación comunitaria, arquitectura de sistemas y tecnología creativa — cada uno construido con la misma intención: crear algo significativo, escalable y humano. Cada proyecto se presenta en formato DMAIC (Definir, Medir, Analizar, Mejorar, Controlar) para que puedas ver cómo cada uno avanza del concepto al resultado medible.",
     "line1": "PROYECTOS",
-    "line2": "SELECCIONADOS"
+    "line2": "PROYECTOS"
   }
 }
