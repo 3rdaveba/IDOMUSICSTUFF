@@ -5,7 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 export default function ContactSection() {
-  const [formState, setFormState] = useState<'idle' | 'sending' | 'success'>('idle')
+  const [formState, setFormState] = useState<'idle' | 'sending' | 'success' | 'error'>('idle')
   const headlineRef = useRef<HTMLHeadingElement>(null)
   const detailsRef = useRef<HTMLDivElement>(null)
   const formRef = useRef<HTMLFormElement>(null)
@@ -59,14 +59,30 @@ export default function ContactSection() {
     }
   }, [])
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setFormState('sending')
 
-    // Simulate sending (since we're using Netlify forms, this would be a real submission)
-    setTimeout(() => {
-      setFormState('success')
-    }, 2000)
+    const form = e.currentTarget
+    const formData = new FormData(form)
+
+    try {
+      const response = await fetch('https://formspree.io/f/mredplgz', {
+        method: 'POST',
+        body: formData,
+        headers: {
+          Accept: 'application/json',
+        },
+      })
+
+      if (response.ok) {
+        setFormState('success')
+      } else {
+        setFormState('error')
+      }
+    } catch {
+      setFormState('error')
+    }
   }
 
   const inputStyle: React.CSSProperties = {
@@ -155,15 +171,46 @@ export default function ContactSection() {
                   Thank you! I&apos;ll be in touch soon.
                 </h3>
               </div>
+            ) : formState === 'error' ? (
+              <div className="flex flex-col items-center justify-center h-full min-h-[300px] space-y-4">
+                <h3
+                  className="font-display italic text-2xl md:text-3xl font-medium text-center"
+                  style={{ color: '#ef4444' }}
+                >
+                  Something went wrong.
+                </h3>
+                <p style={{ color: 'var(--text-secondary)' }}>
+                  Please email me directly at{' '}
+                  <a
+                    href="mailto:William@epiphanymusicgroup.com"
+                    style={{ color: 'var(--accent-amber)' }}
+                    className="hover:underline"
+                  >
+                    William@epiphanymusicgroup.com
+                  </a>
+                </p>
+                <button
+                  type="button"
+                  onClick={() => setFormState('idle')}
+                  className="text-nav transition-all duration-300 hover:scale-[1.02]"
+                  style={{
+                    backgroundColor: 'var(--accent-amber)',
+                    color: 'var(--bg-void)',
+                    padding: '12px 32px',
+                    borderRadius: 4,
+                    border: 'none',
+                    cursor: 'pointer',
+                  }}
+                >
+                  TRY AGAIN
+                </button>
+              </div>
             ) : (
               <form
                 ref={formRef}
                 onSubmit={handleSubmit}
-                name="contact"
-                data-netlify="true"
                 className="space-y-5"
               >
-                <input type="hidden" name="form-name" value="contact" />
 
                 <div>
                   <label htmlFor="name" style={labelStyle}>Name</label>
