@@ -1,0 +1,202 @@
+[
+  {
+    "key": "projectDetail.recordingStudio",
+    "filled": "Optagestudie",
+    "claude": "Optagelsesstudio",
+    "codex": "Recording Studio",
+    "gemini": "Optagestudie",
+    "selected": "Optagestudie"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.tools[4]",
+    "filled": "Klyngebaseret udgivelsesplanlægning",
+    "claude": "Klyngebaseret udgivelsesplanlægning",
+    "codex": "Cluster-Based Release Scheduling",
+    "gemini": "Cluster-baseret udgivelsesplanlægning",
+    "selected": "Klyngebaseret udgivelsesplanlægning"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.tools[1]",
+    "filled": "Vokal Arrangement",
+    "claude": "Vokalopstilling",
+    "codex": "Vocal Arranging",
+    "gemini": "Vokalarrangement",
+    "selected": "Vokal Arrangement"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.tools[6]",
+    "filled": "Multi-track optagelse",
+    "claude": "Flersporet optagelse",
+    "codex": "Multi-Track Recording",
+    "gemini": "Multi-track optagelse",
+    "selected": "Multi-track optagelse"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.tools[0]",
+    "filled": "Vokal Arrangement",
+    "claude": "Vokalopstilling",
+    "codex": "Vocal Arranging",
+    "gemini": "Vokalarrangement",
+    "selected": "Vokal Arrangement"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.tools[5]",
+    "filled": "Ensembleretning",
+    "claude": "Ensembleledelse",
+    "codex": "Ensemble Direction",
+    "gemini": "Ensembleretning",
+    "selected": "Ensembleretning"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.tools[4]",
+    "filled": "Kreativ retning",
+    "claude": "Kreativ ledelse",
+    "codex": "Creative Direction",
+    "gemini": "Kreativ retning",
+    "selected": "Kreativ retning"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.tools[0]",
+    "filled": "Vokal retning",
+    "claude": "Vokalledelse",
+    "codex": "Vocal Direction",
+    "gemini": "Vokalretning",
+    "selected": "Vokal retning"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.tools[5]",
+    "filled": "Alumni relationer",
+    "claude": "Alumnerelationer",
+    "codex": "Alumni Relations",
+    "gemini": "Alumni-relationer",
+    "selected": "Alumni relationer"
+  },
+  {
+    "key": "data.discography.rolePrefix",
+    "filled": "Vokal producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "selected": "Vokal producer"
+  },
+  {
+    "key": "data.discography.entries.lukas-graham-you.role",
+    "filled": "Vokal producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "selected": "Vokal producer"
+  },
+  {
+    "key": "data.discography.entries.lukas-graham-share-that-love.role",
+    "filled": "Vokal producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "selected": "Vokal producer"
+  },
+  {
+    "key": "data.discography.entries.lukas-graham-share-that-love.milestones[0]",
+    "filled": "Deezer Ecuador Chart #78 (april 2025)",
+    "claude": "Deezer Ecuador Chart #78 (apr. 2025)",
+    "codex": "Deezer Ecuador Chart #78 (Apr 2025)",
+    "gemini": "Deezer Ecuador hitliste #78 (april 2025)",
+    "selected": "Deezer Ecuador Chart #78 (april 2025)"
+  },
+  {
+    "key": "data.discography.entries.lady-gaga-babylon.role",
+    "filled": "Vokal producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "selected": "Vokal producer"
+  },
+  {
+    "key": "data.discography.entries.lady-gaga-babylon.milestones[0]",
+    "filled": "Deezer Estonia Chart #48 (januar 2026)",
+    "claude": "Deezer Estonia Chart #48 (jan. 2026)",
+    "codex": "Deezer Estonia Chart #48 (Jan 2026)",
+    "gemini": "Deezer Estland hitliste #48 (januar 2026)",
+    "selected": "Deezer Estonia Chart #48 (januar 2026)"
+  },
+  {
+    "key": "data.discography.entries.kesi-tilbage.role",
+    "filled": "Vokal producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "selected": "Vokal producer"
+  },
+  {
+    "key": "data.discography.entries.future-animals-crazy-love.role",
+    "filled": "Vokal producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "selected": "Vokal producer"
+  },
+  {
+    "key": "data.discography.entries.matoma-its-christmas-time.role",
+    "filled": "Vokal producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "selected": "Vokal producer"
+  },
+  {
+    "key": "data.discography.entries.hedegaard-need-you.role",
+    "filled": "Vokal producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "selected": "Vokal producer"
+  },
+  {
+    "key": "data.discography.entries.matoma-sunday-morning.role",
+    "filled": "Vokal producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "selected": "Vokal producer"
+  },
+  {
+    "key": "data.discography.entries.lukas-graham-promise.role",
+    "filled": "Vokal producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "selected": "Vokal producer"
+  },
+  {
+    "key": "data.discography.entries.lukas-graham-hold-my-hand.role",
+    "filled": "Vokal producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "selected": "Vokal producer"
+  },
+  {
+    "key": "data.discography.entries.lukas-graham-say-yes.role",
+    "filled": "Vokal producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "selected": "Vokal producer"
+  },
+  {
+    "key": "data.discography.entries.lukas-graham-youre-not-the-only-one.role",
+    "filled": "Vokal producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "selected": "Vokal producer"
+  },
+  {
+    "key": "data.artistWork.entries.ba-rain-rain-remix.description",
+    "filled": "🌧️ regn regn, gå væk ... men anderledes. ☔️",
+    "claude": "🌧️ rain rain, go away…but different. ☔️",
+    "codex": "🌧️ rain rain, go away…men anderledes. ☔️",
+    "gemini": "🌧️ rain rain, go away… men anderledes. ☔️",
+    "selected": "🌧️ regn regn, gå væk ... men anderledes. ☔️"
+  }
+]

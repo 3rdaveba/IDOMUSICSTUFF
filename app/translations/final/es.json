@@ -26,7 +26,7 @@
     "emailLabel": "Email",
     "errorMessage": "Algo salió mal.",
     "formEmailLabel": "Email",
-    "formEmailPlaceholder": "your@email.com",
+    "formEmailPlaceholder": "tu@email.com",
     "formMessageLabel": "Mensaje",
     "formMessagePlaceholder": "Cuéntame sobre tu proyecto...",
     "formNameLabel": "Nombre",
@@ -60,9 +60,9 @@
         "features": "3",
         "releases": "10+",
         "videos": "4",
-        "yearsActive": "2016–Present"
+        "yearsActive": "2016–Presente"
       },
-      "tagline": "Writer. Producer. Performer."
+      "tagline": "Escritor. Productor. Ejecutante."
     },
     "artistWork": {
       "categories": {
@@ -115,7 +115,7 @@
           "description": "Crédito de colaboración. Disponible en Spotify, Apple Music y Tidal."
         },
         "ba-rain-rain-remix": {
-          "description": "🌧️ rain rain, go away…but different. ☔️"
+          "description": "🌧️llueve lluvia, vete…pero diferente. ☔️"
         },
         "ba-the-last-supper": {
           "description": "Música escrita, producida e interpretada por William \"B.A.\" Washington."
@@ -142,7 +142,7 @@
         },
         "lady-gaga-babylon": {
           "milestones": [
-            "Deezer Estonia Chart #48 (Jan 2026)"
+            "Gráfico de Deezer Estonia n.º 48 (enero de 2026)"
           ],
           "role": "Productor vocal"
         },
@@ -157,7 +157,7 @@
         },
         "lukas-graham-share-that-love": {
           "milestones": [
-            "Deezer Ecuador Chart #78 (Apr 2025)"
+            "Gráfico Deezer Ecuador #78 (abril 2025)"
           ],
           "role": "Productor vocal"
         },
@@ -185,7 +185,7 @@
       },
       "listen": "Escuchar",
       "milestoneViral": "Spotify Viral 50",
-      "roleFeature": "Featured Artist",
+      "roleFeature": "Artista invitado",
       "rolePrefix": "Productor vocal"
     },
     "films": {
@@ -205,8 +205,8 @@
             "text": "La banda sonora es una mezcla perfecta del característico sonido soul-funk de Anderson .Paak con producción auténtica de K-pop, moldeada en colaboración con el legendario productor Dem Jointz. La película incluye canciones originales y colaboraciones como \"Keychain\" con aespa, \"Aftertaste\" con DEAN y contribuciones de NMIXX. Las apariciones cameo en la película incluyen a Vernon of Seventeen, Jessi, Jay Park, The Rose, IShowSpeed, Saweetie, Jaden Smith, Diplo y Earth, Wind & Fire."
           }
         ],
-        "recognition": "Featured Film Performance",
-        "role": "Featured Actor & Onscreen Performer"
+        "recognition": "Actuación de película destacada",
+        "role": "Actor destacado e intérprete en pantalla"
       },
       "sinners": {
         "description": "Vocalista destacado en la banda sonora original de Sinners, la película de Warner Bros. de 2025 escrita y dirigida por Ryan Coogler.",
@@ -225,7 +225,7 @@
           }
         ],
         "recognition": "GRAMMY® Award Winner",
-        "role": "Featured Vocalist — Original Motion Picture Soundtrack"
+        "role": "Vocalista destacado: banda sonora original de la película"
       }
     },
     "projects": {
@@ -255,9 +255,9 @@
           "Docker",
           "Python",
           "LLM Orchestration",
-          "Structured Memory Systems",
-          "Heartbeat Scheduling",
-          "Read-Only Security Boundaries"
+          "Sistemas de memoria estructurada",
+          "Programación de latidos",
+          "Límites de seguridad de solo lectura"
         ]
       },
       "calby-inner-critic": {
@@ -285,13 +285,13 @@
         ],
         "tools": [
           "Pro Tools",
-          "Vocal Arranging",
-          "BGV Production",
-          "Talent Management",
-          "Budget Management",
-          "Studio Coordination",
-          "Multi-Track Recording",
-          "Video Collaboration"
+          "Arreglos vocales",
+          "Producción de BGV",
+          "Gestión de talento",
+          "Gestión Presupuestaria",
+          "Coordinación de estudio",
+          "Grabación multipista",
+          "Colaboración en video"
         ]
       },
       "heart-soul-image-village": {
@@ -318,13 +318,13 @@
           "Documentación y archivo"
         ],
         "tools": [
-          "Vocal Instruction",
-          "DAW Production",
-          "Songwriting",
-          "Music Video Production",
-          "Lesson Planning",
-          "Ensemble Direction",
-          "Youth Education"
+          "Instrucción vocal",
+          "Producción DAW",
+          "Componer canciones",
+          "Producción de videos musicales",
+          "Planificación de lecciones",
+          "Dirección de conjunto",
+          "Educación juvenil"
         ]
       },
       "jimmy-gnarly-live": {
@@ -350,11 +350,11 @@
           "Documentación y archivo"
         ],
         "tools": [
-          "Live Production",
-          "Stage Design",
-          "Pandemic Safety Protocols",
-          "Multi-Camera Capture",
-          "Creative Direction"
+          "Producción en vivo",
+          "Diseño de escenario",
+          "Protocolos de seguridad ante una pandemia",
+          "Captura multicámara",
+          "Dirección creativa"
         ]
       },
       "lmu-gospel-choir": {
@@ -381,14 +381,14 @@
           "Concierto y evaluación"
         ],
         "tools": [
-          "Vocal Direction",
-          "Program Leadership",
-          "Graphic Design",
-          "Budget Negotiation",
-          "Talent Acquisition",
-          "Alumni Relations",
-          "Event Planning",
-          "Music Selection"
+          "Dirección vocal",
+          "Liderazgo del programa",
+          "Diseño gráfico",
+          "Negociación Presupuestaria",
+          "Adquisición de talento",
+          "Relaciones con exalumnos",
+          "Planificación de eventos",
+          "Selección musical"
         ]
       },
       "lukas-graham-purple": {
@@ -415,13 +415,13 @@
           "Lanzamiento internacional"
         ],
         "tools": [
-          "Vocal Arranging",
+          "Arreglos vocales",
           "Pro Tools",
-          "Talent Acquisition",
-          "Session Direction",
-          "Stakeholder Negotiation",
-          "Comping & Tuning",
-          "International Collaboration"
+          "Adquisición de talento",
+          "Dirección de la sesión",
+          "Negociación con partes interesadas",
+          "Comping y afinación",
+          "Colaboración internacional"
         ]
       },
       "the-reimagination-engine": {
@@ -450,11 +450,11 @@
         ],
         "tools": [
           "Suno",
-          "AI Music Tools",
+          "Herramientas musicales de IA",
           "DSP Streaming",
-          "Metadata Systems",
-          "Cluster-Based Release Scheduling",
-          "45-Day Review Cycles"
+          "Sistemas de metadatos",
+          "Programación de lanzamientos basada en clústeres",
+          "Ciclos de revisión de 45 días"
         ]
       }
     }
@@ -534,7 +534,7 @@
     "dmaicQuestionD": "¿Cuál era el objetivo?",
     "dmaicQuestionI": "¿Qué se implementó?",
     "dmaicQuestionM": "¿Cómo se veía el éxito?",
-    "interlude": "Interlude",
+    "interlude": "Interludio",
     "keyOutcomes": "RESULTADOS CLAVE",
     "listen": "Escuchar",
     "mediaResources": "MEDIOS & RECURSOS",
@@ -548,7 +548,7 @@
     "projectOverview": "RESUMEN DEL PROYECTO",
     "projectTimeline": "CRONOLOGÍA DEL PROYECTO",
     "prvblems": "PRVBLEMS",
-    "recordingStudio": "Recording Studio",
+    "recordingStudio": "Estudio de grabación",
     "rehearsal": "Ensayo",
     "statusActive": "Activo / En curso",
     "statusComplete": "Completo",
