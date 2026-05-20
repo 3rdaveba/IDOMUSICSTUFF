@@ -463,6 +463,62 @@
           "Cluster-Based Release Scheduling",
           "45-Day Review Cycles"
         ]
+      },
+      "creative-intelligence-production-system": {
+        "description": "Byg en privat AI-produktionsassistent, der kører 24/7 og håndterer forskning, organisation og kreativt forberedelsesarbejde, så mennesket kan fokusere på den faktiske kunst. Den koordinerer flere AI-modeller, fører detaljerede logfiler og har indbyggede autoværn, så den aldrig rører færdigt arbejde uden tilladelse.",
+        "role": "Arkitekt & Systemdesigner",
+        "dmaic": {
+          "D": "Byg et privat AI-system, der håndterer kreative produktionsopgaver døgnet rundt - research, organisering og forberedelse af arbejde - så mennesket kan fokusere på de faktiske kreative beslutninger.",
+          "M": "Kører systemet pålideligt? Er opgaverne færdige? Bliver den i sin bane (kun forskning og forberedelse, ingen rørende slutarbejde)? Kan hver handling gennemgås senere?",
+          "A": "De fleste kreative værktøjer har stadig brug for en menneskelig babysitter hvert trin. Udfordringen var at bygge noget, der kunne fungere uafhængigt uden at risikere det faktiske kreative output - så det var designet til kun at observere, organisere og foreslå, for aldrig at overskrive færdigt arbejde.",
+          "I": "Bygget et modulært system, hvor forskellige AI-specialister håndterer forskellige opgaver (forskning, organisation, analyse), med delt hukommelse, så de ikke dublerer arbejde. Planlagte daglige kørsler og lagdelt sikkerhed, så systemet kun kan læse og forberede - aldrig udgive eller overskrive.",
+          "C": "Hver handling logges og kan gennemgås. Ingen adgangskoder eller følsomme data gemt i systemet. Det kan ikke køre tilfældige kommandoer. Sundhedstjek kører automatisk for at fange problemer tidligt."
+        },
+        "timeline[0]": "Forskning og arkitektur",
+        "timeline[1]": "Opbygning af kernesystem",
+        "timeline[2]": "AI Specialist Integration",
+        "timeline[3]": "Sikkerhed og autoværn",
+        "timeline[4]": "Løbende optimering",
+        "tools[0]": "Docker",
+        "tools[1]": "Python",
+        "tools[2]": "Multiple AI Model Coordination",
+        "tools[3]": "Delt hukommelse og kontekst",
+        "tools[4]": "Automatiseret planlægning",
+        "tools[5]": "Sikkerhedsværn",
+        "outcomes[0]": "AI-assistent kører kontinuerligt uden supervision",
+        "outcomes[1]": "Kreativt arbejde forbliver beskyttet mod utilsigtede ændringer",
+        "outcomes[2]": "Fuldstændig registrering af hver systemhandling",
+        "outcomes[3]": "Flere AI-specialister arbejder sammen som ét team"
+      },
+      "vocal-production-lab": {
+        "description": "Et online instruktionskursus designet til at lære mellemliggende musikteknologibrugere, hvad vokalproduktion er, hvorfor det betyder noget, og hvordan man opnår professionelle vokaloptagelser derhjemme eller i studiet.",
+        "role": "Kursusskaber & instruktør",
+        "dmaic": {
+          "D": "Opret et tilgængeligt onlinekursus, der underviser i vokalproduktionskoncepter - fra forståelse af stemmen til optagelse, redigering og mixning - uden at kræve dyrt udstyr eller alt for komplekst sprog.",
+          "M": "Kursets fuldstændighed på tværs af 12 lektioner, 3 quizzer og 6 praktiske opgaver; videoproduktionskvalitet; elevernes forståelse og engagement; og platformens anvendelighed.",
+          "A": "Vokalproduktion er et nichefokus med begrænsede konsoliderede læringsressourcer. At skabe engagerende pædagogisk videoindhold krævede løsning af kontinuitet på tværs af flere optagedage, håndtering af miljøstøj og læring af en ukendt hostingplatform.",
+          "I": "Producerede 16 videoer inklusive 12 lektioner, en introduktion, en kursusafslutning og en trailer. Filmet i et hjemmestudie ved hjælp af flere kameravinkler og skærmoptagelser. Redigeret med motion graphics, lyddesign og professionelle titler. Byggede kurset om Thinkific med organiseret pensum, quizzer og lydeksempler, der kan downloades, kompatible med enhver DAW.",
+          "C": "Kurset er offentliggjort og tilgængeligt for studerende. Indhold organiseret med klare lektionsmål, opgaver og vurderinger. Ramme designet til at kunne kopieres til fremtidige kurser i musikteknologi og relaterede emner."
+        },
+        "timeline[0]": "Forskning & læseplansdesign",
+        "timeline[1]": "Scripting og lektionsplanlægning",
+        "timeline[2]": "Film og produktion",
+        "timeline[3]": "Redigering & Post-produktion",
+        "timeline[4]": "Opbygning og udgivelse af platforme",
+        "tools[0]": "Adobe Premiere Pro",
+        "tools[1]": "OBS Studio",
+        "tools[2]": "Tænkende",
+        "tools[3]": "Canva",
+        "tools[4]": "Håndbremse",
+        "tools[5]": "Motion Graphics",
+        "tools[6]": "Lyddesign",
+        "tools[7]": "Teleprompter retning",
+        "tools[8]": "Hjemmestudieproduktion",
+        "outcomes[0]": "16-video kursus udgivet med professionel motion graphics og titler",
+        "outcomes[1]": "12 lektioner, der dækker stemme, optagelse, redigering og mix",
+        "outcomes[2]": "3 quizzer og 6 praktiske opgaver med lydeksempler, der kan downloades",
+        "outcomes[3]": "Hostet kursusplatform bygget og organiseret til elevernes brugervenlighed",
+        "outcomes[4]": "Replikerbar kursusramme etableret for fremtidig udvidelse"
       }
     }
   },

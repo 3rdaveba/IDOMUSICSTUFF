@@ -463,6 +463,62 @@
           "Cluster-Based Release Scheduling",
           "45-Day Review Cycles"
         ]
+      },
+      "creative-intelligence-production-system": {
+        "description": "Cree un asistente de producción de IA privado que funcione las 24 horas del día, los 7 días de la semana, que se encargue de la investigación, la organización y el trabajo de preparación creativa para que el ser humano pueda concentrarse en el arte real. Coordina múltiples modelos de IA, mantiene registros detallados y tiene barandillas integradas para que nunca toque el trabajo terminado sin permiso.",
+        "role": "Arquitecta y diseñadora de sistemas",
+        "dmaic": {
+          "D": "Cree un sistema de inteligencia artificial privado que maneje tareas de producción creativa las 24 horas del día (investigación, organización y preparación del trabajo) para que el ser humano pueda concentrarse en las decisiones creativas reales.",
+          "M": "¿El sistema está funcionando de manera confiable? ¿Se están terminando las tareas? ¿Se mantiene en su carril (solo investigación y preparación, sin tocar el trabajo final)? ¿Se puede revisar cada acción más tarde?",
+          "A": "La mayoría de las herramientas creativas todavía necesitan que un ser humano cuide cada paso. El desafío era construir algo que pudiera funcionar de forma independiente sin poner en riesgo la producción creativa real, por lo que fue diseñado solo para observar, organizar y sugerir, nunca para sobrescribir el trabajo terminado.",
+          "I": "Construí un sistema modular donde diferentes especialistas en IA manejan diferentes tareas (investigación, organización, análisis), con memoria compartida para que no dupliquen el trabajo. Ejecuciones diarias programadas y seguridad en capas para que el sistema solo pueda leer y preparar, nunca publicar ni sobrescribir.",
+          "C": "Cada acción se registra y se puede revisar. No se almacenan contraseñas ni datos confidenciales en el sistema. No puede ejecutar comandos aleatorios. Los controles de estado se ejecutan automáticamente para detectar problemas a tiempo."
+        },
+        "timeline[0]": "Investigación y Arquitectura",
+        "timeline[1]": "Construcción del sistema central",
+        "timeline[2]": "Integración de especialistas en IA",
+        "timeline[3]": "Seguridad y barandillas",
+        "timeline[4]": "Optimización continua",
+        "tools[0]": "Estibador",
+        "tools[1]": "Pitón",
+        "tools[2]": "Coordinación de múltiples modelos de IA",
+        "tools[3]": "Memoria compartida y contexto",
+        "tools[4]": "Programación automatizada",
+        "tools[5]": "Barandillas de seguridad",
+        "outcomes[0]": "El asistente de IA se ejecuta continuamente sin supervisión",
+        "outcomes[1]": "El trabajo creativo permanece protegido contra cambios accidentales",
+        "outcomes[2]": "Registro completo de cada acción del sistema.",
+        "outcomes[3]": "Múltiples especialistas en IA trabajando juntos como un solo equipo"
+      },
+      "vocal-production-lab": {
+        "description": "Un curso de instrucción en línea diseñado para enseñar a usuarios intermedios de tecnología musical qué es la producción vocal, por qué es importante y cómo lograr grabaciones vocales profesionales en casa o en el estudio.",
+        "role": "Creador e instructor del curso",
+        "dmaic": {
+          "D": "Cree un curso en línea accesible que enseñe conceptos de producción vocal, desde comprender la voz hasta grabar, editar y mezclar, sin necesidad de equipos costosos ni lenguaje demasiado complejo.",
+          "M": "Compleción del curso en 12 lecciones, 3 cuestionarios y 6 tareas prácticas; calidad de producción de vídeo; comprensión y participación de los estudiantes; y usabilidad de la plataforma.",
+          "A": "La producción vocal es un enfoque de nicho con recursos de aprendizaje consolidados limitados. Crear contenido de vídeo educativo atractivo requirió resolver la continuidad a lo largo de varios días de filmación, gestionar el ruido ambiental y aprender una plataforma de alojamiento desconocida.",
+          "I": "Produje 16 videos que incluyen 12 lecciones, una introducción, un final del curso y un avance. Filmado en un estudio casero utilizando múltiples ángulos de cámara y grabaciones de pantalla. Editado con gráficos en movimiento, diseño de sonido y títulos profesionales. Creó el curso en Thinkific con un plan de estudios organizado, cuestionarios y ejemplos de audio descargables compatibles con cualquier DAW.",
+          "C": "Curso publicado y disponible para estudiantes. Contenido organizado con objetivos de lección, tareas y evaluaciones claros. Marco diseñado para ser replicable para futuros cursos en tecnología musical y temas relacionados."
+        },
+        "timeline[0]": "Investigación y diseño curricular",
+        "timeline[1]": "Escritura y planificación de lecciones",
+        "timeline[2]": "Filmación y producción",
+        "timeline[3]": "Edición y postproducción",
+        "timeline[4]": "Creación y publicación de plataformas",
+        "tools[0]": "Adobe Premiere Pro",
+        "tools[1]": "Estudio OBS",
+        "tools[2]": "Pensativa",
+        "tools[3]": "Canva",
+        "tools[4]": "Freno de mano",
+        "tools[5]": "Gráficos en movimiento",
+        "tools[6]": "Diseño de sonido",
+        "tools[7]": "Dirección del teleprompter",
+        "tools[8]": "Producción de estudio en casa",
+        "outcomes[0]": "Curso de 16 vídeos publicados con títulos y gráficos en movimiento profesionales.",
+        "outcomes[1]": "12 lecciones que cubren voz, grabación, edición y mezcla.",
+        "outcomes[2]": "3 cuestionarios y 6 tareas prácticas con ejemplos de audio descargables",
+        "outcomes[3]": "Plataforma de cursos alojada creada y organizada para la usabilidad de los estudiantes",
+        "outcomes[4]": "Marco de curso replicable establecido para una futura expansión"
       }
     }
   },
