@@ -34,8 +34,9 @@ export default function LanguageSwitcher() {
       {/* Floating circle button */}
       <button
         onClick={() => setOpen((o) => !o)}
-        className="fixed bottom-6 right-6 z-40 flex items-center justify-center rounded-full transition-all duration-200 hover:scale-105"
+        className="fixed right-6 z-40 flex items-center justify-center rounded-full transition-all duration-200 hover:scale-105"
         style={{
+          bottom: 'calc(24px + env(safe-area-inset-bottom, 0px))',
           width: 48,
           height: 48,
           backgroundColor: 'var(--bg-surface)',
@@ -60,8 +61,9 @@ export default function LanguageSwitcher() {
       {/* Dropdown */}
       {open && (
         <div
-          className="fixed bottom-20 right-6 z-40 overflow-hidden rounded-md"
+          className="fixed right-6 z-40 overflow-hidden rounded-md"
           style={{
+            bottom: 'calc(80px + env(safe-area-inset-bottom, 0px))',
             backgroundColor: 'var(--bg-surface)',
             border: '1px solid var(--border-color)',
             boxShadow: '0 8px 32px rgba(0,0,0,0.3)',
