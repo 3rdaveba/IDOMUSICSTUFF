@@ -399,6 +399,74 @@
           "Session musicians hired and coordinated for live performances"
         ],
         "role": "Director, LMU Gospel Choir"
+      },
+      "creative-intelligence-production-system": {
+        "description": "Build a private AI production assistant that runs 24/7, handling research, organization, and creative prep work so the human can focus on the actual art. It coordinates multiple AI models, keeps detailed logs, and has built-in guardrails so it never touches finished work without permission.",
+        "dmaic": {
+          "D": "Build a private AI system that handles creative production tasks around the clock — researching, organizing, and preparing work — so the human can focus on the actual creative decisions.",
+          "M": "Is the system running reliably? Are tasks getting finished? Is it staying in its lane (research and prep only, no touching final work)? Can every action be reviewed later?",
+          "A": "Most creative tools still need a human babysitting every step. The challenge was building something that could work independently without risking the actual creative output — so it was designed to only observe, organize, and suggest, never to overwrite finished work.",
+          "I": "Built a modular system where different AI specialists handle different tasks (research, organization, analysis), with shared memory so they do not duplicate work. Scheduled daily runs and layered security so the system can only read and prepare — never publish or overwrite.",
+          "C": "Every action is logged and reviewable. No passwords or sensitive data stored in the system. It cannot run random commands. Health checks run automatically to catch issues early."
+        },
+        "timeline": [
+          "Research & Architecture",
+          "Core System Build",
+          "AI Specialist Integration",
+          "Safety & Guardrails",
+          "Ongoing Optimization"
+        ],
+        "tools": [
+          "Docker",
+          "Python",
+          "Multiple AI Model Coordination",
+          "Shared Memory & Context",
+          "Automated Scheduling",
+          "Safety Guardrails"
+        ],
+        "outcomes": [
+          "AI assistant runs continuously without supervision",
+          "Creative work stays protected from accidental changes",
+          "Complete record of every system action",
+          "Multiple AI specialists working together as one team"
+        ],
+        "role": "Architect & Systems Designer"
+      },
+      "vocal-production-lab": {
+        "description": "An online instructional course designed to teach intermediate music technology users what vocal production is, why it matters, and how to achieve professional vocal recordings at home or in the studio.",
+        "dmaic": {
+          "D": "Create an accessible online course that teaches vocal production concepts — from understanding the voice through recording, editing, and mixing — without requiring expensive equipment or overly complex language.",
+          "M": "Course completeness across 12 lessons, 3 quizzes, and 6 practical assignments; video production quality; student comprehension and engagement; and platform usability.",
+          "A": "Vocal production is a niche focus with limited consolidated learning resources. Creating engaging educational video content required solving continuity across multiple filming days, managing environmental noise, and learning an unfamiliar hosting platform.",
+          "I": "Produced 16 videos including 12 lessons, an introduction, a course ending, and a trailer. Filmed in a home studio using multiple camera angles and screen recordings. Edited with motion graphics, sound design, and professional titles. Built the course on Thinkific with organized curriculum, quizzes, and downloadable audio examples compatible with any DAW.",
+          "C": "Course published and available for students. Content organized with clear lesson objectives, assignments, and assessments. Framework designed to be replicable for future courses in music technology and related topics."
+        },
+        "timeline": [
+          "Research & Curriculum Design",
+          "Scripting & Lesson Planning",
+          "Filming & Production",
+          "Editing & Post-Production",
+          "Platform Build & Publishing"
+        ],
+        "tools": [
+          "Adobe Premiere Pro",
+          "OBS Studio",
+          "Thinkific",
+          "Canva",
+          "HandBrake",
+          "Motion Graphics",
+          "Sound Design",
+          "Teleprompter Direction",
+          "Home Studio Production"
+        ],
+        "outcomes": [
+          "16-video course published with professional motion graphics and titles",
+          "12 lessons covering voice, recording, editing, and mixing",
+          "3 quizzes and 6 practical assignments with downloadable audio examples",
+          "Hosted course platform built and organized for student usability",
+          "Replicable course framework established for future expansion"
+        ],
+        "role": "Course Creator & Instructor"
       }
     },
     "films": {

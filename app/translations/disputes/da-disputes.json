@@ -13,8 +13,8 @@
     "english": "Throughout my career, I've built a body of experience across music, live performance, education, and creative project management. As an artist, stage performer, audio engineer, and collaborator, I've had the opportunity to help bring ideas to life across a wide range of spaces…from live events and recording sessions to student programs, community initiatives, and artist-driven projects.",
     "claude": "Gennem min karriere har jeg opbygget en bred erfaring inden for musik, liveoptrædener, uddannelse og kreativ projektledelse. Som kunstner, sceneoptræder, lydingenør og samarbejdspartner har jeg haft mulighed for at hjælpe med at virkeliggøre idéer på tværs af mange forskellige arenaer…fra livearrangementer og studieoptagelser til studenterprogrammer, fællesskabsinitiativer og kunstnerdrevne projekter.",
     "codex": "Gennem min karriere har jeg opbygget omfattende erfaring som artist, liveperformer, lydtekniker og kreativ projektleder. Fra at organisere liveoptrædener, samarbejde med artister, undervise studerende og arbejde med oversete lokalsamfund har jeg skabt en dokumenteret evne til at føre projekter fra idé til færdigt resultat.",
-    "gemini": "I løbet af min karriere har jeg opnået omfattende erfaring som artist, sceneperformer, lydtekniker og kreativ projektleder. Fra organisering af liveoptrædener og samarbejde med artister til undervisning af studerende og arbejde med udsatte lokalsamfund, har jeg opbygget en track record for succesfuldt at levere projekter fra koncept til færdiggørelse.",
-    "reason": "No consensus — similarities: C↔X=0.43, C↔G=0.37, X↔G=0.73",
+    "gemini": "I løbet af min karriere har jeg opbygget en bred erfaring inden for musik, liveoptrædener, uddannelse og kreativ projektledelse. Som artist, sceneperformer, lydtekniker og samarbejdspartner har jeg haft mulighed for at hjælpe med at virkeliggøre idéer på tværs af mange forskellige arenaer…fra livearrangementer og studieoptagelser til studenterprogrammer, fællesskabsinitiativer og kunstnerdrevne projekter.",
+    "reason": "No consensus — similarities: C↔X=0.43, C↔G=0.93, X↔G=0.41",
     "chosen": "Gennem min karriere har jeg opbygget en bred erfaring inden for musik, liveoptrædener, uddannelse og kreativ projektledelse. Som kunstner, sceneoptræder, lydingenør og samarbejdspartner har jeg haft mulighed for at hjælpe med at virkeliggøre idéer på tværs af mange forskellige arenaer…fra livearrangementer og studieoptagelser til studenterprogrammer, fællesskabsinitiativer og kunstnerdrevne projekter."
   },
   {
@@ -22,8 +22,8 @@
     "english": "My work is rooted in creating impactful experiences, supporting creative vision, and guiding projects from concept to completion with intention, care, and professionalism. This portfolio offers a look into my creative process, the work I've contributed to, and the projects that reflect my passion for building experiences that connect with people.",
     "claude": "Mit arbejde er forankret i at skabe virkningsfulde oplevelser, støtte kreativ vision og guide projekter fra idé til færdiggørelse med intention, omsorg og professionalisme. Dette portfolio giver et indblik i min kreative proces, det arbejde jeg har bidraget til, og de projekter der afspejler min passion for at skabe oplevelser, der forbinder med mennesker.",
     "codex": "Dette site er skabt for at give dig indblik i min passion for at skabe oplevelser med gennemslagskraft, min kreative tankegang og nogle af de projekter, jeg har været en del af bag kulisserne.",
-    "gemini": "Denne side er designet til at give dig et indblik i min passion for at skabe betydningsfulde oplevelser, min kreative tankegang og et kig bag kulisserne på nogle af de projekter, jeg har været en del af.",
-    "reason": "No consensus — similarities: C↔X=0.30, C↔G=0.30, X↔G=0.60",
+    "gemini": "Mit arbejde er forankret i at skabe virkningsfulde oplevelser, støtte kreativ vision og guide projekter fra koncept til færdiggørelse med intention, omsorg og professionalisme. Dette portfolio giver et indblik i min kreative proces, det arbejde jeg har bidraget til, og de projekter der afspejler min passion for at skabe oplevelser, der forbinder med mennesker.",
+    "reason": "No consensus — similarities: C↔X=0.30, C↔G=0.98, X↔G=0.30",
     "chosen": "Mit arbejde er forankret i at skabe virkningsfulde oplevelser, støtte kreativ vision og guide projekter fra idé til færdiggørelse med intention, omsorg og professionalisme. Dette portfolio giver et indblik i min kreative proces, det arbejde jeg har bidraget til, og de projekter der afspejler min passion for at skabe oplevelser, der forbinder med mennesker."
   },
   {
@@ -31,8 +31,8 @@
     "english": "I look forward to exploring how we can work together!",
     "claude": "Jeg glæder mig til at udforske, hvordan vi kan samarbejde!",
     "codex": "Jeg ser frem til muligheden for at arbejde sammen med dig i fremtiden!",
-    "gemini": "Jeg ser frem til muligheden for at arbejde sammen med dig i fremtiden!",
-    "reason": "No consensus — similarities: C↔X=0.31, C↔G=0.31, X↔G=1.00",
+    "gemini": "Jeg glæder mig til at udforske, hvordan vi kan samarbejde!",
+    "reason": "No consensus — similarities: C↔X=0.31, C↔G=1.00, X↔G=0.31",
     "chosen": "Jeg ser frem til muligheden for at arbejde sammen med dig i fremtiden!"
   },
   {
@@ -40,8 +40,8 @@
     "english": "A cross-section of projects spanning music production, community education, systems architecture, and creative technology — each built with the same intention: craft something meaningful, scalable, and human. Every project is presented in DMAIC format (Define, Measure, Analyze, Improve, Control) so you can see how each moves from concept to measurable outcome.",
     "claude": "Et tværsnit af projekter der spænder over musikproduktion, fællesskabsuddannelse, systemsarkitektur og kreativ teknologi – hvert enkelt bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt. Hvert projekt er præsenteret i DMAIC-format (Definér, Mål, Analysér, Forbedre, Kontrollér), så du kan se, hvordan hvert enkelt bevæger sig fra idé til målbart resultat.",
     "codex": "Et tværsnit af projekter inden for musikproduktion, community-undervisning, systemarkitektur og kreativ teknologi — alle bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt.",
-    "gemini": "Et tværsnit af projekter inden for musikproduktion, lokal uddannelse, systemarkitektur og kreativ teknologi — hver især bygget med den samme hensigt: at skabe noget meningsfuldt, skalerbart og menneskeligt.",
-    "reason": "No consensus — similarities: C↔X=0.45, C↔G=0.47, X↔G=0.82",
+    "gemini": "Et tværsnit af projekter der spænder over musikproduktion, fællesskabsuddannelse, systemarkitektur og kreativ teknologi – hvert enkelt bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt. Hvert projekt er præsenteret i DMAIC-format (Define, Measure, Analyze, Improve, Control), så du kan se, hvordan hvert enkelt bevæger sig fra idé til målbart resultat.",
+    "reason": "No consensus — similarities: C↔X=0.45, C↔G=0.94, X↔G=0.45",
     "chosen": "Et tværsnit af projekter der spænder over musikproduktion, fællesskabsuddannelse, systemsarkitektur og kreativ teknologi – hvert enkelt bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt. Hvert projekt er præsenteret i DMAIC-format (Definér, Mål, Analysér, Forbedre, Kontrollér), så du kan se, hvordan hvert enkelt bevæger sig fra idé til målbart resultat."
   },
   {
@@ -364,8 +364,8 @@
     "english": "Recording Studio",
     "claude": "Optagelsesstudio",
     "codex": "Recording Studio",
-    "gemini": "Recording Studio",
-    "reason": "No consensus — similarities: C↔X=0.31, C↔G=0.31, X↔G=1.00",
+    "gemini": "Optagestudie",
+    "reason": "No consensus — similarities: C↔X=0.31, C↔G=0.69, X↔G=0.31",
     "chosen": "Recording Studio"
   },
   {
@@ -585,15 +585,6 @@
     "chosen": "Multi-model orkestreringspipeline"
   },
   {
-    "key": "data.projects.audiolab-intelligence.role",
-    "english": "Systems Architecture & Creative AI",
-    "claude": "Systemsarkitektur og kreativ AI",
-    "codex": "Systemarkitektur & kreativ AI",
-    "gemini": "[MISSING]",
-    "reason": "One or more models missing this key",
-    "chosen": "Systemsarkitektur og kreativ AI"
-  },
-  {
     "key": "data.projects.the-reimagination-engine.description",
     "english": "An experimental release project where old demos and unfinished song ideas are reimagined through AI tools and released in clustered waves. Drops happen every other week in alternating three-track clusters — one wave relational, the next energetic — with performance reviewed every 45 days. The goal is to see if consistent releases alone can generate streaming revenue and organic traction without any marketing, social media presence, or paid promotion. If a track lands in the top tier of its cluster, it gets flagged for potential reproduction or licensing.",
     "claude": "Et eksperimentelt udgivelsesprojekt, hvor gamle demoer og uafsluttede sangidéer genfortolkes med AI-værktøjer og udgives i klyngede bølger. Drops sker hver anden uge i skiftende tre-nummers klynger – én bølge relationel, den næste energisk – med præstationsgennemgang hvert 45. dag. Målet er at se, om konsistente udgivelser alene kan generere streamingindtægter og organisk trækkraft uden markedsføring, sociale medier eller betalt reklame. Hvis et nummer havner i topniveauet i sin klynge, markeres det til potentiel genprocuktion eller licensering.",
@@ -670,8 +661,8 @@
     "english": "AI Music Tools",
     "claude": "AI-musikværktøjer",
     "codex": "AI Music Tools",
-    "gemini": "AI Music Tools",
-    "reason": "No consensus — similarities: C↔X=0.29, C↔G=0.29, X↔G=1.00",
+    "gemini": "AI-musikværktøjer",
+    "reason": "No consensus — similarities: C↔X=0.29, C↔G=1.00, X↔G=0.29",
     "chosen": "AI Music Tools"
   },
   {
@@ -679,8 +670,8 @@
     "english": "Metadata Systems",
     "claude": "Metadatasystemer",
     "codex": "Metadata Systems",
-    "gemini": "Metadata Systems",
-    "reason": "No consensus — similarities: C↔X=0.75, C↔G=0.75, X↔G=1.00",
+    "gemini": "Metadatasystemer",
+    "reason": "No consensus — similarities: C↔X=0.75, C↔G=1.00, X↔G=0.75",
     "chosen": "Metadata Systems"
   },
   {
@@ -688,8 +679,8 @@
     "english": "Cluster-Based Release Scheduling",
     "claude": "Klyngebaseret udgivelsesplanlægning",
     "codex": "Cluster-Based Release Scheduling",
-    "gemini": "Cluster-Based Release Scheduling",
-    "reason": "No consensus — similarities: C↔X=0.29, C↔G=0.29, X↔G=1.00",
+    "gemini": "Cluster-baseret udgivelsesplanlægning",
+    "reason": "No consensus — similarities: C↔X=0.29, C↔G=0.84, X↔G=0.49",
     "chosen": "Cluster-Based Release Scheduling"
   },
   {
@@ -697,8 +688,8 @@
     "english": "45-Day Review Cycles",
     "claude": "45-dages gennemgangscyklusser",
     "codex": "45-Day Review Cycles",
-    "gemini": "45-Day Review Cycles",
-    "reason": "No consensus — similarities: C↔X=0.34, C↔G=0.34, X↔G=1.00",
+    "gemini": "45-dages gennemgangscyklusser",
+    "reason": "No consensus — similarities: C↔X=0.34, C↔G=1.00, X↔G=0.34",
     "chosen": "45-Day Review Cycles"
   },
   {
@@ -751,9 +742,9 @@
     "english": "Creative Systems Architect & Artist",
     "claude": "Kreativ systemsarkitekt og kunstner",
     "codex": "Kreativ systemarkitekt & artist",
-    "gemini": "[MISSING]",
-    "reason": "One or more models missing this key",
-    "chosen": "Kreativ systemsarkitekt og kunstner"
+    "gemini": "Kreativ systemarkitekt & artist",
+    "reason": "No consensus — similarities: C↔X=0.71, C↔G=0.71, X↔G=1.00",
+    "chosen": "Kreativ systemarkitekt & artist"
   },
   {
     "key": "data.projects.calby-inner-critic.description",
@@ -841,8 +832,8 @@
     "english": "Vocal Arranging",
     "claude": "Vokalopstilling",
     "codex": "Vocal Arranging",
-    "gemini": "Vocal Arranging",
-    "reason": "No consensus — similarities: C↔X=0.47, C↔G=0.47, X↔G=1.00",
+    "gemini": "Vokalarrangement",
+    "reason": "No consensus — similarities: C↔X=0.47, C↔G=0.38, X↔G=0.56",
     "chosen": "Vocal Arranging"
   },
   {
@@ -850,8 +841,8 @@
     "english": "BGV Production",
     "claude": "BGV-produktion",
     "codex": "BGV Production",
-    "gemini": "BGV Production",
-    "reason": "No consensus — similarities: C↔X=0.79, C↔G=0.79, X↔G=1.00",
+    "gemini": "BGV-produktion",
+    "reason": "No consensus — similarities: C↔X=0.79, C↔G=1.00, X↔G=0.79",
     "chosen": "BGV Production"
   },
   {
@@ -868,8 +859,8 @@
     "english": "Budget Management",
     "claude": "Budgetstyring",
     "codex": "Budget Management",
-    "gemini": "Budget Management",
-    "reason": "No consensus — similarities: C↔X=0.41, C↔G=0.41, X↔G=1.00",
+    "gemini": "Budgetstyring",
+    "reason": "No consensus — similarities: C↔X=0.41, C↔G=1.00, X↔G=0.41",
     "chosen": "Budget Management"
   },
   {
@@ -877,8 +868,8 @@
     "english": "Studio Coordination",
     "claude": "Studiekoordinering",
     "codex": "Studio Coordination",
-    "gemini": "Studio Coordination",
-    "reason": "No consensus — similarities: C↔X=0.63, C↔G=0.63, X↔G=1.00",
+    "gemini": "Studiekoordinering",
+    "reason": "No consensus — similarities: C↔X=0.63, C↔G=1.00, X↔G=0.63",
     "chosen": "Studio Coordination"
   },
   {
@@ -886,8 +877,8 @@
     "english": "Multi-Track Recording",
     "claude": "Flersporet optagelse",
     "codex": "Multi-Track Recording",
-    "gemini": "Multi-Track Recording",
-    "reason": "No consensus — similarities: C↔X=0.10, C↔G=0.10, X↔G=1.00",
+    "gemini": "Multi-track optagelse",
+    "reason": "No consensus — similarities: C↔X=0.10, C↔G=0.52, X↔G=0.52",
     "chosen": "Multi-Track Recording"
   },
   {
@@ -895,8 +886,8 @@
     "english": "Video Collaboration",
     "claude": "Videosamarbejde",
     "codex": "Video Collaboration",
-    "gemini": "Video Collaboration",
-    "reason": "No consensus — similarities: C↔X=0.37, C↔G=0.37, X↔G=1.00",
+    "gemini": "Videosamarbejde",
+    "reason": "No consensus — similarities: C↔X=0.37, C↔G=1.00, X↔G=0.37",
     "chosen": "Video Collaboration"
   },
   {
@@ -931,9 +922,9 @@
     "english": "Vocal Producer",
     "claude": "Vokalproducent",
     "codex": "Vocal Producer",
-    "gemini": "[MISSING]",
-    "reason": "One or more models missing this key",
-    "chosen": "Vokalproducent"
+    "gemini": "Vokalproducer",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.86, X↔G=0.79",
+    "chosen": "Vocal Producer"
   },
   {
     "key": "data.projects.lukas-graham-purple.dmaic.D",
@@ -994,8 +985,8 @@
     "english": "Vocal Arrangement",
     "claude": "Vokalopstilling",
     "codex": "Vokalarrangement",
-    "gemini": "Vocal Arrangement",
-    "reason": "No consensus — similarities: C↔X=0.38, C↔G=0.29, X↔G=0.82",
+    "gemini": "Vokalarrangement",
+    "reason": "No consensus — similarities: C↔X=0.38, C↔G=0.38, X↔G=1.00",
     "chosen": "Vokalarrangement"
   },
   {
@@ -1021,8 +1012,8 @@
     "english": "Vocal Arranging",
     "claude": "Vokalopstilling",
     "codex": "Vocal Arranging",
-    "gemini": "Vocal Arranging",
-    "reason": "No consensus — similarities: C↔X=0.47, C↔G=0.47, X↔G=1.00",
+    "gemini": "Vokalarrangement",
+    "reason": "No consensus — similarities: C↔X=0.47, C↔G=0.38, X↔G=0.56",
     "chosen": "Vocal Arranging"
   },
   {
@@ -1048,8 +1039,8 @@
     "english": "Stakeholder Negotiation",
     "claude": "Interessentforhandling",
     "codex": "Stakeholder Negotiation",
-    "gemini": "Stakeholder Negotiation",
-    "reason": "No consensus — similarities: C↔X=0.13, C↔G=0.13, X↔G=1.00",
+    "gemini": "Interessentforhandling",
+    "reason": "No consensus — similarities: C↔X=0.13, C↔G=1.00, X↔G=0.13",
     "chosen": "Stakeholder Negotiation"
   },
   {
@@ -1066,8 +1057,8 @@
     "english": "International Collaboration",
     "claude": "Internationalt samarbejde",
     "codex": "International Collaboration",
-    "gemini": "International Collaboration",
-    "reason": "No consensus — similarities: C↔X=0.56, C↔G=0.56, X↔G=1.00",
+    "gemini": "Internationalt samarbejde",
+    "reason": "No consensus — similarities: C↔X=0.56, C↔G=1.00, X↔G=0.56",
     "chosen": "International Collaboration"
   },
   {
@@ -1111,9 +1102,9 @@
     "english": "Vocal Producer",
     "claude": "Vokalproducent",
     "codex": "Vocal Producer",
-    "gemini": "[MISSING]",
-    "reason": "One or more models missing this key",
-    "chosen": "Vokalproducent"
+    "gemini": "Vokalproducer",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.86, X↔G=0.79",
+    "chosen": "Vocal Producer"
   },
   {
     "key": "data.projects.heart-soul-image-village.description",
@@ -1210,8 +1201,8 @@
     "english": "Vocal Instruction",
     "claude": "Vokalundervisning",
     "codex": "Vocal Instruction",
-    "gemini": "Vocal Instruction",
-    "reason": "No consensus — similarities: C↔X=0.35, C↔G=0.35, X↔G=1.00",
+    "gemini": "Vokalinstruktion",
+    "reason": "No consensus — similarities: C↔X=0.35, C↔G=0.47, X↔G=0.76",
     "chosen": "Vocal Instruction"
   },
   {
@@ -1219,8 +1210,8 @@
     "english": "DAW Production",
     "claude": "DAW-produktion",
     "codex": "DAW Production",
-    "gemini": "DAW Production",
-    "reason": "No consensus — similarities: C↔X=0.79, C↔G=0.79, X↔G=1.00",
+    "gemini": "DAW-produktion",
+    "reason": "No consensus — similarities: C↔X=0.79, C↔G=1.00, X↔G=0.79",
     "chosen": "DAW Production"
   },
   {
@@ -1228,8 +1219,8 @@
     "english": "Songwriting",
     "claude": "Sangskrivning",
     "codex": "Songwriting",
-    "gemini": "Songwriting",
-    "reason": "No consensus — similarities: C↔X=0.62, C↔G=0.62, X↔G=1.00",
+    "gemini": "Sangskrivning",
+    "reason": "No consensus — similarities: C↔X=0.62, C↔G=1.00, X↔G=0.62",
     "chosen": "Songwriting"
   },
   {
@@ -1237,8 +1228,8 @@
     "english": "Music Video Production",
     "claude": "Musikvideoproduktion",
     "codex": "Music Video Production",
-    "gemini": "Music Video Production",
-    "reason": "No consensus — similarities: C↔X=0.73, C↔G=0.73, X↔G=1.00",
+    "gemini": "Musikvideoproduktion",
+    "reason": "No consensus — similarities: C↔X=0.73, C↔G=1.00, X↔G=0.73",
     "chosen": "Music Video Production"
   },
   {
@@ -1246,8 +1237,8 @@
     "english": "Lesson Planning",
     "claude": "Lektionsplanlægning",
     "codex": "Lesson Planning",
-    "gemini": "Lesson Planning",
-    "reason": "No consensus — similarities: C↔X=0.58, C↔G=0.58, X↔G=1.00",
+    "gemini": "Lektionsplanlægning",
+    "reason": "No consensus — similarities: C↔X=0.58, C↔G=1.00, X↔G=0.58",
     "chosen": "Lesson Planning"
   },
   {
@@ -1255,8 +1246,8 @@
     "english": "Ensemble Direction",
     "claude": "Ensembleledelse",
     "codex": "Ensemble Direction",
-    "gemini": "Ensemble Direction",
-    "reason": "No consensus — similarities: C↔X=0.50, C↔G=0.50, X↔G=1.00",
+    "gemini": "Ensembleretning",
+    "reason": "No consensus — similarities: C↔X=0.50, C↔G=0.60, X↔G=0.61",
     "chosen": "Ensemble Direction"
   },
   {
@@ -1264,8 +1255,8 @@
     "english": "Youth Education",
     "claude": "Ungdomsuddannelse",
     "codex": "Youth Education",
-    "gemini": "Youth Education",
-    "reason": "No consensus — similarities: C↔X=0.06, C↔G=0.06, X↔G=1.00",
+    "gemini": "Ungdomsuddannelse",
+    "reason": "No consensus — similarities: C↔X=0.06, C↔G=1.00, X↔G=0.06",
     "chosen": "Youth Education"
   },
   {
@@ -1309,9 +1300,9 @@
     "english": "Choral Director & Recording Studio Instructor",
     "claude": "Korleder og optagelsesstudioinstruktør",
     "codex": "Kordirigent & recording studio-underviser",
-    "gemini": "[MISSING]",
-    "reason": "One or more models missing this key",
-    "chosen": "Korleder og optagelsesstudioinstruktør"
+    "gemini": "Kordirigent & studielærer",
+    "reason": "No consensus — similarities: C↔X=0.34, C↔G=0.37, X↔G=0.54",
+    "chosen": "Kordirigent & recording studio-underviser"
   },
   {
     "key": "data.projects.jimmy-gnarly-live.dmaic.M",
@@ -1372,8 +1363,8 @@
     "english": "Live Production",
     "claude": "Liveproduktion",
     "codex": "Live Production",
-    "gemini": "Live Production",
-    "reason": "No consensus — similarities: C↔X=0.80, C↔G=0.80, X↔G=1.00",
+    "gemini": "Liveproduktion",
+    "reason": "No consensus — similarities: C↔X=0.80, C↔G=1.00, X↔G=0.80",
     "chosen": "Live Production"
   },
   {
@@ -1381,8 +1372,8 @@
     "english": "Stage Design",
     "claude": "Scenedesign",
     "codex": "Stage Design",
-    "gemini": "Stage Design",
-    "reason": "No consensus — similarities: C↔X=0.58, C↔G=0.58, X↔G=1.00",
+    "gemini": "Scenedesign",
+    "reason": "No consensus — similarities: C↔X=0.58, C↔G=1.00, X↔G=0.58",
     "chosen": "Stage Design"
   },
   {
@@ -1390,8 +1381,8 @@
     "english": "Pandemic Safety Protocols",
     "claude": "Pandemi-sikkerhedsprotokoller",
     "codex": "Pandemic Safety Protocols",
-    "gemini": "Pandemic Safety Protocols",
-    "reason": "No consensus — similarities: C↔X=0.48, C↔G=0.48, X↔G=1.00",
+    "gemini": "Pandemisikkerhedsprotokoller",
+    "reason": "No consensus — similarities: C↔X=0.48, C↔G=0.97, X↔G=0.46",
     "chosen": "Pandemic Safety Protocols"
   },
   {
@@ -1408,8 +1399,8 @@
     "english": "Creative Direction",
     "claude": "Kreativ ledelse",
     "codex": "Creative Direction",
-    "gemini": "Creative Direction",
-    "reason": "No consensus — similarities: C↔X=0.44, C↔G=0.44, X↔G=1.00",
+    "gemini": "Kreativ retning",
+    "reason": "No consensus — similarities: C↔X=0.44, C↔G=0.60, X↔G=0.56",
     "chosen": "Creative Direction"
   },
   {
@@ -1453,9 +1444,9 @@
     "english": "Creative Producer & Live Performance Director",
     "claude": "Kreativ producent og liveshowdirektør",
     "codex": "Kreativ producer & liveperformance-instruktør",
-    "gemini": "[MISSING]",
-    "reason": "One or more models missing this key",
-    "chosen": "Kreativ producent og liveshowdirektør"
+    "gemini": "Kreativ producer & live performance director",
+    "reason": "No consensus — similarities: C↔X=0.58, C↔G=0.59, X↔G=0.80",
+    "chosen": "Kreativ producer & liveperformance-instruktør"
   },
   {
     "key": "data.projects.lmu-gospel-choir.description",
@@ -1471,8 +1462,8 @@
     "english": "Sustain and direct the LMU Gospel Choir within the Department of African American Studies, focusing on student vocal development, culturally informed performance, and successful end-of-semester concerts each term across all four course levels.",
     "claude": "Oprethold og diriger LMU Gospel Choir inden for Department of African American Studies med fokus på studerendes vokaludvikling, kulturelt informeret performance og succesfulde slutsemesterkoncerter hvert semester på tværs af alle fire kursniveauer.",
     "codex": "Fastholde og dirigere LMU Gospel Choir under Department of African American Studies med fokus på studerendes vokale udvikling, kulturelt forankret performance og vellykkede semesterafsluttende koncerter hvert semester på tværs af alle fire kursusniveauer.",
-    "gemini": "Opretholde og lede LMU Gospel Choir under Department of African American Studies med fokus på studerendes vokaludvikling, kulturelt informerede optrædener og succesfulde afslutningskoncerter hvert semester på tværs af alle fire kursusniveauer.",
-    "reason": "No consensus — similarities: C↔X=0.83, C↔G=0.86, X↔G=0.81",
+    "gemini": "Opretholde og lede LMU Gospel Choir under Department of African American Studies med fokus på studerendes vokaludvikling, kulturelt informerede optrædener og succesfulde afslutningskoncerter hvert semester på tvrs af alle fire kursusniveauer.",
+    "reason": "No consensus — similarities: C↔X=0.83, C↔G=0.86, X↔G=0.80",
     "chosen": "Oprethold og diriger LMU Gospel Choir inden for Department of African American Studies med fokus på studerendes vokaludvikling, kulturelt informeret performance og succesfulde slutsemesterkoncerter hvert semester på tværs af alle fire kursniveauer."
   },
   {
@@ -1534,8 +1525,8 @@
     "english": "Vocal Direction",
     "claude": "Vokalledelse",
     "codex": "Vocal Direction",
-    "gemini": "Vocal Direction",
-    "reason": "No consensus — similarities: C↔X=0.33, C↔G=0.33, X↔G=1.00",
+    "gemini": "Vokalretning",
+    "reason": "No consensus — similarities: C↔X=0.33, C↔G=0.50, X↔G=0.47",
     "chosen": "Vocal Direction"
   },
   {
@@ -1543,8 +1534,8 @@
     "english": "Program Leadership",
     "claude": "Programledelse",
     "codex": "Program Leadership",
-    "gemini": "Program Leadership",
-    "reason": "No consensus — similarities: C↔X=0.61, C↔G=0.61, X↔G=1.00",
+    "gemini": "Programledelse",
+    "reason": "No consensus — similarities: C↔X=0.61, C↔G=1.00, X↔G=0.61",
     "chosen": "Program Leadership"
   },
   {
@@ -1552,8 +1543,8 @@
     "english": "Graphic Design",
     "claude": "Grafisk design",
     "codex": "Graphic Design",
-    "gemini": "Graphic Design",
-    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.64, X↔G=1.00",
+    "gemini": "Grafisk design",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=1.00, X↔G=0.64",
     "chosen": "Graphic Design"
   },
   {
@@ -1561,8 +1552,8 @@
     "english": "Budget Negotiation",
     "claude": "Budgetforhandling",
     "codex": "Budget Negotiation",
-    "gemini": "Budget Negotiation",
-    "reason": "No consensus — similarities: C↔X=0.39, C↔G=0.39, X↔G=1.00",
+    "gemini": "Budgetforhandling",
+    "reason": "No consensus — similarities: C↔X=0.39, C↔G=1.00, X↔G=0.39",
     "chosen": "Budget Negotiation"
   },
   {
@@ -1579,8 +1570,8 @@
     "english": "Alumni Relations",
     "claude": "Alumnerelationer",
     "codex": "Alumni Relations",
-    "gemini": "Alumni Relations",
-    "reason": "No consensus — similarities: C↔X=0.69, C↔G=0.69, X↔G=1.00",
+    "gemini": "Alumni-relationer",
+    "reason": "No consensus — similarities: C↔X=0.69, C↔G=0.88, X↔G=0.76",
     "chosen": "Alumni Relations"
   },
   {
@@ -1588,8 +1579,8 @@
     "english": "Event Planning",
     "claude": "Eventplanlægning",
     "codex": "Event Planning",
-    "gemini": "Event Planning",
-    "reason": "No consensus — similarities: C↔X=0.69, C↔G=0.69, X↔G=1.00",
+    "gemini": "Eventplanlægning",
+    "reason": "No consensus — similarities: C↔X=0.69, C↔G=1.00, X↔G=0.69",
     "chosen": "Event Planning"
   },
   {
@@ -1597,8 +1588,8 @@
     "english": "Music Selection",
     "claude": "Musikvalg",
     "codex": "Music Selection",
-    "gemini": "Music Selection",
-    "reason": "No consensus — similarities: C↔X=0.33, C↔G=0.33, X↔G=1.00",
+    "gemini": "Musikvalg",
+    "reason": "No consensus — similarities: C↔X=0.33, C↔G=1.00, X↔G=0.33",
     "chosen": "Music Selection"
   },
   {
@@ -1642,9 +1633,243 @@
     "english": "Director, LMU Gospel Choir",
     "claude": "Leder, LMU Gospel Choir",
     "codex": "Dirigent, LMU Gospel Choir",
-    "gemini": "[MISSING]",
-    "reason": "One or more models missing this key",
-    "chosen": "Leder, LMU Gospel Choir"
+    "gemini": "Dirigent for LMU Gospel Choir",
+    "reason": "No consensus — similarities: C↔X=0.73, C↔G=0.62, X↔G=0.86",
+    "chosen": "Dirigent, LMU Gospel Choir"
+  },
+  {
+    "key": "data.projects.creative-intelligence-production-system.dmaic.M",
+    "english": "Is the system running reliably? Are tasks getting finished? Is it staying in its lane (research and prep only, no touching final work)? Can every action be reviewed later?",
+    "claude": "Kører systemet pålideligt? Bliver opgaverne fuldført? Holder det sig inden for sine grænser (kun research og forberedelse, ingen kontakt med færdigt arbejde)? Kan alle handlinger gennemgås bagefter?",
+    "codex": "Kører systemet stabilt? Bliver opgaverne færdige? Holder det sig inden for sit område, research og forberedelse alene, uden at røre det færdige arbejde? Kan hver handling gennemgås senere?",
+    "gemini": "Kører systemet pålideligt? Bliver opgaverne færdiggjort? Bliver det i sit eget spor (kun research og forberedelse, ingen berøring af endeligt arbejde)? Kan enhver handling gennemgås senere?",
+    "reason": "No consensus — similarities: C↔X=0.71, C↔G=0.70, X↔G=0.67",
+    "chosen": "Kører systemet pålideligt? Bliver opgaverne fuldført? Holder det sig inden for sine grænser (kun research og forberedelse, ingen kontakt med færdigt arbejde)? Kan alle handlinger gennemgås bagefter?"
+  },
+  {
+    "key": "data.projects.creative-intelligence-production-system.timeline[0]",
+    "english": "Research & Architecture",
+    "claude": "Forskning og arkitektur",
+    "codex": "Research & arkitektur",
+    "gemini": "Research & Arkitektur",
+    "reason": "No consensus — similarities: C↔X=0.57, C↔G=0.52, X↔G=0.95",
+    "chosen": "Research & arkitektur"
+  },
+  {
+    "key": "data.projects.creative-intelligence-production-system.timeline[1]",
+    "english": "Core System Build",
+    "claude": "Kerneopbygning",
+    "codex": "Opbygning af kernesystem",
+    "gemini": "Kernesystem-opbygning",
+    "reason": "No consensus — similarities: C↔X=0.13, C↔G=0.67, X↔G=0.04",
+    "chosen": "Opbygning af kernesystem"
+  },
+  {
+    "key": "data.projects.creative-intelligence-production-system.timeline[2]",
+    "english": "AI Specialist Integration",
+    "claude": "AI-specialistintegration",
+    "codex": "Integration af AI-specialister",
+    "gemini": "AI-specialist integration",
+    "reason": "No consensus — similarities: C↔X=0.20, C↔G=0.96, X↔G=0.20",
+    "chosen": "Integration af AI-specialister"
+  },
+  {
+    "key": "data.projects.creative-intelligence-production-system.timeline[3]",
+    "english": "Safety & Guardrails",
+    "claude": "Sikkerhed og begrænsninger",
+    "codex": "Sikkerhed & guardrails",
+    "gemini": "Sikkerhed & Guardrails",
+    "reason": "No consensus — similarities: C↔X=0.50, C↔G=0.50, X↔G=0.95",
+    "chosen": "Sikkerhed & guardrails"
+  },
+  {
+    "key": "data.projects.creative-intelligence-production-system.tools[2]",
+    "english": "Multiple AI Model Coordination",
+    "claude": "Koordinering af flere AI-modeller",
+    "codex": "Multiple AI Model Coordination",
+    "gemini": "Koordinering af flere AI-modeller",
+    "reason": "No consensus — similarities: C↔X=0.09, C↔G=1.00, X↔G=0.09",
+    "chosen": "Multiple AI Model Coordination"
+  },
+  {
+    "key": "data.projects.creative-intelligence-production-system.tools[3]",
+    "english": "Shared Memory & Context",
+    "claude": "Delt hukommelse og kontekst",
+    "codex": "Shared Memory & Context",
+    "gemini": "Delt hukommelse & kontekst",
+    "reason": "No consensus — similarities: C↔X=0.30, C↔G=0.93, X↔G=0.35",
+    "chosen": "Shared Memory & Context"
+  },
+  {
+    "key": "data.projects.creative-intelligence-production-system.tools[4]",
+    "english": "Automated Scheduling",
+    "claude": "Automatisk planlægning",
+    "codex": "Automated Scheduling",
+    "gemini": "Automatiseret skemalægning",
+    "reason": "No consensus — similarities: C↔X=0.50, C↔G=0.65, X↔G=0.50",
+    "chosen": "Automated Scheduling"
+  },
+  {
+    "key": "data.projects.creative-intelligence-production-system.tools[5]",
+    "english": "Safety Guardrails",
+    "claude": "Sikkerhedsgrænser",
+    "codex": "Safety Guardrails",
+    "gemini": "Sikkerheds-guardrails",
+    "reason": "No consensus — similarities: C↔X=0.12, C↔G=0.57, X↔G=0.52",
+    "chosen": "Safety Guardrails"
+  },
+  {
+    "key": "data.projects.creative-intelligence-production-system.outcomes[2]",
+    "english": "Complete record of every system action",
+    "claude": "Fuldstændig registrering af alle systemhandlinger",
+    "codex": "Komplet registrering af hver systemhandling",
+    "gemini": "Komplet oversigt over enhver systemhandling",
+    "reason": "No consensus — similarities: C↔X=0.65, C↔G=0.39, X↔G=0.67",
+    "chosen": "Komplet registrering af hver systemhandling"
+  },
+  {
+    "key": "data.projects.vocal-production-lab.description",
+    "english": "An online instructional course designed to teach intermediate music technology users what vocal production is, why it matters, and how to achieve professional vocal recordings at home or in the studio.",
+    "claude": "Et online undervisningskursus designet til at lære brugere med mellemliggende musikteknik, hvad vokalproduktion er, hvorfor det er vigtigt og hvordan man opnår professionelle vokaloptagelser derhjemme eller i studiet.",
+    "codex": "Et online undervisningskursus designet til at lære let øvede brugere af musikteknologi, hvad vocal production er, hvorfor det betyder noget, og hvordan man opnår professionelle vokalindspilninger derhjemme eller i studiet.",
+    "gemini": "Et online undervisningsforløb designet til at lære brugere på mellemniveau inden for musikteknologi, hvad vokalproduktion er, hvorfor det betyder noget, og hvordan man opnår professionelle vokaloptagelser hjemme eller i studiet.",
+    "reason": "No consensus — similarities: C↔X=0.77, C↔G=0.83, X↔G=0.79",
+    "chosen": "Et online undervisningskursus designet til at lære brugere med mellemliggende musikteknik, hvad vokalproduktion er, hvorfor det er vigtigt og hvordan man opnår professionelle vokaloptagelser derhjemme eller i studiet."
+  },
+  {
+    "key": "data.projects.vocal-production-lab.dmaic.D",
+    "english": "Create an accessible online course that teaches vocal production concepts — from understanding the voice through recording, editing, and mixing — without requiring expensive equipment or overly complex language.",
+    "claude": "Skab et tilgængeligt online kursus der underviser i vokalproduktion – fra forståelse af stemmen over optagelse og redigering til mixing – uden at kræve dyrt udstyr eller unødigt teknisk sprog.",
+    "codex": "Skab et tilgængeligt onlinekursus, der underviser i vocal production-koncepter — fra forståelse af stemmen til indspilning, redigering og mixing — uden krav om dyrt udstyr eller alt for komplekst sprog.",
+    "gemini": "Skab et tilgængeligt onlinekursus, der underviser i vokalproduktionskoncepter — fra forståelse af stemmen til optagelse, redigering og mixning — uden at kræve dyrt udstyr eller alt for komplekst sprog.",
+    "reason": "No consensus — similarities: C↔X=0.72, C↔G=0.80, X↔G=0.89",
+    "chosen": "Skab et tilgængeligt online kursus der underviser i vokalproduktion – fra forståelse af stemmen over optagelse og redigering til mixing – uden at kræve dyrt udstyr eller unødigt teknisk sprog."
+  },
+  {
+    "key": "data.projects.vocal-production-lab.dmaic.A",
+    "english": "Vocal production is a niche focus with limited consolidated learning resources. Creating engaging educational video content required solving continuity across multiple filming days, managing environmental noise, and learning an unfamiliar hosting platform.",
+    "claude": "Vokalproduktion er et nichefokus med begrænsede konsoliderede læringsressourcer. Skabelse af engagerende pædagogisk videoindhold krævede løsning af kontinuitet på tværs af flere optagedage, håndtering af miljøstøj og indlæring af en ukendt hostingplatform.",
+    "codex": "Vocal production er et nicheområde med begrænsede samlede læringsressourcer. At skabe engagerende undervisningsvideoer krævede løsning af kontinuitet på tværs af flere optagedage, håndtering af miljøstøj og indlæring af en ukendt hostingplatform.",
+    "gemini": "Vokalproduktion er et nichefokus med begrænsede samlede læringsressourcer. At skabe engagerende pædagogisk videoindhold krævede løsning af kontinuitet på tværs af flere optagedage, styring af omgivende støj og indlæring af en ukendt hostingplatform.",
+    "reason": "No consensus — similarities: C↔X=0.82, C↔G=0.88, X↔G=0.84",
+    "chosen": "Vokalproduktion er et nichefokus med begrænsede konsoliderede læringsressourcer. Skabelse af engagerende pædagogisk videoindhold krævede løsning af kontinuitet på tværs af flere optagedage, håndtering af miljøstøj og indlæring af en ukendt hostingplatform."
+  },
+  {
+    "key": "data.projects.vocal-production-lab.dmaic.C",
+    "english": "Course published and available for students. Content organized with clear lesson objectives, assignments, and assessments. Framework designed to be replicable for future courses in music technology and related topics.",
+    "claude": "Kursus udgivet og tilgængeligt for studerende. Indhold organiseret med klare lektionsmål, opgaver og bedømmelser. Rammeværk designet til at kunne gentages til fremtidige kurser i musikteknik og relaterede emner.",
+    "codex": "Kurset er publiceret og tilgængeligt for elever. Indholdet er organiseret med klare lektionsmål, opgaver og evalueringer. Frameworket er designet til at kunne gentages for fremtidige kurser i musikteknologi og relaterede emner.",
+    "gemini": "Kursus udgivet og tilgængeligt for studerende. Indhold organiseret med klare lektionsmål, opgaver og evalueringer. Ramme designet til at kunne replikeres til fremtidige kurser inden for musikteknologi og relaterede emner.",
+    "reason": "No consensus — similarities: C↔X=0.78, C↔G=0.85, X↔G=0.77",
+    "chosen": "Kursus udgivet og tilgængeligt for studerende. Indhold organiseret med klare lektionsmål, opgaver og bedømmelser. Rammeværk designet til at kunne gentages til fremtidige kurser i musikteknik og relaterede emner."
+  },
+  {
+    "key": "data.projects.vocal-production-lab.timeline[0]",
+    "english": "Research & Curriculum Design",
+    "claude": "Forskning og curriculumdesign",
+    "codex": "Research & curriculumdesign",
+    "gemini": "Research & pensumdesign",
+    "reason": "No consensus — similarities: C↔X=0.66, C↔G=0.38, X↔G=0.70",
+    "chosen": "Research & curriculumdesign"
+  },
+  {
+    "key": "data.projects.vocal-production-lab.timeline[1]",
+    "english": "Scripting & Lesson Planning",
+    "claude": "Manuskriptskrivning og lektionsplanlægning",
+    "codex": "Manuskript & lektionsplanlægning",
+    "gemini": "Scripting & lektionsplanlægning",
+    "reason": "No consensus — similarities: C↔X=0.74, C↔G=0.67, X↔G=0.72",
+    "chosen": "Manuskript & lektionsplanlægning"
+  },
+  {
+    "key": "data.projects.vocal-production-lab.timeline[4]",
+    "english": "Platform Build & Publishing",
+    "claude": "Platformopbygning og udgivelse",
+    "codex": "Platformopbygning & publicering",
+    "gemini": "Platformopbygning & udgivelse",
+    "reason": "No consensus — similarities: C↔X=0.68, C↔G=0.93, X↔G=0.74",
+    "chosen": "Platformopbygning & publicering"
+  },
+  {
+    "key": "data.projects.vocal-production-lab.tools[5]",
+    "english": "Motion Graphics",
+    "claude": "Motion graphics",
+    "codex": "Motion Graphics",
+    "gemini": "Motion Graphics",
+    "reason": "No consensus — similarities: C↔X=0.93, C↔G=0.93, X↔G=1.00",
+    "chosen": "Motion Graphics"
+  },
+  {
+    "key": "data.projects.vocal-production-lab.tools[6]",
+    "english": "Sound Design",
+    "claude": "Lyddesign",
+    "codex": "Sound Design",
+    "gemini": "Lyddesign",
+    "reason": "No consensus — similarities: C↔X=0.50, C↔G=1.00, X↔G=0.50",
+    "chosen": "Sound Design"
+  },
+  {
+    "key": "data.projects.vocal-production-lab.tools[7]",
+    "english": "Teleprompter Direction",
+    "claude": "Teleprompter-instruktion",
+    "codex": "Teleprompter Direction",
+    "gemini": "Teleprompter-instruktion",
+    "reason": "No consensus — similarities: C↔X=0.71, C↔G=1.00, X↔G=0.71",
+    "chosen": "Teleprompter Direction"
+  },
+  {
+    "key": "data.projects.vocal-production-lab.tools[8]",
+    "english": "Home Studio Production",
+    "claude": "Hjemmestudioproduktion",
+    "codex": "Home Studio Production",
+    "gemini": "Hjemmstudie-produktion",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.86, X↔G=0.59",
+    "chosen": "Home Studio Production"
+  },
+  {
+    "key": "data.projects.vocal-production-lab.outcomes[1]",
+    "english": "12 lessons covering voice, recording, editing, and mixing",
+    "claude": "12 lektioner der dækker stemme, optagelse, redigering og mixing",
+    "codex": "12 lektioner om stemme, indspilning, redigering og mixing",
+    "gemini": "12 lektioner dækkende stemme, optagelse, redigering og mixning",
+    "reason": "No consensus — similarities: C↔X=0.68, C↔G=0.87, X↔G=0.69",
+    "chosen": "12 lektioner om stemme, indspilning, redigering og mixing"
+  },
+  {
+    "key": "data.projects.vocal-production-lab.outcomes[2]",
+    "english": "3 quizzes and 6 practical assignments with downloadable audio examples",
+    "claude": "3 quizzer og 6 praktiske opgaver med downloadbare lydeksempler",
+    "codex": "3 quizzer og 6 praktiske opgaver med downloadbare audioeksempler",
+    "gemini": "3 quizzer og 6 praktiske opgaver med lydeksempler til download",
+    "reason": "No consensus — similarities: C↔X=0.94, C↔G=0.61, X↔G=0.61",
+    "chosen": "3 quizzer og 6 praktiske opgaver med downloadbare audioeksempler"
+  },
+  {
+    "key": "data.projects.vocal-production-lab.outcomes[3]",
+    "english": "Hosted course platform built and organized for student usability",
+    "claude": "Hostet kursusplatform bygget og organiseret for studerendes brugervenlighed",
+    "codex": "Hosted kursusplatform bygget og organiseret med fokus på elevernes brugervenlighed",
+    "gemini": "Kursusplatform opbygget og organiseret til elevbrugervenlighed",
+    "reason": "No consensus — similarities: C↔X=0.80, C↔G=0.69, X↔G=0.66",
+    "chosen": "Hosted kursusplatform bygget og organiseret med fokus på elevernes brugervenlighed"
+  },
+  {
+    "key": "data.projects.vocal-production-lab.outcomes[4]",
+    "english": "Replicable course framework established for future expansion",
+    "claude": "Gentagelig kursusramme etableret til fremtidig udvidelse",
+    "codex": "Gentageligt kursusframework etableret til fremtidig udvidelse",
+    "gemini": "Replikerbar kursusramme etableret til fremtidig udvidelse",
+    "reason": "No consensus — similarities: C↔X=0.89, C↔G=0.84, X↔G=0.75",
+    "chosen": "Gentageligt kursusframework etableret til fremtidig udvidelse"
+  },
+  {
+    "key": "data.projects.vocal-production-lab.role",
+    "english": "Course Creator & Instructor",
+    "claude": "Kursusudvikler og instruktør",
+    "codex": "Kursusskaber & underviser",
+    "gemini": "Kursusskaber & instruktør",
+    "reason": "No consensus — similarities: C↔X=0.46, C↔G=0.71, X↔G=0.72",
+    "chosen": "Kursusskaber & underviser"
   },
   {
     "key": "data.films.sinners.role",
@@ -1654,6 +1879,15 @@
     "gemini": "Featured Vocalist — Original Motion Picture Soundtrack",
     "reason": "No consensus — similarities: C↔X=0.57, C↔G=0.57, X↔G=1.00",
     "chosen": "Featured Vocalist — Original Motion Picture Soundtrack"
+  },
+  {
+    "key": "data.films.sinners.recognition",
+    "english": "GRAMMY® Award Winner",
+    "claude": "GRAMMY® Award-vinder",
+    "codex": "GRAMMY® Award Winner",
+    "gemini": "GRAMMY®-vinder",
+    "reason": "No consensus — similarities: C↔X=0.85, C↔G=0.70, X↔G=0.55",
+    "chosen": "GRAMMY® Award Winner"
   },
   {
     "key": "data.films.sinners.description",
@@ -1687,8 +1921,8 @@
     "english": "Featured Film Performance",
     "claude": "Fremtrædende filmoptræden",
     "codex": "Featured Film Performance",
-    "gemini": "Featured Film Performance",
-    "reason": "No consensus — similarities: C↔X=0.28, C↔G=0.28, X↔G=1.00",
+    "gemini": "Udvalgt filmpræstation",
+    "reason": "No consensus — similarities: C↔X=0.28, C↔G=0.20, X↔G=0.20",
     "chosen": "Featured Film Performance"
   },
   {
@@ -1777,8 +2011,8 @@
     "english": "Deezer Ecuador Chart #78 (Apr 2025)",
     "claude": "Deezer Ecuador-hitliste #78 (apr. 2025)",
     "codex": "Deezer Ecuador Chart #78 (Apr 2025)",
-    "gemini": "Deezer Ecuador Chart #78 (apr 2025)",
-    "reason": "No consensus — similarities: C↔X=0.74, C↔G=0.77, X↔G=0.97",
+    "gemini": "Deezer Ecuador hitliste #78 (april 2025)",
+    "reason": "No consensus — similarities: C↔X=0.74, C↔G=0.93, X↔G=0.75",
     "chosen": "Deezer Ecuador Chart #78 (Apr 2025)"
   },
   {
@@ -1795,8 +2029,8 @@
     "english": "Deezer Estonia Chart #48 (Jan 2026)",
     "claude": "Deezer Estland-hitliste #48 (jan. 2026)",
     "codex": "Deezer Estonia Chart #48 (Jan 2026)",
-    "gemini": "Deezer Estland Chart #48 (jan 2026)",
-    "reason": "No consensus — similarities: C↔X=0.67, C↔G=0.77, X↔G=0.86",
+    "gemini": "Deezer Estland hitliste #48 (januar 2026)",
+    "reason": "No consensus — similarities: C↔X=0.67, C↔G=0.90, X↔G=0.63",
     "chosen": "Deezer Estonia Chart #48 (Jan 2026)"
   },
   {
@@ -1939,80 +2173,35 @@
     "english": "2016–Present",
     "claude": "2016–nu",
     "codex": "2016–Present",
-    "gemini": "2016–Nu",
-    "reason": "No consensus — similarities: C↔X=0.50, C↔G=0.86, X↔G=0.42",
+    "gemini": "2016–nu",
+    "reason": "No consensus — similarities: C↔X=0.50, C↔G=1.00, X↔G=0.50",
     "chosen": "2016–Present"
-  },
-  {
-    "key": "projectCard.viewDetails",
-    "english": "View project details",
-    "claude": "Se projektdetaljer",
-    "codex": "Se projektdetaljer",
-    "gemini": "[MISSING]",
-    "reason": "One or more models missing this key",
-    "chosen": "Se projektdetaljer"
   },
   {
     "key": "projectCard.musicEducation",
     "english": "Music & Education",
     "claude": "Musik og Uddannelse",
     "codex": "Musik & undervisning",
-    "gemini": "[MISSING]",
-    "reason": "One or more models missing this key",
-    "chosen": "Musik og Uddannelse"
+    "gemini": "Musik & Uddannelse",
+    "reason": "No consensus — similarities: C↔X=0.35, C↔G=0.89, X↔G=0.45",
+    "chosen": "Musik & undervisning"
   },
   {
     "key": "projectCard.musicProduction",
     "english": "Music & Production",
     "claude": "Musik og Produktion",
     "codex": "Musik & produktion",
-    "gemini": "[MISSING]",
-    "reason": "One or more models missing this key",
-    "chosen": "Musik og Produktion"
-  },
-  {
-    "key": "projectCard.systemsTechnology",
-    "english": "Systems & Technology",
-    "claude": "Systemer og Teknologi",
-    "codex": "Systemer & teknologi",
-    "gemini": "[MISSING]",
-    "reason": "One or more models missing this key",
-    "chosen": "Systemer og Teknologi"
-  },
-  {
-    "key": "releaseCard.solo",
-    "english": "Solo",
-    "claude": "Solo",
-    "codex": "Solo",
-    "gemini": "[MISSING]",
-    "reason": "One or more models missing this key",
-    "chosen": "Solo"
-  },
-  {
-    "key": "releaseCard.feature",
-    "english": "Feature",
-    "claude": "Feature",
-    "codex": "Feature",
-    "gemini": "[MISSING]",
-    "reason": "One or more models missing this key",
-    "chosen": "Feature"
-  },
-  {
-    "key": "videoCard.musicVideo",
-    "english": "Music Video",
-    "claude": "Musikvideo",
-    "codex": "Musikvideo",
-    "gemini": "[MISSING]",
-    "reason": "One or more models missing this key",
-    "chosen": "Musikvideo"
+    "gemini": "Musik & Produktion",
+    "reason": "No consensus — similarities: C↔X=0.84, C↔G=0.89, X↔G=0.94",
+    "chosen": "Musik & produktion"
   },
   {
     "key": "videoCard.lyricVideo",
     "english": "Lyric Video",
     "claude": "Lyrikvideo",
     "codex": "Lyric video",
-    "gemini": "[MISSING]",
-    "reason": "One or more models missing this key",
-    "chosen": "Lyrikvideo"
+    "gemini": "Lyrikvideo",
+    "reason": "No consensus — similarities: C↔X=0.82, C↔G=1.00, X↔G=0.82",
+    "chosen": "Lyric video"
   }
 ]

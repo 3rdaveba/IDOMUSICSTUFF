@@ -277,7 +277,7 @@
           "Assets de audio y video de alta calidad para marketing",
           "Gestión presupuestaria efectiva bajo restricciones"
         ],
-        "role": "Productor Vocal",
+        "role": "Productor vocal",
         "timeline": [
           "Preproducción y arreglo",
           "Adquisición de talento",
@@ -296,6 +296,38 @@
           "Video Collaboration"
         ]
       },
+      "creative-intelligence-production-system": {
+        "description": "Construir un asistente de producción de IA privado que funcione las 24 horas del día, 7 días a la semana, manejando investigación, organización y trabajo de preparación creativa para que el artista pueda enfocarse en el arte en sí. Coordina múltiples modelos de IA, mantiene registros detallados y tiene salvaguardas integradas para que nunca toque el trabajo terminado sin permiso.",
+        "dmaic": {
+          "A": "La mayoría de las herramientas creativas todavía necesitan que un humano supervise cada paso. El desafío era construir algo que pudiera trabajar de forma independiente sin poner en riesgo el resultado creativo real — así que fue diseñado para solo observar, organizar y sugerir, nunca para sobrescribir el trabajo terminado.",
+          "C": "Cada acción se registra y es revisable. No se almacenan contraseñas ni datos sensibles en el sistema. No puede ejecutar comandos aleatorios. Las comprobaciones de salud se ejecutan automáticamente para detectar problemas a tiempo.",
+          "D": "Construir un sistema de IA privado que maneje tareas de producción creativa las 24 horas — investigando, organizando y preparando el trabajo — para que el artista pueda enfocarse en las decisiones creativas reales.",
+          "I": "Construyó un sistema modular donde diferentes especialistas de IA manejan distintas tareas (investigación, organización, análisis), con memoria compartida para que no dupliquen el trabajo. Ejecuciones diarias programadas y seguridad en capas para que el sistema solo pueda leer y preparar — nunca publicar ni sobrescribir.",
+          "M": "¿Funciona el sistema de manera confiable? ¿Se están completando las tareas? ¿Se mantiene en su carril (solo investigación y preparación, sin tocar el trabajo terminado)? ¿Se puede revisar cada acción después?"
+        },
+        "outcomes": [
+          "Asistente de IA funciona continuamente sin supervisión",
+          "El trabajo creativo permanece protegido de cambios accidentales",
+          "Registro completo de cada acción del sistema",
+          "Múltiples especialistas de IA trabajando juntos como un equipo"
+        ],
+        "role": "Arquitecto y diseñador de sistemas",
+        "timeline": [
+          "Investigación y arquitectura",
+          "Construcción del sistema central",
+          "Integración de especialistas de IA",
+          "Seguridad & guardrails",
+          "Optimización continua"
+        ],
+        "tools": [
+          "Docker",
+          "Python",
+          "Multiple AI Model Coordination",
+          "Shared Memory & Context",
+          "Automated Scheduling",
+          "Safety Guardrails"
+        ]
+      },
       "heart-soul-image-village": {
         "description": "Lideró los componentes coral y de estudio de grabación de Image Village 2023, un campamento de verano en Heart and Soul Center en South Central Los Angeles. Enseñó técnica vocal y habilidades de conjunto a dos grupos de edad mientras guiaba a los estudiantes a través de la composición, producción DAW y creación de videos musicales.",
         "dmaic": {
@@ -312,7 +344,7 @@
           "Planes de clase integrales desarrollados y ejecutados",
           "Material de foto y video archivado para el portfolio"
         ],
-        "role": "Director coral e instructor de estudio de grabación",
+        "role": "Director coral & instructor de recording studio",
         "timeline": [
           "Desarrollo de planes de clase",
           "Instrucción coral",
@@ -345,7 +377,7 @@
           "Actuación documentada bajo restricciones pandémicas",
           "Alto engagement de audiencia y cohesión artística"
         ],
-        "role": "Productor creativo y director de actuaciones en vivo",
+        "role": "Productor creativo & director de performance en vivo",
         "timeline": [
           "Conceptualización creativa",
           "Diseño de set & logística",
@@ -412,7 +444,7 @@
           "Relaciones fortalecidas para futuras colaboraciones",
           "Integración fluida de BGV en la mezcla final del álbum"
         ],
-        "role": "Productor Vocal",
+        "role": "Productor vocal",
         "timeline": [
           "Investigación y preparación",
           "Arreglo vocal",
@@ -462,6 +494,42 @@
           "Metadata Systems",
           "Cluster-Based Release Scheduling",
           "45-Day Review Cycles"
+        ]
+      },
+      "vocal-production-lab": {
+        "description": "Un curso instructivo en línea diseñado para enseñar a usuarios intermedios de tecnología musical qué es la producción vocal, por qué importa y cómo lograr grabaciones vocales profesionales en casa o en el estudio.",
+        "dmaic": {
+          "A": "La producción vocal es un nicho con recursos de aprendizaje consolidados limitados. Crear contenido de video educativo atractivo requirió resolver la continuidad en múltiples días de filmación, manejar el ruido ambiental y aprender una plataforma de alojamiento desconocida.",
+          "C": "Curso publicado y disponible para estudiantes. Contenido organizado con objetivos claros de lección, tareas y evaluaciones. Marco diseñado para ser replicable en futuros cursos de tecnología musical y temas relacionados.",
+          "D": "Crear un curso en línea accesible que enseñe conceptos de producción vocal — desde comprender la voz hasta la grabación, edición y mezcla — sin requerir equipo costoso ni lenguaje demasiado técnico.",
+          "I": "Produjo 16 videos que incluyen 12 lecciones, una introducción, un cierre de curso y un trailer. Filmado en un estudio casero usando múltiples ángulos de cámara y grabaciones de pantalla. Editado con motion graphics, diseño de sonido y títulos profesionales. Construyó el curso en Thinkific con currículo organizado, cuestionarios y ejemplos de audio descargables compatibles con cualquier DAW.",
+          "M": "Completitud del curso a través de 12 lecciones, 3 cuestionarios y 6 tareas prácticas; calidad de producción de video; comprensión y participación de los estudiantes; y usabilidad de la plataforma."
+        },
+        "outcomes": [
+          "Curso de 16 videos publicado con motion graphics y títulos profesionales",
+          "12 lecciones que cubren voz, grabación, edición y mezcla",
+          "3 cuestionarios y 6 tareas prácticas con ejemplos de audio descargables",
+          "Plataforma de curso alojada construida y organizada para la usabilidad del estudiante",
+          "Framework de curso replicable establecido para futura expansión"
+        ],
+        "role": "Creador del curso e instructor",
+        "timeline": [
+          "Investigación & diseño curricular",
+          "Guion & planificación de lecciones",
+          "Filmación y producción",
+          "Edición y posproducción",
+          "Construcción de plataforma & publicación"
+        ],
+        "tools": [
+          "Adobe Premiere Pro",
+          "OBS Studio",
+          "Thinkific",
+          "Canva",
+          "HandBrake",
+          "Motion Graphics",
+          "Sound Design",
+          "Teleprompter Direction",
+          "Home Studio Production"
         ]
       }
     }
@@ -516,8 +584,8 @@
     "projects": "Proyectos"
   },
   "projectCard": {
-    "musicEducation": "Música y Educación",
-    "musicProduction": "Música y Producción",
+    "musicEducation": "Música & educación",
+    "musicProduction": "Música & producción",
     "systemsTechnology": "Sistemas y Tecnología",
     "viewDetails": "Ver detalles del proyecto"
   },
@@ -586,7 +654,7 @@
     "year": "Año"
   },
   "videoCard": {
-    "lyricVideo": "Video lírico",
+    "lyricVideo": "Lyric video",
     "musicVideo": "Video musical"
   },
   "work": {

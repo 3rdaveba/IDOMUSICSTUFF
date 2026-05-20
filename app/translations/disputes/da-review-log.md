@@ -1,8 +1,8 @@
 # Translation Review Log: DA
 
-Generated: 2026-05-20T21:27:47.592Z
+Generated: 2026-05-20T22:36:22.013Z
 
-Total disputed keys: 224
+Total disputed keys: 245
 
 ## navigation.artistWork
 
@@ -28,9 +28,9 @@ Total disputed keys: 224
 
 **Codex:** Gennem min karriere har jeg opbygget omfattende erfaring som artist, liveperformer, lydtekniker og kreativ projektleder. Fra at organisere liveoptrædener, samarbejde med artister, undervise studerende og arbejde med oversete lokalsamfund har jeg skabt en dokumenteret evne til at føre projekter fra idé til færdigt resultat.
 
-**Gemini:** I løbet af min karriere har jeg opnået omfattende erfaring som artist, sceneperformer, lydtekniker og kreativ projektleder. Fra organisering af liveoptrædener og samarbejde med artister til undervisning af studerende og arbejde med udsatte lokalsamfund, har jeg opbygget en track record for succesfuldt at levere projekter fra koncept til færdiggørelse.
+**Gemini:** I løbet af min karriere har jeg opbygget en bred erfaring inden for musik, liveoptrædener, uddannelse og kreativ projektledelse. Som artist, sceneperformer, lydtekniker og samarbejdspartner har jeg haft mulighed for at hjælpe med at virkeliggøre idéer på tværs af mange forskellige arenaer…fra livearrangementer og studieoptagelser til studenterprogrammer, fællesskabsinitiativer og kunstnerdrevne projekter.
 
-**Reason:** No consensus — similarities: C↔X=0.43, C↔G=0.37, X↔G=0.73
+**Reason:** No consensus — similarities: C↔X=0.43, C↔G=0.93, X↔G=0.41
 
 **Selected:** Gennem min karriere har jeg opbygget en bred erfaring inden for musik, liveoptrædener, uddannelse og kreativ projektledelse. Som kunstner, sceneoptræder, lydingenør og samarbejdspartner har jeg haft mulighed for at hjælpe med at virkeliggøre idéer på tværs af mange forskellige arenaer…fra livearrangementer og studieoptagelser til studenterprogrammer, fællesskabsinitiativer og kunstnerdrevne projekter.
 
@@ -44,9 +44,9 @@ Total disputed keys: 224
 
 **Codex:** Dette site er skabt for at give dig indblik i min passion for at skabe oplevelser med gennemslagskraft, min kreative tankegang og nogle af de projekter, jeg har været en del af bag kulisserne.
 
-**Gemini:** Denne side er designet til at give dig et indblik i min passion for at skabe betydningsfulde oplevelser, min kreative tankegang og et kig bag kulisserne på nogle af de projekter, jeg har været en del af.
+**Gemini:** Mit arbejde er forankret i at skabe virkningsfulde oplevelser, støtte kreativ vision og guide projekter fra koncept til færdiggørelse med intention, omsorg og professionalisme. Dette portfolio giver et indblik i min kreative proces, det arbejde jeg har bidraget til, og de projekter der afspejler min passion for at skabe oplevelser, der forbinder med mennesker.
 
-**Reason:** No consensus — similarities: C↔X=0.30, C↔G=0.30, X↔G=0.60
+**Reason:** No consensus — similarities: C↔X=0.30, C↔G=0.98, X↔G=0.30
 
 **Selected:** Mit arbejde er forankret i at skabe virkningsfulde oplevelser, støtte kreativ vision og guide projekter fra idé til færdiggørelse med intention, omsorg og professionalisme. Dette portfolio giver et indblik i min kreative proces, det arbejde jeg har bidraget til, og de projekter der afspejler min passion for at skabe oplevelser, der forbinder med mennesker.
 
@@ -60,9 +60,9 @@ Total disputed keys: 224
 
 **Codex:** Jeg ser frem til muligheden for at arbejde sammen med dig i fremtiden!
 
-**Gemini:** Jeg ser frem til muligheden for at arbejde sammen med dig i fremtiden!
+**Gemini:** Jeg glæder mig til at udforske, hvordan vi kan samarbejde!
 
-**Reason:** No consensus — similarities: C↔X=0.31, C↔G=0.31, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.31, C↔G=1.00, X↔G=0.31
 
 **Selected:** Jeg ser frem til muligheden for at arbejde sammen med dig i fremtiden!
 
@@ -76,9 +76,9 @@ Total disputed keys: 224
 
 **Codex:** Et tværsnit af projekter inden for musikproduktion, community-undervisning, systemarkitektur og kreativ teknologi — alle bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt.
 
-**Gemini:** Et tværsnit af projekter inden for musikproduktion, lokal uddannelse, systemarkitektur og kreativ teknologi — hver især bygget med den samme hensigt: at skabe noget meningsfuldt, skalerbart og menneskeligt.
+**Gemini:** Et tværsnit af projekter der spænder over musikproduktion, fællesskabsuddannelse, systemarkitektur og kreativ teknologi – hvert enkelt bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt. Hvert projekt er præsenteret i DMAIC-format (Define, Measure, Analyze, Improve, Control), så du kan se, hvordan hvert enkelt bevæger sig fra idé til målbart resultat.
 
-**Reason:** No consensus — similarities: C↔X=0.45, C↔G=0.47, X↔G=0.82
+**Reason:** No consensus — similarities: C↔X=0.45, C↔G=0.94, X↔G=0.45
 
 **Selected:** Et tværsnit af projekter der spænder over musikproduktion, fællesskabsuddannelse, systemsarkitektur og kreativ teknologi – hvert enkelt bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt. Hvert projekt er præsenteret i DMAIC-format (Definér, Mål, Analysér, Forbedre, Kontrollér), så du kan se, hvordan hvert enkelt bevæger sig fra idé til målbart resultat.
 
@@ -652,9 +652,9 @@ Total disputed keys: 224
 
 **Codex:** Recording Studio
 
-**Gemini:** Recording Studio
+**Gemini:** Optagestudie
 
-**Reason:** No consensus — similarities: C↔X=0.31, C↔G=0.31, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.31, C↔G=0.69, X↔G=0.31
 
 **Selected:** Recording Studio
 
@@ -1044,22 +1044,6 @@ Total disputed keys: 224
 
 ---
 
-## data.projects.audiolab-intelligence.role
-
-**English:** Systems Architecture & Creative AI
-
-**Claude:** Systemsarkitektur og kreativ AI
-
-**Codex:** Systemarkitektur & kreativ AI
-
-**Gemini:** [MISSING]
-
-**Reason:** One or more models missing this key
-
-**Selected:** Systemsarkitektur og kreativ AI
-
----
-
 ## data.projects.the-reimagination-engine.description
 
 **English:** An experimental release project where old demos and unfinished song ideas are reimagined through AI tools and released in clustered waves. Drops happen every other week in alternating three-track clusters — one wave relational, the next energetic — with performance reviewed every 45 days. The goal is to see if consistent releases alone can generate streaming revenue and organic traction without any marketing, social media presence, or paid promotion. If a track lands in the top tier of its cluster, it gets flagged for potential reproduction or licensing.
@@ -1196,9 +1180,9 @@ Total disputed keys: 224
 
 **Codex:** AI Music Tools
 
-**Gemini:** AI Music Tools
+**Gemini:** AI-musikværktøjer
 
-**Reason:** No consensus — similarities: C↔X=0.29, C↔G=0.29, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.29, C↔G=1.00, X↔G=0.29
 
 **Selected:** AI Music Tools
 
@@ -1212,9 +1196,9 @@ Total disputed keys: 224
 
 **Codex:** Metadata Systems
 
-**Gemini:** Metadata Systems
+**Gemini:** Metadatasystemer
 
-**Reason:** No consensus — similarities: C↔X=0.75, C↔G=0.75, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.75, C↔G=1.00, X↔G=0.75
 
 **Selected:** Metadata Systems
 
@@ -1228,9 +1212,9 @@ Total disputed keys: 224
 
 **Codex:** Cluster-Based Release Scheduling
 
-**Gemini:** Cluster-Based Release Scheduling
+**Gemini:** Cluster-baseret udgivelsesplanlægning
 
-**Reason:** No consensus — similarities: C↔X=0.29, C↔G=0.29, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.29, C↔G=0.84, X↔G=0.49
 
 **Selected:** Cluster-Based Release Scheduling
 
@@ -1244,9 +1228,9 @@ Total disputed keys: 224
 
 **Codex:** 45-Day Review Cycles
 
-**Gemini:** 45-Day Review Cycles
+**Gemini:** 45-dages gennemgangscyklusser
 
-**Reason:** No consensus — similarities: C↔X=0.34, C↔G=0.34, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.34, C↔G=1.00, X↔G=0.34
 
 **Selected:** 45-Day Review Cycles
 
@@ -1340,11 +1324,11 @@ Total disputed keys: 224
 
 **Codex:** Kreativ systemarkitekt & artist
 
-**Gemini:** [MISSING]
+**Gemini:** Kreativ systemarkitekt & artist
 
-**Reason:** One or more models missing this key
+**Reason:** No consensus — similarities: C↔X=0.71, C↔G=0.71, X↔G=1.00
 
-**Selected:** Kreativ systemsarkitekt og kunstner
+**Selected:** Kreativ systemarkitekt & artist
 
 ---
 
@@ -1500,9 +1484,9 @@ Total disputed keys: 224
 
 **Codex:** Vocal Arranging
 
-**Gemini:** Vocal Arranging
+**Gemini:** Vokalarrangement
 
-**Reason:** No consensus — similarities: C↔X=0.47, C↔G=0.47, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.47, C↔G=0.38, X↔G=0.56
 
 **Selected:** Vocal Arranging
 
@@ -1516,9 +1500,9 @@ Total disputed keys: 224
 
 **Codex:** BGV Production
 
-**Gemini:** BGV Production
+**Gemini:** BGV-produktion
 
-**Reason:** No consensus — similarities: C↔X=0.79, C↔G=0.79, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.79, C↔G=1.00, X↔G=0.79
 
 **Selected:** BGV Production
 
@@ -1548,9 +1532,9 @@ Total disputed keys: 224
 
 **Codex:** Budget Management
 
-**Gemini:** Budget Management
+**Gemini:** Budgetstyring
 
-**Reason:** No consensus — similarities: C↔X=0.41, C↔G=0.41, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.41, C↔G=1.00, X↔G=0.41
 
 **Selected:** Budget Management
 
@@ -1564,9 +1548,9 @@ Total disputed keys: 224
 
 **Codex:** Studio Coordination
 
-**Gemini:** Studio Coordination
+**Gemini:** Studiekoordinering
 
-**Reason:** No consensus — similarities: C↔X=0.63, C↔G=0.63, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.63, C↔G=1.00, X↔G=0.63
 
 **Selected:** Studio Coordination
 
@@ -1580,9 +1564,9 @@ Total disputed keys: 224
 
 **Codex:** Multi-Track Recording
 
-**Gemini:** Multi-Track Recording
+**Gemini:** Multi-track optagelse
 
-**Reason:** No consensus — similarities: C↔X=0.10, C↔G=0.10, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.10, C↔G=0.52, X↔G=0.52
 
 **Selected:** Multi-Track Recording
 
@@ -1596,9 +1580,9 @@ Total disputed keys: 224
 
 **Codex:** Video Collaboration
 
-**Gemini:** Video Collaboration
+**Gemini:** Videosamarbejde
 
-**Reason:** No consensus — similarities: C↔X=0.37, C↔G=0.37, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.37, C↔G=1.00, X↔G=0.37
 
 **Selected:** Video Collaboration
 
@@ -1660,11 +1644,11 @@ Total disputed keys: 224
 
 **Codex:** Vocal Producer
 
-**Gemini:** [MISSING]
+**Gemini:** Vokalproducer
 
-**Reason:** One or more models missing this key
+**Reason:** No consensus — similarities: C↔X=0.64, C↔G=0.86, X↔G=0.79
 
-**Selected:** Vokalproducent
+**Selected:** Vocal Producer
 
 ---
 
@@ -1772,9 +1756,9 @@ Total disputed keys: 224
 
 **Codex:** Vokalarrangement
 
-**Gemini:** Vocal Arrangement
+**Gemini:** Vokalarrangement
 
-**Reason:** No consensus — similarities: C↔X=0.38, C↔G=0.29, X↔G=0.82
+**Reason:** No consensus — similarities: C↔X=0.38, C↔G=0.38, X↔G=1.00
 
 **Selected:** Vokalarrangement
 
@@ -1820,9 +1804,9 @@ Total disputed keys: 224
 
 **Codex:** Vocal Arranging
 
-**Gemini:** Vocal Arranging
+**Gemini:** Vokalarrangement
 
-**Reason:** No consensus — similarities: C↔X=0.47, C↔G=0.47, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.47, C↔G=0.38, X↔G=0.56
 
 **Selected:** Vocal Arranging
 
@@ -1868,9 +1852,9 @@ Total disputed keys: 224
 
 **Codex:** Stakeholder Negotiation
 
-**Gemini:** Stakeholder Negotiation
+**Gemini:** Interessentforhandling
 
-**Reason:** No consensus — similarities: C↔X=0.13, C↔G=0.13, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.13, C↔G=1.00, X↔G=0.13
 
 **Selected:** Stakeholder Negotiation
 
@@ -1900,9 +1884,9 @@ Total disputed keys: 224
 
 **Codex:** International Collaboration
 
-**Gemini:** International Collaboration
+**Gemini:** Internationalt samarbejde
 
-**Reason:** No consensus — similarities: C↔X=0.56, C↔G=0.56, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.56, C↔G=1.00, X↔G=0.56
 
 **Selected:** International Collaboration
 
@@ -1980,11 +1964,11 @@ Total disputed keys: 224
 
 **Codex:** Vocal Producer
 
-**Gemini:** [MISSING]
+**Gemini:** Vokalproducer
 
-**Reason:** One or more models missing this key
+**Reason:** No consensus — similarities: C↔X=0.64, C↔G=0.86, X↔G=0.79
 
-**Selected:** Vokalproducent
+**Selected:** Vocal Producer
 
 ---
 
@@ -2156,9 +2140,9 @@ Total disputed keys: 224
 
 **Codex:** Vocal Instruction
 
-**Gemini:** Vocal Instruction
+**Gemini:** Vokalinstruktion
 
-**Reason:** No consensus — similarities: C↔X=0.35, C↔G=0.35, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.35, C↔G=0.47, X↔G=0.76
 
 **Selected:** Vocal Instruction
 
@@ -2172,9 +2156,9 @@ Total disputed keys: 224
 
 **Codex:** DAW Production
 
-**Gemini:** DAW Production
+**Gemini:** DAW-produktion
 
-**Reason:** No consensus — similarities: C↔X=0.79, C↔G=0.79, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.79, C↔G=1.00, X↔G=0.79
 
 **Selected:** DAW Production
 
@@ -2188,9 +2172,9 @@ Total disputed keys: 224
 
 **Codex:** Songwriting
 
-**Gemini:** Songwriting
+**Gemini:** Sangskrivning
 
-**Reason:** No consensus — similarities: C↔X=0.62, C↔G=0.62, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.62, C↔G=1.00, X↔G=0.62
 
 **Selected:** Songwriting
 
@@ -2204,9 +2188,9 @@ Total disputed keys: 224
 
 **Codex:** Music Video Production
 
-**Gemini:** Music Video Production
+**Gemini:** Musikvideoproduktion
 
-**Reason:** No consensus — similarities: C↔X=0.73, C↔G=0.73, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.73, C↔G=1.00, X↔G=0.73
 
 **Selected:** Music Video Production
 
@@ -2220,9 +2204,9 @@ Total disputed keys: 224
 
 **Codex:** Lesson Planning
 
-**Gemini:** Lesson Planning
+**Gemini:** Lektionsplanlægning
 
-**Reason:** No consensus — similarities: C↔X=0.58, C↔G=0.58, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.58, C↔G=1.00, X↔G=0.58
 
 **Selected:** Lesson Planning
 
@@ -2236,9 +2220,9 @@ Total disputed keys: 224
 
 **Codex:** Ensemble Direction
 
-**Gemini:** Ensemble Direction
+**Gemini:** Ensembleretning
 
-**Reason:** No consensus — similarities: C↔X=0.50, C↔G=0.50, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.50, C↔G=0.60, X↔G=0.61
 
 **Selected:** Ensemble Direction
 
@@ -2252,9 +2236,9 @@ Total disputed keys: 224
 
 **Codex:** Youth Education
 
-**Gemini:** Youth Education
+**Gemini:** Ungdomsuddannelse
 
-**Reason:** No consensus — similarities: C↔X=0.06, C↔G=0.06, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.06, C↔G=1.00, X↔G=0.06
 
 **Selected:** Youth Education
 
@@ -2332,11 +2316,11 @@ Total disputed keys: 224
 
 **Codex:** Kordirigent & recording studio-underviser
 
-**Gemini:** [MISSING]
+**Gemini:** Kordirigent & studielærer
 
-**Reason:** One or more models missing this key
+**Reason:** No consensus — similarities: C↔X=0.34, C↔G=0.37, X↔G=0.54
 
-**Selected:** Korleder og optagelsesstudioinstruktør
+**Selected:** Kordirigent & recording studio-underviser
 
 ---
 
@@ -2444,9 +2428,9 @@ Total disputed keys: 224
 
 **Codex:** Live Production
 
-**Gemini:** Live Production
+**Gemini:** Liveproduktion
 
-**Reason:** No consensus — similarities: C↔X=0.80, C↔G=0.80, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.80, C↔G=1.00, X↔G=0.80
 
 **Selected:** Live Production
 
@@ -2460,9 +2444,9 @@ Total disputed keys: 224
 
 **Codex:** Stage Design
 
-**Gemini:** Stage Design
+**Gemini:** Scenedesign
 
-**Reason:** No consensus — similarities: C↔X=0.58, C↔G=0.58, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.58, C↔G=1.00, X↔G=0.58
 
 **Selected:** Stage Design
 
@@ -2476,9 +2460,9 @@ Total disputed keys: 224
 
 **Codex:** Pandemic Safety Protocols
 
-**Gemini:** Pandemic Safety Protocols
+**Gemini:** Pandemisikkerhedsprotokoller
 
-**Reason:** No consensus — similarities: C↔X=0.48, C↔G=0.48, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.48, C↔G=0.97, X↔G=0.46
 
 **Selected:** Pandemic Safety Protocols
 
@@ -2508,9 +2492,9 @@ Total disputed keys: 224
 
 **Codex:** Creative Direction
 
-**Gemini:** Creative Direction
+**Gemini:** Kreativ retning
 
-**Reason:** No consensus — similarities: C↔X=0.44, C↔G=0.44, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.44, C↔G=0.60, X↔G=0.56
 
 **Selected:** Creative Direction
 
@@ -2588,11 +2572,11 @@ Total disputed keys: 224
 
 **Codex:** Kreativ producer & liveperformance-instruktør
 
-**Gemini:** [MISSING]
+**Gemini:** Kreativ producer & live performance director
 
-**Reason:** One or more models missing this key
+**Reason:** No consensus — similarities: C↔X=0.58, C↔G=0.59, X↔G=0.80
 
-**Selected:** Kreativ producent og liveshowdirektør
+**Selected:** Kreativ producer & liveperformance-instruktør
 
 ---
 
@@ -2620,9 +2604,9 @@ Total disputed keys: 224
 
 **Codex:** Fastholde og dirigere LMU Gospel Choir under Department of African American Studies med fokus på studerendes vokale udvikling, kulturelt forankret performance og vellykkede semesterafsluttende koncerter hvert semester på tværs af alle fire kursusniveauer.
 
-**Gemini:** Opretholde og lede LMU Gospel Choir under Department of African American Studies med fokus på studerendes vokaludvikling, kulturelt informerede optrædener og succesfulde afslutningskoncerter hvert semester på tværs af alle fire kursusniveauer.
+**Gemini:** Opretholde og lede LMU Gospel Choir under Department of African American Studies med fokus på studerendes vokaludvikling, kulturelt informerede optrædener og succesfulde afslutningskoncerter hvert semester på tvrs af alle fire kursusniveauer.
 
-**Reason:** No consensus — similarities: C↔X=0.83, C↔G=0.86, X↔G=0.81
+**Reason:** No consensus — similarities: C↔X=0.83, C↔G=0.86, X↔G=0.80
 
 **Selected:** Oprethold og diriger LMU Gospel Choir inden for Department of African American Studies med fokus på studerendes vokaludvikling, kulturelt informeret performance og succesfulde slutsemesterkoncerter hvert semester på tværs af alle fire kursniveauer.
 
@@ -2732,9 +2716,9 @@ Total disputed keys: 224
 
 **Codex:** Vocal Direction
 
-**Gemini:** Vocal Direction
+**Gemini:** Vokalretning
 
-**Reason:** No consensus — similarities: C↔X=0.33, C↔G=0.33, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.33, C↔G=0.50, X↔G=0.47
 
 **Selected:** Vocal Direction
 
@@ -2748,9 +2732,9 @@ Total disputed keys: 224
 
 **Codex:** Program Leadership
 
-**Gemini:** Program Leadership
+**Gemini:** Programledelse
 
-**Reason:** No consensus — similarities: C↔X=0.61, C↔G=0.61, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.61, C↔G=1.00, X↔G=0.61
 
 **Selected:** Program Leadership
 
@@ -2764,9 +2748,9 @@ Total disputed keys: 224
 
 **Codex:** Graphic Design
 
-**Gemini:** Graphic Design
+**Gemini:** Grafisk design
 
-**Reason:** No consensus — similarities: C↔X=0.64, C↔G=0.64, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.64, C↔G=1.00, X↔G=0.64
 
 **Selected:** Graphic Design
 
@@ -2780,9 +2764,9 @@ Total disputed keys: 224
 
 **Codex:** Budget Negotiation
 
-**Gemini:** Budget Negotiation
+**Gemini:** Budgetforhandling
 
-**Reason:** No consensus — similarities: C↔X=0.39, C↔G=0.39, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.39, C↔G=1.00, X↔G=0.39
 
 **Selected:** Budget Negotiation
 
@@ -2812,9 +2796,9 @@ Total disputed keys: 224
 
 **Codex:** Alumni Relations
 
-**Gemini:** Alumni Relations
+**Gemini:** Alumni-relationer
 
-**Reason:** No consensus — similarities: C↔X=0.69, C↔G=0.69, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.69, C↔G=0.88, X↔G=0.76
 
 **Selected:** Alumni Relations
 
@@ -2828,9 +2812,9 @@ Total disputed keys: 224
 
 **Codex:** Event Planning
 
-**Gemini:** Event Planning
+**Gemini:** Eventplanlægning
 
-**Reason:** No consensus — similarities: C↔X=0.69, C↔G=0.69, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.69, C↔G=1.00, X↔G=0.69
 
 **Selected:** Event Planning
 
@@ -2844,9 +2828,9 @@ Total disputed keys: 224
 
 **Codex:** Music Selection
 
-**Gemini:** Music Selection
+**Gemini:** Musikvalg
 
-**Reason:** No consensus — similarities: C↔X=0.33, C↔G=0.33, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.33, C↔G=1.00, X↔G=0.33
 
 **Selected:** Music Selection
 
@@ -2924,11 +2908,427 @@ Total disputed keys: 224
 
 **Codex:** Dirigent, LMU Gospel Choir
 
-**Gemini:** [MISSING]
+**Gemini:** Dirigent for LMU Gospel Choir
 
-**Reason:** One or more models missing this key
+**Reason:** No consensus — similarities: C↔X=0.73, C↔G=0.62, X↔G=0.86
 
-**Selected:** Leder, LMU Gospel Choir
+**Selected:** Dirigent, LMU Gospel Choir
+
+---
+
+## data.projects.creative-intelligence-production-system.dmaic.M
+
+**English:** Is the system running reliably? Are tasks getting finished? Is it staying in its lane (research and prep only, no touching final work)? Can every action be reviewed later?
+
+**Claude:** Kører systemet pålideligt? Bliver opgaverne fuldført? Holder det sig inden for sine grænser (kun research og forberedelse, ingen kontakt med færdigt arbejde)? Kan alle handlinger gennemgås bagefter?
+
+**Codex:** Kører systemet stabilt? Bliver opgaverne færdige? Holder det sig inden for sit område, research og forberedelse alene, uden at røre det færdige arbejde? Kan hver handling gennemgås senere?
+
+**Gemini:** Kører systemet pålideligt? Bliver opgaverne færdiggjort? Bliver det i sit eget spor (kun research og forberedelse, ingen berøring af endeligt arbejde)? Kan enhver handling gennemgås senere?
+
+**Reason:** No consensus — similarities: C↔X=0.71, C↔G=0.70, X↔G=0.67
+
+**Selected:** Kører systemet pålideligt? Bliver opgaverne fuldført? Holder det sig inden for sine grænser (kun research og forberedelse, ingen kontakt med færdigt arbejde)? Kan alle handlinger gennemgås bagefter?
+
+---
+
+## data.projects.creative-intelligence-production-system.timeline[0]
+
+**English:** Research & Architecture
+
+**Claude:** Forskning og arkitektur
+
+**Codex:** Research & arkitektur
+
+**Gemini:** Research & Arkitektur
+
+**Reason:** No consensus — similarities: C↔X=0.57, C↔G=0.52, X↔G=0.95
+
+**Selected:** Research & arkitektur
+
+---
+
+## data.projects.creative-intelligence-production-system.timeline[1]
+
+**English:** Core System Build
+
+**Claude:** Kerneopbygning
+
+**Codex:** Opbygning af kernesystem
+
+**Gemini:** Kernesystem-opbygning
+
+**Reason:** No consensus — similarities: C↔X=0.13, C↔G=0.67, X↔G=0.04
+
+**Selected:** Opbygning af kernesystem
+
+---
+
+## data.projects.creative-intelligence-production-system.timeline[2]
+
+**English:** AI Specialist Integration
+
+**Claude:** AI-specialistintegration
+
+**Codex:** Integration af AI-specialister
+
+**Gemini:** AI-specialist integration
+
+**Reason:** No consensus — similarities: C↔X=0.20, C↔G=0.96, X↔G=0.20
+
+**Selected:** Integration af AI-specialister
+
+---
+
+## data.projects.creative-intelligence-production-system.timeline[3]
+
+**English:** Safety & Guardrails
+
+**Claude:** Sikkerhed og begrænsninger
+
+**Codex:** Sikkerhed & guardrails
+
+**Gemini:** Sikkerhed & Guardrails
+
+**Reason:** No consensus — similarities: C↔X=0.50, C↔G=0.50, X↔G=0.95
+
+**Selected:** Sikkerhed & guardrails
+
+---
+
+## data.projects.creative-intelligence-production-system.tools[2]
+
+**English:** Multiple AI Model Coordination
+
+**Claude:** Koordinering af flere AI-modeller
+
+**Codex:** Multiple AI Model Coordination
+
+**Gemini:** Koordinering af flere AI-modeller
+
+**Reason:** No consensus — similarities: C↔X=0.09, C↔G=1.00, X↔G=0.09
+
+**Selected:** Multiple AI Model Coordination
+
+---
+
+## data.projects.creative-intelligence-production-system.tools[3]
+
+**English:** Shared Memory & Context
+
+**Claude:** Delt hukommelse og kontekst
+
+**Codex:** Shared Memory & Context
+
+**Gemini:** Delt hukommelse & kontekst
+
+**Reason:** No consensus — similarities: C↔X=0.30, C↔G=0.93, X↔G=0.35
+
+**Selected:** Shared Memory & Context
+
+---
+
+## data.projects.creative-intelligence-production-system.tools[4]
+
+**English:** Automated Scheduling
+
+**Claude:** Automatisk planlægning
+
+**Codex:** Automated Scheduling
+
+**Gemini:** Automatiseret skemalægning
+
+**Reason:** No consensus — similarities: C↔X=0.50, C↔G=0.65, X↔G=0.50
+
+**Selected:** Automated Scheduling
+
+---
+
+## data.projects.creative-intelligence-production-system.tools[5]
+
+**English:** Safety Guardrails
+
+**Claude:** Sikkerhedsgrænser
+
+**Codex:** Safety Guardrails
+
+**Gemini:** Sikkerheds-guardrails
+
+**Reason:** No consensus — similarities: C↔X=0.12, C↔G=0.57, X↔G=0.52
+
+**Selected:** Safety Guardrails
+
+---
+
+## data.projects.creative-intelligence-production-system.outcomes[2]
+
+**English:** Complete record of every system action
+
+**Claude:** Fuldstændig registrering af alle systemhandlinger
+
+**Codex:** Komplet registrering af hver systemhandling
+
+**Gemini:** Komplet oversigt over enhver systemhandling
+
+**Reason:** No consensus — similarities: C↔X=0.65, C↔G=0.39, X↔G=0.67
+
+**Selected:** Komplet registrering af hver systemhandling
+
+---
+
+## data.projects.vocal-production-lab.description
+
+**English:** An online instructional course designed to teach intermediate music technology users what vocal production is, why it matters, and how to achieve professional vocal recordings at home or in the studio.
+
+**Claude:** Et online undervisningskursus designet til at lære brugere med mellemliggende musikteknik, hvad vokalproduktion er, hvorfor det er vigtigt og hvordan man opnår professionelle vokaloptagelser derhjemme eller i studiet.
+
+**Codex:** Et online undervisningskursus designet til at lære let øvede brugere af musikteknologi, hvad vocal production er, hvorfor det betyder noget, og hvordan man opnår professionelle vokalindspilninger derhjemme eller i studiet.
+
+**Gemini:** Et online undervisningsforløb designet til at lære brugere på mellemniveau inden for musikteknologi, hvad vokalproduktion er, hvorfor det betyder noget, og hvordan man opnår professionelle vokaloptagelser hjemme eller i studiet.
+
+**Reason:** No consensus — similarities: C↔X=0.77, C↔G=0.83, X↔G=0.79
+
+**Selected:** Et online undervisningskursus designet til at lære brugere med mellemliggende musikteknik, hvad vokalproduktion er, hvorfor det er vigtigt og hvordan man opnår professionelle vokaloptagelser derhjemme eller i studiet.
+
+---
+
+## data.projects.vocal-production-lab.dmaic.D
+
+**English:** Create an accessible online course that teaches vocal production concepts — from understanding the voice through recording, editing, and mixing — without requiring expensive equipment or overly complex language.
+
+**Claude:** Skab et tilgængeligt online kursus der underviser i vokalproduktion – fra forståelse af stemmen over optagelse og redigering til mixing – uden at kræve dyrt udstyr eller unødigt teknisk sprog.
+
+**Codex:** Skab et tilgængeligt onlinekursus, der underviser i vocal production-koncepter — fra forståelse af stemmen til indspilning, redigering og mixing — uden krav om dyrt udstyr eller alt for komplekst sprog.
+
+**Gemini:** Skab et tilgængeligt onlinekursus, der underviser i vokalproduktionskoncepter — fra forståelse af stemmen til optagelse, redigering og mixning — uden at kræve dyrt udstyr eller alt for komplekst sprog.
+
+**Reason:** No consensus — similarities: C↔X=0.72, C↔G=0.80, X↔G=0.89
+
+**Selected:** Skab et tilgængeligt online kursus der underviser i vokalproduktion – fra forståelse af stemmen over optagelse og redigering til mixing – uden at kræve dyrt udstyr eller unødigt teknisk sprog.
+
+---
+
+## data.projects.vocal-production-lab.dmaic.A
+
+**English:** Vocal production is a niche focus with limited consolidated learning resources. Creating engaging educational video content required solving continuity across multiple filming days, managing environmental noise, and learning an unfamiliar hosting platform.
+
+**Claude:** Vokalproduktion er et nichefokus med begrænsede konsoliderede læringsressourcer. Skabelse af engagerende pædagogisk videoindhold krævede løsning af kontinuitet på tværs af flere optagedage, håndtering af miljøstøj og indlæring af en ukendt hostingplatform.
+
+**Codex:** Vocal production er et nicheområde med begrænsede samlede læringsressourcer. At skabe engagerende undervisningsvideoer krævede løsning af kontinuitet på tværs af flere optagedage, håndtering af miljøstøj og indlæring af en ukendt hostingplatform.
+
+**Gemini:** Vokalproduktion er et nichefokus med begrænsede samlede læringsressourcer. At skabe engagerende pædagogisk videoindhold krævede løsning af kontinuitet på tværs af flere optagedage, styring af omgivende støj og indlæring af en ukendt hostingplatform.
+
+**Reason:** No consensus — similarities: C↔X=0.82, C↔G=0.88, X↔G=0.84
+
+**Selected:** Vokalproduktion er et nichefokus med begrænsede konsoliderede læringsressourcer. Skabelse af engagerende pædagogisk videoindhold krævede løsning af kontinuitet på tværs af flere optagedage, håndtering af miljøstøj og indlæring af en ukendt hostingplatform.
+
+---
+
+## data.projects.vocal-production-lab.dmaic.C
+
+**English:** Course published and available for students. Content organized with clear lesson objectives, assignments, and assessments. Framework designed to be replicable for future courses in music technology and related topics.
+
+**Claude:** Kursus udgivet og tilgængeligt for studerende. Indhold organiseret med klare lektionsmål, opgaver og bedømmelser. Rammeværk designet til at kunne gentages til fremtidige kurser i musikteknik og relaterede emner.
+
+**Codex:** Kurset er publiceret og tilgængeligt for elever. Indholdet er organiseret med klare lektionsmål, opgaver og evalueringer. Frameworket er designet til at kunne gentages for fremtidige kurser i musikteknologi og relaterede emner.
+
+**Gemini:** Kursus udgivet og tilgængeligt for studerende. Indhold organiseret med klare lektionsmål, opgaver og evalueringer. Ramme designet til at kunne replikeres til fremtidige kurser inden for musikteknologi og relaterede emner.
+
+**Reason:** No consensus — similarities: C↔X=0.78, C↔G=0.85, X↔G=0.77
+
+**Selected:** Kursus udgivet og tilgængeligt for studerende. Indhold organiseret med klare lektionsmål, opgaver og bedømmelser. Rammeværk designet til at kunne gentages til fremtidige kurser i musikteknik og relaterede emner.
+
+---
+
+## data.projects.vocal-production-lab.timeline[0]
+
+**English:** Research & Curriculum Design
+
+**Claude:** Forskning og curriculumdesign
+
+**Codex:** Research & curriculumdesign
+
+**Gemini:** Research & pensumdesign
+
+**Reason:** No consensus — similarities: C↔X=0.66, C↔G=0.38, X↔G=0.70
+
+**Selected:** Research & curriculumdesign
+
+---
+
+## data.projects.vocal-production-lab.timeline[1]
+
+**English:** Scripting & Lesson Planning
+
+**Claude:** Manuskriptskrivning og lektionsplanlægning
+
+**Codex:** Manuskript & lektionsplanlægning
+
+**Gemini:** Scripting & lektionsplanlægning
+
+**Reason:** No consensus — similarities: C↔X=0.74, C↔G=0.67, X↔G=0.72
+
+**Selected:** Manuskript & lektionsplanlægning
+
+---
+
+## data.projects.vocal-production-lab.timeline[4]
+
+**English:** Platform Build & Publishing
+
+**Claude:** Platformopbygning og udgivelse
+
+**Codex:** Platformopbygning & publicering
+
+**Gemini:** Platformopbygning & udgivelse
+
+**Reason:** No consensus — similarities: C↔X=0.68, C↔G=0.93, X↔G=0.74
+
+**Selected:** Platformopbygning & publicering
+
+---
+
+## data.projects.vocal-production-lab.tools[5]
+
+**English:** Motion Graphics
+
+**Claude:** Motion graphics
+
+**Codex:** Motion Graphics
+
+**Gemini:** Motion Graphics
+
+**Reason:** No consensus — similarities: C↔X=0.93, C↔G=0.93, X↔G=1.00
+
+**Selected:** Motion Graphics
+
+---
+
+## data.projects.vocal-production-lab.tools[6]
+
+**English:** Sound Design
+
+**Claude:** Lyddesign
+
+**Codex:** Sound Design
+
+**Gemini:** Lyddesign
+
+**Reason:** No consensus — similarities: C↔X=0.50, C↔G=1.00, X↔G=0.50
+
+**Selected:** Sound Design
+
+---
+
+## data.projects.vocal-production-lab.tools[7]
+
+**English:** Teleprompter Direction
+
+**Claude:** Teleprompter-instruktion
+
+**Codex:** Teleprompter Direction
+
+**Gemini:** Teleprompter-instruktion
+
+**Reason:** No consensus — similarities: C↔X=0.71, C↔G=1.00, X↔G=0.71
+
+**Selected:** Teleprompter Direction
+
+---
+
+## data.projects.vocal-production-lab.tools[8]
+
+**English:** Home Studio Production
+
+**Claude:** Hjemmestudioproduktion
+
+**Codex:** Home Studio Production
+
+**Gemini:** Hjemmstudie-produktion
+
+**Reason:** No consensus — similarities: C↔X=0.64, C↔G=0.86, X↔G=0.59
+
+**Selected:** Home Studio Production
+
+---
+
+## data.projects.vocal-production-lab.outcomes[1]
+
+**English:** 12 lessons covering voice, recording, editing, and mixing
+
+**Claude:** 12 lektioner der dækker stemme, optagelse, redigering og mixing
+
+**Codex:** 12 lektioner om stemme, indspilning, redigering og mixing
+
+**Gemini:** 12 lektioner dækkende stemme, optagelse, redigering og mixning
+
+**Reason:** No consensus — similarities: C↔X=0.68, C↔G=0.87, X↔G=0.69
+
+**Selected:** 12 lektioner om stemme, indspilning, redigering og mixing
+
+---
+
+## data.projects.vocal-production-lab.outcomes[2]
+
+**English:** 3 quizzes and 6 practical assignments with downloadable audio examples
+
+**Claude:** 3 quizzer og 6 praktiske opgaver med downloadbare lydeksempler
+
+**Codex:** 3 quizzer og 6 praktiske opgaver med downloadbare audioeksempler
+
+**Gemini:** 3 quizzer og 6 praktiske opgaver med lydeksempler til download
+
+**Reason:** No consensus — similarities: C↔X=0.94, C↔G=0.61, X↔G=0.61
+
+**Selected:** 3 quizzer og 6 praktiske opgaver med downloadbare audioeksempler
+
+---
+
+## data.projects.vocal-production-lab.outcomes[3]
+
+**English:** Hosted course platform built and organized for student usability
+
+**Claude:** Hostet kursusplatform bygget og organiseret for studerendes brugervenlighed
+
+**Codex:** Hosted kursusplatform bygget og organiseret med fokus på elevernes brugervenlighed
+
+**Gemini:** Kursusplatform opbygget og organiseret til elevbrugervenlighed
+
+**Reason:** No consensus — similarities: C↔X=0.80, C↔G=0.69, X↔G=0.66
+
+**Selected:** Hosted kursusplatform bygget og organiseret med fokus på elevernes brugervenlighed
+
+---
+
+## data.projects.vocal-production-lab.outcomes[4]
+
+**English:** Replicable course framework established for future expansion
+
+**Claude:** Gentagelig kursusramme etableret til fremtidig udvidelse
+
+**Codex:** Gentageligt kursusframework etableret til fremtidig udvidelse
+
+**Gemini:** Replikerbar kursusramme etableret til fremtidig udvidelse
+
+**Reason:** No consensus — similarities: C↔X=0.89, C↔G=0.84, X↔G=0.75
+
+**Selected:** Gentageligt kursusframework etableret til fremtidig udvidelse
+
+---
+
+## data.projects.vocal-production-lab.role
+
+**English:** Course Creator & Instructor
+
+**Claude:** Kursusudvikler og instruktør
+
+**Codex:** Kursusskaber & underviser
+
+**Gemini:** Kursusskaber & instruktør
+
+**Reason:** No consensus — similarities: C↔X=0.46, C↔G=0.71, X↔G=0.72
+
+**Selected:** Kursusskaber & underviser
 
 ---
 
@@ -2945,6 +3345,22 @@ Total disputed keys: 224
 **Reason:** No consensus — similarities: C↔X=0.57, C↔G=0.57, X↔G=1.00
 
 **Selected:** Featured Vocalist — Original Motion Picture Soundtrack
+
+---
+
+## data.films.sinners.recognition
+
+**English:** GRAMMY® Award Winner
+
+**Claude:** GRAMMY® Award-vinder
+
+**Codex:** GRAMMY® Award Winner
+
+**Gemini:** GRAMMY®-vinder
+
+**Reason:** No consensus — similarities: C↔X=0.85, C↔G=0.70, X↔G=0.55
+
+**Selected:** GRAMMY® Award Winner
 
 ---
 
@@ -3004,9 +3420,9 @@ Total disputed keys: 224
 
 **Codex:** Featured Film Performance
 
-**Gemini:** Featured Film Performance
+**Gemini:** Udvalgt filmpræstation
 
-**Reason:** No consensus — similarities: C↔X=0.28, C↔G=0.28, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.28, C↔G=0.20, X↔G=0.20
 
 **Selected:** Featured Film Performance
 
@@ -3164,9 +3580,9 @@ Total disputed keys: 224
 
 **Codex:** Deezer Ecuador Chart #78 (Apr 2025)
 
-**Gemini:** Deezer Ecuador Chart #78 (apr 2025)
+**Gemini:** Deezer Ecuador hitliste #78 (april 2025)
 
-**Reason:** No consensus — similarities: C↔X=0.74, C↔G=0.77, X↔G=0.97
+**Reason:** No consensus — similarities: C↔X=0.74, C↔G=0.93, X↔G=0.75
 
 **Selected:** Deezer Ecuador Chart #78 (Apr 2025)
 
@@ -3196,9 +3612,9 @@ Total disputed keys: 224
 
 **Codex:** Deezer Estonia Chart #48 (Jan 2026)
 
-**Gemini:** Deezer Estland Chart #48 (jan 2026)
+**Gemini:** Deezer Estland hitliste #48 (januar 2026)
 
-**Reason:** No consensus — similarities: C↔X=0.67, C↔G=0.77, X↔G=0.86
+**Reason:** No consensus — similarities: C↔X=0.67, C↔G=0.90, X↔G=0.63
 
 **Selected:** Deezer Estonia Chart #48 (Jan 2026)
 
@@ -3452,27 +3868,11 @@ Total disputed keys: 224
 
 **Codex:** 2016–Present
 
-**Gemini:** 2016–Nu
+**Gemini:** 2016–nu
 
-**Reason:** No consensus — similarities: C↔X=0.50, C↔G=0.86, X↔G=0.42
+**Reason:** No consensus — similarities: C↔X=0.50, C↔G=1.00, X↔G=0.50
 
 **Selected:** 2016–Present
-
----
-
-## projectCard.viewDetails
-
-**English:** View project details
-
-**Claude:** Se projektdetaljer
-
-**Codex:** Se projektdetaljer
-
-**Gemini:** [MISSING]
-
-**Reason:** One or more models missing this key
-
-**Selected:** Se projektdetaljer
 
 ---
 
@@ -3484,11 +3884,11 @@ Total disputed keys: 224
 
 **Codex:** Musik & undervisning
 
-**Gemini:** [MISSING]
+**Gemini:** Musik & Uddannelse
 
-**Reason:** One or more models missing this key
+**Reason:** No consensus — similarities: C↔X=0.35, C↔G=0.89, X↔G=0.45
 
-**Selected:** Musik og Uddannelse
+**Selected:** Musik & undervisning
 
 ---
 
@@ -3500,75 +3900,11 @@ Total disputed keys: 224
 
 **Codex:** Musik & produktion
 
-**Gemini:** [MISSING]
+**Gemini:** Musik & Produktion
 
-**Reason:** One or more models missing this key
+**Reason:** No consensus — similarities: C↔X=0.84, C↔G=0.89, X↔G=0.94
 
-**Selected:** Musik og Produktion
-
----
-
-## projectCard.systemsTechnology
-
-**English:** Systems & Technology
-
-**Claude:** Systemer og Teknologi
-
-**Codex:** Systemer & teknologi
-
-**Gemini:** [MISSING]
-
-**Reason:** One or more models missing this key
-
-**Selected:** Systemer og Teknologi
-
----
-
-## releaseCard.solo
-
-**English:** Solo
-
-**Claude:** Solo
-
-**Codex:** Solo
-
-**Gemini:** [MISSING]
-
-**Reason:** One or more models missing this key
-
-**Selected:** Solo
-
----
-
-## releaseCard.feature
-
-**English:** Feature
-
-**Claude:** Feature
-
-**Codex:** Feature
-
-**Gemini:** [MISSING]
-
-**Reason:** One or more models missing this key
-
-**Selected:** Feature
-
----
-
-## videoCard.musicVideo
-
-**English:** Music Video
-
-**Claude:** Musikvideo
-
-**Codex:** Musikvideo
-
-**Gemini:** [MISSING]
-
-**Reason:** One or more models missing this key
-
-**Selected:** Musikvideo
+**Selected:** Musik & produktion
 
 ---
 
@@ -3580,11 +3916,11 @@ Total disputed keys: 224
 
 **Codex:** Lyric video
 
-**Gemini:** [MISSING]
+**Gemini:** Lyrikvideo
 
-**Reason:** One or more models missing this key
+**Reason:** No consensus — similarities: C↔X=0.82, C↔G=1.00, X↔G=0.82
 
-**Selected:** Lyrikvideo
+**Selected:** Lyric video
 
 ---
 

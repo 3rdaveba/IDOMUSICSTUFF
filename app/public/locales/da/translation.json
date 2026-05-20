@@ -224,7 +224,7 @@
             "text": "Sinners Original Motion Picture Soundtrack modtog en GRAMMY® Award for Best Compilation Soundtrack for Visual Media ved den 68. årlige Grammy Awards. Sangene \"I Lied to You\", \"Pale Pale Moon\" og \"Sinners\" var også nomineret til Best Song Written for Visual Media. Dette markerede min første sejr som krediteret medvirkende kunstner på en GRAMMY-anerkendt udgivelse."
           }
         ],
-        "recognition": "GRAMMY® Award-vinder",
+        "recognition": "GRAMMY® Award Winner",
         "role": "Featured Vocalist — Original Motion Picture Soundtrack"
       }
     },
@@ -277,7 +277,7 @@
           "Audio- og billedmateriale af høj kvalitet til marketing",
           "Effektiv budgetstyring under begrænsninger"
         ],
-        "role": "Vokalproducent",
+        "role": "Vocal Producer",
         "timeline": [
           "Pre-produktion og arrangement",
           "Talent acquisition",
@@ -296,6 +296,38 @@
           "Video Collaboration"
         ]
       },
+      "creative-intelligence-production-system": {
+        "description": "Byg en privat AI-produktionsassistent der kører 24/7 og håndterer research, organisering og kreativt forberedelsesarbejde, så mennesket kan fokusere på den faktiske kunst. Den koordinerer flere AI-modeller, holder detaljerede logs og har indbyggede sikkerhedsgrænser, så den aldrig rører færdigt arbejde uden tilladelse.",
+        "dmaic": {
+          "A": "De fleste kreative værktøjer kræver stadig et menneske til at overvåge hvert skridt. Udfordringen var at bygge noget der kunne arbejde selvstændigt uden at risikere det faktiske kreative output – så det blev designet til kun at observere, organisere og foreslå, aldrig til at overskrive færdigt arbejde.",
+          "C": "Alle handlinger logges og kan gennemgås. Ingen adgangskoder eller følsomme data gemmes i systemet. Det kan ikke køre tilfældige kommandoer. Sundhedstjek kører automatisk for at fange problemer tidligt.",
+          "D": "Byg et privat AI-system der håndterer kreative produktionsopgaver døgnet rundt – research, organisering og forberedelse af arbejde – så mennesket kan fokusere på de faktiske kreative beslutninger.",
+          "I": "Byggede et modulært system, hvor forskellige AI-specialister håndterer forskellige opgaver (research, organisering, analyse), med delt hukommelse så de ikke duplikerer arbejde. Planlagte daglige kørsler og lagdelt sikkerhed, så systemet kun kan læse og forberede – aldrig udgive eller overskrive.",
+          "M": "Kører systemet pålideligt? Bliver opgaverne fuldført? Holder det sig inden for sine grænser (kun research og forberedelse, ingen kontakt med færdigt arbejde)? Kan alle handlinger gennemgås bagefter?"
+        },
+        "outcomes": [
+          "AI-assistent kører kontinuerligt uden opsyn",
+          "Kreativt arbejde forbliver beskyttet mod utilsigtede ændringer",
+          "Komplet registrering af hver systemhandling",
+          "Flere AI-specialister der arbejder sammen som ét team"
+        ],
+        "role": "Arkitekt og systemsdesigner",
+        "timeline": [
+          "Research & arkitektur",
+          "Opbygning af kernesystem",
+          "Integration af AI-specialister",
+          "Sikkerhed & guardrails",
+          "Løbende optimering"
+        ],
+        "tools": [
+          "Docker",
+          "Python",
+          "Multiple AI Model Coordination",
+          "Shared Memory & Context",
+          "Automated Scheduling",
+          "Safety Guardrails"
+        ]
+      },
       "heart-soul-image-village": {
         "description": "Ledede koral- og optagelsesstudiokomponenterne i Image Village 2023, et sommerlejr på Heart and Soul Center i South Central Los Angeles. Underviste i vokalteknik og ensemblefærdigheder til to aldersgrupper, mens de studerende blev guidet igennem sangskrivning, DAW-produktion og musikvideoskabelse.",
         "dmaic": {
@@ -312,7 +344,7 @@
           "Omfattende lektionsplaner udviklet og udført",
           "Foto- og videooptagelser arkiveret til portfolio"
         ],
-        "role": "Korleder og optagelsesstudioinstruktør",
+        "role": "Kordirigent & recording studio-underviser",
         "timeline": [
           "Udvikling af lektionsplaner",
           "Korundervisning",
@@ -345,7 +377,7 @@
           "Dokumenteret performance under pandemi-begrænsninger",
           "Højt publikumsengagement og kunstnerisk sammenhæng"
         ],
-        "role": "Kreativ producent og liveshowdirektør",
+        "role": "Kreativ producer & liveperformance-instruktør",
         "timeline": [
           "Kreativ konceptudvikling",
           "Setdesign & logistik",
@@ -377,7 +409,7 @@
           "Promotional materials og flyers designet til performances",
           "Sessionmusikere hyret og koordineret til liveperformances"
         ],
-        "role": "Leder, LMU Gospel Choir",
+        "role": "Dirigent, LMU Gospel Choir",
         "timeline": [
           "Semesterplanlægning og budget",
           "Rekruttering og auditions",
@@ -412,7 +444,7 @@
           "Styrkede relationer til fremtidige samarbejder",
           "Sømløs BGV-integration i det færdige albummix"
         ],
-        "role": "Vokalproducent",
+        "role": "Vocal Producer",
         "timeline": [
           "Research & forberedelse",
           "Vokalarrangement",
@@ -447,7 +479,7 @@
           "Indtægts- og licensmuligheder afdækket gennem klyngedata",
           "Et gentageligt eksperimentframework til fremtidige udgivelsessystemer"
         ],
-        "role": "Kreativ systemsarkitekt og kunstner",
+        "role": "Kreativ systemarkitekt & artist",
         "timeline": [
           "Katalogkuratering",
           "AI-iteration og udgivelse",
@@ -464,61 +496,41 @@
           "45-Day Review Cycles"
         ]
       },
-      "creative-intelligence-production-system": {
-        "description": "Byg en privat AI-produktionsassistent, der kører 24/7 og håndterer forskning, organisation og kreativt forberedelsesarbejde, så mennesket kan fokusere på den faktiske kunst. Den koordinerer flere AI-modeller, fører detaljerede logfiler og har indbyggede autoværn, så den aldrig rører færdigt arbejde uden tilladelse.",
-        "role": "Arkitekt & Systemdesigner",
-        "dmaic": {
-          "D": "Byg et privat AI-system, der håndterer kreative produktionsopgaver døgnet rundt - research, organisering og forberedelse af arbejde - så mennesket kan fokusere på de faktiske kreative beslutninger.",
-          "M": "Kører systemet pålideligt? Er opgaverne færdige? Bliver den i sin bane (kun forskning og forberedelse, ingen rørende slutarbejde)? Kan hver handling gennemgås senere?",
-          "A": "De fleste kreative værktøjer har stadig brug for en menneskelig babysitter hvert trin. Udfordringen var at bygge noget, der kunne fungere uafhængigt uden at risikere det faktiske kreative output - så det var designet til kun at observere, organisere og foreslå, for aldrig at overskrive færdigt arbejde.",
-          "I": "Bygget et modulært system, hvor forskellige AI-specialister håndterer forskellige opgaver (forskning, organisation, analyse), med delt hukommelse, så de ikke dublerer arbejde. Planlagte daglige kørsler og lagdelt sikkerhed, så systemet kun kan læse og forberede - aldrig udgive eller overskrive.",
-          "C": "Hver handling logges og kan gennemgås. Ingen adgangskoder eller følsomme data gemt i systemet. Det kan ikke køre tilfældige kommandoer. Sundhedstjek kører automatisk for at fange problemer tidligt."
-        },
-        "timeline[0]": "Forskning og arkitektur",
-        "timeline[1]": "Opbygning af kernesystem",
-        "timeline[2]": "AI Specialist Integration",
-        "timeline[3]": "Sikkerhed og autoværn",
-        "timeline[4]": "Løbende optimering",
-        "tools[0]": "Docker",
-        "tools[1]": "Python",
-        "tools[2]": "Multiple AI Model Coordination",
-        "tools[3]": "Delt hukommelse og kontekst",
-        "tools[4]": "Automatiseret planlægning",
-        "tools[5]": "Sikkerhedsværn",
-        "outcomes[0]": "AI-assistent kører kontinuerligt uden supervision",
-        "outcomes[1]": "Kreativt arbejde forbliver beskyttet mod utilsigtede ændringer",
-        "outcomes[2]": "Fuldstændig registrering af hver systemhandling",
-        "outcomes[3]": "Flere AI-specialister arbejder sammen som ét team"
-      },
       "vocal-production-lab": {
-        "description": "Et online instruktionskursus designet til at lære mellemliggende musikteknologibrugere, hvad vokalproduktion er, hvorfor det betyder noget, og hvordan man opnår professionelle vokaloptagelser derhjemme eller i studiet.",
-        "role": "Kursusskaber & instruktør",
+        "description": "Et online undervisningskursus designet til at lære brugere med mellemliggende musikteknik, hvad vokalproduktion er, hvorfor det er vigtigt og hvordan man opnår professionelle vokaloptagelser derhjemme eller i studiet.",
         "dmaic": {
-          "D": "Opret et tilgængeligt onlinekursus, der underviser i vokalproduktionskoncepter - fra forståelse af stemmen til optagelse, redigering og mixning - uden at kræve dyrt udstyr eller alt for komplekst sprog.",
-          "M": "Kursets fuldstændighed på tværs af 12 lektioner, 3 quizzer og 6 praktiske opgaver; videoproduktionskvalitet; elevernes forståelse og engagement; og platformens anvendelighed.",
-          "A": "Vokalproduktion er et nichefokus med begrænsede konsoliderede læringsressourcer. At skabe engagerende pædagogisk videoindhold krævede løsning af kontinuitet på tværs af flere optagedage, håndtering af miljøstøj og læring af en ukendt hostingplatform.",
-          "I": "Producerede 16 videoer inklusive 12 lektioner, en introduktion, en kursusafslutning og en trailer. Filmet i et hjemmestudie ved hjælp af flere kameravinkler og skærmoptagelser. Redigeret med motion graphics, lyddesign og professionelle titler. Byggede kurset om Thinkific med organiseret pensum, quizzer og lydeksempler, der kan downloades, kompatible med enhver DAW.",
-          "C": "Kurset er offentliggjort og tilgængeligt for studerende. Indhold organiseret med klare lektionsmål, opgaver og vurderinger. Ramme designet til at kunne kopieres til fremtidige kurser i musikteknologi og relaterede emner."
+          "A": "Vokalproduktion er et nichefokus med begrænsede konsoliderede læringsressourcer. Skabelse af engagerende pædagogisk videoindhold krævede løsning af kontinuitet på tværs af flere optagedage, håndtering af miljøstøj og indlæring af en ukendt hostingplatform.",
+          "C": "Kursus udgivet og tilgængeligt for studerende. Indhold organiseret med klare lektionsmål, opgaver og bedømmelser. Rammeværk designet til at kunne gentages til fremtidige kurser i musikteknik og relaterede emner.",
+          "D": "Skab et tilgængeligt online kursus der underviser i vokalproduktion – fra forståelse af stemmen over optagelse og redigering til mixing – uden at kræve dyrt udstyr eller unødigt teknisk sprog.",
+          "I": "Producerede 16 videoer inklusiv 12 lektioner, en introduktion, en kursusafslutning og en trailer. Optaget i et hjemmestudie med flere kameravinkler og skærmoptagelser. Redigeret med motion graphics, lyddesign og professionelle titler. Byggede kurset på Thinkific med organiseret curriculum, quizzer og downloadbare lydeksempler kompatible med enhver DAW.",
+          "M": "Kursets fuldstændighed på tværs af 12 lektioner, 3 quizzer og 6 praktiske opgaver; videoproduktionskvalitet; studerendes forståelse og engagement; og platformens brugervenlighed."
         },
-        "timeline[0]": "Forskning & læseplansdesign",
-        "timeline[1]": "Scripting og lektionsplanlægning",
-        "timeline[2]": "Film og produktion",
-        "timeline[3]": "Redigering & Post-produktion",
-        "timeline[4]": "Opbygning og udgivelse af platforme",
-        "tools[0]": "Adobe Premiere Pro",
-        "tools[1]": "OBS Studio",
-        "tools[2]": "Tænkende",
-        "tools[3]": "Canva",
-        "tools[4]": "Håndbremse",
-        "tools[5]": "Motion Graphics",
-        "tools[6]": "Lyddesign",
-        "tools[7]": "Teleprompter retning",
-        "tools[8]": "Hjemmestudieproduktion",
-        "outcomes[0]": "16-video kursus udgivet med professionel motion graphics og titler",
-        "outcomes[1]": "12 lektioner, der dækker stemme, optagelse, redigering og mix",
-        "outcomes[2]": "3 quizzer og 6 praktiske opgaver med lydeksempler, der kan downloades",
-        "outcomes[3]": "Hostet kursusplatform bygget og organiseret til elevernes brugervenlighed",
-        "outcomes[4]": "Replikerbar kursusramme etableret for fremtidig udvidelse"
+        "outcomes": [
+          "16-videokursus udgivet med professionel motion graphics og titler",
+          "12 lektioner om stemme, indspilning, redigering og mixing",
+          "3 quizzer og 6 praktiske opgaver med downloadbare audioeksempler",
+          "Hosted kursusplatform bygget og organiseret med fokus på elevernes brugervenlighed",
+          "Gentageligt kursusframework etableret til fremtidig udvidelse"
+        ],
+        "role": "Kursusskaber & underviser",
+        "timeline": [
+          "Research & curriculumdesign",
+          "Manuskript & lektionsplanlægning",
+          "Optagelse og produktion",
+          "Redigering og post-produktion",
+          "Platformopbygning & publicering"
+        ],
+        "tools": [
+          "Adobe Premiere Pro",
+          "OBS Studio",
+          "Thinkific",
+          "Canva",
+          "HandBrake",
+          "Motion Graphics",
+          "Sound Design",
+          "Teleprompter Direction",
+          "Home Studio Production"
+        ]
       }
     }
   },
@@ -572,8 +584,8 @@
     "projects": "Projekter"
   },
   "projectCard": {
-    "musicEducation": "Musik og Uddannelse",
-    "musicProduction": "Musik og Produktion",
+    "musicEducation": "Musik & undervisning",
+    "musicProduction": "Musik & produktion",
     "systemsTechnology": "Systemer og Teknologi",
     "viewDetails": "Se projektdetaljer"
   },
@@ -642,7 +654,7 @@
     "year": "År"
   },
   "videoCard": {
-    "lyricVideo": "Lyrikvideo",
+    "lyricVideo": "Lyric video",
     "musicVideo": "Musikvideo"
   },
   "work": {

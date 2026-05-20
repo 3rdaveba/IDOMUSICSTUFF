@@ -414,6 +414,74 @@
           "Músicos de sesión contratados y coordinados para actuaciones en vivo"
         ],
         "role": "Director, LMU Gospel Choir"
+      },
+      "creative-intelligence-production-system": {
+        "description": "Construir un asistente de producción de IA privado que funcione las 24 horas del día, 7 días a la semana, manejando investigación, organización y trabajo de preparación creativa para que el artista pueda enfocarse en el arte en sí. Coordina múltiples modelos de IA, mantiene registros detallados y tiene salvaguardas integradas para que nunca toque el trabajo terminado sin permiso.",
+        "dmaic": {
+          "D": "Construir un sistema de IA privado que maneje tareas de producción creativa las 24 horas — investigando, organizando y preparando el trabajo — para que el artista pueda enfocarse en las decisiones creativas reales.",
+          "M": "¿Funciona el sistema de manera confiable? ¿Se están completando las tareas? ¿Se mantiene en su carril (solo investigación y preparación, sin tocar el trabajo terminado)? ¿Se puede revisar cada acción después?",
+          "A": "La mayoría de las herramientas creativas todavía necesitan que un humano supervise cada paso. El desafío era construir algo que pudiera trabajar de forma independiente sin poner en riesgo el resultado creativo real — así que fue diseñado para solo observar, organizar y sugerir, nunca para sobrescribir el trabajo terminado.",
+          "I": "Construyó un sistema modular donde diferentes especialistas de IA manejan distintas tareas (investigación, organización, análisis), con memoria compartida para que no dupliquen el trabajo. Ejecuciones diarias programadas y seguridad en capas para que el sistema solo pueda leer y preparar — nunca publicar ni sobrescribir.",
+          "C": "Cada acción se registra y puede revisarse. No se almacenan contraseñas ni datos confidenciales en el sistema. No puede ejecutar comandos aleatorios. Las verificaciones de salud se ejecutan automáticamente para detectar problemas con anticipación."
+        },
+        "timeline": [
+          "Investigación y arquitectura",
+          "Construcción del sistema central",
+          "Integración de especialistas de IA",
+          "Seguridad y salvaguardas",
+          "Optimización continua"
+        ],
+        "tools": [
+          "Docker",
+          "Python",
+          "Coordinación de múltiples modelos de IA",
+          "Memoria y contexto compartidos",
+          "Programación automatizada",
+          "Salvaguardas de seguridad"
+        ],
+        "outcomes": [
+          "Asistente de IA funciona continuamente sin supervisión",
+          "El trabajo creativo permanece protegido de cambios accidentales",
+          "Registro completo de cada acción del sistema",
+          "Múltiples especialistas de IA trabajando juntos como un equipo"
+        ],
+        "role": "Arquitecto y diseñador de sistemas"
+      },
+      "vocal-production-lab": {
+        "description": "Un curso instructivo en línea diseñado para enseñar a usuarios intermedios de tecnología musical qué es la producción vocal, por qué importa y cómo lograr grabaciones vocales profesionales en casa o en el estudio.",
+        "dmaic": {
+          "D": "Crear un curso en línea accesible que enseñe conceptos de producción vocal — desde comprender la voz hasta la grabación, edición y mezcla — sin requerir equipo costoso ni lenguaje demasiado técnico.",
+          "M": "Completitud del curso a través de 12 lecciones, 3 cuestionarios y 6 tareas prácticas; calidad de producción de video; comprensión y participación de los estudiantes; y usabilidad de la plataforma.",
+          "A": "La producción vocal es un nicho con recursos de aprendizaje consolidados limitados. Crear contenido de video educativo atractivo requirió resolver la continuidad en múltiples días de filmación, manejar el ruido ambiental y aprender una plataforma de alojamiento desconocida.",
+          "I": "Produjo 16 videos que incluyen 12 lecciones, una introducción, un cierre de curso y un trailer. Filmado en un estudio casero usando múltiples ángulos de cámara y grabaciones de pantalla. Editado con motion graphics, diseño de sonido y títulos profesionales. Construyó el curso en Thinkific con currículo organizado, cuestionarios y ejemplos de audio descargables compatibles con cualquier DAW.",
+          "C": "Curso publicado y disponible para estudiantes. Contenido organizado con objetivos claros de lección, tareas y evaluaciones. Marco diseñado para ser replicable en futuros cursos de tecnología musical y temas relacionados."
+        },
+        "timeline": [
+          "Investigación y diseño de currículo",
+          "Guionización y planificación de lecciones",
+          "Filmación y producción",
+          "Edición y posproducción",
+          "Construcción de plataforma y publicación"
+        ],
+        "tools": [
+          "Adobe Premiere Pro",
+          "OBS Studio",
+          "Thinkific",
+          "Canva",
+          "HandBrake",
+          "Motion graphics",
+          "Diseño de sonido",
+          "Dirección con teleprompter",
+          "Producción en estudio casero"
+        ],
+        "outcomes": [
+          "Curso de 16 videos publicado con motion graphics y títulos profesionales",
+          "12 lecciones que cubren voz, grabación, edición y mezcla",
+          "3 cuestionarios y 6 tareas prácticas con ejemplos de audio descargables",
+          "Plataforma de curso construida y organizada para la usabilidad de los estudiantes",
+          "Marco de curso replicable establecido para expansión futura"
+        ],
+        "role": "Creador del curso e instructor"
       }
     },
     "films": {

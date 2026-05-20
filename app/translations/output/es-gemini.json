@@ -13,19 +13,19 @@
     "eyebrow": "PRODUCTOR VOCAL GANADOR DEL GRAMMY® · TECNÓLOGO MUSICAL · ARQUITECTO DE SISTEMAS CREATIVOS · LOS ANGELES",
     "nameFirst": "WILLIAM",
     "nameSecond": "\"B.A.\" WASHINGTON",
-    "scrollCue": "DESLIZAR"
+    "scrollCue": "SCROLL"
   },
   "about": {
     "headline": "¡Hola! Mi nombre es William y soy un productor vocal, tecnólogo musical y arquitecto de sistemas creativos ganador del premio GRAMMY®.",
-    "bio1": "A lo largo de mi carrera, he adquirido una vasta experiencia como artista, intérprete, ingeniero de audio y gestor de proyectos creativos. Desde la organización de presentaciones en vivo y la colaboración con artistas, hasta la enseñanza y el trabajo con comunidades desatendidas, he logrado consolidar una trayectoria de éxito entregando proyectos desde su concepto hasta su finalización.",
-    "bio2": "Este sitio está diseñado para ofrecerte una visión de mi pasión por crear experiencias impactantes, mi proceso de pensamiento creativo y un vistazo a algunos de los proyectos en los que he participado tras bambalinas.",
-    "signature": "¡Espero tener la oportunidad de trabajar contigo en el futuro!",
+    "bio1": "A lo largo de mi carrera, he acumulado una vasta experiencia en música, presentaciones en vivo, educación y gestión de proyectos creativos. Como artista, intérprete, ingeniero de audio y colaborador, he tenido la oportunidad de ayudar a dar vida a ideas en una amplia gama de espacios... desde eventos en vivo y sesiones de grabación hasta programas estudiantiles, iniciativas comunitarias y proyectos impulsados por artistas.",
+    "bio2": "Mi trabajo se basa en crear experiencias impactantes, apoyar la visión creativa y guiar proyectos desde su concepto hasta su finalización con intención, cuidado y profesionalismo. Este portafolio ofrece un vistazo a mi proceso creativo, el trabajo en el que he contribuido y los proyectos que reflejan mi pasión por construir experiencias que conecten con la gente.",
+    "signature": "¡Espero con interés explorar cómo podemos trabajar juntos!",
     "signatureName": "— William \"B.A.\" Washington"
   },
   "work": {
     "line1": "PROYECTOS",
     "line2": "SELECCIONADOS",
-    "intro": "Una muestra representativa de proyectos que abarcan la producción musical, la educación comunitaria, la arquitectura de sistemas y la tecnología creativa; cada uno construido con la misma intención: crear algo significativo, escalable y humano.",
+    "intro": "Una muestra representativa de proyectos que abarcan la producción musical, la educación comunitaria, la arquitectura de sistemas y la tecnología creativa; cada uno construido con la misma intención: crear algo significativo, escalable y humano. Cada proyecto se presenta en formato DMAIC (Definir, Medir, Analizar, Mejorar, Controlar) para que puedas ver cómo cada uno pasa del concepto al resultado medible.",
     "active": "Activo",
     "complete": "Completado"
   },
@@ -56,13 +56,13 @@
     "headline": "Creemos algo juntos.",
     "headlineEmphasis": "juntos.",
     "phoneLabel": "Teléfono",
-    "emailLabel": "Correo electrónico",
+    "emailLabel": "Email",
     "locationLabel": "Ubicación",
     "locationValue": "Los Ángeles, CA",
     "successMessage": "¡Gracias! Me pondré en contacto pronto.",
     "formNameLabel": "Nombre",
     "formNamePlaceholder": "Tu nombre",
-    "formEmailLabel": "Correo electrónico",
+    "formEmailLabel": "Email",
     "formEmailPlaceholder": "tu@email.com",
     "formSubjectLabel": "Asunto",
     "formSubjectPlaceholder": "¿De qué se trata esto?",
@@ -118,13 +118,13 @@
     "keyOutcomes": "RESULTADOS CLAVE",
     "mediaResources": "MEDIOS Y RECURSOS",
     "photo": "Foto",
-    "workflow": "Flujo de trabajo",
-    "bts": "Detrás de escena",
+    "workflow": "Workflow",
+    "bts": "BTS",
     "preProduction": "Preproducción",
     "studioSession": "Sesión de estudio",
     "interlude": "Interludio",
     "rehearsal": "Ensayo",
-    "sundayService": "Servicio dominical",
+    "sundayService": "Sunday Service",
     "recordingStudio": "Estudio de grabación",
     "choirRehearsal": "Ensayo de coro",
     "prvblems": "PRVBLEMS",
@@ -184,17 +184,18 @@
         "tools": [
           "Docker",
           "Python",
-          "LLM Orchestration",
-          "Structured Memory Systems",
-          "Heartbeat Scheduling",
-          "Read-Only Security Boundaries"
+          "Orquestación de LLM",
+          "Sistemas de memoria estructurada",
+          "Programación de latidos (Heartbeat)",
+          "Límites de seguridad de solo lectura"
         ],
         "outcomes": [
           "Infraestructura de agentes autónomos 24/7",
           "Cero escrituras de producción no autorizadas",
           "Pista de auditoría completa en todas las salidas",
           "Canal de orquestación multimodelo"
-        ]
+        ],
+        "role": "Arquitectura de sistemas e IA creativa"
       },
       "the-reimagination-engine": {
         "description": "Un proyecto de lanzamiento experimental donde demos antiguas e ideas de canciones inconclusas se reinventan a través de herramientas de IA y se lanzan en oleadas agrupadas. Los lanzamientos ocurren cada dos semanas en grupos de tres pistas, alternando entre una oleada relacional y la siguiente energética, con revisión de rendimiento cada 45 días. El objetivo es ver si los lanzamientos constantes por sí solos pueden generar ingresos por streaming y tracción orgánica sin ningún marketing, presencia en redes sociales o promoción pagada. Si una pista llega al nivel superior de su grupo, se marca para una posible reproducción o licenciamiento.",
@@ -214,11 +215,11 @@
         ],
         "tools": [
           "Suno",
-          "AI Music Tools",
+          "Herramientas musicales de IA",
           "DSP Streaming",
-          "Metadata Systems",
-          "Cluster-Based Release Scheduling",
-          "45-Day Review Cycles"
+          "Sistemas de metadatos",
+          "Programación de lanzamientos basada en clústeres",
+          "Ciclos de revisión de 45 días"
         ],
         "outcomes": [
           "Aproximadamente 30 lanzamientos desplegados en grupos alternos relacionales/energéticos",
@@ -227,7 +228,8 @@
           "Ingresos por streaming orgánico generados sin gasto en marketing",
           "Oportunidades de ingresos y licenciamiento detectadas por datos de grupos",
           "Un marco de experimento repetible para futuros sistemas de lanzamiento"
-        ]
+        ],
+        "role": "Arquitecto de sistemas creativos y artista"
       },
       "calby-inner-critic": {
         "description": "Productor vocal para coros en 12 canciones de un álbum inédito para el artista danés Calby. Gestión de arreglos vocales, adquisición de talento, coordinación de producción y supervisión de presupuesto en nombre de Sony Music Denmark y Bogs Agency.",
@@ -247,13 +249,13 @@
         ],
         "tools": [
           "Pro Tools",
-          "Vocal Arranging",
-          "BGV Production",
-          "Talent Management",
-          "Budget Management",
-          "Studio Coordination",
-          "Multi-Track Recording",
-          "Video Collaboration"
+          "Arreglos vocales",
+          "Producción de BGV",
+          "Gestión de talento",
+          "Gestión presupuestaria",
+          "Coordinación de estudio",
+          "Grabación multipista",
+          "Colaboración en video"
         ],
         "outcomes": [
           "Arreglos vocales para 12 canciones entregados",
@@ -261,7 +263,8 @@
           "Comentarios positivos de los interesados del artista y el sello",
           "Activos de audio y visuales de alta calidad para marketing",
           "Gestión presupuestaria eficaz bajo restricciones"
-        ]
+        ],
+        "role": "Productor vocal"
       },
       "lukas-graham-purple": {
         "description": "Productor vocal para coros en cuatro canciones para el álbum 3 (The Purple Album) de Lukas Graham. Creación de arreglos, contratación y dirección de talento vocal, y liderazgo de sesiones de grabación en colaboración con Warner Music Group y Then We Take The World.",
@@ -280,13 +283,13 @@
           "Lanzamiento internacional"
         ],
         "tools": [
-          "Vocal Arranging",
+          "Arreglos vocales",
           "Pro Tools",
-          "Talent Acquisition",
-          "Session Direction",
-          "Stakeholder Negotiation",
-          "Comping & Tuning",
-          "International Collaboration"
+          "Adquisición de talento",
+          "Dirección de sesiones",
+          "Negociación con partes interesadas",
+          "Comping y afinación",
+          "Colaboración internacional"
         ],
         "outcomes": [
           "Arreglos vocales para cuatro canciones en lanzamiento internacional",
@@ -294,7 +297,8 @@
           "Satisfacción de los interesados de Warner Music y la gerencia",
           "Relaciones fortalecidas para futuras colaboraciones",
           "Integración perfecta de los coros en la mezcla final del álbum"
-        ]
+        ],
+        "role": "Productor vocal"
       },
       "heart-soul-image-village": {
         "description": "Lideró los componentes de coro y estudio de grabación de Image Village 2023, un campamento de verano en Heart and Soul Center en el sur de Los Ángeles. Enseñanza de técnica vocal y habilidades de ensamble a dos grupos de edad mientras guiaba a los estudiantes a través de la composición, producción en DAW y creación de videos musicales.",
@@ -313,13 +317,13 @@
           "Documentación y archivo"
         ],
         "tools": [
-          "Vocal Instruction",
-          "DAW Production",
-          "Songwriting",
-          "Music Video Production",
-          "Lesson Planning",
-          "Ensemble Direction",
-          "Youth Education"
+          "Instrucción vocal",
+          "Producción DAW",
+          "Composición",
+          "Producción de videos musicales",
+          "Planificación de lecciones",
+          "Dirección de ensamble",
+          "Educación juvenil"
         ],
         "outcomes": [
           "Presentación final del campamento con ambos grupos de edad",
@@ -327,12 +331,13 @@
           "Video musical creado por los estudiantes",
           "Planes de lecciones integrales desarrollados y ejecutados",
           "Material fotográfico y de video archivado para el portafolio"
-        ]
+        ],
+        "role": "Director de coro e instructor de estudio de grabación"
       },
       "jimmy-gnarly-live": {
         "description": "Colaboración para crear una presentación dinámica en vivo de un álbum inédito de hip hop alternativo durante la pandemia global.",
         "dmaic": {
-          "D": "Producir una presentación dinámica en vivo de un álbum inédito de hip hop alternativo durante la pandemia global.",
+          "D": "Producere una presentación dinámica en vivo de un álbum inédito de hip hop alternativo durante la pandemia global.",
           "M": "Impacto en la audiencia, cohesión artística y ejecución exitosa de una obra inédita en formato en vivo.",
           "A": "Resolución del desafío creativo y logístico de organizar un espectáculo en vivo convincente bajo las restricciones de la era de la pandemia.",
           "I": "Colaboración para diseñar y ejecutar un set en vivo de alta energía que dio vida al álbum sin un lanzamiento tradicional.",
@@ -346,18 +351,19 @@
           "Documentación y archivo"
         ],
         "tools": [
-          "Live Production",
-          "Stage Design",
-          "Pandemic Safety Protocols",
+          "Producción en vivo",
+          "Diseño de escenario",
+          "Protocolos de seguridad ante pandemia",
           "Multi-Camera Capture",
-          "Creative Direction"
+          "Dirección creativa"
         ],
         "outcomes": [
           "Set dinámico en vivo del álbum inédito ejecutado",
           "Prueba de concepto creativa para el artista",
           "Presentación documentada bajo restricciones de pandemia",
           "Alto compromiso de la audiencia y cohesión artística"
-        ]
+        ],
+        "role": "Productor creativo y director de presentaciones en vivo"
       },
       "lmu-gospel-choir": {
         "description": "Dirigió el LMU Gospel Choir, liderando ciclos semestrales de reclutamiento, ensayo y presentación. Gestión de entrenamiento vocal, diseño promocional, contratación de músicos, negociación de presupuesto y colaboraciones con exalumnos.",
@@ -376,14 +382,14 @@
           "Concierto y evaluación"
         ],
         "tools": [
-          "Vocal Direction",
-          "Program Leadership",
-          "Graphic Design",
-          "Budget Negotiation",
-          "Talent Acquisition",
-          "Alumni Relations",
-          "Event Planning",
-          "Music Selection"
+          "Dirección vocal",
+          "Liderazgo de programa",
+          "Diseño gráfico",
+          "Negociación presupuestaria",
+          "Adquisición de talento",
+          "Relaciones con exalumnos",
+          "Planificación de eventos",
+          "Selección musical"
         ],
         "outcomes": [
           "Múltiples conciertos de fin de semestre exitosos producidos",
@@ -391,12 +397,81 @@
           "Vocalistas exalumnos comprometidos para colaboraciones en conciertos",
           "Materiales promocionales y volantes diseñados para presentaciones",
           "Músicos de sesión contratados y coordinados para presentaciones en vivo"
-        ]
+        ],
+        "role": "Director, LMU Gospel Choir"
+      },
+      "creative-intelligence-production-system": {
+        "description": "Construir un asistente de producción de IA privado que funcione las 24 horas, los 7 días de la semana, manejando la investigación, la organización y el trabajo de preparación creativa para que el humano pueda concentrarse en el arte real. Coordina múltiples modelos de IA, mantiene registros detallados y tiene guardafuegos integrados para que nunca toque el trabajo terminado sin permiso.",
+        "dmaic": {
+          "D": "Construir un sistema de IA privado que maneje las tareas de producción creativa las 24 horas del día (investigación, organización y preparación del trabajo) para que el humano pueda concentrarse en las decisiones creativas reales.",
+          "M": "¿El sistema funciona de manera confiable? ¿Se están terminando las tareas? ¿Se mantiene en su carril (solo investigación y preparación, sin tocar el trabajo final)? ¿Se puede revisar cada acción más tarde?",
+          "A": "La mayoría de las herramientas creativas todavía necesitan que un humano supervise cada paso. El desafío era construir algo que pudiera funcionar de forma independiente sin arriesgar el resultado creativo real, por lo que fue diseñado para solo observar, organizar y sugerir, nunca para sobrescribir el trabajo terminado.",
+          "I": "Construyó un sistema modular donde diferentes especialistas en IA manejan diferentes tareas (investigación, organización, análisis), con memoria compartida para que no dupliquen el trabajo. Ejecuciones diarias programadas y seguridad por capas para que el sistema solo pueda leer y preparar, nunca publicar ni sobrescribir.",
+          "C": "Cada acción se registra y es revisable. No se almacenan contraseñas ni datos sensibles en el sistema. No puede ejecutar comandos aleatorios. Las comprobaciones de salud se ejecutan automáticamente para detectar problemas a tiempo."
+        },
+        "timeline": [
+          "Investigación y arquitectura",
+          "Construcción del sistema central",
+          "Integración de especialistas en IA",
+          "Seguridad y guardafuegos",
+          "Optimización continua"
+        ],
+        "tools": [
+          "Docker",
+          "Python",
+          "Coordinación de múltiples modelos de IA",
+          "Memoria compartida y contexto",
+          "Programación automatizada",
+          "Guardafuegos de seguridad"
+        ],
+        "outcomes": [
+          "El asistente de IA funciona continuamente sin supervisión",
+          "El trabajo creativo permanece protegido de cambios accidentales",
+          "Registro completo de cada acción del sistema",
+          "Múltiples especialistas en IA trabajando juntos como un solo equipo"
+        ],
+        "role": "Arquitecto y diseñador de sistemas"
+      },
+      "vocal-production-lab": {
+        "description": "Un curso de instrucción en línea diseñado para enseñar a los usuarios de tecnología musical de nivel intermedio qué es la producción vocal, por qué es importante y cómo lograr grabaciones vocales profesionales en casa o en el estudio.",
+        "dmaic": {
+          "D": "Crear un curso en línea accesible que enseñe conceptos de producción vocal (desde la comprensión de la voz hasta la grabación, edición y mezcla) sin requerir equipos costosos ni un lenguaje excesivamente complejo.",
+          "M": "Finalización del curso en 12 lecciones, 3 cuestionarios y 6 tareas prácticas; calidad de producción de video; comprensión y compromiso de los estudiantes; y usabilidad de la plataforma.",
+          "A": "La producción vocal es un enfoque de nicho con recursos de aprendizaje consolidados limitados. Crear contenido de video educativo atractivo requirió resolver la continuidad en varios días de filmación, gestionar el ruido ambiental y aprender una plataforma de alojamiento desconocida.",
+          "I": "Produjo 16 videos que incluyen 12 lecciones, una introducción, un final de curso y un avance. Filmado en un estudio casero usando múltiples ángulos de cámara y grabaciones de pantalla. Editado con gráficos en movimiento, diseño de sonido y títulos profesionales. Construyó el curso en Thinkific con currículo organizado, cuestionarios y ejemplos de audio descargables compatibles con cualquier DAW.",
+          "C": "Curso publicado y disponible para estudiantes. Contenido organizado con objetivos de lección, tareas y evaluaciones claros. Marco diseñado para ser replicable para futuros cursos en tecnología musical y temas relacionados."
+        },
+        "timeline": [
+          "Investigación y diseño del currículo",
+          "Guion y planificación de lecciones",
+          "Filmación y producción",
+          "Edición y postproducción",
+          "Construcción y publicación de la plataforma"
+        ],
+        "tools": [
+          "Adobe Premiere Pro",
+          "OBS Studio",
+          "Thinkific",
+          "Canva",
+          "HandBrake",
+          "Gráficos en movimiento",
+          "Diseño de sonido",
+          "Dirección de teleprompter",
+          "Producción en estudio casero"
+        ],
+        "outcomes": [
+          "Curso de 16 videos publicado con gráficos en movimiento y títulos profesionales",
+          "12 lecciones que cubren voz, grabación, edición y mezcla",
+          "3 cuestionarios y 6 tareas prácticas con ejemplos de audio descargables",
+          "Plataforma de curso alojada construida y organizada para la usabilidad del estudiante",
+          "Marco de curso replicable establecido para futura expansión"
+        ],
+        "role": "Creador del curso e instructor"
       }
     },
     "films": {
       "sinners": {
-        "role": "Featured Vocalist — Original Motion Picture Soundtrack",
+        "role": "Vocalista invitado — Banda sonora original de la película",
         "recognition": "Ganador del Premio GRAMMY®",
         "description": "Vocalista invitado en la banda sonora original de Sinners, la película de Warner Bros. de 2025 escrita y dirigida por Ryan Coogler.",
         "details": [
@@ -415,8 +490,8 @@
         ]
       },
       "kpops": {
-        "role": "Featured Actor & Onscreen Performer",
-        "recognition": "Actuación cinematográfica destacada",
+        "role": "Actor destacado e intérprete en pantalla",
+        "recognition": "Actuación destacada",
         "description": "Actor e intérprete en pantalla en K-Pops!, el debut como director del artista ganador del Grammy Anderson .Paak.",
         "details": [
           {
@@ -443,7 +518,9 @@
       "entries": {
         "sinners-rocky-road-to-dublin": {
           "role": "Artista invitado · DC6 Singers Collective",
-          "milestones": ["Spotify Viral 50 – Islandia #38 (Mar 2026)"]
+          "milestones": [
+            "Spotify Viral 50 – Islandia #38 (Mar 2026)"
+          ]
         },
         "sinners-this-little-light": {
           "role": "Artista invitado · DC6 Singers Collective",
@@ -455,11 +532,15 @@
         },
         "lukas-graham-share-that-love": {
           "role": "Productor vocal",
-          "milestones": ["Lista Deezer Ecuador #78 (Abr 2025)"]
+          "milestones": [
+            "Lista Deezer Ecuador #78 (Abr 2025)"
+          ]
         },
         "lady-gaga-babylon": {
           "role": "Productor vocal",
-          "milestones": ["Lista Deezer Estonia #48 (Ene 2026)"]
+          "milestones": [
+            "Lista Deezer Estonia #48 (Ene 2026)"
+          ]
         },
         "kesi-tilbage": {
           "role": "Productor vocal",
@@ -579,5 +660,20 @@
         "collaborations": "4"
       }
     }
-  }
+  },
+  "projectCard": {
+    "viewDetails": "Ver detalles del proyecto",
+    "musicEducation": "Música y Educación",
+    "musicProduction": "Música y Producción",
+    "systemsTechnology": "Sistemas y Tecnología"
+  },
+  "releaseCard": {
+    "solo": "Solo",
+    "feature": "Colaboración"
+  },
+  "videoCard": {
+    "musicVideo": "Video musical",
+    "lyricVideo": "Video con letra"
+  },
+  "collabCard": {}
 }

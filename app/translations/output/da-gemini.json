@@ -17,15 +17,15 @@
   },
   "about": {
     "headline": "Hej! Mit navn er William, og jeg er en GRAMMY®-vindende vokalproducer, musikteknolog og kreativ systemarkitekt.",
-    "bio1": "I løbet af min karriere har jeg opnået omfattende erfaring som artist, sceneperformer, lydtekniker og kreativ projektleder. Fra organisering af liveoptrædener og samarbejde med artister til undervisning af studerende og arbejde med udsatte lokalsamfund, har jeg opbygget en track record for succesfuldt at levere projekter fra koncept til færdiggørelse.",
-    "bio2": "Denne side er designet til at give dig et indblik i min passion for at skabe betydningsfulde oplevelser, min kreative tankegang og et kig bag kulisserne på nogle af de projekter, jeg har været en del af.",
-    "signature": "Jeg ser frem til muligheden for at arbejde sammen med dig i fremtiden!",
+    "bio1": "I løbet af min karriere har jeg opbygget en bred erfaring inden for musik, liveoptrædener, uddannelse og kreativ projektledelse. Som artist, sceneperformer, lydtekniker og samarbejdspartner har jeg haft mulighed for at hjælpe med at virkeliggøre idéer på tværs af mange forskellige arenaer…fra livearrangementer og studieoptagelser til studenterprogrammer, fællesskabsinitiativer og kunstnerdrevne projekter.",
+    "bio2": "Mit arbejde er forankret i at skabe virkningsfulde oplevelser, støtte kreativ vision og guide projekter fra koncept til færdiggørelse med intention, omsorg og professionalisme. Dette portfolio giver et indblik i min kreative proces, det arbejde jeg har bidraget til, og de projekter der afspejler min passion for at skabe oplevelser, der forbinder med mennesker.",
+    "signature": "Jeg glæder mig til at udforske, hvordan vi kan samarbejde!",
     "signatureName": "— William \"B.A.\" Washington"
   },
   "work": {
     "line1": "UDVALGTE",
     "line2": "PROJEKTER",
-    "intro": "Et tværsnit af projekter inden for musikproduktion, lokal uddannelse, systemarkitektur og kreativ teknologi — hver især bygget med den samme hensigt: at skabe noget meningsfuldt, skalerbart og menneskeligt.",
+    "intro": "Et tværsnit af projekter der spænder over musikproduktion, fællesskabsuddannelse, systemarkitektur og kreativ teknologi – hvert enkelt bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt. Hvert projekt er præsenteret i DMAIC-format (Define, Measure, Analyze, Improve, Control), så du kan se, hvordan hvert enkelt bevæger sig fra idé til målbart resultat.",
     "active": "Aktiv",
     "complete": "Færdiggjort"
   },
@@ -125,7 +125,7 @@
     "interlude": "Interlude",
     "rehearsal": "Prøve",
     "sundayService": "Sunday Service",
-    "recordingStudio": "Recording Studio",
+    "recordingStudio": "Optagestudie",
     "choirRehearsal": "Korprøve",
     "prvblems": "PRVBLEMS",
     "watch": "Se",
@@ -194,7 +194,8 @@
           "Nul uautoriserede produktionsskrivninger",
           "Fuld audit trail på alle outputs",
           "Multi-model orkestrerings-pipeline"
-        ]
+        ],
+        "role": "Systemarkitektur & Kreativ AI"
       },
       "the-reimagination-engine": {
         "description": "Et eksperimentelt udgivelsesprojekt, hvor gamle demoer og uafsluttede sangidéer genfortolkes gennem AI-værktøjer og udgives i klynger. Drops sker hver anden uge i skiftende klynger på tre numre — én bølge relationel, den næste energisk — med performance-gennemgang hver 45. dag. Målet er at se, om konsekvente udgivelser alene kan generere streamingindtægter og organisk trækkraft uden nogen form for markedsføring, tilstedeværelse på sociale medier eller betalt promovering. Hvis et track lander i top-tier af sin klynge, bliver det flagget for potentiel reproduktion eller licensering.",
@@ -214,11 +215,11 @@
         ],
         "tools": [
           "Suno",
-          "AI Music Tools",
+          "AI-musikværktøjer",
           "DSP Streaming",
-          "Metadata Systems",
-          "Cluster-Based Release Scheduling",
-          "45-Day Review Cycles"
+          "Metadatasystemer",
+          "Cluster-baseret udgivelsesplanlægning",
+          "45-dages gennemgangscyklusser"
         ],
         "outcomes": [
           "Ca. 30 udgivelser udrullet i skiftende relationelle/energiske klynger",
@@ -227,7 +228,8 @@
           "Organiske streamingindtægter genereret uden markedsføringsomkostninger",
           "Indtægts- og licensmuligheder afdækket via klyngedata",
           "En reproducerbar eksperimentramme for fremtidige udgivelsessystemer"
-        ]
+        ],
+        "role": "Kreativ systemarkitekt & artist"
       },
       "calby-inner-critic": {
         "description": "Vokalproducer for backing vokaler på 12 sange på et uudgivet album for den danske artist Calby. Håndterede vokalarrangementer, rekruttering af talenter, produktionskoordinering og budgetoverblik på vegne af Sony Music Denmark og Bogs Agency.",
@@ -247,13 +249,13 @@
         ],
         "tools": [
           "Pro Tools",
-          "Vocal Arranging",
-          "BGV Production",
+          "Vokalarrangement",
+          "BGV-produktion",
           "Talent Management",
-          "Budget Management",
-          "Studio Coordination",
-          "Multi-Track Recording",
-          "Video Collaboration"
+          "Budgetstyring",
+          "Studiekoordinering",
+          "Multi-track optagelse",
+          "Videosamarbejde"
         ],
         "outcomes": [
           "Vokalarrangementer til 12 sange leveret",
@@ -261,7 +263,8 @@
           "Positiv feedback fra artist og label",
           "Lyd- og visuelle aktiver i høj kvalitet til markedsføring",
           "Effektiv budgetstyring under begrænsninger"
-        ]
+        ],
+        "role": "Vokalproducer"
       },
       "lukas-graham-purple": {
         "description": "Vokalproducer for backing vokaler på fire sange til Lukas Graham's 3 (The Purple Album). Skabte arrangementer, hyrede og instruerede vokaltalenter og ledede indspilningssessioner i samarbejde med Warner Music Group og Then We Take The World.",
@@ -274,19 +277,19 @@
         },
         "timeline": [
           "Research & Forberedelse",
-          "Vocal Arrangement",
+          "Vokalarrangement",
           "Talent Acquisition",
           "Studio Recording",
           "International udgivelse"
         ],
         "tools": [
-          "Vocal Arranging",
+          "Vokalarrangement",
           "Pro Tools",
           "Talent Acquisition",
           "Session Direction",
-          "Stakeholder Negotiation",
+          "Interessentforhandling",
           "Comping & Tuning",
-          "International Collaboration"
+          "Internationalt samarbejde"
         ],
         "outcomes": [
           "Vokalarrangementer til fire sange på international udgivelse",
@@ -294,7 +297,8 @@
           "Tilfredshed hos Warner Music og management",
           "Styrkede relationer til fremtidige samarbejder",
           "Sømløs BGV-integration i det endelige album-mix"
-        ]
+        ],
+        "role": "Vokalproducer"
       },
       "heart-soul-image-village": {
         "description": "Ledede kor- og studiedelene af Image Village 2023, en sommerlejr i Heart and Soul Center i South Central Los Angeles. Underviste i vokalteknik og ensemble-færdigheder til to aldersgrupper, mens jeg guidede eleverne gennem sangskrivning, DAW-produktion og skabelse af musikvideoer.",
@@ -313,13 +317,13 @@
           "Dokumentation & Arkiv"
         ],
         "tools": [
-          "Vocal Instruction",
-          "DAW Production",
-          "Songwriting",
-          "Music Video Production",
-          "Lesson Planning",
-          "Ensemble Direction",
-          "Youth Education"
+          "Vokalinstruktion",
+          "DAW-produktion",
+          "Sangskrivning",
+          "Musikvideoproduktion",
+          "Lektionsplanlægning",
+          "Ensembleretning",
+          "Ungdomsuddannelse"
         ],
         "outcomes": [
           "Afslutningskoncert med begge aldersgrupper gennemført",
@@ -327,7 +331,8 @@
           "Musikvideo skabt af eleverne",
           "Omfattende lektionsplaner udviklet og udført",
           "Foto- og videomateriale arkiveret til portfolio"
-        ]
+        ],
+        "role": "Kordirigent & studielærer"
       },
       "jimmy-gnarly-live": {
         "description": "Samarbejde om at skabe en dynamisk liveoptræden af et uudgivet alt. hip hop-album under den globale pandemi.",
@@ -346,23 +351,24 @@
           "Dokumentation & Arkiv"
         ],
         "tools": [
-          "Live Production",
-          "Stage Design",
-          "Pandemic Safety Protocols",
+          "Liveproduktion",
+          "Scenedesign",
+          "Pandemisikkerhedsprotokoller",
           "Multi-Camera Capture",
-          "Creative Direction"
+          "Kreativ retning"
         ],
         "outcomes": [
           "Dynamisk livesæt af uudgivet album eksekveret",
           "Kreativt proof-of-concept for artisten",
           "Dokumenteret optræden under pandemirestriktioner",
           "Høj publikumsengagement og kunstnerisk sammenhæng"
-        ]
+        ],
+        "role": "Kreativ producer & live performance director"
       },
       "lmu-gospel-choir": {
         "description": "Ledede LMU Gospel Choir og stod for semesterlange cyklusser med rekruttering, prøver og koncerter. Håndterede vokalcoaching, promoveringsdesign, ansættelse af musikere, budgetforhandling og samarbejde med alumni.",
         "dmaic": {
-          "D": "Opretholde og lede LMU Gospel Choir under Department of African American Studies med fokus på studerendes vokaludvikling, kulturelt informerede optrædener og succesfulde afslutningskoncerter hvert semester på tværs af alle fire kursusniveauer.",
+          "D": "Opretholde og lede LMU Gospel Choir under Department of African American Studies med fokus på studerendes vokaludvikling, kulturelt informerede optrædener og succesfulde afslutningskoncerter hvert semester på tvrs af alle fire kursusniveauer.",
           "M": "Elevtilmelding og fastholdelse på tværs af kursusniveauer uden audition, kvalitet af optræden, vokal vækst i løbet af semestret, succesfuld eksekvering af afslutningskoncerter og samfundsengagement.",
           "A": "Drev et ensemble uden audition i et institut uden for musik, håndterede faldende tilmelding, navigerede i instituttets budgetrestriktioner, arbejdede med studerende på forskellige færdighedsniveauer og arbejdede inden for et etableret pensum, mens jeg tilføjede personlig ledelse til prøver og koncerter.",
           "I": "Ledede et eksisterende gospelkor-program, der kombinerede African American Gospel Music-historie med praktisk vokaltræning. Underviste i musik efter gehør med støtte fra partiturlæsning. Tilbød individuel vokalcoaching og coaching i små grupper. Skabte flyers og promoveringsgrafik til koncerter. Hyrede studiemusikere. Forhandlede budgetallokering med instituttets ledelse. Inviterede alumni tilbage som forsangere til koncerter. Talte for cross-listing af kurser for at øge tilmeldingen.",
@@ -376,14 +382,14 @@
           "Koncert & Evaluering"
         ],
         "tools": [
-          "Vocal Direction",
-          "Program Leadership",
-          "Graphic Design",
-          "Budget Negotiation",
+          "Vokalretning",
+          "Programledelse",
+          "Grafisk design",
+          "Budgetforhandling",
           "Talent Acquisition",
-          "Alumni Relations",
-          "Event Planning",
-          "Music Selection"
+          "Alumni-relationer",
+          "Eventplanlægning",
+          "Musikvalg"
         ],
         "outcomes": [
           "Flere succesfulde afslutningskoncerter produceret",
@@ -391,13 +397,82 @@
           "Alumni-vokalister engageret til koncertsamarbejder",
           "Promoveringsmateriale og flyers designet til koncerter",
           "Studiemusikere hyret og koordineret til liveoptrædener"
-        ]
+        ],
+        "role": "Dirigent for LMU Gospel Choir"
+      },
+      "creative-intelligence-production-system": {
+        "description": "Opbygning af en privat AI-produktionsassistent, der kører 24/7 og håndterer research, organisering og kreativt forberedelsesarbejde, så mennesket kan fokusere på selve kunsten. Den koordinerer flere AI-modeller, fører detaljerede logfiler og har indbyggede guardrails, så den aldrig rører ved færdigt arbejde uden tilladelse.",
+        "dmaic": {
+          "D": "Byg et privat AI-system, der håndterer kreative produktionsopgaver døgnet rundt — research, organisering og forberedelse af arbejde — så mennesket kan fokusere på de faktiske kreative beslutninger.",
+          "M": "Kører systemet pålideligt? Bliver opgaverne færdiggjort? Bliver det i sit eget spor (kun research og forberedelse, ingen berøring af endeligt arbejde)? Kan enhver handling gennemgås senere?",
+          "A": "De fleste kreative værktøjer har stadig brug for et menneske til at holde øje med hvert trin. Udfordringen var at bygge noget, der kunne arbejde uafhængigt uden at risikere det faktiske kreative output — så det blev designet til kun at observere, organisere og foreslå, aldrig at overskrive færdigt arbejde.",
+          "I": "Byggede et modulært system, hvor forskellige AI-specialister håndterer forskellige opgaver (research, organisering, analyse), med delt hukommelse så de ikke duplikerer arbejde. Planlagde daglige kørsler og lagdelt sikkerhed, så systemet kun kan læse og forberede — aldrig udgive eller overskrive.",
+          "C": "Enhver handling logges og kan gennemgås. Ingen adgangskoder eller følsomme data gemmes i systemet. Det kan ikke køre vilkårlige kommandoer. Helbredstjek kører automatisk for at fange problemer tidligt."
+        },
+        "timeline": [
+          "Research & Arkitektur",
+          "Kernesystem-opbygning",
+          "AI-specialist integration",
+          "Sikkerhed & Guardrails",
+          "Løbende optimering"
+        ],
+        "tools": [
+          "Docker",
+          "Python",
+          "Koordinering af flere AI-modeller",
+          "Delt hukommelse & kontekst",
+          "Automatiseret skemalægning",
+          "Sikkerheds-guardrails"
+        ],
+        "outcomes": [
+          "AI-assistent kører kontinuerligt uden opsyn",
+          "Kreativt arbejde forbliver beskyttet mod utilsigtede ændringer",
+          "Komplet oversigt over enhver systemhandling",
+          "Flere AI-specialister, der arbejder sammen som ét team"
+        ],
+        "role": "Arkitekt & systemdesigner"
+      },
+      "vocal-production-lab": {
+        "description": "Et online undervisningsforløb designet til at lære brugere på mellemniveau inden for musikteknologi, hvad vokalproduktion er, hvorfor det betyder noget, og hvordan man opnår professionelle vokaloptagelser hjemme eller i studiet.",
+        "dmaic": {
+          "D": "Skab et tilgængeligt onlinekursus, der underviser i vokalproduktionskoncepter — fra forståelse af stemmen til optagelse, redigering og mixning — uden at kræve dyrt udstyr eller alt for komplekst sprog.",
+          "M": "Kursusfærdiggørelse på tværs af 12 lektioner, 3 quizzer og 6 praktiske opgaver; videoproduktionskvalitet; elevforståelse og engagement; og platformens brugervenlighed.",
+          "A": "Vokalproduktion er et nichefokus med begrænsede samlede læringsressourcer. At skabe engagerende pædagogisk videoindhold krævede løsning af kontinuitet på tværs af flere optagedage, styring af omgivende støj og indlæring af en ukendt hostingplatform.",
+          "I": "Producerede 16 videoer, herunder 12 lektioner, en introduktion, en kursusafslutning og en trailer. Optaget i et hjemmestudie ved hjælp af flere kameravinkler og skærmoptagelser. Redigeret med motion graphics, lyddesign og professionelle titler. Byggede kurset på Thinkific med organiseret pensum, quizzer og lydeksempler til download, der er kompatible med enhver DAW.",
+          "C": "Kursus udgivet og tilgængeligt for studerende. Indhold organiseret med klare lektionsmål, opgaver og evalueringer. Ramme designet til at kunne replikeres til fremtidige kurser inden for musikteknologi og relaterede emner."
+        },
+        "timeline": [
+          "Research & pensumdesign",
+          "Scripting & lektionsplanlægning",
+          "Optagelse & produktion",
+          "Redigering & post-produktion",
+          "Platformopbygning & udgivelse"
+        ],
+        "tools": [
+          "Adobe Premiere Pro",
+          "OBS Studio",
+          "Thinkific",
+          "Canva",
+          "HandBrake",
+          "Motion Graphics",
+          "Lyddesign",
+          "Teleprompter-instruktion",
+          "Hjemmstudie-produktion"
+        ],
+        "outcomes": [
+          "16-video kursus udgivet med professionel motion graphics og titler",
+          "12 lektioner dækkende stemme, optagelse, redigering og mixning",
+          "3 quizzer og 6 praktiske opgaver med lydeksempler til download",
+          "Kursusplatform opbygget og organiseret til elevbrugervenlighed",
+          "Replikerbar kursusramme etableret til fremtidig udvidelse"
+        ],
+        "role": "Kursusskaber & instruktør"
       }
     },
     "films": {
       "sinners": {
         "role": "Featured Vocalist — Original Motion Picture Soundtrack",
-        "recognition": "GRAMMY® Award Winner",
+        "recognition": "GRAMMY®-vinder",
         "description": "Featured vocalist på original soundtrack'et til Sinners, Warner Bros.-filmen fra 2025 skrevet og instrueret af Ryan Coogler.",
         "details": [
           {
@@ -416,7 +491,7 @@
       },
       "kpops": {
         "role": "Featured Actor & Onscreen Performer",
-        "recognition": "Featured Film Performance",
+        "recognition": "Udvalgt filmpræstation",
         "description": "Featured skuespiller og onscreen performer i K-Pops!, instruktørdebuten fra den Grammy-vindende artist Anderson .Paak.",
         "details": [
           {
@@ -443,7 +518,9 @@
       "entries": {
         "sinners-rocky-road-to-dublin": {
           "role": "Featured Artist · DC6 Singers Collective",
-          "milestones": ["Spotify Viral 50 – Island #38 (mar 2026)"]
+          "milestones": [
+            "Spotify Viral 50 – Island #38 (mar 2026)"
+          ]
         },
         "sinners-this-little-light": {
           "role": "Featured Artist · DC6 Singers Collective",
@@ -455,11 +532,15 @@
         },
         "lukas-graham-share-that-love": {
           "role": "Vokalproducer",
-          "milestones": ["Deezer Ecuador Chart #78 (apr 2025)"]
+          "milestones": [
+            "Deezer Ecuador hitliste #78 (april 2025)"
+          ]
         },
         "lady-gaga-babylon": {
           "role": "Vokalproducer",
-          "milestones": ["Deezer Estland Chart #48 (jan 2026)"]
+          "milestones": [
+            "Deezer Estland hitliste #48 (januar 2026)"
+          ]
         },
         "kesi-tilbage": {
           "role": "Vokalproducer",
@@ -572,12 +653,27 @@
         "p3": "Uanset om det er et helt album, en feature eller en 60-sekunders short, er målet det samme: at skabe noget ærligt, noget alsidigt og noget, der bevæger folk."
       },
       "stats": {
-        "yearsActive": "2016–Nu",
+        "yearsActive": "2016–nu",
         "releases": "10+",
         "features": "3",
         "videos": "4",
         "collaborations": "4"
       }
     }
-  }
+  },
+  "projectCard": {
+    "viewDetails": "Se projektdetaljer",
+    "musicEducation": "Musik & Uddannelse",
+    "musicProduction": "Musik & Produktion",
+    "systemsTechnology": "Systemer & Teknologi"
+  },
+  "releaseCard": {
+    "solo": "Solo",
+    "feature": "Feature"
+  },
+  "videoCard": {
+    "musicVideo": "Musikvideo",
+    "lyricVideo": "Lyrikvideo"
+  },
+  "collabCard": {}
 }
