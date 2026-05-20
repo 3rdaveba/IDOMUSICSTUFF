@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import { useNavigate } from 'react-router'
 
 interface FooterProps {
   showCTA?: boolean
@@ -6,6 +7,15 @@ interface FooterProps {
 
 export default function Footer({ showCTA = true }: FooterProps) {
   const { t } = useTranslation()
+  const navigate = useNavigate()
+
+  const goToContact = () => {
+    navigate('/')
+    setTimeout(() => {
+      const el = document.getElementById('contact')
+      if (el) el.scrollIntoView({ behavior: 'smooth' })
+    }, 100)
+  }
 
   return (
     <footer style={{ backgroundColor: 'var(--bg-surface)' }}>
@@ -25,13 +35,13 @@ export default function Footer({ showCTA = true }: FooterProps) {
             >
               {t('footer.ctaLine2')}
             </h3>
-            <a
-              href="#contact"
-              className="inline-block mt-8 text-lg md:text-xl font-light transition-colors duration-300 hover:underline"
+            <button
+              onClick={goToContact}
+              className="inline-block mt-8 text-lg md:text-xl font-light transition-colors duration-300 hover:underline bg-transparent border-none cursor-pointer"
               style={{ color: 'var(--accent-amber)' }}
             >
               {t('footer.ctaLink', { defaultValue: 'Get in touch' })}
-            </a>
+            </button>
           </div>
         )}
 
