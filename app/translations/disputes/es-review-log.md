@@ -1,8 +1,8 @@
 # Translation Review Log: ES
 
-Generated: 2026-05-20T19:54:09.573Z
+Generated: 2026-05-20T21:27:47.704Z
 
-Total disputed keys: 204
+Total disputed keys: 219
 
 ## navigation.artistWork
 
@@ -24,13 +24,13 @@ Total disputed keys: 204
 
 **English:** SCROLL
 
-**Claude:** DESPLAZAR
+**Claude:** SCROLL
 
 **Codex:** SCROLL
 
 **Gemini:** DESLIZAR
 
-**Reason:** No consensus — similarities: C↔X=0.11, C↔G=0.78, X↔G=0.13
+**Reason:** No consensus — similarities: C↔X=1.00, C↔G=0.13, X↔G=0.13
 
 **Selected:** SCROLL
 
@@ -54,33 +54,49 @@ Total disputed keys: 204
 
 ## about.bio1
 
-**English:** Over the course of my career, I've acquired tons of experience as an artist, stage performer, audio engineer, and creative project manager. From organizing live performances, collaborating with artists, teaching students, and working with underserved communities, I've been able to build a track record of successfully delivering projects from concept to completion.
+**English:** Throughout my career, I've built a body of experience across music, live performance, education, and creative project management. As an artist, stage performer, audio engineer, and collaborator, I've had the opportunity to help bring ideas to life across a wide range of spaces…from live events and recording sessions to student programs, community initiatives, and artist-driven projects.
 
-**Claude:** A lo largo de mi carrera, he adquirido una enorme experiencia como artista, artista escénico, ingeniero de audio y director creativo de proyectos. Desde organizar actuaciones en vivo, colaborar con artistas, enseñar a estudiantes y trabajar con comunidades desfavorecidas, he podido construir un historial de entrega exitosa de proyectos desde el concepto hasta la realización.
+**Claude:** A lo largo de mi carrera, he construido una amplia experiencia en música, actuaciones en vivo, educación y gestión creativa de proyectos. Como artista, artista escénico, ingeniero de audio y colaborador, he tenido la oportunidad de ayudar a dar vida a ideas en una gran variedad de espacios…desde eventos en vivo y sesiones de grabación hasta programas estudiantiles, iniciativas comunitarias y proyectos liderados por artistas.
 
 **Codex:** A lo largo de mi carrera, he acumulado una amplia experiencia como artista, intérprete en vivo, ingeniero de audio y gestor de proyectos creativos. Desde organizar presentaciones en vivo, colaborar con artistas, enseñar a estudiantes y trabajar con comunidades desatendidas, he construido una trayectoria sólida entregando proyectos con éxito desde el concepto hasta la finalización.
 
 **Gemini:** A lo largo de mi carrera, he adquirido una vasta experiencia como artista, intérprete, ingeniero de audio y gestor de proyectos creativos. Desde la organización de presentaciones en vivo y la colaboración con artistas, hasta la enseñanza y el trabajo con comunidades desatendidas, he logrado consolidar una trayectoria de éxito entregando proyectos desde su concepto hasta su finalización.
 
-**Reason:** No consensus — similarities: C↔X=0.73, C↔G=0.66, X↔G=0.77
+**Reason:** No consensus — similarities: C↔X=0.39, C↔G=0.36, X↔G=0.77
 
-**Selected:** A lo largo de mi carrera, he adquirido una enorme experiencia como artista, artista escénico, ingeniero de audio y director creativo de proyectos. Desde organizar actuaciones en vivo, colaborar con artistas, enseñar a estudiantes y trabajar con comunidades desfavorecidas, he podido construir un historial de entrega exitosa de proyectos desde el concepto hasta la realización.
+**Selected:** A lo largo de mi carrera, he construido una amplia experiencia en música, actuaciones en vivo, educación y gestión creativa de proyectos. Como artista, artista escénico, ingeniero de audio y colaborador, he tenido la oportunidad de ayudar a dar vida a ideas en una gran variedad de espacios…desde eventos en vivo y sesiones de grabación hasta programas estudiantiles, iniciativas comunitarias y proyectos liderados por artistas.
 
 ---
 
 ## about.bio2
 
-**English:** This site is designed to give you insight into my passion for creating impactful experiences, my creative thought process, and a look at some of the projects I've been a part of from behind the scenes.
+**English:** My work is rooted in creating impactful experiences, supporting creative vision, and guiding projects from concept to completion with intention, care, and professionalism. This portfolio offers a look into my creative process, the work I've contributed to, and the projects that reflect my passion for building experiences that connect with people.
 
-**Claude:** Este sitio está diseñado para darte una visión de mi pasión por crear experiencias de impacto, mi proceso de pensamiento creativo y un vistazo a algunos de los proyectos en los que he participado desde detrás de escena.
+**Claude:** Mi trabajo está arraigado en la creación de experiencias de impacto, el apoyo a la visión creativa y la guía de proyectos desde el concepto hasta la finalización con intención, cuidado y profesionalismo. Este portfolio ofrece una mirada a mi proceso creativo, el trabajo al que he contribuido y los proyectos que reflejan mi pasión por construir experiencias que conecten con las personas.
 
 **Codex:** Este sitio está diseñado para darte una mirada a mi pasión por crear experiencias con impacto, mi proceso creativo y algunos de los proyectos en los que he participado detrás de escena.
 
 **Gemini:** Este sitio está diseñado para ofrecerte una visión de mi pasión por crear experiencias impactantes, mi proceso de pensamiento creativo y un vistazo a algunos de los proyectos en los que he participado tras bambalinas.
 
-**Reason:** No consensus — similarities: C↔X=0.80, C↔G=0.86, X↔G=0.72
+**Reason:** No consensus — similarities: C↔X=0.30, C↔G=0.32, X↔G=0.72
 
-**Selected:** Este sitio está diseñado para darte una visión de mi pasión por crear experiencias de impacto, mi proceso de pensamiento creativo y un vistazo a algunos de los proyectos en los que he participado desde detrás de escena.
+**Selected:** Mi trabajo está arraigado en la creación de experiencias de impacto, el apoyo a la visión creativa y la guía de proyectos desde el concepto hasta la finalización con intención, cuidado y profesionalismo. Este portfolio ofrece una mirada a mi proceso creativo, el trabajo al que he contribuido y los proyectos que reflejan mi pasión por construir experiencias que conecten con las personas.
+
+---
+
+## about.signature
+
+**English:** I look forward to exploring how we can work together!
+
+**Claude:** ¡Espero con ansias explorar cómo podemos trabajar juntos!
+
+**Codex:** ¡Espero tener la oportunidad de trabajar contigo en el futuro!
+
+**Gemini:** ¡Espero tener la oportunidad de trabajar contigo en el futuro!
+
+**Reason:** No consensus — similarities: C↔X=0.35, C↔G=0.35, X↔G=1.00
+
+**Selected:** ¡Espero tener la oportunidad de trabajar contigo en el futuro!
 
 ---
 
@@ -97,6 +113,22 @@ Total disputed keys: 204
 **Reason:** No consensus — similarities: C↔X=0.46, C↔G=0.46, X↔G=1.00
 
 **Selected:** SELECCIONADOS
+
+---
+
+## work.intro
+
+**English:** A cross-section of projects spanning music production, community education, systems architecture, and creative technology — each built with the same intention: craft something meaningful, scalable, and human. Every project is presented in DMAIC format (Define, Measure, Analyze, Improve, Control) so you can see how each moves from concept to measurable outcome.
+
+**Claude:** Una muestra transversal de proyectos que abarcan producción musical, educación comunitaria, arquitectura de sistemas y tecnología creativa — cada uno construido con la misma intención: crear algo significativo, escalable y humano. Cada proyecto se presenta en formato DMAIC (Definir, Medir, Analizar, Mejorar, Controlar) para que puedas ver cómo cada uno avanza del concepto al resultado medible.
+
+**Codex:** Una muestra transversal de proyectos que abarcan producción musical, educación comunitaria, arquitectura de sistemas y tecnología creativa — todos construidos con la misma intención: crear algo significativo, escalable y humano.
+
+**Gemini:** Una muestra representativa de proyectos que abarcan la producción musical, la educación comunitaria, la arquitectura de sistemas y la tecnología creativa; cada uno construido con la misma intención: crear algo significativo, escalable y humano.
+
+**Reason:** No consensus — similarities: C↔X=0.56, C↔G=0.52, X↔G=0.86
+
+**Selected:** Una muestra transversal de proyectos que abarcan producción musical, educación comunitaria, arquitectura de sistemas y tecnología creativa — cada uno construido con la misma intención: crear algo significativo, escalable y humano. Cada proyecto se presenta en formato DMAIC (Definir, Medir, Analizar, Mejorar, Controlar) para que puedas ver cómo cada uno avanza del concepto al resultado medible.
 
 ---
 
@@ -161,22 +193,6 @@ Total disputed keys: 204
 **Reason:** No consensus — similarities: C↔X=0.85, C↔G=0.75, X↔G=0.81
 
 **Selected:** Tendiendo puentes entre la música y la narrativa visual — desde soundtracks ganadores del GRAMMY hasta actuaciones en pantalla junto a íconos de la industria.
-
----
-
-## discography.line2
-
-**English:** STREAMS
-
-**Claude:** REPRODUCCIONES
-
-**Codex:** STREAMS
-
-**Gemini:** STREAMS
-
-**Reason:** No consensus — similarities: C↔X=0.14, C↔G=0.14, X↔G=1.00
-
-**Selected:** STREAMS
 
 ---
 
@@ -1092,6 +1108,22 @@ Total disputed keys: 204
 
 ---
 
+## data.projects.audiolab-intelligence.role
+
+**English:** Systems Architecture & Creative AI
+
+**Claude:** Arquitectura de sistemas e IA creativa
+
+**Codex:** Arquitectura de sistemas & IA creativa
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Arquitectura de sistemas e IA creativa
+
+---
+
 ## data.projects.the-reimagination-engine.dmaic.M
 
 **English:** Track streaming numbers, saves, completion rates, and listener retention across roughly 30 releases over 12 months. Every 45 days, review cluster performance to see which wave style is gaining traction and which individual tracks are rising to the top.
@@ -1281,6 +1313,22 @@ Total disputed keys: 204
 **Reason:** No consensus — similarities: C↔X=1.00, C↔G=0.72, X↔G=0.72
 
 **Selected:** Ingresos orgánicos de streaming generados sin gasto en marketing
+
+---
+
+## data.projects.the-reimagination-engine.role
+
+**English:** Creative Systems Architect & Artist
+
+**Claude:** Arquitecto de sistemas creativos y artista
+
+**Codex:** Arquitecto de sistemas creativos & artista
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Arquitecto de sistemas creativos y artista
 
 ---
 
@@ -1524,6 +1572,22 @@ Total disputed keys: 204
 
 ---
 
+## data.projects.calby-inner-critic.role
+
+**English:** Vocal Producer
+
+**Claude:** Productor Vocal
+
+**Codex:** Productor vocal
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Productor Vocal
+
+---
+
 ## data.projects.lukas-graham-purple.dmaic.M
 
 **English:** Quality of vocal arrangements, performance cohesion, stakeholder satisfaction, and seamless integration of BGVs into the final album.
@@ -1656,13 +1720,13 @@ Total disputed keys: 204
 
 **English:** Stakeholder Negotiation
 
-**Claude:** Negociación con interesados
+**Claude:** Negociación con partes interesadas
 
 **Codex:** Stakeholder Negotiation
 
 **Gemini:** Stakeholder Negotiation
 
-**Reason:** No consensus — similarities: C↔X=0.11, C↔G=0.11, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.12, C↔G=0.12, X↔G=1.00
 
 **Selected:** Stakeholder Negotiation
 
@@ -1745,6 +1809,22 @@ Total disputed keys: 204
 **Reason:** No consensus — similarities: C↔X=1.00, C↔G=0.74, X↔G=0.74
 
 **Selected:** Integración fluida de BGV en la mezcla final del álbum
+
+---
+
+## data.projects.lukas-graham-purple.role
+
+**English:** Vocal Producer
+
+**Claude:** Productor Vocal
+
+**Codex:** Productor vocal
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Productor Vocal
 
 ---
 
@@ -1880,13 +1960,13 @@ Total disputed keys: 204
 
 **English:** Songwriting
 
-**Claude:** Composición musical
+**Claude:** Composición de canciones
 
 **Codex:** Songwriting
 
 **Gemini:** Songwriting
 
-**Reason:** No consensus — similarities: C↔X=0.21, C↔G=0.21, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.17, C↔G=0.17, X↔G=1.00
 
 **Selected:** Songwriting
 
@@ -1896,13 +1976,13 @@ Total disputed keys: 204
 
 **English:** Music Video Production
 
-**Claude:** Producción de video musical
+**Claude:** Producción de videos musicales
 
 **Codex:** Music Video Production
 
 **Gemini:** Music Video Production
 
-**Reason:** No consensus — similarities: C↔X=0.22, C↔G=0.22, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.27, C↔G=0.27, X↔G=1.00
 
 **Selected:** Music Video Production
 
@@ -2017,6 +2097,22 @@ Total disputed keys: 204
 **Reason:** No consensus — similarities: C↔X=0.38, C↔G=0.38, X↔G=0.78
 
 **Selected:** Material de foto y video archivado para el portfolio
+
+---
+
+## data.projects.heart-soul-image-village.role
+
+**English:** Choral Director & Recording Studio Instructor
+
+**Claude:** Director coral e instructor de estudio de grabación
+
+**Codex:** Director coral & instructor de recording studio
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Director coral e instructor de estudio de grabación
 
 ---
 
@@ -2273,6 +2369,22 @@ Total disputed keys: 204
 **Reason:** No consensus — similarities: C↔X=0.77, C↔G=1.00, X↔G=0.77
 
 **Selected:** Alto engagement de audiencia y cohesión artística
+
+---
+
+## data.projects.jimmy-gnarly-live.role
+
+**English:** Creative Producer & Live Performance Director
+
+**Claude:** Productor creativo y director de actuaciones en vivo
+
+**Codex:** Productor creativo & director de performance en vivo
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Productor creativo y director de actuaciones en vivo
 
 ---
 
@@ -2580,6 +2692,22 @@ Total disputed keys: 204
 
 ---
 
+## data.projects.lmu-gospel-choir.role
+
+**English:** Director, LMU Gospel Choir
+
+**Claude:** Director, LMU Gospel Choir
+
+**Codex:** Director, LMU Gospel Choir
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Director, LMU Gospel Choir
+
+---
+
 ## data.films.sinners.role
 
 **English:** Featured Vocalist — Original Motion Picture Soundtrack
@@ -2792,13 +2920,13 @@ Total disputed keys: 204
 
 **English:** Featured Artist
 
-**Claude:** Artista Invitado
+**Claude:** Artista invitado
 
 **Codex:** Featured Artist
 
 **Gemini:** Artista invitado
 
-**Reason:** No consensus — similarities: C↔X=0.13, C↔G=0.94, X↔G=0.13
+**Reason:** No consensus — similarities: C↔X=0.13, C↔G=1.00, X↔G=0.13
 
 **Selected:** Featured Artist
 
@@ -2808,13 +2936,13 @@ Total disputed keys: 204
 
 **English:** Featured Artist · DC6 Singers Collective
 
-**Claude:** Artista Invitado · DC6 Singers Collective
+**Claude:** Artista invitado · DC6 Singers Collective
 
 **Codex:** Featured Artist · DC6 Singers Collective
 
 **Gemini:** Artista invitado · DC6 Singers Collective
 
-**Reason:** No consensus — similarities: C↔X=0.66, C↔G=0.98, X↔G=0.66
+**Reason:** No consensus — similarities: C↔X=0.66, C↔G=1.00, X↔G=0.66
 
 **Selected:** Featured Artist · DC6 Singers Collective
 
@@ -2824,13 +2952,13 @@ Total disputed keys: 204
 
 **English:** Featured Artist · DC6 Singers Collective
 
-**Claude:** Artista Invitado · DC6 Singers Collective
+**Claude:** Artista invitado · DC6 Singers Collective
 
 **Codex:** Featured Artist · DC6 Singers Collective
 
 **Gemini:** Artista invitado · DC6 Singers Collective
 
-**Reason:** No consensus — similarities: C↔X=0.66, C↔G=0.98, X↔G=0.66
+**Reason:** No consensus — similarities: C↔X=0.66, C↔G=1.00, X↔G=0.66
 
 **Selected:** Featured Artist · DC6 Singers Collective
 
@@ -3076,22 +3204,6 @@ Total disputed keys: 204
 
 ---
 
-## data.artistWork.categories.social
-
-**English:** Social
-
-**Claude:** Redes sociales
-
-**Codex:** Social
-
-**Gemini:** Social
-
-**Reason:** No consensus — similarities: C↔X=0.36, C↔G=0.36, X↔G=1.00
-
-**Selected:** Social
-
----
-
 ## data.artistWork.entries.ba-freestyle-therealasethic.description
 
 **English:** Freestyle verse over production by @therealasethic.
@@ -3265,6 +3377,134 @@ Total disputed keys: 204
 **Reason:** No consensus — similarities: C↔X=0.92, C↔G=1.00, X↔G=0.92
 
 **Selected:** 2016–Present
+
+---
+
+## projectCard.viewDetails
+
+**English:** View project details
+
+**Claude:** Ver detalles del proyecto
+
+**Codex:** Ver detalles del proyecto
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Ver detalles del proyecto
+
+---
+
+## projectCard.musicEducation
+
+**English:** Music & Education
+
+**Claude:** Música y Educación
+
+**Codex:** Música & educación
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Música y Educación
+
+---
+
+## projectCard.musicProduction
+
+**English:** Music & Production
+
+**Claude:** Música y Producción
+
+**Codex:** Música & producción
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Música y Producción
+
+---
+
+## projectCard.systemsTechnology
+
+**English:** Systems & Technology
+
+**Claude:** Sistemas y Tecnología
+
+**Codex:** Sistemas & tecnología
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Sistemas y Tecnología
+
+---
+
+## releaseCard.solo
+
+**English:** Solo
+
+**Claude:** Solo
+
+**Codex:** Solo
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Solo
+
+---
+
+## releaseCard.feature
+
+**English:** Feature
+
+**Claude:** Feature
+
+**Codex:** Feature
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Feature
+
+---
+
+## videoCard.musicVideo
+
+**English:** Music Video
+
+**Claude:** Video musical
+
+**Codex:** Video musical
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Video musical
+
+---
+
+## videoCard.lyricVideo
+
+**English:** Lyric Video
+
+**Claude:** Video lírico
+
+**Codex:** Lyric video
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Video lírico
 
 ---
 

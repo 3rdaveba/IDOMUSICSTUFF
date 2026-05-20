@@ -194,7 +194,8 @@
           "Nul uautoriserede skrivninger til produktion",
           "Fuld audit trail på alle outputs",
           "Multi-model orkestreringspipeline"
-        ]
+        ],
+        "role": "Systemarkitektur & kreativ AI"
       },
       "the-reimagination-engine": {
         "description": "Et eksperimentelt udgivelsesprojekt, hvor gamle demoer og ufærdige sangidéer nyfortolkes gennem AI-værktøjer og udgives i klyngede bølger. Drops sker hver anden uge i skiftende tre-track-klynger — én relationel bølge, den næste energisk — med performance review hver 45. dag. Målet er at se, om konsekvente udgivelser alene kan skabe streamingindtægter og organisk traction uden marketing, tilstedeværelse på sociale medier eller betalt promotion. Hvis et track lander i topniveauet i sin klynge, markeres det til potentiel reproduktion eller licensering.",
@@ -227,7 +228,8 @@
           "Organiske streamingindtægter skabt uden marketingbudget",
           "Indtægts- og licensmuligheder afdækket gennem klyngedata",
           "Et gentageligt eksperimentframework til fremtidige udgivelsessystemer"
-        ]
+        ],
+        "role": "Kreativ systemarkitekt & artist"
       },
       "calby-inner-critic": {
         "description": "Vocal producer for baggrundsvokaler på 12 sange på et uudgivet album for den danske artist Calby. Håndterede vokalarrangementer, talent acquisition, produktionskoordinering og budgetoverblik på vegne af Sony Music Denmark og Bogs Agency.",
@@ -261,7 +263,8 @@
           "Positiv stakeholder-feedback fra artist og label",
           "Audio- og billedmateriale af høj kvalitet til marketing",
           "Effektiv budgetstyring under begrænsninger"
-        ]
+        ],
+        "role": "Vocal Producer"
       },
       "lukas-graham-purple": {
         "description": "Vocal producer for baggrundsvokaler på fire sange til Lukas Graham's 3 (The Purple Album). Skabte arrangementer, hyrede og dirigerede vokaltalent og ledte indspilningssessioner i samarbejde med Warner Music Group og Then We Take The World.",
@@ -294,7 +297,8 @@
           "Stakeholder-tilfredshed fra Warner Music og management",
           "Styrkede relationer til fremtidige samarbejder",
           "Sømløs BGV-integration i det færdige albummix"
-        ]
+        ],
+        "role": "Vocal Producer"
       },
       "heart-soul-image-village": {
         "description": "Ledte kor- og recording studio-komponenterne i Image Village 2023, en sommerlejr på Heart and Soul Center i South Central Los Angeles. Underviste to aldersgrupper i vokalteknik og ensemblefærdigheder, samtidig med at eleverne blev guidet gennem sangskrivning, DAW-produktion og musikvideoarbejde.",
@@ -327,7 +331,8 @@
           "Musikvideo skabt af elever",
           "Omfattende lektionsplaner udviklet og gennemført",
           "Foto- og videooptagelser arkiveret til portfolio"
-        ]
+        ],
+        "role": "Kordirigent & recording studio-underviser"
       },
       "jimmy-gnarly-live": {
         "description": "Samarbejde om at skabe en dynamisk liveperformance af et uudgivet alt. hip hop-album under den globale pandemi.",
@@ -357,7 +362,8 @@
           "Kreativt proof-of-concept for artist",
           "Dokumenteret performance under pandemi-begrænsninger",
           "Højt publikumsengagement og kunstnerisk sammenhæng"
-        ]
+        ],
+        "role": "Kreativ producer & liveperformance-instruktør"
       },
       "lmu-gospel-choir": {
         "description": "Dirigerede LMU Gospel Choir og ledte semesterlange forløb med rekruttering, prøver og performance. Håndterede vokalcoaching, promotional design, hyring af musikere, budgetforhandling og alumni-samarbejder.",
@@ -391,7 +397,8 @@
           "Alumni-vokalister engageret til koncertsamarbejder",
           "Promotional materials og flyers designet til performances",
           "Sessionmusikere hyret og koordineret til liveperformances"
-        ]
+        ],
+        "role": "Dirigent, LMU Gospel Choir"
       }
     },
     "films": {
@@ -579,5 +586,20 @@
         "collaborations": "4"
       }
     }
-  }
+  },
+  "projectCard": {
+    "viewDetails": "Se projektdetaljer",
+    "musicEducation": "Musik & undervisning",
+    "musicProduction": "Musik & produktion",
+    "systemsTechnology": "Systemer & teknologi"
+  },
+  "releaseCard": {
+    "solo": "Solo",
+    "feature": "Feature"
+  },
+  "videoCard": {
+    "musicVideo": "Musikvideo",
+    "lyricVideo": "Lyric video"
+  },
+  "collabCard": {}
 }

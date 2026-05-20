@@ -13,19 +13,19 @@
     "eyebrow": "PRODUCTOR VOCAL GANADOR DEL GRAMMY® · TECNÓLOGO MUSICAL · ARQUITECTO DE SISTEMAS CREATIVOS · LOS ÁNGELES",
     "nameFirst": "WILLIAM",
     "nameSecond": "\"B.A.\" WASHINGTON",
-    "scrollCue": "DESPLAZAR"
+    "scrollCue": "SCROLL"
   },
   "about": {
     "headline": "¡Hola! Mi nombre es William y soy un productor vocal ganador del GRAMMY®, tecnólogo musical y arquitecto de sistemas creativos.",
-    "bio1": "A lo largo de mi carrera, he adquirido una enorme experiencia como artista, artista escénico, ingeniero de audio y director creativo de proyectos. Desde organizar actuaciones en vivo, colaborar con artistas, enseñar a estudiantes y trabajar con comunidades desfavorecidas, he podido construir un historial de entrega exitosa de proyectos desde el concepto hasta la realización.",
-    "bio2": "Este sitio está diseñado para darte una visión de mi pasión por crear experiencias de impacto, mi proceso de pensamiento creativo y un vistazo a algunos de los proyectos en los que he participado desde detrás de escena.",
-    "signature": "¡Espero con ansias la oportunidad de trabajar contigo en el futuro!",
+    "bio1": "A lo largo de mi carrera, he construido una amplia experiencia en música, actuaciones en vivo, educación y gestión creativa de proyectos. Como artista, artista escénico, ingeniero de audio y colaborador, he tenido la oportunidad de ayudar a dar vida a ideas en una gran variedad de espacios…desde eventos en vivo y sesiones de grabación hasta programas estudiantiles, iniciativas comunitarias y proyectos liderados por artistas.",
+    "bio2": "Mi trabajo está arraigado en la creación de experiencias de impacto, el apoyo a la visión creativa y la guía de proyectos desde el concepto hasta la finalización con intención, cuidado y profesionalismo. Este portfolio ofrece una mirada a mi proceso creativo, el trabajo al que he contribuido y los proyectos que reflejan mi pasión por construir experiencias que conecten con las personas.",
+    "signature": "¡Espero con ansias explorar cómo podemos trabajar juntos!",
     "signatureName": "— William \"B.A.\" Washington"
   },
   "work": {
     "line1": "PROYECTOS",
     "line2": "DESTACADOS",
-    "intro": "Una muestra transversal de proyectos que abarcan producción musical, educación comunitaria, arquitectura de sistemas y tecnología creativa — cada uno construido con la misma intención: crear algo significativo, escalable y humano.",
+    "intro": "Una muestra transversal de proyectos que abarcan producción musical, educación comunitaria, arquitectura de sistemas y tecnología creativa — cada uno construido con la misma intención: crear algo significativo, escalable y humano. Cada proyecto se presenta en formato DMAIC (Definir, Medir, Analizar, Mejorar, Controlar) para que puedas ver cómo cada uno avanza del concepto al resultado medible.",
     "active": "Activo",
     "complete": "Completado"
   },
@@ -42,7 +42,7 @@
   "discography": {
     "eyebrow": "MÚSICA",
     "line1": "{{streams}}M+",
-    "line2": "REPRODUCCIONES",
+    "line2": "STREAMS",
     "intro": "Discografía selecta de proyectos notables como productor vocal, artista invitado o intérprete · {{tracks}} temas · obtenido de {{source}}",
     "spotify": "Spotify",
     "youtube": "YouTube",
@@ -163,6 +163,21 @@
     "collaborationsHeading": "Colaboraciones",
     "backToHome": "Volver al inicio"
   },
+  "projectCard": {
+    "viewDetails": "Ver detalles del proyecto",
+    "musicEducation": "Música y Educación",
+    "musicProduction": "Música y Producción",
+    "systemsTechnology": "Sistemas y Tecnología"
+  },
+  "releaseCard": {
+    "solo": "Solo",
+    "feature": "Feature"
+  },
+  "videoCard": {
+    "musicVideo": "Video musical",
+    "lyricVideo": "Video lírico"
+  },
+  "collabCard": {},
   "data": {
     "projects": {
       "audiolab-intelligence": {
@@ -194,7 +209,8 @@
           "Cero escrituras no autorizadas a producción",
           "Rastro de auditoría completo en todas las salidas",
           "Pipeline de orquestación multi-modelo"
-        ]
+        ],
+        "role": "Arquitectura de sistemas e IA creativa"
       },
       "the-reimagination-engine": {
         "description": "Un proyecto de lanzamiento experimental donde viejas demos e ideas de canciones sin terminar se reimaginan a través de herramientas de IA y se lanzan en oleadas agrupadas. Los lanzamientos ocurren cada dos semanas en clústeres alternos de tres canciones — una oleada relacional, la siguiente energética — con revisión de rendimiento cada 45 días. El objetivo es ver si los lanzamientos consistentes por sí solos pueden generar ingresos de streaming y tracción orgánica sin ningún marketing, presencia en redes sociales o promoción pagada. Si una canción llega al nivel superior de su clúster, se marca para posible reproducción o licenciamiento.",
@@ -227,7 +243,8 @@
           "Ingresos orgánicos de streaming generados sin gasto en marketing",
           "Oportunidades de ingresos y licenciamiento reveladas por datos de clústeres",
           "Un marco de experimento repetible para futuros sistemas de lanzamiento"
-        ]
+        ],
+        "role": "Arquitecto de sistemas creativos y artista"
       },
       "calby-inner-critic": {
         "description": "Productor vocal de coros en 12 canciones de un álbum inédito del artista danés Calby. Gestionó arreglos vocales, adquisición de talento, coordinación de producción y supervisión del presupuesto en nombre de Sony Music Denmark y Bogs Agency.",
@@ -261,7 +278,8 @@
           "Retroalimentación positiva de los interesados del artista y el sello",
           "Activos de audio y visuales de alta calidad para marketing",
           "Gestión efectiva del presupuesto bajo restricciones"
-        ]
+        ],
+        "role": "Productor Vocal"
       },
       "lukas-graham-purple": {
         "description": "Productor vocal de coros en cuatro canciones del álbum 3 (The Purple Album) de Lukas Graham. Creó arreglos, contrató y dirigió talento vocal, y lideró sesiones de grabación en colaboración con Warner Music Group y Then We Take The World.",
@@ -284,7 +302,7 @@
           "Pro Tools",
           "Adquisición de talento",
           "Dirección de sesión",
-          "Negociación con interesados",
+          "Negociación con partes interesadas",
           "Comping y afinación",
           "Colaboración internacional"
         ],
@@ -294,7 +312,8 @@
           "Satisfacción de los interesados de Warner Music y management",
           "Relaciones fortalecidas para futuras colaboraciones",
           "Integración fluida de BGV en la mezcla final del álbum"
-        ]
+        ],
+        "role": "Productor Vocal"
       },
       "heart-soul-image-village": {
         "description": "Lideró los componentes coral y de estudio de grabación de Image Village 2023, un campamento de verano en Heart and Soul Center en South Central Los Angeles. Enseñó técnica vocal y habilidades de conjunto a dos grupos de edad mientras guiaba a los estudiantes a través de la composición, producción DAW y creación de videos musicales.",
@@ -315,8 +334,8 @@
         "tools": [
           "Instrucción vocal",
           "Producción DAW",
-          "Composición musical",
-          "Producción de video musical",
+          "Composición de canciones",
+          "Producción de videos musicales",
           "Planificación de lecciones",
           "Dirección de conjunto",
           "Educación juvenil"
@@ -327,7 +346,8 @@
           "Video musical creado por los estudiantes",
           "Planes de lección completos desarrollados y ejecutados",
           "Fotografías y videos archivados"
-        ]
+        ],
+        "role": "Director coral e instructor de estudio de grabación"
       },
       "jimmy-gnarly-live": {
         "description": "Colaboración para crear una actuación en vivo dinámica de un álbum inédito de alt. hip hop durante la pandemia global.",
@@ -357,7 +377,8 @@
           "Proof-of-concept creativo para el artista",
           "Actuación documentada bajo restricciones pandémicas",
           "Alto compromiso de la audiencia y cohesión artística"
-        ]
+        ],
+        "role": "Productor creativo y director de actuaciones en vivo"
       },
       "lmu-gospel-choir": {
         "description": "Dirigió el LMU Gospel Choir, liderando ciclos semestrales de reclutamiento, ensayos y actuaciones. Gestionó la instrucción vocal, el diseño de materiales promocionales, la contratación de músicos, la negociación de presupuestos y las colaboraciones con exalumnos.",
@@ -391,7 +412,8 @@
           "Vocalistas exalumnos comprometidos para colaboraciones en conciertos",
           "Materiales promocionales y volantes diseñados para actuaciones",
           "Músicos de sesión contratados y coordinados para actuaciones en vivo"
-        ]
+        ],
+        "role": "Director, LMU Gospel Choir"
       }
     },
     "films": {
@@ -436,17 +458,17 @@
     },
     "discography": {
       "rolePrefix": "Productor Vocal",
-      "roleFeature": "Artista Invitado",
+      "roleFeature": "Artista invitado",
       "listen": "Escuchar",
       "charted": "En listas",
       "milestoneViral": "Spotify Viral 50",
       "entries": {
         "sinners-rocky-road-to-dublin": {
-          "role": "Artista Invitado · DC6 Singers Collective",
+          "role": "Artista invitado · DC6 Singers Collective",
           "milestones": ["Spotify Viral 50 – Islandia #38 (mar. 2026)"]
         },
         "sinners-this-little-light": {
-          "role": "Artista Invitado · DC6 Singers Collective",
+          "role": "Artista invitado · DC6 Singers Collective",
           "milestones": []
         },
         "lukas-graham-you": {
@@ -504,7 +526,7 @@
         "all": "Todo",
         "release": "Lanzamientos",
         "video": "Videos",
-        "social": "Redes sociales"
+        "social": "Social"
       },
       "entries": {
         "ba-freestyle-therealasethic": {

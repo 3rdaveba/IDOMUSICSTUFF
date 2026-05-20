@@ -17,15 +17,15 @@
   },
   "about": {
     "headline": "Hej! Mit navn er William, og jeg er en GRAMMY®-prisbelønnet vokalproducent, musikteknolog og kreativ systemsarkitekt.",
-    "bio1": "I løbet af min karriere har jeg opnået enorm erfaring som kunstner, sceneoptræder, lydingenør og kreativ projektleder. Fra tilrettelæggelse af liveoptrædener, samarbejde med kunstnere, undervisning af studerende og arbejde med udsatte fællesskaber har jeg formået at opbygge en dokumenteret track record for succesfuldt at levere projekter fra idé til færdighed.",
-    "bio2": "Dette site er designet til at give dig indsigt i min passion for at skabe virkningsfulde oplevelser, min kreative tankeproces og et kig bag kulisserne på nogle af de projekter, jeg har været en del af.",
-    "signature": "Jeg glæder mig til muligheden for at arbejde med dig i fremtiden!",
+    "bio1": "Gennem min karriere har jeg opbygget en bred erfaring inden for musik, liveoptrædener, uddannelse og kreativ projektledelse. Som kunstner, sceneoptræder, lydingenør og samarbejdspartner har jeg haft mulighed for at hjælpe med at virkeliggøre idéer på tværs af mange forskellige arenaer…fra livearrangementer og studieoptagelser til studenterprogrammer, fællesskabsinitiativer og kunstnerdrevne projekter.",
+    "bio2": "Mit arbejde er forankret i at skabe virkningsfulde oplevelser, støtte kreativ vision og guide projekter fra idé til færdiggørelse med intention, omsorg og professionalisme. Dette portfolio giver et indblik i min kreative proces, det arbejde jeg har bidraget til, og de projekter der afspejler min passion for at skabe oplevelser, der forbinder med mennesker.",
+    "signature": "Jeg glæder mig til at udforske, hvordan vi kan samarbejde!",
     "signatureName": "— William \"B.A.\" Washington"
   },
   "work": {
     "line1": "UDVALGTE",
     "line2": "PROJEKTER",
-    "intro": "Et tværsnit af projekter der spænder over musikproduktion, fællesskabsuddannelse, systemsarkitektur og kreativ teknologi – hvert enkelt bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt.",
+    "intro": "Et tværsnit af projekter der spænder over musikproduktion, fællesskabsuddannelse, systemsarkitektur og kreativ teknologi – hvert enkelt bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt. Hvert projekt er præsenteret i DMAIC-format (Definér, Mål, Analysér, Forbedre, Kontrollér), så du kan se, hvordan hvert enkelt bevæger sig fra idé til målbart resultat.",
     "active": "Aktiv",
     "complete": "Afsluttet"
   },
@@ -163,6 +163,21 @@
     "collaborationsHeading": "Samarbejder",
     "backToHome": "Tilbage til start"
   },
+  "projectCard": {
+    "viewDetails": "Se projektdetaljer",
+    "musicEducation": "Musik og Uddannelse",
+    "musicProduction": "Musik og Produktion",
+    "systemsTechnology": "Systemer og Teknologi"
+  },
+  "releaseCard": {
+    "solo": "Solo",
+    "feature": "Feature"
+  },
+  "videoCard": {
+    "musicVideo": "Musikvideo",
+    "lyricVideo": "Lyrikvideo"
+  },
+  "collabCard": {},
   "data": {
     "projects": {
       "audiolab-intelligence": {
@@ -194,7 +209,8 @@
           "Nul uautoriserede skrivninger til produktion",
           "Fuld revisionssporet på alle outputs",
           "Multi-model orkestreringsrørledning"
-        ]
+        ],
+        "role": "Systemsarkitektur og kreativ AI"
       },
       "the-reimagination-engine": {
         "description": "Et eksperimentelt udgivelsesprojekt, hvor gamle demoer og uafsluttede sangidéer genfortolkes med AI-værktøjer og udgives i klyngede bølger. Drops sker hver anden uge i skiftende tre-nummers klynger – én bølge relationel, den næste energisk – med præstationsgennemgang hvert 45. dag. Målet er at se, om konsistente udgivelser alene kan generere streamingindtægter og organisk trækkraft uden markedsføring, sociale medier eller betalt reklame. Hvis et nummer havner i topniveauet i sin klynge, markeres det til potentiel genprocuktion eller licensering.",
@@ -227,7 +243,8 @@
           "Organiske streamingindtægter genereret uden markedsføringsforbrug",
           "Indtægts- og licenseringsmuligheder afsløret af klyngedata",
           "En gentagelig eksperimentramme til fremtidige udgivelsessystemer"
-        ]
+        ],
+        "role": "Kreativ systemsarkitekt og kunstner"
       },
       "calby-inner-critic": {
         "description": "Vokalproducent for baggrundsvokaler på tværs af 12 sange på et uudgivet album for den danske kunstner Calby. Styrede vokalopstillinger, talentopkøb, produktionskoordinering og budgetoversigt på vegne af Sony Music Denmark og Bogs Agency.",
@@ -261,7 +278,8 @@
           "Positiv interessentfeedback fra kunstner og label",
           "Høj kvalitet lyd- og visuelle aktiver til markedsføring",
           "Effektiv budgetstyring under begrænsninger"
-        ]
+        ],
+        "role": "Vokalproducent"
       },
       "lukas-graham-purple": {
         "description": "Vokalproducent for baggrundsvokaler på fire sange til Lukas Grahams 3 (The Purple Album). Skabte opstillinger, hyrede og dirigerede vokalt talent og ledede optagelsessessioner i samarbejde med Warner Music Group og Then We Take The World.",
@@ -294,7 +312,8 @@
           "Interessenttilfredshed fra Warner Music og management",
           "Styrkede relationer til fremtidige samarbejder",
           "Problemfri BGV-integration i den endelige albumsmiksning"
-        ]
+        ],
+        "role": "Vokalproducent"
       },
       "heart-soul-image-village": {
         "description": "Ledede koral- og optagelsesstudiokomponenterne i Image Village 2023, et sommerlejr på Heart and Soul Center i South Central Los Angeles. Underviste i vokalteknik og ensemblefærdigheder til to aldersgrupper, mens de studerende blev guidet igennem sangskrivning, DAW-produktion og musikvideoskabelse.",
@@ -318,7 +337,7 @@
           "Sangskrivning",
           "Musikvideoproduktion",
           "Lektionsplanlægning",
-          "Ensembledirektion",
+          "Ensembleledelse",
           "Ungdomsuddannelse"
         ],
         "outcomes": [
@@ -327,7 +346,8 @@
           "Musikvideo skabt af studerende",
           "Omfattende lektionsplaner udviklet og udført",
           "Foto- og videomateriale arkiveret"
-        ]
+        ],
+        "role": "Korleder og optagelsesstudioinstruktør"
       },
       "jimmy-gnarly-live": {
         "description": "Samarbejde om at skabe en dynamisk liveopførelse af et uudgivet alt. hip hop-album under den globale pandemi.",
@@ -357,7 +377,8 @@
           "Kreativt proof-of-concept for kunstner",
           "Dokumenteret performance under pandemi-begrænsninger",
           "Højt publikumsengagement og kunstnerisk samhørighed"
-        ]
+        ],
+        "role": "Kreativ producent og liveshowdirektør"
       },
       "lmu-gospel-choir": {
         "description": "Dirigerede LMU Gospel Choir og ledede semesterlange cyklusser af rekruttering, prøver og optrædener. Styrede vokalcoaching, reklamemateriale, musikerhyring, budgetforhandling og alumnesamarbejder.",
@@ -377,13 +398,13 @@
         ],
         "tools": [
           "Vokalledelse",
-          "Programlederskab",
+          "Programledelse",
           "Grafisk design",
           "Budgetforhandling",
           "Talentopkøb",
           "Alumnerelationer",
-          "Begivenhedsplanlægning",
-          "Musikudvælgelse"
+          "Eventplanlægning",
+          "Musikvalg"
         ],
         "outcomes": [
           "Flere succesfulde slutsemesterkoncerter produceret",
@@ -391,12 +412,13 @@
           "Alumnesolisterne engageret til koncertsamarbejder",
           "Reklamematerialer og flyers designet til optrædener",
           "Sessionmusikere hyret og koordineret til liveoptrædener"
-        ]
+        ],
+        "role": "Leder, LMU Gospel Choir"
       }
     },
     "films": {
       "sinners": {
-        "role": "Medvirkende vokalist — Original filmens soundtrack",
+        "role": "Medvirkende vokalist — Originalt filmsoundtrack",
         "recognition": "GRAMMY® Award-vinder",
         "description": "Medvirkende vokalist på det originale filmsoundtrack til Sinners, 2025 Warner Bros.-filmen skrevet og instrueret af Ryan Coogler.",
         "details": [
@@ -504,7 +526,7 @@
         "all": "Alle",
         "release": "Udgivelser",
         "video": "Videoer",
-        "social": "Sociale medier"
+        "social": "Social"
       },
       "entries": {
         "ba-freestyle-therealasethic": {
@@ -572,7 +594,7 @@
         "p3": "Uanset om det er et helt album, en feature eller en 60-sekunders kort film, er målet det samme: skabe noget ærligt, noget alsidigt og noget der bevæger folk."
       },
       "stats": {
-        "yearsActive": "2016–Nu",
+        "yearsActive": "2016–nu",
         "releases": "10+",
         "features": "3",
         "videos": "4",

@@ -10,39 +10,39 @@
   },
   {
     "key": "about.bio1",
-    "english": "Over the course of my career, I've acquired tons of experience as an artist, stage performer, audio engineer, and creative project manager. From organizing live performances, collaborating with artists, teaching students, and working with underserved communities, I've been able to build a track record of successfully delivering projects from concept to completion.",
-    "claude": "I løbet af min karriere har jeg opnået enorm erfaring som kunstner, sceneoptræder, lydingenør og kreativ projektleder. Fra tilrettelæggelse af liveoptrædener, samarbejde med kunstnere, undervisning af studerende og arbejde med udsatte fællesskaber har jeg formået at opbygge en dokumenteret track record for succesfuldt at levere projekter fra idé til færdighed.",
+    "english": "Throughout my career, I've built a body of experience across music, live performance, education, and creative project management. As an artist, stage performer, audio engineer, and collaborator, I've had the opportunity to help bring ideas to life across a wide range of spaces…from live events and recording sessions to student programs, community initiatives, and artist-driven projects.",
+    "claude": "Gennem min karriere har jeg opbygget en bred erfaring inden for musik, liveoptrædener, uddannelse og kreativ projektledelse. Som kunstner, sceneoptræder, lydingenør og samarbejdspartner har jeg haft mulighed for at hjælpe med at virkeliggøre idéer på tværs af mange forskellige arenaer…fra livearrangementer og studieoptagelser til studenterprogrammer, fællesskabsinitiativer og kunstnerdrevne projekter.",
     "codex": "Gennem min karriere har jeg opbygget omfattende erfaring som artist, liveperformer, lydtekniker og kreativ projektleder. Fra at organisere liveoptrædener, samarbejde med artister, undervise studerende og arbejde med oversete lokalsamfund har jeg skabt en dokumenteret evne til at føre projekter fra idé til færdigt resultat.",
     "gemini": "I løbet af min karriere har jeg opnået omfattende erfaring som artist, sceneperformer, lydtekniker og kreativ projektleder. Fra organisering af liveoptrædener og samarbejde med artister til undervisning af studerende og arbejde med udsatte lokalsamfund, har jeg opbygget en track record for succesfuldt at levere projekter fra koncept til færdiggørelse.",
-    "reason": "No consensus — similarities: C↔X=0.60, C↔G=0.71, X↔G=0.73",
-    "chosen": "I løbet af min karriere har jeg opnået enorm erfaring som kunstner, sceneoptræder, lydingenør og kreativ projektleder. Fra tilrettelæggelse af liveoptrædener, samarbejde med kunstnere, undervisning af studerende og arbejde med udsatte fællesskaber har jeg formået at opbygge en dokumenteret track record for succesfuldt at levere projekter fra idé til færdighed."
+    "reason": "No consensus — similarities: C↔X=0.43, C↔G=0.37, X↔G=0.73",
+    "chosen": "Gennem min karriere har jeg opbygget en bred erfaring inden for musik, liveoptrædener, uddannelse og kreativ projektledelse. Som kunstner, sceneoptræder, lydingenør og samarbejdspartner har jeg haft mulighed for at hjælpe med at virkeliggøre idéer på tværs af mange forskellige arenaer…fra livearrangementer og studieoptagelser til studenterprogrammer, fællesskabsinitiativer og kunstnerdrevne projekter."
   },
   {
     "key": "about.bio2",
-    "english": "This site is designed to give you insight into my passion for creating impactful experiences, my creative thought process, and a look at some of the projects I've been a part of from behind the scenes.",
-    "claude": "Dette site er designet til at give dig indsigt i min passion for at skabe virkningsfulde oplevelser, min kreative tankeproces og et kig bag kulisserne på nogle af de projekter, jeg har været en del af.",
+    "english": "My work is rooted in creating impactful experiences, supporting creative vision, and guiding projects from concept to completion with intention, care, and professionalism. This portfolio offers a look into my creative process, the work I've contributed to, and the projects that reflect my passion for building experiences that connect with people.",
+    "claude": "Mit arbejde er forankret i at skabe virkningsfulde oplevelser, støtte kreativ vision og guide projekter fra idé til færdiggørelse med intention, omsorg og professionalisme. Dette portfolio giver et indblik i min kreative proces, det arbejde jeg har bidraget til, og de projekter der afspejler min passion for at skabe oplevelser, der forbinder med mennesker.",
     "codex": "Dette site er skabt for at give dig indblik i min passion for at skabe oplevelser med gennemslagskraft, min kreative tankegang og nogle af de projekter, jeg har været en del af bag kulisserne.",
     "gemini": "Denne side er designet til at give dig et indblik i min passion for at skabe betydningsfulde oplevelser, min kreative tankegang og et kig bag kulisserne på nogle af de projekter, jeg har været en del af.",
-    "reason": "No consensus — similarities: C↔X=0.59, C↔G=0.90, X↔G=0.60",
-    "chosen": "Dette site er designet til at give dig indsigt i min passion for at skabe virkningsfulde oplevelser, min kreative tankeproces og et kig bag kulisserne på nogle af de projekter, jeg har været en del af."
+    "reason": "No consensus — similarities: C↔X=0.30, C↔G=0.30, X↔G=0.60",
+    "chosen": "Mit arbejde er forankret i at skabe virkningsfulde oplevelser, støtte kreativ vision og guide projekter fra idé til færdiggørelse med intention, omsorg og professionalisme. Dette portfolio giver et indblik i min kreative proces, det arbejde jeg har bidraget til, og de projekter der afspejler min passion for at skabe oplevelser, der forbinder med mennesker."
   },
   {
     "key": "about.signature",
-    "english": "I look forward to the opportunity to work with you in the future!",
-    "claude": "Jeg glæder mig til muligheden for at arbejde med dig i fremtiden!",
+    "english": "I look forward to exploring how we can work together!",
+    "claude": "Jeg glæder mig til at udforske, hvordan vi kan samarbejde!",
     "codex": "Jeg ser frem til muligheden for at arbejde sammen med dig i fremtiden!",
     "gemini": "Jeg ser frem til muligheden for at arbejde sammen med dig i fremtiden!",
-    "reason": "No consensus — similarities: C↔X=0.79, C↔G=0.79, X↔G=1.00",
+    "reason": "No consensus — similarities: C↔X=0.31, C↔G=0.31, X↔G=1.00",
     "chosen": "Jeg ser frem til muligheden for at arbejde sammen med dig i fremtiden!"
   },
   {
     "key": "work.intro",
-    "english": "A cross-section of projects spanning music production, community education, systems architecture, and creative technology — each built with the same intention: craft something meaningful, scalable, and human.",
-    "claude": "Et tværsnit af projekter der spænder over musikproduktion, fællesskabsuddannelse, systemsarkitektur og kreativ teknologi – hvert enkelt bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt.",
+    "english": "A cross-section of projects spanning music production, community education, systems architecture, and creative technology — each built with the same intention: craft something meaningful, scalable, and human. Every project is presented in DMAIC format (Define, Measure, Analyze, Improve, Control) so you can see how each moves from concept to measurable outcome.",
+    "claude": "Et tværsnit af projekter der spænder over musikproduktion, fællesskabsuddannelse, systemsarkitektur og kreativ teknologi – hvert enkelt bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt. Hvert projekt er præsenteret i DMAIC-format (Definér, Mål, Analysér, Forbedre, Kontrollér), så du kan se, hvordan hvert enkelt bevæger sig fra idé til målbart resultat.",
     "codex": "Et tværsnit af projekter inden for musikproduktion, community-undervisning, systemarkitektur og kreativ teknologi — alle bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt.",
     "gemini": "Et tværsnit af projekter inden for musikproduktion, lokal uddannelse, systemarkitektur og kreativ teknologi — hver især bygget med den samme hensigt: at skabe noget meningsfuldt, skalerbart og menneskeligt.",
-    "reason": "No consensus — similarities: C↔X=0.80, C↔G=0.83, X↔G=0.82",
-    "chosen": "Et tværsnit af projekter der spænder over musikproduktion, fællesskabsuddannelse, systemsarkitektur og kreativ teknologi – hvert enkelt bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt."
+    "reason": "No consensus — similarities: C↔X=0.45, C↔G=0.47, X↔G=0.82",
+    "chosen": "Et tværsnit af projekter der spænder over musikproduktion, fællesskabsuddannelse, systemsarkitektur og kreativ teknologi – hvert enkelt bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt. Hvert projekt er præsenteret i DMAIC-format (Definér, Mål, Analysér, Forbedre, Kontrollér), så du kan se, hvordan hvert enkelt bevæger sig fra idé til målbart resultat."
   },
   {
     "key": "work.complete",
@@ -585,6 +585,15 @@
     "chosen": "Multi-model orkestreringspipeline"
   },
   {
+    "key": "data.projects.audiolab-intelligence.role",
+    "english": "Systems Architecture & Creative AI",
+    "claude": "Systemsarkitektur og kreativ AI",
+    "codex": "Systemarkitektur & kreativ AI",
+    "gemini": "[MISSING]",
+    "reason": "One or more models missing this key",
+    "chosen": "Systemsarkitektur og kreativ AI"
+  },
+  {
     "key": "data.projects.the-reimagination-engine.description",
     "english": "An experimental release project where old demos and unfinished song ideas are reimagined through AI tools and released in clustered waves. Drops happen every other week in alternating three-track clusters — one wave relational, the next energetic — with performance reviewed every 45 days. The goal is to see if consistent releases alone can generate streaming revenue and organic traction without any marketing, social media presence, or paid promotion. If a track lands in the top tier of its cluster, it gets flagged for potential reproduction or licensing.",
     "claude": "Et eksperimentelt udgivelsesprojekt, hvor gamle demoer og uafsluttede sangidéer genfortolkes med AI-værktøjer og udgives i klyngede bølger. Drops sker hver anden uge i skiftende tre-nummers klynger – én bølge relationel, den næste energisk – med præstationsgennemgang hvert 45. dag. Målet er at se, om konsistente udgivelser alene kan generere streamingindtægter og organisk trækkraft uden markedsføring, sociale medier eller betalt reklame. Hvis et nummer havner i topniveauet i sin klynge, markeres det til potentiel genprocuktion eller licensering.",
@@ -736,6 +745,15 @@
     "gemini": "En reproducerbar eksperimentramme for fremtidige udgivelsessystemer",
     "reason": "No consensus — similarities: C↔X=0.88, C↔G=0.79, X↔G=0.70",
     "chosen": "Et gentageligt eksperimentframework til fremtidige udgivelsessystemer"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.role",
+    "english": "Creative Systems Architect & Artist",
+    "claude": "Kreativ systemsarkitekt og kunstner",
+    "codex": "Kreativ systemarkitekt & artist",
+    "gemini": "[MISSING]",
+    "reason": "One or more models missing this key",
+    "chosen": "Kreativ systemsarkitekt og kunstner"
   },
   {
     "key": "data.projects.calby-inner-critic.description",
@@ -909,6 +927,15 @@
     "chosen": "Audio- og billedmateriale af høj kvalitet til marketing"
   },
   {
+    "key": "data.projects.calby-inner-critic.role",
+    "english": "Vocal Producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "[MISSING]",
+    "reason": "One or more models missing this key",
+    "chosen": "Vokalproducent"
+  },
+  {
     "key": "data.projects.lukas-graham-purple.dmaic.D",
     "english": "Create vocal arrangements for four songs on Lukas Graham's 3 (The Purple Album), hiring vocal talent and leading recording sessions for Warner Music Group / Then We Take The World.",
     "claude": "Skab vokalopstillinger for fire sange på Lukas Grahams 3 (The Purple Album), ansættelse af vokalt talent og ledelse af optagelsessessioner for Warner Music Group / Then We Take The World.",
@@ -1080,6 +1107,15 @@
     "chosen": "Sømløs BGV-integration i det færdige albummix"
   },
   {
+    "key": "data.projects.lukas-graham-purple.role",
+    "english": "Vocal Producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "[MISSING]",
+    "reason": "One or more models missing this key",
+    "chosen": "Vokalproducent"
+  },
+  {
     "key": "data.projects.heart-soul-image-village.description",
     "english": "Led the choral and recording studio components of Image Village 2023, a summer camp at Heart and Soul Center in South Central Los Angeles. Taught vocal technique and ensemble skills to two age groups while guiding students through songwriting, DAW production, and music video creation.",
     "claude": "Ledede koral- og optagelsesstudiokomponenterne i Image Village 2023, et sommerlejr på Heart and Soul Center i South Central Los Angeles. Underviste i vokalteknik og ensemblefærdigheder til to aldersgrupper, mens de studerende blev guidet igennem sangskrivning, DAW-produktion og musikvideoskabelse.",
@@ -1217,10 +1253,10 @@
   {
     "key": "data.projects.heart-soul-image-village.tools[5]",
     "english": "Ensemble Direction",
-    "claude": "Ensembledirektion",
+    "claude": "Ensembleledelse",
     "codex": "Ensemble Direction",
     "gemini": "Ensemble Direction",
-    "reason": "No consensus — similarities: C↔X=0.83, C↔G=0.83, X↔G=1.00",
+    "reason": "No consensus — similarities: C↔X=0.50, C↔G=0.50, X↔G=1.00",
     "chosen": "Ensemble Direction"
   },
   {
@@ -1267,6 +1303,15 @@
     "gemini": "Foto- og videomateriale arkiveret til portfolio",
     "reason": "No consensus — similarities: C↔X=0.54, C↔G=0.70, X↔G=0.83",
     "chosen": "Foto- og videooptagelser arkiveret til portfolio"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.role",
+    "english": "Choral Director & Recording Studio Instructor",
+    "claude": "Korleder og optagelsesstudioinstruktør",
+    "codex": "Kordirigent & recording studio-underviser",
+    "gemini": "[MISSING]",
+    "reason": "One or more models missing this key",
+    "chosen": "Korleder og optagelsesstudioinstruktør"
   },
   {
     "key": "data.projects.jimmy-gnarly-live.dmaic.M",
@@ -1404,6 +1449,15 @@
     "chosen": "Højt publikumsengagement og kunstnerisk sammenhæng"
   },
   {
+    "key": "data.projects.jimmy-gnarly-live.role",
+    "english": "Creative Producer & Live Performance Director",
+    "claude": "Kreativ producent og liveshowdirektør",
+    "codex": "Kreativ producer & liveperformance-instruktør",
+    "gemini": "[MISSING]",
+    "reason": "One or more models missing this key",
+    "chosen": "Kreativ producent og liveshowdirektør"
+  },
+  {
     "key": "data.projects.lmu-gospel-choir.description",
     "english": "Directed the LMU Gospel Choir, leading semester-long cycles of recruitment, rehearsal, and performance. Managed vocal coaching, promotional design, musician hiring, budget negotiation, and alumni collaborations.",
     "claude": "Dirigerede LMU Gospel Choir og ledede semesterlange cyklusser af rekruttering, prøver og optrædener. Styrede vokalcoaching, reklamemateriale, musikerhyring, budgetforhandling og alumnesamarbejder.",
@@ -1487,10 +1541,10 @@
   {
     "key": "data.projects.lmu-gospel-choir.tools[1]",
     "english": "Program Leadership",
-    "claude": "Programlederskab",
+    "claude": "Programledelse",
     "codex": "Program Leadership",
     "gemini": "Program Leadership",
-    "reason": "No consensus — similarities: C↔X=0.67, C↔G=0.67, X↔G=1.00",
+    "reason": "No consensus — similarities: C↔X=0.61, C↔G=0.61, X↔G=1.00",
     "chosen": "Program Leadership"
   },
   {
@@ -1532,19 +1586,19 @@
   {
     "key": "data.projects.lmu-gospel-choir.tools[6]",
     "english": "Event Planning",
-    "claude": "Begivenhedsplanlægning",
+    "claude": "Eventplanlægning",
     "codex": "Event Planning",
     "gemini": "Event Planning",
-    "reason": "No consensus — similarities: C↔X=0.45, C↔G=0.45, X↔G=1.00",
+    "reason": "No consensus — similarities: C↔X=0.69, C↔G=0.69, X↔G=1.00",
     "chosen": "Event Planning"
   },
   {
     "key": "data.projects.lmu-gospel-choir.tools[7]",
     "english": "Music Selection",
-    "claude": "Musikudvælgelse",
+    "claude": "Musikvalg",
     "codex": "Music Selection",
     "gemini": "Music Selection",
-    "reason": "No consensus — similarities: C↔X=0.27, C↔G=0.27, X↔G=1.00",
+    "reason": "No consensus — similarities: C↔X=0.33, C↔G=0.33, X↔G=1.00",
     "chosen": "Music Selection"
   },
   {
@@ -1584,9 +1638,18 @@
     "chosen": "Sessionmusikere hyret og koordineret til liveperformances"
   },
   {
+    "key": "data.projects.lmu-gospel-choir.role",
+    "english": "Director, LMU Gospel Choir",
+    "claude": "Leder, LMU Gospel Choir",
+    "codex": "Dirigent, LMU Gospel Choir",
+    "gemini": "[MISSING]",
+    "reason": "One or more models missing this key",
+    "chosen": "Leder, LMU Gospel Choir"
+  },
+  {
     "key": "data.films.sinners.role",
     "english": "Featured Vocalist — Original Motion Picture Soundtrack",
-    "claude": "Medvirkende vokalist — Original filmens soundtrack",
+    "claude": "Medvirkende vokalist — Originalt filmsoundtrack",
     "codex": "Featured Vocalist — Original Motion Picture Soundtrack",
     "gemini": "Featured Vocalist — Original Motion Picture Soundtrack",
     "reason": "No consensus — similarities: C↔X=0.57, C↔G=0.57, X↔G=1.00",
@@ -1820,10 +1883,10 @@
   {
     "key": "data.artistWork.categories.social",
     "english": "Social",
-    "claude": "Sociale medier",
+    "claude": "Social",
     "codex": "Social",
     "gemini": "Socialt",
-    "reason": "No consensus — similarities: C↔X=0.43, C↔G=0.43, X↔G=0.86",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.86, X↔G=0.86",
     "chosen": "Social"
   },
   {
@@ -1874,10 +1937,82 @@
   {
     "key": "data.artistProfile.stats.yearsActive",
     "english": "2016–Present",
-    "claude": "2016–Nu",
+    "claude": "2016–nu",
     "codex": "2016–Present",
     "gemini": "2016–Nu",
-    "reason": "No consensus — similarities: C↔X=0.42, C↔G=1.00, X↔G=0.42",
+    "reason": "No consensus — similarities: C↔X=0.50, C↔G=0.86, X↔G=0.42",
     "chosen": "2016–Present"
+  },
+  {
+    "key": "projectCard.viewDetails",
+    "english": "View project details",
+    "claude": "Se projektdetaljer",
+    "codex": "Se projektdetaljer",
+    "gemini": "[MISSING]",
+    "reason": "One or more models missing this key",
+    "chosen": "Se projektdetaljer"
+  },
+  {
+    "key": "projectCard.musicEducation",
+    "english": "Music & Education",
+    "claude": "Musik og Uddannelse",
+    "codex": "Musik & undervisning",
+    "gemini": "[MISSING]",
+    "reason": "One or more models missing this key",
+    "chosen": "Musik og Uddannelse"
+  },
+  {
+    "key": "projectCard.musicProduction",
+    "english": "Music & Production",
+    "claude": "Musik og Produktion",
+    "codex": "Musik & produktion",
+    "gemini": "[MISSING]",
+    "reason": "One or more models missing this key",
+    "chosen": "Musik og Produktion"
+  },
+  {
+    "key": "projectCard.systemsTechnology",
+    "english": "Systems & Technology",
+    "claude": "Systemer og Teknologi",
+    "codex": "Systemer & teknologi",
+    "gemini": "[MISSING]",
+    "reason": "One or more models missing this key",
+    "chosen": "Systemer og Teknologi"
+  },
+  {
+    "key": "releaseCard.solo",
+    "english": "Solo",
+    "claude": "Solo",
+    "codex": "Solo",
+    "gemini": "[MISSING]",
+    "reason": "One or more models missing this key",
+    "chosen": "Solo"
+  },
+  {
+    "key": "releaseCard.feature",
+    "english": "Feature",
+    "claude": "Feature",
+    "codex": "Feature",
+    "gemini": "[MISSING]",
+    "reason": "One or more models missing this key",
+    "chosen": "Feature"
+  },
+  {
+    "key": "videoCard.musicVideo",
+    "english": "Music Video",
+    "claude": "Musikvideo",
+    "codex": "Musikvideo",
+    "gemini": "[MISSING]",
+    "reason": "One or more models missing this key",
+    "chosen": "Musikvideo"
+  },
+  {
+    "key": "videoCard.lyricVideo",
+    "english": "Lyric Video",
+    "claude": "Lyrikvideo",
+    "codex": "Lyric video",
+    "gemini": "[MISSING]",
+    "reason": "One or more models missing this key",
+    "chosen": "Lyrikvideo"
   }
 ]

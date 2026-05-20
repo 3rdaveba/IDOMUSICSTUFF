@@ -1,9 +1,9 @@
 {
   "about": {
-    "bio1": "A lo largo de mi carrera, he adquirido una enorme experiencia como artista, artista escénico, ingeniero de audio y director creativo de proyectos. Desde organizar actuaciones en vivo, colaborar con artistas, enseñar a estudiantes y trabajar con comunidades desfavorecidas, he podido construir un historial de entrega exitosa de proyectos desde el concepto hasta la realización.",
-    "bio2": "Este sitio está diseñado para darte una visión de mi pasión por crear experiencias de impacto, mi proceso de pensamiento creativo y un vistazo a algunos de los proyectos en los que he participado desde detrás de escena.",
+    "bio1": "A lo largo de mi carrera, he construido una amplia experiencia en música, actuaciones en vivo, educación y gestión creativa de proyectos. Como artista, artista escénico, ingeniero de audio y colaborador, he tenido la oportunidad de ayudar a dar vida a ideas en una gran variedad de espacios…desde eventos en vivo y sesiones de grabación hasta programas estudiantiles, iniciativas comunitarias y proyectos liderados por artistas.",
+    "bio2": "Mi trabajo está arraigado en la creación de experiencias de impacto, el apoyo a la visión creativa y la guía de proyectos desde el concepto hasta la finalización con intención, cuidado y profesionalismo. Este portfolio ofrece una mirada a mi proceso creativo, el trabajo al que he contribuido y los proyectos que reflejan mi pasión por construir experiencias que conecten con las personas.",
     "headline": "¡Hola! Mi nombre es William y soy un productor vocal ganador del GRAMMY®, tecnólogo musical y arquitecto de sistemas creativos.",
-    "signature": "¡Espero con ansias la oportunidad de trabajar contigo en el futuro!",
+    "signature": "¡Espero tener la oportunidad de trabajar contigo en el futuro!",
     "signatureName": "— William \"B.A.\" Washington"
   },
   "artistWork": {
@@ -26,7 +26,7 @@
     "emailLabel": "Email",
     "errorMessage": "Algo salió mal.",
     "formEmailLabel": "Email",
-    "formEmailPlaceholder": "tu@email.com",
+    "formEmailPlaceholder": "your@email.com",
     "formMessageLabel": "Mensaje",
     "formMessagePlaceholder": "Cuéntame sobre tu proyecto...",
     "formNameLabel": "Nombre",
@@ -60,9 +60,9 @@
         "features": "3",
         "releases": "10+",
         "videos": "4",
-        "yearsActive": "2016–Presente"
+        "yearsActive": "2016–Present"
       },
-      "tagline": "Escritor. Productor. Ejecutante."
+      "tagline": "Writer. Producer. Performer."
     },
     "artistWork": {
       "categories": {
@@ -115,7 +115,7 @@
           "description": "Crédito de colaboración. Disponible en Spotify, Apple Music y Tidal."
         },
         "ba-rain-rain-remix": {
-          "description": "🌧️llueve lluvia, vete…pero diferente. ☔️"
+          "description": "🌧️ rain rain, go away…but different. ☔️"
         },
         "ba-the-last-supper": {
           "description": "Música escrita, producida e interpretada por William \"B.A.\" Washington."
@@ -142,7 +142,7 @@
         },
         "lady-gaga-babylon": {
           "milestones": [
-            "Gráfico de Deezer Estonia n.º 48 (enero de 2026)"
+            "Deezer Estonia Chart #48 (Jan 2026)"
           ],
           "role": "Productor vocal"
         },
@@ -157,7 +157,7 @@
         },
         "lukas-graham-share-that-love": {
           "milestones": [
-            "Gráfico Deezer Ecuador #78 (abril 2025)"
+            "Deezer Ecuador Chart #78 (Apr 2025)"
           ],
           "role": "Productor vocal"
         },
@@ -185,7 +185,7 @@
       },
       "listen": "Escuchar",
       "milestoneViral": "Spotify Viral 50",
-      "roleFeature": "Artista invitado",
+      "roleFeature": "Featured Artist",
       "rolePrefix": "Productor vocal"
     },
     "films": {
@@ -205,8 +205,8 @@
             "text": "La banda sonora es una mezcla perfecta del característico sonido soul-funk de Anderson .Paak con producción auténtica de K-pop, moldeada en colaboración con el legendario productor Dem Jointz. La película incluye canciones originales y colaboraciones como \"Keychain\" con aespa, \"Aftertaste\" con DEAN y contribuciones de NMIXX. Las apariciones cameo en la película incluyen a Vernon of Seventeen, Jessi, Jay Park, The Rose, IShowSpeed, Saweetie, Jaden Smith, Diplo y Earth, Wind & Fire."
           }
         ],
-        "recognition": "Actuación de película destacada",
-        "role": "Actor destacado e intérprete en pantalla"
+        "recognition": "Featured Film Performance",
+        "role": "Featured Actor & Onscreen Performer"
       },
       "sinners": {
         "description": "Vocalista destacado en la banda sonora original de Sinners, la película de Warner Bros. de 2025 escrita y dirigida por Ryan Coogler.",
@@ -225,7 +225,7 @@
           }
         ],
         "recognition": "GRAMMY® Award Winner",
-        "role": "Vocalista destacado: banda sonora original de la película"
+        "role": "Featured Vocalist — Original Motion Picture Soundtrack"
       }
     },
     "projects": {
@@ -244,6 +244,7 @@
           "Audit trail completo en todos los outputs",
           "Pipeline de orquestación multi-modelo"
         ],
+        "role": "Arquitectura de sistemas e IA creativa",
         "timeline": [
           "Investigación y arquitectura",
           "Construcción del sistema central",
@@ -255,9 +256,9 @@
           "Docker",
           "Python",
           "LLM Orchestration",
-          "Sistemas de memoria estructurada",
-          "Programación de latidos",
-          "Límites de seguridad de solo lectura"
+          "Structured Memory Systems",
+          "Heartbeat Scheduling",
+          "Read-Only Security Boundaries"
         ]
       },
       "calby-inner-critic": {
@@ -276,6 +277,7 @@
           "Assets de audio y video de alta calidad para marketing",
           "Gestión presupuestaria efectiva bajo restricciones"
         ],
+        "role": "Productor Vocal",
         "timeline": [
           "Preproducción y arreglo",
           "Adquisición de talento",
@@ -285,13 +287,13 @@
         ],
         "tools": [
           "Pro Tools",
-          "Arreglos vocales",
-          "Producción de BGV",
-          "Gestión de talento",
-          "Gestión Presupuestaria",
-          "Coordinación de estudio",
-          "Grabación multipista",
-          "Colaboración en video"
+          "Vocal Arranging",
+          "BGV Production",
+          "Talent Management",
+          "Budget Management",
+          "Studio Coordination",
+          "Multi-Track Recording",
+          "Video Collaboration"
         ]
       },
       "heart-soul-image-village": {
@@ -310,6 +312,7 @@
           "Planes de clase integrales desarrollados y ejecutados",
           "Material de foto y video archivado para el portfolio"
         ],
+        "role": "Director coral e instructor de estudio de grabación",
         "timeline": [
           "Desarrollo de planes de clase",
           "Instrucción coral",
@@ -318,13 +321,13 @@
           "Documentación y archivo"
         ],
         "tools": [
-          "Instrucción vocal",
-          "Producción DAW",
-          "Componer canciones",
-          "Producción de videos musicales",
-          "Planificación de lecciones",
-          "Dirección de conjunto",
-          "Educación juvenil"
+          "Vocal Instruction",
+          "DAW Production",
+          "Songwriting",
+          "Music Video Production",
+          "Lesson Planning",
+          "Ensemble Direction",
+          "Youth Education"
         ]
       },
       "jimmy-gnarly-live": {
@@ -342,6 +345,7 @@
           "Actuación documentada bajo restricciones pandémicas",
           "Alto engagement de audiencia y cohesión artística"
         ],
+        "role": "Productor creativo y director de actuaciones en vivo",
         "timeline": [
           "Conceptualización creativa",
           "Diseño de set & logística",
@@ -350,11 +354,11 @@
           "Documentación y archivo"
         ],
         "tools": [
-          "Producción en vivo",
-          "Diseño de escenario",
-          "Protocolos de seguridad ante una pandemia",
-          "Captura multicámara",
-          "Dirección creativa"
+          "Live Production",
+          "Stage Design",
+          "Pandemic Safety Protocols",
+          "Multi-Camera Capture",
+          "Creative Direction"
         ]
       },
       "lmu-gospel-choir": {
@@ -373,6 +377,7 @@
           "Materiales promocionales y volantes diseñados para presentaciones",
           "Session musicians contratados y coordinados para presentaciones en vivo"
         ],
+        "role": "Director, LMU Gospel Choir",
         "timeline": [
           "Planificación semestral y presupuesto",
           "Reclutamiento y audiciones",
@@ -381,14 +386,14 @@
           "Concierto y evaluación"
         ],
         "tools": [
-          "Dirección vocal",
-          "Liderazgo del programa",
-          "Diseño gráfico",
-          "Negociación Presupuestaria",
-          "Adquisición de talento",
-          "Relaciones con exalumnos",
-          "Planificación de eventos",
-          "Selección musical"
+          "Vocal Direction",
+          "Program Leadership",
+          "Graphic Design",
+          "Budget Negotiation",
+          "Talent Acquisition",
+          "Alumni Relations",
+          "Event Planning",
+          "Music Selection"
         ]
       },
       "lukas-graham-purple": {
@@ -407,6 +412,7 @@
           "Relaciones fortalecidas para futuras colaboraciones",
           "Integración fluida de BGV en la mezcla final del álbum"
         ],
+        "role": "Productor Vocal",
         "timeline": [
           "Investigación y preparación",
           "Arreglo vocal",
@@ -415,13 +421,13 @@
           "Lanzamiento internacional"
         ],
         "tools": [
-          "Arreglos vocales",
+          "Vocal Arranging",
           "Pro Tools",
-          "Adquisición de talento",
-          "Dirección de la sesión",
-          "Negociación con partes interesadas",
-          "Comping y afinación",
-          "Colaboración internacional"
+          "Talent Acquisition",
+          "Session Direction",
+          "Stakeholder Negotiation",
+          "Comping & Tuning",
+          "International Collaboration"
         ]
       },
       "the-reimagination-engine": {
@@ -441,6 +447,7 @@
           "Oportunidades de ingresos y licenciamiento reveladas por datos de clústeres",
           "Un marco de experimento repetible para futuros sistemas de lanzamiento"
         ],
+        "role": "Arquitecto de sistemas creativos y artista",
         "timeline": [
           "Curaduría de catálogo",
           "Iteración con IA y lanzamiento",
@@ -450,11 +457,11 @@
         ],
         "tools": [
           "Suno",
-          "Herramientas musicales de IA",
+          "AI Music Tools",
           "DSP Streaming",
-          "Sistemas de metadatos",
-          "Programación de lanzamientos basada en clústeres",
-          "Ciclos de revisión de 45 días"
+          "Metadata Systems",
+          "Cluster-Based Release Scheduling",
+          "45-Day Review Cycles"
         ]
       }
     }
@@ -508,6 +515,12 @@
     "music": "Música",
     "projects": "Proyectos"
   },
+  "projectCard": {
+    "musicEducation": "Música y Educación",
+    "musicProduction": "Música y Producción",
+    "systemsTechnology": "Sistemas y Tecnología",
+    "viewDetails": "Ver detalles del proyecto"
+  },
   "projectDetail": {
     "approach": "El enfoque",
     "backToWork": "Volver al trabajo",
@@ -534,7 +547,7 @@
     "dmaicQuestionD": "¿Cuál era el objetivo?",
     "dmaicQuestionI": "¿Qué se implementó?",
     "dmaicQuestionM": "¿Cómo se veía el éxito?",
-    "interlude": "Interludio",
+    "interlude": "Interlude",
     "keyOutcomes": "RESULTADOS CLAVE",
     "listen": "Escuchar",
     "mediaResources": "MEDIOS & RECURSOS",
@@ -548,7 +561,7 @@
     "projectOverview": "RESUMEN DEL PROYECTO",
     "projectTimeline": "CRONOLOGÍA DEL PROYECTO",
     "prvblems": "PRVBLEMS",
-    "recordingStudio": "Estudio de grabación",
+    "recordingStudio": "Recording Studio",
     "rehearsal": "Ensayo",
     "statusActive": "Activo / En curso",
     "statusComplete": "Completo",
@@ -557,6 +570,10 @@
     "toolsSkills": "HERRAMIENTAS & HABILIDADES",
     "watch": "Ver",
     "workflow": "Workflow"
+  },
+  "releaseCard": {
+    "feature": "Feature",
+    "solo": "Solo"
   },
   "tvFilm": {
     "description": "Descripción",
@@ -568,107 +585,15 @@
     "viewDetails": "Ver detalles",
     "year": "Año"
   },
+  "videoCard": {
+    "lyricVideo": "Video lírico",
+    "musicVideo": "Video musical"
+  },
   "work": {
     "active": "Activo",
     "complete": "Completo",
-    "intro": "Una muestra transversal de proyectos que abarcan producción musical, educación comunitaria, arquitectura de sistemas y tecnología creativa — cada uno construido con la misma intención: crear algo significativo, escalable y humano.",
+    "intro": "Una muestra transversal de proyectos que abarcan producción musical, educación comunitaria, arquitectura de sistemas y tecnología creativa — cada uno construido con la misma intención: crear algo significativo, escalable y humano. Cada proyecto se presenta en formato DMAIC (Definir, Medir, Analizar, Mejorar, Controlar) para que puedas ver cómo cada uno avanza del concepto al resultado medible.",
     "line1": "PROYECTOS",
     "line2": "SELECCIONADOS"
-  },
-  "navigation.logoName": "WILLIAM \"B.A.\" WASHINGTON",
-  "hero.nameFirst": "GUILLERMO",
-  "hero.nameSecond": "\"LICENCIADO EN LETRAS.\" WASHINGTON",
-  "hero.scrollCue": "VOLUTA",
-  "about.signatureName": "— William \"B.A.\" Washington",
-  "discography.line1": "{{transmisiones}}M+",
-  "discography.line2": "CORRIENTES",
-  "discography.spotify": "Spotify",
-  "discography.youtube": "YouTube",
-  "discography.tiktok": "TikTok",
-  "discography.cmScore": "CM Score",
-  "contact.emailLabel": "Correo electrónico",
-  "contact.locationValue": "Los Angeles, CA",
-  "contact.formEmailLabel": "Correo electrónico",
-  "contact.formEmailPlaceholder": "tu@correo electrónico.com",
-  "footer.copyright": "© 2026 Epiphany Music Group",
-  "footer.location": "Los Angeles, CA",
-  "projectDetail.dmaicD": "D",
-  "projectDetail.dmaicM": "METRO",
-  "projectDetail.dmaicA": "UNA",
-  "projectDetail.dmaicI": "I",
-  "projectDetail.dmaicC": "do",
-  "projectDetail.workflow": "Flujo de trabajo",
-  "projectDetail.bts": "BTS",
-  "projectDetail.interlude": "Interludio",
-  "projectDetail.sundayService": "Servicio dominical",
-  "projectDetail.recordingStudio": "Estudio de grabación",
-  "projectDetail.prvblems": "PRVBLEMS",
-  "artistWork.videos": "Vídeos",
-  "artistWork.videosHeading": "Vídeos",
-  "data.projects.audiolab-intelligence.tools[0]": "Docker",
-  "data.projects.audiolab-intelligence.tools[1]": "Python",
-  "data.projects.audiolab-intelligence.tools[2]": "Orquestación LLM",
-  "data.projects.audiolab-intelligence.tools[3]": "Sistemas de memoria estructurada",
-  "data.projects.audiolab-intelligence.tools[4]": "Programación de latidos",
-  "data.projects.audiolab-intelligence.tools[5]": "Límites de seguridad de solo lectura",
-  "data.projects.the-reimagination-engine.tools[0]": "Suno",
-  "data.projects.the-reimagination-engine.tools[1]": "Herramientas musicales de IA",
-  "data.projects.the-reimagination-engine.tools[2]": "Transmisión DSP",
-  "data.projects.the-reimagination-engine.tools[3]": "Sistemas de metadatos",
-  "data.projects.the-reimagination-engine.tools[4]": "Programación de lanzamiento basada en clústeres",
-  "data.projects.the-reimagination-engine.tools[5]": "Ciclos de revisión de 45 días",
-  "data.projects.calby-inner-critic.tools[0]": "Pro Tools",
-  "data.projects.calby-inner-critic.tools[1]": "arreglos vocales",
-  "data.projects.calby-inner-critic.tools[2]": "Producción BGV",
-  "data.projects.calby-inner-critic.tools[3]": "Gestión del Talento",
-  "data.projects.calby-inner-critic.tools[4]": "Gestión Presupuestaria",
-  "data.projects.calby-inner-critic.tools[5]": "Coordinación de estudio",
-  "data.projects.calby-inner-critic.tools[6]": "Grabación multipista",
-  "data.projects.calby-inner-critic.tools[7]": "Colaboración en vídeo",
-  "data.projects.lukas-graham-purple.tools[0]": "arreglos vocales",
-  "data.projects.lukas-graham-purple.tools[1]": "Pro Tools",
-  "data.projects.lukas-graham-purple.tools[2]": "Adquisición de Talento",
-  "data.projects.lukas-graham-purple.tools[3]": "Dirección de la sesión",
-  "data.projects.lukas-graham-purple.tools[4]": "Negociación de partes interesadas",
-  "data.projects.lukas-graham-purple.tools[5]": "Comping y ajuste",
-  "data.projects.lukas-graham-purple.tools[6]": "Colaboración internacional",
-  "data.projects.heart-soul-image-village.tools[0]": "Instrucción vocal",
-  "data.projects.heart-soul-image-village.tools[1]": "Producción DAW",
-  "data.projects.heart-soul-image-village.tools[2]": "Componer canciones",
-  "data.projects.heart-soul-image-village.tools[3]": "Producción de vídeos musicales",
-  "data.projects.heart-soul-image-village.tools[4]": "Planificación de lecciones",
-  "data.projects.heart-soul-image-village.tools[5]": "Dirección de conjunto",
-  "data.projects.heart-soul-image-village.tools[6]": "Educación Juvenil",
-  "data.projects.jimmy-gnarly-live.tools[0]": "Producción en vivo",
-  "data.projects.jimmy-gnarly-live.tools[1]": "Diseño de escenario",
-  "data.projects.jimmy-gnarly-live.tools[2]": "Protocolos de seguridad ante una pandemia",
-  "data.projects.jimmy-gnarly-live.tools[3]": "Captura multicámara",
-  "data.projects.jimmy-gnarly-live.tools[4]": "Dirección Creativa",
-  "data.projects.lmu-gospel-choir.tools[0]": "Dirección vocal",
-  "data.projects.lmu-gospel-choir.tools[1]": "Liderazgo del programa",
-  "data.projects.lmu-gospel-choir.tools[2]": "Diseño Gráfico",
-  "data.projects.lmu-gospel-choir.tools[3]": "Negociación Presupuestaria",
-  "data.projects.lmu-gospel-choir.tools[4]": "Adquisición de Talento",
-  "data.projects.lmu-gospel-choir.tools[5]": "Relaciones con antiguos alumnos",
-  "data.projects.lmu-gospel-choir.tools[6]": "Planificación de eventos",
-  "data.projects.lmu-gospel-choir.tools[7]": "Selección de música",
-  "data.films.sinners.role": "Vocalista destacado: banda sonora original de la película",
-  "data.films.sinners.recognition": "GRAMMY® Award Winner",
-  "data.films.kpops.role": "Actor destacada y artista en pantalla",
-  "data.films.kpops.recognition": "Actuación de película destacada",
-  "data.discography.roleFeature": "Artista destacada",
-  "data.discography.milestoneViral": "Spotify Viral 50",
-  "data.discography.entries.sinners-rocky-road-to-dublin.role": "Featured Artist · DC6 Singers Collective",
-  "data.discography.entries.sinners-this-little-light.role": "Featured Artist · DC6 Singers Collective",
-  "data.discography.entries.lukas-graham-share-that-love.milestones[0]": "Gráfico Deezer Ecuador #78 (abril 2025)",
-  "data.discography.entries.lady-gaga-babylon.milestones[0]": "Gráfico de Deezer Estonia n.º 48 (enero de 2026)",
-  "data.artistWork.categories.video": "Vídeos",
-  "data.artistWork.categories.social": "Social",
-  "data.artistWork.entries.ba-rain-rain-remix.description": "🌧️llueve lluvia, vete…pero diferente. ☔️",
-  "data.artistProfile.tagline": "Escritor. Productor. Ejecutante.",
-  "data.artistProfile.stats.yearsActive": "2016-presente",
-  "data.artistProfile.stats.releases": "10+",
-  "data.artistProfile.stats.features": "3",
-  "data.artistProfile.stats.videos": "4",
-  "data.artistProfile.stats.collaborations": "4"
+  }
 }

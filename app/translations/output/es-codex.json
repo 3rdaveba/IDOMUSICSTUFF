@@ -194,7 +194,8 @@
           "Cero escrituras no autorizadas en producción",
           "Audit trail completo en todos los outputs",
           "Pipeline de orquestación multi-modelo"
-        ]
+        ],
+        "role": "Arquitectura de sistemas & IA creativa"
       },
       "the-reimagination-engine": {
         "description": "Un proyecto experimental de lanzamientos donde demos antiguos e ideas de canciones sin terminar se reimaginan con herramientas de IA y se publican en oleadas agrupadas. Los drops ocurren cada dos semanas en clusters alternos de tres tracks — una oleada relacional, la siguiente energética — con revisión de rendimiento cada 45 días. El objetivo es ver si los lanzamientos constantes por sí solos pueden generar ingresos de streaming y tracción orgánica sin marketing, presencia en redes sociales ni promoción pagada. Si un track queda en el nivel superior de su cluster, se marca para posible reproducción o licenciamiento.",
@@ -227,7 +228,8 @@
           "Ingresos orgánicos de streaming generados sin gasto en marketing",
           "Oportunidades de ingresos y licenciamiento reveladas por datos de clusters",
           "Un framework experimental repetible para futuros sistemas de lanzamiento"
-        ]
+        ],
+        "role": "Arquitecto de sistemas creativos & artista"
       },
       "calby-inner-critic": {
         "description": "Productor vocal de coros y background vocals en 12 canciones de un álbum inédito para el artista danés Calby. Gestionó arreglos vocales, adquisición de talento, coordinación de producción y supervisión presupuestaria en nombre de Sony Music Denmark y Bogs Agency.",
@@ -261,7 +263,8 @@
           "Feedback positivo de stakeholders del artista y el sello",
           "Assets de audio y video de alta calidad para marketing",
           "Gestión presupuestaria efectiva bajo restricciones"
-        ]
+        ],
+        "role": "Productor vocal"
       },
       "lukas-graham-purple": {
         "description": "Productor vocal de background vocals en cuatro canciones para 3 (The Purple Album) de Lukas Graham. Creó arreglos, contrató y dirigió talento vocal, y lideró sesiones de grabación en colaboración con Warner Music Group y Then We Take The World.",
@@ -294,7 +297,8 @@
           "Satisfacción de stakeholders de Warner Music y management",
           "Relaciones fortalecidas para futuras colaboraciones",
           "Integración fluida de BGV en la mezcla final del álbum"
-        ]
+        ],
+        "role": "Productor vocal"
       },
       "heart-soul-image-village": {
         "description": "Lideró los componentes de coro y recording studio de Image Village 2023, un campamento de verano en Heart and Soul Center en South Central Los Angeles. Enseñó técnica vocal y habilidades de ensamble a dos grupos de edad mientras guiaba a estudiantes en composición, producción con DAW y creación de videos musicales.",
@@ -327,7 +331,8 @@
           "Video musical creado por estudiantes",
           "Planes de clase integrales desarrollados y ejecutados",
           "Material de foto y video archivado para el portfolio"
-        ]
+        ],
+        "role": "Director coral & instructor de recording studio"
       },
       "jimmy-gnarly-live": {
         "description": "Colaboración para crear una presentación en vivo dinámica de un álbum inédito de alt. hip hop durante la pandemia global.",
@@ -357,7 +362,8 @@
           "Proof-of-concept creativo para el artista",
           "Presentación documentada bajo restricciones pandémicas",
           "Alto engagement de audiencia y cohesión artística"
-        ]
+        ],
+        "role": "Productor creativo & director de performance en vivo"
       },
       "lmu-gospel-choir": {
         "description": "Dirigió el LMU Gospel Choir, liderando ciclos semestrales de reclutamiento, ensayo y presentación. Gestionó coaching vocal, diseño promocional, contratación de músicos, negociación presupuestaria y colaboraciones con alumni.",
@@ -391,7 +397,8 @@
           "Vocalistas alumni incorporados para colaboraciones en conciertos",
           "Materiales promocionales y flyers diseñados para presentaciones",
           "Session musicians contratados y coordinados para presentaciones en vivo"
-        ]
+        ],
+        "role": "Director, LMU Gospel Choir"
       }
     },
     "films": {
@@ -579,5 +586,20 @@
         "collaborations": "4"
       }
     }
-  }
+  },
+  "projectCard": {
+    "viewDetails": "Ver detalles del proyecto",
+    "musicEducation": "Música & educación",
+    "musicProduction": "Música & producción",
+    "systemsTechnology": "Sistemas & tecnología"
+  },
+  "releaseCard": {
+    "solo": "Solo",
+    "feature": "Feature"
+  },
+  "videoCard": {
+    "musicVideo": "Video musical",
+    "lyricVideo": "Lyric video"
+  },
+  "collabCard": {}
 }

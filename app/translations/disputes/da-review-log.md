@@ -1,8 +1,8 @@
 # Translation Review Log: DA
 
-Generated: 2026-05-20T19:54:09.462Z
+Generated: 2026-05-20T21:27:47.592Z
 
-Total disputed keys: 209
+Total disputed keys: 224
 
 ## navigation.artistWork
 
@@ -22,47 +22,47 @@ Total disputed keys: 209
 
 ## about.bio1
 
-**English:** Over the course of my career, I've acquired tons of experience as an artist, stage performer, audio engineer, and creative project manager. From organizing live performances, collaborating with artists, teaching students, and working with underserved communities, I've been able to build a track record of successfully delivering projects from concept to completion.
+**English:** Throughout my career, I've built a body of experience across music, live performance, education, and creative project management. As an artist, stage performer, audio engineer, and collaborator, I've had the opportunity to help bring ideas to life across a wide range of spaces…from live events and recording sessions to student programs, community initiatives, and artist-driven projects.
 
-**Claude:** I løbet af min karriere har jeg opnået enorm erfaring som kunstner, sceneoptræder, lydingenør og kreativ projektleder. Fra tilrettelæggelse af liveoptrædener, samarbejde med kunstnere, undervisning af studerende og arbejde med udsatte fællesskaber har jeg formået at opbygge en dokumenteret track record for succesfuldt at levere projekter fra idé til færdighed.
+**Claude:** Gennem min karriere har jeg opbygget en bred erfaring inden for musik, liveoptrædener, uddannelse og kreativ projektledelse. Som kunstner, sceneoptræder, lydingenør og samarbejdspartner har jeg haft mulighed for at hjælpe med at virkeliggøre idéer på tværs af mange forskellige arenaer…fra livearrangementer og studieoptagelser til studenterprogrammer, fællesskabsinitiativer og kunstnerdrevne projekter.
 
 **Codex:** Gennem min karriere har jeg opbygget omfattende erfaring som artist, liveperformer, lydtekniker og kreativ projektleder. Fra at organisere liveoptrædener, samarbejde med artister, undervise studerende og arbejde med oversete lokalsamfund har jeg skabt en dokumenteret evne til at føre projekter fra idé til færdigt resultat.
 
 **Gemini:** I løbet af min karriere har jeg opnået omfattende erfaring som artist, sceneperformer, lydtekniker og kreativ projektleder. Fra organisering af liveoptrædener og samarbejde med artister til undervisning af studerende og arbejde med udsatte lokalsamfund, har jeg opbygget en track record for succesfuldt at levere projekter fra koncept til færdiggørelse.
 
-**Reason:** No consensus — similarities: C↔X=0.60, C↔G=0.71, X↔G=0.73
+**Reason:** No consensus — similarities: C↔X=0.43, C↔G=0.37, X↔G=0.73
 
-**Selected:** I løbet af min karriere har jeg opnået enorm erfaring som kunstner, sceneoptræder, lydingenør og kreativ projektleder. Fra tilrettelæggelse af liveoptrædener, samarbejde med kunstnere, undervisning af studerende og arbejde med udsatte fællesskaber har jeg formået at opbygge en dokumenteret track record for succesfuldt at levere projekter fra idé til færdighed.
+**Selected:** Gennem min karriere har jeg opbygget en bred erfaring inden for musik, liveoptrædener, uddannelse og kreativ projektledelse. Som kunstner, sceneoptræder, lydingenør og samarbejdspartner har jeg haft mulighed for at hjælpe med at virkeliggøre idéer på tværs af mange forskellige arenaer…fra livearrangementer og studieoptagelser til studenterprogrammer, fællesskabsinitiativer og kunstnerdrevne projekter.
 
 ---
 
 ## about.bio2
 
-**English:** This site is designed to give you insight into my passion for creating impactful experiences, my creative thought process, and a look at some of the projects I've been a part of from behind the scenes.
+**English:** My work is rooted in creating impactful experiences, supporting creative vision, and guiding projects from concept to completion with intention, care, and professionalism. This portfolio offers a look into my creative process, the work I've contributed to, and the projects that reflect my passion for building experiences that connect with people.
 
-**Claude:** Dette site er designet til at give dig indsigt i min passion for at skabe virkningsfulde oplevelser, min kreative tankeproces og et kig bag kulisserne på nogle af de projekter, jeg har været en del af.
+**Claude:** Mit arbejde er forankret i at skabe virkningsfulde oplevelser, støtte kreativ vision og guide projekter fra idé til færdiggørelse med intention, omsorg og professionalisme. Dette portfolio giver et indblik i min kreative proces, det arbejde jeg har bidraget til, og de projekter der afspejler min passion for at skabe oplevelser, der forbinder med mennesker.
 
 **Codex:** Dette site er skabt for at give dig indblik i min passion for at skabe oplevelser med gennemslagskraft, min kreative tankegang og nogle af de projekter, jeg har været en del af bag kulisserne.
 
 **Gemini:** Denne side er designet til at give dig et indblik i min passion for at skabe betydningsfulde oplevelser, min kreative tankegang og et kig bag kulisserne på nogle af de projekter, jeg har været en del af.
 
-**Reason:** No consensus — similarities: C↔X=0.59, C↔G=0.90, X↔G=0.60
+**Reason:** No consensus — similarities: C↔X=0.30, C↔G=0.30, X↔G=0.60
 
-**Selected:** Dette site er designet til at give dig indsigt i min passion for at skabe virkningsfulde oplevelser, min kreative tankeproces og et kig bag kulisserne på nogle af de projekter, jeg har været en del af.
+**Selected:** Mit arbejde er forankret i at skabe virkningsfulde oplevelser, støtte kreativ vision og guide projekter fra idé til færdiggørelse med intention, omsorg og professionalisme. Dette portfolio giver et indblik i min kreative proces, det arbejde jeg har bidraget til, og de projekter der afspejler min passion for at skabe oplevelser, der forbinder med mennesker.
 
 ---
 
 ## about.signature
 
-**English:** I look forward to the opportunity to work with you in the future!
+**English:** I look forward to exploring how we can work together!
 
-**Claude:** Jeg glæder mig til muligheden for at arbejde med dig i fremtiden!
+**Claude:** Jeg glæder mig til at udforske, hvordan vi kan samarbejde!
 
 **Codex:** Jeg ser frem til muligheden for at arbejde sammen med dig i fremtiden!
 
 **Gemini:** Jeg ser frem til muligheden for at arbejde sammen med dig i fremtiden!
 
-**Reason:** No consensus — similarities: C↔X=0.79, C↔G=0.79, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.31, C↔G=0.31, X↔G=1.00
 
 **Selected:** Jeg ser frem til muligheden for at arbejde sammen med dig i fremtiden!
 
@@ -70,17 +70,17 @@ Total disputed keys: 209
 
 ## work.intro
 
-**English:** A cross-section of projects spanning music production, community education, systems architecture, and creative technology — each built with the same intention: craft something meaningful, scalable, and human.
+**English:** A cross-section of projects spanning music production, community education, systems architecture, and creative technology — each built with the same intention: craft something meaningful, scalable, and human. Every project is presented in DMAIC format (Define, Measure, Analyze, Improve, Control) so you can see how each moves from concept to measurable outcome.
 
-**Claude:** Et tværsnit af projekter der spænder over musikproduktion, fællesskabsuddannelse, systemsarkitektur og kreativ teknologi – hvert enkelt bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt.
+**Claude:** Et tværsnit af projekter der spænder over musikproduktion, fællesskabsuddannelse, systemsarkitektur og kreativ teknologi – hvert enkelt bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt. Hvert projekt er præsenteret i DMAIC-format (Definér, Mål, Analysér, Forbedre, Kontrollér), så du kan se, hvordan hvert enkelt bevæger sig fra idé til målbart resultat.
 
 **Codex:** Et tværsnit af projekter inden for musikproduktion, community-undervisning, systemarkitektur og kreativ teknologi — alle bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt.
 
 **Gemini:** Et tværsnit af projekter inden for musikproduktion, lokal uddannelse, systemarkitektur og kreativ teknologi — hver især bygget med den samme hensigt: at skabe noget meningsfuldt, skalerbart og menneskeligt.
 
-**Reason:** No consensus — similarities: C↔X=0.80, C↔G=0.83, X↔G=0.82
+**Reason:** No consensus — similarities: C↔X=0.45, C↔G=0.47, X↔G=0.82
 
-**Selected:** Et tværsnit af projekter der spænder over musikproduktion, fællesskabsuddannelse, systemsarkitektur og kreativ teknologi – hvert enkelt bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt.
+**Selected:** Et tværsnit af projekter der spænder over musikproduktion, fællesskabsuddannelse, systemsarkitektur og kreativ teknologi – hvert enkelt bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt. Hvert projekt er præsenteret i DMAIC-format (Definér, Mål, Analysér, Forbedre, Kontrollér), så du kan se, hvordan hvert enkelt bevæger sig fra idé til målbart resultat.
 
 ---
 
@@ -1044,6 +1044,22 @@ Total disputed keys: 209
 
 ---
 
+## data.projects.audiolab-intelligence.role
+
+**English:** Systems Architecture & Creative AI
+
+**Claude:** Systemsarkitektur og kreativ AI
+
+**Codex:** Systemarkitektur & kreativ AI
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Systemsarkitektur og kreativ AI
+
+---
+
 ## data.projects.the-reimagination-engine.description
 
 **English:** An experimental release project where old demos and unfinished song ideas are reimagined through AI tools and released in clustered waves. Drops happen every other week in alternating three-track clusters — one wave relational, the next energetic — with performance reviewed every 45 days. The goal is to see if consistent releases alone can generate streaming revenue and organic traction without any marketing, social media presence, or paid promotion. If a track lands in the top tier of its cluster, it gets flagged for potential reproduction or licensing.
@@ -1313,6 +1329,22 @@ Total disputed keys: 209
 **Reason:** No consensus — similarities: C↔X=0.88, C↔G=0.79, X↔G=0.70
 
 **Selected:** Et gentageligt eksperimentframework til fremtidige udgivelsessystemer
+
+---
+
+## data.projects.the-reimagination-engine.role
+
+**English:** Creative Systems Architect & Artist
+
+**Claude:** Kreativ systemsarkitekt og kunstner
+
+**Codex:** Kreativ systemarkitekt & artist
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Kreativ systemsarkitekt og kunstner
 
 ---
 
@@ -1620,6 +1652,22 @@ Total disputed keys: 209
 
 ---
 
+## data.projects.calby-inner-critic.role
+
+**English:** Vocal Producer
+
+**Claude:** Vokalproducent
+
+**Codex:** Vocal Producer
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Vokalproducent
+
+---
+
 ## data.projects.lukas-graham-purple.dmaic.D
 
 **English:** Create vocal arrangements for four songs on Lukas Graham's 3 (The Purple Album), hiring vocal talent and leading recording sessions for Warner Music Group / Then We Take The World.
@@ -1924,6 +1972,22 @@ Total disputed keys: 209
 
 ---
 
+## data.projects.lukas-graham-purple.role
+
+**English:** Vocal Producer
+
+**Claude:** Vokalproducent
+
+**Codex:** Vocal Producer
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Vokalproducent
+
+---
+
 ## data.projects.heart-soul-image-village.description
 
 **English:** Led the choral and recording studio components of Image Village 2023, a summer camp at Heart and Soul Center in South Central Los Angeles. Taught vocal technique and ensemble skills to two age groups while guiding students through songwriting, DAW production, and music video creation.
@@ -2168,13 +2232,13 @@ Total disputed keys: 209
 
 **English:** Ensemble Direction
 
-**Claude:** Ensembledirektion
+**Claude:** Ensembleledelse
 
 **Codex:** Ensemble Direction
 
 **Gemini:** Ensemble Direction
 
-**Reason:** No consensus — similarities: C↔X=0.83, C↔G=0.83, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.50, C↔G=0.50, X↔G=1.00
 
 **Selected:** Ensemble Direction
 
@@ -2257,6 +2321,22 @@ Total disputed keys: 209
 **Reason:** No consensus — similarities: C↔X=0.54, C↔G=0.70, X↔G=0.83
 
 **Selected:** Foto- og videooptagelser arkiveret til portfolio
+
+---
+
+## data.projects.heart-soul-image-village.role
+
+**English:** Choral Director & Recording Studio Instructor
+
+**Claude:** Korleder og optagelsesstudioinstruktør
+
+**Codex:** Kordirigent & recording studio-underviser
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Korleder og optagelsesstudioinstruktør
 
 ---
 
@@ -2500,6 +2580,22 @@ Total disputed keys: 209
 
 ---
 
+## data.projects.jimmy-gnarly-live.role
+
+**English:** Creative Producer & Live Performance Director
+
+**Claude:** Kreativ producent og liveshowdirektør
+
+**Codex:** Kreativ producer & liveperformance-instruktør
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Kreativ producent og liveshowdirektør
+
+---
+
 ## data.projects.lmu-gospel-choir.description
 
 **English:** Directed the LMU Gospel Choir, leading semester-long cycles of recruitment, rehearsal, and performance. Managed vocal coaching, promotional design, musician hiring, budget negotiation, and alumni collaborations.
@@ -2648,13 +2744,13 @@ Total disputed keys: 209
 
 **English:** Program Leadership
 
-**Claude:** Programlederskab
+**Claude:** Programledelse
 
 **Codex:** Program Leadership
 
 **Gemini:** Program Leadership
 
-**Reason:** No consensus — similarities: C↔X=0.67, C↔G=0.67, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.61, C↔G=0.61, X↔G=1.00
 
 **Selected:** Program Leadership
 
@@ -2728,13 +2824,13 @@ Total disputed keys: 209
 
 **English:** Event Planning
 
-**Claude:** Begivenhedsplanlægning
+**Claude:** Eventplanlægning
 
 **Codex:** Event Planning
 
 **Gemini:** Event Planning
 
-**Reason:** No consensus — similarities: C↔X=0.45, C↔G=0.45, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.69, C↔G=0.69, X↔G=1.00
 
 **Selected:** Event Planning
 
@@ -2744,13 +2840,13 @@ Total disputed keys: 209
 
 **English:** Music Selection
 
-**Claude:** Musikudvælgelse
+**Claude:** Musikvalg
 
 **Codex:** Music Selection
 
 **Gemini:** Music Selection
 
-**Reason:** No consensus — similarities: C↔X=0.27, C↔G=0.27, X↔G=1.00
+**Reason:** No consensus — similarities: C↔X=0.33, C↔G=0.33, X↔G=1.00
 
 **Selected:** Music Selection
 
@@ -2820,11 +2916,27 @@ Total disputed keys: 209
 
 ---
 
+## data.projects.lmu-gospel-choir.role
+
+**English:** Director, LMU Gospel Choir
+
+**Claude:** Leder, LMU Gospel Choir
+
+**Codex:** Dirigent, LMU Gospel Choir
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Leder, LMU Gospel Choir
+
+---
+
 ## data.films.sinners.role
 
 **English:** Featured Vocalist — Original Motion Picture Soundtrack
 
-**Claude:** Medvirkende vokalist — Original filmens soundtrack
+**Claude:** Medvirkende vokalist — Originalt filmsoundtrack
 
 **Codex:** Featured Vocalist — Original Motion Picture Soundtrack
 
@@ -3240,13 +3352,13 @@ Total disputed keys: 209
 
 **English:** Social
 
-**Claude:** Sociale medier
+**Claude:** Social
 
 **Codex:** Social
 
 **Gemini:** Socialt
 
-**Reason:** No consensus — similarities: C↔X=0.43, C↔G=0.43, X↔G=0.86
+**Reason:** No consensus — similarities: C↔X=1.00, C↔G=0.86, X↔G=0.86
 
 **Selected:** Social
 
@@ -3336,15 +3448,143 @@ Total disputed keys: 209
 
 **English:** 2016–Present
 
-**Claude:** 2016–Nu
+**Claude:** 2016–nu
 
 **Codex:** 2016–Present
 
 **Gemini:** 2016–Nu
 
-**Reason:** No consensus — similarities: C↔X=0.42, C↔G=1.00, X↔G=0.42
+**Reason:** No consensus — similarities: C↔X=0.50, C↔G=0.86, X↔G=0.42
 
 **Selected:** 2016–Present
+
+---
+
+## projectCard.viewDetails
+
+**English:** View project details
+
+**Claude:** Se projektdetaljer
+
+**Codex:** Se projektdetaljer
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Se projektdetaljer
+
+---
+
+## projectCard.musicEducation
+
+**English:** Music & Education
+
+**Claude:** Musik og Uddannelse
+
+**Codex:** Musik & undervisning
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Musik og Uddannelse
+
+---
+
+## projectCard.musicProduction
+
+**English:** Music & Production
+
+**Claude:** Musik og Produktion
+
+**Codex:** Musik & produktion
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Musik og Produktion
+
+---
+
+## projectCard.systemsTechnology
+
+**English:** Systems & Technology
+
+**Claude:** Systemer og Teknologi
+
+**Codex:** Systemer & teknologi
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Systemer og Teknologi
+
+---
+
+## releaseCard.solo
+
+**English:** Solo
+
+**Claude:** Solo
+
+**Codex:** Solo
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Solo
+
+---
+
+## releaseCard.feature
+
+**English:** Feature
+
+**Claude:** Feature
+
+**Codex:** Feature
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Feature
+
+---
+
+## videoCard.musicVideo
+
+**English:** Music Video
+
+**Claude:** Musikvideo
+
+**Codex:** Musikvideo
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Musikvideo
+
+---
+
+## videoCard.lyricVideo
+
+**English:** Lyric Video
+
+**Claude:** Lyrikvideo
+
+**Codex:** Lyric video
+
+**Gemini:** [MISSING]
+
+**Reason:** One or more models missing this key
+
+**Selected:** Lyrikvideo
 
 ---
 
