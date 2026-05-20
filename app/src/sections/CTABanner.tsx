@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import { useTranslation } from 'react-i18next'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import ParallaxHeader from '@/components/ParallaxHeader'
@@ -6,6 +7,7 @@ import ParallaxHeader from '@/components/ParallaxHeader'
 gsap.registerPlugin(ScrollTrigger)
 
 export default function CTABanner() {
+  const { t } = useTranslation()
   const emailRef = useRef<HTMLAnchorElement>(null)
 
   useEffect(() => {
@@ -36,8 +38,8 @@ export default function CTABanner() {
     >
       <div className="content-container">
         <ParallaxHeader
-          line1="LET'S MAKE"
-          line2="SOMETHING REAL"
+          line1={t('ctaBanner.line1')}
+          line2={t('ctaBanner.line2')}
           line2Color="var(--accent-amber)"
           triggerSelector=".cta-banner"
         />

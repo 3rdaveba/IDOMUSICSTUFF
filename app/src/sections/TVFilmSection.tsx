@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { useNavigate } from 'react-router'
+import { useTranslation } from 'react-i18next'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Film, Award, ArrowRight } from 'lucide-react'
@@ -8,6 +9,7 @@ import { films } from '@/data/films'
 gsap.registerPlugin(ScrollTrigger)
 
 export default function TVFilmSection() {
+  const { t } = useTranslation()
   const itemsRef = useRef<HTMLDivElement>(null)
   const navigate = useNavigate()
 
@@ -44,20 +46,19 @@ export default function TVFilmSection() {
         {/* Header */}
         <div className="mb-10">
           <span className="text-eyebrow block mb-3" style={{ color: 'var(--text-tertiary)' }}>
-            SCREEN & SOUNDTRACK
+            {t('tvFilm.eyebrow')}
           </span>
           <h2
             className="font-display text-3xl md:text-5xl font-bold leading-tight"
             style={{ color: 'var(--text-primary)', letterSpacing: '-0.01em' }}
           >
-            Film & Television
+            {t('tvFilm.heading')}
           </h2>
           <p
             className="mt-3 text-base md:text-lg font-light max-w-2xl"
             style={{ color: 'var(--text-secondary)' }}
           >
-            Bridging music and visual storytelling — from GRAMMY-winning soundtracks
-            to onscreen performances alongside industry icons.
+            {t('tvFilm.intro')}
           </p>
         </div>
 

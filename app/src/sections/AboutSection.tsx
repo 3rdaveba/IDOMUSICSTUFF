@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import { useTranslation } from 'react-i18next'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import ImageReveal from '@/components/ImageReveal'
@@ -6,6 +7,7 @@ import ImageReveal from '@/components/ImageReveal'
 gsap.registerPlugin(ScrollTrigger)
 
 export default function AboutSection() {
+  const { t } = useTranslation()
   const headlineRef = useRef<HTMLHeadingElement>(null)
   const bio1Ref = useRef<HTMLParagraphElement>(null)
   const bio2Ref = useRef<HTMLParagraphElement>(null)
@@ -92,11 +94,7 @@ export default function AboutSection() {
               className="font-display text-3xl md:text-5xl font-bold leading-[1.15]"
               style={{ color: 'var(--text-primary)', letterSpacing: '-0.01em' }}
             >
-              Hi! My name is{' '}
-              <span style={{ color: 'var(--accent-amber)' }}>William</span>{' '}
-              and I&apos;m a{' '}
-              <span style={{ color: 'var(--accent-amber)' }}>GRAMMY&reg; Award-winning</span>{' '}
-              vocal producer, music technologist, and creative systems architect.
+              {t('about.headline')}
             </h2>
 
             <p

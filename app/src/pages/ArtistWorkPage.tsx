@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
+import { useTranslation } from 'react-i18next'
 import { Helmet } from 'react-helmet-async'
 import { ArrowLeft, Disc3, Video, Users } from 'lucide-react'
 import gsap from 'gsap'
@@ -19,6 +20,7 @@ gsap.registerPlugin(ScrollTrigger)
 
 export default function ArtistWorkPage() {
   const navigate = useNavigate()
+  const { t } = useTranslation()
   const [lightboxVideo, setLightboxVideo] = useState<{ id: string; title: string } | null>(null)
 
   const releasesRef = useRef<HTMLDivElement>(null)
@@ -91,7 +93,7 @@ export default function ArtistWorkPage() {
                 className="font-display text-xl md:text-2xl font-bold"
                 style={{ color: 'var(--text-primary)' }}
               >
-                Releases
+                {t('artistWork.releasesHeading')}
               </h2>
               <span className="text-sm" style={{ color: 'var(--text-tertiary)' }}>
                 ({releases.length})
@@ -114,7 +116,7 @@ export default function ArtistWorkPage() {
                 className="font-display text-xl md:text-2xl font-bold"
                 style={{ color: 'var(--text-primary)' }}
               >
-                Videos
+                {t('artistWork.videosHeading')}
               </h2>
               <span className="text-sm" style={{ color: 'var(--text-tertiary)' }}>
                 ({videos.length})
@@ -137,7 +139,7 @@ export default function ArtistWorkPage() {
                 className="font-display text-xl md:text-2xl font-bold"
                 style={{ color: 'var(--text-primary)' }}
               >
-                Collaborations
+                {t('artistWork.collaborationsHeading')}
               </h2>
               <span className="text-sm" style={{ color: 'var(--text-tertiary)' }}>
                 ({collabs.length})
@@ -171,7 +173,7 @@ export default function ArtistWorkPage() {
           className="inline-flex items-center gap-2 text-sm transition-colors duration-300 hover:text-[var(--accent-amber)]"
           style={{ color: 'var(--text-secondary)' }}
         >
-          <ArrowLeft size={16} /> Back to Home
+          <ArrowLeft size={16} /> {t('artistWork.backToHome')}
         </button>
       </div>
 

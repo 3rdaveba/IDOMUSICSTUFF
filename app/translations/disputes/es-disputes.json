@@ -1,0 +1,1838 @@
+[
+  {
+    "key": "navigation.artistWork",
+    "english": "Artist Work",
+    "claude": "Artist Work",
+    "codex": "Trabajo artístico",
+    "gemini": "Obra artística",
+    "reason": "No consensus — similarities: C↔X=0.18, C↔G=0.14, X↔G=0.59",
+    "chosen": "Trabajo artístico"
+  },
+  {
+    "key": "hero.scrollCue",
+    "english": "SCROLL",
+    "claude": "DESPLAZAR",
+    "codex": "SCROLL",
+    "gemini": "DESLIZAR",
+    "reason": "No consensus — similarities: C↔X=0.11, C↔G=0.78, X↔G=0.13",
+    "chosen": "SCROLL"
+  },
+  {
+    "key": "about.headline",
+    "english": "Hi! My name is William and I'm a GRAMMY® Award-winning vocal producer, music technologist, and creative systems architect.",
+    "claude": "¡Hola! Mi nombre es William y soy un productor vocal ganador del GRAMMY®, tecnólogo musical y arquitecto de sistemas creativos.",
+    "codex": "¡Hola! Me llamo William y soy productor vocal ganador del GRAMMY®, tecnólogo musical y arquitecto de sistemas creativos.",
+    "gemini": "¡Hola! Mi nombre es William y soy un productor vocal, tecnólogo musical y arquitecto de sistemas creativos ganador del premio GRAMMY®.",
+    "reason": "No consensus — similarities: C↔X=0.90, C↔G=0.65, X↔G=0.55",
+    "chosen": "¡Hola! Mi nombre es William y soy un productor vocal ganador del GRAMMY®, tecnólogo musical y arquitecto de sistemas creativos."
+  },
+  {
+    "key": "about.bio1",
+    "english": "Over the course of my career, I've acquired tons of experience as an artist, stage performer, audio engineer, and creative project manager. From organizing live performances, collaborating with artists, teaching students, and working with underserved communities, I've been able to build a track record of successfully delivering projects from concept to completion.",
+    "claude": "A lo largo de mi carrera, he adquirido una enorme experiencia como artista, artista escénico, ingeniero de audio y director creativo de proyectos. Desde organizar actuaciones en vivo, colaborar con artistas, enseñar a estudiantes y trabajar con comunidades desfavorecidas, he podido construir un historial de entrega exitosa de proyectos desde el concepto hasta la realización.",
+    "codex": "A lo largo de mi carrera, he acumulado una amplia experiencia como artista, intérprete en vivo, ingeniero de audio y gestor de proyectos creativos. Desde organizar presentaciones en vivo, colaborar con artistas, enseñar a estudiantes y trabajar con comunidades desatendidas, he construido una trayectoria sólida entregando proyectos con éxito desde el concepto hasta la finalización.",
+    "gemini": "A lo largo de mi carrera, he adquirido una vasta experiencia como artista, intérprete, ingeniero de audio y gestor de proyectos creativos. Desde la organización de presentaciones en vivo y la colaboración con artistas, hasta la enseñanza y el trabajo con comunidades desatendidas, he logrado consolidar una trayectoria de éxito entregando proyectos desde su concepto hasta su finalización.",
+    "reason": "No consensus — similarities: C↔X=0.73, C↔G=0.66, X↔G=0.77",
+    "chosen": "A lo largo de mi carrera, he adquirido una enorme experiencia como artista, artista escénico, ingeniero de audio y director creativo de proyectos. Desde organizar actuaciones en vivo, colaborar con artistas, enseñar a estudiantes y trabajar con comunidades desfavorecidas, he podido construir un historial de entrega exitosa de proyectos desde el concepto hasta la realización."
+  },
+  {
+    "key": "about.bio2",
+    "english": "This site is designed to give you insight into my passion for creating impactful experiences, my creative thought process, and a look at some of the projects I've been a part of from behind the scenes.",
+    "claude": "Este sitio está diseñado para darte una visión de mi pasión por crear experiencias de impacto, mi proceso de pensamiento creativo y un vistazo a algunos de los proyectos en los que he participado desde detrás de escena.",
+    "codex": "Este sitio está diseñado para darte una mirada a mi pasión por crear experiencias con impacto, mi proceso creativo y algunos de los proyectos en los que he participado detrás de escena.",
+    "gemini": "Este sitio está diseñado para ofrecerte una visión de mi pasión por crear experiencias impactantes, mi proceso de pensamiento creativo y un vistazo a algunos de los proyectos en los que he participado tras bambalinas.",
+    "reason": "No consensus — similarities: C↔X=0.80, C↔G=0.86, X↔G=0.72",
+    "chosen": "Este sitio está diseñado para darte una visión de mi pasión por crear experiencias de impacto, mi proceso de pensamiento creativo y un vistazo a algunos de los proyectos en los que he participado desde detrás de escena."
+  },
+  {
+    "key": "work.line2",
+    "english": "PROJECTS",
+    "claude": "DESTACADOS",
+    "codex": "SELECCIONADOS",
+    "gemini": "SELECCIONADOS",
+    "reason": "No consensus — similarities: C↔X=0.46, C↔G=0.46, X↔G=1.00",
+    "chosen": "SELECCIONADOS"
+  },
+  {
+    "key": "work.complete",
+    "english": "Complete",
+    "claude": "Completado",
+    "codex": "Completo",
+    "gemini": "Completado",
+    "reason": "No consensus — similarities: C↔X=0.80, C↔G=1.00, X↔G=0.80",
+    "chosen": "Completo"
+  },
+  {
+    "key": "tvFilm.eyebrow",
+    "english": "SCREEN & SOUNDTRACK",
+    "claude": "PANTALLA Y SOUNDTRACK",
+    "codex": "PANTALLA & SOUNDTRACK",
+    "gemini": "PANTALLA Y BANDA SONORA",
+    "reason": "No consensus — similarities: C↔X=0.95, C↔G=0.52, X↔G=0.48",
+    "chosen": "PANTALLA & SOUNDTRACK"
+  },
+  {
+    "key": "tvFilm.heading",
+    "english": "Film & Television",
+    "claude": "Cine y Televisión",
+    "codex": "Cine y televisión",
+    "gemini": "Cine y Televisión",
+    "reason": "No consensus — similarities: C↔X=0.94, C↔G=1.00, X↔G=0.94",
+    "chosen": "Cine y televisión"
+  },
+  {
+    "key": "tvFilm.intro",
+    "english": "Bridging music and visual storytelling — from GRAMMY-winning soundtracks to onscreen performances alongside industry icons.",
+    "claude": "Tendiendo puentes entre la música y la narrativa visual — desde soundtracks ganadores del GRAMMY hasta actuaciones en pantalla junto a íconos de la industria.",
+    "codex": "Uniendo música y narrativa visual — desde soundtracks ganadores del GRAMMY hasta actuaciones en pantalla junto a íconos de la industria.",
+    "gemini": "Uniendo la música y la narrativa visual, desde bandas sonoras ganadoras del GRAMMY hasta interpretaciones en pantalla junto a íconos de la industria.",
+    "reason": "No consensus — similarities: C↔X=0.85, C↔G=0.75, X↔G=0.81",
+    "chosen": "Tendiendo puentes entre la música y la narrativa visual — desde soundtracks ganadores del GRAMMY hasta actuaciones en pantalla junto a íconos de la industria."
+  },
+  {
+    "key": "discography.line2",
+    "english": "STREAMS",
+    "claude": "REPRODUCCIONES",
+    "codex": "STREAMS",
+    "gemini": "STREAMS",
+    "reason": "No consensus — similarities: C↔X=0.14, C↔G=0.14, X↔G=1.00",
+    "chosen": "STREAMS"
+  },
+  {
+    "key": "discography.intro",
+    "english": "Select discography from notable projects as vocal producer, featured artist, or performer · {{tracks}} tracks · sourced from {{source}}",
+    "claude": "Discografía selecta de proyectos notables como productor vocal, artista invitado o intérprete · {{tracks}} temas · obtenido de {{source}}",
+    "codex": "Discografía seleccionada de proyectos destacados como productor vocal, featured artist o intérprete · {{tracks}} temas · datos de {{source}}",
+    "gemini": "Discografía selecta de proyectos destacados como productor vocal, artista invitado o intérprete · {{tracks}} pistas · fuente: {{source}}",
+    "reason": "No consensus — similarities: C↔X=0.76, C↔G=0.85, X↔G=0.77",
+    "chosen": "Discografía selecta de proyectos notables como productor vocal, artista invitado o intérprete · {{tracks}} temas · obtenido de {{source}}"
+  },
+  {
+    "key": "discography.cmScore",
+    "english": "CM Score",
+    "claude": "CM Score",
+    "codex": "CM Score",
+    "gemini": "Puntaje CM",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.00, X↔G=0.00",
+    "chosen": "CM Score"
+  },
+  {
+    "key": "discography.disclaimer",
+    "english": "* All streaming and performance data sourced from Chartmetric. Accurate as of {{date}}. Spotify streams represent cumulative all-time totals.",
+    "claude": "* Todos los datos de streaming y rendimiento provienen de Chartmetric. Exacto al {{date}}. Las reproducciones de Spotify representan totales acumulados de todos los tiempos.",
+    "codex": "* Todos los datos de streaming y rendimiento provienen de Chartmetric. Correctos al {{date}}. Los streams de Spotify representan totales acumulados históricos.",
+    "gemini": "* Todos los datos de streaming y rendimiento provienen de Chartmetric. Exactos al {{date}}. Los streams de Spotify representan totales acumulados históricos.",
+    "reason": "No consensus — similarities: C↔X=0.80, C↔G=0.83, X↔G=0.97",
+    "chosen": "* Todos los datos de streaming y rendimiento provienen de Chartmetric. Exacto al {{date}}. Las reproducciones de Spotify representan totales acumulados de todos los tiempos."
+  },
+  {
+    "key": "contact.emailLabel",
+    "english": "Email",
+    "claude": "Correo electrónico",
+    "codex": "Email",
+    "gemini": "Correo electrónico",
+    "reason": "No consensus — similarities: C↔X=0.06, C↔G=1.00, X↔G=0.06",
+    "chosen": "Email"
+  },
+  {
+    "key": "contact.locationValue",
+    "english": "Los Angeles, CA",
+    "claude": "Los Angeles, CA",
+    "codex": "Los Angeles, CA",
+    "gemini": "Los Ángeles, CA",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.93, X↔G=0.93",
+    "chosen": "Los Angeles, CA"
+  },
+  {
+    "key": "contact.formEmailLabel",
+    "english": "Email",
+    "claude": "Correo electrónico",
+    "codex": "Email",
+    "gemini": "Correo electrónico",
+    "reason": "No consensus — similarities: C↔X=0.06, C↔G=1.00, X↔G=0.06",
+    "chosen": "Email"
+  },
+  {
+    "key": "contact.formEmailPlaceholder",
+    "english": "your@email.com",
+    "claude": "tu@email.com",
+    "codex": "your@email.com",
+    "gemini": "tu@email.com",
+    "reason": "No consensus — similarities: C↔X=0.79, C↔G=1.00, X↔G=0.79",
+    "chosen": "your@email.com"
+  },
+  {
+    "key": "contact.formSubjectPlaceholder",
+    "english": "What's this about?",
+    "claude": "¿De qué se trata?",
+    "codex": "¿De qué se trata?",
+    "gemini": "¿De qué se trata esto?",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.77, X↔G=0.77",
+    "chosen": "¿De qué se trata?"
+  },
+  {
+    "key": "contact.tryAgainButton",
+    "english": "TRY AGAIN",
+    "claude": "INTENTAR DE NUEVO",
+    "codex": "INTENTAR DE NUEVO",
+    "gemini": "REINTENTAR",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.35, X↔G=0.35",
+    "chosen": "INTENTAR DE NUEVO"
+  },
+  {
+    "key": "ctaBanner.line1",
+    "english": "LET'S MAKE",
+    "claude": "HAGAMOS",
+    "codex": "HAGAMOS",
+    "gemini": "HAGAMOS ALGO",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.58, X↔G=0.58",
+    "chosen": "HAGAMOS"
+  },
+  {
+    "key": "ctaBanner.line2",
+    "english": "SOMETHING REAL",
+    "claude": "ALGO REAL",
+    "codex": "ALGO REAL",
+    "gemini": "REAL",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.44, X↔G=0.44",
+    "chosen": "ALGO REAL"
+  },
+  {
+    "key": "footer.ctaLine1",
+    "english": "Let's make something",
+    "claude": "Hagamos algo que",
+    "codex": "Hagamos algo",
+    "gemini": "Hagamos algo que",
+    "reason": "No consensus — similarities: C↔X=0.75, C↔G=1.00, X↔G=0.75",
+    "chosen": "Hagamos algo"
+  },
+  {
+    "key": "footer.ctaLine2",
+    "english": "worth listening to.",
+    "claude": "valga la pena escuchar.",
+    "codex": "que valga la pena escuchar.",
+    "gemini": "valga la pena escuchar.",
+    "reason": "No consensus — similarities: C↔X=0.85, C↔G=1.00, X↔G=0.85",
+    "chosen": "que valga la pena escuchar."
+  },
+  {
+    "key": "footer.ctaLink",
+    "english": "Get in touch",
+    "claude": "Contáctame",
+    "codex": "Ponte en contacto",
+    "gemini": "Ponte en contacto",
+    "reason": "No consensus — similarities: C↔X=0.35, C↔G=0.35, X↔G=1.00",
+    "chosen": "Ponte en contacto"
+  },
+  {
+    "key": "footer.location",
+    "english": "Los Angeles, CA",
+    "claude": "Los Angeles, CA",
+    "codex": "Los Angeles, CA",
+    "gemini": "Los Ángeles, CA",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.93, X↔G=0.93",
+    "chosen": "Los Angeles, CA"
+  },
+  {
+    "key": "projectDetail.breadcrumbWork",
+    "english": "Work",
+    "claude": "Proyectos",
+    "codex": "Trabajo",
+    "gemini": "Trabajo",
+    "reason": "No consensus — similarities: C↔X=0.22, C↔G=0.22, X↔G=1.00",
+    "chosen": "Trabajo"
+  },
+  {
+    "key": "projectDetail.statusComplete",
+    "english": "Complete",
+    "claude": "Completado",
+    "codex": "Completo",
+    "gemini": "Completado",
+    "reason": "No consensus — similarities: C↔X=0.80, C↔G=1.00, X↔G=0.80",
+    "chosen": "Completo"
+  },
+  {
+    "key": "projectDetail.categoryMusicEducation",
+    "english": "Music & Education",
+    "claude": "Música y Educación",
+    "codex": "Música & educación",
+    "gemini": "Música y Educación",
+    "reason": "No consensus — similarities: C↔X=0.89, C↔G=1.00, X↔G=0.89",
+    "chosen": "Música & educación"
+  },
+  {
+    "key": "projectDetail.categoryMusicProduction",
+    "english": "Music & Production",
+    "claude": "Música y Producción",
+    "codex": "Música & producción",
+    "gemini": "Música y Producción",
+    "reason": "No consensus — similarities: C↔X=0.89, C↔G=1.00, X↔G=0.89",
+    "chosen": "Música & producción"
+  },
+  {
+    "key": "projectDetail.dmaicQuestionM",
+    "english": "What did success look like?",
+    "claude": "¿Cómo lucía el éxito?",
+    "codex": "¿Cómo se veía el éxito?",
+    "gemini": "¿Cómo se definía el éxito?",
+    "reason": "No consensus — similarities: C↔X=0.78, C↔G=0.69, X↔G=0.85",
+    "chosen": "¿Cómo se veía el éxito?"
+  },
+  {
+    "key": "projectDetail.challenge",
+    "english": "The Challenge",
+    "claude": "El Desafío",
+    "codex": "El desafío",
+    "gemini": "El Desafío",
+    "reason": "No consensus — similarities: C↔X=0.90, C↔G=1.00, X↔G=0.90",
+    "chosen": "El desafío"
+  },
+  {
+    "key": "projectDetail.approach",
+    "english": "The Approach",
+    "claude": "El Enfoque",
+    "codex": "El enfoque",
+    "gemini": "El Enfoque",
+    "reason": "No consensus — similarities: C↔X=0.90, C↔G=1.00, X↔G=0.90",
+    "chosen": "El enfoque"
+  },
+  {
+    "key": "projectDetail.projectTimeline",
+    "english": "PROJECT TIMELINE",
+    "claude": "CRONOGRAMA DEL PROYECTO",
+    "codex": "CRONOLOGÍA DEL PROYECTO",
+    "gemini": "CRONOLOGÍA DEL PROYECTO",
+    "reason": "No consensus — similarities: C↔X=0.83, C↔G=0.83, X↔G=1.00",
+    "chosen": "CRONOLOGÍA DEL PROYECTO"
+  },
+  {
+    "key": "projectDetail.toolsSkills",
+    "english": "TOOLS & SKILLS",
+    "claude": "HERRAMIENTAS Y HABILIDADES",
+    "codex": "HERRAMIENTAS & HABILIDADES",
+    "gemini": "HERRAMIENTAS Y HABILIDADES",
+    "reason": "No consensus — similarities: C↔X=0.96, C↔G=1.00, X↔G=0.96",
+    "chosen": "HERRAMIENTAS & HABILIDADES"
+  },
+  {
+    "key": "projectDetail.mediaResources",
+    "english": "MEDIA & RESOURCES",
+    "claude": "MEDIOS Y RECURSOS",
+    "codex": "MEDIOS & RECURSOS",
+    "gemini": "MEDIOS Y RECURSOS",
+    "reason": "No consensus — similarities: C↔X=0.94, C↔G=1.00, X↔G=0.94",
+    "chosen": "MEDIOS & RECURSOS"
+  },
+  {
+    "key": "projectDetail.workflow",
+    "english": "Workflow",
+    "claude": "Flujo de trabajo",
+    "codex": "Workflow",
+    "gemini": "Flujo de trabajo",
+    "reason": "No consensus — similarities: C↔X=0.13, C↔G=1.00, X↔G=0.13",
+    "chosen": "Workflow"
+  },
+  {
+    "key": "projectDetail.bts",
+    "english": "BTS",
+    "claude": "BTS",
+    "codex": "BTS",
+    "gemini": "Detrás de escena",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.00, X↔G=0.00",
+    "chosen": "BTS"
+  },
+  {
+    "key": "projectDetail.preProduction",
+    "english": "Pre Production",
+    "claude": "Pre-producción",
+    "codex": "Preproducción",
+    "gemini": "Preproducción",
+    "reason": "No consensus — similarities: C↔X=0.93, C↔G=0.93, X↔G=1.00",
+    "chosen": "Preproducción"
+  },
+  {
+    "key": "projectDetail.interlude",
+    "english": "Interlude",
+    "claude": "Interludio",
+    "codex": "Interlude",
+    "gemini": "Interludio",
+    "reason": "No consensus — similarities: C↔X=0.80, C↔G=1.00, X↔G=0.80",
+    "chosen": "Interlude"
+  },
+  {
+    "key": "projectDetail.sundayService",
+    "english": "Sunday Service",
+    "claude": "Sunday Service",
+    "codex": "Sunday Service",
+    "gemini": "Servicio dominical",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.22, X↔G=0.22",
+    "chosen": "Sunday Service"
+  },
+  {
+    "key": "projectDetail.recordingStudio",
+    "english": "Recording Studio",
+    "claude": "Estudio de grabación",
+    "codex": "Recording Studio",
+    "gemini": "Estudio de grabación",
+    "reason": "No consensus — similarities: C↔X=0.20, C↔G=1.00, X↔G=0.20",
+    "chosen": "Recording Studio"
+  },
+  {
+    "key": "projectDetail.choirRehearsal",
+    "english": "Choir Rehearsal",
+    "claude": "Ensayo coral",
+    "codex": "Ensayo de coro",
+    "gemini": "Ensayo de coro",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.64, X↔G=1.00",
+    "chosen": "Ensayo de coro"
+  },
+  {
+    "key": "projectDetail.backToWork",
+    "english": "Back to Work",
+    "claude": "Volver a proyectos",
+    "codex": "Volver al trabajo",
+    "gemini": "Volver al trabajo",
+    "reason": "No consensus — similarities: C↔X=0.56, C↔G=0.56, X↔G=1.00",
+    "chosen": "Volver al trabajo"
+  },
+  {
+    "key": "filmDetail.statusComplete",
+    "english": "Complete",
+    "claude": "Completado",
+    "codex": "Completo",
+    "gemini": "Completado",
+    "reason": "No consensus — similarities: C↔X=0.80, C↔G=1.00, X↔G=0.80",
+    "chosen": "Completo"
+  },
+  {
+    "key": "filmDetail.categoryFilm",
+    "english": "Film & Television",
+    "claude": "Cine y Televisión",
+    "codex": "Cine & televisión",
+    "gemini": "Cine y Televisión",
+    "reason": "No consensus — similarities: C↔X=0.88, C↔G=1.00, X↔G=0.88",
+    "chosen": "Cine & televisión"
+  },
+  {
+    "key": "filmDetail.aboutProject",
+    "english": "ABOUT THIS PROJECT",
+    "claude": "SOBRE ESTE PROYECTO",
+    "codex": "SOBRE ESTE PROYECTO",
+    "gemini": "ACERCA DE ESTE PROYECTO",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.70, X↔G=0.70",
+    "chosen": "SOBRE ESTE PROYECTO"
+  },
+  {
+    "key": "filmDetail.mediaResources",
+    "english": "MEDIA & RESOURCES",
+    "claude": "MEDIOS Y RECURSOS",
+    "codex": "MEDIOS & RECURSOS",
+    "gemini": "MEDIOS Y RECURSOS",
+    "reason": "No consensus — similarities: C↔X=0.94, C↔G=1.00, X↔G=0.94",
+    "chosen": "MEDIOS & RECURSOS"
+  },
+  {
+    "key": "artistWork.statementHeadline",
+    "english": "I love music with every part of my soul.",
+    "claude": "Amo la música con toda mi alma.",
+    "codex": "Amo la música con cada parte de mi alma.",
+    "gemini": "Amo la música con cada parte de mi alma.",
+    "reason": "No consensus — similarities: C↔X=0.72, C↔G=0.72, X↔G=1.00",
+    "chosen": "Amo la música con toda mi alma."
+  },
+  {
+    "key": "artistWork.statementP1",
+    "english": "As an artist, I don't box myself into a single sound or formula. I write and create across whatever genre moves me in the moment, from melodic R&B textures, to hard-hitting bars, to global rhythms that push boundaries.",
+    "claude": "Como artista, no me encasillo en un solo sonido o fórmula. Escribo y creo a través de cualquier género que me mueve en el momento, desde texturas melódicas de R&B, hasta letras contundentes, hasta ritmos globales que empujan los límites.",
+    "codex": "Como artista, no me encierro en un solo sonido ni en una fórmula. Escribo y creo en cualquier género que me mueva en el momento, desde texturas melódicas de R&B hasta barras contundentes y ritmos globales que empujan límites.",
+    "gemini": "Como artista, no me encasillo en un solo sonido o fórmula. Escribo y creo en cualquier género que me inspire en el momento, desde texturas melódicas de R&B hasta rimas potentes y ritmos globales que desafían los límites.",
+    "reason": "No consensus — similarities: C↔X=0.83, C↔G=0.84, X↔G=0.83",
+    "chosen": "Como artista, no me encasillo en un solo sonido o fórmula. Escribo y creo a través de cualquier género que me mueve en el momento, desde texturas melódicas de R&B, hasta letras contundentes, hasta ritmos globales que empujan los límites."
+  },
+  {
+    "key": "artistWork.statementP2",
+    "english": "My process is pretty random. I can be riding down the street and start beatboxing an idea for a track, or I could be inspired by something I see and start conceptualizing an idea around a theme that I want to start writing lyrics to. There are no hard and fast rules ... I just follow what I feel speaks to me at the moment. Every song is its own world.",
+    "claude": "Mi proceso es bastante aleatorio. Puedo estar conduciendo por la calle y comenzar a beatboxear una idea para una canción, o puedo inspirarme en algo que veo y comenzar a conceptualizar una idea alrededor de un tema sobre el que quiero empezar a escribir letras. No hay reglas estrictas... simplemente sigo lo que siento que me habla en el momento. Cada canción es su propio mundo.",
+    "codex": "Mi proceso es bastante aleatorio. Puedo ir manejando por la calle y empezar a hacer beatbox con una idea para un track, o puedo inspirarme en algo que veo y empezar a conceptualizar una idea alrededor de un tema sobre el que quiero escribir letras. No hay reglas fijas ... simplemente sigo lo que siento que me habla en ese momento. Cada canción es su propio mundo.",
+    "gemini": "Mi proceso es bastante espontáneo. Puedo estar conduciendo y empezar a hacer beatbox con una idea para una pista, o inspirarme por algo que veo y comenzar a conceptualizar una idea en torno a un tema sobre el cual quiero escribir letras. No hay reglas estrictas... simplemente sigo lo que siento que me habla en el momento. Cada canción es su propio mundo.",
+    "reason": "No consensus — similarities: C↔X=0.86, C↔G=0.81, X↔G=0.81",
+    "chosen": "Mi proceso es bastante aleatorio. Puedo estar conduciendo por la calle y comenzar a beatboxear una idea para una canción, o puedo inspirarme en algo que veo y comenzar a conceptualizar una idea alrededor de un tema sobre el que quiero empezar a escribir letras. No hay reglas estrictas... simplemente sigo lo que siento que me habla en el momento. Cada canción es su propio mundo."
+  },
+  {
+    "key": "artistWork.aboutTheArtist",
+    "english": "ABOUT THE ARTIST",
+    "claude": "SOBRE EL ARTISTA",
+    "codex": "SOBRE EL ARTISTA",
+    "gemini": "ACERCA DEL ARTISTA",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.67, X↔G=0.67",
+    "chosen": "SOBRE EL ARTISTA"
+  },
+  {
+    "key": "artistWork.yearsActive",
+    "english": "Years Active",
+    "claude": "Años activo",
+    "codex": "Años activo",
+    "gemini": "Años en activo",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.79, X↔G=0.79",
+    "chosen": "Años activo"
+  },
+  {
+    "key": "artistWork.collaborations",
+    "english": "Collaborations",
+    "claude": "Colaboraciones",
+    "codex": "Colaboraciones",
+    "gemini": "Alianzas",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.21, X↔G=0.21",
+    "chosen": "Colaboraciones"
+  },
+  {
+    "key": "artistWork.collaborationsHeading",
+    "english": "Collaborations",
+    "claude": "Colaboraciones",
+    "codex": "Colaboraciones",
+    "gemini": "Alianzas",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.21, X↔G=0.21",
+    "chosen": "Colaboraciones"
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.description",
+    "english": "Design a private, autonomous agent infrastructure for creative workflow intelligence, operating 24/7 without human intervention.",
+    "claude": "Diseñar una infraestructura de agentes privada y autónoma para la inteligencia de flujo de trabajo creativo, que opere las 24 horas del día, 7 días a la semana sin intervención humana.",
+    "codex": "Diseño de una infraestructura privada de agentes autónomos para inteligencia de workflows creativos, operando 24/7 sin intervención humana.",
+    "gemini": "Diseño de una infraestructura de agentes autónomos privados para la inteligencia del flujo de trabajo creativo, operando las 24 horas, los 7 días de la semana, sin intervención humana.",
+    "reason": "No consensus — similarities: C↔X=0.54, C↔G=0.78, X↔G=0.61",
+    "chosen": "Diseñar una infraestructura de agentes privada y autónoma para la inteligencia de flujo de trabajo creativo, que opere las 24 horas del día, 7 días a la semana sin intervención humana."
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.dmaic.D",
+    "english": "Design a private, autonomous agent infrastructure for creative workflow intelligence, operating 24/7 without human intervention.",
+    "claude": "Diseñar una infraestructura de agentes privada y autónoma para la inteligencia de flujo de trabajo creativo, que opere las 24 horas del día, 7 días a la semana sin intervención humana.",
+    "codex": "Diseñar una infraestructura privada de agentes autónomos para inteligencia de workflows creativos, operando 24/7 sin intervención humana.",
+    "gemini": "Diseño de una infraestructura de agentes autónomos privados para la inteligencia del flujo de trabajo creativo, operando las 24 horas, los 7 días de la semana, sin intervención humana.",
+    "reason": "No consensus — similarities: C↔X=0.56, C↔G=0.78, X↔G=0.59",
+    "chosen": "Diseñar una infraestructura de agentes privada y autónoma para la inteligencia de flujo de trabajo creativo, que opere las 24 horas del día, 7 días a la semana sin intervención humana."
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.dmaic.M",
+    "english": "System uptime, task completion rate, zero unauthorized writes to production code, full audit trail coverage.",
+    "claude": "Tiempo de actividad del sistema, tasa de finalización de tareas, cero escrituras no autorizadas al código de producción, cobertura completa del rastro de auditoría.",
+    "codex": "Uptime del sistema, tasa de finalización de tareas, cero escrituras no autorizadas en código de producción y cobertura completa de audit trail.",
+    "gemini": "Tiempo de actividad del sistema, tasa de finalización de tareas, cero escrituras no autorizadas en el código de producción, cobertura total de pistas de auditoría.",
+    "reason": "No consensus — similarities: C↔X=0.78, C↔G=0.91, X↔G=0.78",
+    "chosen": "Tiempo de actividad del sistema, tasa de finalización de tareas, cero escrituras no autorizadas al código de producción, cobertura completa del rastro de auditoría."
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.dmaic.A",
+    "english": "Identified gaps between existing creative tooling and intelligent automation. Designed around strict read-only safety boundaries and multi-model orchestration.",
+    "claude": "Identificadas brechas entre las herramientas creativas existentes y la automatización inteligente. Diseñado alrededor de estrictos límites de seguridad de solo lectura y orquestación multi-modelo.",
+    "codex": "Se identificaron brechas entre las herramientas creativas existentes y la automatización inteligente. El diseño se basó en límites estrictos de seguridad read-only y orquestación multi-modelo.",
+    "gemini": "Identificación de brechas entre las herramientas creativas existentes y la automatización inteligente. Diseño basado en límites estrictos de seguridad de solo lectura y orquestación multimodelo.",
+    "reason": "No consensus — similarities: C↔X=0.76, C↔G=0.84, X↔G=0.83",
+    "chosen": "Identificadas brechas entre las herramientas creativas existentes y la automatización inteligente. Diseñado alrededor de estrictos límites de seguridad de solo lectura y orquestación multi-modelo."
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.dmaic.C",
+    "english": "All agent outputs logged and traceable. No secrets in memory. No arbitrary execution. Ongoing monitoring via heartbeat scheduler.",
+    "claude": "Todas las salidas de los agentes registradas y rastreables. Sin secretos en memoria. Sin ejecución arbitraria. Monitoreo continuo mediante programador heartbeat.",
+    "codex": "Todos los outputs de los agentes quedan registrados y trazables. Sin secrets en memoria. Sin ejecución arbitraria. Monitoreo continuo vía heartbeat scheduler.",
+    "gemini": "Todas las salidas de los agentes registradas y rastreables. Sin secretos en la memoria. Sin ejecución arbitraria. Monitoreo continuo a través de un programador de latidos (heartbeat).",
+    "reason": "No consensus — similarities: C↔X=0.72, C↔G=0.85, X↔G=0.66",
+    "chosen": "Todas las salidas de los agentes registradas y rastreables. Sin secretos en memoria. Sin ejecución arbitraria. Monitoreo continuo mediante programador heartbeat."
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.timeline[3]",
+    "english": "Security Hardening",
+    "claude": "Refuerzo de seguridad",
+    "codex": "Endurecimiento de seguridad",
+    "gemini": "Refuerzo de seguridad",
+    "reason": "No consensus — similarities: C↔X=0.59, C↔G=1.00, X↔G=0.59",
+    "chosen": "Endurecimiento de seguridad"
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.tools[3]",
+    "english": "Structured Memory Systems",
+    "claude": "Sistemas de memoria estructurada",
+    "codex": "Structured Memory Systems",
+    "gemini": "Structured Memory Systems",
+    "reason": "No consensus — similarities: C↔X=0.28, C↔G=0.28, X↔G=1.00",
+    "chosen": "Structured Memory Systems"
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.tools[4]",
+    "english": "Heartbeat Scheduling",
+    "claude": "Programación heartbeat",
+    "codex": "Heartbeat Scheduling",
+    "gemini": "Heartbeat Scheduling",
+    "reason": "No consensus — similarities: C↔X=0.14, C↔G=0.14, X↔G=1.00",
+    "chosen": "Heartbeat Scheduling"
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.tools[5]",
+    "english": "Read-Only Security Boundaries",
+    "claude": "Límites de seguridad de solo lectura",
+    "codex": "Read-Only Security Boundaries",
+    "gemini": "Read-Only Security Boundaries",
+    "reason": "No consensus — similarities: C↔X=0.19, C↔G=0.19, X↔G=1.00",
+    "chosen": "Read-Only Security Boundaries"
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.outcomes[0]",
+    "english": "Autonomous 24/7 agent infrastructure",
+    "claude": "Infraestructura de agentes autónoma 24/7",
+    "codex": "Infraestructura autónoma de agentes 24/7",
+    "gemini": "Infraestructura de agentes autónomos 24/7",
+    "reason": "No consensus — similarities: C↔X=0.57, C↔G=0.95, X↔G=0.59",
+    "chosen": "Infraestructura autónoma de agentes 24/7"
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.outcomes[1]",
+    "english": "Zero unauthorized production writes",
+    "claude": "Cero escrituras no autorizadas a producción",
+    "codex": "Cero escrituras no autorizadas en producción",
+    "gemini": "Cero escrituras de producción no autorizadas",
+    "reason": "No consensus — similarities: C↔X=0.95, C↔G=0.45, X↔G=0.45",
+    "chosen": "Cero escrituras no autorizadas en producción"
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.outcomes[2]",
+    "english": "Full audit trail on all outputs",
+    "claude": "Rastro de auditoría completo en todas las salidas",
+    "codex": "Audit trail completo en todos los outputs",
+    "gemini": "Pista de auditoría completa en todas las salidas",
+    "reason": "No consensus — similarities: C↔X=0.51, C↔G=0.90, X↔G=0.50",
+    "chosen": "Audit trail completo en todos los outputs"
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.outcomes[3]",
+    "english": "Multi-model orchestration pipeline",
+    "claude": "Pipeline de orquestación multi-modelo",
+    "codex": "Pipeline de orquestación multi-modelo",
+    "gemini": "Canal de orquestación multimodelo",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.78, X↔G=0.78",
+    "chosen": "Pipeline de orquestación multi-modelo"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.dmaic.M",
+    "english": "Track streaming numbers, saves, completion rates, and listener retention across roughly 30 releases over 12 months. Every 45 days, review cluster performance to see which wave style is gaining traction and which individual tracks are rising to the top.",
+    "claude": "Rastrear números de streaming, guardados, tasas de finalización y retención de oyentes en aproximadamente 30 lanzamientos durante 12 meses. Cada 45 días, revisar el rendimiento del clúster para ver qué estilo de oleada está ganando tracción y qué canciones individuales están subiendo.",
+    "codex": "Medir números de streaming, saves, tasas de finalización y retención de oyentes en aproximadamente 30 lanzamientos durante 12 meses. Cada 45 días, revisar el rendimiento de los clusters para ver qué estilo de oleada gana tracción y qué tracks individuales suben a la cima.",
+    "gemini": "Seguimiento de números de streaming, guardados, tasas de finalización y retención de oyentes en aproximadamente 30 lanzamientos durante 12 meses. Cada 45 días, revisar el rendimiento del grupo para ver qué estilo de oleada está ganando tracción y qué pistas individuales están llegando a la cima.",
+    "reason": "No consensus — similarities: C↔X=0.84, C↔G=0.86, X↔G=0.82",
+    "chosen": "Rastrear números de streaming, guardados, tasas de finalización y retención de oyentes en aproximadamente 30 lanzamientos durante 12 meses. Cada 45 días, revisar el rendimiento del clúster para ver qué estilo de oleada está ganando tracción y qué canciones individuales están subiendo."
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.dmaic.A",
+    "english": "Compare relational clusters against energetic clusters. Identify which tracks land in the top 20% of their wave, and look for patterns in what resonates when there is no external promotion driving traffic.",
+    "claude": "Comparar clústeres relacionales contra clústeres energéticos. Identificar qué canciones llegan al 20% superior de su oleada y buscar patrones en lo que resuena cuando no hay promoción externa impulsando el tráfico.",
+    "codex": "Comparar clusters relacionales con clusters energéticos. Identificar qué tracks llegan al top 20% de su oleada y buscar patrones en lo que resuena cuando no hay promoción externa impulsando tráfico.",
+    "gemini": "Comparar grupos relacionales con grupos energéticos. Identificar qué pistas se ubican en el 20% superior de su oleada y buscar patrones en lo que resuena cuando no hay promoción externa que impulse el tráfico.",
+    "reason": "No consensus — similarities: C↔X=0.87, C↔G=0.79, X↔G=0.78",
+    "chosen": "Comparar clústeres relacionales contra clústeres energéticos. Identificar qué canciones llegan al 20% superior de su oleada y buscar patrones en lo que resuena cuando no hay promoción externa impulsando el tráfico."
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.dmaic.I",
+    "english": "When a track performs in the top 20% of its cluster with above-median engagement, flag it for reproduction or licensing exploration. Reinvest any revenue back into refining the workflow.",
+    "claude": "Cuando una canción se desempeña en el 20% superior de su clúster con un compromiso por encima de la mediana, marcarla para exploración de reproducción o licenciamiento. Reinvertir cualquier ingreso para refinar el flujo de trabajo.",
+    "codex": "Cuando un track rinde dentro del top 20% de su cluster con engagement por encima de la mediana, marcarlo para explorar reproducción o licenciamiento. Reinvertir cualquier ingreso en refinar el workflow.",
+    "gemini": "Cuando una pista rinde en el 20% superior de su grupo con un compromiso superior a la mediana, marcarla para exploración de reproducción o licenciamiento. Reinvertir cualquier ingreso en refinar el flujo de trabajo.",
+    "reason": "No consensus — similarities: C↔X=0.70, C↔G=0.84, X↔G=0.68",
+    "chosen": "Cuando una canción se desempeña en el 20% superior de su clúster con un compromiso por encima de la mediana, marcarla para exploración de reproducción o licenciamiento. Reinvertir cualquier ingreso para refinar el flujo de trabajo."
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.timeline[0]",
+    "english": "Catalog Curation",
+    "claude": "Curación del catálogo",
+    "codex": "Curaduría de catálogo",
+    "gemini": "Curaduría del catálogo",
+    "reason": "No consensus — similarities: C↔X=0.71, C↔G=0.77, X↔G=0.95",
+    "chosen": "Curaduría de catálogo"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.tools[1]",
+    "english": "AI Music Tools",
+    "claude": "Herramientas de música con IA",
+    "codex": "AI Music Tools",
+    "gemini": "AI Music Tools",
+    "reason": "No consensus — similarities: C↔X=0.21, C↔G=0.21, X↔G=1.00",
+    "chosen": "AI Music Tools"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.tools[3]",
+    "english": "Metadata Systems",
+    "claude": "Sistemas de metadatos",
+    "codex": "Metadata Systems",
+    "gemini": "Metadata Systems",
+    "reason": "No consensus — similarities: C↔X=0.19, C↔G=0.19, X↔G=1.00",
+    "chosen": "Metadata Systems"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.tools[4]",
+    "english": "Cluster-Based Release Scheduling",
+    "claude": "Programación de lanzamientos basada en clústeres",
+    "codex": "Cluster-Based Release Scheduling",
+    "gemini": "Cluster-Based Release Scheduling",
+    "reason": "No consensus — similarities: C↔X=0.17, C↔G=0.17, X↔G=1.00",
+    "chosen": "Cluster-Based Release Scheduling"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.tools[5]",
+    "english": "45-Day Review Cycles",
+    "claude": "Ciclos de revisión de 45 días",
+    "codex": "45-Day Review Cycles",
+    "gemini": "45-Day Review Cycles",
+    "reason": "No consensus — similarities: C↔X=0.21, C↔G=0.21, X↔G=1.00",
+    "chosen": "45-Day Review Cycles"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.outcomes[0]",
+    "english": "Roughly 30 releases deployed in alternating relational/energetic clusters",
+    "claude": "Aproximadamente 30 lanzamientos desplegados en clústeres alternos relacionales/energéticos",
+    "codex": "Aproximadamente 30 lanzamientos desplegados en clusters relacionales/energéticos alternos",
+    "gemini": "Aproximadamente 30 lanzamientos desplegados en grupos alternos relacionales/energéticos",
+    "reason": "No consensus — similarities: C↔X=0.78, C↔G=0.91, X↔G=0.80",
+    "chosen": "Aproximadamente 30 lanzamientos desplegados en clusters relacionales/energéticos alternos"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.outcomes[1]",
+    "english": "Biweekly release cadence sustained over 12 months",
+    "claude": "Cadencia de lanzamiento quincenal mantenida durante 12 meses",
+    "codex": "Cadencia quincenal de lanzamientos sostenida durante 12 meses",
+    "gemini": "Cadencia de lanzamiento quincenal mantenida durante 12 meses",
+    "reason": "No consensus — similarities: C↔X=0.62, C↔G=1.00, X↔G=0.62",
+    "chosen": "Cadencia quincenal de lanzamientos sostenida durante 12 meses"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.outcomes[2]",
+    "english": "45-day performance reviews identifying top-tier tracks for reproduction",
+    "claude": "Revisiones de rendimiento cada 45 días identificando las mejores canciones para reproducción",
+    "codex": "Revisiones de rendimiento cada 45 días identificando tracks top-tier para reproducción",
+    "gemini": "Revisiones de rendimiento de 45 días identificando pistas de nivel superior para reproducción",
+    "reason": "No consensus — similarities: C↔X=0.80, C↔G=0.77, X↔G=0.76",
+    "chosen": "Revisiones de rendimiento cada 45 días identificando tracks top-tier para reproducción"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.outcomes[3]",
+    "english": "Organic streaming revenue generated without marketing spend",
+    "claude": "Ingresos orgánicos de streaming generados sin gasto en marketing",
+    "codex": "Ingresos orgánicos de streaming generados sin gasto en marketing",
+    "gemini": "Ingresos por streaming orgánico generados sin gasto en marketing",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.72, X↔G=0.72",
+    "chosen": "Ingresos orgánicos de streaming generados sin gasto en marketing"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.dmaic.M",
+    "english": "Completion of vocal arrangements, successful recording of prioritized songs, stakeholder approval of arrangements, and delivery of promotional video content.",
+    "claude": "Completar los arreglos vocales, grabación exitosa de las canciones prioritarias, aprobación de los interesados y entrega de contenido de video promocional.",
+    "codex": "Finalización de arreglos vocales, grabación exitosa de las canciones priorizadas, aprobación de los arreglos por stakeholders y entrega de contenido de video promocional.",
+    "gemini": "Finalización de arreglos vocales, grabación exitosa de canciones priorizadas, aprobación de arreglos por parte de los interesados y entrega de contenido de video promocional.",
+    "reason": "No consensus — similarities: C↔X=0.79, C↔G=0.76, X↔G=0.85",
+    "chosen": "Completar los arreglos vocales, grabación exitosa de las canciones prioritarias, aprobación de los interesados y entrega de contenido de video promocional."
+  },
+  {
+    "key": "data.projects.calby-inner-critic.dmaic.A",
+    "english": "Tight timeline (less than a week for arrangements), budget constraints, balancing musical requirements with videography needs, and coordinating multiple teams across pre-production and recording.",
+    "claude": "Plazo ajustado (menos de una semana para los arreglos), limitaciones presupuestarias, equilibrio entre los requisitos musicales y las necesidades de videografía, y coordinación de múltiples equipos durante la preproducción y la grabación.",
+    "codex": "Cronograma ajustado, menos de una semana para los arreglos, restricciones presupuestarias, equilibrio entre requisitos musicales y necesidades de videografía, y coordinación de múltiples equipos entre preproducción y grabación.",
+    "gemini": "Cronograma ajustado (menos de una semana para los arreglos), restricciones presupuestarias, equilibrio de requisitos musicales con necesidades de videografía y coordinación de múltiples equipos en preproducción y grabación.",
+    "reason": "No consensus — similarities: C↔X=0.84, C↔G=0.82, X↔G=0.94",
+    "chosen": "Plazo ajustado (menos de una semana para los arreglos), limitaciones presupuestarias, equilibrio entre los requisitos musicales y las necesidades de videografía, y coordinación de múltiples equipos durante la preproducción y la grabación."
+  },
+  {
+    "key": "data.projects.calby-inner-critic.dmaic.I",
+    "english": "Created and refined vocal arrangements under pressure, acquired and managed vocal talent, coordinated studio sessions, collaborated with videographers, and delivered all prioritized songs within budget and timeframe.",
+    "claude": "Creó y refinó arreglos vocales bajo presión, adquirió y gestionó talento vocal, coordinó sesiones de estudio, colaboró con videógrafos y entregó todas las canciones prioritarias dentro del presupuesto y el plazo.",
+    "codex": "Creó y refinó arreglos vocales bajo presión, consiguió y dirigió talento vocal, coordinó sesiones de estudio, colaboró con videógrafos y entregó todas las canciones priorizadas dentro del presupuesto y el plazo.",
+    "gemini": "Creación y refinamiento de arreglos vocales bajo presión, adquisición y gestión de talento vocal, coordinación de sesiones de estudio, colaboración con videógrafos y entrega de todas las canciones priorizadas dentro del presupuesto y plazo.",
+    "reason": "No consensus — similarities: C↔X=0.93, C↔G=0.82, X↔G=0.80",
+    "chosen": "Creó y refinó arreglos vocales bajo presión, adquirió y gestionó talento vocal, coordinó sesiones de estudio, colaboró con videógrafos y entregó todas las canciones prioritarias dentro del presupuesto y el plazo."
+  },
+  {
+    "key": "data.projects.calby-inner-critic.dmaic.C",
+    "english": "All prioritized songs recorded successfully. Stakeholders gave positive feedback. High-quality audio and visual assets delivered for archival and marketing use.",
+    "claude": "Todas las canciones prioritarias grabadas exitosamente. Los interesados dieron retroalimentación positiva. Activos de audio y visuales de alta calidad entregados para uso de archivo y marketing.",
+    "codex": "Todas las canciones priorizadas se grabaron con éxito. Los stakeholders dieron feedback positivo. Se entregaron assets de audio y video de alta calidad para archivo y marketing.",
+    "gemini": "Todas las canciones priorizadas grabadas con éxito. Comentarios positivos de los interesados. Activos de audio y visuales de alta calidad entregados para uso de archivo y marketing.",
+    "reason": "No consensus — similarities: C↔X=0.58, C↔G=0.76, X↔G=0.60",
+    "chosen": "Todas las canciones prioritarias grabadas exitosamente. Los interesados dieron retroalimentación positiva. Activos de audio y visuales de alta calidad entregados para uso de archivo y marketing."
+  },
+  {
+    "key": "data.projects.calby-inner-critic.timeline[3]",
+    "english": "Post-Production",
+    "claude": "Posproducción",
+    "codex": "Postproducción",
+    "gemini": "Postproducción",
+    "reason": "No consensus — similarities: C↔X=0.93, C↔G=0.93, X↔G=1.00",
+    "chosen": "Postproducción"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.tools[1]",
+    "english": "Vocal Arranging",
+    "claude": "Arreglos vocales",
+    "codex": "Vocal Arranging",
+    "gemini": "Vocal Arranging",
+    "reason": "No consensus — similarities: C↔X=0.06, C↔G=0.06, X↔G=1.00",
+    "chosen": "Vocal Arranging"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.tools[2]",
+    "english": "BGV Production",
+    "claude": "Producción de BGV",
+    "codex": "BGV Production",
+    "gemini": "BGV Production",
+    "reason": "No consensus — similarities: C↔X=0.24, C↔G=0.24, X↔G=1.00",
+    "chosen": "BGV Production"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.tools[3]",
+    "english": "Talent Management",
+    "claude": "Gestión de talento",
+    "codex": "Talent Management",
+    "gemini": "Talent Management",
+    "reason": "No consensus — similarities: C↔X=0.22, C↔G=0.22, X↔G=1.00",
+    "chosen": "Talent Management"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.tools[4]",
+    "english": "Budget Management",
+    "claude": "Gestión del presupuesto",
+    "codex": "Budget Management",
+    "gemini": "Budget Management",
+    "reason": "No consensus — similarities: C↔X=0.17, C↔G=0.17, X↔G=1.00",
+    "chosen": "Budget Management"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.tools[5]",
+    "english": "Studio Coordination",
+    "claude": "Coordinación de estudio",
+    "codex": "Studio Coordination",
+    "gemini": "Studio Coordination",
+    "reason": "No consensus — similarities: C↔X=0.22, C↔G=0.22, X↔G=1.00",
+    "chosen": "Studio Coordination"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.tools[6]",
+    "english": "Multi-Track Recording",
+    "claude": "Grabación multipista",
+    "codex": "Multi-Track Recording",
+    "gemini": "Multi-Track Recording",
+    "reason": "No consensus — similarities: C↔X=0.05, C↔G=0.05, X↔G=1.00",
+    "chosen": "Multi-Track Recording"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.tools[7]",
+    "english": "Video Collaboration",
+    "claude": "Colaboración en video",
+    "codex": "Video Collaboration",
+    "gemini": "Video Collaboration",
+    "reason": "No consensus — similarities: C↔X=0.14, C↔G=0.14, X↔G=1.00",
+    "chosen": "Video Collaboration"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.outcomes[2]",
+    "english": "Positive stakeholder feedback from artist and label",
+    "claude": "Retroalimentación positiva de los interesados del artista y el sello",
+    "codex": "Feedback positivo de stakeholders del artista y el sello",
+    "gemini": "Comentarios positivos de los interesados del artista y el sello",
+    "reason": "No consensus — similarities: C↔X=0.62, C↔G=0.82, X↔G=0.65",
+    "chosen": "Feedback positivo de stakeholders del artista y el sello"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.outcomes[3]",
+    "english": "High-quality audio and visual assets for marketing",
+    "claude": "Activos de audio y visuales de alta calidad para marketing",
+    "codex": "Assets de audio y video de alta calidad para marketing",
+    "gemini": "Activos de audio y visuales de alta calidad para marketing",
+    "reason": "No consensus — similarities: C↔X=0.83, C↔G=1.00, X↔G=0.83",
+    "chosen": "Assets de audio y video de alta calidad para marketing"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.outcomes[4]",
+    "english": "Effective budget management under constraints",
+    "claude": "Gestión efectiva del presupuesto bajo restricciones",
+    "codex": "Gestión presupuestaria efectiva bajo restricciones",
+    "gemini": "Gestión presupuestaria eficaz bajo restricciones",
+    "reason": "No consensus — similarities: C↔X=0.59, C↔G=0.59, X↔G=0.90",
+    "chosen": "Gestión presupuestaria efectiva bajo restricciones"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.dmaic.M",
+    "english": "Quality of vocal arrangements, performance cohesion, stakeholder satisfaction, and seamless integration of BGVs into the final album.",
+    "claude": "Calidad de los arreglos vocales, cohesión de la actuación, satisfacción de los interesados e integración fluida de los BGVs en el álbum final.",
+    "codex": "Calidad de los arreglos vocales, cohesión de performance, satisfacción de stakeholders e integración fluida de BGVs en el álbum final.",
+    "gemini": "Calidad de los arreglos vocales, cohesión de la interpretación, satisfacción de los interesados e integración perfecta de los coros en el álbum final.",
+    "reason": "No consensus — similarities: C↔X=0.81, C↔G=0.87, X↔G=0.73",
+    "chosen": "Calidad de los arreglos vocales, cohesión de la actuación, satisfacción de los interesados e integración fluida de los BGVs en el álbum final."
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.dmaic.A",
+    "english": "High-profile partnership demands, balancing commercial appeal with artist vision, managing vocal talent schedules, and making on-the-spot arrangement modifications during sessions.",
+    "claude": "Exigencias de una asociación de alto perfil, equilibrio entre el atractivo comercial y la visión del artista, gestión de los horarios del talento vocal y modificaciones de arreglos sobre la marcha durante las sesiones.",
+    "codex": "Exigencias de una colaboración de alto perfil, equilibrio entre atractivo comercial y visión artística, gestión de horarios del talento vocal y modificaciones de arreglos en el momento durante las sesiones.",
+    "gemini": "Demandas de una asociación de alto perfil, equilibrio del atractivo comercial con la visión del artista, gestión de agendas del talento vocal y realización de modificaciones de arreglos en el momento durante las sesiones.",
+    "reason": "No consensus — similarities: C↔X=0.84, C↔G=0.76, X↔G=0.76",
+    "chosen": "Exigencias de una asociación de alto perfil, equilibrio entre el atractivo comercial y la visión del artista, gestión de los horarios del talento vocal y modificaciones de arreglos sobre la marcha durante las sesiones."
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.dmaic.I",
+    "english": "Created arrangements informed by deep artist research, hired fitting vocal talent, led recording sessions with real-time adjustments, and negotiated fair talent compensation within budget.",
+    "claude": "Creó arreglos basados en una investigación profunda del artista, contrató talento vocal adecuado, lideró sesiones de grabación con ajustes en tiempo real y negoció una compensación justa para el talento dentro del presupuesto.",
+    "codex": "Creó arreglos informados por una investigación profunda del artista, contrató talento vocal adecuado, lideró sesiones de grabación con ajustes en tiempo real y negoció compensación justa para el talento dentro del presupuesto.",
+    "gemini": "Creación de arreglos basados en una profunda investigación del artista, contratación de talento vocal adecuado, liderazgo de sesiones de grabación con ajustes en tiempo real y negociación de compensación justa para el talento dentro del presupuesto.",
+    "reason": "No consensus — similarities: C↔X=0.94, C↔G=0.82, X↔G=0.78",
+    "chosen": "Creó arreglos basados en una investigación profunda del artista, contrató talento vocal adecuado, lideró sesiones de grabación con ajustes en tiempo real y negoció una compensación justa para el talento dentro del presupuesto."
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.dmaic.C",
+    "english": "All four songs delivered with high-quality vocal performances. Stakeholders expressed great satisfaction. Relationships strengthened for future collaborations.",
+    "claude": "Las cuatro canciones entregadas con actuaciones vocales de alta calidad. Los interesados expresaron gran satisfacción. Relaciones fortalecidas para futuras colaboraciones.",
+    "codex": "Las cuatro canciones se entregaron con performances vocales de alta calidad. Los stakeholders expresaron gran satisfacción. Las relaciones quedaron fortalecidas para futuras colaboraciones.",
+    "gemini": "Entrega de las cuatro canciones con interpretaciones vocales de alta calidad. Los interesados expresaron gran satisfacción. Relaciones fortalecidas para futuras colaboraciones.",
+    "reason": "No consensus — similarities: C↔X=0.80, C↔G=0.83, X↔G=0.70",
+    "chosen": "Las cuatro canciones entregadas con actuaciones vocales de alta calidad. Los interesados expresaron gran satisfacción. Relaciones fortalecidas para futuras colaboraciones."
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.timeline[1]",
+    "english": "Vocal Arrangement",
+    "claude": "Arreglo vocal",
+    "codex": "Arreglo vocal",
+    "gemini": "Arreglos vocales",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.81, X↔G=0.81",
+    "chosen": "Arreglo vocal"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.tools[0]",
+    "english": "Vocal Arranging",
+    "claude": "Arreglos vocales",
+    "codex": "Vocal Arranging",
+    "gemini": "Vocal Arranging",
+    "reason": "No consensus — similarities: C↔X=0.06, C↔G=0.06, X↔G=1.00",
+    "chosen": "Vocal Arranging"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.tools[2]",
+    "english": "Talent Acquisition",
+    "claude": "Adquisición de talento",
+    "codex": "Talent Acquisition",
+    "gemini": "Talent Acquisition",
+    "reason": "No consensus — similarities: C↔X=0.09, C↔G=0.09, X↔G=1.00",
+    "chosen": "Talent Acquisition"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.tools[3]",
+    "english": "Session Direction",
+    "claude": "Dirección de sesión",
+    "codex": "Session Direction",
+    "gemini": "Session Direction",
+    "reason": "No consensus — similarities: C↔X=0.32, C↔G=0.32, X↔G=1.00",
+    "chosen": "Session Direction"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.tools[4]",
+    "english": "Stakeholder Negotiation",
+    "claude": "Negociación con interesados",
+    "codex": "Stakeholder Negotiation",
+    "gemini": "Stakeholder Negotiation",
+    "reason": "No consensus — similarities: C↔X=0.11, C↔G=0.11, X↔G=1.00",
+    "chosen": "Stakeholder Negotiation"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.tools[5]",
+    "english": "Comping & Tuning",
+    "claude": "Comping y afinación",
+    "codex": "Comping & Tuning",
+    "gemini": "Comping & Tuning",
+    "reason": "No consensus — similarities: C↔X=0.58, C↔G=0.58, X↔G=1.00",
+    "chosen": "Comping & Tuning"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.tools[6]",
+    "english": "International Collaboration",
+    "claude": "Colaboración internacional",
+    "codex": "International Collaboration",
+    "gemini": "International Collaboration",
+    "reason": "No consensus — similarities: C↔X=0.19, C↔G=0.19, X↔G=1.00",
+    "chosen": "International Collaboration"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.outcomes[1]",
+    "english": "High-quality vocal performances capturing artist vision",
+    "claude": "Actuaciones vocales de alta calidad que capturan la visión del artista",
+    "codex": "Performances vocales de alta calidad que capturaron la visión del artista",
+    "gemini": "Interpretaciones vocales de alta calidad capturando la visión del artista",
+    "reason": "No consensus — similarities: C↔X=0.85, C↔G=0.81, X↔G=0.75",
+    "chosen": "Performances vocales de alta calidad que capturaron la visión del artista"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.outcomes[2]",
+    "english": "Stakeholder satisfaction from Warner Music and management",
+    "claude": "Satisfacción de los interesados de Warner Music y management",
+    "codex": "Satisfacción de stakeholders de Warner Music y management",
+    "gemini": "Satisfacción de los interesados de Warner Music y la gerencia",
+    "reason": "No consensus — similarities: C↔X=0.80, C↔G=0.89, X↔G=0.69",
+    "chosen": "Satisfacción de stakeholders de Warner Music y management"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.outcomes[4]",
+    "english": "Seamless BGV integration into final album mix",
+    "claude": "Integración fluida de BGV en la mezcla final del álbum",
+    "codex": "Integración fluida de BGV en la mezcla final del álbum",
+    "gemini": "Integración perfecta de los coros en la mezcla final del álbum",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.74, X↔G=0.74",
+    "chosen": "Integración fluida de BGV en la mezcla final del álbum"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.description",
+    "english": "Led the choral and recording studio components of Image Village 2023, a summer camp at Heart and Soul Center in South Central Los Angeles. Taught vocal technique and ensemble skills to two age groups while guiding students through songwriting, DAW production, and music video creation.",
+    "claude": "Lideró los componentes coral y de estudio de grabación de Image Village 2023, un campamento de verano en Heart and Soul Center en South Central Los Angeles. Enseñó técnica vocal y habilidades de conjunto a dos grupos de edad mientras guiaba a los estudiantes a través de la composición, producción DAW y creación de videos musicales.",
+    "codex": "Lideró los componentes de coro y recording studio de Image Village 2023, un campamento de verano en Heart and Soul Center en South Central Los Angeles. Enseñó técnica vocal y habilidades de ensamble a dos grupos de edad mientras guiaba a estudiantes en composición, producción con DAW y creación de videos musicales.",
+    "gemini": "Lideró los componentes de coro y estudio de grabación de Image Village 2023, un campamento de verano en Heart and Soul Center en el sur de Los Ángeles. Enseñanza de técnica vocal y habilidades de ensamble a dos grupos de edad mientras guiaba a los estudiantes a través de la composición, producción en DAW y creación de videos musicales.",
+    "reason": "No consensus — similarities: C↔X=0.84, C↔G=0.88, X↔G=0.84",
+    "chosen": "Lideró los componentes coral y de estudio de grabación de Image Village 2023, un campamento de verano en Heart and Soul Center en South Central Los Angeles. Enseñó técnica vocal y habilidades de conjunto a dos grupos de edad mientras guiaba a los estudiantes a través de la composición, producción DAW y creación de videos musicales."
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.dmaic.D",
+    "english": "Deliver a summer camp music program at Heart and Soul Center combining choral instruction and recording studio education for youth in South Central Los Angeles.",
+    "claude": "Ofrecer un programa musical de campamento de verano en Heart and Soul Center que combine instrucción coral y educación en estudio de grabación para jóvenes de South Central Los Angeles.",
+    "codex": "Entregar un programa musical de campamento de verano en Heart and Soul Center que combine instrucción coral y educación de recording studio para jóvenes en South Central Los Angeles.",
+    "gemini": "Entregar un programa de música de campamento de verano en Heart and Soul Center combinando instrucción coral y educación en estudio de grabación para jóvenes en el sur de Los Ángeles.",
+    "reason": "No consensus — similarities: C↔X=0.86, C↔G=0.82, X↔G=0.76",
+    "chosen": "Ofrecer un programa musical de campamento de verano en Heart and Soul Center que combine instrucción coral y educación en estudio de grabación para jóvenes de South Central Los Angeles."
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.dmaic.M",
+    "english": "Student skill development in vocal technique and music production, successful end-of-camp performance, completion of student music video, and lesson plan delivery.",
+    "claude": "Desarrollo de habilidades de los estudiantes en técnica vocal y producción musical, actuación exitosa al final del campamento, finalización del video musical de los estudiantes y entrega de planes de lección.",
+    "codex": "Desarrollo de habilidades estudiantiles en técnica vocal y producción musical, presentación final exitosa, finalización del video musical estudiantil y cumplimiento del plan de clases.",
+    "gemini": "Desarrollo de habilidades de los estudiantes en técnica vocal y producción musical, presentación final exitosa del campamento, finalización del video musical de los estudiantes y entrega del plan de lecciones.",
+    "reason": "No consensus — similarities: C↔X=0.67, C↔G=0.88, X↔G=0.76",
+    "chosen": "Desarrollo de habilidades de los estudiantes en técnica vocal y producción musical, actuación exitosa al final del campamento, finalización del video musical de los estudiantes y entrega de planes de lección."
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.dmaic.C",
+    "english": "End-of-camp performance delivered successfully with both age groups. Students completed songwriting and production projects. Music video created. Lesson plans executed and documented. Photo and video footage archived for portfolio.",
+    "claude": "Actuación final del campamento entregada exitosamente con ambos grupos de edad. Los estudiantes completaron proyectos de composición y producción. Video musical creado. Planes de lección ejecutados y documentados. Fotografías y videos archivados.",
+    "codex": "La presentación final del campamento se realizó con éxito con ambos grupos de edad. Los estudiantes completaron proyectos de composición y producción. Se creó un video musical. Los planes de clase se ejecutaron y documentaron. Material de foto y video archivado para el portfolio.",
+    "gemini": "Presentación final del campamento entregada con éxito con ambos grupos de edad. Los estudiantes completaron proyectos de composición y producción. Video musical creado. Planes de lecciones ejecutados y documentados. Material fotográfico y de video archivado para el portafolio.",
+    "reason": "No consensus — similarities: C↔X=0.68, C↔G=0.79, X↔G=0.80",
+    "chosen": "Actuación final del campamento entregada exitosamente con ambos grupos de edad. Los estudiantes completaron proyectos de composición y producción. Video musical creado. Planes de lección ejecutados y documentados. Fotografías y videos archivados."
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.timeline[0]",
+    "english": "Lesson Plan Development",
+    "claude": "Desarrollo de planes de lección",
+    "codex": "Desarrollo de planes de clase",
+    "gemini": "Desarrollo del plan de lecciones",
+    "reason": "No consensus — similarities: C↔X=0.81, C↔G=0.81, X↔G=0.69",
+    "chosen": "Desarrollo de planes de clase"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.timeline[3]",
+    "english": "Performance & Video",
+    "claude": "Actuación y video",
+    "codex": "Presentación & video",
+    "gemini": "Presentación y video",
+    "reason": "No consensus — similarities: C↔X=0.60, C↔G=0.65, X↔G=0.95",
+    "chosen": "Presentación & video"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.tools[0]",
+    "english": "Vocal Instruction",
+    "claude": "Instrucción vocal",
+    "codex": "Vocal Instruction",
+    "gemini": "Vocal Instruction",
+    "reason": "No consensus — similarities: C↔X=0.18, C↔G=0.18, X↔G=1.00",
+    "chosen": "Vocal Instruction"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.tools[1]",
+    "english": "DAW Production",
+    "claude": "Producción DAW",
+    "codex": "DAW Production",
+    "gemini": "DAW Production",
+    "reason": "No consensus — similarities: C↔X=0.29, C↔G=0.29, X↔G=1.00",
+    "chosen": "DAW Production"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.tools[2]",
+    "english": "Songwriting",
+    "claude": "Composición musical",
+    "codex": "Songwriting",
+    "gemini": "Songwriting",
+    "reason": "No consensus — similarities: C↔X=0.21, C↔G=0.21, X↔G=1.00",
+    "chosen": "Songwriting"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.tools[3]",
+    "english": "Music Video Production",
+    "claude": "Producción de video musical",
+    "codex": "Music Video Production",
+    "gemini": "Music Video Production",
+    "reason": "No consensus — similarities: C↔X=0.22, C↔G=0.22, X↔G=1.00",
+    "chosen": "Music Video Production"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.tools[4]",
+    "english": "Lesson Planning",
+    "claude": "Planificación de lecciones",
+    "codex": "Lesson Planning",
+    "gemini": "Lesson Planning",
+    "reason": "No consensus — similarities: C↔X=0.19, C↔G=0.19, X↔G=1.00",
+    "chosen": "Lesson Planning"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.tools[5]",
+    "english": "Ensemble Direction",
+    "claude": "Dirección de conjunto",
+    "codex": "Ensemble Direction",
+    "gemini": "Ensemble Direction",
+    "reason": "No consensus — similarities: C↔X=0.14, C↔G=0.14, X↔G=1.00",
+    "chosen": "Ensemble Direction"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.tools[6]",
+    "english": "Youth Education",
+    "claude": "Educación juvenil",
+    "codex": "Youth Education",
+    "gemini": "Youth Education",
+    "reason": "No consensus — similarities: C↔X=0.12, C↔G=0.12, X↔G=1.00",
+    "chosen": "Youth Education"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.outcomes[0]",
+    "english": "End-of-camp performance with both age groups",
+    "claude": "Actuación final con ambos grupos de edad",
+    "codex": "Presentación final con ambos grupos de edad",
+    "gemini": "Presentación final del campamento con ambos grupos de edad",
+    "reason": "No consensus — similarities: C↔X=0.84, C↔G=0.62, X↔G=0.74",
+    "chosen": "Presentación final con ambos grupos de edad"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.outcomes[1]",
+    "english": "Student songwriting and DAW production projects completed",
+    "claude": "Proyectos de composición y producción DAW de los estudiantes completados",
+    "codex": "Proyectos estudiantiles de composición y producción con DAW completados",
+    "gemini": "Proyectos de composición y producción en DAW de los estudiantes completados",
+    "reason": "No consensus — similarities: C↔X=0.53, C↔G=0.96, X↔G=0.53",
+    "chosen": "Proyectos estudiantiles de composición y producción con DAW completados"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.outcomes[3]",
+    "english": "Comprehensive lesson plans developed and executed",
+    "claude": "Planes de lección completos desarrollados y ejecutados",
+    "codex": "Planes de clase integrales desarrollados y ejecutados",
+    "gemini": "Planes de lecciones integrales desarrollados y ejecutados",
+    "reason": "No consensus — similarities: C↔X=0.76, C↔G=0.79, X↔G=0.88",
+    "chosen": "Planes de clase integrales desarrollados y ejecutados"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.outcomes[4]",
+    "english": "Photo and video footage archived for portfolio",
+    "claude": "Fotografías y videos archivados",
+    "codex": "Material de foto y video archivado para el portfolio",
+    "gemini": "Material fotográfico y de video archivado para el portafolio",
+    "reason": "No consensus — similarities: C↔X=0.38, C↔G=0.38, X↔G=0.78",
+    "chosen": "Material de foto y video archivado para el portfolio"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.description",
+    "english": "Collaborating to create a dynamic live performance of an unreleased alt. hip hop album during the global pandemic.",
+    "claude": "Colaboración para crear una actuación en vivo dinámica de un álbum inédito de alt. hip hop durante la pandemia global.",
+    "codex": "Colaboración para crear una presentación en vivo dinámica de un álbum inédito de alt. hip hop durante la pandemia global.",
+    "gemini": "Colaboración para crear una presentación dinámica en vivo de un álbum inédito de hip hop alternativo durante la pandemia global.",
+    "reason": "No consensus — similarities: C↔X=0.94, C↔G=0.73, X↔G=0.78",
+    "chosen": "Colaboración para crear una actuación en vivo dinámica de un álbum inédito de alt. hip hop durante la pandemia global."
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.dmaic.D",
+    "english": "Produce a dynamic live performance of an unreleased alt. hip hop album during the global pandemic.",
+    "claude": "Producir una actuación en vivo dinámica de un álbum inédito de alt. hip hop durante la pandemia global.",
+    "codex": "Producir una presentación en vivo dinámica de un álbum inédito de alt. hip hop durante la pandemia global.",
+    "gemini": "Producir una presentación dinámica en vivo de un álbum inédito de hip hop alternativo durante la pandemia global.",
+    "reason": "No consensus — similarities: C↔X=0.93, C↔G=0.69, X↔G=0.75",
+    "chosen": "Producir una actuación en vivo dinámica de un álbum inédito de alt. hip hop durante la pandemia global."
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.dmaic.I",
+    "english": "Collaborated to design and execute a high-energy live set that brought the album to life without a traditional release.",
+    "claude": "Colaboró para diseñar y ejecutar un set en vivo de alta energía que dio vida al álbum sin un lanzamiento tradicional.",
+    "codex": "Colaboró en el diseño y ejecución de un live set de alta energía que dio vida al álbum sin un lanzamiento tradicional.",
+    "gemini": "Colaboración para diseñar y ejecutar un set en vivo de alta energía que dio vida al álbum sin un lanzamiento tradicional.",
+    "reason": "No consensus — similarities: C↔X=0.82, C↔G=0.97, X↔G=0.80",
+    "chosen": "Colaboró para diseñar y ejecutar un set en vivo de alta energía que dio vida al álbum sin un lanzamiento tradicional."
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.dmaic.C",
+    "english": "Performance completed and documented. Served as a controlled creative proof-of-concept for the artist's unreleased work.",
+    "claude": "Actuación completada y documentada. Sirvió como un proof-of-concept creativo controlado para el material inédito del artista.",
+    "codex": "Presentación completada y documentada. Sirvió como proof-of-concept creativo controlado para el trabajo inédito del artista.",
+    "gemini": "Presentación completada y documentada. Sirvió como una prueba de concepto creativa controlada para la obra inédita del artista.",
+    "reason": "No consensus — similarities: C↔X=0.86, C↔G=0.78, X↔G=0.81",
+    "chosen": "Actuación completada y documentada. Sirvió como un proof-of-concept creativo controlado para el material inédito del artista."
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.timeline[0]",
+    "english": "Creative Concepting",
+    "claude": "Conceptualización creativa",
+    "codex": "Conceptualización creativa",
+    "gemini": "Concepto creativo",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.58, X↔G=0.58",
+    "chosen": "Conceptualización creativa"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.timeline[1]",
+    "english": "Set Design & Logistics",
+    "claude": "Diseño del escenario y logística",
+    "codex": "Diseño de set & logística",
+    "gemini": "Diseño de set y logística",
+    "reason": "No consensus — similarities: C↔X=0.72, C↔G=0.75, X↔G=0.96",
+    "chosen": "Diseño de set & logística"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.timeline[2]",
+    "english": "Rehearsal & Tech",
+    "claude": "Ensayo y técnica",
+    "codex": "Ensayo & técnica",
+    "gemini": "Ensayo y técnica",
+    "reason": "No consensus — similarities: C↔X=0.94, C↔G=1.00, X↔G=0.94",
+    "chosen": "Ensayo & técnica"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.timeline[3]",
+    "english": "Live Performance",
+    "claude": "Actuación en vivo",
+    "codex": "Presentación en vivo",
+    "gemini": "Presentación en vivo",
+    "reason": "No consensus — similarities: C↔X=0.65, C↔G=0.65, X↔G=1.00",
+    "chosen": "Presentación en vivo"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.tools[0]",
+    "english": "Live Production",
+    "claude": "Producción en vivo",
+    "codex": "Live Production",
+    "gemini": "Live Production",
+    "reason": "No consensus — similarities: C↔X=0.17, C↔G=0.17, X↔G=1.00",
+    "chosen": "Live Production"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.tools[1]",
+    "english": "Stage Design",
+    "claude": "Diseño de escenario",
+    "codex": "Stage Design",
+    "gemini": "Stage Design",
+    "reason": "No consensus — similarities: C↔X=0.21, C↔G=0.21, X↔G=1.00",
+    "chosen": "Stage Design"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.tools[2]",
+    "english": "Pandemic Safety Protocols",
+    "claude": "Protocolos de seguridad pandémica",
+    "codex": "Pandemic Safety Protocols",
+    "gemini": "Pandemic Safety Protocols",
+    "reason": "No consensus — similarities: C↔X=0.12, C↔G=0.12, X↔G=1.00",
+    "chosen": "Pandemic Safety Protocols"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.tools[3]",
+    "english": "Multi-Camera Capture",
+    "claude": "Captura multicámara",
+    "codex": "Multi-Camera Capture",
+    "gemini": "Multi-Camera Capture",
+    "reason": "No consensus — similarities: C↔X=0.15, C↔G=0.15, X↔G=1.00",
+    "chosen": "Multi-Camera Capture"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.tools[4]",
+    "english": "Creative Direction",
+    "claude": "Dirección creativa",
+    "codex": "Creative Direction",
+    "gemini": "Creative Direction",
+    "reason": "No consensus — similarities: C↔X=0.39, C↔G=0.39, X↔G=1.00",
+    "chosen": "Creative Direction"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.outcomes[0]",
+    "english": "Dynamic live set of unreleased album executed",
+    "claude": "Set en vivo dinámico de álbum inédito ejecutado",
+    "codex": "Live set dinámico de álbum inédito ejecutado",
+    "gemini": "Set dinámico en vivo del álbum inédito ejecutado",
+    "reason": "No consensus — similarities: C↔X=0.81, C↔G=0.77, X↔G=0.69",
+    "chosen": "Live set dinámico de álbum inédito ejecutado"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.outcomes[1]",
+    "english": "Creative proof-of-concept for artist",
+    "claude": "Proof-of-concept creativo para el artista",
+    "codex": "Proof-of-concept creativo para el artista",
+    "gemini": "Prueba de concepto creativa para el artista",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.77, X↔G=0.77",
+    "chosen": "Proof-of-concept creativo para el artista"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.outcomes[3]",
+    "english": "High audience engagement and artistic cohesion",
+    "claude": "Alto compromiso de la audiencia y cohesión artística",
+    "codex": "Alto engagement de audiencia y cohesión artística",
+    "gemini": "Alto compromiso de la audiencia y cohesión artística",
+    "reason": "No consensus — similarities: C↔X=0.77, C↔G=1.00, X↔G=0.77",
+    "chosen": "Alto engagement de audiencia y cohesión artística"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.description",
+    "english": "Directed the LMU Gospel Choir, leading semester-long cycles of recruitment, rehearsal, and performance. Managed vocal coaching, promotional design, musician hiring, budget negotiation, and alumni collaborations.",
+    "claude": "Dirigió el LMU Gospel Choir, liderando ciclos semestrales de reclutamiento, ensayos y actuaciones. Gestionó la instrucción vocal, el diseño de materiales promocionales, la contratación de músicos, la negociación de presupuestos y las colaboraciones con exalumnos.",
+    "codex": "Dirigió el LMU Gospel Choir, liderando ciclos semestrales de reclutamiento, ensayo y presentación. Gestionó coaching vocal, diseño promocional, contratación de músicos, negociación presupuestaria y colaboraciones con alumni.",
+    "gemini": "Dirigió el LMU Gospel Choir, liderando ciclos semestrales de reclutamiento, ensayo y presentación. Gestión de entrenamiento vocal, diseño promocional, contratación de músicos, negociación de presupuesto y colaboraciones con exalumnos.",
+    "reason": "No consensus — similarities: C↔X=0.76, C↔G=0.79, X↔G=0.89",
+    "chosen": "Dirigió el LMU Gospel Choir, liderando ciclos semestrales de reclutamiento, ensayos y actuaciones. Gestionó la instrucción vocal, el diseño de materiales promocionales, la contratación de músicos, la negociación de presupuestos y las colaboraciones con exalumnos."
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.dmaic.D",
+    "english": "Sustain and direct the LMU Gospel Choir within the Department of African American Studies, focusing on student vocal development, culturally informed performance, and successful end-of-semester concerts each term across all four course levels.",
+    "claude": "Mantener y dirigir el LMU Gospel Choir dentro del Department of African American Studies, enfocándose en el desarrollo vocal de los estudiantes, actuaciones culturalmente fundamentadas y conciertos exitosos al final de cada semestre en todos los cuatro niveles del curso.",
+    "codex": "Sostener y dirigir el LMU Gospel Choir dentro del Department of African American Studies, con foco en el desarrollo vocal estudiantil, performance culturalmente informada y conciertos exitosos de fin de semestre en cada periodo y en los cuatro niveles del curso.",
+    "gemini": "Mantener y dirigir el LMU Gospel Choir dentro del Departamento de Estudios Afroamericanos, enfocándose en el desarrollo vocal de los estudiantes, presentaciones culturalmente informadas y conciertos de fin de semestre exitosos en cada término a través de los cuatro niveles del curso.",
+    "reason": "No consensus — similarities: C↔X=0.77, C↔G=0.73, X↔G=0.70",
+    "chosen": "Mantener y dirigir el LMU Gospel Choir dentro del Department of African American Studies, enfocándose en el desarrollo vocal de los estudiantes, actuaciones culturalmente fundamentadas y conciertos exitosos al final de cada semestre en todos los cuatro niveles del curso."
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.dmaic.M",
+    "english": "Student enrollment and retention across non-audition course levels, performance quality, vocal growth across the semester, successful execution of end-of-semester concerts, and community engagement.",
+    "claude": "Inscripción y retención de estudiantes en todos los niveles del curso sin audición, calidad de la actuación, crecimiento vocal durante el semestre, ejecución exitosa de los conciertos finales y compromiso comunitario.",
+    "codex": "Inscripción y retención estudiantil en niveles de curso sin audición, calidad de performance, crecimiento vocal durante el semestre, ejecución exitosa de conciertos de fin de semestre y engagement comunitario.",
+    "gemini": "Inscripción y retención de estudiantes en niveles de curso sin audición, calidad de la presentación, crecimiento vocal a lo largo del semestre, ejecución exitosa de conciertos de fin de semestre y compromiso comunitario.",
+    "reason": "No consensus — similarities: C↔X=0.76, C↔G=0.80, X↔G=0.83",
+    "chosen": "Inscripción y retención de estudiantes en todos los niveles del curso sin audición, calidad de la actuación, crecimiento vocal durante el semestre, ejecución exitosa de los conciertos finales y compromiso comunitario."
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.dmaic.A",
+    "english": "Operating a non-audition ensemble within a department outside of music, managing enrollment decline, navigating departmental budget restrictions, working with students of varying skill levels, and working within an established curriculum while adding personal direction to rehearsals and performances.",
+    "claude": "Operar un conjunto sin audición dentro de un departamento fuera del área musical, gestionar la disminución de inscripciones, navegar las restricciones presupuestarias del departamento, trabajar con estudiantes de niveles de habilidad variados y trabajar dentro de un currículo establecido mientras se añade dirección personal a los ensayos y actuaciones.",
+    "codex": "Operar un ensamble sin audición dentro de un departamento fuera de música, gestionar la caída de inscripción, navegar restricciones presupuestarias departamentales, trabajar con estudiantes de diferentes niveles y operar dentro de un currículo establecido mientras se añadía dirección personal a ensayos y performances.",
+    "gemini": "Operar un ensamble sin audición dentro de un departamento fuera de la música, gestionar la disminución de la inscripción, navegar las restricciones presupuestarias departamentales, trabajar con estudiantes de diversos niveles de habilidad y trabajar dentro de un currículo establecido mientras se añadía dirección personal a los ensayos y presentaciones.",
+    "reason": "No consensus — similarities: C↔X=0.76, C↔G=0.84, X↔G=0.83",
+    "chosen": "Operar un conjunto sin audición dentro de un departamento fuera del área musical, gestionar la disminución de inscripciones, navegar las restricciones presupuestarias del departamento, trabajar con estudiantes de niveles de habilidad variados y trabajar dentro de un currículo establecido mientras se añade dirección personal a los ensayos y actuaciones."
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.dmaic.I",
+    "english": "Led an existing gospel choir program, combining African American Gospel Music history with practical vocal training. Taught music by rote with score reading support. Provided one-on-one and small group vocal coaching. Created flyers and promotional graphics for performances. Hired session musicians. Negotiated budget allocation with department leadership. Invited alumni to return as lead vocalists for concerts. Advocated for course cross-listing to boost enrollment.",
+    "claude": "Lideró un programa de coro gospel existente que combinaba la historia de la música gospel afroamericana con la formación vocal práctica. Enseñó música de memoria con apoyo de lectura de partitura. Proporcionó instrucción vocal individual y en grupos pequeños. Creó volantes y gráficos promocionales para actuaciones. Contrató músicos de sesión. Negoció la asignación del presupuesto con el liderazgo del departamento. Invitó a exalumnos a regresar como vocalistas principales en conciertos. Abogó por la cotización cruzada del curso para aumentar las inscripciones.",
+    "codex": "Lideró un programa de coro gospel existente, combinando historia de African American Gospel Music con entrenamiento vocal práctico. Enseñó música por repetición oral con apoyo de lectura de partituras. Ofreció coaching vocal individual y en grupos pequeños. Creó flyers y gráficos promocionales para presentaciones. Contrató session musicians. Negoció asignación presupuestaria con liderazgo del departamento. Invitó a alumni a regresar como lead vocalists para conciertos. Abogó por course cross-listing para aumentar la inscripción.",
+    "gemini": "Liderazgo de un programa de coro gospel existente, combinando la historia de la música gospel afroamericana con entrenamiento vocal práctico. Enseñanza de música de oído con apoyo de lectura de partituras. Provisión de entrenamiento vocal individual y en grupos pequeños. Creación de volantes y gráficos promocionales para presentaciones. Contratación de músicos de sesión. Negociación de la asignación de presupuesto con el liderazgo del departamento. Invitación a exalumnos para regresar como vocalistas principales en los conciertos. Abogacía por el listado cruzado del curso para impulsar la inscripción.",
+    "reason": "No consensus — similarities: C↔X=0.71, C↔G=0.80, X↔G=0.69",
+    "chosen": "Lideró un programa de coro gospel existente que combinaba la historia de la música gospel afroamericana con la formación vocal práctica. Enseñó música de memoria con apoyo de lectura de partitura. Proporcionó instrucción vocal individual y en grupos pequeños. Creó volantes y gráficos promocionales para actuaciones. Contrató músicos de sesión. Negoció la asignación del presupuesto con el liderazgo del departamento. Invitó a exalumnos a regresar como vocalistas principales en conciertos. Abogó por la cotización cruzada del curso para aumentar las inscripciones."
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.dmaic.C",
+    "english": "Multiple semesters of successful end-of-semester concerts delivered. Students developed vocal technique and cultural understanding across a non-audition ensemble. Alumni collaborations strengthened the program's legacy. Promotional materials consistently drove audience attendance.",
+    "claude": "Múltiples semestres de conciertos finales exitosos entregados. Los estudiantes desarrollaron técnica vocal y comprensión cultural en un conjunto sin audición. Las colaboraciones con exalumnos fortalecieron el legado del programa. Los materiales promocionales impulsaron consistentemente la asistencia del público.",
+    "codex": "Se entregaron múltiples semestres de conciertos exitosos de fin de semestre. Los estudiantes desarrollaron técnica vocal y comprensión cultural en un ensamble sin audición. Las colaboraciones con alumni fortalecieron el legado del programa. Los materiales promocionales impulsaron consistentemente la asistencia de público.",
+    "gemini": "Múltiples semestres de conciertos de fin de semestre exitosos entregados. Los estudiantes desarrollaron técnica vocal y comprensión cultural en un ensamble sin audición. Las colaboraciones con exalumnos fortalecieron el legado del programa. Los materiales promocionales impulsaron constantemente la asistencia de la audiencia.",
+    "reason": "No consensus — similarities: C↔X=0.85, C↔G=0.90, X↔G=0.82",
+    "chosen": "Múltiples semestres de conciertos finales exitosos entregados. Los estudiantes desarrollaron técnica vocal y comprensión cultural en un conjunto sin audición. Las colaboraciones con exalumnos fortalecieron el legado del programa. Los materiales promocionales impulsaron consistentemente la asistencia del público."
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.timeline[3]",
+    "english": "Performance Production",
+    "claude": "Producción de actuaciones",
+    "codex": "Producción de performance",
+    "gemini": "Producción de presentaciones",
+    "reason": "No consensus — similarities: C↔X=0.60, C↔G=0.75, X↔G=0.61",
+    "chosen": "Producción de performance"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.tools[0]",
+    "english": "Vocal Direction",
+    "claude": "Dirección vocal",
+    "codex": "Vocal Direction",
+    "gemini": "Vocal Direction",
+    "reason": "No consensus — similarities: C↔X=0.07, C↔G=0.07, X↔G=1.00",
+    "chosen": "Vocal Direction"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.tools[1]",
+    "english": "Program Leadership",
+    "claude": "Liderazgo del programa",
+    "codex": "Program Leadership",
+    "gemini": "Program Leadership",
+    "reason": "No consensus — similarities: C↔X=0.23, C↔G=0.23, X↔G=1.00",
+    "chosen": "Program Leadership"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.tools[2]",
+    "english": "Graphic Design",
+    "claude": "Diseño gráfico",
+    "codex": "Graphic Design",
+    "gemini": "Graphic Design",
+    "reason": "No consensus — similarities: C↔X=0.07, C↔G=0.07, X↔G=1.00",
+    "chosen": "Graphic Design"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.tools[3]",
+    "english": "Budget Negotiation",
+    "claude": "Negociación de presupuesto",
+    "codex": "Budget Negotiation",
+    "gemini": "Budget Negotiation",
+    "reason": "No consensus — similarities: C↔X=0.08, C↔G=0.08, X↔G=1.00",
+    "chosen": "Budget Negotiation"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.tools[4]",
+    "english": "Talent Acquisition",
+    "claude": "Adquisición de talento",
+    "codex": "Talent Acquisition",
+    "gemini": "Talent Acquisition",
+    "reason": "No consensus — similarities: C↔X=0.09, C↔G=0.09, X↔G=1.00",
+    "chosen": "Talent Acquisition"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.tools[5]",
+    "english": "Alumni Relations",
+    "claude": "Relaciones con exalumnos",
+    "codex": "Alumni Relations",
+    "gemini": "Alumni Relations",
+    "reason": "No consensus — similarities: C↔X=0.29, C↔G=0.29, X↔G=1.00",
+    "chosen": "Alumni Relations"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.tools[6]",
+    "english": "Event Planning",
+    "claude": "Planificación de eventos",
+    "codex": "Event Planning",
+    "gemini": "Event Planning",
+    "reason": "No consensus — similarities: C↔X=0.17, C↔G=0.17, X↔G=1.00",
+    "chosen": "Event Planning"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.tools[7]",
+    "english": "Music Selection",
+    "claude": "Selección musical",
+    "codex": "Music Selection",
+    "gemini": "Music Selection",
+    "reason": "No consensus — similarities: C↔X=0.12, C↔G=0.12, X↔G=1.00",
+    "chosen": "Music Selection"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.outcomes[0]",
+    "english": "Multiple successful end-of-semester concerts produced",
+    "claude": "Múltiples conciertos finales exitosos producidos",
+    "codex": "Múltiples conciertos exitosos de fin de semestre producidos",
+    "gemini": "Múltiples conciertos de fin de semestre exitosos producidos",
+    "reason": "No consensus — similarities: C↔X=0.66, C↔G=0.78, X↔G=0.69",
+    "chosen": "Múltiples conciertos exitosos de fin de semestre producidos"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.outcomes[1]",
+    "english": "Student vocal development and cultural education delivered each semester",
+    "claude": "Desarrollo vocal y educación cultural de los estudiantes entregados cada semestre",
+    "codex": "Desarrollo vocal estudiantil y educación cultural entregados cada semestre",
+    "gemini": "Desarrollo vocal y educación cultural de los estudiantes entregados cada semestre",
+    "reason": "No consensus — similarities: C↔X=0.62, C↔G=1.00, X↔G=0.62",
+    "chosen": "Desarrollo vocal estudiantil y educación cultural entregados cada semestre"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.outcomes[2]",
+    "english": "Alumni vocalists engaged for concert collaborations",
+    "claude": "Vocalistas exalumnos comprometidos para colaboraciones en conciertos",
+    "codex": "Vocalistas alumni incorporados para colaboraciones en conciertos",
+    "gemini": "Vocalistas exalumnos comprometidos para colaboraciones en conciertos",
+    "reason": "No consensus — similarities: C↔X=0.82, C↔G=1.00, X↔G=0.82",
+    "chosen": "Vocalistas alumni incorporados para colaboraciones en conciertos"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.outcomes[4]",
+    "english": "Session musicians hired and coordinated for live performances",
+    "claude": "Músicos de sesión contratados y coordinados para actuaciones en vivo",
+    "codex": "Session musicians contratados y coordinados para presentaciones en vivo",
+    "gemini": "Músicos de sesión contratados y coordinados para presentaciones en vivo",
+    "reason": "No consensus — similarities: C↔X=0.73, C↔G=0.90, X↔G=0.83",
+    "chosen": "Session musicians contratados y coordinados para presentaciones en vivo"
+  },
+  {
+    "key": "data.films.sinners.role",
+    "english": "Featured Vocalist — Original Motion Picture Soundtrack",
+    "claude": "Vocalista destacado — Banda sonora original de la película",
+    "codex": "Featured Vocalist — Original Motion Picture Soundtrack",
+    "gemini": "Featured Vocalist — Original Motion Picture Soundtrack",
+    "reason": "No consensus — similarities: C↔X=0.17, C↔G=0.17, X↔G=1.00",
+    "chosen": "Featured Vocalist — Original Motion Picture Soundtrack"
+  },
+  {
+    "key": "data.films.sinners.recognition",
+    "english": "GRAMMY® Award Winner",
+    "claude": "Ganador del GRAMMY® Award",
+    "codex": "GRAMMY® Award Winner",
+    "gemini": "Ganador del Premio GRAMMY®",
+    "reason": "No consensus — similarities: C↔X=0.24, C↔G=0.50, X↔G=0.15",
+    "chosen": "GRAMMY® Award Winner"
+  },
+  {
+    "key": "data.films.sinners.description",
+    "english": "Featured vocalist on the original motion picture soundtrack for Sinners, the 2025 Warner Bros. film written and directed by Ryan Coogler.",
+    "claude": "Vocalista destacado en la banda sonora original de Sinners, la película de Warner Bros. de 2025 escrita y dirigida por Ryan Coogler.",
+    "codex": "Featured vocalist en el original motion picture soundtrack de Sinners, la película de Warner Bros. de 2025 escrita y dirigida por Ryan Coogler.",
+    "gemini": "Vocalista invitado en la banda sonora original de Sinners, la película de Warner Bros. de 2025 escrita y dirigida por Ryan Coogler.",
+    "reason": "No consensus — similarities: C↔X=0.69, C↔G=0.95, X↔G=0.70",
+    "chosen": "Vocalista destacado en la banda sonora original de Sinners, la película de Warner Bros. de 2025 escrita y dirigida por Ryan Coogler."
+  },
+  {
+    "key": "data.films.sinners.details[1].text",
+    "english": "I performed as a member of The DC6 Singers Collective, a Los Angeles-based vocal ensemble - alongside fellow members who contributed featured vocals to the film's soundtrack, most notably on \"This Little Light of Mine\" alongside Miles Caton and the Pleasant Valley Youth Choir of New Orleans. The soundtrack was executive produced by Ludwig Göransson, Ryan Coogler, and Serena Göransson, and released digitally on April 18, 2025 through Sony Masterworks.",
+    "claude": "Actué como miembro de The DC6 Singers Collective, un conjunto vocal con base en Los Ángeles — junto a otros miembros que contribuyeron con voces destacadas en la banda sonora de la película, especialmente en \"This Little Light of Mine\" junto a Miles Caton y el Pleasant Valley Youth Choir of New Orleans. La banda sonora fue producida ejecutivamente por Ludwig Göransson, Ryan Coogler y Serena Göransson, y lanzada digitalmente el 18 de abril de 2025 a través de Sony Masterworks.",
+    "codex": "Participé como miembro de The DC6 Singers Collective, un ensamble vocal basado en Los Angeles - junto a otros miembros que aportaron featured vocals al soundtrack de la película, especialmente en \"This Little Light of Mine\" junto a Miles Caton y Pleasant Valley Youth Choir of New Orleans. El soundtrack fue executive produced por Ludwig Göransson, Ryan Coogler y Serena Göransson, y se lanzó digitalmente el 18 de abril de 2025 a través de Sony Masterworks.",
+    "gemini": "Participé como miembro de The DC6 Singers Collective, un ensamble vocal con sede en Los Ángeles, junto con otros miembros que contribuyeron con voces invitadas a la banda sonora de la película, más notablemente en \"This Little Light of Mine\" junto a Miles Caton y el Pleasant Valley Youth Choir de Nueva Orleans. La banda sonora contó con la producción ejecutiva de Ludwig Göransson, Ryan Coogler y Serena Göransson, y fue lanzada digitalmente el 18 de abril de 2025 a través de Sony Masterworks.",
+    "reason": "No consensus — similarities: C↔X=0.78, C↔G=0.86, X↔G=0.78",
+    "chosen": "Actué como miembro de The DC6 Singers Collective, un conjunto vocal con base en Los Ángeles — junto a otros miembros que contribuyeron con voces destacadas en la banda sonora de la película, especialmente en \"This Little Light of Mine\" junto a Miles Caton y el Pleasant Valley Youth Choir of New Orleans. La banda sonora fue producida ejecutivamente por Ludwig Göransson, Ryan Coogler y Serena Göransson, y lanzada digitalmente el 18 de abril de 2025 a través de Sony Masterworks."
+  },
+  {
+    "key": "data.films.sinners.details[2].text",
+    "english": "The Sinners Original Motion Picture Soundtrack received a GRAMMY® Award for Best Compilation Soundtrack for Visual Media at the 68th Annual Grammy Awards. The songs \"I Lied to You,\" \"Pale Pale Moon,\" and \"Sinners\" were also nominated for Best Song Written for Visual Media. This marked my first win as a credited featured artist on a GRAMMY-recognized release.",
+    "claude": "La Banda Sonora Original de Sinners recibió un GRAMMY® Award por Mejor Banda Sonora Compilada para Medios Visuales en la 68.ª entrega anual de los Grammy Awards. Las canciones \"I Lied to You\", \"Pale Pale Moon\" y \"Sinners\" también fueron nominadas a Mejor Canción Escrita para Medios Visuales. Esto marcó mi primera victoria como artista invitado acreditado en un lanzamiento reconocido por los GRAMMY.",
+    "codex": "The Sinners Original Motion Picture Soundtrack recibió un GRAMMY® Award for Best Compilation Soundtrack for Visual Media en la 68.ª edición anual de los Grammy Awards. Las canciones \"I Lied to You,\" \"Pale Pale Moon,\" y \"Sinners\" también fueron nominadas a Best Song Written for Visual Media. Esto marcó mi primera victoria como featured artist acreditado en un lanzamiento reconocido por los GRAMMY.",
+    "gemini": "La banda sonora original de Sinners recibió un premio GRAMMY® al Mejor Álbum de Banda Sonora de Compilación para Medios Visuales en la 68.ª edición de los Premios Grammy. Las canciones \"I Lied to You\", \"Pale Pale Moon\" y \"Sinners\" también fueron nominadas a Mejor Canción Escrita para Medios Visuales. Esto marcó mi primera victoria como artista invitado acreditado en un lanzamiento reconocido por el GRAMMY.",
+    "reason": "No consensus — similarities: C↔X=0.70, C↔G=0.86, X↔G=0.63",
+    "chosen": "La Banda Sonora Original de Sinners recibió un GRAMMY® Award por Mejor Banda Sonora Compilada para Medios Visuales en la 68.ª entrega anual de los Grammy Awards. Las canciones \"I Lied to You\", \"Pale Pale Moon\" y \"Sinners\" también fueron nominadas a Mejor Canción Escrita para Medios Visuales. Esto marcó mi primera victoria como artista invitado acreditado en un lanzamiento reconocido por los GRAMMY."
+  },
+  {
+    "key": "data.films.kpops.role",
+    "english": "Featured Actor & Onscreen Performer",
+    "claude": "Actor destacado e intérprete en pantalla",
+    "codex": "Featured Actor & Onscreen Performer",
+    "gemini": "Featured Actor & Onscreen Performer",
+    "reason": "No consensus — similarities: C↔X=0.25, C↔G=0.25, X↔G=1.00",
+    "chosen": "Featured Actor & Onscreen Performer"
+  },
+  {
+    "key": "data.films.kpops.recognition",
+    "english": "Featured Film Performance",
+    "claude": "Actuación cinematográfica destacada",
+    "codex": "Featured Film Performance",
+    "gemini": "Actuación cinematográfica destacada",
+    "reason": "No consensus — similarities: C↔X=0.20, C↔G=1.00, X↔G=0.20",
+    "chosen": "Featured Film Performance"
+  },
+  {
+    "key": "data.films.kpops.description",
+    "english": "Featured actor and onscreen performer in K-Pops!, the directorial debut of Grammy-winning artist Anderson .Paak.",
+    "claude": "Actor destacado e intérprete en pantalla en K-Pops!, el debut como director del artista ganador de nueve Grammy Anderson .Paak.",
+    "codex": "Featured actor y onscreen performer en K-Pops!, el debut como director del artista ganador del Grammy Anderson .Paak.",
+    "gemini": "Actor e intérprete en pantalla en K-Pops!, el debut como director del artista ganador del Grammy Anderson .Paak.",
+    "reason": "No consensus — similarities: C↔X=0.73, C↔G=0.87, X↔G=0.78",
+    "chosen": "Actor destacado e intérprete en pantalla en K-Pops!, el debut como director del artista ganador de nueve Grammy Anderson .Paak."
+  },
+  {
+    "key": "data.films.kpops.details[0].text",
+    "english": "K-Pops! is the feature film directorial debut of nine-time Grammy Award winner Anderson .Paak, co-written with Khaila Amazan. The film stars .Paak as BJ, a washed-up musician who lands a gig with a house band in Seoul for a K-pop competition show called Wildcard. While working on the show, he discovers that one of the contestants — Tae Young, played by .Paak's real-life son Soul Rasheed — is the long-lost son he never knew he had. The cast includes Jee Young Han, Jonnie \"Dumbfoundead\" Park, Cathy Shim, Kevin Woo, and Yvette Nicole Brown. The film premiered at the Toronto International Film Festival in 2024, made its U.S. debut at Tribeca in 2025, and was released theatrically in February 2026 before streaming on Netflix.",
+    "claude": "K-Pops! es el largometraje debut como director del artista ganador de nueve Grammy Awards Anderson .Paak, coescrito con Khaila Amazan. La película tiene a .Paak como BJ, un músico venido a menos que consigue un trabajo con una banda de casa en Seúl para un programa de competencia de K-pop llamado Wildcard. Mientras trabaja en el programa, descubre que uno de los concursantes — Tae Young, interpretado por el hijo real de .Paak, Soul Rasheed — es el hijo perdido que nunca supo que tenía. El reparto incluye a Jee Young Han, Jonnie \"Dumbfoundead\" Park, Cathy Shim, Kevin Woo y Yvette Nicole Brown. La película se estrenó en el Toronto International Film Festival en 2024, hizo su debut en EE.UU. en Tribeca en 2025 y fue lanzada en cines en febrero de 2026 antes de transmitirse en Netflix.",
+    "codex": "K-Pops! es el debut como director de largometraje del nueve veces ganador del Grammy Award Anderson .Paak, co-written con Khaila Amazan. La película presenta a .Paak como BJ, un músico venido a menos que consigue un trabajo con una house band en Seoul para un concurso de K-pop llamado Wildcard. Mientras trabaja en el show, descubre que uno de los concursantes — Tae Young, interpretado por Soul Rasheed, hijo de .Paak en la vida real — es el hijo perdido que nunca supo que tenía. El elenco incluye a Jee Young Han, Jonnie \"Dumbfoundead\" Park, Cathy Shim, Kevin Woo y Yvette Nicole Brown. La película se estrenó en el Toronto International Film Festival en 2024, tuvo su debut en Estados Unidos en Tribeca en 2025 y se estrenó en cines en febrero de 2026 antes de llegar a Netflix.",
+    "gemini": "K-Pops! es el debut cinematográfico como director del nueve veces ganador del premio Grammy Anderson .Paak, coescrito con Khaila Amazan. La película está protagonizada por .Paak como BJ, un músico fracasado que consigue un trabajo en una banda residente en Seúl para un programa de competencia de K-pop llamado Wildcard. Mientras trabaja en el programa, descubre que uno de los concursantes, Tae Young, interpretado por el hijo real de .Paak, Soul Rasheed, es el hijo perdido que nunca supo que tenía. El elenco incluye a Jee Young Han, Jonnie \"Dumbfoundead\" Park, Cathy Shim, Kevin Woo e Yvette Nicole Brown. La película se estrenó en el Festival Internacional de Cine de Toronto en 2024, debutó en EE. UU. en Tribeca en 2025 y se estrenó en cines en febrero de 2026 antes de transmitirse en Netflix.",
+    "reason": "No consensus — similarities: C↔X=0.79, C↔G=0.83, X↔G=0.75",
+    "chosen": "K-Pops! es el largometraje debut como director del artista ganador de nueve Grammy Awards Anderson .Paak, coescrito con Khaila Amazan. La película tiene a .Paak como BJ, un músico venido a menos que consigue un trabajo con una banda de casa en Seúl para un programa de competencia de K-pop llamado Wildcard. Mientras trabaja en el programa, descubre que uno de los concursantes — Tae Young, interpretado por el hijo real de .Paak, Soul Rasheed — es el hijo perdido que nunca supo que tenía. El reparto incluye a Jee Young Han, Jonnie \"Dumbfoundead\" Park, Cathy Shim, Kevin Woo y Yvette Nicole Brown. La película se estrenó en el Toronto International Film Festival en 2024, hizo su debut en EE.UU. en Tribeca en 2025 y fue lanzada en cines en febrero de 2026 antes de transmitirse en Netflix."
+  },
+  {
+    "key": "data.films.kpops.details[1].heading",
+    "english": "My Role",
+    "claude": "Mi papel",
+    "codex": "Mi rol",
+    "gemini": "Mi rol",
+    "reason": "No consensus — similarities: C↔X=0.50, C↔G=0.50, X↔G=1.00",
+    "chosen": "Mi rol"
+  },
+  {
+    "key": "data.films.kpops.details[1].text",
+    "english": "I appeared as a featured actor and onscreen performer, bringing both musical performance and screen presence to the project. Working on set alongside .Paak and a cast that blended K-pop stars, veteran actors, and musicians, I contributed to the film's unique fusion of film and live performance. The production was shot across Los Angeles, South Korea, and Saudi Arabia.",
+    "claude": "Aparecí como actor destacado e intérprete en pantalla, aportando tanto actuación musical como presencia en pantalla al proyecto. Trabajando en el set junto a .Paak y un reparto que mezclaba estrellas del K-pop, actores veteranos y músicos, contribuí a la fusión única de cine y actuación en vivo de la película. La producción se filmó en Los Ángeles, Corea del Sur y Arabia Saudita.",
+    "codex": "Aparecí como featured actor y onscreen performer, aportando tanto performance musical como presencia en pantalla al proyecto. Trabajando en set junto a .Paak y un elenco que mezclaba estrellas de K-pop, actores veteranos y músicos, contribuí a la fusión única de cine y performance en vivo de la película. La producción se filmó en Los Angeles, Corea del Sur y Arabia Saudita.",
+    "gemini": "Aparecí como actor e intérprete en pantalla, aportando tanto interpretación musical como presencia escénica al proyecto. Trabajando en el set junto a .Paak y un elenco que mezclaba estrellas de K-pop, actores veteranos y músicos, contribuí a la fusión única de cine y actuación en vivo de la película. La producción se filmó en Los Ángeles, Corea del Sur y Arabia Saudita.",
+    "reason": "No consensus — similarities: C↔X=0.85, C↔G=0.92, X↔G=0.84",
+    "chosen": "Aparecí como actor destacado e intérprete en pantalla, aportando tanto actuación musical como presencia en pantalla al proyecto. Trabajando en el set junto a .Paak y un reparto que mezclaba estrellas del K-pop, actores veteranos y músicos, contribuí a la fusión única de cine y actuación en vivo de la película. La producción se filmó en Los Ángeles, Corea del Sur y Arabia Saudita."
+  },
+  {
+    "key": "data.films.kpops.details[2].text",
+    "english": "The soundtrack is a seamless blend of Anderson .Paak's signature soul-funk sound with authentic K-pop production, shaped in collaboration with legendary producer Dem Jointz. The film features original songs and collaborations including \"Keychain\" with aespa, \"Aftertaste\" with DEAN, and contributions from NMIXX. Cameo appearances throughout the film include Vernon of Seventeen, Jessi, Jay Park, The Rose, IShowSpeed, Saweetie, Jaden Smith, Diplo, and Earth, Wind & Fire.",
+    "claude": "La banda sonora es una mezcla perfecta del característico sonido soul-funk de Anderson .Paak con producción auténtica de K-pop, moldeada en colaboración con el legendario productor Dem Jointz. La película incluye canciones originales y colaboraciones como \"Keychain\" con aespa, \"Aftertaste\" con DEAN y contribuciones de NMIXX. Las apariciones cameo en la película incluyen a Vernon of Seventeen, Jessi, Jay Park, The Rose, IShowSpeed, Saweetie, Jaden Smith, Diplo y Earth, Wind & Fire.",
+    "codex": "El soundtrack es una mezcla fluida del sonido soul-funk característico de Anderson .Paak con producción auténtica de K-pop, desarrollada en colaboración con el legendario productor Dem Jointz. La película incluye canciones originales y colaboraciones como \"Keychain\" con aespa, \"Aftertaste\" con DEAN y aportes de NMIXX. Las cameo appearances a lo largo de la película incluyen a Vernon of Seventeen, Jessi, Jay Park, The Rose, IShowSpeed, Saweetie, Jaden Smith, Diplo y Earth, Wind & Fire.",
+    "gemini": "La banda sonora es una mezcla perfecta del sonido soul-funk característico de Anderson .Paak con una producción auténtica de K-pop, moldeada en colaboración con el legendario productor Dem Jointz. La película presenta canciones originales y colaboraciones que incluyen \"Keychain\" con aespa, \"Aftertaste\" con DEAN y contribuciones de NMIXX. Las apariciones especiales a lo largo de la película incluyen a Vernon de Seventeen, Jessi, Jay Park, The Rose, IShowSpeed, Saweetie, Jaden Smith, Diplo y Earth, Wind & Fire.",
+    "reason": "No consensus — similarities: C↔X=0.81, C↔G=0.86, X↔G=0.85",
+    "chosen": "La banda sonora es una mezcla perfecta del característico sonido soul-funk de Anderson .Paak con producción auténtica de K-pop, moldeada en colaboración con el legendario productor Dem Jointz. La película incluye canciones originales y colaboraciones como \"Keychain\" con aespa, \"Aftertaste\" con DEAN y contribuciones de NMIXX. Las apariciones cameo en la película incluyen a Vernon of Seventeen, Jessi, Jay Park, The Rose, IShowSpeed, Saweetie, Jaden Smith, Diplo y Earth, Wind & Fire."
+  },
+  {
+    "key": "data.discography.rolePrefix",
+    "english": "Vocal Producer",
+    "claude": "Productor Vocal",
+    "codex": "Productor vocal",
+    "gemini": "Productor vocal",
+    "reason": "No consensus — similarities: C↔X=0.93, C↔G=0.93, X↔G=1.00",
+    "chosen": "Productor vocal"
+  },
+  {
+    "key": "data.discography.roleFeature",
+    "english": "Featured Artist",
+    "claude": "Artista Invitado",
+    "codex": "Featured Artist",
+    "gemini": "Artista invitado",
+    "reason": "No consensus — similarities: C↔X=0.13, C↔G=0.94, X↔G=0.13",
+    "chosen": "Featured Artist"
+  },
+  {
+    "key": "data.discography.entries.sinners-rocky-road-to-dublin.role",
+    "english": "Featured Artist · DC6 Singers Collective",
+    "claude": "Artista Invitado · DC6 Singers Collective",
+    "codex": "Featured Artist · DC6 Singers Collective",
+    "gemini": "Artista invitado · DC6 Singers Collective",
+    "reason": "No consensus — similarities: C↔X=0.66, C↔G=0.98, X↔G=0.66",
+    "chosen": "Featured Artist · DC6 Singers Collective"
+  },
+  {
+    "key": "data.discography.entries.sinners-this-little-light.role",
+    "english": "Featured Artist · DC6 Singers Collective",
+    "claude": "Artista Invitado · DC6 Singers Collective",
+    "codex": "Featured Artist · DC6 Singers Collective",
+    "gemini": "Artista invitado · DC6 Singers Collective",
+    "reason": "No consensus — similarities: C↔X=0.66, C↔G=0.98, X↔G=0.66",
+    "chosen": "Featured Artist · DC6 Singers Collective"
+  },
+  {
+    "key": "data.discography.entries.lukas-graham-you.role",
+    "english": "Vocal Producer",
+    "claude": "Productor Vocal",
+    "codex": "Productor vocal",
+    "gemini": "Productor vocal",
+    "reason": "No consensus — similarities: C↔X=0.93, C↔G=0.93, X↔G=1.00",
+    "chosen": "Productor vocal"
+  },
+  {
+    "key": "data.discography.entries.lukas-graham-share-that-love.role",
+    "english": "Vocal Producer",
+    "claude": "Productor Vocal",
+    "codex": "Productor vocal",
+    "gemini": "Productor vocal",
+    "reason": "No consensus — similarities: C↔X=0.93, C↔G=0.93, X↔G=1.00",
+    "chosen": "Productor vocal"
+  },
+  {
+    "key": "data.discography.entries.lukas-graham-share-that-love.milestones[0]",
+    "english": "Deezer Ecuador Chart #78 (Apr 2025)",
+    "claude": "Lista Deezer Ecuador #78 (abr. 2025)",
+    "codex": "Deezer Ecuador Chart #78 (Apr 2025)",
+    "gemini": "Lista Deezer Ecuador #78 (Abr 2025)",
+    "reason": "No consensus — similarities: C↔X=0.58, C↔G=0.94, X↔G=0.63",
+    "chosen": "Deezer Ecuador Chart #78 (Apr 2025)"
+  },
+  {
+    "key": "data.discography.entries.lady-gaga-babylon.role",
+    "english": "Vocal Producer",
+    "claude": "Productor Vocal",
+    "codex": "Productor vocal",
+    "gemini": "Productor vocal",
+    "reason": "No consensus — similarities: C↔X=0.93, C↔G=0.93, X↔G=1.00",
+    "chosen": "Productor vocal"
+  },
+  {
+    "key": "data.discography.entries.lady-gaga-babylon.milestones[0]",
+    "english": "Deezer Estonia Chart #48 (Jan 2026)",
+    "claude": "Lista Deezer Estonia #48 (ene. 2026)",
+    "codex": "Deezer Estonia Chart #48 (Jan 2026)",
+    "gemini": "Lista Deezer Estonia #48 (Ene 2026)",
+    "reason": "No consensus — similarities: C↔X=0.56, C↔G=0.94, X↔G=0.57",
+    "chosen": "Deezer Estonia Chart #48 (Jan 2026)"
+  },
+  {
+    "key": "data.discography.entries.kesi-tilbage.role",
+    "english": "Vocal Producer",
+    "claude": "Productor Vocal",
+    "codex": "Productor vocal",
+    "gemini": "Productor vocal",
+    "reason": "No consensus — similarities: C↔X=0.93, C↔G=0.93, X↔G=1.00",
+    "chosen": "Productor vocal"
+  },
+  {
+    "key": "data.discography.entries.future-animals-crazy-love.role",
+    "english": "Vocal Producer",
+    "claude": "Productor Vocal",
+    "codex": "Productor vocal",
+    "gemini": "Productor vocal",
+    "reason": "No consensus — similarities: C↔X=0.93, C↔G=0.93, X↔G=1.00",
+    "chosen": "Productor vocal"
+  },
+  {
+    "key": "data.discography.entries.matoma-its-christmas-time.role",
+    "english": "Vocal Producer",
+    "claude": "Productor Vocal",
+    "codex": "Productor vocal",
+    "gemini": "Productor vocal",
+    "reason": "No consensus — similarities: C↔X=0.93, C↔G=0.93, X↔G=1.00",
+    "chosen": "Productor vocal"
+  },
+  {
+    "key": "data.discography.entries.hedegaard-need-you.role",
+    "english": "Vocal Producer",
+    "claude": "Productor Vocal",
+    "codex": "Productor vocal",
+    "gemini": "Productor vocal",
+    "reason": "No consensus — similarities: C↔X=0.93, C↔G=0.93, X↔G=1.00",
+    "chosen": "Productor vocal"
+  },
+  {
+    "key": "data.discography.entries.matoma-sunday-morning.role",
+    "english": "Vocal Producer",
+    "claude": "Productor Vocal",
+    "codex": "Productor vocal",
+    "gemini": "Productor vocal",
+    "reason": "No consensus — similarities: C↔X=0.93, C↔G=0.93, X↔G=1.00",
+    "chosen": "Productor vocal"
+  },
+  {
+    "key": "data.discography.entries.lukas-graham-promise.role",
+    "english": "Vocal Producer",
+    "claude": "Productor Vocal",
+    "codex": "Productor vocal",
+    "gemini": "Productor vocal",
+    "reason": "No consensus — similarities: C↔X=0.93, C↔G=0.93, X↔G=1.00",
+    "chosen": "Productor vocal"
+  },
+  {
+    "key": "data.discography.entries.lukas-graham-hold-my-hand.role",
+    "english": "Vocal Producer",
+    "claude": "Productor Vocal",
+    "codex": "Productor vocal",
+    "gemini": "Productor vocal",
+    "reason": "No consensus — similarities: C↔X=0.93, C↔G=0.93, X↔G=1.00",
+    "chosen": "Productor vocal"
+  },
+  {
+    "key": "data.discography.entries.lukas-graham-say-yes.role",
+    "english": "Vocal Producer",
+    "claude": "Productor Vocal",
+    "codex": "Productor vocal",
+    "gemini": "Productor vocal",
+    "reason": "No consensus — similarities: C↔X=0.93, C↔G=0.93, X↔G=1.00",
+    "chosen": "Productor vocal"
+  },
+  {
+    "key": "data.discography.entries.lukas-graham-youre-not-the-only-one.role",
+    "english": "Vocal Producer",
+    "claude": "Productor Vocal",
+    "codex": "Productor vocal",
+    "gemini": "Productor vocal",
+    "reason": "No consensus — similarities: C↔X=0.93, C↔G=0.93, X↔G=1.00",
+    "chosen": "Productor vocal"
+  },
+  {
+    "key": "data.artistWork.categories.all",
+    "english": "All",
+    "claude": "Todo",
+    "codex": "Todo",
+    "gemini": "Todos",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.80, X↔G=0.80",
+    "chosen": "Todo"
+  },
+  {
+    "key": "data.artistWork.categories.social",
+    "english": "Social",
+    "claude": "Redes sociales",
+    "codex": "Social",
+    "gemini": "Social",
+    "reason": "No consensus — similarities: C↔X=0.36, C↔G=0.36, X↔G=1.00",
+    "chosen": "Social"
+  },
+  {
+    "key": "data.artistWork.entries.ba-freestyle-therealasethic.description",
+    "english": "Freestyle verse over production by @therealasethic.",
+    "claude": "Verso freestyle sobre producción de @therealasethic.",
+    "codex": "Verso freestyle sobre producción de @therealasethic.",
+    "gemini": "Verso libre sobre producción de @therealasethic.",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.85, X↔G=0.85",
+    "chosen": "Verso freestyle sobre producción de @therealasethic."
+  },
+  {
+    "key": "data.artistWork.entries.ba-one-of-a-kind.description",
+    "english": "Feature credit. Streaming on Spotify, Apple Music, and Tidal.",
+    "claude": "Crédito de colaboración. Disponible en Spotify, Apple Music y Tidal.",
+    "codex": "Crédito como feature. Streaming en Spotify, Apple Music y Tidal.",
+    "gemini": "Crédito de colaboración. Streaming en Spotify, Apple Music y Tidal.",
+    "reason": "No consensus — similarities: C↔X=0.69, C↔G=0.87, X↔G=0.82",
+    "chosen": "Crédito de colaboración. Disponible en Spotify, Apple Music y Tidal."
+  },
+  {
+    "key": "data.artistWork.entries.ba-joker-open-verse.description",
+    "english": "Had fun getting into character for this one 😈.",
+    "claude": "Me divertí metiéndome en el personaje para este 😈.",
+    "codex": "Me divertí metiéndome en personaje para este 😈.",
+    "gemini": "Me divertí mucho entrando en personaje para este 😈.",
+    "reason": "No consensus — similarities: C↔X=0.94, C↔G=0.75, X↔G=0.81",
+    "chosen": "Me divertí metiéndome en el personaje para este 😈."
+  },
+  {
+    "key": "data.artistWork.entries.ba-we-get-the-party-started.description",
+    "english": "Feature credit. Streaming on Spotify and Tidal.",
+    "claude": "Crédito de colaboración. Disponible en Spotify y Tidal.",
+    "codex": "Crédito como feature. Streaming en Spotify y Tidal.",
+    "gemini": "Crédito de colaboración. Streaming en Spotify y Tidal.",
+    "reason": "No consensus — similarities: C↔X=0.62, C↔G=0.84, X↔G=0.78",
+    "chosen": "Crédito de colaboración. Disponible en Spotify y Tidal."
+  },
+  {
+    "key": "data.artistWork.entries.ba-grinch-flow-valentinbeatz.description",
+    "english": "Christmas Grinch flow over production by @valentinbeatz.",
+    "claude": "Flow del Grinch navideño sobre producción de @valentinbeatz.",
+    "codex": "Christmas Grinch flow sobre producción de @valentinbeatz.",
+    "gemini": "Flow de Grinch navideño sobre producción de @valentinbeatz.",
+    "reason": "No consensus — similarities: C↔X=0.72, C↔G=0.98, X↔G=0.71",
+    "chosen": "Flow del Grinch navideño sobre producción de @valentinbeatz."
+  },
+  {
+    "key": "data.artistWork.entries.ba-money.description",
+    "english": "Feature credit. Streaming on Spotify, Apple Music, and Tidal.",
+    "claude": "Crédito de colaboración. Disponible en Spotify, Apple Music y Tidal.",
+    "codex": "Crédito como feature. Streaming en Spotify, Apple Music y Tidal.",
+    "gemini": "Crédito de colaboración. Streaming en Spotify, Apple Music y Tidal.",
+    "reason": "No consensus — similarities: C↔X=0.69, C↔G=0.87, X↔G=0.82",
+    "chosen": "Crédito de colaboración. Disponible en Spotify, Apple Music y Tidal."
+  },
+  {
+    "key": "data.artistProfile.tagline",
+    "english": "Writer. Producer. Performer.",
+    "claude": "Compositor. Productor. Intérprete.",
+    "codex": "Writer. Producer. Performer.",
+    "gemini": "Escritor. Productor. Intérprete.",
+    "reason": "No consensus — similarities: C↔X=0.47, C↔G=0.82, X↔G=0.53",
+    "chosen": "Writer. Producer. Performer."
+  },
+  {
+    "key": "data.artistProfile.statement.headline",
+    "english": "I love music with every part of my soul.",
+    "claude": "Amo la música con toda mi alma.",
+    "codex": "Amo la música con cada parte de mi alma.",
+    "gemini": "Amo la música con cada parte de mi alma.",
+    "reason": "No consensus — similarities: C↔X=0.72, C↔G=0.72, X↔G=1.00",
+    "chosen": "Amo la música con toda mi alma."
+  },
+  {
+    "key": "data.artistProfile.statement.p1",
+    "english": "As an artist, I don't box myself into a single sound or formula. I write and create across whatever genre moves me in the moment, from melodic R&B textures, to hard-hitting bars, to global rhythms that push boundaries.",
+    "claude": "Como artista, no me encasillo en un solo sonido o fórmula. Escribo y creo a través de cualquier género que me mueve en el momento, desde texturas melódicas de R&B, hasta letras contundentes, hasta ritmos globales que empujan los límites.",
+    "codex": "Como artista, no me encierro en un solo sonido ni en una fórmula. Escribo y creo en cualquier género que me mueva en el momento, desde texturas melódicas de R&B hasta barras contundentes y ritmos globales que empujan límites.",
+    "gemini": "Como artista, no me encasillo en un solo sonido o fórmula. Escribo y creo en cualquier género que me inspire en el momento, desde texturas melódicas de R&B hasta rimas potentes y ritmos globales que desafían los límites.",
+    "reason": "No consensus — similarities: C↔X=0.83, C↔G=0.84, X↔G=0.83",
+    "chosen": "Como artista, no me encasillo en un solo sonido o fórmula. Escribo y creo a través de cualquier género que me mueve en el momento, desde texturas melódicas de R&B, hasta letras contundentes, hasta ritmos globales que empujan los límites."
+  },
+  {
+    "key": "data.artistProfile.statement.p2",
+    "english": "My process is pretty random. I can be riding down the street and start beatboxing an idea for a track, or I could be inspired by something I see and start conceptualizing an idea around a theme that I want to start writing lyrics to. There are no hard and fast rules ... I just follow what I feel speaks to me at the moment. Every song is its own world.",
+    "claude": "Mi proceso es bastante aleatorio. Puedo estar conduciendo por la calle y comenzar a beatboxear una idea para una canción, o puedo inspirarme en algo que veo y comenzar a conceptualizar una idea alrededor de un tema sobre el que quiero empezar a escribir letras. No hay reglas estrictas... simplemente sigo lo que siento que me habla en el momento. Cada canción es su propio mundo.",
+    "codex": "Mi proceso es bastante aleatorio. Puedo ir manejando por la calle y empezar a hacer beatbox con una idea para un track, o puedo inspirarme en algo que veo y empezar a conceptualizar una idea alrededor de un tema sobre el que quiero escribir letras. No hay reglas fijas ... simplemente sigo lo que siento que me habla en ese momento. Cada canción es su propio mundo.",
+    "gemini": "Mi proceso es bastante espontáneo. Puedo estar conduciendo y empezar a hacer beatbox con una idea para una pista, o inspirarme por algo que veo y comenzar a conceptualizar una idea en torno a un tema sobre el cual quiero escribir letras. No hay reglas estrictas... simplemente sigo lo que siento que me habla en el momento. Cada canción es su propio mundo.",
+    "reason": "No consensus — similarities: C↔X=0.86, C↔G=0.81, X↔G=0.81",
+    "chosen": "Mi proceso es bastante aleatorio. Puedo estar conduciendo por la calle y comenzar a beatboxear una idea para una canción, o puedo inspirarme en algo que veo y comenzar a conceptualizar una idea alrededor de un tema sobre el que quiero empezar a escribir letras. No hay reglas estrictas... simplemente sigo lo que siento que me habla en el momento. Cada canción es su propio mundo."
+  },
+  {
+    "key": "data.artistProfile.stats.yearsActive",
+    "english": "2016–Present",
+    "claude": "2016–Presente",
+    "codex": "2016–Present",
+    "gemini": "2016–Presente",
+    "reason": "No consensus — similarities: C↔X=0.92, C↔G=1.00, X↔G=0.92",
+    "chosen": "2016–Present"
+  }
+]

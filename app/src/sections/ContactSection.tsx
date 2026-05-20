@@ -1,10 +1,12 @@
 import { useState, useEffect, useRef } from 'react'
+import { useTranslation } from 'react-i18next'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger)
 
 export default function ContactSection() {
+  const { t } = useTranslation()
   const [formState, setFormState] = useState<'idle' | 'sending' | 'success' | 'error'>('idle')
   const headlineRef = useRef<HTMLHeadingElement>(null)
   const detailsRef = useRef<HTMLDivElement>(null)
@@ -126,15 +128,34 @@ export default function ContactSection() {
               className="font-display text-3xl md:text-5xl font-bold leading-tight"
               style={{ color: 'var(--text-primary)', letterSpacing: '-0.01em' }}
             >
-              Let&apos;s create something{' '}
-              <em style={{ color: 'var(--accent-amber)' }}>together.</em>
+              {t('contact.headline')}
             </h2>
 
             <div ref={detailsRef} className="mt-10 space-y-6">
               <div>
-                <span style={labelStyle}>Location</span>
+                <span style={labelStyle}>{t('contact.phoneLabel')}</span>
+                <a
+                  href="tel:+13236206448"
+                  className="text-base transition-colors duration-300"
+                  style={{ color: 'var(--text-primary)' }}
+                >
+                  (323) 620-6448
+                </a>
+              </div>
+              <div>
+                <span style={labelStyle}>{t('contact.emailLabel')}</span>
+                <a
+                  href="mailto:William@epiphanymusicgroup.com"
+                  className="text-base transition-colors duration-300 hover:underline"
+                  style={{ color: 'var(--accent-amber)' }}
+                >
+                  William@epiphanymusicgroup.com
+                </a>
+              </div>
+              <div>
+                <span style={labelStyle}>{t('contact.locationLabel')}</span>
                 <span className="text-base" style={{ color: 'var(--text-secondary)' }}>
-                  Los Angeles, CA
+                  {t('contact.locationValue')}
                 </span>
               </div>
             </div>
@@ -148,7 +169,7 @@ export default function ContactSection() {
                   className="font-display italic text-2xl md:text-3xl font-medium text-center"
                   style={{ color: 'var(--accent-amber)' }}
                 >
-                  Thank you! I&apos;ll be in touch soon.
+                  {t('contact.successMessage')}
                 </h3>
               </div>
             ) : formState === 'error' ? (
@@ -157,7 +178,7 @@ export default function ContactSection() {
                   className="font-display italic text-2xl md:text-3xl font-medium text-center"
                   style={{ color: '#ef4444' }}
                 >
-                  Something went wrong.
+                  {t('contact.errorMessage')}
                 </h3>
                 <button
                   type="button"
@@ -172,7 +193,7 @@ export default function ContactSection() {
                     cursor: 'pointer',
                   }}
                 >
-                  TRY AGAIN
+                  {t('contact.tryAgainButton')}
                 </button>
               </div>
             ) : (
@@ -183,12 +204,12 @@ export default function ContactSection() {
               >
 
                 <div>
-                  <label htmlFor="name" style={labelStyle}>Name</label>
+                  <label htmlFor="name" style={labelStyle}>{t('contact.formNameLabel')}</label>
                   <input
                     id="name"
                     name="name"
                     type="text"
-                    placeholder="Your name"
+                    placeholder={t('contact.formNamePlaceholder')}
                     required
                     className="focus:border-[var(--accent-amber)]"
                     style={{
@@ -206,12 +227,12 @@ export default function ContactSection() {
                 </div>
 
                 <div>
-                  <label htmlFor="email" style={labelStyle}>Email</label>
+                  <label htmlFor="email" style={labelStyle}>{t('contact.formEmailLabel')}</label>
                   <input
                     id="email"
                     name="email"
                     type="email"
-                    placeholder="your@email.com"
+                    placeholder={t('contact.formEmailPlaceholder')}
                     required
                     className="focus:border-[var(--accent-amber)]"
                     style={inputStyle}
@@ -227,12 +248,12 @@ export default function ContactSection() {
                 </div>
 
                 <div>
-                  <label htmlFor="subject" style={labelStyle}>Subject</label>
+                  <label htmlFor="subject" style={labelStyle}>{t('contact.formSubjectLabel')}</label>
                   <input
                     id="subject"
                     name="subject"
                     type="text"
-                    placeholder="What's this about?"
+                    placeholder={t('contact.formSubjectPlaceholder')}
                     required
                     style={inputStyle}
                     onFocus={(e) => {
@@ -247,12 +268,12 @@ export default function ContactSection() {
                 </div>
 
                 <div>
-                  <label htmlFor="message" style={labelStyle}>Message</label>
+                  <label htmlFor="message" style={labelStyle}>{t('contact.formMessageLabel')}</label>
                   <textarea
                     id="message"
                     name="message"
                     rows={5}
-                    placeholder="Tell me about your project..."
+                    placeholder={t('contact.formMessagePlaceholder')}
                     required
                     style={{
                       ...inputStyle,
@@ -284,7 +305,7 @@ export default function ContactSection() {
                     animation: formState === 'sending' ? 'pulse 1s ease-in-out infinite' : 'none',
                   }}
                 >
-                  {formState === 'sending' ? 'SENDING...' : 'SEND MESSAGE'}
+                  {formState === 'sending' ? t('contact.sendingButton') : t('contact.sendButton')}
                 </button>
               </form>
             )}

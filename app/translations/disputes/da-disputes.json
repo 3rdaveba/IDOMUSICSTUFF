@@ -1,0 +1,1883 @@
+[
+  {
+    "key": "navigation.artistWork",
+    "english": "Artist Work",
+    "claude": "Artist Work",
+    "codex": "Artistisk arbejde",
+    "gemini": "Artistarbejde",
+    "reason": "No consensus — similarities: C↔X=0.41, C↔G=0.46, X↔G=0.76",
+    "chosen": "Artistisk arbejde"
+  },
+  {
+    "key": "about.bio1",
+    "english": "Over the course of my career, I've acquired tons of experience as an artist, stage performer, audio engineer, and creative project manager. From organizing live performances, collaborating with artists, teaching students, and working with underserved communities, I've been able to build a track record of successfully delivering projects from concept to completion.",
+    "claude": "I løbet af min karriere har jeg opnået enorm erfaring som kunstner, sceneoptræder, lydingenør og kreativ projektleder. Fra tilrettelæggelse af liveoptrædener, samarbejde med kunstnere, undervisning af studerende og arbejde med udsatte fællesskaber har jeg formået at opbygge en dokumenteret track record for succesfuldt at levere projekter fra idé til færdighed.",
+    "codex": "Gennem min karriere har jeg opbygget omfattende erfaring som artist, liveperformer, lydtekniker og kreativ projektleder. Fra at organisere liveoptrædener, samarbejde med artister, undervise studerende og arbejde med oversete lokalsamfund har jeg skabt en dokumenteret evne til at føre projekter fra idé til færdigt resultat.",
+    "gemini": "I løbet af min karriere har jeg opnået omfattende erfaring som artist, sceneperformer, lydtekniker og kreativ projektleder. Fra organisering af liveoptrædener og samarbejde med artister til undervisning af studerende og arbejde med udsatte lokalsamfund, har jeg opbygget en track record for succesfuldt at levere projekter fra koncept til færdiggørelse.",
+    "reason": "No consensus — similarities: C↔X=0.60, C↔G=0.71, X↔G=0.73",
+    "chosen": "I løbet af min karriere har jeg opnået enorm erfaring som kunstner, sceneoptræder, lydingenør og kreativ projektleder. Fra tilrettelæggelse af liveoptrædener, samarbejde med kunstnere, undervisning af studerende og arbejde med udsatte fællesskaber har jeg formået at opbygge en dokumenteret track record for succesfuldt at levere projekter fra idé til færdighed."
+  },
+  {
+    "key": "about.bio2",
+    "english": "This site is designed to give you insight into my passion for creating impactful experiences, my creative thought process, and a look at some of the projects I've been a part of from behind the scenes.",
+    "claude": "Dette site er designet til at give dig indsigt i min passion for at skabe virkningsfulde oplevelser, min kreative tankeproces og et kig bag kulisserne på nogle af de projekter, jeg har været en del af.",
+    "codex": "Dette site er skabt for at give dig indblik i min passion for at skabe oplevelser med gennemslagskraft, min kreative tankegang og nogle af de projekter, jeg har været en del af bag kulisserne.",
+    "gemini": "Denne side er designet til at give dig et indblik i min passion for at skabe betydningsfulde oplevelser, min kreative tankegang og et kig bag kulisserne på nogle af de projekter, jeg har været en del af.",
+    "reason": "No consensus — similarities: C↔X=0.59, C↔G=0.90, X↔G=0.60",
+    "chosen": "Dette site er designet til at give dig indsigt i min passion for at skabe virkningsfulde oplevelser, min kreative tankeproces og et kig bag kulisserne på nogle af de projekter, jeg har været en del af."
+  },
+  {
+    "key": "about.signature",
+    "english": "I look forward to the opportunity to work with you in the future!",
+    "claude": "Jeg glæder mig til muligheden for at arbejde med dig i fremtiden!",
+    "codex": "Jeg ser frem til muligheden for at arbejde sammen med dig i fremtiden!",
+    "gemini": "Jeg ser frem til muligheden for at arbejde sammen med dig i fremtiden!",
+    "reason": "No consensus — similarities: C↔X=0.79, C↔G=0.79, X↔G=1.00",
+    "chosen": "Jeg ser frem til muligheden for at arbejde sammen med dig i fremtiden!"
+  },
+  {
+    "key": "work.intro",
+    "english": "A cross-section of projects spanning music production, community education, systems architecture, and creative technology — each built with the same intention: craft something meaningful, scalable, and human.",
+    "claude": "Et tværsnit af projekter der spænder over musikproduktion, fællesskabsuddannelse, systemsarkitektur og kreativ teknologi – hvert enkelt bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt.",
+    "codex": "Et tværsnit af projekter inden for musikproduktion, community-undervisning, systemarkitektur og kreativ teknologi — alle bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt.",
+    "gemini": "Et tværsnit af projekter inden for musikproduktion, lokal uddannelse, systemarkitektur og kreativ teknologi — hver især bygget med den samme hensigt: at skabe noget meningsfuldt, skalerbart og menneskeligt.",
+    "reason": "No consensus — similarities: C↔X=0.80, C↔G=0.83, X↔G=0.82",
+    "chosen": "Et tværsnit af projekter der spænder over musikproduktion, fællesskabsuddannelse, systemsarkitektur og kreativ teknologi – hvert enkelt bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt."
+  },
+  {
+    "key": "work.complete",
+    "english": "Complete",
+    "claude": "Afsluttet",
+    "codex": "Fuldført",
+    "gemini": "Færdiggjort",
+    "reason": "No consensus — similarities: C↔X=0.22, C↔G=0.09, X↔G=0.36",
+    "chosen": "Fuldført"
+  },
+  {
+    "key": "tvFilm.eyebrow",
+    "english": "SCREEN & SOUNDTRACK",
+    "claude": "SKÆRM OG SOUNDTRACK",
+    "codex": "LÆRRED & SOUNDTRACK",
+    "gemini": "LÆRRED & SOUNDTRACK",
+    "reason": "No consensus — similarities: C↔X=0.63, C↔G=0.63, X↔G=1.00",
+    "chosen": "LÆRRED & SOUNDTRACK"
+  },
+  {
+    "key": "tvFilm.heading",
+    "english": "Film & Television",
+    "claude": "Film og TV",
+    "codex": "Film & tv",
+    "gemini": "Film & TV",
+    "reason": "No consensus — similarities: C↔X=0.60, C↔G=0.80, X↔G=0.78",
+    "chosen": "Film & tv"
+  },
+  {
+    "key": "tvFilm.intro",
+    "english": "Bridging music and visual storytelling — from GRAMMY-winning soundtracks to onscreen performances alongside industry icons.",
+    "claude": "Broen mellem musik og visuel fortællekunst – fra GRAMMY-vindende soundtracks til optrædener på lærredet side om side med branchens ikoner.",
+    "codex": "En bro mellem musik og visuel historiefortælling — fra GRAMMY-vindende soundtracks til optrædener på skærmen sammen med brancheikoner.",
+    "gemini": "Brobygning mellem musik og visuel historiefortælling — fra GRAMMY-vindende soundtracks til optrædener på skærmen sammen med brancheikoner.",
+    "reason": "No consensus — similarities: C↔X=0.72, C↔G=0.72, X↔G=0.93",
+    "chosen": "Broen mellem musik og visuel fortællekunst – fra GRAMMY-vindende soundtracks til optrædener på lærredet side om side med branchens ikoner."
+  },
+  {
+    "key": "tvFilm.studio",
+    "english": "Studio",
+    "claude": "Studie",
+    "codex": "Studio",
+    "gemini": "Studie",
+    "reason": "No consensus — similarities: C↔X=0.83, C↔G=1.00, X↔G=0.83",
+    "chosen": "Studio"
+  },
+  {
+    "key": "discography.intro",
+    "english": "Select discography from notable projects as vocal producer, featured artist, or performer · {{tracks}} tracks · sourced from {{source}}",
+    "claude": "Udvalgt diskografi fra bemærkelsesværdige projekter som vokalproducent, medvirkende kunstner eller optræder · {{tracks}} numre · hentet fra {{source}}",
+    "codex": "Udvalgt diskografi fra markante projekter som vocal producer, featured artist eller performer · {{tracks}} numre · hentet fra {{source}}",
+    "gemini": "Udvalgt diskografi fra bemærkelsesværdige projekter som vokalproducer, featured artist eller performer · {{tracks}} numre · kilde: {{source}}",
+    "reason": "No consensus — similarities: C↔X=0.75, C↔G=0.79, X↔G=0.82",
+    "chosen": "Udvalgt diskografi fra bemærkelsesværdige projekter som vokalproducent, medvirkende kunstner eller optræder · {{tracks}} numre · hentet fra {{source}}"
+  },
+  {
+    "key": "discography.charted",
+    "english": "Charted",
+    "claude": "Hitliste",
+    "codex": "På hitliste",
+    "gemini": "Charted",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.13, X↔G=0.18",
+    "chosen": "På hitliste"
+  },
+  {
+    "key": "discography.cmScore",
+    "english": "CM Score",
+    "claude": "CM Score",
+    "codex": "CM-score",
+    "gemini": "CM Score",
+    "reason": "No consensus — similarities: C↔X=0.75, C↔G=1.00, X↔G=0.75",
+    "chosen": "CM-score"
+  },
+  {
+    "key": "discography.disclaimer",
+    "english": "* All streaming and performance data sourced from Chartmetric. Accurate as of {{date}}. Spotify streams represent cumulative all-time totals.",
+    "claude": "* Al streaming- og præstationsdata er hentet fra Chartmetric. Nøjagtig pr. {{date}}. Spotify-streams repræsenterer kumulative totaler for alle tider.",
+    "codex": "* Alle streaming- og performancedata er hentet fra Chartmetric. Korrekt pr. {{date}}. Spotify-streams repræsenterer samlede all-time-tal.",
+    "gemini": "* Alle streaming- og performancedata er hentet fra Chartmetric. Præcis pr. {{date}}. Spotify-streams repræsenterer kumulative totaler nogensinde.",
+    "reason": "No consensus — similarities: C↔X=0.70, C↔G=0.81, X↔G=0.81",
+    "chosen": "* Al streaming- og præstationsdata er hentet fra Chartmetric. Nøjagtig pr. {{date}}. Spotify-streams repræsenterer kumulative totaler for alle tider."
+  },
+  {
+    "key": "contact.emailLabel",
+    "english": "Email",
+    "claude": "E-mail",
+    "codex": "Email",
+    "gemini": "Email",
+    "reason": "No consensus — similarities: C↔X=0.83, C↔G=0.83, X↔G=1.00",
+    "chosen": "Email"
+  },
+  {
+    "key": "contact.locationLabel",
+    "english": "Location",
+    "claude": "Beliggenhed",
+    "codex": "Lokation",
+    "gemini": "Lokation",
+    "reason": "No consensus — similarities: C↔X=0.09, C↔G=0.09, X↔G=1.00",
+    "chosen": "Lokation"
+  },
+  {
+    "key": "contact.successMessage",
+    "english": "Thank you! I'll be in touch soon.",
+    "claude": "Tak! Jeg vender snart tilbage.",
+    "codex": "Tak! Jeg vender snart tilbage.",
+    "gemini": "Tak! Jeg vender tilbage hurtigst muligt.",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.55, X↔G=0.55",
+    "chosen": "Tak! Jeg vender snart tilbage."
+  },
+  {
+    "key": "contact.formEmailLabel",
+    "english": "Email",
+    "claude": "E-mail",
+    "codex": "Email",
+    "gemini": "Email",
+    "reason": "No consensus — similarities: C↔X=0.83, C↔G=0.83, X↔G=1.00",
+    "chosen": "Email"
+  },
+  {
+    "key": "contact.formEmailPlaceholder",
+    "english": "your@email.com",
+    "claude": "din@email.com",
+    "codex": "your@email.com",
+    "gemini": "din@email.com",
+    "reason": "No consensus — similarities: C↔X=0.71, C↔G=1.00, X↔G=0.71",
+    "chosen": "your@email.com"
+  },
+  {
+    "key": "contact.formSubjectPlaceholder",
+    "english": "What's this about?",
+    "claude": "Hvad handler det om?",
+    "codex": "Hvad handler det om?",
+    "gemini": "Hvad drejer det sig om?",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.61, X↔G=0.61",
+    "chosen": "Hvad handler det om?"
+  },
+  {
+    "key": "footer.ctaLine2",
+    "english": "worth listening to.",
+    "claude": "der er værd at høre på.",
+    "codex": "der er værd at lytte til.",
+    "gemini": "der er værd at lytte til.",
+    "reason": "No consensus — similarities: C↔X=0.72, C↔G=0.72, X↔G=1.00",
+    "chosen": "der er værd at lytte til."
+  },
+  {
+    "key": "projectDetail.breadcrumbWork",
+    "english": "Work",
+    "claude": "Projekter",
+    "codex": "Arbejde",
+    "gemini": "Arbejde",
+    "reason": "No consensus — similarities: C↔X=0.33, C↔G=0.33, X↔G=1.00",
+    "chosen": "Arbejde"
+  },
+  {
+    "key": "projectDetail.statusActive",
+    "english": "Active / Ongoing",
+    "claude": "Aktiv / Løbende",
+    "codex": "Aktiv / I gang",
+    "gemini": "Aktiv / Igangværende",
+    "reason": "No consensus — similarities: C↔X=0.60, C↔G=0.60, X↔G=0.60",
+    "chosen": "Aktiv / I gang"
+  },
+  {
+    "key": "projectDetail.statusComplete",
+    "english": "Complete",
+    "claude": "Afsluttet",
+    "codex": "Fuldført",
+    "gemini": "Færdiggjort",
+    "reason": "No consensus — similarities: C↔X=0.22, C↔G=0.09, X↔G=0.36",
+    "chosen": "Fuldført"
+  },
+  {
+    "key": "projectDetail.categoryMusicEducation",
+    "english": "Music & Education",
+    "claude": "Musik og Uddannelse",
+    "codex": "Musik & undervisning",
+    "gemini": "Musik & Uddannelse",
+    "reason": "No consensus — similarities: C↔X=0.35, C↔G=0.89, X↔G=0.45",
+    "chosen": "Musik & undervisning"
+  },
+  {
+    "key": "projectDetail.categoryMusicProduction",
+    "english": "Music & Production",
+    "claude": "Musik og Produktion",
+    "codex": "Musik & produktion",
+    "gemini": "Musik & Produktion",
+    "reason": "No consensus — similarities: C↔X=0.84, C↔G=0.89, X↔G=0.94",
+    "chosen": "Musik & produktion"
+  },
+  {
+    "key": "projectDetail.dmaicDefine",
+    "english": "Define",
+    "claude": "Definér",
+    "codex": "Definér",
+    "gemini": "Define",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.71, X↔G=0.71",
+    "chosen": "Definér"
+  },
+  {
+    "key": "projectDetail.dmaicMeasure",
+    "english": "Measure",
+    "claude": "Mål",
+    "codex": "Mål",
+    "gemini": "Measure",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.14, X↔G=0.14",
+    "chosen": "Mål"
+  },
+  {
+    "key": "projectDetail.dmaicAnalyze",
+    "english": "Analyze",
+    "claude": "Analysér",
+    "codex": "Analysér",
+    "gemini": "Analyze",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.63, X↔G=0.63",
+    "chosen": "Analysér"
+  },
+  {
+    "key": "projectDetail.dmaicImprove",
+    "english": "Improve",
+    "claude": "Forbedre",
+    "codex": "Forbedr",
+    "gemini": "Improve",
+    "reason": "No consensus — similarities: C↔X=0.88, C↔G=0.13, X↔G=0.00",
+    "chosen": "Forbedr"
+  },
+  {
+    "key": "projectDetail.dmaicControl",
+    "english": "Control",
+    "claude": "Kontrollér",
+    "codex": "Kontrollér",
+    "gemini": "Control",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.60, X↔G=0.60",
+    "chosen": "Kontrollér"
+  },
+  {
+    "key": "projectDetail.dmaicQuestionC",
+    "english": "How was quality sustained?",
+    "claude": "Hvordan blev kvaliteten opretholdt?",
+    "codex": "Hvordan blev kvaliteten fastholdt?",
+    "gemini": "Hvordan blev kvaliteten sikret?",
+    "reason": "No consensus — similarities: C↔X=0.89, C↔G=0.77, X↔G=0.79",
+    "chosen": "Hvordan blev kvaliteten fastholdt?"
+  },
+  {
+    "key": "projectDetail.projectOverview",
+    "english": "PROJECT OVERVIEW",
+    "claude": "PROJEKTOVERSIGT",
+    "codex": "PROJEKTOVERBLIK",
+    "gemini": "PROJEKTOVERSIGT",
+    "reason": "No consensus — similarities: C↔X=0.73, C↔G=1.00, X↔G=0.73",
+    "chosen": "PROJEKTOVERBLIK"
+  },
+  {
+    "key": "projectDetail.processFramework",
+    "english": "PROCESS FRAMEWORK",
+    "claude": "PROCESRAMME",
+    "codex": "PROCESFRAMEWORK",
+    "gemini": "PROCESRAMME",
+    "reason": "No consensus — similarities: C↔X=0.60, C↔G=1.00, X↔G=0.60",
+    "chosen": "PROCESFRAMEWORK"
+  },
+  {
+    "key": "projectDetail.toolsSkills",
+    "english": "TOOLS & SKILLS",
+    "claude": "VÆRKTØJER OG FÆRDIGHEDER",
+    "codex": "VÆRKTØJER & KOMPETENCER",
+    "gemini": "VÆRKTØJER & KOMPETENCER",
+    "reason": "No consensus — similarities: C↔X=0.54, C↔G=0.54, X↔G=1.00",
+    "chosen": "VÆRKTØJER & KOMPETENCER"
+  },
+  {
+    "key": "projectDetail.keyOutcomes",
+    "english": "KEY OUTCOMES",
+    "claude": "NØGLERESULTATER",
+    "codex": "VIGTIGE RESULTATER",
+    "gemini": "KERNERESULTATER",
+    "reason": "No consensus — similarities: C↔X=0.67, C↔G=0.73, X↔G=0.61",
+    "chosen": "VIGTIGE RESULTATER"
+  },
+  {
+    "key": "projectDetail.mediaResources",
+    "english": "MEDIA & RESOURCES",
+    "claude": "MEDIER OG RESSOURCER",
+    "codex": "MEDIER & RESSOURCER",
+    "gemini": "MEDIER & RESSOURCER",
+    "reason": "No consensus — similarities: C↔X=0.90, C↔G=0.90, X↔G=1.00",
+    "chosen": "MEDIER & RESSOURCER"
+  },
+  {
+    "key": "projectDetail.workflow",
+    "english": "Workflow",
+    "claude": "Arbejdsgang",
+    "codex": "Workflow",
+    "gemini": "Workflow",
+    "reason": "No consensus — similarities: C↔X=0.00, C↔G=0.00, X↔G=1.00",
+    "chosen": "Workflow"
+  },
+  {
+    "key": "projectDetail.preProduction",
+    "english": "Pre Production",
+    "claude": "Pre-produktion",
+    "codex": "Pre-production",
+    "gemini": "Pre Production",
+    "reason": "No consensus — similarities: C↔X=0.93, C↔G=0.79, X↔G=0.86",
+    "chosen": "Pre-production"
+  },
+  {
+    "key": "projectDetail.studioSession",
+    "english": "Studio Session",
+    "claude": "Studiesession",
+    "codex": "Studiesession",
+    "gemini": "Studio Session",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.79, X↔G=0.79",
+    "chosen": "Studiesession"
+  },
+  {
+    "key": "projectDetail.recordingStudio",
+    "english": "Recording Studio",
+    "claude": "Optagelsesstudio",
+    "codex": "Recording Studio",
+    "gemini": "Recording Studio",
+    "reason": "No consensus — similarities: C↔X=0.31, C↔G=0.31, X↔G=1.00",
+    "chosen": "Recording Studio"
+  },
+  {
+    "key": "projectDetail.choirRehearsal",
+    "english": "Choir Rehearsal",
+    "claude": "Koroprøve",
+    "codex": "Korprøve",
+    "gemini": "Korprøve",
+    "reason": "No consensus — similarities: C↔X=0.89, C↔G=0.89, X↔G=1.00",
+    "chosen": "Korprøve"
+  },
+  {
+    "key": "projectDetail.projectNotFound",
+    "english": "Project not found",
+    "claude": "Projekt ikke fundet",
+    "codex": "Projektet blev ikke fundet",
+    "gemini": "Projektet blev ikke fundet",
+    "reason": "No consensus — similarities: C↔X=0.73, C↔G=0.73, X↔G=1.00",
+    "chosen": "Projektet blev ikke fundet"
+  },
+  {
+    "key": "projectDetail.backToWork",
+    "english": "Back to Work",
+    "claude": "Tilbage til projekter",
+    "codex": "Tilbage til arbejde",
+    "gemini": "Tilbage til arbejde",
+    "reason": "No consensus — similarities: C↔X=0.71, C↔G=0.71, X↔G=1.00",
+    "chosen": "Tilbage til arbejde"
+  },
+  {
+    "key": "filmDetail.statusComplete",
+    "english": "Complete",
+    "claude": "Afsluttet",
+    "codex": "Fuldført",
+    "gemini": "Færdiggjort",
+    "reason": "No consensus — similarities: C↔X=0.22, C↔G=0.09, X↔G=0.36",
+    "chosen": "Fuldført"
+  },
+  {
+    "key": "filmDetail.categoryFilm",
+    "english": "Film & Television",
+    "claude": "Film og TV",
+    "codex": "Film & tv",
+    "gemini": "Film & TV",
+    "reason": "No consensus — similarities: C↔X=0.60, C↔G=0.80, X↔G=0.78",
+    "chosen": "Film & tv"
+  },
+  {
+    "key": "filmDetail.mediaResources",
+    "english": "MEDIA & RESOURCES",
+    "claude": "MEDIER OG RESSOURCER",
+    "codex": "MEDIER & RESSOURCER",
+    "gemini": "MEDIER & RESSOURCER",
+    "reason": "No consensus — similarities: C↔X=0.90, C↔G=0.90, X↔G=1.00",
+    "chosen": "MEDIER & RESSOURCER"
+  },
+  {
+    "key": "filmDetail.filmNotFound",
+    "english": "Film not found",
+    "claude": "Film ikke fundet",
+    "codex": "Filmen blev ikke fundet",
+    "gemini": "Filmen blev ikke fundet",
+    "reason": "No consensus — similarities: C↔X=0.70, C↔G=0.70, X↔G=1.00",
+    "chosen": "Filmen blev ikke fundet"
+  },
+  {
+    "key": "filmDetail.backHome",
+    "english": "Back Home",
+    "claude": "Tilbage til start",
+    "codex": "Tilbage hjem",
+    "gemini": "Tilbage til forsiden",
+    "reason": "No consensus — similarities: C↔X=0.47, C↔G=0.65, X↔G=0.45",
+    "chosen": "Tilbage hjem"
+  },
+  {
+    "key": "artistWork.statementHeadline",
+    "english": "I love music with every part of my soul.",
+    "claude": "Jeg elsker musik med hele min sjæl.",
+    "codex": "Jeg elsker musik med hele min sjæl.",
+    "gemini": "Jeg elsker musik med hver eneste del af min sjæl.",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.69, X↔G=0.69",
+    "chosen": "Jeg elsker musik med hele min sjæl."
+  },
+  {
+    "key": "artistWork.statementP1",
+    "english": "As an artist, I don't box myself into a single sound or formula. I write and create across whatever genre moves me in the moment, from melodic R&B textures, to hard-hitting bars, to global rhythms that push boundaries.",
+    "claude": "Som kunstner sætter jeg mig ikke i bås med én bestemt lyd eller formel. Jeg skriver og skaber på tværs af det, uanset hvilken genre der bevæger mig i øjeblikket – fra melodiske R&B-teksturer, til hårde bars, til globale rytmer der skubber til grænser.",
+    "codex": "Som artist låser jeg mig ikke fast i én bestemt lyd eller formel. Jeg skriver og skaber på tværs af de genrer, der bevæger mig i øjeblikket, fra melodiske R&B-teksturer til hårdtslående bars og globale rytmer, der skubber grænser.",
+    "gemini": "Som artist lader jeg mig ikke begrænse af en enkelt lyd eller formel. Jeg skriver og skaber inden for den genre, der bevæger mig i øjeblikket, fra melodiske R&B-teksturer til hårdtslående vers og globale rytmer, der rykker grænser.",
+    "reason": "No consensus — similarities: C↔X=0.78, C↔G=0.69, X↔G=0.84",
+    "chosen": "Som kunstner sætter jeg mig ikke i bås med én bestemt lyd eller formel. Jeg skriver og skaber på tværs af det, uanset hvilken genre der bevæger mig i øjeblikket – fra melodiske R&B-teksturer, til hårde bars, til globale rytmer der skubber til grænser."
+  },
+  {
+    "key": "artistWork.aboutTheArtist",
+    "english": "ABOUT THE ARTIST",
+    "claude": "OM KUNSTNEREN",
+    "codex": "OM ARTISTEN",
+    "gemini": "OM ARTISTEN",
+    "reason": "No consensus — similarities: C↔X=0.46, C↔G=0.46, X↔G=1.00",
+    "chosen": "OM ARTISTEN"
+  },
+  {
+    "key": "artistWork.backToHome",
+    "english": "Back to Home",
+    "claude": "Tilbage til start",
+    "codex": "Tilbage hjem",
+    "gemini": "Tilbage til forsiden",
+    "reason": "No consensus — similarities: C↔X=0.47, C↔G=0.65, X↔G=0.45",
+    "chosen": "Tilbage hjem"
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.description",
+    "english": "Design a private, autonomous agent infrastructure for creative workflow intelligence, operating 24/7 without human intervention.",
+    "claude": "Design en privat, autonom agentinfrastruktur til intelligent kreativ workflow, der opererer 24/7 uden menneskelig indgriben.",
+    "codex": "Design af en privat, autonom agentinfrastruktur til kreativ workflow-intelligens, der kører 24/7 uden menneskelig indgriben.",
+    "gemini": "Design af en privat, autonom agent-infrastruktur til creative workflow intelligence, der kører 24/7 uden menneskelig indgriben.",
+    "reason": "No consensus — similarities: C↔X=0.74, C↔G=0.72, X↔G=0.95",
+    "chosen": "Design en privat, autonom agentinfrastruktur til intelligent kreativ workflow, der opererer 24/7 uden menneskelig indgriben."
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.dmaic.D",
+    "english": "Design a private, autonomous agent infrastructure for creative workflow intelligence, operating 24/7 without human intervention.",
+    "claude": "Design en privat, autonom agentinfrastruktur til intelligent kreativ workflow, der opererer 24/7 uden menneskelig indgriben.",
+    "codex": "Design en privat, autonom agentinfrastruktur til kreativ workflow-intelligens, der kører 24/7 uden menneskelig indgriben.",
+    "gemini": "Design af en privat, autonom agent-infrastruktur til creative workflow intelligence, der kører 24/7 uden menneskelig indgriben.",
+    "reason": "No consensus — similarities: C↔X=0.77, C↔G=0.72, X↔G=0.93",
+    "chosen": "Design en privat, autonom agentinfrastruktur til intelligent kreativ workflow, der opererer 24/7 uden menneskelig indgriben."
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.dmaic.M",
+    "english": "System uptime, task completion rate, zero unauthorized writes to production code, full audit trail coverage.",
+    "claude": "Systemoppetid, opgavegennemførelsesrate, nul uautoriserede skrivninger til produktionskode, fuld revisionssporsdækning.",
+    "codex": "Systemoppetid, fuldførelsesrate for opgaver, nul uautoriserede skrivninger til produktionskode og fuld audit trail-dækning.",
+    "gemini": "Systemets oppetid, opgavefuldførelsesrate, nul uautoriserede skrivninger til produktionskode, fuld dækning af audit trails.",
+    "reason": "No consensus — similarities: C↔X=0.68, C↔G=0.75, X↔G=0.64",
+    "chosen": "Systemoppetid, opgavegennemførelsesrate, nul uautoriserede skrivninger til produktionskode, fuld revisionssporsdækning."
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.timeline[0]",
+    "english": "Research & Architecture",
+    "claude": "Forskning og arkitektur",
+    "codex": "Research & arkitektur",
+    "gemini": "Research & Arkitektur",
+    "reason": "No consensus — similarities: C↔X=0.57, C↔G=0.52, X↔G=0.95",
+    "chosen": "Research & arkitektur"
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.timeline[1]",
+    "english": "Core System Build",
+    "claude": "Kerneopbygning",
+    "codex": "Opbygning af kernesystem",
+    "gemini": "Opbygning af kernesystem",
+    "reason": "No consensus — similarities: C↔X=0.13, C↔G=0.13, X↔G=1.00",
+    "chosen": "Opbygning af kernesystem"
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.timeline[2]",
+    "english": "Agent Integration",
+    "claude": "Agentintegration",
+    "codex": "Agentintegration",
+    "gemini": "Agent-integration",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.94, X↔G=0.94",
+    "chosen": "Agentintegration"
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.tools[3]",
+    "english": "Structured Memory Systems",
+    "claude": "Strukturerede hukommelsessystemer",
+    "codex": "Structured Memory Systems",
+    "gemini": "Structured Memory Systems",
+    "reason": "No consensus — similarities: C↔X=0.48, C↔G=0.48, X↔G=1.00",
+    "chosen": "Structured Memory Systems"
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.tools[4]",
+    "english": "Heartbeat Scheduling",
+    "claude": "Heartbeat-planlægning",
+    "codex": "Heartbeat Scheduling",
+    "gemini": "Heartbeat Scheduling",
+    "reason": "No consensus — similarities: C↔X=0.57, C↔G=0.57, X↔G=1.00",
+    "chosen": "Heartbeat Scheduling"
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.tools[5]",
+    "english": "Read-Only Security Boundaries",
+    "claude": "Kun-læse sikkerhedsgrænser",
+    "codex": "Read-Only Security Boundaries",
+    "gemini": "Read-Only Security Boundaries",
+    "reason": "No consensus — similarities: C↔X=0.14, C↔G=0.14, X↔G=1.00",
+    "chosen": "Read-Only Security Boundaries"
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.outcomes[1]",
+    "english": "Zero unauthorized production writes",
+    "claude": "Nul uautoriserede skrivninger til produktion",
+    "codex": "Nul uautoriserede skrivninger til produktion",
+    "gemini": "Nul uautoriserede produktionsskrivninger",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.45, X↔G=0.45",
+    "chosen": "Nul uautoriserede skrivninger til produktion"
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.outcomes[2]",
+    "english": "Full audit trail on all outputs",
+    "claude": "Fuld revisionssporet på alle outputs",
+    "codex": "Fuld audit trail på alle outputs",
+    "gemini": "Fuld audit trail på alle outputs",
+    "reason": "No consensus — similarities: C↔X=0.61, C↔G=0.61, X↔G=1.00",
+    "chosen": "Fuld audit trail på alle outputs"
+  },
+  {
+    "key": "data.projects.audiolab-intelligence.outcomes[3]",
+    "english": "Multi-model orchestration pipeline",
+    "claude": "Multi-model orkestreringsrørledning",
+    "codex": "Multi-model orkestreringspipeline",
+    "gemini": "Multi-model orkestrerings-pipeline",
+    "reason": "No consensus — similarities: C↔X=0.80, C↔G=0.80, X↔G=0.97",
+    "chosen": "Multi-model orkestreringspipeline"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.description",
+    "english": "An experimental release project where old demos and unfinished song ideas are reimagined through AI tools and released in clustered waves. Drops happen every other week in alternating three-track clusters — one wave relational, the next energetic — with performance reviewed every 45 days. The goal is to see if consistent releases alone can generate streaming revenue and organic traction without any marketing, social media presence, or paid promotion. If a track lands in the top tier of its cluster, it gets flagged for potential reproduction or licensing.",
+    "claude": "Et eksperimentelt udgivelsesprojekt, hvor gamle demoer og uafsluttede sangidéer genfortolkes med AI-værktøjer og udgives i klyngede bølger. Drops sker hver anden uge i skiftende tre-nummers klynger – én bølge relationel, den næste energisk – med præstationsgennemgang hvert 45. dag. Målet er at se, om konsistente udgivelser alene kan generere streamingindtægter og organisk trækkraft uden markedsføring, sociale medier eller betalt reklame. Hvis et nummer havner i topniveauet i sin klynge, markeres det til potentiel genprocuktion eller licensering.",
+    "codex": "Et eksperimentelt udgivelsesprojekt, hvor gamle demoer og ufærdige sangidéer nyfortolkes gennem AI-værktøjer og udgives i klyngede bølger. Drops sker hver anden uge i skiftende tre-track-klynger — én relationel bølge, den næste energisk — med performance review hver 45. dag. Målet er at se, om konsekvente udgivelser alene kan skabe streamingindtægter og organisk traction uden marketing, tilstedeværelse på sociale medier eller betalt promotion. Hvis et track lander i topniveauet i sin klynge, markeres det til potentiel reproduktion eller licensering.",
+    "gemini": "Et eksperimentelt udgivelsesprojekt, hvor gamle demoer og uafsluttede sangidéer genfortolkes gennem AI-værktøjer og udgives i klynger. Drops sker hver anden uge i skiftende klynger på tre numre — én bølge relationel, den næste energisk — med performance-gennemgang hver 45. dag. Målet er at se, om konsekvente udgivelser alene kan generere streamingindtægter og organisk trækkraft uden nogen form for markedsføring, tilstedeværelse på sociale medier eller betalt promovering. Hvis et track lander i top-tier af sin klynge, bliver det flagget for potentiel reproduktion eller licensering.",
+    "reason": "No consensus — similarities: C↔X=0.79, C↔G=0.79, X↔G=0.80",
+    "chosen": "Et eksperimentelt udgivelsesprojekt, hvor gamle demoer og uafsluttede sangidéer genfortolkes med AI-værktøjer og udgives i klyngede bølger. Drops sker hver anden uge i skiftende tre-nummers klynger – én bølge relationel, den næste energisk – med præstationsgennemgang hvert 45. dag. Målet er at se, om konsistente udgivelser alene kan generere streamingindtægter og organisk trækkraft uden markedsføring, sociale medier eller betalt reklame. Hvis et nummer havner i topniveauet i sin klynge, markeres det til potentiel genprocuktion eller licensering."
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.dmaic.M",
+    "english": "Track streaming numbers, saves, completion rates, and listener retention across roughly 30 releases over 12 months. Every 45 days, review cluster performance to see which wave style is gaining traction and which individual tracks are rising to the top.",
+    "claude": "Spor streamingtal, gemte numre, gennemførelsesrater og lytterfastholdelse på tværs af ca. 30 udgivelser over 12 måneder. Hvert 45. dag gennemgås klyngepræstationen for at se, hvilken bølgestil der vinder frem, og hvilke individuelle numre der stiger til tops.",
+    "codex": "Spor streamingtal, saves, completion rates og fastholdelse af lyttere på tværs af cirka 30 udgivelser over 12 måneder. Hver 45. dag gennemgås klyngeperformance for at se, hvilken bølgestil der får traction, og hvilke enkelte tracks der stiger til tops.",
+    "gemini": "Spor streamingtal, saves, gennemførelsesrater og lytterloyalitet på tværs af ca. 30 udgivelser over 12 måneder. Hver 45. dag gennemgås klynge-performance for at se, hvilken bølgestil der vinder terræn, og hvilke individuelle numre der stiger til toppen.",
+    "reason": "No consensus — similarities: C↔X=0.69, C↔G=0.84, X↔G=0.75",
+    "chosen": "Spor streamingtal, gemte numre, gennemførelsesrater og lytterfastholdelse på tværs af ca. 30 udgivelser over 12 måneder. Hvert 45. dag gennemgås klyngepræstationen for at se, hvilken bølgestil der vinder frem, og hvilke individuelle numre der stiger til tops."
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.dmaic.I",
+    "english": "When a track performs in the top 20% of its cluster with above-median engagement, flag it for reproduction or licensing exploration. Reinvest any revenue back into refining the workflow.",
+    "claude": "Når et nummer præsterer i toppen 20% af sin klynge med over-median engagement, markeres det til genprocuktion eller licenseringsundersøgelse. Geninvester eventuelle indtægter i at forfine arbejdsgangen.",
+    "codex": "Når et track performer i top 20% af sin klynge med engagement over medianen, markeres det til reproduktion eller licensudforskning. Eventuelle indtægter geninvesteres i at forfine workflowet.",
+    "gemini": "Når et track præsterer i de øverste 20% af sin klynge med engagement over medianen, flagges det til reproduktion eller licensundersøgelse. Geninvester eventuelle indtægter i at forfine workflowet.",
+    "reason": "No consensus — similarities: C↔X=0.56, C↔G=0.69, X↔G=0.71",
+    "chosen": "Når et nummer præsterer i toppen 20% af sin klynge med over-median engagement, markeres det til genprocuktion eller licenseringsundersøgelse. Geninvester eventuelle indtægter i at forfine arbejdsgangen."
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.dmaic.C",
+    "english": "After 30 releases and one year, evaluate whether the catalog is sustainably generating revenue. Decide whether to continue, pivot the release strategy, or pull the catalog and test a new system.",
+    "claude": "Efter 30 udgivelser og ét år evalueres det, om kataloget genererer bæredygtige indtægter. Beslut, om man skal fortsætte, dreje udgivelsesstrategien eller trække kataloget tilbage og teste et nyt system.",
+    "codex": "Efter 30 udgivelser og ét år evalueres det, om kataloget skaber bæredygtige indtægter. Beslut om udgivelsesstrategien skal fortsætte, pivoteres, eller om kataloget skal trækkes tilbage for at teste et nyt system.",
+    "gemini": "Efter 30 udgivelser og ét år evalueres det, om kataloget genererer indtægter bæredygtigt. Beslut om udgivelsesstrategien skal fortsætte, justeres, eller om kataloget skal trækkes tilbage og et nyt system testes.",
+    "reason": "No consensus — similarities: C↔X=0.67, C↔G=0.59, X↔G=0.80",
+    "chosen": "Efter 30 udgivelser og ét år evalueres det, om kataloget genererer bæredygtige indtægter. Beslut, om man skal fortsætte, dreje udgivelsesstrategien eller trække kataloget tilbage og teste et nyt system."
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.timeline[0]",
+    "english": "Catalog Curation",
+    "claude": "Katalogoprydning",
+    "codex": "Katalogkuratering",
+    "gemini": "Kuratering af katalog",
+    "reason": "No consensus — similarities: C↔X=0.65, C↔G=0.24, X↔G=0.29",
+    "chosen": "Katalogkuratering"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.timeline[2]",
+    "english": "Performance Tracking",
+    "claude": "Præstationssporing",
+    "codex": "Performancetracking",
+    "gemini": "Performance-sporing",
+    "reason": "No consensus — similarities: C↔X=0.26, C↔G=0.47, X↔G=0.74",
+    "chosen": "Performancetracking"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.timeline[3]",
+    "english": "Revenue & Licensing Evaluation",
+    "claude": "Evaluering af indtægter og licensering",
+    "codex": "Indtægts- & licensvurdering",
+    "gemini": "Evaluering af indtægter & licensering",
+    "reason": "No consensus — similarities: C↔X=0.39, C↔G=0.95, X↔G=0.43",
+    "chosen": "Indtægts- & licensvurdering"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.timeline[4]",
+    "english": "System Review & Next Phase",
+    "claude": "Systemgennemgang og næste fase",
+    "codex": "Systemreview & næste fase",
+    "gemini": "Systemgennemgang & næste fase",
+    "reason": "No consensus — similarities: C↔X=0.67, C↔G=0.93, X↔G=0.72",
+    "chosen": "Systemreview & næste fase"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.tools[1]",
+    "english": "AI Music Tools",
+    "claude": "AI-musikværktøjer",
+    "codex": "AI Music Tools",
+    "gemini": "AI Music Tools",
+    "reason": "No consensus — similarities: C↔X=0.29, C↔G=0.29, X↔G=1.00",
+    "chosen": "AI Music Tools"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.tools[3]",
+    "english": "Metadata Systems",
+    "claude": "Metadatasystemer",
+    "codex": "Metadata Systems",
+    "gemini": "Metadata Systems",
+    "reason": "No consensus — similarities: C↔X=0.75, C↔G=0.75, X↔G=1.00",
+    "chosen": "Metadata Systems"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.tools[4]",
+    "english": "Cluster-Based Release Scheduling",
+    "claude": "Klyngebaseret udgivelsesplanlægning",
+    "codex": "Cluster-Based Release Scheduling",
+    "gemini": "Cluster-Based Release Scheduling",
+    "reason": "No consensus — similarities: C↔X=0.29, C↔G=0.29, X↔G=1.00",
+    "chosen": "Cluster-Based Release Scheduling"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.tools[5]",
+    "english": "45-Day Review Cycles",
+    "claude": "45-dages gennemgangscyklusser",
+    "codex": "45-Day Review Cycles",
+    "gemini": "45-Day Review Cycles",
+    "reason": "No consensus — similarities: C↔X=0.34, C↔G=0.34, X↔G=1.00",
+    "chosen": "45-Day Review Cycles"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.outcomes[1]",
+    "english": "Biweekly release cadence sustained over 12 months",
+    "claude": "Tovigentlig udgivelseskadence opretholdt over 12 måneder",
+    "codex": "Udgivelseskadence hver anden uge fastholdt over 12 måneder",
+    "gemini": "Udgivelsesrytme hver fjortende dag opretholdt over 12 måneder",
+    "reason": "No consensus — similarities: C↔X=0.53, C↔G=0.56, X↔G=0.67",
+    "chosen": "Udgivelseskadence hver anden uge fastholdt over 12 måneder"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.outcomes[2]",
+    "english": "45-day performance reviews identifying top-tier tracks for reproduction",
+    "claude": "45-dages præstationsgennemgange der identificerer topnumre til genprocuktion",
+    "codex": "45-dages performance reviews identificerede top-tier tracks til reproduktion",
+    "gemini": "45-dages performance-gennemgange identificerer top-numre til reproduktion",
+    "reason": "No consensus — similarities: C↔X=0.51, C↔G=0.76, X↔G=0.71",
+    "chosen": "45-dages performance reviews identificerede top-tier tracks til reproduktion"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.outcomes[3]",
+    "english": "Organic streaming revenue generated without marketing spend",
+    "claude": "Organiske streamingindtægter genereret uden markedsføringsforbrug",
+    "codex": "Organiske streamingindtægter skabt uden marketingbudget",
+    "gemini": "Organiske streamingindtægter genereret uden markedsføringsomkostninger",
+    "reason": "No consensus — similarities: C↔X=0.68, C↔G=0.86, X↔G=0.66",
+    "chosen": "Organiske streamingindtægter skabt uden marketingbudget"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.outcomes[4]",
+    "english": "Revenue and licensing opportunities surfaced by cluster data",
+    "claude": "Indtægts- og licenseringsmuligheder afsløret af klyngedata",
+    "codex": "Indtægts- og licensmuligheder afdækket gennem klyngedata",
+    "gemini": "Indtægts- og licensmuligheder afdækket via klyngedata",
+    "reason": "No consensus — similarities: C↔X=0.72, C↔G=0.78, X↔G=0.89",
+    "chosen": "Indtægts- og licensmuligheder afdækket gennem klyngedata"
+  },
+  {
+    "key": "data.projects.the-reimagination-engine.outcomes[5]",
+    "english": "A repeatable experiment framework for future release systems",
+    "claude": "En gentagelig eksperimentramme til fremtidige udgivelsessystemer",
+    "codex": "Et gentageligt eksperimentframework til fremtidige udgivelsessystemer",
+    "gemini": "En reproducerbar eksperimentramme for fremtidige udgivelsessystemer",
+    "reason": "No consensus — similarities: C↔X=0.88, C↔G=0.79, X↔G=0.70",
+    "chosen": "Et gentageligt eksperimentframework til fremtidige udgivelsessystemer"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.description",
+    "english": "Vocal producer for background vocals across 12 songs on an unreleased album for Danish artist Calby. Managed vocal arrangements, talent acquisition, production coordination, and budget oversight on behalf of Sony Music Denmark and Bogs Agency.",
+    "claude": "Vokalproducent for baggrundsvokaler på tværs af 12 sange på et uudgivet album for den danske kunstner Calby. Styrede vokalopstillinger, talentopkøb, produktionskoordinering og budgetoversigt på vegne af Sony Music Denmark og Bogs Agency.",
+    "codex": "Vocal producer for baggrundsvokaler på 12 sange på et uudgivet album for den danske artist Calby. Håndterede vokalarrangementer, talent acquisition, produktionskoordinering og budgetoverblik på vegne af Sony Music Denmark og Bogs Agency.",
+    "gemini": "Vokalproducer for backing vokaler på 12 sange på et uudgivet album for den danske artist Calby. Håndterede vokalarrangementer, rekruttering af talenter, produktionskoordinering og budgetoverblik på vegne af Sony Music Denmark og Bogs Agency.",
+    "reason": "No consensus — similarities: C↔X=0.78, C↔G=0.73, X↔G=0.88",
+    "chosen": "Vokalproducent for baggrundsvokaler på tværs af 12 sange på et uudgivet album for den danske kunstner Calby. Styrede vokalopstillinger, talentopkøb, produktionskoordinering og budgetoversigt på vegne af Sony Music Denmark og Bogs Agency."
+  },
+  {
+    "key": "data.projects.calby-inner-critic.dmaic.D",
+    "english": "Produce background vocal arrangements for 12 songs on Calby's album, managing talent, production logistics, and budget for Sony Music Denmark / Bogs Agency.",
+    "claude": "Producér baggrundsvokalopstillinger for 12 sange på Calbys album, styring af talent, produktionslogistik og budget for Sony Music Denmark / Bogs Agency.",
+    "codex": "Producere baggrundsvokalarrangementer til 12 sange på Calby's album, med ansvar for talent, produktionslogistik og budget for Sony Music Denmark / Bogs Agency.",
+    "gemini": "Producer backing vokal-arrangementer til 12 sange på Calby's album, herunder styring af talenter, produktionslogistik og budget for Sony Music Denmark / Bogs Agency.",
+    "reason": "No consensus — similarities: C↔X=0.83, C↔G=0.80, X↔G=0.85",
+    "chosen": "Producér baggrundsvokalopstillinger for 12 sange på Calbys album, styring af talent, produktionslogistik og budget for Sony Music Denmark / Bogs Agency."
+  },
+  {
+    "key": "data.projects.calby-inner-critic.dmaic.M",
+    "english": "Completion of vocal arrangements, successful recording of prioritized songs, stakeholder approval of arrangements, and delivery of promotional video content.",
+    "claude": "Gennemførelse af vokalopstillinger, succesfuld optagelse af prioriterede sange, interessenternes godkendelse af opstillinger og levering af promotionelt videoindhold.",
+    "codex": "Færdiggørelse af vokalarrangementer, succesfuld indspilning af prioriterede sange, stakeholder-godkendelse af arrangementer og levering af promotional video content.",
+    "gemini": "Færdiggørelse af vokalarrangementer, succesfuld indspilning af prioriterede sange, godkendelse af arrangementer fra interessenter og levering af promoveringsvideoer.",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.54, X↔G=0.73",
+    "chosen": "Gennemførelse af vokalopstillinger, succesfuld optagelse af prioriterede sange, interessenternes godkendelse af opstillinger og levering af promotionelt videoindhold."
+  },
+  {
+    "key": "data.projects.calby-inner-critic.dmaic.A",
+    "english": "Tight timeline (less than a week for arrangements), budget constraints, balancing musical requirements with videography needs, and coordinating multiple teams across pre-production and recording.",
+    "claude": "Stram tidslinje (under én uge til opstillinger), budgetbegrænsninger, balancering af musikalske krav med videografibehov og koordinering af flere teams på tværs af pre-produktion og optagelse.",
+    "codex": "Stram tidsplan, mindre end en uge til arrangementer, budgetbegrænsninger, balancering af musikalske krav med videobehov og koordinering af flere teams på tværs af pre-production og indspilning.",
+    "gemini": "Stram tidslinje (under en uge til arrangementer), budgetbegrænsninger, afbalancering af musikalske krav med videobehov og koordinering af flere teams på tværs af pre-production og indspilning.",
+    "reason": "No consensus — similarities: C↔X=0.80, C↔G=0.85, X↔G=0.93",
+    "chosen": "Stram tidslinje (under én uge til opstillinger), budgetbegrænsninger, balancering af musikalske krav med videografibehov og koordinering af flere teams på tværs af pre-produktion og optagelse."
+  },
+  {
+    "key": "data.projects.calby-inner-critic.dmaic.C",
+    "english": "All prioritized songs recorded successfully. Stakeholders gave positive feedback. High-quality audio and visual assets delivered for archival and marketing use.",
+    "claude": "Alle prioriterede sange optaget succesfuldt. Interessenter gav positiv feedback. Høj kvalitet lyd- og visuelle aktiver leveret til arkivering og markedsføringsbrug.",
+    "codex": "Alle prioriterede sange blev indspillet med succes. Stakeholders gav positiv feedback. Audio- og billedmateriale af høj kvalitet blev leveret til arkiv- og marketingbrug.",
+    "gemini": "Alle prioriterede sange blev indspillet med succes. Interessenter gav positiv feedback. Lyd- og visuelle aktiver i høj kvalitet leveret til arkiv og markedsføring.",
+    "reason": "No consensus — similarities: C↔X=0.53, C↔G=0.63, X↔G=0.76",
+    "chosen": "Alle prioriterede sange optaget succesfuldt. Interessenter gav positiv feedback. Høj kvalitet lyd- og visuelle aktiver leveret til arkivering og markedsføringsbrug."
+  },
+  {
+    "key": "data.projects.calby-inner-critic.timeline[1]",
+    "english": "Talent Acquisition",
+    "claude": "Talentopkøb",
+    "codex": "Talent acquisition",
+    "gemini": "Talent Acquisition",
+    "reason": "No consensus — similarities: C↔X=0.33, C↔G=0.33, X↔G=0.94",
+    "chosen": "Talent acquisition"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.timeline[2]",
+    "english": "Studio Recording",
+    "claude": "Studieoptagelse",
+    "codex": "Studieindspilning",
+    "gemini": "Studio Recording",
+    "reason": "No consensus — similarities: C↔X=0.41, C↔G=0.31, X↔G=0.47",
+    "chosen": "Studieindspilning"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.timeline[3]",
+    "english": "Post-Production",
+    "claude": "Post-produktion",
+    "codex": "Post-production",
+    "gemini": "Post-Production",
+    "reason": "No consensus — similarities: C↔X=0.93, C↔G=0.87, X↔G=0.93",
+    "chosen": "Post-production"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.timeline[4]",
+    "english": "Client Delivery",
+    "claude": "Klientlevering",
+    "codex": "Kundelevering",
+    "gemini": "Levering til kunde",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.17, X↔G=0.11",
+    "chosen": "Kundelevering"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.tools[1]",
+    "english": "Vocal Arranging",
+    "claude": "Vokalopstilling",
+    "codex": "Vocal Arranging",
+    "gemini": "Vocal Arranging",
+    "reason": "No consensus — similarities: C↔X=0.47, C↔G=0.47, X↔G=1.00",
+    "chosen": "Vocal Arranging"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.tools[2]",
+    "english": "BGV Production",
+    "claude": "BGV-produktion",
+    "codex": "BGV Production",
+    "gemini": "BGV Production",
+    "reason": "No consensus — similarities: C↔X=0.79, C↔G=0.79, X↔G=1.00",
+    "chosen": "BGV Production"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.tools[3]",
+    "english": "Talent Management",
+    "claude": "Talentstyring",
+    "codex": "Talent Management",
+    "gemini": "Talent Management",
+    "reason": "No consensus — similarities: C↔X=0.41, C↔G=0.41, X↔G=1.00",
+    "chosen": "Talent Management"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.tools[4]",
+    "english": "Budget Management",
+    "claude": "Budgetstyring",
+    "codex": "Budget Management",
+    "gemini": "Budget Management",
+    "reason": "No consensus — similarities: C↔X=0.41, C↔G=0.41, X↔G=1.00",
+    "chosen": "Budget Management"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.tools[5]",
+    "english": "Studio Coordination",
+    "claude": "Studiekoordinering",
+    "codex": "Studio Coordination",
+    "gemini": "Studio Coordination",
+    "reason": "No consensus — similarities: C↔X=0.63, C↔G=0.63, X↔G=1.00",
+    "chosen": "Studio Coordination"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.tools[6]",
+    "english": "Multi-Track Recording",
+    "claude": "Flersporet optagelse",
+    "codex": "Multi-Track Recording",
+    "gemini": "Multi-Track Recording",
+    "reason": "No consensus — similarities: C↔X=0.10, C↔G=0.10, X↔G=1.00",
+    "chosen": "Multi-Track Recording"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.tools[7]",
+    "english": "Video Collaboration",
+    "claude": "Videosamarbejde",
+    "codex": "Video Collaboration",
+    "gemini": "Video Collaboration",
+    "reason": "No consensus — similarities: C↔X=0.37, C↔G=0.37, X↔G=1.00",
+    "chosen": "Video Collaboration"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.outcomes[0]",
+    "english": "Vocal arrangements for 12 songs delivered",
+    "claude": "Vokalopstillinger for 12 sange leveret",
+    "codex": "Vokalarrangementer til 12 sange leveret",
+    "gemini": "Vokalarrangementer til 12 sange leveret",
+    "reason": "No consensus — similarities: C↔X=0.67, C↔G=0.67, X↔G=1.00",
+    "chosen": "Vokalarrangementer til 12 sange leveret"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.outcomes[2]",
+    "english": "Positive stakeholder feedback from artist and label",
+    "claude": "Positiv interessentfeedback fra kunstner og label",
+    "codex": "Positiv stakeholder-feedback fra artist og label",
+    "gemini": "Positiv feedback fra artist og label",
+    "reason": "No consensus — similarities: C↔X=0.65, C↔G=0.63, X↔G=0.75",
+    "chosen": "Positiv stakeholder-feedback fra artist og label"
+  },
+  {
+    "key": "data.projects.calby-inner-critic.outcomes[3]",
+    "english": "High-quality audio and visual assets for marketing",
+    "claude": "Høj kvalitet lyd- og visuelle aktiver til markedsføring",
+    "codex": "Audio- og billedmateriale af høj kvalitet til marketing",
+    "gemini": "Lyd- og visuelle aktiver i høj kvalitet til markedsføring",
+    "reason": "No consensus — similarities: C↔X=0.29, C↔G=0.49, X↔G=0.60",
+    "chosen": "Audio- og billedmateriale af høj kvalitet til marketing"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.dmaic.D",
+    "english": "Create vocal arrangements for four songs on Lukas Graham's 3 (The Purple Album), hiring vocal talent and leading recording sessions for Warner Music Group / Then We Take The World.",
+    "claude": "Skab vokalopstillinger for fire sange på Lukas Grahams 3 (The Purple Album), ansættelse af vokalt talent og ledelse af optagelsessessioner for Warner Music Group / Then We Take The World.",
+    "codex": "Skabe vokalarrangementer til fire sange på Lukas Graham's 3 (The Purple Album), hyre vokaltalent og lede indspilningssessioner for Warner Music Group / Then We Take The World.",
+    "gemini": "Skab vokalarrangementer til fire sange på Lukas Graham's 3 (The Purple Album), herunder ansættelse af vokaltalenter og ledelse af indspilningssessioner for Warner Music Group / Then We Take The World.",
+    "reason": "No consensus — similarities: C↔X=0.77, C↔G=0.81, X↔G=0.86",
+    "chosen": "Skab vokalopstillinger for fire sange på Lukas Grahams 3 (The Purple Album), ansættelse af vokalt talent og ledelse af optagelsessessioner for Warner Music Group / Then We Take The World."
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.dmaic.M",
+    "english": "Quality of vocal arrangements, performance cohesion, stakeholder satisfaction, and seamless integration of BGVs into the final album.",
+    "claude": "Kvaliteten af vokalopstillinger, præstationssamhørighed, interessenttilfredshed og problemfri integration af BGVs i det endelige album.",
+    "codex": "Kvaliteten af vokalarrangementer, performance-sammenhæng, stakeholder-tilfredshed og sømløs integration af BGVs i det færdige album.",
+    "gemini": "Kvaliteten af vokalarrangementer, præstationsmæssig sammenhæng, tilfredshed hos interessenter og sømløs integration af BGVs på det endelige album.",
+    "reason": "No consensus — similarities: C↔X=0.61, C↔G=0.63, X↔G=0.70",
+    "chosen": "Kvaliteten af vokalopstillinger, præstationssamhørighed, interessenttilfredshed og problemfri integration af BGVs i det endelige album."
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.dmaic.A",
+    "english": "High-profile partnership demands, balancing commercial appeal with artist vision, managing vocal talent schedules, and making on-the-spot arrangement modifications during sessions.",
+    "claude": "Krav fra højtprofileret partnerskab, balancering af kommerciel appel med kunstnervision, styring af vokaltalentprogrammer og foretage opstillingsmodifikationer under sessioner.",
+    "codex": "Krav fra et højt profileret partnerskab, balance mellem kommerciel appel og artistisk vision, koordinering af vokaltalentets kalender og arrangementstilpasninger på stedet under sessions.",
+    "gemini": "Krav fra et profilere samarbejde, afbalancering af kommerciel appel med artistens vision, styring af vokaltalenters tidsplaner og løbende ændringer af arrangementer under sessionerne.",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.64, X↔G=0.58",
+    "chosen": "Krav fra højtprofileret partnerskab, balancering af kommerciel appel med kunstnervision, styring af vokaltalentprogrammer og foretage opstillingsmodifikationer under sessioner."
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.dmaic.I",
+    "english": "Created arrangements informed by deep artist research, hired fitting vocal talent, led recording sessions with real-time adjustments, and negotiated fair talent compensation within budget.",
+    "claude": "Skabte opstillinger baseret på dybdegående kunstnerforskning, hyrede passende vokalt talent, ledede optagelsessessioner med realtidsjusteringer og forhandlede fair talentgodtgørelse inden for budget.",
+    "codex": "Skabte arrangementer baseret på dyb artistresearch, hyrede passende vokaltalent, ledte indspilningssessioner med justeringer i realtid og forhandlede fair talenthonorar inden for budgettet.",
+    "gemini": "Skabte arrangementer baseret på dybdegående research af artisten, hyrede de rette vokaltalenter, ledede indspilningssessioner med justeringer i realtid og forhandlede rimelig kompensation til talenter inden for budgettet.",
+    "reason": "No consensus — similarities: C↔X=0.62, C↔G=0.58, X↔G=0.75",
+    "chosen": "Skabte opstillinger baseret på dybdegående kunstnerforskning, hyrede passende vokalt talent, ledede optagelsessessioner med realtidsjusteringer og forhandlede fair talentgodtgørelse inden for budget."
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.dmaic.C",
+    "english": "All four songs delivered with high-quality vocal performances. Stakeholders expressed great satisfaction. Relationships strengthened for future collaborations.",
+    "claude": "Alle fire sange leveret med høj kvalitet vokalperformances. Interessenter udtrykte stor tilfredshed. Relationer styrket til fremtidige samarbejder.",
+    "codex": "Alle fire sange blev leveret med vokalperformances af høj kvalitet. Stakeholders udtrykte stor tilfredshed. Relationerne blev styrket til fremtidige samarbejder.",
+    "gemini": "Alle fire sange leveret med vokalpræstationer af høj kvalitet. Interessenter udtrykte stor tilfredshed. Relationer styrket til fremtidige samarbejder.",
+    "reason": "No consensus — similarities: C↔X=0.70, C↔G=0.81, X↔G=0.80",
+    "chosen": "Alle fire sange leveret med høj kvalitet vokalperformances. Interessenter udtrykte stor tilfredshed. Relationer styrket til fremtidige samarbejder."
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.timeline[0]",
+    "english": "Research & Preparation",
+    "claude": "Forskning og forberedelse",
+    "codex": "Research & forberedelse",
+    "gemini": "Research & Forberedelse",
+    "reason": "No consensus — similarities: C↔X=0.60, C↔G=0.56, X↔G=0.96",
+    "chosen": "Research & forberedelse"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.timeline[1]",
+    "english": "Vocal Arrangement",
+    "claude": "Vokalopstilling",
+    "codex": "Vokalarrangement",
+    "gemini": "Vocal Arrangement",
+    "reason": "No consensus — similarities: C↔X=0.38, C↔G=0.29, X↔G=0.82",
+    "chosen": "Vokalarrangement"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.timeline[2]",
+    "english": "Talent Acquisition",
+    "claude": "Talentopkøb",
+    "codex": "Talent acquisition",
+    "gemini": "Talent Acquisition",
+    "reason": "No consensus — similarities: C↔X=0.33, C↔G=0.33, X↔G=0.94",
+    "chosen": "Talent acquisition"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.timeline[3]",
+    "english": "Studio Recording",
+    "claude": "Studieoptagelse",
+    "codex": "Studieindspilning",
+    "gemini": "Studio Recording",
+    "reason": "No consensus — similarities: C↔X=0.41, C↔G=0.31, X↔G=0.47",
+    "chosen": "Studieindspilning"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.tools[0]",
+    "english": "Vocal Arranging",
+    "claude": "Vokalopstilling",
+    "codex": "Vocal Arranging",
+    "gemini": "Vocal Arranging",
+    "reason": "No consensus — similarities: C↔X=0.47, C↔G=0.47, X↔G=1.00",
+    "chosen": "Vocal Arranging"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.tools[2]",
+    "english": "Talent Acquisition",
+    "claude": "Talentopkøb",
+    "codex": "Talent Acquisition",
+    "gemini": "Talent Acquisition",
+    "reason": "No consensus — similarities: C↔X=0.33, C↔G=0.33, X↔G=1.00",
+    "chosen": "Talent Acquisition"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.tools[3]",
+    "english": "Session Direction",
+    "claude": "Sessionsdirektion",
+    "codex": "Session Direction",
+    "gemini": "Session Direction",
+    "reason": "No consensus — similarities: C↔X=0.82, C↔G=0.82, X↔G=1.00",
+    "chosen": "Session Direction"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.tools[4]",
+    "english": "Stakeholder Negotiation",
+    "claude": "Interessentforhandling",
+    "codex": "Stakeholder Negotiation",
+    "gemini": "Stakeholder Negotiation",
+    "reason": "No consensus — similarities: C↔X=0.13, C↔G=0.13, X↔G=1.00",
+    "chosen": "Stakeholder Negotiation"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.tools[5]",
+    "english": "Comping & Tuning",
+    "claude": "Comping og stemning",
+    "codex": "Comping & Tuning",
+    "gemini": "Comping & Tuning",
+    "reason": "No consensus — similarities: C↔X=0.68, C↔G=0.68, X↔G=1.00",
+    "chosen": "Comping & Tuning"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.tools[6]",
+    "english": "International Collaboration",
+    "claude": "Internationalt samarbejde",
+    "codex": "International Collaboration",
+    "gemini": "International Collaboration",
+    "reason": "No consensus — similarities: C↔X=0.56, C↔G=0.56, X↔G=1.00",
+    "chosen": "International Collaboration"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.outcomes[0]",
+    "english": "Vocal arrangements for four songs on international release",
+    "claude": "Vokalopstillinger for fire sange på international udgivelse",
+    "codex": "Vokalarrangementer til fire sange på international udgivelse",
+    "gemini": "Vokalarrangementer til fire sange på international udgivelse",
+    "reason": "No consensus — similarities: C↔X=0.78, C↔G=0.78, X↔G=1.00",
+    "chosen": "Vokalarrangementer til fire sange på international udgivelse"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.outcomes[1]",
+    "english": "High-quality vocal performances capturing artist vision",
+    "claude": "Høj kvalitet vokalperformances der indfanger kunstnervisionen",
+    "codex": "Vokalperformances af høj kvalitet, der indfangede artistens vision",
+    "gemini": "Vokalpræstationer af høj kvalitet, der indfanger artistens vision",
+    "reason": "No consensus — similarities: C↔X=0.39, C↔G=0.42, X↔G=0.82",
+    "chosen": "Vokalperformances af høj kvalitet, der indfangede artistens vision"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.outcomes[2]",
+    "english": "Stakeholder satisfaction from Warner Music and management",
+    "claude": "Interessenttilfredshed fra Warner Music og management",
+    "codex": "Stakeholder-tilfredshed fra Warner Music og management",
+    "gemini": "Tilfredshed hos Warner Music og management",
+    "reason": "No consensus — similarities: C↔X=0.81, C↔G=0.72, X↔G=0.70",
+    "chosen": "Stakeholder-tilfredshed fra Warner Music og management"
+  },
+  {
+    "key": "data.projects.lukas-graham-purple.outcomes[4]",
+    "english": "Seamless BGV integration into final album mix",
+    "claude": "Problemfri BGV-integration i den endelige albumsmiksning",
+    "codex": "Sømløs BGV-integration i det færdige albummix",
+    "gemini": "Sømløs BGV-integration i det endelige album-mix",
+    "reason": "No consensus — similarities: C↔X=0.61, C↔G=0.70, X↔G=0.87",
+    "chosen": "Sømløs BGV-integration i det færdige albummix"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.description",
+    "english": "Led the choral and recording studio components of Image Village 2023, a summer camp at Heart and Soul Center in South Central Los Angeles. Taught vocal technique and ensemble skills to two age groups while guiding students through songwriting, DAW production, and music video creation.",
+    "claude": "Ledede koral- og optagelsesstudiokomponenterne i Image Village 2023, et sommerlejr på Heart and Soul Center i South Central Los Angeles. Underviste i vokalteknik og ensemblefærdigheder til to aldersgrupper, mens de studerende blev guidet igennem sangskrivning, DAW-produktion og musikvideoskabelse.",
+    "codex": "Ledte kor- og recording studio-komponenterne i Image Village 2023, en sommerlejr på Heart and Soul Center i South Central Los Angeles. Underviste to aldersgrupper i vokalteknik og ensemblefærdigheder, samtidig med at eleverne blev guidet gennem sangskrivning, DAW-produktion og musikvideoarbejde.",
+    "gemini": "Ledede kor- og studiedelene af Image Village 2023, en sommerlejr i Heart and Soul Center i South Central Los Angeles. Underviste i vokalteknik og ensemble-færdigheder til to aldersgrupper, mens jeg guidede eleverne gennem sangskrivning, DAW-produktion og skabelse af musikvideoer.",
+    "reason": "No consensus — similarities: C↔X=0.77, C↔G=0.79, X↔G=0.66",
+    "chosen": "Ledede koral- og optagelsesstudiokomponenterne i Image Village 2023, et sommerlejr på Heart and Soul Center i South Central Los Angeles. Underviste i vokalteknik og ensemblefærdigheder til to aldersgrupper, mens de studerende blev guidet igennem sangskrivning, DAW-produktion og musikvideoskabelse."
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.dmaic.D",
+    "english": "Deliver a summer camp music program at Heart and Soul Center combining choral instruction and recording studio education for youth in South Central Los Angeles.",
+    "claude": "Levér et sommerlejr-musikprogram på Heart and Soul Center der kombinerer koralundervisning og optagelsesstudiouddannelse for unge i South Central Los Angeles.",
+    "codex": "Levere et sommerlejr-musikprogram på Heart and Soul Center, der kombinerer korundervisning og recording studio-undervisning for unge i South Central Los Angeles.",
+    "gemini": "Levere et musikprogram til en sommerlejr i Heart and Soul Center, der kombinerer korundervisning og studieundervisning for unge i South Central Los Angeles.",
+    "reason": "No consensus — similarities: C↔X=0.84, C↔G=0.66, X↔G=0.76",
+    "chosen": "Levér et sommerlejr-musikprogram på Heart and Soul Center der kombinerer koralundervisning og optagelsesstudiouddannelse for unge i South Central Los Angeles."
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.dmaic.M",
+    "english": "Student skill development in vocal technique and music production, successful end-of-camp performance, completion of student music video, and lesson plan delivery.",
+    "claude": "Studerendes kompetenceudvikling inden for vokalteknik og musikproduktion, succesfuld slutperformance, gennemførelse af studerendes musikvideo og levering af lektionsplaner.",
+    "codex": "Elevernes udvikling inden for vokalteknik og musikproduktion, vellykket afsluttende optræden, færdiggørelse af elevmusikvideo og gennemførelse af lektionsplaner.",
+    "gemini": "Elevudvikling inden for vokalteknik og musikproduktion, succesfuld afslutningskoncert, færdiggørelse af elevernes musikvideo og gennemførelse af lektionsplaner.",
+    "reason": "No consensus — similarities: C↔X=0.62, C↔G=0.67, X↔G=0.79",
+    "chosen": "Studerendes kompetenceudvikling inden for vokalteknik og musikproduktion, succesfuld slutperformance, gennemførelse af studerendes musikvideo og levering af lektionsplaner."
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.dmaic.I",
+    "english": "Created comprehensive lesson plans with clear learning objectives. Taught vocal technique, ensemble skills, and stage presence for the choral component. Guided students through songwriting, DAW production, and music video creation for the studio component. Prepared both groups for the end-of-camp performance.",
+    "claude": "Skabte omfattende lektionsplaner med klare læringsmål. Underviste i vokalteknik, ensemblefærdigheder og scenepræsens for koralkomponenten. Guidede studerende igennem sangskrivning, DAW-produktion og musikvideoskabelse for studiokomponenten. Forberedte begge grupper til slutperformancen.",
+    "codex": "Udarbejdede omfattende lektionsplaner med klare læringsmål. Underviste i vokalteknik, ensemblefærdigheder og stage presence til kordelen. Guidede eleverne gennem sangskrivning, DAW-produktion og musikvideoskabelse til studiedelen. Forberedte begge grupper til den afsluttende performance.",
+    "gemini": "Skabte omfattende lektionsplaner med klare læringsmål. Underviste i vokalteknik, ensemble-færdigheder og sceneoptræden til kordelen. Guidede eleverne gennem sangskrivning, DAW-produktion og skabelse af musikvideoer til studiedelen. Forberedte begge grupper til afslutningskoncerten.",
+    "reason": "No consensus — similarities: C↔X=0.79, C↔G=0.76, X↔G=0.81",
+    "chosen": "Skabte omfattende lektionsplaner med klare læringsmål. Underviste i vokalteknik, ensemblefærdigheder og scenepræsens for koralkomponenten. Guidede studerende igennem sangskrivning, DAW-produktion og musikvideoskabelse for studiokomponenten. Forberedte begge grupper til slutperformancen."
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.dmaic.C",
+    "english": "End-of-camp performance delivered successfully with both age groups. Students completed songwriting and production projects. Music video created. Lesson plans executed and documented. Photo and video footage archived for portfolio.",
+    "claude": "Slutperformance leveret succesfuldt med begge aldersgrupper. Studerende gennemførte sangskrivnings- og produktionsprojekter. Musikvideo skabt. Lektionsplaner udført og dokumenteret. Foto- og videomateriale arkiveret.",
+    "codex": "Afsluttende performance gennemført med succes med begge aldersgrupper. Eleverne færdiggjorde sangskrivnings- og produktionsprojekter. Musikvideo blev skabt. Lektionsplaner blev gennemført og dokumenteret. Foto- og videooptagelser arkiveret til portfolio.",
+    "gemini": "Afslutningskoncert gennemført med succes for begge aldersgrupper. Eleverne færdiggjorde sangskrivnings- og produktionsprojekter. Musikvideo skabt. Lektionsplaner udført og dokumenteret. Foto- og videomateriale arkiveret til portfolio.",
+    "reason": "No consensus — similarities: C↔X=0.69, C↔G=0.74, X↔G=0.84",
+    "chosen": "Slutperformance leveret succesfuldt med begge aldersgrupper. Studerende gennemførte sangskrivnings- og produktionsprojekter. Musikvideo skabt. Lektionsplaner udført og dokumenteret. Foto- og videomateriale arkiveret."
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.timeline[0]",
+    "english": "Lesson Plan Development",
+    "claude": "Lektionsplanlægning",
+    "codex": "Udvikling af lektionsplaner",
+    "gemini": "Udvikling af lektionsplaner",
+    "reason": "No consensus — similarities: C↔X=0.22, C↔G=0.22, X↔G=1.00",
+    "chosen": "Udvikling af lektionsplaner"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.timeline[1]",
+    "english": "Choral Instruction",
+    "claude": "Koralundervisning",
+    "codex": "Korundervisning",
+    "gemini": "Korundervisning",
+    "reason": "No consensus — similarities: C↔X=0.88, C↔G=0.88, X↔G=1.00",
+    "chosen": "Korundervisning"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.timeline[2]",
+    "english": "Studio Instruction",
+    "claude": "Studioundervisning",
+    "codex": "Studieundervisning",
+    "gemini": "Studieundervisning",
+    "reason": "No consensus — similarities: C↔X=0.94, C↔G=0.94, X↔G=1.00",
+    "chosen": "Studieundervisning"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.timeline[3]",
+    "english": "Performance & Video",
+    "claude": "Performance og video",
+    "codex": "Performance & video",
+    "gemini": "Performance & Video",
+    "reason": "No consensus — similarities: C↔X=0.90, C↔G=0.85, X↔G=0.95",
+    "chosen": "Performance & video"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.timeline[4]",
+    "english": "Documentation & Archive",
+    "claude": "Dokumentation og arkivering",
+    "codex": "Dokumentation & arkiv",
+    "gemini": "Dokumentation & Arkiv",
+    "reason": "No consensus — similarities: C↔X=0.74, C↔G=0.70, X↔G=0.95",
+    "chosen": "Dokumentation & arkiv"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.tools[0]",
+    "english": "Vocal Instruction",
+    "claude": "Vokalundervisning",
+    "codex": "Vocal Instruction",
+    "gemini": "Vocal Instruction",
+    "reason": "No consensus — similarities: C↔X=0.35, C↔G=0.35, X↔G=1.00",
+    "chosen": "Vocal Instruction"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.tools[1]",
+    "english": "DAW Production",
+    "claude": "DAW-produktion",
+    "codex": "DAW Production",
+    "gemini": "DAW Production",
+    "reason": "No consensus — similarities: C↔X=0.79, C↔G=0.79, X↔G=1.00",
+    "chosen": "DAW Production"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.tools[2]",
+    "english": "Songwriting",
+    "claude": "Sangskrivning",
+    "codex": "Songwriting",
+    "gemini": "Songwriting",
+    "reason": "No consensus — similarities: C↔X=0.62, C↔G=0.62, X↔G=1.00",
+    "chosen": "Songwriting"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.tools[3]",
+    "english": "Music Video Production",
+    "claude": "Musikvideoproduktion",
+    "codex": "Music Video Production",
+    "gemini": "Music Video Production",
+    "reason": "No consensus — similarities: C↔X=0.73, C↔G=0.73, X↔G=1.00",
+    "chosen": "Music Video Production"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.tools[4]",
+    "english": "Lesson Planning",
+    "claude": "Lektionsplanlægning",
+    "codex": "Lesson Planning",
+    "gemini": "Lesson Planning",
+    "reason": "No consensus — similarities: C↔X=0.58, C↔G=0.58, X↔G=1.00",
+    "chosen": "Lesson Planning"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.tools[5]",
+    "english": "Ensemble Direction",
+    "claude": "Ensembledirektion",
+    "codex": "Ensemble Direction",
+    "gemini": "Ensemble Direction",
+    "reason": "No consensus — similarities: C↔X=0.83, C↔G=0.83, X↔G=1.00",
+    "chosen": "Ensemble Direction"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.tools[6]",
+    "english": "Youth Education",
+    "claude": "Ungdomsuddannelse",
+    "codex": "Youth Education",
+    "gemini": "Youth Education",
+    "reason": "No consensus — similarities: C↔X=0.06, C↔G=0.06, X↔G=1.00",
+    "chosen": "Youth Education"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.outcomes[0]",
+    "english": "End-of-camp performance with both age groups",
+    "claude": "Slutperformance med begge aldersgrupper",
+    "codex": "Afsluttende performance med begge aldersgrupper",
+    "gemini": "Afslutningskoncert med begge aldersgrupper gennemført",
+    "reason": "No consensus — similarities: C↔X=0.81, C↔G=0.55, X↔G=0.53",
+    "chosen": "Afsluttende performance med begge aldersgrupper"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.outcomes[1]",
+    "english": "Student songwriting and DAW production projects completed",
+    "claude": "Studerendes sangskrivnings- og DAW-produktionsprojekter gennemført",
+    "codex": "Elevernes sangskrivnings- og DAW-produktionsprojekter færdiggjort",
+    "gemini": "Elevernes sangskrivnings- og DAW-produktionsprojekter færdiggjort",
+    "reason": "No consensus — similarities: C↔X=0.77, C↔G=0.77, X↔G=1.00",
+    "chosen": "Elevernes sangskrivnings- og DAW-produktionsprojekter færdiggjort"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.outcomes[2]",
+    "english": "Music video created by students",
+    "claude": "Musikvideo skabt af studerende",
+    "codex": "Musikvideo skabt af elever",
+    "gemini": "Musikvideo skabt af eleverne",
+    "reason": "No consensus — similarities: C↔X=0.73, C↔G=0.80, X↔G=0.93",
+    "chosen": "Musikvideo skabt af elever"
+  },
+  {
+    "key": "data.projects.heart-soul-image-village.outcomes[4]",
+    "english": "Photo and video footage archived for portfolio",
+    "claude": "Foto- og videomateriale arkiveret",
+    "codex": "Foto- og videooptagelser arkiveret til portfolio",
+    "gemini": "Foto- og videomateriale arkiveret til portfolio",
+    "reason": "No consensus — similarities: C↔X=0.54, C↔G=0.70, X↔G=0.83",
+    "chosen": "Foto- og videooptagelser arkiveret til portfolio"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.dmaic.M",
+    "english": "Audience impact, artistic cohesion, and successful execution of an unreleased body of work in a live format.",
+    "claude": "Publikumsindvirkning, kunstnerisk samhørighed og succesfuld udførelse af et uudgivet materiale i et liveformat.",
+    "codex": "Publikumseffekt, kunstnerisk sammenhæng og vellykket eksekvering af et uudgivet værk i liveformat.",
+    "gemini": "Publikumsimpact, kunstnerisk sammenhæng og succesfuld eksekvering af et uudgivet værk i liveformat.",
+    "reason": "No consensus — similarities: C↔X=0.56, C↔G=0.65, X↔G=0.85",
+    "chosen": "Publikumsindvirkning, kunstnerisk samhørighed og succesfuld udførelse af et uudgivet materiale i et liveformat."
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.dmaic.A",
+    "english": "Solved the creative and logistical challenge of staging a compelling live show under pandemic-era constraints.",
+    "claude": "Løste den kreative og logistiske udfordring med at iscenesætte et overbevisende liveshow under pandemi-begrænsninger.",
+    "codex": "Løste den kreative og logistiske udfordring ved at iscenesætte et fængende liveshow under pandemi-eraens begrænsninger.",
+    "gemini": "Løste de kreative og logistiske udfordringer ved at iscenesætte et overbevisende liveshow under pandemirelaterede restriktioner.",
+    "reason": "No consensus — similarities: C↔X=0.86, C↔G=0.82, X↔G=0.78",
+    "chosen": "Løste den kreative og logistiske udfordring med at iscenesætte et overbevisende liveshow under pandemi-begrænsninger."
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.timeline[1]",
+    "english": "Set Design & Logistics",
+    "claude": "Scenedesign og logistik",
+    "codex": "Setdesign & logistik",
+    "gemini": "Scenedesign & Logistik",
+    "reason": "No consensus — similarities: C↔X=0.78, C↔G=0.87, X↔G=0.82",
+    "chosen": "Setdesign & logistik"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.timeline[2]",
+    "english": "Rehearsal & Tech",
+    "claude": "Prøve og teknik",
+    "codex": "Prøve & teknik",
+    "gemini": "Prøve & Teknik",
+    "reason": "No consensus — similarities: C↔X=0.87, C↔G=0.80, X↔G=0.93",
+    "chosen": "Prøve & teknik"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.timeline[3]",
+    "english": "Live Performance",
+    "claude": "Liveopførelse",
+    "codex": "Liveperformance",
+    "gemini": "Live Performance",
+    "reason": "No consensus — similarities: C↔X=0.47, C↔G=0.44, X↔G=0.88",
+    "chosen": "Liveperformance"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.timeline[4]",
+    "english": "Documentation & Archive",
+    "claude": "Dokumentation og arkivering",
+    "codex": "Dokumentation & arkiv",
+    "gemini": "Dokumentation & Arkiv",
+    "reason": "No consensus — similarities: C↔X=0.74, C↔G=0.70, X↔G=0.95",
+    "chosen": "Dokumentation & arkiv"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.tools[0]",
+    "english": "Live Production",
+    "claude": "Liveproduktion",
+    "codex": "Live Production",
+    "gemini": "Live Production",
+    "reason": "No consensus — similarities: C↔X=0.80, C↔G=0.80, X↔G=1.00",
+    "chosen": "Live Production"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.tools[1]",
+    "english": "Stage Design",
+    "claude": "Scenedesign",
+    "codex": "Stage Design",
+    "gemini": "Stage Design",
+    "reason": "No consensus — similarities: C↔X=0.58, C↔G=0.58, X↔G=1.00",
+    "chosen": "Stage Design"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.tools[2]",
+    "english": "Pandemic Safety Protocols",
+    "claude": "Pandemi-sikkerhedsprotokoller",
+    "codex": "Pandemic Safety Protocols",
+    "gemini": "Pandemic Safety Protocols",
+    "reason": "No consensus — similarities: C↔X=0.48, C↔G=0.48, X↔G=1.00",
+    "chosen": "Pandemic Safety Protocols"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.tools[3]",
+    "english": "Multi-Camera Capture",
+    "claude": "Multi-kamera optagelse",
+    "codex": "Multi-Camera Capture",
+    "gemini": "Multi-Camera Capture",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.64, X↔G=1.00",
+    "chosen": "Multi-Camera Capture"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.tools[4]",
+    "english": "Creative Direction",
+    "claude": "Kreativ ledelse",
+    "codex": "Creative Direction",
+    "gemini": "Creative Direction",
+    "reason": "No consensus — similarities: C↔X=0.44, C↔G=0.44, X↔G=1.00",
+    "chosen": "Creative Direction"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.outcomes[0]",
+    "english": "Dynamic live set of unreleased album executed",
+    "claude": "Dynamisk live-set af uudgivet album udført",
+    "codex": "Dynamisk liveset af uudgivet album gennemført",
+    "gemini": "Dynamisk livesæt af uudgivet album eksekveret",
+    "reason": "No consensus — similarities: C↔X=0.84, C↔G=0.78, X↔G=0.82",
+    "chosen": "Dynamisk liveset af uudgivet album gennemført"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.outcomes[1]",
+    "english": "Creative proof-of-concept for artist",
+    "claude": "Kreativt proof-of-concept for kunstner",
+    "codex": "Kreativt proof-of-concept for artist",
+    "gemini": "Kreativt proof-of-concept for artisten",
+    "reason": "No consensus — similarities: C↔X=0.82, C↔G=0.84, X↔G=0.95",
+    "chosen": "Kreativt proof-of-concept for artist"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.outcomes[2]",
+    "english": "Documented performance under pandemic constraints",
+    "claude": "Dokumenteret performance under pandemi-begrænsninger",
+    "codex": "Dokumenteret performance under pandemi-begrænsninger",
+    "gemini": "Dokumenteret optræden under pandemirestriktioner",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.63, X↔G=0.63",
+    "chosen": "Dokumenteret performance under pandemi-begrænsninger"
+  },
+  {
+    "key": "data.projects.jimmy-gnarly-live.outcomes[3]",
+    "english": "High audience engagement and artistic cohesion",
+    "claude": "Højt publikumsengagement og kunstnerisk samhørighed",
+    "codex": "Højt publikumsengagement og kunstnerisk sammenhæng",
+    "gemini": "Høj publikumsengagement og kunstnerisk sammenhæng",
+    "reason": "No consensus — similarities: C↔X=0.84, C↔G=0.82, X↔G=0.98",
+    "chosen": "Højt publikumsengagement og kunstnerisk sammenhæng"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.description",
+    "english": "Directed the LMU Gospel Choir, leading semester-long cycles of recruitment, rehearsal, and performance. Managed vocal coaching, promotional design, musician hiring, budget negotiation, and alumni collaborations.",
+    "claude": "Dirigerede LMU Gospel Choir og ledede semesterlange cyklusser af rekruttering, prøver og optrædener. Styrede vokalcoaching, reklamemateriale, musikerhyring, budgetforhandling og alumnesamarbejder.",
+    "codex": "Dirigerede LMU Gospel Choir og ledte semesterlange forløb med rekruttering, prøver og performance. Håndterede vokalcoaching, promotional design, hyring af musikere, budgetforhandling og alumni-samarbejder.",
+    "gemini": "Ledede LMU Gospel Choir og stod for semesterlange cyklusser med rekruttering, prøver og koncerter. Håndterede vokalcoaching, promoveringsdesign, ansættelse af musikere, budgetforhandling og samarbejde med alumni.",
+    "reason": "No consensus — similarities: C↔X=0.71, C↔G=0.63, X↔G=0.69",
+    "chosen": "Dirigerede LMU Gospel Choir og ledede semesterlange cyklusser af rekruttering, prøver og optrædener. Styrede vokalcoaching, reklamemateriale, musikerhyring, budgetforhandling og alumnesamarbejder."
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.dmaic.D",
+    "english": "Sustain and direct the LMU Gospel Choir within the Department of African American Studies, focusing on student vocal development, culturally informed performance, and successful end-of-semester concerts each term across all four course levels.",
+    "claude": "Oprethold og diriger LMU Gospel Choir inden for Department of African American Studies med fokus på studerendes vokaludvikling, kulturelt informeret performance og succesfulde slutsemesterkoncerter hvert semester på tværs af alle fire kursniveauer.",
+    "codex": "Fastholde og dirigere LMU Gospel Choir under Department of African American Studies med fokus på studerendes vokale udvikling, kulturelt forankret performance og vellykkede semesterafsluttende koncerter hvert semester på tværs af alle fire kursusniveauer.",
+    "gemini": "Opretholde og lede LMU Gospel Choir under Department of African American Studies med fokus på studerendes vokaludvikling, kulturelt informerede optrædener og succesfulde afslutningskoncerter hvert semester på tværs af alle fire kursusniveauer.",
+    "reason": "No consensus — similarities: C↔X=0.83, C↔G=0.86, X↔G=0.81",
+    "chosen": "Oprethold og diriger LMU Gospel Choir inden for Department of African American Studies med fokus på studerendes vokaludvikling, kulturelt informeret performance og succesfulde slutsemesterkoncerter hvert semester på tværs af alle fire kursniveauer."
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.dmaic.M",
+    "english": "Student enrollment and retention across non-audition course levels, performance quality, vocal growth across the semester, successful execution of end-of-semester concerts, and community engagement.",
+    "claude": "Studerendes tilmelding og fastholdelse på tværs af ikke-audition-kursniveauer, performancekvalitet, vokal vækst over semestret, succesfuld udførelse af slutsemesterkoncerter og fællesskabsengagement.",
+    "codex": "Tilmelding og fastholdelse af studerende på tværs af non-audition kursusniveauer, performancekvalitet, vokal udvikling gennem semesteret, vellykket gennemførelse af semesterafsluttende koncerter og community engagement.",
+    "gemini": "Elevtilmelding og fastholdelse på tværs af kursusniveauer uden audition, kvalitet af optræden, vokal vækst i løbet af semestret, succesfuld eksekvering af afslutningskoncerter og samfundsengagement.",
+    "reason": "No consensus — similarities: C↔X=0.60, C↔G=0.55, X↔G=0.48",
+    "chosen": "Studerendes tilmelding og fastholdelse på tværs af ikke-audition-kursniveauer, performancekvalitet, vokal vækst over semestret, succesfuld udførelse af slutsemesterkoncerter og fællesskabsengagement."
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.dmaic.A",
+    "english": "Operating a non-audition ensemble within a department outside of music, managing enrollment decline, navigating departmental budget restrictions, working with students of varying skill levels, and working within an established curriculum while adding personal direction to rehearsals and performances.",
+    "claude": "Drift af et ikke-audition-ensemble inden for en afdeling uden for musik, styring af faldende tilmelding, navigation af afdelingsbudgetrestriktioner, arbejde med studerende af varierende færdighedsniveauer og arbejde inden for et etableret curriculum mens man tilføjer personlig ledelse til prøver og optrædener.",
+    "codex": "Drift af et non-audition ensemble i en afdeling uden for musik, håndtering af faldende tilmelding, navigering i afdelingens budgetbegrænsninger, arbejde med studerende på forskellige niveauer og arbejde inden for et etableret curriculum, samtidig med at personlig retning blev tilføjet til prøver og performances.",
+    "gemini": "Drev et ensemble uden audition i et institut uden for musik, håndterede faldende tilmelding, navigerede i instituttets budgetrestriktioner, arbejdede med studerende på forskellige færdighedsniveauer og arbejdede inden for et etableret pensum, mens jeg tilføjede personlig ledelse til prøver og koncerter.",
+    "reason": "No consensus — similarities: C↔X=0.69, C↔G=0.66, X↔G=0.60",
+    "chosen": "Drift af et ikke-audition-ensemble inden for en afdeling uden for musik, styring af faldende tilmelding, navigation af afdelingsbudgetrestriktioner, arbejde med studerende af varierende færdighedsniveauer og arbejde inden for et etableret curriculum mens man tilføjer personlig ledelse til prøver og optrædener."
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.dmaic.I",
+    "english": "Led an existing gospel choir program, combining African American Gospel Music history with practical vocal training. Taught music by rote with score reading support. Provided one-on-one and small group vocal coaching. Created flyers and promotional graphics for performances. Hired session musicians. Negotiated budget allocation with department leadership. Invited alumni to return as lead vocalists for concerts. Advocated for course cross-listing to boost enrollment.",
+    "claude": "Ledede et eksisterende gospelkorprogram der kombinerede afroamerikansk gospelmusikhistorie med praktisk vokaltræning. Underviste musik ved hjælp af rote-metoden med noder-læsningsstøtte. Gav individuel og gruppebaseret vokalcoaching. Skabte flyers og reklamegrafik til optrædener. Hyrede sessionmusikere. Forhandlede budgettildeling med afdelingsledelsen. Inviterede alumner til at returnere som leadvokalister til koncerter. Fortalte for krydslistning af kurser for at øge tilmeldingen.",
+    "codex": "Ledte et eksisterende gospelkorprogram, der kombinerede African American Gospel Music-historie med praktisk vokaltræning. Underviste musik på gehør med støtte fra nodelæsning. Tilbød en-til-en og small group vokalcoaching. Skabte flyers og promotional graphics til performances. Hyrede sessionmusikere. Forhandlede budgetallokering med afdelingsledelsen. Inviterede alumni tilbage som lead vocalists til koncerter. Talte for course cross-listing for at øge tilmeldingen.",
+    "gemini": "Ledede et eksisterende gospelkor-program, der kombinerede African American Gospel Music-historie med praktisk vokaltræning. Underviste i musik efter gehør med støtte fra partiturlæsning. Tilbød individuel vokalcoaching og coaching i små grupper. Skabte flyers og promoveringsgrafik til koncerter. Hyrede studiemusikere. Forhandlede budgetallokering med instituttets ledelse. Inviterede alumni tilbage som forsangere til koncerter. Talte for cross-listing af kurser for at øge tilmeldingen.",
+    "reason": "No consensus — similarities: C↔X=0.70, C↔G=0.65, X↔G=0.74",
+    "chosen": "Ledede et eksisterende gospelkorprogram der kombinerede afroamerikansk gospelmusikhistorie med praktisk vokaltræning. Underviste musik ved hjælp af rote-metoden med noder-læsningsstøtte. Gav individuel og gruppebaseret vokalcoaching. Skabte flyers og reklamegrafik til optrædener. Hyrede sessionmusikere. Forhandlede budgettildeling med afdelingsledelsen. Inviterede alumner til at returnere som leadvokalister til koncerter. Fortalte for krydslistning af kurser for at øge tilmeldingen."
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.dmaic.C",
+    "english": "Multiple semesters of successful end-of-semester concerts delivered. Students developed vocal technique and cultural understanding across a non-audition ensemble. Alumni collaborations strengthened the program's legacy. Promotional materials consistently drove audience attendance.",
+    "claude": "Flere semestres succesfulde slutsemesterkoncerter leveret. Studerende udviklede vokalteknik og kulturforståelse i et ikke-audition-ensemble. Alumnesamarbejder styrkede programmets arv. Reklamematerialer drev konsekvent publikumsdeltagelse.",
+    "codex": "Flere semestre med vellykkede semesterafsluttende koncerter gennemført. Studerende udviklede vokalteknik og kulturel forståelse på tværs af et non-audition ensemble. Alumni-samarbejder styrkede programmets legacy. Promotional materials skabte konsekvent publikumsfremmøde.",
+    "gemini": "Flere semestre med succesfulde afslutningskoncerter leveret. Studerende udviklede vokalteknik og kulturel forståelse i et ensemble uden audition. Alumni-samarbejder styrkede programmets eftermæle. Promoveringsmateriale sikrede konsekvent publikumstilstrømning.",
+    "reason": "No consensus — similarities: C↔X=0.68, C↔G=0.72, X↔G=0.70",
+    "chosen": "Flere semestres succesfulde slutsemesterkoncerter leveret. Studerende udviklede vokalteknik og kulturforståelse i et ikke-audition-ensemble. Alumnesamarbejder styrkede programmets arv. Reklamematerialer drev konsekvent publikumsdeltagelse."
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.timeline[2]",
+    "english": "Rehearsal & Direction",
+    "claude": "Prøver og ledelse",
+    "codex": "Prøver & direktion",
+    "gemini": "Prøve & Ledelse",
+    "reason": "No consensus — similarities: C↔X=0.44, C↔G=0.76, X↔G=0.50",
+    "chosen": "Prøver & direktion"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.timeline[3]",
+    "english": "Performance Production",
+    "claude": "Performanceproduktion",
+    "codex": "Performanceproduktion",
+    "gemini": "Produktion af optræden",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.18, X↔G=0.18",
+    "chosen": "Performanceproduktion"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.tools[0]",
+    "english": "Vocal Direction",
+    "claude": "Vokalledelse",
+    "codex": "Vocal Direction",
+    "gemini": "Vocal Direction",
+    "reason": "No consensus — similarities: C↔X=0.33, C↔G=0.33, X↔G=1.00",
+    "chosen": "Vocal Direction"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.tools[1]",
+    "english": "Program Leadership",
+    "claude": "Programlederskab",
+    "codex": "Program Leadership",
+    "gemini": "Program Leadership",
+    "reason": "No consensus — similarities: C↔X=0.67, C↔G=0.67, X↔G=1.00",
+    "chosen": "Program Leadership"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.tools[2]",
+    "english": "Graphic Design",
+    "claude": "Grafisk design",
+    "codex": "Graphic Design",
+    "gemini": "Graphic Design",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.64, X↔G=1.00",
+    "chosen": "Graphic Design"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.tools[3]",
+    "english": "Budget Negotiation",
+    "claude": "Budgetforhandling",
+    "codex": "Budget Negotiation",
+    "gemini": "Budget Negotiation",
+    "reason": "No consensus — similarities: C↔X=0.39, C↔G=0.39, X↔G=1.00",
+    "chosen": "Budget Negotiation"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.tools[4]",
+    "english": "Talent Acquisition",
+    "claude": "Talentopkøb",
+    "codex": "Talent Acquisition",
+    "gemini": "Talent Acquisition",
+    "reason": "No consensus — similarities: C↔X=0.33, C↔G=0.33, X↔G=1.00",
+    "chosen": "Talent Acquisition"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.tools[5]",
+    "english": "Alumni Relations",
+    "claude": "Alumnerelationer",
+    "codex": "Alumni Relations",
+    "gemini": "Alumni Relations",
+    "reason": "No consensus — similarities: C↔X=0.69, C↔G=0.69, X↔G=1.00",
+    "chosen": "Alumni Relations"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.tools[6]",
+    "english": "Event Planning",
+    "claude": "Begivenhedsplanlægning",
+    "codex": "Event Planning",
+    "gemini": "Event Planning",
+    "reason": "No consensus — similarities: C↔X=0.45, C↔G=0.45, X↔G=1.00",
+    "chosen": "Event Planning"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.tools[7]",
+    "english": "Music Selection",
+    "claude": "Musikudvælgelse",
+    "codex": "Music Selection",
+    "gemini": "Music Selection",
+    "reason": "No consensus — similarities: C↔X=0.27, C↔G=0.27, X↔G=1.00",
+    "chosen": "Music Selection"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.outcomes[0]",
+    "english": "Multiple successful end-of-semester concerts produced",
+    "claude": "Flere succesfulde slutsemesterkoncerter produceret",
+    "codex": "Flere vellykkede semesterafsluttende koncerter produceret",
+    "gemini": "Flere succesfulde afslutningskoncerter produceret",
+    "reason": "No consensus — similarities: C↔X=0.60, C↔G=0.82, X↔G=0.63",
+    "chosen": "Flere vellykkede semesterafsluttende koncerter produceret"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.outcomes[1]",
+    "english": "Student vocal development and cultural education delivered each semester",
+    "claude": "Studerendes vokaludvikling og kulturuddannelse leveret hvert semester",
+    "codex": "Studerendes vokale udvikling og kulturelle undervisning leveret hvert semester",
+    "gemini": "Studerendes vokaludvikling og kulturelle uddannelse leveret hvert semester",
+    "reason": "No consensus — similarities: C↔X=0.79, C↔G=0.93, X↔G=0.85",
+    "chosen": "Studerendes vokale udvikling og kulturelle undervisning leveret hvert semester"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.outcomes[3]",
+    "english": "Promotional materials and flyers designed for performances",
+    "claude": "Reklamematerialer og flyers designet til optrædener",
+    "codex": "Promotional materials og flyers designet til performances",
+    "gemini": "Promoveringsmateriale og flyers designet til koncerter",
+    "reason": "No consensus — similarities: C↔X=0.61, C↔G=0.63, X↔G=0.68",
+    "chosen": "Promotional materials og flyers designet til performances"
+  },
+  {
+    "key": "data.projects.lmu-gospel-choir.outcomes[4]",
+    "english": "Session musicians hired and coordinated for live performances",
+    "claude": "Sessionmusikere hyret og koordineret til liveoptrædener",
+    "codex": "Sessionmusikere hyret og koordineret til liveperformances",
+    "gemini": "Studiemusikere hyret og koordineret til liveoptrædener",
+    "reason": "No consensus — similarities: C↔X=0.84, C↔G=0.91, X↔G=0.75",
+    "chosen": "Sessionmusikere hyret og koordineret til liveperformances"
+  },
+  {
+    "key": "data.films.sinners.role",
+    "english": "Featured Vocalist — Original Motion Picture Soundtrack",
+    "claude": "Medvirkende vokalist — Original filmens soundtrack",
+    "codex": "Featured Vocalist — Original Motion Picture Soundtrack",
+    "gemini": "Featured Vocalist — Original Motion Picture Soundtrack",
+    "reason": "No consensus — similarities: C↔X=0.57, C↔G=0.57, X↔G=1.00",
+    "chosen": "Featured Vocalist — Original Motion Picture Soundtrack"
+  },
+  {
+    "key": "data.films.sinners.description",
+    "english": "Featured vocalist on the original motion picture soundtrack for Sinners, the 2025 Warner Bros. film written and directed by Ryan Coogler.",
+    "claude": "Medvirkende vokalist på det originale filmsoundtrack til Sinners, 2025 Warner Bros.-filmen skrevet og instrueret af Ryan Coogler.",
+    "codex": "Featured vocalist på det originale motion picture soundtrack til Sinners, Warner Bros.-filmen fra 2025 skrevet og instrueret af Ryan Coogler.",
+    "gemini": "Featured vocalist på original soundtrack'et til Sinners, Warner Bros.-filmen fra 2025 skrevet og instrueret af Ryan Coogler.",
+    "reason": "No consensus — similarities: C↔X=0.74, C↔G=0.74, X↔G=0.84",
+    "chosen": "Medvirkende vokalist på det originale filmsoundtrack til Sinners, 2025 Warner Bros.-filmen skrevet og instrueret af Ryan Coogler."
+  },
+  {
+    "key": "data.films.sinners.details[1].text",
+    "english": "I performed as a member of The DC6 Singers Collective, a Los Angeles-based vocal ensemble - alongside fellow members who contributed featured vocals to the film's soundtrack, most notably on \"This Little Light of Mine\" alongside Miles Caton and the Pleasant Valley Youth Choir of New Orleans. The soundtrack was executive produced by Ludwig Göransson, Ryan Coogler, and Serena Göransson, and released digitally on April 18, 2025 through Sony Masterworks.",
+    "claude": "Jeg optrådte som medlem af The DC6 Singers Collective, et Los Angeles-baseret vokalensemble – side om side med medvirkende, der bidrog med fremtrædende vokaler til filmens soundtrack, mest bemærkelsesværdigt på \"This Little Light of Mine\" med Miles Caton og The Pleasant Valley Youth Choir of New Orleans. Soundtracket var eksekutivproduceret af Ludwig Göransson, Ryan Coogler og Serena Göransson og udgivet digitalt den 18. april 2025 via Sony Masterworks.",
+    "codex": "Jeg optrådte som medlem af The DC6 Singers Collective, et Los Angeles-baseret vokalensemble - sammen med andre medlemmer, der bidrog med featured vocals til filmens soundtrack, mest markant på \"This Little Light of Mine\" sammen med Miles Caton og Pleasant Valley Youth Choir of New Orleans. Soundtracket blev executive produced af Ludwig Göransson, Ryan Coogler og Serena Göransson og udgivet digitalt den 18. april 2025 gennem Sony Masterworks.",
+    "gemini": "Jeg optrådte som medlem af The DC6 Singers Collective, et vokalensemble baseret i Los Angeles — sammen med de øvrige medlemmer bidrog jeg med featured vocals til filmens soundtrack, mest bemærkelsesværdigt på \"This Little Light of Mine\" sammen med Miles Caton og Pleasant Valley Youth Choir fra New Orleans. Soundtrack'et blev executive produceret af Ludwig Göransson, Ryan Coogler og Serena Göransson og udgivet digitalt den 18. april 2025 gennem Sony Masterworks.",
+    "reason": "No consensus — similarities: C↔X=0.84, C↔G=0.81, X↔G=0.87",
+    "chosen": "Jeg optrådte som medlem af The DC6 Singers Collective, et Los Angeles-baseret vokalensemble – side om side med medvirkende, der bidrog med fremtrædende vokaler til filmens soundtrack, mest bemærkelsesværdigt på \"This Little Light of Mine\" med Miles Caton og The Pleasant Valley Youth Choir of New Orleans. Soundtracket var eksekutivproduceret af Ludwig Göransson, Ryan Coogler og Serena Göransson og udgivet digitalt den 18. april 2025 via Sony Masterworks."
+  },
+  {
+    "key": "data.films.kpops.role",
+    "english": "Featured Actor & Onscreen Performer",
+    "claude": "Medvirkende skuespiller og sceneoptræder",
+    "codex": "Featured Actor & Onscreen Performer",
+    "gemini": "Featured Actor & Onscreen Performer",
+    "reason": "No consensus — similarities: C↔X=0.25, C↔G=0.25, X↔G=1.00",
+    "chosen": "Featured Actor & Onscreen Performer"
+  },
+  {
+    "key": "data.films.kpops.recognition",
+    "english": "Featured Film Performance",
+    "claude": "Fremtrædende filmoptræden",
+    "codex": "Featured Film Performance",
+    "gemini": "Featured Film Performance",
+    "reason": "No consensus — similarities: C↔X=0.28, C↔G=0.28, X↔G=1.00",
+    "chosen": "Featured Film Performance"
+  },
+  {
+    "key": "data.films.kpops.description",
+    "english": "Featured actor and onscreen performer in K-Pops!, the directorial debut of Grammy-winning artist Anderson .Paak.",
+    "claude": "Medvirkende skuespiller og sceneoptræder i K-Pops!, den instruktionelle debut fra den ni gange Grammy-vindende kunstner Anderson .Paak.",
+    "codex": "Featured actor og onscreen performer i K-Pops!, den Grammy-vindende artist Anderson .Paak's instruktørdebut.",
+    "gemini": "Featured skuespiller og onscreen performer i K-Pops!, instruktørdebuten fra den Grammy-vindende artist Anderson .Paak.",
+    "reason": "No consensus — similarities: C↔X=0.34, C↔G=0.64, X↔G=0.58",
+    "chosen": "Medvirkende skuespiller og sceneoptræder i K-Pops!, den instruktionelle debut fra den ni gange Grammy-vindende kunstner Anderson .Paak."
+  },
+  {
+    "key": "data.films.kpops.details[1].text",
+    "english": "I appeared as a featured actor and onscreen performer, bringing both musical performance and screen presence to the project. Working on set alongside .Paak and a cast that blended K-pop stars, veteran actors, and musicians, I contributed to the film's unique fusion of film and live performance. The production was shot across Los Angeles, South Korea, and Saudi Arabia.",
+    "claude": "Jeg optrådte som medvirkende skuespiller og sceneoptræder og bragte både musikal performance og skærmtilstedeværelse til projektet. Ved at arbejde på settet side om side med .Paak og et cast der blandede K-pop-stjerner, erfarne skuespillere og musikere, bidrog jeg til filmens unikke fusion af film og live-performance. Produktionen blev optaget på tværs af Los Angeles, Sydkorea og Saudi-Arabien.",
+    "codex": "Jeg medvirkede som featured actor og onscreen performer og bragte både musikalsk performance og tilstedeværelse på skærmen til projektet. På settet sammen med .Paak og et cast, der blandede K-pop-stjerner, erfarne skuespillere og musikere, bidrog jeg til filmens særlige fusion af film og liveperformance. Produktionen blev optaget i Los Angeles, Sydkorea og Saudi-Arabien.",
+    "gemini": "Jeg medvirkede som featured skuespiller og onscreen performer og bragte både musikalsk præstation og skærmnærvær til projektet. Ved at arbejde på sættet sammen med .Paak og en rolleliste, der blandede K-pop-stjerner, erfarne skuespillere og musikere, bidrog jeg til filmens unikke fusion af film og liveoptræden. Produktionen blev optaget i Los Angeles, Sydkorea og Saudi-Arabien.",
+    "reason": "No consensus — similarities: C↔X=0.75, C↔G=0.77, X↔G=0.79",
+    "chosen": "Jeg optrådte som medvirkende skuespiller og sceneoptræder og bragte både musikal performance og skærmtilstedeværelse til projektet. Ved at arbejde på settet side om side med .Paak og et cast der blandede K-pop-stjerner, erfarne skuespillere og musikere, bidrog jeg til filmens unikke fusion af film og live-performance. Produktionen blev optaget på tværs af Los Angeles, Sydkorea og Saudi-Arabien."
+  },
+  {
+    "key": "data.discography.rolePrefix",
+    "english": "Vocal Producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.86, X↔G=0.79",
+    "chosen": "Vocal Producer"
+  },
+  {
+    "key": "data.discography.roleFeature",
+    "english": "Featured Artist",
+    "claude": "Medvirkende kunstner",
+    "codex": "Featured Artist",
+    "gemini": "Featured Artist",
+    "reason": "No consensus — similarities: C↔X=0.30, C↔G=0.30, X↔G=1.00",
+    "chosen": "Featured Artist"
+  },
+  {
+    "key": "data.discography.charted",
+    "english": "Charted",
+    "claude": "Hitliste",
+    "codex": "På hitliste",
+    "gemini": "Charted",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.13, X↔G=0.18",
+    "chosen": "På hitliste"
+  },
+  {
+    "key": "data.discography.entries.sinners-rocky-road-to-dublin.role",
+    "english": "Featured Artist · DC6 Singers Collective",
+    "claude": "Medvirkende kunstner · DC6 Singers Collective",
+    "codex": "Featured Artist · DC6 Singers Collective",
+    "gemini": "Featured Artist · DC6 Singers Collective",
+    "reason": "No consensus — similarities: C↔X=0.69, C↔G=0.69, X↔G=1.00",
+    "chosen": "Featured Artist · DC6 Singers Collective"
+  },
+  {
+    "key": "data.discography.entries.sinners-this-little-light.role",
+    "english": "Featured Artist · DC6 Singers Collective",
+    "claude": "Medvirkende kunstner · DC6 Singers Collective",
+    "codex": "Featured Artist · DC6 Singers Collective",
+    "gemini": "Featured Artist · DC6 Singers Collective",
+    "reason": "No consensus — similarities: C↔X=0.69, C↔G=0.69, X↔G=1.00",
+    "chosen": "Featured Artist · DC6 Singers Collective"
+  },
+  {
+    "key": "data.discography.entries.lukas-graham-you.role",
+    "english": "Vocal Producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.86, X↔G=0.79",
+    "chosen": "Vocal Producer"
+  },
+  {
+    "key": "data.discography.entries.lukas-graham-share-that-love.role",
+    "english": "Vocal Producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.86, X↔G=0.79",
+    "chosen": "Vocal Producer"
+  },
+  {
+    "key": "data.discography.entries.lukas-graham-share-that-love.milestones[0]",
+    "english": "Deezer Ecuador Chart #78 (Apr 2025)",
+    "claude": "Deezer Ecuador-hitliste #78 (apr. 2025)",
+    "codex": "Deezer Ecuador Chart #78 (Apr 2025)",
+    "gemini": "Deezer Ecuador Chart #78 (apr 2025)",
+    "reason": "No consensus — similarities: C↔X=0.74, C↔G=0.77, X↔G=0.97",
+    "chosen": "Deezer Ecuador Chart #78 (Apr 2025)"
+  },
+  {
+    "key": "data.discography.entries.lady-gaga-babylon.role",
+    "english": "Vocal Producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.86, X↔G=0.79",
+    "chosen": "Vocal Producer"
+  },
+  {
+    "key": "data.discography.entries.lady-gaga-babylon.milestones[0]",
+    "english": "Deezer Estonia Chart #48 (Jan 2026)",
+    "claude": "Deezer Estland-hitliste #48 (jan. 2026)",
+    "codex": "Deezer Estonia Chart #48 (Jan 2026)",
+    "gemini": "Deezer Estland Chart #48 (jan 2026)",
+    "reason": "No consensus — similarities: C↔X=0.67, C↔G=0.77, X↔G=0.86",
+    "chosen": "Deezer Estonia Chart #48 (Jan 2026)"
+  },
+  {
+    "key": "data.discography.entries.kesi-tilbage.role",
+    "english": "Vocal Producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.86, X↔G=0.79",
+    "chosen": "Vocal Producer"
+  },
+  {
+    "key": "data.discography.entries.future-animals-crazy-love.role",
+    "english": "Vocal Producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.86, X↔G=0.79",
+    "chosen": "Vocal Producer"
+  },
+  {
+    "key": "data.discography.entries.matoma-its-christmas-time.role",
+    "english": "Vocal Producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.86, X↔G=0.79",
+    "chosen": "Vocal Producer"
+  },
+  {
+    "key": "data.discography.entries.hedegaard-need-you.role",
+    "english": "Vocal Producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.86, X↔G=0.79",
+    "chosen": "Vocal Producer"
+  },
+  {
+    "key": "data.discography.entries.matoma-sunday-morning.role",
+    "english": "Vocal Producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.86, X↔G=0.79",
+    "chosen": "Vocal Producer"
+  },
+  {
+    "key": "data.discography.entries.lukas-graham-promise.role",
+    "english": "Vocal Producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.86, X↔G=0.79",
+    "chosen": "Vocal Producer"
+  },
+  {
+    "key": "data.discography.entries.lukas-graham-hold-my-hand.role",
+    "english": "Vocal Producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.86, X↔G=0.79",
+    "chosen": "Vocal Producer"
+  },
+  {
+    "key": "data.discography.entries.lukas-graham-say-yes.role",
+    "english": "Vocal Producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.86, X↔G=0.79",
+    "chosen": "Vocal Producer"
+  },
+  {
+    "key": "data.discography.entries.lukas-graham-youre-not-the-only-one.role",
+    "english": "Vocal Producer",
+    "claude": "Vokalproducent",
+    "codex": "Vocal Producer",
+    "gemini": "Vokalproducer",
+    "reason": "No consensus — similarities: C↔X=0.64, C↔G=0.86, X↔G=0.79",
+    "chosen": "Vocal Producer"
+  },
+  {
+    "key": "data.artistWork.categories.social",
+    "english": "Social",
+    "claude": "Sociale medier",
+    "codex": "Social",
+    "gemini": "Socialt",
+    "reason": "No consensus — similarities: C↔X=0.43, C↔G=0.43, X↔G=0.86",
+    "chosen": "Social"
+  },
+  {
+    "key": "data.artistWork.entries.ba-joker-open-verse.description",
+    "english": "Had fun getting into character for this one 😈.",
+    "claude": "Det var sjovt at komme ind i karakteren til denne 😈.",
+    "codex": "Havde det sjovt med at gå ind i karakter til den her 😈.",
+    "gemini": "Havde det sjovt med at komme ind i karakteren til denne her 😈.",
+    "reason": "No consensus — similarities: C↔X=0.63, C↔G=0.75, X↔G=0.86",
+    "chosen": "Det var sjovt at komme ind i karakteren til denne 😈."
+  },
+  {
+    "key": "data.artistWork.entries.ba-rain-rain-remix.description",
+    "english": "🌧️ rain rain, go away…but different. ☔️",
+    "claude": "🌧️ rain rain, go away…but different. ☔️",
+    "codex": "🌧️ rain rain, go away…men anderledes. ☔️",
+    "gemini": "🌧️ rain rain, go away…men anderledes. ☔️",
+    "reason": "No consensus — similarities: C↔X=0.73, C↔G=0.73, X↔G=1.00",
+    "chosen": "🌧️ rain rain, go away…but different. ☔️"
+  },
+  {
+    "key": "data.artistProfile.tagline",
+    "english": "Writer. Producer. Performer.",
+    "claude": "Sangskriver. Producent. Optræder.",
+    "codex": "Writer. Producer. Performer.",
+    "gemini": "Writer. Producer. Performer.",
+    "reason": "No consensus — similarities: C↔X=0.52, C↔G=0.52, X↔G=1.00",
+    "chosen": "Writer. Producer. Performer."
+  },
+  {
+    "key": "data.artistProfile.statement.headline",
+    "english": "I love music with every part of my soul.",
+    "claude": "Jeg elsker musik med hele min sjæl.",
+    "codex": "Jeg elsker musik med hele min sjæl.",
+    "gemini": "Jeg elsker musik med hver eneste del af min sjæl.",
+    "reason": "No consensus — similarities: C↔X=1.00, C↔G=0.69, X↔G=0.69",
+    "chosen": "Jeg elsker musik med hele min sjæl."
+  },
+  {
+    "key": "data.artistProfile.statement.p1",
+    "english": "As an artist, I don't box myself into a single sound or formula. I write and create across whatever genre moves me in the moment, from melodic R&B textures, to hard-hitting bars, to global rhythms that push boundaries.",
+    "claude": "Som kunstner sætter jeg mig ikke i bås med én bestemt lyd eller formel. Jeg skriver og skaber på tværs af det, uanset hvilken genre der bevæger mig i øjeblikket – fra melodiske R&B-teksturer, til hårde bars, til globale rytmer der skubber til grænser.",
+    "codex": "Som artist låser jeg mig ikke fast i én bestemt lyd eller formel. Jeg skriver og skaber på tværs af de genrer, der bevæger mig i øjeblikket, fra melodiske R&B-teksturer til hårdtslående bars og globale rytmer, der skubber grænser.",
+    "gemini": "Som artist lader jeg mig ikke begrænse af en enkelt lyd eller formel. Jeg skriver og skaber inden for den genre, der bevæger mig i øjeblikket, fra melodiske R&B-teksturer til hårdtslående vers og globale rytmer, der rykker grænser.",
+    "reason": "No consensus — similarities: C↔X=0.78, C↔G=0.69, X↔G=0.84",
+    "chosen": "Som kunstner sætter jeg mig ikke i bås med én bestemt lyd eller formel. Jeg skriver og skaber på tværs af det, uanset hvilken genre der bevæger mig i øjeblikket – fra melodiske R&B-teksturer, til hårde bars, til globale rytmer der skubber til grænser."
+  },
+  {
+    "key": "data.artistProfile.stats.yearsActive",
+    "english": "2016–Present",
+    "claude": "2016–Nu",
+    "codex": "2016–Present",
+    "gemini": "2016–Nu",
+    "reason": "No consensus — similarities: C↔X=0.42, C↔G=1.00, X↔G=0.42",
+    "chosen": "2016–Present"
+  }
+]

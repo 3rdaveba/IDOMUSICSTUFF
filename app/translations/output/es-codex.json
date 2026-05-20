@@ -1,0 +1,583 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "projects": "Proyectos",
+    "film": "Cine",
+    "music": "Música",
+    "contact": "Contacto",
+    "artistWork": "Trabajo artístico",
+    "logoName": "WILLIAM \"B.A.\" WASHINGTON"
+  },
+  "hero": {
+    "eyebrow": "PRODUCTOR VOCAL GANADOR DEL GRAMMY® · TECNÓLOGO MUSICAL · ARQUITECTO DE SISTEMAS CREATIVOS · LOS ANGELES",
+    "nameFirst": "WILLIAM",
+    "nameSecond": "\"B.A.\" WASHINGTON",
+    "scrollCue": "SCROLL"
+  },
+  "about": {
+    "headline": "¡Hola! Me llamo William y soy productor vocal ganador del GRAMMY®, tecnólogo musical y arquitecto de sistemas creativos.",
+    "bio1": "A lo largo de mi carrera, he acumulado una amplia experiencia como artista, intérprete en vivo, ingeniero de audio y gestor de proyectos creativos. Desde organizar presentaciones en vivo, colaborar con artistas, enseñar a estudiantes y trabajar con comunidades desatendidas, he construido una trayectoria sólida entregando proyectos con éxito desde el concepto hasta la finalización.",
+    "bio2": "Este sitio está diseñado para darte una mirada a mi pasión por crear experiencias con impacto, mi proceso creativo y algunos de los proyectos en los que he participado detrás de escena.",
+    "signature": "¡Espero tener la oportunidad de trabajar contigo en el futuro!",
+    "signatureName": "— William \"B.A.\" Washington"
+  },
+  "work": {
+    "line1": "PROYECTOS",
+    "line2": "SELECCIONADOS",
+    "intro": "Una muestra transversal de proyectos que abarcan producción musical, educación comunitaria, arquitectura de sistemas y tecnología creativa — todos construidos con la misma intención: crear algo significativo, escalable y humano.",
+    "active": "Activo",
+    "complete": "Completo"
+  },
+  "tvFilm": {
+    "eyebrow": "PANTALLA & SOUNDTRACK",
+    "heading": "Cine y televisión",
+    "intro": "Uniendo música y narrativa visual — desde soundtracks ganadores del GRAMMY hasta actuaciones en pantalla junto a íconos de la industria.",
+    "viewDetails": "Ver detalles",
+    "studio": "Estudio",
+    "year": "Año",
+    "role": "Rol",
+    "description": "Descripción"
+  },
+  "discography": {
+    "eyebrow": "MÚSICA",
+    "line1": "{{streams}}M+",
+    "line2": "STREAMS",
+    "intro": "Discografía seleccionada de proyectos destacados como productor vocal, featured artist o intérprete · {{tracks}} temas · datos de {{source}}",
+    "spotify": "Spotify",
+    "youtube": "YouTube",
+    "tiktok": "TikTok",
+    "listen": "Escuchar",
+    "charted": "En listas",
+    "cmScore": "CM Score",
+    "disclaimer": "* Todos los datos de streaming y rendimiento provienen de Chartmetric. Correctos al {{date}}. Los streams de Spotify representan totales acumulados históricos."
+  },
+  "contact": {
+    "headline": "Creemos algo juntos.",
+    "headlineEmphasis": "juntos.",
+    "phoneLabel": "Teléfono",
+    "emailLabel": "Email",
+    "locationLabel": "Ubicación",
+    "locationValue": "Los Angeles, CA",
+    "successMessage": "¡Gracias! Me pondré en contacto pronto.",
+    "formNameLabel": "Nombre",
+    "formNamePlaceholder": "Tu nombre",
+    "formEmailLabel": "Email",
+    "formEmailPlaceholder": "your@email.com",
+    "formSubjectLabel": "Asunto",
+    "formSubjectPlaceholder": "¿De qué se trata?",
+    "formMessageLabel": "Mensaje",
+    "formMessagePlaceholder": "Cuéntame sobre tu proyecto...",
+    "sendButton": "ENVIAR MENSAJE",
+    "sendingButton": "ENVIANDO...",
+    "errorMessage": "Algo salió mal.",
+    "tryAgainButton": "INTENTAR DE NUEVO"
+  },
+  "ctaBanner": {
+    "line1": "HAGAMOS",
+    "line2": "ALGO REAL"
+  },
+  "footer": {
+    "ctaLine1": "Hagamos algo",
+    "ctaLine2": "que valga la pena escuchar.",
+    "ctaLink": "Ponte en contacto",
+    "copyright": "© 2026 Epiphany Music Group",
+    "location": "Los Angeles, CA"
+  },
+  "projectDetail": {
+    "breadcrumbHome": "Inicio",
+    "breadcrumbWork": "Trabajo",
+    "listen": "Escuchar",
+    "statusActive": "Activo / En curso",
+    "statusComplete": "Completo",
+    "categoryMusicEducation": "Música & educación",
+    "categoryMusicProduction": "Música & producción",
+    "categorySystems": "Sistemas & tecnología",
+    "dmaicD": "D",
+    "dmaicM": "M",
+    "dmaicA": "A",
+    "dmaicI": "I",
+    "dmaicC": "C",
+    "dmaicDefine": "Definir",
+    "dmaicMeasure": "Medir",
+    "dmaicAnalyze": "Analizar",
+    "dmaicImprove": "Mejorar",
+    "dmaicControl": "Controlar",
+    "dmaicQuestionD": "¿Cuál era el objetivo?",
+    "dmaicQuestionM": "¿Cómo se veía el éxito?",
+    "dmaicQuestionA": "¿Cuáles fueron los desafíos?",
+    "dmaicQuestionI": "¿Qué se implementó?",
+    "dmaicQuestionC": "¿Cómo se sostuvo la calidad?",
+    "projectOverview": "RESUMEN DEL PROYECTO",
+    "challenge": "El desafío",
+    "approach": "El enfoque",
+    "outcomes": "Resultados",
+    "processFramework": "MARCO DE PROCESO",
+    "projectTimeline": "CRONOLOGÍA DEL PROYECTO",
+    "toolsSkills": "HERRAMIENTAS & HABILIDADES",
+    "keyOutcomes": "RESULTADOS CLAVE",
+    "mediaResources": "MEDIOS & RECURSOS",
+    "photo": "Foto",
+    "workflow": "Workflow",
+    "bts": "BTS",
+    "preProduction": "Preproducción",
+    "studioSession": "Sesión de estudio",
+    "interlude": "Interlude",
+    "rehearsal": "Ensayo",
+    "sundayService": "Sunday Service",
+    "recordingStudio": "Recording Studio",
+    "choirRehearsal": "Ensayo de coro",
+    "prvblems": "PRVBLEMS",
+    "watch": "Ver",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "projectNotFound": "Proyecto no encontrado",
+    "backToWork": "Volver al trabajo"
+  },
+  "filmDetail": {
+    "breadcrumbHome": "Inicio",
+    "breadcrumbFilm": "Cine",
+    "listen": "Escuchar",
+    "statusComplete": "Completo",
+    "categoryFilm": "Cine & televisión",
+    "aboutProject": "SOBRE ESTE PROYECTO",
+    "mediaResources": "MEDIOS & RECURSOS",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "filmNotFound": "Película no encontrada",
+    "backHome": "Volver al inicio"
+  },
+  "artistWork": {
+    "statementHeadline": "Amo la música con cada parte de mi alma.",
+    "statementP1": "Como artista, no me encierro en un solo sonido ni en una fórmula. Escribo y creo en cualquier género que me mueva en el momento, desde texturas melódicas de R&B hasta barras contundentes y ritmos globales que empujan límites.",
+    "statementP2": "Mi proceso es bastante aleatorio. Puedo ir manejando por la calle y empezar a hacer beatbox con una idea para un track, o puedo inspirarme en algo que veo y empezar a conceptualizar una idea alrededor de un tema sobre el que quiero escribir letras. No hay reglas fijas ... simplemente sigo lo que siento que me habla en ese momento. Cada canción es su propio mundo.",
+    "statementP3": "Ya sea un álbum completo, una colaboración o un short de 60 segundos, el objetivo es el mismo: hacer algo honesto, algo versátil y algo que mueva a la gente.",
+    "aboutTheArtist": "SOBRE EL ARTISTA",
+    "yearsActive": "Años activo",
+    "releases": "Lanzamientos",
+    "features": "Colaboraciones",
+    "videos": "Videos",
+    "collaborations": "Colaboraciones",
+    "releasesHeading": "Lanzamientos",
+    "videosHeading": "Videos",
+    "collaborationsHeading": "Colaboraciones",
+    "backToHome": "Volver al inicio"
+  },
+  "data": {
+    "projects": {
+      "audiolab-intelligence": {
+        "description": "Diseño de una infraestructura privada de agentes autónomos para inteligencia de workflows creativos, operando 24/7 sin intervención humana.",
+        "dmaic": {
+          "D": "Diseñar una infraestructura privada de agentes autónomos para inteligencia de workflows creativos, operando 24/7 sin intervención humana.",
+          "M": "Uptime del sistema, tasa de finalización de tareas, cero escrituras no autorizadas en código de producción y cobertura completa de audit trail.",
+          "A": "Se identificaron brechas entre las herramientas creativas existentes y la automatización inteligente. El diseño se basó en límites estrictos de seguridad read-only y orquestación multi-modelo.",
+          "I": "Se implementó un sistema de agentes en contenedores con memoria estructurada, pipelines de inteligencia programados y restricciones de seguridad por capas.",
+          "C": "Todos los outputs de los agentes quedan registrados y trazables. Sin secrets en memoria. Sin ejecución arbitraria. Monitoreo continuo vía heartbeat scheduler."
+        },
+        "timeline": [
+          "Investigación & arquitectura",
+          "Construcción del sistema central",
+          "Integración de agentes",
+          "Endurecimiento de seguridad",
+          "Optimización continua"
+        ],
+        "tools": [
+          "Docker",
+          "Python",
+          "LLM Orchestration",
+          "Structured Memory Systems",
+          "Heartbeat Scheduling",
+          "Read-Only Security Boundaries"
+        ],
+        "outcomes": [
+          "Infraestructura autónoma de agentes 24/7",
+          "Cero escrituras no autorizadas en producción",
+          "Audit trail completo en todos los outputs",
+          "Pipeline de orquestación multi-modelo"
+        ]
+      },
+      "the-reimagination-engine": {
+        "description": "Un proyecto experimental de lanzamientos donde demos antiguos e ideas de canciones sin terminar se reimaginan con herramientas de IA y se publican en oleadas agrupadas. Los drops ocurren cada dos semanas en clusters alternos de tres tracks — una oleada relacional, la siguiente energética — con revisión de rendimiento cada 45 días. El objetivo es ver si los lanzamientos constantes por sí solos pueden generar ingresos de streaming y tracción orgánica sin marketing, presencia en redes sociales ni promoción pagada. Si un track queda en el nivel superior de su cluster, se marca para posible reproducción o licenciamiento.",
+        "dmaic": {
+          "D": "Tomar demos antiguos e ideas de canciones, pasarlas por herramientas de IA para crear nuevas iteraciones y lanzarlas públicamente cada dos semanas durante un año sin marketing ni impulso en redes sociales.",
+          "M": "Medir números de streaming, saves, tasas de finalización y retención de oyentes en aproximadamente 30 lanzamientos durante 12 meses. Cada 45 días, revisar el rendimiento de los clusters para ver qué estilo de oleada gana tracción y qué tracks individuales suben a la cima.",
+          "A": "Comparar clusters relacionales con clusters energéticos. Identificar qué tracks llegan al top 20% de su oleada y buscar patrones en lo que resuena cuando no hay promoción externa impulsando tráfico.",
+          "I": "Cuando un track rinde dentro del top 20% de su cluster con engagement por encima de la mediana, marcarlo para explorar reproducción o licenciamiento. Reinvertir cualquier ingreso en refinar el workflow.",
+          "C": "Después de 30 lanzamientos y un año, evaluar si el catálogo genera ingresos de forma sostenible. Decidir si continuar, pivotar la estrategia de lanzamiento o retirar el catálogo y probar un nuevo sistema."
+        },
+        "timeline": [
+          "Curaduría de catálogo",
+          "Iteración con IA & lanzamiento",
+          "Seguimiento de rendimiento",
+          "Evaluación de ingresos & licenciamiento",
+          "Revisión del sistema & siguiente fase"
+        ],
+        "tools": [
+          "Suno",
+          "AI Music Tools",
+          "DSP Streaming",
+          "Metadata Systems",
+          "Cluster-Based Release Scheduling",
+          "45-Day Review Cycles"
+        ],
+        "outcomes": [
+          "Aproximadamente 30 lanzamientos desplegados en clusters relacionales/energéticos alternos",
+          "Cadencia quincenal de lanzamientos sostenida durante 12 meses",
+          "Revisiones de rendimiento cada 45 días identificando tracks top-tier para reproducción",
+          "Ingresos orgánicos de streaming generados sin gasto en marketing",
+          "Oportunidades de ingresos y licenciamiento reveladas por datos de clusters",
+          "Un framework experimental repetible para futuros sistemas de lanzamiento"
+        ]
+      },
+      "calby-inner-critic": {
+        "description": "Productor vocal de coros y background vocals en 12 canciones de un álbum inédito para el artista danés Calby. Gestionó arreglos vocales, adquisición de talento, coordinación de producción y supervisión presupuestaria en nombre de Sony Music Denmark y Bogs Agency.",
+        "dmaic": {
+          "D": "Producir arreglos de background vocals para 12 canciones del álbum de Calby, gestionando talento, logística de producción y presupuesto para Sony Music Denmark / Bogs Agency.",
+          "M": "Finalización de arreglos vocales, grabación exitosa de las canciones priorizadas, aprobación de los arreglos por stakeholders y entrega de contenido de video promocional.",
+          "A": "Cronograma ajustado, menos de una semana para los arreglos, restricciones presupuestarias, equilibrio entre requisitos musicales y necesidades de videografía, y coordinación de múltiples equipos entre preproducción y grabación.",
+          "I": "Creó y refinó arreglos vocales bajo presión, consiguió y dirigió talento vocal, coordinó sesiones de estudio, colaboró con videógrafos y entregó todas las canciones priorizadas dentro del presupuesto y el plazo.",
+          "C": "Todas las canciones priorizadas se grabaron con éxito. Los stakeholders dieron feedback positivo. Se entregaron assets de audio y video de alta calidad para archivo y marketing."
+        },
+        "timeline": [
+          "Preproducción & arreglo",
+          "Adquisición de talento",
+          "Grabación en estudio",
+          "Postproducción",
+          "Entrega al cliente"
+        ],
+        "tools": [
+          "Pro Tools",
+          "Vocal Arranging",
+          "BGV Production",
+          "Talent Management",
+          "Budget Management",
+          "Studio Coordination",
+          "Multi-Track Recording",
+          "Video Collaboration"
+        ],
+        "outcomes": [
+          "Arreglos vocales para 12 canciones entregados",
+          "Todas las canciones priorizadas grabadas dentro del plazo",
+          "Feedback positivo de stakeholders del artista y el sello",
+          "Assets de audio y video de alta calidad para marketing",
+          "Gestión presupuestaria efectiva bajo restricciones"
+        ]
+      },
+      "lukas-graham-purple": {
+        "description": "Productor vocal de background vocals en cuatro canciones para 3 (The Purple Album) de Lukas Graham. Creó arreglos, contrató y dirigió talento vocal, y lideró sesiones de grabación en colaboración con Warner Music Group y Then We Take The World.",
+        "dmaic": {
+          "D": "Crear arreglos vocales para cuatro canciones de 3 (The Purple Album) de Lukas Graham, contratando talento vocal y liderando sesiones de grabación para Warner Music Group / Then We Take The World.",
+          "M": "Calidad de los arreglos vocales, cohesión de performance, satisfacción de stakeholders e integración fluida de BGVs en el álbum final.",
+          "A": "Exigencias de una colaboración de alto perfil, equilibrio entre atractivo comercial y visión artística, gestión de horarios del talento vocal y modificaciones de arreglos en el momento durante las sesiones.",
+          "I": "Creó arreglos informados por una investigación profunda del artista, contrató talento vocal adecuado, lideró sesiones de grabación con ajustes en tiempo real y negoció compensación justa para el talento dentro del presupuesto.",
+          "C": "Las cuatro canciones se entregaron con performances vocales de alta calidad. Los stakeholders expresaron gran satisfacción. Las relaciones quedaron fortalecidas para futuras colaboraciones."
+        },
+        "timeline": [
+          "Investigación & preparación",
+          "Arreglo vocal",
+          "Adquisición de talento",
+          "Grabación en estudio",
+          "Lanzamiento internacional"
+        ],
+        "tools": [
+          "Vocal Arranging",
+          "Pro Tools",
+          "Talent Acquisition",
+          "Session Direction",
+          "Stakeholder Negotiation",
+          "Comping & Tuning",
+          "International Collaboration"
+        ],
+        "outcomes": [
+          "Arreglos vocales para cuatro canciones en un lanzamiento internacional",
+          "Performances vocales de alta calidad que capturaron la visión del artista",
+          "Satisfacción de stakeholders de Warner Music y management",
+          "Relaciones fortalecidas para futuras colaboraciones",
+          "Integración fluida de BGV en la mezcla final del álbum"
+        ]
+      },
+      "heart-soul-image-village": {
+        "description": "Lideró los componentes de coro y recording studio de Image Village 2023, un campamento de verano en Heart and Soul Center en South Central Los Angeles. Enseñó técnica vocal y habilidades de ensamble a dos grupos de edad mientras guiaba a estudiantes en composición, producción con DAW y creación de videos musicales.",
+        "dmaic": {
+          "D": "Entregar un programa musical de campamento de verano en Heart and Soul Center que combine instrucción coral y educación de recording studio para jóvenes en South Central Los Angeles.",
+          "M": "Desarrollo de habilidades estudiantiles en técnica vocal y producción musical, presentación final exitosa, finalización del video musical estudiantil y cumplimiento del plan de clases.",
+          "A": "Enseñar a dos grupos de edad distintos con diferentes niveles de habilidad. Balancear ensayo coral con producción de estudio en tiempo limitado. Coordinar planes de clase, materiales y una presentación final dentro de un cronograma de tres semanas.",
+          "I": "Creó planes de clase integrales con objetivos de aprendizaje claros. Enseñó técnica vocal, habilidades de ensamble y presencia escénica para el componente coral. Guió a estudiantes en composición, producción con DAW y creación de videos musicales para el componente de estudio. Preparó a ambos grupos para la presentación final del campamento.",
+          "C": "La presentación final del campamento se realizó con éxito con ambos grupos de edad. Los estudiantes completaron proyectos de composición y producción. Se creó un video musical. Los planes de clase se ejecutaron y documentaron. Material de foto y video archivado para el portfolio."
+        },
+        "timeline": [
+          "Desarrollo de planes de clase",
+          "Instrucción coral",
+          "Instrucción de estudio",
+          "Presentación & video",
+          "Documentación & archivo"
+        ],
+        "tools": [
+          "Vocal Instruction",
+          "DAW Production",
+          "Songwriting",
+          "Music Video Production",
+          "Lesson Planning",
+          "Ensemble Direction",
+          "Youth Education"
+        ],
+        "outcomes": [
+          "Presentación final con ambos grupos de edad",
+          "Proyectos estudiantiles de composición y producción con DAW completados",
+          "Video musical creado por estudiantes",
+          "Planes de clase integrales desarrollados y ejecutados",
+          "Material de foto y video archivado para el portfolio"
+        ]
+      },
+      "jimmy-gnarly-live": {
+        "description": "Colaboración para crear una presentación en vivo dinámica de un álbum inédito de alt. hip hop durante la pandemia global.",
+        "dmaic": {
+          "D": "Producir una presentación en vivo dinámica de un álbum inédito de alt. hip hop durante la pandemia global.",
+          "M": "Impacto en la audiencia, cohesión artística y ejecución exitosa de una obra inédita en formato en vivo.",
+          "A": "Resolvió el desafío creativo y logístico de montar un show en vivo convincente bajo restricciones de la era pandémica.",
+          "I": "Colaboró en el diseño y ejecución de un live set de alta energía que dio vida al álbum sin un lanzamiento tradicional.",
+          "C": "Presentación completada y documentada. Sirvió como proof-of-concept creativo controlado para el trabajo inédito del artista."
+        },
+        "timeline": [
+          "Conceptualización creativa",
+          "Diseño de set & logística",
+          "Ensayo & técnica",
+          "Presentación en vivo",
+          "Documentación & archivo"
+        ],
+        "tools": [
+          "Live Production",
+          "Stage Design",
+          "Pandemic Safety Protocols",
+          "Multi-Camera Capture",
+          "Creative Direction"
+        ],
+        "outcomes": [
+          "Live set dinámico de álbum inédito ejecutado",
+          "Proof-of-concept creativo para el artista",
+          "Presentación documentada bajo restricciones pandémicas",
+          "Alto engagement de audiencia y cohesión artística"
+        ]
+      },
+      "lmu-gospel-choir": {
+        "description": "Dirigió el LMU Gospel Choir, liderando ciclos semestrales de reclutamiento, ensayo y presentación. Gestionó coaching vocal, diseño promocional, contratación de músicos, negociación presupuestaria y colaboraciones con alumni.",
+        "dmaic": {
+          "D": "Sostener y dirigir el LMU Gospel Choir dentro del Department of African American Studies, con foco en el desarrollo vocal estudiantil, performance culturalmente informada y conciertos exitosos de fin de semestre en cada periodo y en los cuatro niveles del curso.",
+          "M": "Inscripción y retención estudiantil en niveles de curso sin audición, calidad de performance, crecimiento vocal durante el semestre, ejecución exitosa de conciertos de fin de semestre y engagement comunitario.",
+          "A": "Operar un ensamble sin audición dentro de un departamento fuera de música, gestionar la caída de inscripción, navegar restricciones presupuestarias departamentales, trabajar con estudiantes de diferentes niveles y operar dentro de un currículo establecido mientras se añadía dirección personal a ensayos y performances.",
+          "I": "Lideró un programa de coro gospel existente, combinando historia de African American Gospel Music con entrenamiento vocal práctico. Enseñó música por repetición oral con apoyo de lectura de partituras. Ofreció coaching vocal individual y en grupos pequeños. Creó flyers y gráficos promocionales para presentaciones. Contrató session musicians. Negoció asignación presupuestaria con liderazgo del departamento. Invitó a alumni a regresar como lead vocalists para conciertos. Abogó por course cross-listing para aumentar la inscripción.",
+          "C": "Se entregaron múltiples semestres de conciertos exitosos de fin de semestre. Los estudiantes desarrollaron técnica vocal y comprensión cultural en un ensamble sin audición. Las colaboraciones con alumni fortalecieron el legado del programa. Los materiales promocionales impulsaron consistentemente la asistencia de público."
+        },
+        "timeline": [
+          "Planificación semestral & presupuesto",
+          "Reclutamiento & audiciones",
+          "Ensayo & dirección",
+          "Producción de performance",
+          "Concierto & evaluación"
+        ],
+        "tools": [
+          "Vocal Direction",
+          "Program Leadership",
+          "Graphic Design",
+          "Budget Negotiation",
+          "Talent Acquisition",
+          "Alumni Relations",
+          "Event Planning",
+          "Music Selection"
+        ],
+        "outcomes": [
+          "Múltiples conciertos exitosos de fin de semestre producidos",
+          "Desarrollo vocal estudiantil y educación cultural entregados cada semestre",
+          "Vocalistas alumni incorporados para colaboraciones en conciertos",
+          "Materiales promocionales y flyers diseñados para presentaciones",
+          "Session musicians contratados y coordinados para presentaciones en vivo"
+        ]
+      }
+    },
+    "films": {
+      "sinners": {
+        "role": "Featured Vocalist — Original Motion Picture Soundtrack",
+        "recognition": "GRAMMY® Award Winner",
+        "description": "Featured vocalist en el original motion picture soundtrack de Sinners, la película de Warner Bros. de 2025 escrita y dirigida por Ryan Coogler.",
+        "details": [
+          {
+            "heading": "Sobre la película",
+            "text": "Sinners es un thriller de época de 2025 escrito y dirigido por Ryan Coogler, protagonizado por Michael B. Jordan, Hailee Steinfeld y Jack O'Connell. Ambientada en Mississippi en 1932, la historia sigue a dos hermanos gemelos que regresan a su pueblo natal y lo encuentran acechado por fuerzas sobrenaturales. La película mezcla horror Southern Gothic con profundas tradiciones musicales de blues y gospel, usando la música como recurso narrativo y ancla emocional."
+          },
+          {
+            "heading": "La música",
+            "text": "Participé como miembro de The DC6 Singers Collective, un ensamble vocal basado en Los Angeles - junto a otros miembros que aportaron featured vocals al soundtrack de la película, especialmente en \"This Little Light of Mine\" junto a Miles Caton y Pleasant Valley Youth Choir of New Orleans. El soundtrack fue executive produced por Ludwig Göransson, Ryan Coogler y Serena Göransson, y se lanzó digitalmente el 18 de abril de 2025 a través de Sony Masterworks."
+          },
+          {
+            "heading": "Reconocimiento",
+            "text": "The Sinners Original Motion Picture Soundtrack recibió un GRAMMY® Award for Best Compilation Soundtrack for Visual Media en la 68.ª edición anual de los Grammy Awards. Las canciones \"I Lied to You,\" \"Pale Pale Moon,\" y \"Sinners\" también fueron nominadas a Best Song Written for Visual Media. Esto marcó mi primera victoria como featured artist acreditado en un lanzamiento reconocido por los GRAMMY."
+          }
+        ]
+      },
+      "kpops": {
+        "role": "Featured Actor & Onscreen Performer",
+        "recognition": "Featured Film Performance",
+        "description": "Featured actor y onscreen performer en K-Pops!, el debut como director del artista ganador del Grammy Anderson .Paak.",
+        "details": [
+          {
+            "heading": "Sobre la película",
+            "text": "K-Pops! es el debut como director de largometraje del nueve veces ganador del Grammy Award Anderson .Paak, co-written con Khaila Amazan. La película presenta a .Paak como BJ, un músico venido a menos que consigue un trabajo con una house band en Seoul para un concurso de K-pop llamado Wildcard. Mientras trabaja en el show, descubre que uno de los concursantes — Tae Young, interpretado por Soul Rasheed, hijo de .Paak en la vida real — es el hijo perdido que nunca supo que tenía. El elenco incluye a Jee Young Han, Jonnie \"Dumbfoundead\" Park, Cathy Shim, Kevin Woo y Yvette Nicole Brown. La película se estrenó en el Toronto International Film Festival en 2024, tuvo su debut en Estados Unidos en Tribeca en 2025 y se estrenó en cines en febrero de 2026 antes de llegar a Netflix."
+          },
+          {
+            "heading": "Mi rol",
+            "text": "Aparecí como featured actor y onscreen performer, aportando tanto performance musical como presencia en pantalla al proyecto. Trabajando en set junto a .Paak y un elenco que mezclaba estrellas de K-pop, actores veteranos y músicos, contribuí a la fusión única de cine y performance en vivo de la película. La producción se filmó en Los Angeles, Corea del Sur y Arabia Saudita."
+          },
+          {
+            "heading": "La música",
+            "text": "El soundtrack es una mezcla fluida del sonido soul-funk característico de Anderson .Paak con producción auténtica de K-pop, desarrollada en colaboración con el legendario productor Dem Jointz. La película incluye canciones originales y colaboraciones como \"Keychain\" con aespa, \"Aftertaste\" con DEAN y aportes de NMIXX. Las cameo appearances a lo largo de la película incluyen a Vernon of Seventeen, Jessi, Jay Park, The Rose, IShowSpeed, Saweetie, Jaden Smith, Diplo y Earth, Wind & Fire."
+          }
+        ]
+      }
+    },
+    "discography": {
+      "rolePrefix": "Productor vocal",
+      "roleFeature": "Featured Artist",
+      "listen": "Escuchar",
+      "charted": "En listas",
+      "milestoneViral": "Spotify Viral 50",
+      "entries": {
+        "sinners-rocky-road-to-dublin": {
+          "role": "Featured Artist · DC6 Singers Collective",
+          "milestones": ["Spotify Viral 50 – Iceland #38 (Mar 2026)"]
+        },
+        "sinners-this-little-light": {
+          "role": "Featured Artist · DC6 Singers Collective",
+          "milestones": []
+        },
+        "lukas-graham-you": {
+          "role": "Productor vocal",
+          "milestones": []
+        },
+        "lukas-graham-share-that-love": {
+          "role": "Productor vocal",
+          "milestones": ["Deezer Ecuador Chart #78 (Apr 2025)"]
+        },
+        "lady-gaga-babylon": {
+          "role": "Productor vocal",
+          "milestones": ["Deezer Estonia Chart #48 (Jan 2026)"]
+        },
+        "kesi-tilbage": {
+          "role": "Productor vocal",
+          "milestones": []
+        },
+        "future-animals-crazy-love": {
+          "role": "Productor vocal",
+          "milestones": []
+        },
+        "matoma-its-christmas-time": {
+          "role": "Productor vocal",
+          "milestones": []
+        },
+        "hedegaard-need-you": {
+          "role": "Productor vocal",
+          "milestones": []
+        },
+        "matoma-sunday-morning": {
+          "role": "Productor vocal",
+          "milestones": []
+        },
+        "lukas-graham-promise": {
+          "role": "Productor vocal",
+          "milestones": []
+        },
+        "lukas-graham-hold-my-hand": {
+          "role": "Productor vocal",
+          "milestones": []
+        },
+        "lukas-graham-say-yes": {
+          "role": "Productor vocal",
+          "milestones": []
+        },
+        "lukas-graham-youre-not-the-only-one": {
+          "role": "Productor vocal",
+          "milestones": []
+        }
+      }
+    },
+    "artistWork": {
+      "categories": {
+        "all": "Todo",
+        "release": "Lanzamientos",
+        "video": "Videos",
+        "social": "Social"
+      },
+      "entries": {
+        "ba-freestyle-therealasethic": {
+          "description": "Verso freestyle sobre producción de @therealasethic."
+        },
+        "ba-one-of-a-kind": {
+          "description": "Crédito como feature. Streaming en Spotify, Apple Music y Tidal."
+        },
+        "ba-joker-open-verse": {
+          "description": "Me divertí metiéndome en personaje para este 😈."
+        },
+        "ba-we-get-the-party-started": {
+          "description": "Crédito como feature. Streaming en Spotify y Tidal."
+        },
+        "ba-rain-rain-remix": {
+          "description": "🌧️ rain rain, go away…pero diferente. ☔️"
+        },
+        "ba-grinch-flow-valentinbeatz": {
+          "description": "Christmas Grinch flow sobre producción de @valentinbeatz."
+        },
+        "ba-lost-files-vol-1": {
+          "description": "Música escrita, producida e interpretada por William \"B.A.\" Washington."
+        },
+        "ba-lost-files-vol-2": {
+          "description": "Música escrita, producida e interpretada por William \"B.A.\" Washington."
+        },
+        "ba-lost-files-vol-3": {
+          "description": "Música escrita, producida e interpretada por William \"B.A.\" Washington."
+        },
+        "ba-changes": {
+          "description": "Música escrita, producida e interpretada por William \"B.A.\" Washington."
+        },
+        "ba-money": {
+          "description": "Crédito como feature. Streaming en Spotify, Apple Music y Tidal."
+        },
+        "ba-glow-single": {
+          "description": "Música escrita, producida e interpretada por William \"B.A.\" Washington."
+        },
+        "ba-the-last-supper": {
+          "description": "Música escrita, producida e interpretada por William \"B.A.\" Washington."
+        },
+        "ba-where-would-i-be-mv": {
+          "description": "Del álbum \"Born Again\". Música escrita, producida e interpretada por William \"B.A.\" Washington."
+        },
+        "ba-glow-lv": {
+          "description": "Música escrita, producida e interpretada por William \"B.A.\" Washington."
+        },
+        "ba-he-set-me-free-mv": {
+          "description": "Del álbum \"Born Again\". Música escrita, producida e interpretada por William \"B.A.\" Washington."
+        },
+        "ba-born-again-album": {
+          "description": "Álbum debut. Música escrita, producida e interpretada por William \"B.A.\" Washington."
+        },
+        "ba-54-17-mv": {
+          "description": "Del álbum \"Born Again\". Música escrita, producida e interpretada por William \"B.A.\" Washington."
+        }
+      }
+    },
+    "artistProfile": {
+      "tagline": "Writer. Producer. Performer.",
+      "statement": {
+        "headline": "Amo la música con cada parte de mi alma.",
+        "p1": "Como artista, no me encierro en un solo sonido ni en una fórmula. Escribo y creo en cualquier género que me mueva en el momento, desde texturas melódicas de R&B hasta barras contundentes y ritmos globales que empujan límites.",
+        "p2": "Mi proceso es bastante aleatorio. Puedo ir manejando por la calle y empezar a hacer beatbox con una idea para un track, o puedo inspirarme en algo que veo y empezar a conceptualizar una idea alrededor de un tema sobre el que quiero escribir letras. No hay reglas fijas ... simplemente sigo lo que siento que me habla en ese momento. Cada canción es su propio mundo.",
+        "p3": "Ya sea un álbum completo, una colaboración o un short de 60 segundos, el objetivo es el mismo: hacer algo honesto, algo versátil y algo que mueva a la gente."
+      },
+      "stats": {
+        "yearsActive": "2016–Present",
+        "releases": "10+",
+        "features": "3",
+        "videos": "4",
+        "collaborations": "4"
+      }
+    }
+  }
+}

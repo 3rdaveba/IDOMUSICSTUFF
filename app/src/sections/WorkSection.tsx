@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import { useTranslation } from 'react-i18next'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import ParallaxHeader from '@/components/ParallaxHeader'
@@ -8,6 +9,7 @@ import { projects } from '@/data/projects'
 gsap.registerPlugin(ScrollTrigger)
 
 export default function WorkSection() {
+  const { t } = useTranslation()
   const gridRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -51,8 +53,8 @@ export default function WorkSection() {
       <div className="content-container">
         {/* Parallax Header */}
         <ParallaxHeader
-          line1="SELECTED"
-          line2="PROJECTS"
+          line1={t('work.line1')}
+          line2={t('work.line2')}
           triggerSelector="#work"
         />
 
@@ -80,7 +82,7 @@ export default function WorkSection() {
             <div className="flex items-center gap-3 mb-8">
               <span className="inline-block w-2 h-2 rounded-full" style={{ backgroundColor: '#1D9E75' }} />
               <h3 className="text-eyebrow" style={{ color: 'var(--text-tertiary)' }}>
-                Active
+                {t('work.active')}
               </h3>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mb-16">
@@ -106,7 +108,7 @@ export default function WorkSection() {
         <div className="flex items-center gap-3 mb-8">
           <span className="inline-block w-2 h-2 rounded-full" style={{ backgroundColor: 'var(--text-tertiary)' }} />
           <h3 className="text-eyebrow" style={{ color: 'var(--text-tertiary)' }}>
-            Complete
+            {t('work.complete')}
           </h3>
         </div>
 

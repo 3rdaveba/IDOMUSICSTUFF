@@ -1,8 +1,12 @@
+import { useTranslation } from 'react-i18next'
+
 interface FooterProps {
   showCTA?: boolean
 }
 
 export default function Footer({ showCTA = true }: FooterProps) {
+  const { t } = useTranslation()
+
   return (
     <footer style={{ backgroundColor: 'var(--bg-surface)' }}>
       <div className={`content-container pb-10 ${showCTA ? 'pt-20' : 'pt-10'}`}>
@@ -13,20 +17,20 @@ export default function Footer({ showCTA = true }: FooterProps) {
               className="font-display text-3xl md:text-5xl font-bold leading-tight"
               style={{ color: 'var(--text-primary)', letterSpacing: '-0.01em' }}
             >
-              Let's make something
+              {t('footer.ctaLine1')}
             </h2>
             <h3
               className="font-display italic text-2xl md:text-4xl font-medium mt-2"
               style={{ color: 'var(--accent-amber)' }}
             >
-              worth listening to.
+              {t('footer.ctaLine2')}
             </h3>
             <a
               href="#contact"
               className="inline-block mt-8 text-lg md:text-xl font-light transition-colors duration-300 hover:underline"
               style={{ color: 'var(--accent-amber)' }}
             >
-              Get in touch
+              {t('footer.ctaLink', { defaultValue: 'Get in touch' })}
             </a>
           </div>
         )}
@@ -37,10 +41,10 @@ export default function Footer({ showCTA = true }: FooterProps) {
           style={{ borderTop: '1px solid var(--border-color)' }}
         >
           <span className="text-eyebrow" style={{ color: 'var(--text-tertiary)' }}>
-            &copy; 2026 Epiphany Music Group
+            {t('footer.copyright')}
           </span>
           <span className="text-eyebrow mt-2 sm:mt-0" style={{ color: 'var(--text-tertiary)' }}>
-            Los Angeles, CA
+            {t('footer.location')}
           </span>
         </div>
       </div>

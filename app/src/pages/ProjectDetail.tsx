@@ -1,5 +1,6 @@
 import { useParams, useNavigate } from 'react-router'
 import { useState, useEffect, useRef } from 'react'
+import { useTranslation } from 'react-i18next'
 import { Helmet } from 'react-helmet-async'
 import { ArrowLeft, ArrowRight, Music, Cpu, Image, Video, ExternalLink, CheckCircle2 } from 'lucide-react'
 import gsap from 'gsap'
@@ -14,14 +15,6 @@ gsap.registerPlugin(ScrollTrigger)
 
 const dmaicKeys = ['D', 'M', 'A', 'I', 'C'] as const
 
-const dmaicMeta: Record<string, { word: string; question: string }> = {
-  D: { word: 'Define', question: 'What was the goal?' },
-  M: { word: 'Measure', question: 'What did success look like?' },
-  A: { word: 'Analyze', question: 'What were the challenges?' },
-  I: { word: 'Improve', question: 'What was implemented?' },
-  C: { word: 'Control', question: 'How was quality sustained?' },
-}
-
 const iconMap: Record<string, React.ReactNode> = {
   'Music': <Music size={14} />,
   'Spotify': <ExternalLink size={14} />,
@@ -32,6 +25,7 @@ const iconMap: Record<string, React.ReactNode> = {
 export default function ProjectDetail() {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
+  const { t } = useTranslation()
   const project = getProjectById(id || '')
   const pageTitle = project ? `${project.title} | Project` : 'Project'
   const pageDesc = project?.description || 'Project details'
@@ -91,13 +85,13 @@ export default function ProjectDetail() {
           <title>Project Not Found | William &quot;B.A.&quot; Washington</title>
         </Helmet>
         <div className="text-center">
-          <h1 className="font-display text-3xl font-bold" style={{ color: 'var(--text-primary)' }}>Project not found</h1>
+          <h1 className="font-display text-3xl font-bold" style={{ color: 'var(--text-primary)' }}>{t('projectDetail.projectNotFound')}</h1>
           <button
             onClick={() => navigate('/work')}
             className="mt-6 inline-flex items-center gap-2 transition-colors duration-300"
             style={{ color: 'var(--accent-amber)' }}
           >
-            <ArrowLeft size={16} /> Back to Work
+            <ArrowLeft size={16} /> {t('projectDetail.backToWork')}
           </button>
         </div>
       </div>
@@ -135,7 +129,7 @@ export default function ProjectDetail() {
             className="transition-colors duration-300 hover:text-[var(--accent-amber)]"
             style={{ color: 'var(--text-tertiary)' }}
           >
-            Home
+            {t('projectDetail.breadcrumbHome')}
           </button>
           <span style={{ color: 'var(--text-tertiary)' }}>/</span>
           <button
@@ -149,7 +143,7 @@ export default function ProjectDetail() {
             className="transition-colors duration-300 hover:text-[var(--accent-amber)]"
             style={{ color: 'var(--text-tertiary)' }}
           >
-            Work
+            {t('projectDetail.breadcrumbWork')}
           </button>
           <span style={{ color: 'var(--text-tertiary)' }}>/</span>
           <span style={{ color: 'var(--text-primary)' }}>{project.title}</span>
@@ -174,7 +168,7 @@ export default function ProjectDetail() {
           {project.streaming && project.streaming.length > 0 && (
             <div className="flex flex-wrap items-center gap-3 md:pt-2">
               <span className="text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--text-tertiary)' }}>
-                Listen:
+                {t('projectDetail.listen')}:
               </span>
               {project.streaming.map((link) => (
                 <a
@@ -208,7 +202,7 @@ export default function ProjectDetail() {
           <div className="flex items-center gap-2">
             <span className="inline-block w-2 h-2 rounded-full" style={{ backgroundColor: project.status === 'active' ? '#1D9E75' : 'var(--text-tertiary)' }} />
             <span className="text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--text-secondary)' }}>
-              {project.status === 'active' ? 'Active / Ongoing' : 'Complete'}
+              {project.status === 'active' ? t('projectDetail.statusActive') : t('projectDetail.statusComplete')}
             </span>
           </div>
 
@@ -218,7 +212,11 @@ export default function ProjectDetail() {
           <div className="flex items-center gap-1.5">
             {project.category === 'music' ? <Music size={13} style={{ color: 'var(--accent-amber)' }} /> : <Cpu size={13} style={{ color: 'var(--accent-amber)' }} />}
             <span className="text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--text-secondary)' }}>
-              {project.category === 'music' ? (project.id === 'lmu-gospel-choir' || project.id === 'heart-soul-image-village' ? 'Music & Education' : 'Music & Production') : 'Systems & Technology'}
+              {project.category === 'music'
+                ? (project.id === 'lmu-gospel-choir' || project.id === 'heart-soul-image-village'
+                    ? t('projectDetail.categoryMusicEducation')
+                    : t('projectDetail.categoryMusicProduction'))
+                : t('projectDetail.categorySystems')}
             </span>
           </div>
 
@@ -245,7 +243,7 @@ export default function ProjectDetail() {
           {/* Left: Story */}
           <div className="lg:col-span-7">
             <span className="text-eyebrow block mb-4" style={{ color: 'var(--text-tertiary)' }}>
-              PROJECT OVERVIEW
+              {t('projectDetail.projectOverview')}
             </span>
             <p
               className="font-display text-xl md:text-2xl font-medium leading-relaxed mb-10"
@@ -257,7 +255,7 @@ export default function ProjectDetail() {
             <div className="space-y-8">
               <div>
                 <h3 className="text-sm font-semibold uppercase tracking-wider mb-2" style={{ color: 'var(--accent-amber)' }}>
-                  The Challenge
+                  {t('projectDetail.challenge')}
                 </h3>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
                   {project.dmaic.A.text}
@@ -266,7 +264,7 @@ export default function ProjectDetail() {
 
               <div>
                 <h3 className="text-sm font-semibold uppercase tracking-wider mb-2" style={{ color: 'var(--accent-amber)' }}>
-                  The Approach
+                  {t('projectDetail.approach')}
                 </h3>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
                   {project.dmaic.I.text}
@@ -275,7 +273,7 @@ export default function ProjectDetail() {
 
               <div>
                 <h3 className="text-sm font-semibold uppercase tracking-wider mb-2" style={{ color: 'var(--accent-amber)' }}>
-                  Outcomes
+                  {t('projectDetail.outcomes')}
                 </h3>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
                   {project.dmaic.C.text}
@@ -291,13 +289,12 @@ export default function ProjectDetail() {
               style={{ backgroundColor: 'var(--bg-surface)', border: '1px solid var(--border-color)' }}
             >
               <span className="text-eyebrow block mb-6" style={{ color: 'var(--text-tertiary)' }}>
-                PROCESS FRAMEWORK
+                {t('projectDetail.processFramework')}
               </span>
 
               <div className="space-y-0">
                 {dmaicKeys.map((key, i) => {
                   const step = project.dmaic[key]
-                  const meta = dmaicMeta[key]
                   return (
                     <div
                       key={key}
@@ -319,14 +316,14 @@ export default function ProjectDetail() {
                       <div className="flex-1 min-w-0">
                         <div className="flex items-baseline gap-2 mb-1">
                           <span className="text-xs font-semibold uppercase tracking-wider" style={{ color: 'var(--text-primary)' }}>
-                            {meta.word}
+                            {t(`projectDetail.dmaic${key}`)}
                           </span>
                           <span className="text-[11px] italic" style={{ color: 'var(--text-tertiary)' }}>
-                            {meta.question}
+                            {t(`projectDetail.dmaicQuestion${key}`)}
                           </span>
                         </div>
                         <p className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                          {step.text}
+                          {t(`data.projects.${project.id}.dmaic.${key}`, { defaultValue: step.text })}
                         </p>
                       </div>
                     </div>
@@ -341,7 +338,7 @@ export default function ProjectDetail() {
         <div ref={detailsRef} className="mb-24">
           <div className="mb-12">
             <span className="text-eyebrow block mb-4" style={{ color: 'var(--text-tertiary)' }}>
-              PROJECT TIMELINE
+              {t('projectDetail.projectTimeline')}
             </span>
             <div className="flex items-center gap-3 overflow-x-auto pb-4">
               {project.timeline.map((event, i) => (
@@ -360,7 +357,7 @@ export default function ProjectDetail() {
                       className="text-[11px] font-medium text-center leading-tight"
                       style={{ color: 'var(--text-secondary)' }}
                     >
-                      {event.label}
+                      {t(`data.projects.${project.id}.timeline[${i}]`, { defaultValue: event.label })}
                     </span>
                   </div>
                   {i < project.timeline.length - 1 && (
@@ -379,10 +376,10 @@ export default function ProjectDetail() {
               style={{ backgroundColor: 'var(--bg-surface)', border: '1px solid var(--border-color)' }}
             >
               <span className="text-eyebrow block mb-5" style={{ color: 'var(--text-tertiary)' }}>
-                TOOLS & SKILLS
+                {t('projectDetail.toolsSkills')}
               </span>
               <div className="flex flex-wrap gap-2">
-                {project.tools.map((tool) => (
+                {project.tools.map((tool, i) => (
                   <span
                     key={tool}
                     className="text-xs font-medium px-3 py-1.5 rounded-md"
@@ -392,7 +389,7 @@ export default function ProjectDetail() {
                       border: '1px solid var(--border-color)',
                     }}
                   >
-                    {tool}
+                    {t(`data.projects.${project.id}.tools[${i}]`, { defaultValue: tool })}
                   </span>
                 ))}
               </div>
@@ -404,14 +401,14 @@ export default function ProjectDetail() {
               style={{ backgroundColor: 'var(--bg-surface)', border: '1px solid var(--border-color)' }}
             >
               <span className="text-eyebrow block mb-5" style={{ color: 'var(--text-tertiary)' }}>
-                KEY OUTCOMES
+                {t('projectDetail.keyOutcomes')}
               </span>
               <div className="space-y-3">
                 {project.outcomes.map((outcome, i) => (
                   <div key={i} className="flex items-start gap-3">
                     <CheckCircle2 size={14} className="flex-shrink-0 mt-0.5" style={{ color: 'var(--accent-amber)' }} />
                     <span className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                      {outcome}
+                      {t(`data.projects.${project.id}.outcomes[${i}]`, { defaultValue: outcome })}
                     </span>
                   </div>
                 ))}
@@ -424,7 +421,7 @@ export default function ProjectDetail() {
         {project.media && (
           <div ref={mediaRef}>
             <span className="text-eyebrow block mb-6" style={{ color: 'var(--text-tertiary)' }}>
-              MEDIA & RESOURCES
+              {t('projectDetail.mediaResources')}
             </span>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
               {project.media.items.map((item, i) => (
@@ -474,7 +471,7 @@ export default function ProjectDetail() {
                         {iconMap[item.icon || ''] || <ExternalLink size={22} />}
                       </span>
                       <span className="text-[11px] font-medium" style={{ color: 'var(--text-tertiary)' }}>
-                        {item.label}
+                        {t(`projectDetail.${item.label.toLowerCase().replace(/\s+/g, '')}`, { defaultValue: item.label })}
                       </span>
                     </a>
                   )}
@@ -483,7 +480,7 @@ export default function ProjectDetail() {
                       {item.type === 'photo-slot' && <Image size={22} style={{ color: 'var(--text-tertiary)' }} className="group-hover:text-[var(--accent-amber)] transition-colors" />}
                       {item.type === 'video-slot' && <Video size={22} style={{ color: 'var(--text-tertiary)' }} className="group-hover:text-[var(--accent-amber)] transition-colors" />}
                       <span className="text-[11px] font-medium" style={{ color: 'var(--text-tertiary)' }}>
-                        {item.label}
+                        {t(`projectDetail.${item.label.toLowerCase().replace(/\s+/g, '')}`, { defaultValue: item.label })}
                       </span>
                     </div>
                   )}
@@ -517,7 +514,7 @@ export default function ProjectDetail() {
                 <ArrowLeft size={20} style={{ color: 'var(--text-tertiary)' }} className="group-hover:text-[var(--accent-amber)] transition-colors flex-shrink-0" />
                 <div>
                   <span className="text-[11px] font-medium uppercase tracking-wider block mb-1" style={{ color: 'var(--text-tertiary)' }}>
-                    Previous
+                    {t('projectDetail.previous')}
                   </span>
                   <span className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>
                     {prev.title}
@@ -535,7 +532,7 @@ export default function ProjectDetail() {
               >
                 <div>
                   <span className="text-[11px] font-medium uppercase tracking-wider block mb-1" style={{ color: 'var(--text-tertiary)' }}>
-                    Next
+                    {t('projectDetail.next')}
                   </span>
                   <span className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>
                     {next.title}

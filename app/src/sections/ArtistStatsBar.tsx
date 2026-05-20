@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import { useTranslation } from 'react-i18next'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { artistProfile } from '@/data/artist-profile'
@@ -8,6 +9,7 @@ gsap.registerPlugin(ScrollTrigger)
 export default function ArtistStatsBar() {
   const sectionRef = useRef<HTMLDivElement>(null)
   const itemsRef = useRef<HTMLDivElement>(null)
+  const { t } = useTranslation()
 
   useEffect(() => {
     if (!itemsRef.current) return
@@ -49,13 +51,13 @@ export default function ArtistStatsBar() {
                 className="font-display text-2xl md:text-3xl font-bold"
                 style={{ color: 'var(--accent-amber)' }}
               >
-                {stat.value}
+                {t(`data.artistProfile.stats.${stat.label.toLowerCase().replace(/\s+/g, '')}`, { defaultValue: stat.value })}
               </div>
               <div
                 className="mt-1 text-[11px] font-medium uppercase tracking-wider"
                 style={{ color: 'var(--text-tertiary)' }}
               >
-                {stat.label}
+                {t(`artistWork.${stat.label.toLowerCase().replace(/\s+/g, '')}`, { defaultValue: stat.label })}
               </div>
             </div>
           ))}

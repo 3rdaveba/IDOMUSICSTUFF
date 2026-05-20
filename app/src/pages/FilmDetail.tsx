@@ -1,5 +1,6 @@
 import { useParams, useNavigate } from 'react-router'
 import { useState, useEffect, useRef } from 'react'
+import { useTranslation } from 'react-i18next'
 import { Helmet } from 'react-helmet-async'
 import { ArrowLeft, ArrowRight, Film, Video, ChevronLeft, ChevronRight, X, ExternalLink } from 'lucide-react'
 import gsap from 'gsap'
@@ -103,6 +104,7 @@ function FilmLightbox({ items, initialIndex, onClose }: LightboxProps) {
 export default function FilmDetail() {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
+  const { t } = useTranslation()
   const film = getFilmById(id || '')
   const pageTitle = film ? `${film.title} | Film` : 'Film'
   const pageDesc = film?.description || 'Film details'
@@ -144,9 +146,9 @@ export default function FilmDetail() {
           <title>Film Not Found | William &quot;B.A.&quot; Washington</title>
         </Helmet>
         <div className="text-center">
-          <h1 className="font-display text-3xl font-bold" style={{ color: 'var(--text-primary)' }}>Film not found</h1>
+          <h1 className="font-display text-3xl font-bold" style={{ color: 'var(--text-primary)' }}>{t('filmDetail.filmNotFound')}</h1>
           <button onClick={() => navigate('/')} className="mt-6 inline-flex items-center gap-2 transition-colors duration-300" style={{ color: 'var(--accent-amber)' }}>
-            <ArrowLeft size={16} /> Back Home
+            <ArrowLeft size={16} /> {t('filmDetail.backHome')}
           </button>
         </div>
       </div>
@@ -171,9 +173,9 @@ export default function FilmDetail() {
         <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(10,9,8,0.2) 0%, rgba(10,9,8,0.85) 100%)' }} />
 
         <nav className="absolute top-20 left-6 md:left-12 z-10 flex items-center gap-2 text-xs font-medium uppercase tracking-wider">
-          <button onClick={() => navigate('/')} className="transition-colors duration-300 hover:text-[var(--accent-amber)]" style={{ color: 'var(--text-tertiary)' }}>Home</button>
+          <button onClick={() => navigate('/')} className="transition-colors duration-300 hover:text-[var(--accent-amber)]" style={{ color: 'var(--text-tertiary)' }}>{t('filmDetail.breadcrumbHome')}</button>
           <span style={{ color: 'var(--text-tertiary)' }}>/</span>
-          <button onClick={() => { navigate('/'); setTimeout(() => document.getElementById('tv-film')?.scrollIntoView({ behavior: 'smooth' }), 100) }} className="transition-colors duration-300 hover:text-[var(--accent-amber)]" style={{ color: 'var(--text-tertiary)' }}>Film</button>
+          <button onClick={() => { navigate('/'); setTimeout(() => document.getElementById('tv-film')?.scrollIntoView({ behavior: 'smooth' }), 100) }} className="transition-colors duration-300 hover:text-[var(--accent-amber)]" style={{ color: 'var(--text-tertiary)' }}>{t('filmDetail.breadcrumbFilm')}</button>
           <span style={{ color: 'var(--text-tertiary)' }}>/</span>
           <span style={{ color: 'var(--text-primary)' }}>{film.title}</span>
         </nav>
@@ -193,7 +195,7 @@ export default function FilmDetail() {
           {film.streaming && film.streaming.length > 0 && (
             <div className="flex flex-wrap items-center gap-3 md:pt-2">
               <span className="text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--text-tertiary)' }}>
-                Listen:
+                {t('filmDetail.listen')}:
               </span>
               {film.streaming.map((link) => (
                 <a
@@ -222,12 +224,12 @@ export default function FilmDetail() {
         <div className="flex flex-wrap items-center gap-x-8 gap-y-3 px-6 py-4 rounded-md" style={{ backgroundColor: 'var(--bg-surface)', border: '1px solid var(--border-color)' }}>
           <div className="flex items-center gap-2">
             <span className="inline-block w-2 h-2 rounded-full" style={{ backgroundColor: 'var(--text-tertiary)' }} />
-            <span className="text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--text-secondary)' }}>Complete</span>
+            <span className="text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--text-secondary)' }}>{t('filmDetail.statusComplete')}</span>
           </div>
           <div className="hidden sm:block w-px h-4" style={{ backgroundColor: 'var(--border-color)' }} />
           <div className="flex items-center gap-1.5">
             <Film size={13} style={{ color: 'var(--accent-amber)' }} />
-            <span className="text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--text-secondary)' }}>Film & Television</span>
+            <span className="text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--text-secondary)' }}>{t('filmDetail.categoryFilm')}</span>
           </div>
           <div className="hidden sm:block w-px h-4" style={{ backgroundColor: 'var(--border-color)' }} />
           <div className="flex items-center gap-1.5">
@@ -254,7 +256,7 @@ export default function FilmDetail() {
             </div>
           ) : (
             <>
-              <span className="text-eyebrow block mb-5" style={{ color: 'var(--text-tertiary)' }}>ABOUT THIS PROJECT</span>
+              <span className="text-eyebrow block mb-5" style={{ color: 'var(--text-tertiary)' }}>{t('filmDetail.aboutProject')}</span>
               <p className="text-base md:text-lg font-light leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
                 {film.description}
               </p>
@@ -264,7 +266,7 @@ export default function FilmDetail() {
 
         {lightboxItems.length > 0 && (
           <div ref={mediaRef}>
-            <span className="text-eyebrow block mb-6" style={{ color: 'var(--text-tertiary)' }}>MEDIA & RESOURCES</span>
+            <span className="text-eyebrow block mb-6" style={{ color: 'var(--text-tertiary)' }}>{t('filmDetail.mediaResources')}</span>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
               {lightboxItems.map((item, i) => (
                 <div
@@ -299,7 +301,7 @@ export default function FilmDetail() {
               <button onClick={() => navigate(`/film/${prev.id}`)} className="group flex-1 flex items-center gap-4 p-6 text-left transition-colors duration-200 hover:bg-[var(--bg-surface)]">
                 <ArrowLeft size={20} style={{ color: 'var(--text-tertiary)' }} className="group-hover:text-[var(--accent-amber)] transition-colors flex-shrink-0" />
                 <div>
-                  <span className="text-[11px] font-medium uppercase tracking-wider block mb-1" style={{ color: 'var(--text-tertiary)' }}>Previous</span>
+                  <span className="text-[11px] font-medium uppercase tracking-wider block mb-1" style={{ color: 'var(--text-tertiary)' }}>{t('filmDetail.previous')}</span>
                   <span className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>{prev.title}</span>
                 </div>
               </button>
@@ -308,7 +310,7 @@ export default function FilmDetail() {
             {next && (
               <button onClick={() => navigate(`/film/${next.id}`)} className="group flex-1 flex items-center gap-4 p-6 text-right justify-end transition-colors duration-200 hover:bg-[var(--bg-surface)]">
                 <div>
-                  <span className="text-[11px] font-medium uppercase tracking-wider block mb-1" style={{ color: 'var(--text-tertiary)' }}>Next</span>
+                  <span className="text-[11px] font-medium uppercase tracking-wider block mb-1" style={{ color: 'var(--text-tertiary)' }}>{t('filmDetail.next')}</span>
                   <span className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>{next.title}</span>
                 </div>
                 <ArrowRight size={20} style={{ color: 'var(--text-tertiary)' }} className="group-hover:text-[var(--accent-amber)] transition-colors flex-shrink-0" />

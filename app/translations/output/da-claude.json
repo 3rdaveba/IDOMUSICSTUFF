@@ -1,0 +1,583 @@
+{
+  "navigation": {
+    "home": "Hjem",
+    "about": "Om",
+    "projects": "Projekter",
+    "film": "Film",
+    "music": "Musik",
+    "contact": "Kontakt",
+    "artistWork": "Artist Work",
+    "logoName": "WILLIAM \"B.A.\" WASHINGTON"
+  },
+  "hero": {
+    "eyebrow": "GRAMMY®-PRISBELØNNEDE VOKALPRODUCENT · MUSIKTEKNOLOG · KREATIV SYSTEMSARKITEKT · LOS ANGELES",
+    "nameFirst": "WILLIAM",
+    "nameSecond": "\"B.A.\" WASHINGTON",
+    "scrollCue": "SCROLL"
+  },
+  "about": {
+    "headline": "Hej! Mit navn er William, og jeg er en GRAMMY®-prisbelønnet vokalproducent, musikteknolog og kreativ systemsarkitekt.",
+    "bio1": "I løbet af min karriere har jeg opnået enorm erfaring som kunstner, sceneoptræder, lydingenør og kreativ projektleder. Fra tilrettelæggelse af liveoptrædener, samarbejde med kunstnere, undervisning af studerende og arbejde med udsatte fællesskaber har jeg formået at opbygge en dokumenteret track record for succesfuldt at levere projekter fra idé til færdighed.",
+    "bio2": "Dette site er designet til at give dig indsigt i min passion for at skabe virkningsfulde oplevelser, min kreative tankeproces og et kig bag kulisserne på nogle af de projekter, jeg har været en del af.",
+    "signature": "Jeg glæder mig til muligheden for at arbejde med dig i fremtiden!",
+    "signatureName": "— William \"B.A.\" Washington"
+  },
+  "work": {
+    "line1": "UDVALGTE",
+    "line2": "PROJEKTER",
+    "intro": "Et tværsnit af projekter der spænder over musikproduktion, fællesskabsuddannelse, systemsarkitektur og kreativ teknologi – hvert enkelt bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt.",
+    "active": "Aktiv",
+    "complete": "Afsluttet"
+  },
+  "tvFilm": {
+    "eyebrow": "SKÆRM OG SOUNDTRACK",
+    "heading": "Film og TV",
+    "intro": "Broen mellem musik og visuel fortællekunst – fra GRAMMY-vindende soundtracks til optrædener på lærredet side om side med branchens ikoner.",
+    "viewDetails": "Se detaljer",
+    "studio": "Studie",
+    "year": "År",
+    "role": "Rolle",
+    "description": "Beskrivelse"
+  },
+  "discography": {
+    "eyebrow": "MUSIK",
+    "line1": "{{streams}}M+",
+    "line2": "STREAMS",
+    "intro": "Udvalgt diskografi fra bemærkelsesværdige projekter som vokalproducent, medvirkende kunstner eller optræder · {{tracks}} numre · hentet fra {{source}}",
+    "spotify": "Spotify",
+    "youtube": "YouTube",
+    "tiktok": "TikTok",
+    "listen": "Lyt",
+    "charted": "Hitliste",
+    "cmScore": "CM Score",
+    "disclaimer": "* Al streaming- og præstationsdata er hentet fra Chartmetric. Nøjagtig pr. {{date}}. Spotify-streams repræsenterer kumulative totaler for alle tider."
+  },
+  "contact": {
+    "headline": "Lad os skabe noget sammen.",
+    "headlineEmphasis": "sammen.",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-mail",
+    "locationLabel": "Beliggenhed",
+    "locationValue": "Los Angeles, CA",
+    "successMessage": "Tak! Jeg vender snart tilbage.",
+    "formNameLabel": "Navn",
+    "formNamePlaceholder": "Dit navn",
+    "formEmailLabel": "E-mail",
+    "formEmailPlaceholder": "din@email.com",
+    "formSubjectLabel": "Emne",
+    "formSubjectPlaceholder": "Hvad handler det om?",
+    "formMessageLabel": "Besked",
+    "formMessagePlaceholder": "Fortæl mig om dit projekt...",
+    "sendButton": "SEND BESKED",
+    "sendingButton": "SENDER...",
+    "errorMessage": "Noget gik galt.",
+    "tryAgainButton": "PRØV IGEN"
+  },
+  "ctaBanner": {
+    "line1": "LAD OS SKABE",
+    "line2": "NOGET ÆGTE"
+  },
+  "footer": {
+    "ctaLine1": "Lad os skabe noget",
+    "ctaLine2": "der er værd at høre på.",
+    "ctaLink": "Kontakt mig",
+    "copyright": "© 2026 Epiphany Music Group",
+    "location": "Los Angeles, CA"
+  },
+  "projectDetail": {
+    "breadcrumbHome": "Hjem",
+    "breadcrumbWork": "Projekter",
+    "listen": "Lyt",
+    "statusActive": "Aktiv / Løbende",
+    "statusComplete": "Afsluttet",
+    "categoryMusicEducation": "Musik og Uddannelse",
+    "categoryMusicProduction": "Musik og Produktion",
+    "categorySystems": "Systemer og Teknologi",
+    "dmaicD": "D",
+    "dmaicM": "M",
+    "dmaicA": "A",
+    "dmaicI": "I",
+    "dmaicC": "C",
+    "dmaicDefine": "Definér",
+    "dmaicMeasure": "Mål",
+    "dmaicAnalyze": "Analysér",
+    "dmaicImprove": "Forbedre",
+    "dmaicControl": "Kontrollér",
+    "dmaicQuestionD": "Hvad var målet?",
+    "dmaicQuestionM": "Hvordan så succes ud?",
+    "dmaicQuestionA": "Hvad var udfordringerne?",
+    "dmaicQuestionI": "Hvad blev implementeret?",
+    "dmaicQuestionC": "Hvordan blev kvaliteten opretholdt?",
+    "projectOverview": "PROJEKTOVERSIGT",
+    "challenge": "Udfordringen",
+    "approach": "Tilgangen",
+    "outcomes": "Resultater",
+    "processFramework": "PROCESRAMME",
+    "projectTimeline": "PROJEKTTIDSLINJE",
+    "toolsSkills": "VÆRKTØJER OG FÆRDIGHEDER",
+    "keyOutcomes": "NØGLERESULTATER",
+    "mediaResources": "MEDIER OG RESSOURCER",
+    "photo": "Foto",
+    "workflow": "Arbejdsgang",
+    "bts": "BTS",
+    "preProduction": "Pre-produktion",
+    "studioSession": "Studiesession",
+    "interlude": "Interlude",
+    "rehearsal": "Prøve",
+    "sundayService": "Sunday Service",
+    "recordingStudio": "Optagelsesstudio",
+    "choirRehearsal": "Koroprøve",
+    "prvblems": "PRVBLEMS",
+    "watch": "Se",
+    "previous": "Forrige",
+    "next": "Næste",
+    "projectNotFound": "Projekt ikke fundet",
+    "backToWork": "Tilbage til projekter"
+  },
+  "filmDetail": {
+    "breadcrumbHome": "Hjem",
+    "breadcrumbFilm": "Film",
+    "listen": "Lyt",
+    "statusComplete": "Afsluttet",
+    "categoryFilm": "Film og TV",
+    "aboutProject": "OM DETTE PROJEKT",
+    "mediaResources": "MEDIER OG RESSOURCER",
+    "previous": "Forrige",
+    "next": "Næste",
+    "filmNotFound": "Film ikke fundet",
+    "backHome": "Tilbage til start"
+  },
+  "artistWork": {
+    "statementHeadline": "Jeg elsker musik med hele min sjæl.",
+    "statementP1": "Som kunstner sætter jeg mig ikke i bås med én bestemt lyd eller formel. Jeg skriver og skaber på tværs af det, uanset hvilken genre der bevæger mig i øjeblikket – fra melodiske R&B-teksturer, til hårde bars, til globale rytmer der skubber til grænser.",
+    "statementP2": "Min proces er ret tilfældig. Jeg kan køre ned ad gaden og begynde at beatboxe en idé til et nummer, eller jeg kan blive inspireret af noget, jeg ser, og begynde at konceptualisere en idé rundt om et tema, som jeg vil begynde at skrive sangtekster til. Der er ingen faste regler ... jeg følger bare det, der taler til mig i øjeblikket. Hvert nummer er sin egen verden.",
+    "statementP3": "Uanset om det er et helt album, en feature eller en 60-sekunders kort film, er målet det samme: skabe noget ærligt, noget alsidigt og noget der bevæger folk.",
+    "aboutTheArtist": "OM KUNSTNEREN",
+    "yearsActive": "Aktive år",
+    "releases": "Udgivelser",
+    "features": "Features",
+    "videos": "Videoer",
+    "collaborations": "Samarbejder",
+    "releasesHeading": "Udgivelser",
+    "videosHeading": "Videoer",
+    "collaborationsHeading": "Samarbejder",
+    "backToHome": "Tilbage til start"
+  },
+  "data": {
+    "projects": {
+      "audiolab-intelligence": {
+        "description": "Design en privat, autonom agentinfrastruktur til intelligent kreativ workflow, der opererer 24/7 uden menneskelig indgriben.",
+        "dmaic": {
+          "D": "Design en privat, autonom agentinfrastruktur til intelligent kreativ workflow, der opererer 24/7 uden menneskelig indgriben.",
+          "M": "Systemoppetid, opgavegennemførelsesrate, nul uautoriserede skrivninger til produktionskode, fuld revisionssporsdækning.",
+          "A": "Identificerede huller mellem eksisterende kreative værktøjer og intelligent automatisering. Designet rundt om strenge kun-læse sikkerhedsgrænser og multi-model orkestrering.",
+          "I": "Implementerede containeriseret agentsystem med struktureret hukommelse, planlagte intelligensrørledninger og lagdelte sikkerhedsbegrænsninger.",
+          "C": "Alle agentoutputs logges og er sporbare. Ingen hemmeligheder i hukommelsen. Ingen vilkårlig eksekvering. Løbende overvågning via heartbeat-planlægger."
+        },
+        "timeline": [
+          "Forskning og arkitektur",
+          "Kerneopbygning",
+          "Agentintegration",
+          "Sikkerhedshærdning",
+          "Løbende optimering"
+        ],
+        "tools": [
+          "Docker",
+          "Python",
+          "LLM Orchestration",
+          "Strukturerede hukommelsessystemer",
+          "Heartbeat-planlægning",
+          "Kun-læse sikkerhedsgrænser"
+        ],
+        "outcomes": [
+          "Autonom 24/7 agentinfrastruktur",
+          "Nul uautoriserede skrivninger til produktion",
+          "Fuld revisionssporet på alle outputs",
+          "Multi-model orkestreringsrørledning"
+        ]
+      },
+      "the-reimagination-engine": {
+        "description": "Et eksperimentelt udgivelsesprojekt, hvor gamle demoer og uafsluttede sangidéer genfortolkes med AI-værktøjer og udgives i klyngede bølger. Drops sker hver anden uge i skiftende tre-nummers klynger – én bølge relationel, den næste energisk – med præstationsgennemgang hvert 45. dag. Målet er at se, om konsistente udgivelser alene kan generere streamingindtægter og organisk trækkraft uden markedsføring, sociale medier eller betalt reklame. Hvis et nummer havner i topniveauet i sin klynge, markeres det til potentiel genprocuktion eller licensering.",
+        "dmaic": {
+          "D": "Tag gamle demoer og sangidéer, kør dem igennem AI-værktøjer til at skabe nye iterationer, og udgiv dem offentligt hver anden uge i ét år med nul markedsføring eller push på sociale medier.",
+          "M": "Spor streamingtal, gemte numre, gennemførelsesrater og lytterfastholdelse på tværs af ca. 30 udgivelser over 12 måneder. Hvert 45. dag gennemgås klyngepræstationen for at se, hvilken bølgestil der vinder frem, og hvilke individuelle numre der stiger til tops.",
+          "A": "Sammenlign relationelle klynger med energiske klynger. Identificer hvilke numre der havner i toppen 20% af deres bølge, og søg efter mønstre i, hvad der resonerer, når der ikke er ekstern reklame til at drive trafik.",
+          "I": "Når et nummer præsterer i toppen 20% af sin klynge med over-median engagement, markeres det til genprocuktion eller licenseringsundersøgelse. Geninvester eventuelle indtægter i at forfine arbejdsgangen.",
+          "C": "Efter 30 udgivelser og ét år evalueres det, om kataloget genererer bæredygtige indtægter. Beslut, om man skal fortsætte, dreje udgivelsesstrategien eller trække kataloget tilbage og teste et nyt system."
+        },
+        "timeline": [
+          "Katalogoprydning",
+          "AI-iteration og udgivelse",
+          "Præstationssporing",
+          "Evaluering af indtægter og licensering",
+          "Systemgennemgang og næste fase"
+        ],
+        "tools": [
+          "Suno",
+          "AI-musikværktøjer",
+          "DSP Streaming",
+          "Metadatasystemer",
+          "Klyngebaseret udgivelsesplanlægning",
+          "45-dages gennemgangscyklusser"
+        ],
+        "outcomes": [
+          "Ca. 30 udgivelser deployeret i skiftende relationelle/energiske klynger",
+          "Tovigentlig udgivelseskadence opretholdt over 12 måneder",
+          "45-dages præstationsgennemgange der identificerer topnumre til genprocuktion",
+          "Organiske streamingindtægter genereret uden markedsføringsforbrug",
+          "Indtægts- og licenseringsmuligheder afsløret af klyngedata",
+          "En gentagelig eksperimentramme til fremtidige udgivelsessystemer"
+        ]
+      },
+      "calby-inner-critic": {
+        "description": "Vokalproducent for baggrundsvokaler på tværs af 12 sange på et uudgivet album for den danske kunstner Calby. Styrede vokalopstillinger, talentopkøb, produktionskoordinering og budgetoversigt på vegne af Sony Music Denmark og Bogs Agency.",
+        "dmaic": {
+          "D": "Producér baggrundsvokalopstillinger for 12 sange på Calbys album, styring af talent, produktionslogistik og budget for Sony Music Denmark / Bogs Agency.",
+          "M": "Gennemførelse af vokalopstillinger, succesfuld optagelse af prioriterede sange, interessenternes godkendelse af opstillinger og levering af promotionelt videoindhold.",
+          "A": "Stram tidslinje (under én uge til opstillinger), budgetbegrænsninger, balancering af musikalske krav med videografibehov og koordinering af flere teams på tværs af pre-produktion og optagelse.",
+          "I": "Skabte og finpudsede vokalopstillinger under pres, opkøbte og styrede vokalt talent, koordinerede studiesessioner, samarbejdede med videografer og leverede alle prioriterede sange inden for budget og tidsramme.",
+          "C": "Alle prioriterede sange optaget succesfuldt. Interessenter gav positiv feedback. Høj kvalitet lyd- og visuelle aktiver leveret til arkivering og markedsføringsbrug."
+        },
+        "timeline": [
+          "Pre-produktion og arrangement",
+          "Talentopkøb",
+          "Studieoptagelse",
+          "Post-produktion",
+          "Klientlevering"
+        ],
+        "tools": [
+          "Pro Tools",
+          "Vokalopstilling",
+          "BGV-produktion",
+          "Talentstyring",
+          "Budgetstyring",
+          "Studiekoordinering",
+          "Flersporet optagelse",
+          "Videosamarbejde"
+        ],
+        "outcomes": [
+          "Vokalopstillinger for 12 sange leveret",
+          "Alle prioriterede sange optaget inden for tidsramme",
+          "Positiv interessentfeedback fra kunstner og label",
+          "Høj kvalitet lyd- og visuelle aktiver til markedsføring",
+          "Effektiv budgetstyring under begrænsninger"
+        ]
+      },
+      "lukas-graham-purple": {
+        "description": "Vokalproducent for baggrundsvokaler på fire sange til Lukas Grahams 3 (The Purple Album). Skabte opstillinger, hyrede og dirigerede vokalt talent og ledede optagelsessessioner i samarbejde med Warner Music Group og Then We Take The World.",
+        "dmaic": {
+          "D": "Skab vokalopstillinger for fire sange på Lukas Grahams 3 (The Purple Album), ansættelse af vokalt talent og ledelse af optagelsessessioner for Warner Music Group / Then We Take The World.",
+          "M": "Kvaliteten af vokalopstillinger, præstationssamhørighed, interessenttilfredshed og problemfri integration af BGVs i det endelige album.",
+          "A": "Krav fra højtprofileret partnerskab, balancering af kommerciel appel med kunstnervision, styring af vokaltalentprogrammer og foretage opstillingsmodifikationer under sessioner.",
+          "I": "Skabte opstillinger baseret på dybdegående kunstnerforskning, hyrede passende vokalt talent, ledede optagelsessessioner med realtidsjusteringer og forhandlede fair talentgodtgørelse inden for budget.",
+          "C": "Alle fire sange leveret med høj kvalitet vokalperformances. Interessenter udtrykte stor tilfredshed. Relationer styrket til fremtidige samarbejder."
+        },
+        "timeline": [
+          "Forskning og forberedelse",
+          "Vokalopstilling",
+          "Talentopkøb",
+          "Studieoptagelse",
+          "International udgivelse"
+        ],
+        "tools": [
+          "Vokalopstilling",
+          "Pro Tools",
+          "Talentopkøb",
+          "Sessionsdirektion",
+          "Interessentforhandling",
+          "Comping og stemning",
+          "Internationalt samarbejde"
+        ],
+        "outcomes": [
+          "Vokalopstillinger for fire sange på international udgivelse",
+          "Høj kvalitet vokalperformances der indfanger kunstnervisionen",
+          "Interessenttilfredshed fra Warner Music og management",
+          "Styrkede relationer til fremtidige samarbejder",
+          "Problemfri BGV-integration i den endelige albumsmiksning"
+        ]
+      },
+      "heart-soul-image-village": {
+        "description": "Ledede koral- og optagelsesstudiokomponenterne i Image Village 2023, et sommerlejr på Heart and Soul Center i South Central Los Angeles. Underviste i vokalteknik og ensemblefærdigheder til to aldersgrupper, mens de studerende blev guidet igennem sangskrivning, DAW-produktion og musikvideoskabelse.",
+        "dmaic": {
+          "D": "Levér et sommerlejr-musikprogram på Heart and Soul Center der kombinerer koralundervisning og optagelsesstudiouddannelse for unge i South Central Los Angeles.",
+          "M": "Studerendes kompetenceudvikling inden for vokalteknik og musikproduktion, succesfuld slutperformance, gennemførelse af studerendes musikvideo og levering af lektionsplaner.",
+          "A": "Undervisning af to adskilte aldersgrupper med forskellige færdighedsniveauer. Balancering af koralprøve med studieproduktion i begrænset tid. Koordinering af lektionsplaner, materialer og en slutperformance inden for en tre-ugers tidsplan.",
+          "I": "Skabte omfattende lektionsplaner med klare læringsmål. Underviste i vokalteknik, ensemblefærdigheder og scenepræsens for koralkomponenten. Guidede studerende igennem sangskrivning, DAW-produktion og musikvideoskabelse for studiokomponenten. Forberedte begge grupper til slutperformancen.",
+          "C": "Slutperformance leveret succesfuldt med begge aldersgrupper. Studerende gennemførte sangskrivnings- og produktionsprojekter. Musikvideo skabt. Lektionsplaner udført og dokumenteret. Foto- og videomateriale arkiveret."
+        },
+        "timeline": [
+          "Lektionsplanlægning",
+          "Koralundervisning",
+          "Studioundervisning",
+          "Performance og video",
+          "Dokumentation og arkivering"
+        ],
+        "tools": [
+          "Vokalundervisning",
+          "DAW-produktion",
+          "Sangskrivning",
+          "Musikvideoproduktion",
+          "Lektionsplanlægning",
+          "Ensembledirektion",
+          "Ungdomsuddannelse"
+        ],
+        "outcomes": [
+          "Slutperformance med begge aldersgrupper",
+          "Studerendes sangskrivnings- og DAW-produktionsprojekter gennemført",
+          "Musikvideo skabt af studerende",
+          "Omfattende lektionsplaner udviklet og udført",
+          "Foto- og videomateriale arkiveret"
+        ]
+      },
+      "jimmy-gnarly-live": {
+        "description": "Samarbejde om at skabe en dynamisk liveopførelse af et uudgivet alt. hip hop-album under den globale pandemi.",
+        "dmaic": {
+          "D": "Producér en dynamisk liveopførelse af et uudgivet alt. hip hop-album under den globale pandemi.",
+          "M": "Publikumsindvirkning, kunstnerisk samhørighed og succesfuld udførelse af et uudgivet materiale i et liveformat.",
+          "A": "Løste den kreative og logistiske udfordring med at iscenesætte et overbevisende liveshow under pandemi-begrænsninger.",
+          "I": "Samarbejdede om at designe og udføre et energisk live-set der bragte albummet til live uden en traditionel udgivelse.",
+          "C": "Performance gennemført og dokumenteret. Fungerede som et kontrolleret kreativt proof-of-concept for kunstnerens uudgivne materiale."
+        },
+        "timeline": [
+          "Kreativ konceptudvikling",
+          "Scenedesign og logistik",
+          "Prøve og teknik",
+          "Liveopførelse",
+          "Dokumentation og arkivering"
+        ],
+        "tools": [
+          "Liveproduktion",
+          "Scenedesign",
+          "Pandemi-sikkerhedsprotokoller",
+          "Multi-kamera optagelse",
+          "Kreativ ledelse"
+        ],
+        "outcomes": [
+          "Dynamisk live-set af uudgivet album udført",
+          "Kreativt proof-of-concept for kunstner",
+          "Dokumenteret performance under pandemi-begrænsninger",
+          "Højt publikumsengagement og kunstnerisk samhørighed"
+        ]
+      },
+      "lmu-gospel-choir": {
+        "description": "Dirigerede LMU Gospel Choir og ledede semesterlange cyklusser af rekruttering, prøver og optrædener. Styrede vokalcoaching, reklamemateriale, musikerhyring, budgetforhandling og alumnesamarbejder.",
+        "dmaic": {
+          "D": "Oprethold og diriger LMU Gospel Choir inden for Department of African American Studies med fokus på studerendes vokaludvikling, kulturelt informeret performance og succesfulde slutsemesterkoncerter hvert semester på tværs af alle fire kursniveauer.",
+          "M": "Studerendes tilmelding og fastholdelse på tværs af ikke-audition-kursniveauer, performancekvalitet, vokal vækst over semestret, succesfuld udførelse af slutsemesterkoncerter og fællesskabsengagement.",
+          "A": "Drift af et ikke-audition-ensemble inden for en afdeling uden for musik, styring af faldende tilmelding, navigation af afdelingsbudgetrestriktioner, arbejde med studerende af varierende færdighedsniveauer og arbejde inden for et etableret curriculum mens man tilføjer personlig ledelse til prøver og optrædener.",
+          "I": "Ledede et eksisterende gospelkorprogram der kombinerede afroamerikansk gospelmusikhistorie med praktisk vokaltræning. Underviste musik ved hjælp af rote-metoden med noder-læsningsstøtte. Gav individuel og gruppebaseret vokalcoaching. Skabte flyers og reklamegrafik til optrædener. Hyrede sessionmusikere. Forhandlede budgettildeling med afdelingsledelsen. Inviterede alumner til at returnere som leadvokalister til koncerter. Fortalte for krydslistning af kurser for at øge tilmeldingen.",
+          "C": "Flere semestres succesfulde slutsemesterkoncerter leveret. Studerende udviklede vokalteknik og kulturforståelse i et ikke-audition-ensemble. Alumnesamarbejder styrkede programmets arv. Reklamematerialer drev konsekvent publikumsdeltagelse."
+        },
+        "timeline": [
+          "Semesterplanlægning og budget",
+          "Rekruttering og auditions",
+          "Prøver og ledelse",
+          "Performanceproduktion",
+          "Koncert og evaluering"
+        ],
+        "tools": [
+          "Vokalledelse",
+          "Programlederskab",
+          "Grafisk design",
+          "Budgetforhandling",
+          "Talentopkøb",
+          "Alumnerelationer",
+          "Begivenhedsplanlægning",
+          "Musikudvælgelse"
+        ],
+        "outcomes": [
+          "Flere succesfulde slutsemesterkoncerter produceret",
+          "Studerendes vokaludvikling og kulturuddannelse leveret hvert semester",
+          "Alumnesolisterne engageret til koncertsamarbejder",
+          "Reklamematerialer og flyers designet til optrædener",
+          "Sessionmusikere hyret og koordineret til liveoptrædener"
+        ]
+      }
+    },
+    "films": {
+      "sinners": {
+        "role": "Medvirkende vokalist — Original filmens soundtrack",
+        "recognition": "GRAMMY® Award-vinder",
+        "description": "Medvirkende vokalist på det originale filmsoundtrack til Sinners, 2025 Warner Bros.-filmen skrevet og instrueret af Ryan Coogler.",
+        "details": [
+          {
+            "heading": "Om filmen",
+            "text": "Sinners er en periodisk thriller fra 2025 skrevet og instrueret af Ryan Coogler med Michael B. Jordan, Hailee Steinfeld og Jack O'Connell i hovedrollerne. Med handlingen lagt til Mississippi i 1932 følger historien to tvillingebrødre, der vender tilbage til deres hjemby og finder den hjemsøgt af overnaturlige kræfter. Filmen blander Southern Gothic-horror med dybe blues- og gospelmusiktraditioner og bruger musik som både narrativt redskab og følelsesmæssigt anker."
+          },
+          {
+            "heading": "Musikken",
+            "text": "Jeg optrådte som medlem af The DC6 Singers Collective, et Los Angeles-baseret vokalensemble – side om side med medvirkende, der bidrog med fremtrædende vokaler til filmens soundtrack, mest bemærkelsesværdigt på \"This Little Light of Mine\" med Miles Caton og The Pleasant Valley Youth Choir of New Orleans. Soundtracket var eksekutivproduceret af Ludwig Göransson, Ryan Coogler og Serena Göransson og udgivet digitalt den 18. april 2025 via Sony Masterworks."
+          },
+          {
+            "heading": "Anerkendelse",
+            "text": "Sinners Original Motion Picture Soundtrack modtog en GRAMMY® Award for Best Compilation Soundtrack for Visual Media ved den 68. årlige Grammy Awards. Sangene \"I Lied to You\", \"Pale Pale Moon\" og \"Sinners\" var også nomineret til Best Song Written for Visual Media. Dette markerede min første sejr som krediteret medvirkende kunstner på en GRAMMY-anerkendt udgivelse."
+          }
+        ]
+      },
+      "kpops": {
+        "role": "Medvirkende skuespiller og sceneoptræder",
+        "recognition": "Fremtrædende filmoptræden",
+        "description": "Medvirkende skuespiller og sceneoptræder i K-Pops!, den instruktionelle debut fra den ni gange Grammy-vindende kunstner Anderson .Paak.",
+        "details": [
+          {
+            "heading": "Om filmen",
+            "text": "K-Pops! er den spillefilmsinstruktionelle debut fra ni gange Grammy Award-vinderen Anderson .Paak, skrevet sammen med Khaila Amazan. Filmen har .Paak i rollen som BJ, en falmende musiker der får et job med et husband i Seoul til et K-pop-konkurrenceshow kaldet Wildcard. Mens han arbejder på showet, opdager han, at en af konkurrenterne – Tae Young, spillet af .Paaks rigtige søn Soul Rasheed – er den langfortabte søn, han aldrig vidste han havde. Castet inkluderer Jee Young Han, Jonnie \"Dumbfoundead\" Park, Cathy Shim, Kevin Woo og Yvette Nicole Brown. Filmen havde premiere på Toronto International Film Festival i 2024, fik sin amerikanske debut på Tribeca i 2025 og blev udgivet i biograferne i februar 2026 inden streaming på Netflix."
+          },
+          {
+            "heading": "Min rolle",
+            "text": "Jeg optrådte som medvirkende skuespiller og sceneoptræder og bragte både musikal performance og skærmtilstedeværelse til projektet. Ved at arbejde på settet side om side med .Paak og et cast der blandede K-pop-stjerner, erfarne skuespillere og musikere, bidrog jeg til filmens unikke fusion af film og live-performance. Produktionen blev optaget på tværs af Los Angeles, Sydkorea og Saudi-Arabien."
+          },
+          {
+            "heading": "Musikken",
+            "text": "Soundtracket er en problemfri blanding af Anderson .Paaks karakteristiske soul-funk-lyd med autentisk K-pop-produktion, formet i samarbejde med den legendariske producent Dem Jointz. Filmen indeholder originale sange og samarbejder, herunder \"Keychain\" med aespa, \"Aftertaste\" med DEAN og bidrag fra NMIXX. Cameo-optrædener i filmen inkluderer Vernon of Seventeen, Jessi, Jay Park, The Rose, IShowSpeed, Saweetie, Jaden Smith, Diplo og Earth, Wind & Fire."
+          }
+        ]
+      }
+    },
+    "discography": {
+      "rolePrefix": "Vokalproducent",
+      "roleFeature": "Medvirkende kunstner",
+      "listen": "Lyt",
+      "charted": "Hitliste",
+      "milestoneViral": "Spotify Viral 50",
+      "entries": {
+        "sinners-rocky-road-to-dublin": {
+          "role": "Medvirkende kunstner · DC6 Singers Collective",
+          "milestones": ["Spotify Viral 50 – Island #38 (mar. 2026)"]
+        },
+        "sinners-this-little-light": {
+          "role": "Medvirkende kunstner · DC6 Singers Collective",
+          "milestones": []
+        },
+        "lukas-graham-you": {
+          "role": "Vokalproducent",
+          "milestones": []
+        },
+        "lukas-graham-share-that-love": {
+          "role": "Vokalproducent",
+          "milestones": ["Deezer Ecuador-hitliste #78 (apr. 2025)"]
+        },
+        "lady-gaga-babylon": {
+          "role": "Vokalproducent",
+          "milestones": ["Deezer Estland-hitliste #48 (jan. 2026)"]
+        },
+        "kesi-tilbage": {
+          "role": "Vokalproducent",
+          "milestones": []
+        },
+        "future-animals-crazy-love": {
+          "role": "Vokalproducent",
+          "milestones": []
+        },
+        "matoma-its-christmas-time": {
+          "role": "Vokalproducent",
+          "milestones": []
+        },
+        "hedegaard-need-you": {
+          "role": "Vokalproducent",
+          "milestones": []
+        },
+        "matoma-sunday-morning": {
+          "role": "Vokalproducent",
+          "milestones": []
+        },
+        "lukas-graham-promise": {
+          "role": "Vokalproducent",
+          "milestones": []
+        },
+        "lukas-graham-hold-my-hand": {
+          "role": "Vokalproducent",
+          "milestones": []
+        },
+        "lukas-graham-say-yes": {
+          "role": "Vokalproducent",
+          "milestones": []
+        },
+        "lukas-graham-youre-not-the-only-one": {
+          "role": "Vokalproducent",
+          "milestones": []
+        }
+      }
+    },
+    "artistWork": {
+      "categories": {
+        "all": "Alle",
+        "release": "Udgivelser",
+        "video": "Videoer",
+        "social": "Sociale medier"
+      },
+      "entries": {
+        "ba-freestyle-therealasethic": {
+          "description": "Freestyle vers over produktion af @therealasethic."
+        },
+        "ba-one-of-a-kind": {
+          "description": "Feature-kredit. Streames på Spotify, Apple Music og Tidal."
+        },
+        "ba-joker-open-verse": {
+          "description": "Det var sjovt at komme ind i karakteren til denne 😈."
+        },
+        "ba-we-get-the-party-started": {
+          "description": "Feature-kredit. Streames på Spotify og Tidal."
+        },
+        "ba-rain-rain-remix": {
+          "description": "🌧️ rain rain, go away…but different. ☔️"
+        },
+        "ba-grinch-flow-valentinbeatz": {
+          "description": "Julens Grinch-flow over produktion af @valentinbeatz."
+        },
+        "ba-lost-files-vol-1": {
+          "description": "Musik skrevet, produceret og fremført af William \"B.A.\" Washington."
+        },
+        "ba-lost-files-vol-2": {
+          "description": "Musik skrevet, produceret og fremført af William \"B.A.\" Washington."
+        },
+        "ba-lost-files-vol-3": {
+          "description": "Musik skrevet, produceret og fremført af William \"B.A.\" Washington."
+        },
+        "ba-changes": {
+          "description": "Musik skrevet, produceret og fremført af William \"B.A.\" Washington."
+        },
+        "ba-money": {
+          "description": "Feature-kredit. Streames på Spotify, Apple Music og Tidal."
+        },
+        "ba-glow-single": {
+          "description": "Musik skrevet, produceret og fremført af William \"B.A.\" Washington."
+        },
+        "ba-the-last-supper": {
+          "description": "Musik skrevet, produceret og fremført af William \"B.A.\" Washington."
+        },
+        "ba-where-would-i-be-mv": {
+          "description": "Fra albummet \"Born Again\". Musik skrevet, produceret og fremført af William \"B.A.\" Washington."
+        },
+        "ba-glow-lv": {
+          "description": "Musik skrevet, produceret og fremført af William \"B.A.\" Washington."
+        },
+        "ba-he-set-me-free-mv": {
+          "description": "Fra albummet \"Born Again\". Musik skrevet, produceret og fremført af William \"B.A.\" Washington."
+        },
+        "ba-born-again-album": {
+          "description": "Debutalbum. Musik skrevet, produceret og fremført af William \"B.A.\" Washington."
+        },
+        "ba-54-17-mv": {
+          "description": "Fra albummet \"Born Again\". Musik skrevet, produceret og fremført af William \"B.A.\" Washington."
+        }
+      }
+    },
+    "artistProfile": {
+      "tagline": "Sangskriver. Producent. Optræder.",
+      "statement": {
+        "headline": "Jeg elsker musik med hele min sjæl.",
+        "p1": "Som kunstner sætter jeg mig ikke i bås med én bestemt lyd eller formel. Jeg skriver og skaber på tværs af det, uanset hvilken genre der bevæger mig i øjeblikket – fra melodiske R&B-teksturer, til hårde bars, til globale rytmer der skubber til grænser.",
+        "p2": "Min proces er ret tilfældig. Jeg kan køre ned ad gaden og begynde at beatboxe en idé til et nummer, eller jeg kan blive inspireret af noget, jeg ser, og begynde at konceptualisere en idé rundt om et tema, som jeg vil begynde at skrive sangtekster til. Der er ingen faste regler ... jeg følger bare det, der taler til mig i øjeblikket. Hvert nummer er sin egen verden.",
+        "p3": "Uanset om det er et helt album, en feature eller en 60-sekunders kort film, er målet det samme: skabe noget ærligt, noget alsidigt og noget der bevæger folk."
+      },
+      "stats": {
+        "yearsActive": "2016–Nu",
+        "releases": "10+",
+        "features": "3",
+        "videos": "4",
+        "collaborations": "4"
+      }
+    }
+  }
+}

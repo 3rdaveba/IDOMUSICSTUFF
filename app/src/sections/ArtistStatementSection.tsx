@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import { useTranslation } from 'react-i18next'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { artistProfile } from '@/data/artist-profile'
@@ -9,6 +10,7 @@ export default function ArtistStatementSection() {
   const sectionRef = useRef<HTMLElement>(null)
   const headlineRef = useRef<HTMLHeadingElement>(null)
   const paragraphsRef = useRef<HTMLDivElement>(null)
+  const { t } = useTranslation()
 
   useEffect(() => {
     if (headlineRef.current) {
@@ -46,8 +48,6 @@ export default function ArtistStatementSection() {
     }
   }, [])
 
-  const { statement } = artistProfile
-
   return (
     <section
       ref={sectionRef}
@@ -78,7 +78,7 @@ export default function ArtistStatementSection() {
               className="text-eyebrow block mb-4"
               style={{ color: 'var(--text-tertiary)' }}
             >
-              ABOUT THE ARTIST
+              {t('artistWork.aboutTheArtist')}
             </span>
 
             <h2
@@ -86,17 +86,17 @@ export default function ArtistStatementSection() {
               className="font-display text-2xl md:text-4xl font-bold leading-[1.15]"
               style={{ color: 'var(--text-primary)', letterSpacing: '-0.01em' }}
             >
-              {statement.headline}
+              {t('data.artistProfile.statement.headline', { defaultValue: artistProfile.statement.headline })}
             </h2>
 
             <div ref={paragraphsRef} className="mt-8 space-y-6">
-              {statement.paragraphs.map((p, i) => (
+              {artistProfile.statement.paragraphs.map((p, i) => (
                 <p
                   key={i}
                   className="text-base md:text-lg font-light leading-relaxed"
                   style={{ color: 'var(--text-secondary)' }}
                 >
-                  {p}
+                  {t(`data.artistProfile.statement.p${i + 1}`, { defaultValue: p })}
                 </p>
               ))}
             </div>

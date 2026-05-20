@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router'
 import { useLenis } from '@/hooks/useLenis'
 import ParticleCanvas from '@/components/ParticleCanvas'
 import CustomCursor from '@/components/CustomCursor'
+import LanguageSwitcher from '@/components/LanguageSwitcher'
 import HomePage from '@/pages/HomePage'
 import ProjectDetail from '@/pages/ProjectDetail'
 import FilmDetail from '@/pages/FilmDetail'
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/film/:id" element={<FilmDetail />} />
         <Route path="/artist-work" element={<ArtistWorkPage />} />
       </Routes>
+      <LanguageSwitcher />
     </>
   )
 }

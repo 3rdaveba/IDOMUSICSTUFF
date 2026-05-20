@@ -1,15 +1,16 @@
 import { useEffect, useState, useRef } from 'react'
 import { useNavigate, useLocation } from 'react-router'
+import { useTranslation } from 'react-i18next'
 import { lenisInstance } from '@/hooks/useLenis'
 
-const navLinks = [
-  { label: 'Home', href: '#home', type: 'hash' as const },
-  { label: 'About', href: '#about', type: 'hash' as const },
-  { label: 'Projects', href: '#work', type: 'hash' as const },
-  { label: 'Film', href: '#tv-film', type: 'hash' as const },
-  { label: 'Music', href: '#discography', type: 'hash' as const },
-  { label: 'Artist Work', href: '/artist-work', type: 'route' as const },
-  { label: 'Contact', href: '#contact', type: 'hash' as const },
+const navLinkKeys = [
+  { key: 'home', href: '#home', type: 'hash' as const },
+  { key: 'about', href: '#about', type: 'hash' as const },
+  { key: 'projects', href: '#work', type: 'hash' as const },
+  { key: 'film', href: '#tv-film', type: 'hash' as const },
+  { key: 'music', href: '#discography', type: 'hash' as const },
+  { key: 'artistWork', href: '/artist-work', type: 'route' as const },
+  { key: 'contact', href: '#contact', type: 'hash' as const },
 ]
 
 export default function Navigation() {
@@ -19,6 +20,7 @@ export default function Navigation() {
   const navigate = useNavigate()
   const location = useLocation()
   const isHome = location.pathname === '/'
+  const { t } = useTranslation()
 
   useEffect(() => {
     const onScroll = () => {
@@ -105,7 +107,7 @@ export default function Navigation() {
             <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z" />
           </svg>
           <span className="text-nav hidden sm:inline" style={{ color: 'rgba(250, 246, 241, 0.7)' }}>
-            WILLIAM &quot;B.A.&quot; WASHINGTON
+            {t('navigation.logoName')}
           </span>
         </a>
 
@@ -123,7 +125,7 @@ export default function Navigation() {
               display: none;
             }
           `}</style>
-          {navLinks.map((link) => {
+          {navLinkKeys.map((link) => {
             const isActive =
               link.type === 'route'
                 ? location.pathname === link.href
@@ -140,7 +142,7 @@ export default function Navigation() {
                     : 'rgba(250, 246, 241, 0.65)',
                 }}
               >
-                {link.label}
+                {t(`navigation.${link.key}`)}
                 {isActive && (
                   <span
                     className="absolute -bottom-1 left-0 w-full h-0.5"

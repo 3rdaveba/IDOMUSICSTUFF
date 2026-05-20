@@ -1,10 +1,12 @@
 import { useEffect, useRef } from 'react'
+import { useTranslation } from 'react-i18next'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger)
 
 export default function HeroSection() {
+  const { t } = useTranslation()
   const sectionRef = useRef<HTMLElement>(null)
   const eyebrowRef = useRef<HTMLParagraphElement>(null)
   const name1Ref = useRef<HTMLHeadingElement>(null)
@@ -94,7 +96,7 @@ export default function HeroSection() {
             transform: 'translateY(-20px)',
           }}
         >
-          GRAMMY&reg; AWARD-WINNING VOCAL PRODUCER &middot; MUSIC TECHNOLOGIST &middot; CREATIVE SYSTEMS ARCHITECT &middot; LOS ANGELES
+          {t('hero.eyebrow')}
         </p>
 
         {/* Name */}
@@ -111,14 +113,14 @@ export default function HeroSection() {
             className="block opacity-0"
             style={{ transform: 'translateY(40px)' }}
           >
-            WILLIAM
+            {t('hero.nameFirst')}
           </span>
           <span
             ref={name2Ref}
             className="block opacity-0"
             style={{ transform: 'translateY(40px)' }}
           >
-            &quot;B.A.&quot; WASHINGTON
+            {t('hero.nameSecond')}
           </span>
         </h1>
 
@@ -146,7 +148,7 @@ export default function HeroSection() {
             className="text-eyebrow mt-2"
             style={{ color: 'var(--text-tertiary)' }}
           >
-            SCROLL
+            {t('hero.scrollCue')}
           </span>
         </div>
       </div>
