@@ -45,6 +45,7 @@
     "d3-geo": "^3.1.1",
     "date-fns": "^4.1.0",
     "embla-carousel-react": "^8.6.0",
+    "google-translate-api-x": "^10.7.2",
     "gsap": "^3.15.0",
     "i18next": "^26.2.0",
     "i18next-browser-languagedetector": "^8.2.1",
