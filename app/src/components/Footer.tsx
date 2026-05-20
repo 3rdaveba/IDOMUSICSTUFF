@@ -22,11 +22,11 @@ export default function Footer({ showCTA = true }: FooterProps) {
               worth listening to.
             </h3>
             <a
-              href="mailto:William@epiphanymusicgroup.com"
+              href="#contact"
               className="inline-block mt-8 text-lg md:text-xl font-light transition-colors duration-300 hover:underline"
               style={{ color: 'var(--accent-amber)' }}
             >
-              William@epiphanymusicgroup.com
+              Get in touch
             </a>
           </div>
         )}

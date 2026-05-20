@@ -132,26 +132,6 @@ export default function ContactSection() {
 
             <div ref={detailsRef} className="mt-10 space-y-6">
               <div>
-                <span style={labelStyle}>Phone</span>
-                <a
-                  href="tel:+13236206448"
-                  className="text-base transition-colors duration-300"
-                  style={{ color: 'var(--text-primary)' }}
-                >
-                  (323) 620-6448
-                </a>
-              </div>
-              <div>
-                <span style={labelStyle}>Email</span>
-                <a
-                  href="mailto:William@epiphanymusicgroup.com"
-                  className="text-base transition-colors duration-300 hover:underline"
-                  style={{ color: 'var(--accent-amber)' }}
-                >
-                  William@epiphanymusicgroup.com
-                </a>
-              </div>
-              <div>
                 <span style={labelStyle}>Location</span>
                 <span className="text-base" style={{ color: 'var(--text-secondary)' }}>
                   Los Angeles, CA
@@ -179,16 +159,6 @@ export default function ContactSection() {
                 >
                   Something went wrong.
                 </h3>
-                <p style={{ color: 'var(--text-secondary)' }}>
-                  Please email me directly at{' '}
-                  <a
-                    href="mailto:William@epiphanymusicgroup.com"
-                    style={{ color: 'var(--accent-amber)' }}
-                    className="hover:underline"
-                  >
-                    William@epiphanymusicgroup.com
-                  </a>
-                </p>
                 <button
                   type="button"
                   onClick={() => setFormState('idle')}

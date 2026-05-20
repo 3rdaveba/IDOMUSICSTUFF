@@ -45,11 +45,11 @@ export default function CTABanner() {
         <div className="text-center mt-16">
           <a
             ref={emailRef}
-            href="mailto:William@epiphanymusicgroup.com"
+            href="#contact"
             className="inline-block text-lg md:text-xl font-light transition-colors duration-300 hover:underline"
             style={{ color: 'var(--accent-amber)' }}
           >
-            William@epiphanymusicgroup.com
+            Get in touch
           </a>
         </div>
       </div>
