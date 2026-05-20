@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import type { ArtistWorkEntry } from '@/data/artist-work'
 
 const platformIcons: Record<string, React.ReactNode> = {
@@ -30,6 +31,7 @@ interface ReleaseCardProps {
 }
 
 export default function ReleaseCard({ entry }: ReleaseCardProps) {
+  const { t } = useTranslation()
   return (
     <div className="group flex gap-5 p-5 rounded-md transition-colors duration-200 hover:bg-[var(--bg-surface)]" style={{ border: '1px solid var(--border-color)' }}>
       {/* Artwork */}
@@ -52,7 +54,7 @@ export default function ReleaseCard({ entry }: ReleaseCardProps) {
             className="inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded"
             style={{ backgroundColor: 'rgba(196, 149, 106, 0.15)', color: 'var(--accent-amber)' }}
           >
-            {entry.subcategory === 'solo' ? 'Solo' : 'Feature'}
+            {entry.subcategory === 'solo' ? t('releaseCard.solo') : t('releaseCard.feature')}
           </span>
           <span className="text-[11px]" style={{ color: 'var(--text-tertiary)' }}>
             {entry.year}
@@ -73,7 +75,7 @@ export default function ReleaseCard({ entry }: ReleaseCardProps) {
 
         {entry.description && (
           <p className="mt-2 text-xs leading-relaxed line-clamp-2" style={{ color: 'var(--text-tertiary)' }}>
-            {entry.description}
+            {t(`data.artistWork.entries.${entry.id}.description`, { defaultValue: entry.description })}
           </p>
         )}
 

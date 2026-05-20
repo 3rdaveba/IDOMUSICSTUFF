@@ -102,7 +102,7 @@ export default function AboutSection() {
               className="mt-8 text-lg md:text-xl font-light leading-relaxed"
               style={{ color: 'var(--text-secondary)' }}
             >
-              Throughout my career, I&apos;ve built a body of experience across music, live performance, education, and creative project management. As an artist, stage performer, audio engineer, and collaborator, I&apos;ve had the opportunity to help bring ideas to life across a wide range of spaces&hellip;from live events and recording sessions to student programs, community initiatives, and artist-driven projects.
+              {t('about.bio1')}
             </p>
 
             <p
@@ -110,7 +110,7 @@ export default function AboutSection() {
               className="mt-8 text-lg md:text-xl font-light leading-relaxed"
               style={{ color: 'var(--text-secondary)' }}
             >
-              My work is rooted in creating impactful experiences, supporting creative vision, and guiding projects from concept to completion with intention, care, and professionalism. This portfolio offers a look into my creative process, the work I&apos;ve contributed to, and the projects that reflect my passion for building experiences that connect with people.
+              {t('about.bio2')}
             </p>
 
             <p
@@ -118,9 +118,9 @@ export default function AboutSection() {
               className="mt-8 text-lg md:text-xl font-light leading-relaxed"
               style={{ color: 'var(--text-secondary)' }}
             >
-              I look forward to exploring how we can work together!
+              {t('about.signature')}
               <br />
-              <span className="inline-block mt-4" style={{ color: 'var(--accent-amber)' }}>&mdash; William &quot;B.A.&quot; Washington</span>
+              <span className="inline-block mt-4" style={{ color: 'var(--accent-amber)' }}>{t('about.signatureName')}</span>
             </p>
           </div>
         </div>

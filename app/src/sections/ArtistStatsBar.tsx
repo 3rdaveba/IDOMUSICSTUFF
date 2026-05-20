@@ -51,13 +51,13 @@ export default function ArtistStatsBar() {
                 className="font-display text-2xl md:text-3xl font-bold"
                 style={{ color: 'var(--accent-amber)' }}
               >
-                {t(`data.artistProfile.stats.${stat.label.toLowerCase().replace(/\s+/g, '')}`, { defaultValue: stat.value })}
+                {t(`data.artistProfile.stats.${stat.label.split(' ').map((w, i) => i === 0 ? w.toLowerCase() : w.charAt(0).toUpperCase() + w.slice(1)).join('')}`, { defaultValue: stat.value })}
               </div>
               <div
                 className="mt-1 text-[11px] font-medium uppercase tracking-wider"
                 style={{ color: 'var(--text-tertiary)' }}
               >
-                {t(`artistWork.${stat.label.toLowerCase().replace(/\s+/g, '')}`, { defaultValue: stat.label })}
+                {t(`artistWork.${stat.label.split(' ').map((w, i) => i === 0 ? w.toLowerCase() : w.charAt(0).toUpperCase() + w.slice(1)).join('')}`, { defaultValue: stat.label })}
               </div>
             </div>
           ))}

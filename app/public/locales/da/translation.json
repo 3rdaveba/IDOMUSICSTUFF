@@ -1,9 +1,9 @@
 {
   "about": {
-    "bio1": "I løbet af min karriere har jeg opnået enorm erfaring som kunstner, sceneoptræder, lydingenør og kreativ projektleder. Fra tilrettelæggelse af liveoptrædener, samarbejde med kunstnere, undervisning af studerende og arbejde med udsatte fællesskaber har jeg formået at opbygge en dokumenteret track record for succesfuldt at levere projekter fra idé til færdighed.",
-    "bio2": "Dette site er designet til at give dig indsigt i min passion for at skabe virkningsfulde oplevelser, min kreative tankeproces og et kig bag kulisserne på nogle af de projekter, jeg har været en del af.",
+    "bio1": "Gennem min karriere har jeg opbygget en masse erfaring på tværs af musik, liveoptræden, uddannelse og kreativ projektledelse. Som kunstner, scenekunstner, lydtekniker og samarbejdspartner har jeg haft muligheden for at hjælpe med at bringe ideer ud i livet på tværs af en bred vifte af rum...fra livebegivenheder og optagelsessessioner til studenterprogrammer, samfundsinitiativer og kunstnerdrevne projekter.",
+    "bio2": "Mit arbejde er forankret i at skabe effektfulde oplevelser, understøtte kreativ vision og vejlede projekter fra idé til færdiggørelse med intention, omsorg og professionalisme. Denne portfolio tilbyder et kig ind i min kreative proces, det arbejde, jeg har bidraget til, og de projekter, der afspejler min passion for at bygge oplevelser, der forbinder med mennesker.",
     "headline": "Hej! Mit navn er William, og jeg er en GRAMMY®-prisbelønnet vokalproducent, musikteknolog og kreativ systemsarkitekt.",
-    "signature": "Jeg ser frem til muligheden for at arbejde sammen med dig i fremtiden!",
+    "signature": "Jeg glæder mig til at udforske, hvordan vi kan arbejde sammen!",
     "signatureName": "— William \"B.A.\" Washington"
   },
   "artistWork": {
@@ -258,7 +258,8 @@
           "Strukturerede hukommelsessystemer",
           "Heartbeat Scheduling",
           "Read-Only Security Boundaries"
-        ]
+        ],
+        "role": "Systemarkitektur og kreativ kunstig intelligens"
       },
       "calby-inner-critic": {
         "description": "Vokalproducent for baggrundsvokaler på tværs af 12 sange på et uudgivet album for den danske kunstner Calby. Styrede vokalopstillinger, talentopkøb, produktionskoordinering og budgetoversigt på vegne af Sony Music Denmark og Bogs Agency.",
@@ -292,7 +293,8 @@
           "Studiekoordinering",
           "Multi-track optagelse",
           "Videosamarbejde"
-        ]
+        ],
+        "role": "Vokal producer"
       },
       "heart-soul-image-village": {
         "description": "Ledede koral- og optagelsesstudiokomponenterne i Image Village 2023, et sommerlejr på Heart and Soul Center i South Central Los Angeles. Underviste i vokalteknik og ensemblefærdigheder til to aldersgrupper, mens de studerende blev guidet igennem sangskrivning, DAW-produktion og musikvideoskabelse.",
@@ -325,7 +327,8 @@
           "Lektionsplanlægning",
           "Ensembleretning",
           "Ungdomsuddannelse"
-        ]
+        ],
+        "role": "Korleder og pladestudieinstruktør"
       },
       "jimmy-gnarly-live": {
         "description": "Samarbejde om at skabe en dynamisk liveopførelse af et uudgivet alt. hip hop-album under den globale pandemi.",
@@ -355,7 +358,8 @@
           "Pandemisikkerhedsprotokoller",
           "Multi-Camera Capture",
           "Kreativ retning"
-        ]
+        ],
+        "role": "Kreativ Producer & Live Performance Director"
       },
       "lmu-gospel-choir": {
         "description": "Dirigerede LMU Gospel Choir og ledede semesterlange cyklusser af rekruttering, prøver og optrædener. Styrede vokalcoaching, reklamemateriale, musikerhyring, budgetforhandling og alumnesamarbejder.",
@@ -389,7 +393,8 @@
           "Alumni relationer",
           "Eventplanlægning",
           "Musikvalg"
-        ]
+        ],
+        "role": "Direktør, LMU Gospel Choir"
       },
       "lukas-graham-purple": {
         "description": "Vokalproducent for baggrundsvokaler på fire sange til Lukas Grahams 3 (The Purple Album). Skabte opstillinger, hyrede og dirigerede vokalt talent og ledede optagelsessessioner i samarbejde med Warner Music Group og Then We Take The World.",
@@ -422,7 +427,8 @@
           "Interessentforhandling",
           "Comping & Tuning",
           "Internationalt samarbejde"
-        ]
+        ],
+        "role": "Vokal producer"
       },
       "the-reimagination-engine": {
         "description": "Et eksperimentelt udgivelsesprojekt, hvor gamle demoer og uafsluttede sangidéer genfortolkes med AI-værktøjer og udgives i klyngede bølger. Drops sker hver anden uge i skiftende tre-nummers klynger – én bølge relationel, den næste energisk – med præstationsgennemgang hvert 45. dag. Målet er at se, om konsistente udgivelser alene kan generere streamingindtægter og organisk trækkraft uden markedsføring, sociale medier eller betalt reklame. Hvis et nummer havner i topniveauet i sin klynge, markeres det til potentiel genprocuktion eller licensering.",
@@ -455,7 +461,8 @@
           "Metadatasystemer",
           "Klyngebaseret udgivelsesplanlægning",
           "45-dages gennemgangscyklusser"
-        ]
+        ],
+        "role": "Creative Systems Arkitekt & Kunstner"
       }
     }
   },
@@ -571,7 +578,7 @@
   "work": {
     "active": "Aktiv",
     "complete": "Fuldført",
-    "intro": "Et tværsnit af projekter der spænder over musikproduktion, fællesskabsuddannelse, systemsarkitektur og kreativ teknologi – hvert enkelt bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt.",
+    "intro": "Et tværsnit af projekter, der spænder over musikproduktion, samfundsuddannelse, systemarkitektur og kreativ teknologi - hver bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt. Hvert projekt præsenteres i DMAIC-format (Definer, Mål, Analyse, Forbedre, Kontrol), så du kan se, hvordan hvert projekt bevæger sig fra koncept til målbart resultat.",
     "line1": "UDVALGTE",
     "line2": "PROJEKTER"
   },
@@ -682,5 +689,19 @@
   "data.artistProfile.stats.releases": "10+",
   "data.artistProfile.stats.features": "3",
   "data.artistProfile.stats.videos": "4",
-  "data.artistProfile.stats.collaborations": "4"
+  "data.artistProfile.stats.collaborations": "4",
+  "projectCard": {
+    "viewDetails": "Se projektdetaljer",
+    "musicEducation": "Musik & Uddannelse",
+    "musicProduction": "Musik & Produktion",
+    "systemsTechnology": "Systemer & Teknologi"
+  },
+  "releaseCard": {
+    "solo": "Solo",
+    "feature": "Feature"
+  },
+  "videoCard": {
+    "musicVideo": "Musik video",
+    "lyricVideo": "Lyrisk video"
+  }
 }

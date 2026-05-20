@@ -98,7 +98,7 @@ export default function TVFilmSection() {
                     }}
                   >
                     <Award size={10} />
-                    {credit.recognition}
+                    {t(`data.films.${credit.id}.recognition`, { defaultValue: credit.recognition })}
                   </span>
                 </div>
                 {/* Title overlay */}
@@ -123,13 +123,13 @@ export default function TVFilmSection() {
                   </span>
                 </div>
                 <p className="text-sm font-medium mb-2" style={{ color: 'var(--text-primary)' }}>
-                  {credit.role}
+                  {t(`data.films.${credit.id}.role`, { defaultValue: credit.role })}
                 </p>
                 <p className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                  {credit.description}
+                  {t(`data.films.${credit.id}.description`, { defaultValue: credit.description })}
                 </p>
                 <span className="inline-flex items-center gap-1 mt-4 text-xs font-medium transition-colors duration-300 group-hover:text-[var(--accent-amber)]" style={{ color: 'var(--text-tertiary)' }}>
-                  View details <ArrowRight size={12} />
+                  {t('tvFilm.viewDetails')} <ArrowRight size={12} />
                 </span>
               </div>
             </div>

@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router'
+import { useTranslation } from 'react-i18next'
 
 interface ProjectCardProps {
   number: string
@@ -19,6 +20,7 @@ export default function ProjectCard({
   category = 'music',
 }: ProjectCardProps) {
   const navigate = useNavigate()
+  const { t } = useTranslation()
 
   return (
     <div
@@ -49,7 +51,11 @@ export default function ProjectCard({
             color: 'var(--accent-amber)',
           }}
         >
-          {category === 'music' ? (projectId === 'lmu-gospel-choir' || projectId === 'heart-soul-image-village' || projectId === 'vocal-production-lab' ? 'Music & Education' : 'Music & Production') : 'Systems & Technology'}
+          {category === 'music'
+            ? (projectId === 'lmu-gospel-choir' || projectId === 'heart-soul-image-village' || projectId === 'vocal-production-lab'
+                ? t('projectCard.musicEducation')
+                : t('projectCard.musicProduction'))
+            : t('projectCard.systemsTechnology')}
         </span>
       </div>
       <h3
@@ -68,7 +74,7 @@ export default function ProjectCard({
         className="inline-block mt-3 text-xs font-medium transition-colors duration-300 group-hover:underline"
         style={{ color: 'var(--accent-amber)' }}
       >
-        View project details &rarr;
+        {t('projectCard.viewDetails')} &rarr;
       </span>
     </div>
   )

@@ -63,11 +63,7 @@ export default function WorkSection() {
           className="text-base md:text-lg font-light max-w-2xl mt-6 mb-12"
           style={{ color: 'var(--text-secondary)' }}
         >
-          A cross-section of projects spanning music production, community education,
-          systems architecture, and creative technology — each built with the same
-          intention: craft something meaningful, scalable, and human.
-          <br /><br />
-          Every project is presented in DMAIC format (Define, Measure, Analyze, Improve, Control) so you can see how each moves from concept to measurable outcome.
+          {t('work.intro')}
         </p>
 
         {/* Divider */}
@@ -93,7 +89,7 @@ export default function WorkSection() {
                     key={project.id}
                     number={`0${i + 1}`}
                     title={project.title}
-                    description={project.description}
+                    description={t(`data.projects.${project.id}.description`, { defaultValue: project.description })}
                     image={project.heroImage}
                     projectId={project.id}
                     category={project.category}
@@ -124,7 +120,7 @@ export default function WorkSection() {
                 key={project.id}
                 number={`0${i + 1}`}
                 title={project.title}
-                description={project.description}
+                description={t(`data.projects.${project.id}.description`, { defaultValue: project.description })}
                 image={project.heroImage}
                 projectId={project.id}
                 category={project.category}

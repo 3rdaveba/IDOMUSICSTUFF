@@ -1,9 +1,9 @@
 {
   "about": {
-    "bio1": "A lo largo de mi carrera, he adquirido una enorme experiencia como artista, artista escénico, ingeniero de audio y director creativo de proyectos. Desde organizar actuaciones en vivo, colaborar con artistas, enseñar a estudiantes y trabajar con comunidades desfavorecidas, he podido construir un historial de entrega exitosa de proyectos desde el concepto hasta la realización.",
-    "bio2": "Este sitio está diseñado para darte una visión de mi pasión por crear experiencias de impacto, mi proceso de pensamiento creativo y un vistazo a algunos de los proyectos en los que he participado desde detrás de escena.",
+    "bio1": "A lo largo de mi carrera, he acumulado una gran experiencia en música, presentaciones en vivo, educación y gestión de proyectos creativos. Como artista, intérprete escénico, ingeniero de audio y colaborador, he tenido la oportunidad de ayudar a dar vida a ideas en una amplia gama de espacios... desde eventos en vivo y sesiones de grabación hasta programas para estudiantes, iniciativas comunitarias y proyectos impulsados ​​por artistas.",
+    "bio2": "Mi trabajo se basa en crear experiencias impactantes, apoyar la visión creativa y guiar proyectos desde el concepto hasta su finalización con intención, cuidado y profesionalismo. Este portafolio ofrece una mirada a mi proceso creativo, el trabajo en el que he contribuido y los proyectos que reflejan mi pasión por construir experiencias que conecten con las personas.",
     "headline": "¡Hola! Mi nombre es William y soy un productor vocal ganador del GRAMMY®, tecnólogo musical y arquitecto de sistemas creativos.",
-    "signature": "¡Espero con ansias la oportunidad de trabajar contigo en el futuro!",
+    "signature": "¡Espero explorar cómo podemos trabajar juntos!",
     "signatureName": "— William \"B.A.\" Washington"
   },
   "artistWork": {
@@ -258,7 +258,8 @@
           "Sistemas de memoria estructurada",
           "Programación de latidos",
           "Límites de seguridad de solo lectura"
-        ]
+        ],
+        "role": "Arquitectura de sistemas e IA creativa"
       },
       "calby-inner-critic": {
         "description": "Productor vocal de coros en 12 canciones de un álbum inédito del artista danés Calby. Gestionó arreglos vocales, adquisición de talento, coordinación de producción y supervisión del presupuesto en nombre de Sony Music Denmark y Bogs Agency.",
@@ -292,7 +293,8 @@
           "Coordinación de estudio",
           "Grabación multipista",
           "Colaboración en video"
-        ]
+        ],
+        "role": "Productora Vocal"
       },
       "heart-soul-image-village": {
         "description": "Lideró los componentes coral y de estudio de grabación de Image Village 2023, un campamento de verano en Heart and Soul Center en South Central Los Angeles. Enseñó técnica vocal y habilidades de conjunto a dos grupos de edad mientras guiaba a los estudiantes a través de la composición, producción DAW y creación de videos musicales.",
@@ -325,7 +327,8 @@
           "Planificación de lecciones",
           "Dirección de conjunto",
           "Educación juvenil"
-        ]
+        ],
+        "role": "Director Coral e Instructor de Estudio de Grabación"
       },
       "jimmy-gnarly-live": {
         "description": "Colaboración para crear una actuación en vivo dinámica de un álbum inédito de alt. hip hop durante la pandemia global.",
@@ -355,7 +358,8 @@
           "Protocolos de seguridad ante una pandemia",
           "Captura multicámara",
           "Dirección creativa"
-        ]
+        ],
+        "role": "Productor Creativo y Director de Actuaciones en Vivo"
       },
       "lmu-gospel-choir": {
         "description": "Dirigió el LMU Gospel Choir, liderando ciclos semestrales de reclutamiento, ensayos y actuaciones. Gestionó la instrucción vocal, el diseño de materiales promocionales, la contratación de músicos, la negociación de presupuestos y las colaboraciones con exalumnos.",
@@ -389,7 +393,8 @@
           "Relaciones con exalumnos",
           "Planificación de eventos",
           "Selección musical"
-        ]
+        ],
+        "role": "Director, Coro de Gospel de LMU"
       },
       "lukas-graham-purple": {
         "description": "Productor vocal de coros en cuatro canciones del álbum 3 (The Purple Album) de Lukas Graham. Creó arreglos, contrató y dirigió talento vocal, y lideró sesiones de grabación en colaboración con Warner Music Group y Then We Take The World.",
@@ -422,7 +427,8 @@
           "Negociación con partes interesadas",
           "Comping y afinación",
           "Colaboración internacional"
-        ]
+        ],
+        "role": "Productora Vocal"
       },
       "the-reimagination-engine": {
         "description": "Un proyecto de lanzamiento experimental donde viejas demos e ideas de canciones sin terminar se reimaginan a través de herramientas de IA y se lanzan en oleadas agrupadas. Los lanzamientos ocurren cada dos semanas en clústeres alternos de tres canciones — una oleada relacional, la siguiente energética — con revisión de rendimiento cada 45 días. El objetivo es ver si los lanzamientos consistentes por sí solos pueden generar ingresos de streaming y tracción orgánica sin ningún marketing, presencia en redes sociales o promoción pagada. Si una canción llega al nivel superior de su clúster, se marca para posible reproducción o licenciamiento.",
@@ -455,7 +461,8 @@
           "Sistemas de metadatos",
           "Programación de lanzamientos basada en clústeres",
           "Ciclos de revisión de 45 días"
-        ]
+        ],
+        "role": "Arquitecto y artista de sistemas creativos"
       }
     }
   },
@@ -571,7 +578,7 @@
   "work": {
     "active": "Activo",
     "complete": "Completo",
-    "intro": "Una muestra transversal de proyectos que abarcan producción musical, educación comunitaria, arquitectura de sistemas y tecnología creativa — cada uno construido con la misma intención: crear algo significativo, escalable y humano.",
+    "intro": "Una muestra representativa de proyectos que abarcan producción musical, educación comunitaria, arquitectura de sistemas y tecnología creativa, cada uno construido con la misma intención: crear algo significativo, escalable y humano. Cada proyecto se presenta en formato DMAIC (Definir, Medir, Analizar, Mejorar, Controlar) para que pueda ver cómo cada uno pasa del concepto al resultado medible.",
     "line1": "PROYECTOS",
     "line2": "SELECCIONADOS"
   },
@@ -670,5 +677,19 @@
   "data.artistProfile.stats.releases": "10+",
   "data.artistProfile.stats.features": "3",
   "data.artistProfile.stats.videos": "4",
-  "data.artistProfile.stats.collaborations": "4"
+  "data.artistProfile.stats.collaborations": "4",
+  "projectCard": {
+    "viewDetails": "Ver detalles del proyecto",
+    "musicEducation": "Música y educación",
+    "musicProduction": "Música y producción",
+    "systemsTechnology": "Sistemas y tecnología"
+  },
+  "releaseCard": {
+    "solo": "Solo",
+    "feature": "Característica"
+  },
+  "videoCard": {
+    "musicVideo": "Vídeo musical",
+    "lyricVideo": "Vídeo con letra"
+  }
 }

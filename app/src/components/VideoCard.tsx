@@ -1,4 +1,5 @@
 import { Play } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import type { ArtistWorkEntry } from '@/data/artist-work'
 
 interface VideoCardProps {
@@ -19,6 +20,7 @@ function extractYouTubeId(url?: string): string | null {
 }
 
 export default function VideoCard({ entry, onPlay }: VideoCardProps) {
+  const { t } = useTranslation()
   const youtubeId = extractYouTubeId(entry.links.youtube)
 
   return (
@@ -59,7 +61,7 @@ export default function VideoCard({ entry, onPlay }: VideoCardProps) {
             className="inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider px-2 py-1 rounded"
             style={{ backgroundColor: 'rgba(10,9,8,0.7)', color: 'var(--accent-amber)', backdropFilter: 'blur(4px)' }}
           >
-            {entry.subcategory === 'music-video' ? 'Music Video' : 'Lyric Video'}
+            {entry.subcategory === 'music-video' ? t('videoCard.musicVideo') : t('videoCard.lyricVideo')}
           </span>
         </div>
 
@@ -84,7 +86,7 @@ export default function VideoCard({ entry, onPlay }: VideoCardProps) {
         </h3>
         {entry.description && (
           <p className="mt-1 text-xs line-clamp-2" style={{ color: 'var(--text-tertiary)' }}>
-            {entry.description}
+            {t(`data.artistWork.entries.${entry.id}.description`, { defaultValue: entry.description })}
           </p>
         )}
       </div>

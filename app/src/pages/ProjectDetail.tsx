@@ -162,7 +162,7 @@ export default function ProjectDetail() {
               {project.title}
             </h1>
             <p className="mt-2 text-base md:text-lg font-light" style={{ color: 'var(--text-secondary)' }}>
-              {project.role}
+              {t(`data.projects.${project.id}.role`, { defaultValue: project.role })}
             </p>
           </div>
           {project.streaming && project.streaming.length > 0 && (
@@ -249,7 +249,7 @@ export default function ProjectDetail() {
               className="font-display text-xl md:text-2xl font-medium leading-relaxed mb-10"
               style={{ color: 'var(--text-primary)' }}
             >
-              {project.description}
+              {t(`data.projects.${project.id}.description`, { defaultValue: project.description })}
             </p>
 
             <div className="space-y-8">
@@ -258,7 +258,7 @@ export default function ProjectDetail() {
                   {t('projectDetail.challenge')}
                 </h3>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                  {project.dmaic.A.text}
+                  {t(`data.projects.${project.id}.dmaic.A`, { defaultValue: project.dmaic.A.text })}
                 </p>
               </div>
 
@@ -267,7 +267,7 @@ export default function ProjectDetail() {
                   {t('projectDetail.approach')}
                 </h3>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                  {project.dmaic.I.text}
+                  {t(`data.projects.${project.id}.dmaic.I`, { defaultValue: project.dmaic.I.text })}
                 </p>
               </div>
 
@@ -276,7 +276,7 @@ export default function ProjectDetail() {
                   {t('projectDetail.outcomes')}
                 </h3>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                  {project.dmaic.C.text}
+                  {t(`data.projects.${project.id}.dmaic.C`, { defaultValue: project.dmaic.C.text })}
                 </p>
               </div>
             </div>

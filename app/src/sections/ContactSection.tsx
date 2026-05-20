@@ -133,26 +133,6 @@ export default function ContactSection() {
 
             <div ref={detailsRef} className="mt-10 space-y-6">
               <div>
-                <span style={labelStyle}>{t('contact.phoneLabel')}</span>
-                <a
-                  href="tel:+13236206448"
-                  className="text-base transition-colors duration-300"
-                  style={{ color: 'var(--text-primary)' }}
-                >
-                  (323) 620-6448
-                </a>
-              </div>
-              <div>
-                <span style={labelStyle}>{t('contact.emailLabel')}</span>
-                <a
-                  href="mailto:William@epiphanymusicgroup.com"
-                  className="text-base transition-colors duration-300 hover:underline"
-                  style={{ color: 'var(--accent-amber)' }}
-                >
-                  William@epiphanymusicgroup.com
-                </a>
-              </div>
-              <div>
                 <span style={labelStyle}>{t('contact.locationLabel')}</span>
                 <span className="text-base" style={{ color: 'var(--text-secondary)' }}>
                   {t('contact.locationValue')}

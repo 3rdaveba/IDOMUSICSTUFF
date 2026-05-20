@@ -189,7 +189,7 @@ export default function FilmDetail() {
               {film.title}
             </h1>
             <p className="mt-2 text-base md:text-lg font-light" style={{ color: 'var(--text-secondary)' }}>
-              {film.role}
+              {t(`data.films.${film.id}.role`, { defaultValue: film.role })}
             </p>
           </div>
           {film.streaming && film.streaming.length > 0 && (
@@ -233,10 +233,10 @@ export default function FilmDetail() {
           </div>
           <div className="hidden sm:block w-px h-4" style={{ backgroundColor: 'var(--border-color)' }} />
           <div className="flex items-center gap-1.5">
-            <span className="text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--text-secondary)' }}>{film.studio}</span>
+            <span className="text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--text-secondary)' }}>{t(`data.films.${film.id}.studio`, { defaultValue: film.studio })}</span>
           </div>
           <div className="hidden sm:block w-px h-4" style={{ backgroundColor: 'var(--border-color)' }} />
-          <span className="text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--text-secondary)' }}>{film.year}</span>
+          <span className="text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--text-secondary)' }}>{t(`data.films.${film.id}.year`, { defaultValue: film.year })}</span>
         </div>
       </div>
 
@@ -247,9 +247,9 @@ export default function FilmDetail() {
             <div className="space-y-10">
               {film.details.map((detail, i) => (
                 <div key={i}>
-                  <span className="text-eyebrow block mb-4" style={{ color: 'var(--text-tertiary)' }}>{detail.heading.toUpperCase()}</span>
+                  <span className="text-eyebrow block mb-4" style={{ color: 'var(--text-tertiary)' }}>{t(`data.films.${film.id}.details[${i}].heading`, { defaultValue: detail.heading }).toUpperCase()}</span>
                   <p className="text-base md:text-lg font-light leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                    {detail.text}
+                    {t(`data.films.${film.id}.details[${i}].text`, { defaultValue: detail.text })}
                   </p>
                 </div>
               ))}
@@ -258,7 +258,7 @@ export default function FilmDetail() {
             <>
               <span className="text-eyebrow block mb-5" style={{ color: 'var(--text-tertiary)' }}>{t('filmDetail.aboutProject')}</span>
               <p className="text-base md:text-lg font-light leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                {film.description}
+                {t(`data.films.${film.id}.description`, { defaultValue: film.description })}
               </p>
             </>
           )}
