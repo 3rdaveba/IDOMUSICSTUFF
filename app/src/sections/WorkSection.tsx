@@ -81,7 +81,7 @@ export default function WorkSection() {
                 {t('work.active')}
               </h3>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mb-16">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 mb-16">
               {projects
                 .filter((p) => p.status === 'active')
                 .map((project, i) => (
@@ -111,7 +111,7 @@ export default function WorkSection() {
         {/* Project Grid */}
         <div
           ref={gridRef}
-          className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8"
+          className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8"
         >
           {projects
             .filter((p) => p.status === 'complete')
