@@ -73,7 +73,10 @@ export const discography: DiscographyEntry[] = [
     role: 'Featured Artist · DC6 Singers Collective',
     type: 'single',
     image: 'images/discography/sinners-rocky-road-to-dublin.jpg',
-    links: {},
+    links: {
+      spotify: 'https://open.spotify.com/track/2iUOOCc4btMIVDRhR5Peqs',
+      apple: 'https://geo.music.apple.com/us/album/_/1808534010?i=1808534011&mt=1&app=music&ls=1',
+    },
     stats: {
       spotifyStreams: 3.0,
       youtubeViews: 426.9,
@@ -87,12 +90,15 @@ export const discography: DiscographyEntry[] = [
   {
     id: 'lukas-graham-you',
     artist: 'Lukas Graham',
-    title: 'You',
+    title: 'You You You',
     year: 2023,
     role: 'Vocal Producer',
     type: 'single',
     image: 'images/discography/lukas-graham-you.jpg',
-    links: {},
+    links: {
+      spotify: 'https://open.spotify.com/track/1mAyIS5bC2xrRjsJ6xM86h',
+      apple: 'https://geo.music.apple.com/us/album/_/1802086531?i=1802086532&mt=1&app=music&ls=1',
+    },
     stats: {
       spotifyStreams: 4.1,
       youtubeViews: 1000,
@@ -111,7 +117,10 @@ export const discography: DiscographyEntry[] = [
     role: 'Vocal Producer',
     type: 'single',
     image: 'images/discography/lukas-graham-share-that-love.jpg',
-    links: {},
+    links: {
+      spotify: 'https://open.spotify.com/track/44l9nnCVvOQBbWG6tDViKl',
+      apple: 'https://geo.music.apple.com/us/album/_/1526461197?i=1526461199&mt=1&app=music&ls=1',
+    },
     stats: {
       spotifyStreams: 141.5,
       youtubeViews: 13100,
@@ -130,7 +139,10 @@ export const discography: DiscographyEntry[] = [
     role: 'Vocal Producer',
     type: 'single',
     image: 'images/discography/lady-gaga-babylon.jpg',
-    links: {},
+    links: {
+      spotify: 'https://open.spotify.com/track/5DttNeiizFqWUON9hZBqTY',
+      apple: 'https://geo.music.apple.com/us/album/_/1500951604?i=1500952806&mt=1&app=music&ls=1',
+    },
     stats: {
       spotifyStreams: 77.6,
       youtubeViews: 10100,
@@ -149,7 +161,10 @@ export const discography: DiscographyEntry[] = [
     role: 'Vocal Producer',
     type: 'single',
     image: 'images/discography/kesi-tilbage.jpg',
-    links: {},
+    links: {
+      spotify: 'https://open.spotify.com/track/5ktsLwoQZ7JVliJMjEfBZj',
+      apple: 'https://geo.music.apple.com/us/album/_/1511176994?i=1511176997&mt=1&app=music&ls=1',
+    },
     stats: {
       spotifyStreams: 23.5,
       youtubeViews: 783.7,
@@ -168,7 +183,10 @@ export const discography: DiscographyEntry[] = [
     role: 'Vocal Producer',
     type: 'single',
     image: 'images/discography/future-animals-crazy-love.jpg',
-    links: {},
+    links: {
+      spotify: 'https://open.spotify.com/track/2hIHIivJpNiq0ucik6lF5S',
+      apple: 'https://geo.music.apple.com/us/album/_/1442733064?i=1442733442&mt=1&app=music&ls=1',
+    },
     stats: {
       spotifyStreams: 15.6,
       youtubeViews: 849.5,
@@ -187,7 +205,10 @@ export const discography: DiscographyEntry[] = [
     role: 'Vocal Producer',
     type: 'single',
     image: 'images/discography/matoma-its-christmas-time.jpg',
-    links: {},
+    links: {
+      spotify: 'https://open.spotify.com/track/0NLV6yzZjNYIGkWcEH7qhN',
+      apple: 'https://geo.music.apple.com/us/album/_/1539223360?i=1539223364&mt=1&app=music&ls=1',
+    },
     stats: {
       spotifyStreams: 7.8,
       youtubeViews: 0,
@@ -206,7 +227,10 @@ export const discography: DiscographyEntry[] = [
     role: 'Vocal Producer',
     type: 'single',
     image: 'images/discography/hedegaard-need-you-right-now.jpg',
-    links: {},
+    links: {
+      spotify: 'https://open.spotify.com/track/50tyqR5Zz99YMSyQWpqLsR',
+      apple: 'https://music.apple.com/us/song/need-you-right-now-feat-hayley-warner/1372004264',
+    },
     stats: {
       spotifyStreams: 11.1,
       youtubeViews: 370,
@@ -225,7 +249,10 @@ export const discography: DiscographyEntry[] = [
     role: 'Vocal Producer',
     type: 'single',
     image: 'images/discography/matoma-sunday-morning.jpg',
-    links: {},
+    links: {
+      spotify: 'https://open.spotify.com/track/6KrIqEnamWzSuSLB0TfJ23',
+      apple: 'https://geo.music.apple.com/us/album/_/1429818399?i=1429819694&mt=1&app=music&ls=1',
+    },
     stats: {
       spotifyStreams: 63.3,
       youtubeViews: 1800,
@@ -244,7 +271,10 @@ export const discography: DiscographyEntry[] = [
     role: 'Vocal Producer',
     type: 'single',
     image: 'images/discography/lukas-graham-3-purple-album.jpg',
-    links: {},
+    links: {
+      spotify: 'https://open.spotify.com/track/1xRn1GOSJCqf0HxFEB200o',
+      apple: 'https://geo.music.apple.com/us/album/_/1435336323?i=1435337041&mt=1&app=music&ls=1',
+    },
     stats: {
       spotifyStreams: 11.5,
       youtubeViews: 2100,
@@ -263,7 +293,10 @@ export const discography: DiscographyEntry[] = [
     role: 'Vocal Producer',
     type: 'single',
     image: 'images/discography/lukas-graham-3-purple-album.jpg',
-    links: {},
+    links: {
+      spotify: 'https://open.spotify.com/track/3iOej8QpexFHC47NBouYyU',
+      apple: 'https://geo.music.apple.com/us/album/_/1435336323?i=1435337047&mt=1&app=music&ls=1',
+    },
     stats: {
       spotifyStreams: 11.5,
       youtubeViews: 2800,
@@ -282,7 +315,10 @@ export const discography: DiscographyEntry[] = [
     role: 'Vocal Producer',
     type: 'single',
     image: 'images/discography/lukas-graham-3-purple-album.jpg',
-    links: {},
+    links: {
+      spotify: 'https://open.spotify.com/track/7tvLOdL1l7aDQOiK9NHTNi',
+      apple: 'https://geo.music.apple.com/us/album/_/1435336323?i=1435337048&mt=1&app=music&ls=1',
+    },
     stats: {
       spotifyStreams: 8.6,
       youtubeViews: 1600,
@@ -301,7 +337,10 @@ export const discography: DiscographyEntry[] = [
     role: 'Vocal Producer',
     type: 'single',
     image: 'images/discography/lukas-graham-youre-not-the-only-one.jpg',
-    links: {},
+    links: {
+      spotify: 'https://open.spotify.com/track/2GUMnvJq9GUWH5d9XRgTeP',
+      apple: 'https://geo.music.apple.com/us/album/_/1435336323?i=1435336326&mt=1&app=music&ls=1',
+    },
     stats: {
       spotifyStreams: 27.7,
       youtubeViews: 6100,
