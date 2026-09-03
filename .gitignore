@@ -11,3 +11,26 @@ dist/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Camera and export masters.
+#
+# This repo already follows a derivative convention: the site serves
+# web-sized files (DSC02121-web.jpeg at 350 KB, artist-work-video.mp4,
+# Jimmy Luna Show Header.mp4) and those are what is committed. The
+# originals they were made from -- 17 MB camera JPEGs, a 183 MB 4K MOV --
+# sit alongside them and are not referenced by app/src at all.
+#
+# They were never meant to be committed: two exceed GitHub's 100 MB hard
+# limit, and this is a public Pages site, which is capped at 1 GB
+# published. Ignoring them keeps `git status` honest instead of showing
+# 444 MB of masters as pending work every time.
+#
+# Keep the masters -- they are the source for any future re-export. They
+# are just not repository content.
+app/public/project media/**/DSC*.jpeg
+!app/public/project media/**/DSC*-web.jpeg
+app/public/project media/**/*.MOV
+app/public/project media/**/*.mov
+app/public/project media/K-Pops!/
+app/public/project media/Sinners/
+app/public/project media/Jimmy/01 - Jimmy Luna Show Header.mp4
