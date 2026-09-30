@@ -1,8 +1,8 @@
 {
   "about": {
-    "bio1": "I løbet af min karriere har jeg opbygget en bred erfaring inden for musik, liveoptrædener, uddannelse og kreativ projektledelse. Som artist, sceneperformer, lydtekniker og samarbejdspartner har jeg haft mulighed for at hjælpe med at virkeliggøre idéer på tværs af mange forskellige arenaer…fra livearrangementer og studieoptagelser til studenterprogrammer, fællesskabsinitiativer og kunstnerdrevne projekter.",
-    "bio2": "Mit arbejde er forankret i at skabe virkningsfulde oplevelser, støtte kreativ vision og guide projekter fra idé til færdiggørelse med intention, omsorg og professionalisme. Dette portfolio giver et indblik i min kreative proces, det arbejde jeg har bidraget til, og de projekter der afspejler min passion for at skabe oplevelser, der forbinder med mennesker.",
-    "headline": "Hej! Mit navn er William, og jeg er en GRAMMY®-prisbelønnet vokalproducent, musikteknolog og kreativ systemsarkitekt.",
+    "bio1": "Jeg forbinder kreativ produktion med de mennesker, processer og tekniske systemer, der skal til for at føre den ud i livet. Min erfaring spænder over underholdning, teknologi, hotelbranchen og videregående uddannelse—fra indspilninger og liveoptrædener til globale firmaevents. I dag understøtter jeg Netflix gennem Milestone Technologies og koordinerer support til events på tværs af globale markeder.",
+    "bio2": "Min baggrund omfatter vokalproduktion, ledelse af eventteknologi og tidligere undervisnings- og ensemblelederroller ved Glendale Community College og Loyola Marymount University. Jeg bruger denne erfaring i projektledelse, design af arbejdsgange og procesforbedring. Denne portfolio samler udvalgte projekter på tværs af fagområder og tankerne bag dem.",
+    "headline": "Hej! Jeg hedder William, og jeg er kreativ systemarkitekt.",
     "signature": "Jeg glæder mig til at udforske, hvordan vi kan samarbejde!",
     "signatureName": "— William \"B.A.\" Washington"
   },
@@ -190,11 +190,11 @@
     },
     "films": {
       "kpops": {
-        "description": "Medvirkende skuespiller og sceneoptræder i K-Pops!, instruktørdebuten fra den Grammy-vindende artist Anderson .Paak.",
+        "description": "Medvirkende skuespiller og sceneoptræder i K-Pops!, instruktørdebuten fra kunstneren Anderson .Paak.",
         "details": [
           {
             "heading": "Om filmen",
-            "text": "K-Pops! er den spillefilmsinstruktionelle debut fra ni gange Grammy Award-vinderen Anderson .Paak, skrevet sammen med Khaila Amazan. Filmen har .Paak i rollen som BJ, en falmende musiker der får et job med et husband i Seoul til et K-pop-konkurrenceshow kaldet Wildcard. Mens han arbejder på showet, opdager han, at en af konkurrenterne – Tae Young, spillet af .Paaks rigtige søn Soul Rasheed – er den langfortabte søn, han aldrig vidste han havde. Castet inkluderer Jee Young Han, Jonnie \"Dumbfoundead\" Park, Cathy Shim, Kevin Woo og Yvette Nicole Brown. Filmen havde premiere på Toronto International Film Festival i 2024, fik sin amerikanske debut på Tribeca i 2025 og blev udgivet i biograferne i februar 2026 inden streaming på Netflix."
+            "text": "K-Pops! er den spillefilmsinstruktionelle debut fra Anderson .Paak, skrevet sammen med Khaila Amazan. Filmen har .Paak i rollen som BJ, en falmende musiker der får et job med et husband i Seoul til et K-pop-konkurrenceshow kaldet Wildcard. Mens han arbejder på showet, opdager han, at en af konkurrenterne – Tae Young, spillet af .Paaks rigtige søn Soul Rasheed – er den langfortabte søn, han aldrig vidste han havde. Castet inkluderer Jee Young Han, Jonnie \"Dumbfoundead\" Park, Cathy Shim, Kevin Woo og Yvette Nicole Brown. Filmen havde premiere på Toronto International Film Festival i 2024, fik sin amerikanske debut på Tribeca i 2025 og blev udgivet i biograferne i februar 2026 inden streaming på Netflix."
           },
           {
             "heading": "Min rolle",
@@ -568,7 +568,7 @@
     "location": "Los Angeles, CA"
   },
   "hero": {
-    "eyebrow": "GRAMMY®-PRISBELØNNEDE VOKALPRODUCENT · MUSIKTEKNOLOG · KREATIV SYSTEMSARKITEKT · LOS ANGELES",
+    "eyebrow": "KREATIV SYSTEMARKITEKT · PROJEKTLEDELSE · TEKNISK DRIFT · LOS ANGELES",
     "nameFirst": "WILLIAM",
     "nameSecond": "\"B.A.\" WASHINGTON",
     "scrollCue": "SCROLL"
@@ -647,7 +647,7 @@
     "description": "Beskrivelse",
     "eyebrow": "LÆRRED & SOUNDTRACK",
     "heading": "Film & TV",
-    "intro": "Broen mellem musik og visuel fortællekunst – fra GRAMMY-vindende soundtracks til optrædener på lærredet side om side med branchens ikoner.",
+    "intro": "Bidrag til filmsoundtracks og optrædener på skærmen, der forbinder musik, produktion og visuel historiefortælling.",
     "role": "Rolle",
     "studio": "Studie",
     "viewDetails": "Se detaljer",

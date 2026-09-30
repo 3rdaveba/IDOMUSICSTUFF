@@ -13,8 +13,8 @@ export default function HomePage() {
   return (
     <>
       <Helmet>
-        <title>William &quot;B.A.&quot; Washington | Vocal Producer & Music Technologist</title>
-        <meta name="description" content="GRAMMY-nominated vocal producer, educator, and music technologist based in Los Angeles." />
+        <title>William &quot;B.A.&quot; Washington | Creative Systems Architect</title>
+        <meta name="description" content="Creative systems architect working across project management, technical operations, and creative production. Explore projects across entertainment, technology, hospitality, and education." />
       </Helmet>
       <Navigation />
       <main>

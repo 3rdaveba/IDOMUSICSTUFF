@@ -1,8 +1,8 @@
 {
   "about": {
-    "bio1": "A lo largo de mi carrera, he construido una amplia experiencia en música, actuaciones en vivo, educación y gestión creativa de proyectos. Como artista, artista escénico, ingeniero de audio y colaborador, he tenido la oportunidad de ayudar a dar vida a ideas en una gran variedad de espacios…desde eventos en vivo y sesiones de grabación hasta programas estudiantiles, iniciativas comunitarias y proyectos liderados por artistas.",
-    "bio2": "Mi trabajo se basa en crear experiencias impactantes, apoyar la visión creativa y guiar proyectos desde su concepto hasta su finalización con intención, cuidado y profesionalismo. Este portafolio ofrece un vistazo a mi proceso creativo, el trabajo en el que he contribuido y los proyectos que reflejan mi pasión por construir experiencias que conecten con la gente.",
-    "headline": "¡Hola! Mi nombre es William y soy un productor vocal ganador del GRAMMY®, tecnólogo musical y arquitecto de sistemas creativos.",
+    "bio1": "Conecto la producción creativa con las personas, los procesos y los sistemas técnicos necesarios para llevarla a cabo. Mi experiencia abarca el entretenimiento, la tecnología, la hostelería y la educación superior, desde sesiones de grabación y actuaciones en vivo hasta eventos corporativos globales. Actualmente, apoyo a Netflix a través de Milestone Technologies, coordinando el soporte para eventos en mercados de todo el mundo.",
+    "bio2": "Mi trayectoria incluye producción vocal, dirección de operaciones técnicas para eventos y anteriores puestos docentes y de dirección de conjuntos en Glendale Community College y Loyola Marymount University. Aplico esa experiencia a la gestión de proyectos, el diseño de flujos de trabajo y la mejora de procesos. Este portafolio reúne proyectos de distintas disciplinas y las ideas que los sustentan.",
+    "headline": "¡Hola! Me llamo William y soy arquitecto de sistemas creativos.",
     "signature": "¡Espero con ansias explorar cómo podemos trabajar juntos!",
     "signatureName": "— William \"B.A.\" Washington"
   },
@@ -190,11 +190,11 @@
     },
     "films": {
       "kpops": {
-        "description": "Actor destacado e intérprete en pantalla en K-Pops!, el debut como director del artista ganador del Grammy Anderson .Paak.",
+        "description": "Actor destacado e intérprete en pantalla en K-Pops!, el debut como director del artista Anderson .Paak.",
         "details": [
           {
             "heading": "Sobre la película",
-            "text": "K-Pops! es el largometraje debut como director del artista ganador de nueve Grammy Awards Anderson .Paak, coescrito con Khaila Amazan. La película tiene a .Paak como BJ, un músico venido a menos que consigue un trabajo con una banda de casa en Seúl para un programa de competencia de K-pop llamado Wildcard. Mientras trabaja en el programa, descubre que uno de los concursantes — Tae Young, interpretado por el hijo real de .Paak, Soul Rasheed — es el hijo perdido que nunca supo que tenía. El reparto incluye a Jee Young Han, Jonnie \"Dumbfoundead\" Park, Cathy Shim, Kevin Woo y Yvette Nicole Brown. La película se estrenó en el Toronto International Film Festival en 2024, hizo su debut en EE.UU. en Tribeca en 2025 y fue lanzada en cines en febrero de 2026 antes de transmitirse en Netflix."
+            "text": "K-Pops! es el largometraje debut como director del artista Anderson .Paak, coescrito con Khaila Amazan. La película tiene a .Paak como BJ, un músico venido a menos que consigue un trabajo con una banda de casa en Seúl para un programa de competencia de K-pop llamado Wildcard. Mientras trabaja en el programa, descubre que uno de los concursantes — Tae Young, interpretado por el hijo real de .Paak, Soul Rasheed — es el hijo perdido que nunca supo que tenía. El reparto incluye a Jee Young Han, Jonnie \"Dumbfoundead\" Park, Cathy Shim, Kevin Woo y Yvette Nicole Brown. La película se estrenó en el Toronto International Film Festival en 2024, hizo su debut en EE.UU. en Tribeca en 2025 y fue lanzada en cines en febrero de 2026 antes de transmitirse en Netflix."
           },
           {
             "heading": "Mi rol",
@@ -568,7 +568,7 @@
     "location": "Los Angeles, CA"
   },
   "hero": {
-    "eyebrow": "PRODUCTOR VOCAL GANADOR DEL GRAMMY® · TECNÓLOGO MUSICAL · ARQUITECTO DE SISTEMAS CREATIVOS · LOS ÁNGELES",
+    "eyebrow": "ARQUITECTO DE SISTEMAS CREATIVOS · GESTIÓN DE PROYECTOS · OPERACIONES TÉCNICAS · LOS ÁNGELES",
     "nameFirst": "WILLIAM",
     "nameSecond": "\"B.A.\" WASHINGTON",
     "scrollCue": "SCROLL"
@@ -647,7 +647,7 @@
     "description": "Descripción",
     "eyebrow": "PANTALLA & SOUNDTRACK",
     "heading": "Cine y Televisión",
-    "intro": "Tendiendo puentes entre la música y la narrativa visual — desde soundtracks ganadores del GRAMMY hasta actuaciones en pantalla junto a íconos de la industria.",
+    "intro": "Contribuciones a bandas sonoras y actuaciones en pantalla que conectan música, producción y narrativa visual.",
     "role": "Rol",
     "studio": "Estudio",
     "viewDetails": "Ver detalles",
