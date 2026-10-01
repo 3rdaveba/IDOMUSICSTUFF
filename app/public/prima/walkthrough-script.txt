@@ -1,0 +1,21 @@
+PRIMA - TWO RECORDED WORKFLOWS
+
+1. NEW PROJECT (58 seconds)
+Start from fictional project requirements. Run prima init, then validate.
+Delete the demo AGENTS.md to produce a failure. Show a declined repair with
+no file changes, then a confirmed repair and its HTML report. Finish on the
+five unchecked review gates: structural PASS is not completed acceptance.
+
+2. EXISTING PROJECT (53 seconds)
+Start with a synthetic agenda-counter program, test, README, and changelog.
+Run the program and test, then adopt the folder with prima adopt. Compare
+original SHA-256 hashes, including Git files, and rerun the test. Validate,
+inspect the adoption marker, and demonstrate a repeated adoption refusing
+the existing governance path without changing files. Show the audit report.
+
+Both are actual silent screen recordings of local command execution.
+On-screen text explains each step. The browser demonstration console is a
+presentation tool, not a Prima product feature. All inputs are fictional.
+Presenter responses demonstrate the prompt mechanism, not owner acceptance.
+
+Full captured text is available in recording-transcripts.html.

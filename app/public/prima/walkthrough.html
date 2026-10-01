@@ -1,0 +1,211 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Prima · Fictional local walkthrough</title><style>body{background:#100f0e;color:#eee5dd;font:17px system-ui;max-width:1000px;margin:64px auto;padding:24px}h1,h2{color:#c4956a}section{margin:48px 0}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#201e1c;padding:24px;font:14px/1.6 monospace}a{color:#c4956a}</style><h1>Prima · Local walkthrough</h1><p>Fictional scenario. Real CLI output captured locally. Absolute local paths are shortened to [local-demo] for presentation. Presenter responses demonstrate the confirmation mechanism; they are not William’s acceptance or publication approval.</p><p>A PASS means structural validation passed. The fictional product has not been implemented and its acceptance gates remain unchecked.</p><nav><a href="02-fail.html">Failure report</a> · <a href="03-repaired.html">Repaired report</a> · <a href="04-unfixable.html">Unfixable report</a></nav><section><h2>Create fictional governance project</h2><pre>$ prima init --config config.json --projects-root . --receipt-dir receipts
+{
+  &quot;branch&quot;: &quot;main&quot;,
+  &quot;canonical_project&quot;: &quot;fictional-northstar-workshop&quot;,
+  &quot;created_at&quot;: &quot;2026-10-01T19:11:53.972888Z&quot;,
+  &quot;file_hashes&quot;: {
+    &quot;.gitignore&quot;: &quot;6e7f8249bd95fbfc993401933fc815142b1ff9dc57c6a522b6c9fb5103940abd&quot;,
+    &quot;.prima/project.json&quot;: &quot;3c835723cc7dccb916ebe9160c4404d4b9e94448d33f2fc782f1915fd6df503f&quot;,
+    &quot;AGENTS.md&quot;: &quot;f3926e2f049065f06a47f9f49efe7aa6054714d310674c49bc0efcd0ac7278a3&quot;,
+    &quot;CHANGELOG.md&quot;: &quot;9394032d2d7381daae3d5eff16505d3fcb53904955a88bf659df381a8dd876ce&quot;,
+    &quot;README.md&quot;: &quot;b0269aefd4b177ae68c9224a63ad198d0043e3831ba5f271529990390afea111&quot;,
+    &quot;ROADMAP.md&quot;: &quot;3d4718350d8343b1123e5d1f2fd836592b145f59c73335d96cb1565e8bde29f3&quot;,
+    &quot;STATUS.md&quot;: &quot;28a3e9d6a70d94dd01905e44432347d05f08e36d9a0ed5064887931118f6bd75&quot;,
+    &quot;docs/ARCHITECTURE.md&quot;: &quot;8ca0fc3b1c8629ec48e4ddf8598cfd44b377922ce8fcb9871685e5e718dfbde7&quot;,
+    &quot;docs/IP_PROVENANCE.md&quot;: &quot;c91d8a4b8590b22d9b181327465677e35e93ed831ebf748ba683d362fe7fcf16&quot;,
+    &quot;docs/PROJECT_CHARTER.md&quot;: &quot;f047f26cf5cfbd30f88cac77fd6ef740caa2054d90d675ff2047e654358e89df&quot;,
+    &quot;docs/SECURITY.md&quot;: &quot;87b518f9892f3b750595f4c705b078d866cad000fd966b58e7d6f72e17b27d0e&quot;,
+    &quot;docs/acceptance/WP-000.md&quot;: &quot;c836b2258f5ef6787ba0b2c88018fc866b89ace38495499eebdc95159678cd93&quot;,
+    &quot;docs/decisions/ADR-000-project-foundation.md&quot;: &quot;7b2211e296f4525947dfbce41ea95d09d6a4afcd851c48dab5963d3cb88a802b&quot;,
+    &quot;docs/decisions/README.md&quot;: &quot;a30faebc1507da4c0735470c5282e1ef6344410fe441a5b14a1727449fafa04a&quot;,
+    &quot;docs/operations/README.md&quot;: &quot;e800069ef2b4c1e150a38b8f4635cb783a9fa130e4842537c1408a6dfd0e018e&quot;,
+    &quot;src/.gitkeep&quot;: &quot;e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855&quot;,
+    &quot;tests/.gitkeep&quot;: &quot;e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855&quot;
+  },
+  &quot;head&quot;: null,
+  &quot;initial_commit_created&quot;: false,
+  &quot;operation&quot;: &quot;project_bootstrap&quot;,
+  &quot;owner&quot;: &quot;Demo Owner&quot;,
+  &quot;project_name&quot;: &quot;Northstar Workshop \u2014 Fictional Demo&quot;,
+  &quot;receipt_id&quot;: &quot;20261001T191153Z-project-bootstrap-2de854fa&quot;,
+  &quot;receipt_path&quot;: &quot;receipts/20261001T191153Z-project-bootstrap-2de854fa.json&quot;,
+  &quot;remaining_onboarding&quot;: [
+    &quot;Demo Owner reviews and authorizes the deterministic initial commit.&quot;,
+    &quot;Create a remote (private, if any) only after explicit authorization.&quot;,
+    &quot;Confirm the project charter and non-goals in docs/PROJECT_CHARTER.md.&quot;,
+    &quot;Begin working with your AI agent(s) inside the scaffolded governance structure; AGENTS.md and .prima/project.json orient them.&quot;
+  ],
+  &quot;remote_created&quot;: false,
+  &quot;repo_path&quot;: &quot;[local-demo]/fictional-northstar-workshop&quot;,
+  &quot;schema_version&quot;: 1,
+  &quot;state&quot;: &quot;completed&quot;,
+  &quot;validation&quot;: {
+    &quot;acceptance_document&quot;: &quot;docs/acceptance/WP-000.md&quot;,
+    &quot;canonical_project&quot;: &quot;fictional-northstar-workshop&quot;,
+    &quot;current_phase&quot;: &quot;P0&quot;,
+    &quot;current_work_package&quot;: &quot;WP-000&quot;,
+    &quot;package_status&quot;: &quot;In progress&quot;,
+    &quot;standard_version&quot;: &quot;1.0.0&quot;
+  }
+}
+
+Exit 0</pre></section><section><h2>Initial structural validation</h2><pre>$ prima validate fictional-northstar-workshop --html-report 01-pass.html
+{
+  &quot;acceptance_document&quot;: &quot;docs/acceptance/WP-000.md&quot;,
+  &quot;canonical_project&quot;: &quot;fictional-northstar-workshop&quot;,
+  &quot;current_phase&quot;: &quot;P0&quot;,
+  &quot;current_work_package&quot;: &quot;WP-000&quot;,
+  &quot;package_status&quot;: &quot;In progress&quot;,
+  &quot;standard_version&quot;: &quot;1.0.0&quot;
+}
+
+Exit 0</pre></section><section><h2>Missing instructions detected</h2><pre>$ prima validate fictional-northstar-workshop --html-report 02-fail.html
+{&quot;error&quot;: &quot;missing instructions: AGENTS.md&quot;}
+
+Exit 1</pre></section><section><h2>Decline proposed repair</h2><pre>$ prima validate fictional-northstar-workshop --fix
+Presenter supplies &#x27;n\n&#x27;
+will create AGENTS.md with:
+# Agent Instructions
+
+## Scope
+
+This repository implements **Northstar Workshop — Fictional Demo**. Work only within the currently
+approved work package in `STATUS.md` and its acceptance document.
+
+Do not expand scope, create adjacent products, or reinterpret the project
+charter without Demo Owner&#x27;s approval.
+
+## Authority
+
+The fixed order is Demo Owner &gt; live repository &gt; repository authority
+documents &gt; historical context.
+
+Demo Owner is the systems architect and final decision authority.
+Historical conversations and model memory never override live Git or current
+repository documents.
+
+## Required reading
+
+Before changing the repository, read:
+
+1. `.prima/project.json`
+2. `STATUS.md`
+3. `ROADMAP.md`
+4. the current work-package acceptance document
+5. relevant architecture, security, decision, operations, and IP/provenance docs
+
+## Change workflow
+
+1. Inspect live Git state before editing.
+2. Keep changes inside the approved package and repository.
+3. Record consequential design choices under `docs/decisions/`.
+4. Log consequential actions and decisions with `prima log &lt;project&gt;
+   &quot;&lt;message&gt;&quot;` (written to `.prima/agent-log.jsonl`) so a future agent
+   session has a durable record instead of relying on chat history alone.
+5. Update `STATUS.md`, acceptance evidence, `CHANGELOG.md`, and
+   `docs/IP_PROVENANCE.md` when the change affects them.
+6. Run repository-defined automated checks and report any manual gates.
+7. Do not commit, push, publish, deploy, change visibility, or select a license
+   unless Demo Owner explicitly authorizes it or an adopted repository
+   policy explicitly requires it.
+
+## Security and intellectual property
+
+- Never commit credentials, tokens, private user data, local agent state, or
+  generated secrets.
+- Treat external code, assets, datasets, research, and model-generated material
+  as provenance-bearing inputs; record material reuse and its license or usage
+  constraints in `docs/IP_PROVENANCE.md`.
+- No license is granted by this repository unless Demo Owner intentionally
+  adds one.
+- Do not present automated or model-generated output as Demo Owner&#x27;s
+  acceptance.
+
+Write this? [y/N] {&quot;error&quot;: &quot;missing instructions: AGENTS.md&quot;}
+
+Exit 1</pre></section><section><h2>Confirm proposed repair</h2><pre>$ prima validate fictional-northstar-workshop --fix --html-report 03-repaired.html
+Presenter supplies &#x27;y\n&#x27;
+will create AGENTS.md with:
+# Agent Instructions
+
+## Scope
+
+This repository implements **Northstar Workshop — Fictional Demo**. Work only within the currently
+approved work package in `STATUS.md` and its acceptance document.
+
+Do not expand scope, create adjacent products, or reinterpret the project
+charter without Demo Owner&#x27;s approval.
+
+## Authority
+
+The fixed order is Demo Owner &gt; live repository &gt; repository authority
+documents &gt; historical context.
+
+Demo Owner is the systems architect and final decision authority.
+Historical conversations and model memory never override live Git or current
+repository documents.
+
+## Required reading
+
+Before changing the repository, read:
+
+1. `.prima/project.json`
+2. `STATUS.md`
+3. `ROADMAP.md`
+4. the current work-package acceptance document
+5. relevant architecture, security, decision, operations, and IP/provenance docs
+
+## Change workflow
+
+1. Inspect live Git state before editing.
+2. Keep changes inside the approved package and repository.
+3. Record consequential design choices under `docs/decisions/`.
+4. Log consequential actions and decisions with `prima log &lt;project&gt;
+   &quot;&lt;message&gt;&quot;` (written to `.prima/agent-log.jsonl`) so a future agent
+   session has a durable record instead of relying on chat history alone.
+5. Update `STATUS.md`, acceptance evidence, `CHANGELOG.md`, and
+   `docs/IP_PROVENANCE.md` when the change affects them.
+6. Run repository-defined automated checks and report any manual gates.
+7. Do not commit, push, publish, deploy, change visibility, or select a license
+   unless Demo Owner explicitly authorizes it or an adopted repository
+   policy explicitly requires it.
+
+## Security and intellectual property
+
+- Never commit credentials, tokens, private user data, local agent state, or
+  generated secrets.
+- Treat external code, assets, datasets, research, and model-generated material
+  as provenance-bearing inputs; record material reuse and its license or usage
+  constraints in `docs/IP_PROVENANCE.md`.
+- No license is granted by this repository unless Demo Owner intentionally
+  adds one.
+- Do not present automated or model-generated output as Demo Owner&#x27;s
+  acceptance.
+
+Write this? [y/N] {
+  &quot;acceptance_document&quot;: &quot;docs/acceptance/WP-000.md&quot;,
+  &quot;canonical_project&quot;: &quot;fictional-northstar-workshop&quot;,
+  &quot;current_phase&quot;: &quot;P0&quot;,
+  &quot;current_work_package&quot;: &quot;WP-000&quot;,
+  &quot;fixed&quot;: [
+    &quot;AGENTS.md&quot;
+  ],
+  &quot;package_status&quot;: &quot;In progress&quot;,
+  &quot;standard_version&quot;: &quot;1.0.0&quot;
+}
+
+Exit 0</pre></section><section><h2>Narrative document cannot be auto-repaired</h2><pre>$ prima validate fictional-northstar-workshop --fix --html-report 04-unfixable.html
+Presenter supplies &#x27;y\n&#x27;
+{&quot;error&quot;: &quot;missing project_charter: docs/PROJECT_CHARTER.md&quot;}
+
+Exit 1</pre></section><section><h2>Final structural validation after presenter restores original fictional charter</h2><pre>$ prima validate fictional-northstar-workshop --html-report 05-final.html
+{
+  &quot;acceptance_document&quot;: &quot;docs/acceptance/WP-000.md&quot;,
+  &quot;canonical_project&quot;: &quot;fictional-northstar-workshop&quot;,
+  &quot;current_phase&quot;: &quot;P0&quot;,
+  &quot;current_work_package&quot;: &quot;WP-000&quot;,
+  &quot;package_status&quot;: &quot;In progress&quot;,
+  &quot;standard_version&quot;: &quot;1.0.0&quot;
+}
+
+Exit 0</pre></section></html>

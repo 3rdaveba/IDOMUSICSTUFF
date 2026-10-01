@@ -49,6 +49,132 @@ export interface Project {
 
 export const projects: Project[] = [
 {
+  "id": "prima",
+  "title": "Prima — Governance for AI-Assisted Projects",
+  "category": "systems",
+  "role": "Project Owner & Systems Architect · AI-Assisted Implementation",
+  "status": "active",
+  "heroImage": "/prima/hero.svg",
+  "description": "Prima brings governance to both new and existing AI-assisted projects. Start a new project with prima init, or use prima adopt to add a governance layer around work already in progress. Both paths make scope, ownership, decisions, and acceptance criteria explicit. I defined the project’s purpose and boundaries, approved its foundation, and made key product decisions; AI assistants contributed implementation and documentation. The recordings below show both implemented workflows using fictional local projects. Public launch and research execution remain pending in the repository.",
+  "dmaic": {
+    "D": {
+      "label": "Define",
+      "text": "Give solo builders a repeatable way to govern AI-assisted work, whether they are starting fresh or organizing an existing project. Define an owner, charter, non-goals, work packages, acceptance gates, and decision records. I approved the foundation and retained final authority over scope and acceptance. Prima produces files an agent can read; it does not run the agent or guarantee compliance."
+    },
+    "M": {
+      "label": "Measure",
+      "text": "Use development evidence before making impact claims. On October 1, 2026, a fresh local run passed all 106 repository tests; a focused rerun also passed all 10 adoption tests. Recorded fictional workflows exercise new-project creation and existing-project adoption. Checks cover declined and confirmed repair, preservation of existing file hashes and Git files, and refusal of a conflicting adoption without writes. These are software checks, not customer adoption or productivity measurements."
+    },
+    "A": {
+      "label": "Analyze",
+      "text": "Starting fresh and adding governance later need different safeguards. A new project can receive a complete scaffold; an existing one needs its source, documentation, and Git state preserved. Adoption records that governance was added later and leaves the review gates unchecked. A validator can check structure, but cannot establish whether decisions or acceptance claims are true. I chose missing-file-only repair with a preview-and-confirm workflow; implementation limits it to four static roles. I also rescinded a proposed watermark fulfillment service to avoid its operational burden."
+    },
+    "I": {
+      "label": "Improve",
+      "text": "Implemented two entry paths: prima init creates a new project directory and governance scaffold; prima adopt adds a curated set of governance files to an existing project without replacing its source, tests, README, or changelog. Both can then use structural validation and HTML reports. The new-project recording demonstrates a missing instructions file, a declined repair, and a confirmed repair. The existing-project recording runs a synthetic program and test before adoption, verifies original file hashes afterward, and demonstrates a conflicting adoption being refused."
+    },
+    "C": {
+      "label": "Control",
+      "text": "Keep decisions, acceptance evidence, and limitations reviewable. The CLI is version 0.11.0; launch work remains approved but not started in the current repository status. Both recorded projects retain five unchecked review gates even when structural validation passes. Adoption does not merge conflicting governance files or approve earlier work; validation still requires the expected documents and a Git repository on main. The watermark service was never deployed and is superseded. The effectiveness study has a design but no results. The 106-test total includes retained inactive fulfillment code, not production-service assurance."
+    }
+  },
+  "timeline": [
+    {
+      "phase": "01",
+      "label": "Purpose & Scope"
+    },
+    {
+      "phase": "02",
+      "label": "New & Existing Project Workflows"
+    },
+    {
+      "phase": "03",
+      "label": "Reports & Confirmed Repair"
+    },
+    {
+      "phase": "04",
+      "label": "Operational Scope Review"
+    },
+    {
+      "phase": "05",
+      "label": "Local Portfolio Verification"
+    }
+  ],
+  "tools": [
+    "Requirements Definition",
+    "Workflow Design",
+    "Acceptance Criteria",
+    "AI-Assisted Development",
+    "Python CLI",
+    "pytest",
+    "User Walkthroughs"
+  ],
+  "outcomes": [
+    "Two implemented entry paths: scaffold new projects or add governance to existing ones",
+    "106 repository tests passed; 10 adoption tests passed in a focused rerun on October 1, 2026",
+    "Actual screen recordings verify repair decisions, preservation of existing files, and conflict refusal",
+    "Documented owner decisions and AI contributions; public launch and impact evidence pending"
+  ],
+  "streaming": [
+    {
+      "platform": "Capability Guide",
+      "url": "/prima/capabilities.html"
+    },
+    {
+      "platform": "CLI Walkthrough",
+      "url": "/prima/walkthrough.html"
+    }
+  ],
+  "media": {
+    "items": [
+      {
+        "type": "video-slot",
+        "label": "New project screen recording",
+        "caption": "New project · prima init · fictional local demo",
+        "src": "/prima/new-project.mp4"
+      },
+      {
+        "type": "video-slot",
+        "label": "Existing project screen recording",
+        "caption": "Existing project · prima adopt · fictional local demo",
+        "src": "/prima/existing-project.mp4"
+      },
+      {
+        "type": "photo-slot",
+        "label": "Actual report from fictional demo",
+        "caption": "Actual report screenshot · fictional project · structural checks only",
+        "src": "/prima/report-pass.png"
+      },
+      {
+        "type": "photo-slot",
+        "label": "Missing instructions failure",
+        "caption": "Actual failure report · fictional project",
+        "src": "/prima/report-fail.png"
+      },
+      {
+        "type": "link-slot",
+        "label": "Walkthrough & CLI output",
+        "url": "/prima/walkthrough.html"
+      },
+      {
+        "type": "link-slot",
+        "label": "Sample HTML audit report",
+        "url": "/prima/03-repaired.html"
+      },
+      {
+        "type": "link-slot",
+        "label": "New & Existing Project Guide",
+        "url": "/prima/capabilities.html"
+      },
+      {
+        "type": "link-slot",
+        "label": "Recording Transcripts",
+        "url": "/prima/recording-transcripts.html"
+      }
+    ]
+  }
+},
+{
   "id": "buzz-rush",
   "title": "Buzz Rush - Think Fast! Learn More.",
   "category": "systems",

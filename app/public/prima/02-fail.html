@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Prima validation report</title>
+<style>
+  :root {
+    --ink: #16181d;
+    --paper: #fbfbfa;
+    --muted: #6b6f76;
+    --line: #e4e2dd;
+    --surface: #f2f1ed;
+    --pass: #1f7a4d;
+    --pass-bg: #eaf6ef;
+    --pass-line: #bfe4cd;
+    --fail: #b3261e;
+    --fail-bg: #fcecea;
+    --fail-line: #f3c6c1;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #ececeb;
+      --paper: #17181c;
+      --muted: #9a9ea6;
+      --line: #2c2e34;
+      --surface: #1e2024;
+      --pass: #52c98a;
+      --pass-bg: #16261e;
+      --pass-line: #2b4a39;
+      --fail: #ef7b74;
+      --fail-bg: #2b1a19;
+      --fail-line: #55302d;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", ui-sans-serif, Helvetica, Arial, sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    margin: 0;
+    padding: 3rem 1.5rem;
+    line-height: 1.5;
+  }
+  .card {
+    max-width: 40rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .eyebrow {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 650;
+    margin: 0.25rem 0 0;
+    text-wrap: balance;
+  }
+  .meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    font-size: 0.85rem;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .meta code {
+    font-family: ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace;
+    font-size: 0.85em;
+  }
+  .status {
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.3rem 0.85rem;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    border: 1px solid;
+  }
+  .status.pass { color: var(--pass); background: var(--pass-bg); border-color: var(--pass-line); }
+  .status.fail { color: var(--fail); background: var(--fail-bg); border-color: var(--fail-line); }
+  .fields {
+    margin: 0;
+    border-top: 1px solid var(--line);
+  }
+  .fields .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .fields dt { color: var(--muted); }
+  .fields dd {
+    margin: 0;
+    font-family: ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace;
+    font-size: 0.9em;
+    text-align: right;
+  }
+  .error {
+    margin: 0;
+    padding: 1rem 1.1rem;
+    background: var(--fail-bg);
+    border: 1px solid var(--fail-line);
+    border-radius: 0.5rem;
+    color: var(--ink);
+    font-family: ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace;
+    font-size: 0.9rem;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  footer {
+    font-size: 0.75rem;
+    color: var(--muted);
+    border-top: 1px solid var(--line);
+    padding-top: 1rem;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div>
+    <p class="eyebrow">Prima &middot; Validation report</p>
+    <h1>fictional-northstar-workshop</h1>
+  </div>
+  <div class="meta">
+    <span>Generated <code>2026-10-01T19:11:54.126670Z</code></span>
+  </div>
+  <span class="status fail">FAIL</span>
+  <pre class="error">missing instructions: AGENTS.md</pre>
+  <footer>Produced by a Prima Project Standard validator's <code>--html-report</code> flag. Reflects a single point-in-time check; re-run to confirm current state.</footer>
+</div>
+</body>
+</html>

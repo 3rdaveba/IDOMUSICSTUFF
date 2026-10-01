@@ -1,0 +1,12 @@
+{
+  "name": "Northstar Workshop \u2014 Fictional Demo",
+  "slug": "fictional-northstar-workshop",
+  "owner": "Demo Owner",
+  "description": "Fictional workshop planning tool used only to demonstrate Prima governance.",
+  "intended_user": "A fictional solo workshop organizer.",
+  "value_proposition": "Keep a proposed workshop tool within an explicit scope.",
+  "initial_scope": "Define a local workshop agenda planner; this demonstration creates governance files only.",
+  "non_goals": "No attendee records, email, payments, production services, deployment, or real workshop operations.",
+  "proposed_stack": "Local Python prototype; product implementation is outside this demonstration.",
+  "data_classification": "Fictional demonstration; no personal, financial, or operational records."
+}

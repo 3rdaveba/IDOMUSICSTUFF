@@ -1,0 +1,338 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Prima recording transcripts</title><style>body{max-width:1000px;margin:48px auto;padding:24px;background:#f5f0eb;color:#1a1816;font:18px/1.7 system-ui}h1,h2,h3{font-family:Georgia,serif}pre{padding:24px;background:#ede8e2;font:14px/1.6 monospace;white-space:pre-wrap;overflow-wrap:anywhere}a{color:#875f3d}section{margin:64px 0}</style><h1>Prima: screen recording transcripts</h1><p>Actual local CLI execution with fictional fixtures. The presenter runs each step through a temporary demonstration console; this is not a Prima product UI. Absolute local paths are shortened to [local-demo]. The recordings have on-screen explanations and no audio narration.</p><p><a href="#new">New project</a> · <a href="#existing">Existing project</a> · <a href="capabilities.html">Capability guide</a></p><section id="new"><h2>Start a new project</h2><p><a href="new-project.mp4">Watch screen recording</a></p><h3>Start from requirements</h3><p>The fictional planner does not exist yet. These inputs define its purpose and limits.</p><pre>$ cat new-config.json
+
+{
+  &quot;name&quot;: &quot;Fictional Northstar Planner&quot;,
+  &quot;slug&quot;: &quot;fictional-northstar-planner&quot;,
+  &quot;owner&quot;: &quot;Demo Owner&quot;,
+  &quot;description&quot;: &quot;A fictional local workshop planner used only for this recorded demonstration.&quot;,
+  &quot;intended_user&quot;: &quot;A fictional solo workshop organizer.&quot;,
+  &quot;value_proposition&quot;: &quot;Keep a proposed workshop tool within an explicit scope.&quot;,
+  &quot;initial_scope&quot;: &quot;Define a local workshop agenda planner; this demonstration creates governance files only.&quot;,
+  &quot;non_goals&quot;: &quot;No attendee records, email, payments, production services, deployment, or real workshop operations.&quot;,
+  &quot;proposed_stack&quot;: &quot;Local Python prototype; product implementation is outside this demonstration.&quot;,
+  &quot;data_classification&quot;: &quot;Fictional demonstration; no personal, financial, or operational records.&quot;
+}
+Exit code: 0</pre><h3>Create a new project</h3><p>prima init creates a new folder, governance scaffold, and local Git repository.</p><pre>$ prima init --config new-config.json --projects-root .
+
+{
+  &quot;branch&quot;: &quot;main&quot;,
+  &quot;canonical_project&quot;: &quot;fictional-northstar-planner&quot;,
+  &quot;created_at&quot;: &quot;2026-10-01T19:24:21.893928Z&quot;,
+  &quot;file_hashes&quot;: {
+    &quot;.gitignore&quot;: &quot;6e7f8249bd95fbfc993401933fc815142b1ff9dc57c6a522b6c9fb5103940abd&quot;,
+    &quot;.prima/project.json&quot;: &quot;e52e61415a278cef5115af9fafd3a17ddc3043b26135f2cec6683cff77282a71&quot;,
+    &quot;AGENTS.md&quot;: &quot;dc7b100ee2831de04f1778513cbe199dd9f9e465c790578b7ce0320babfc0338&quot;,
+    &quot;CHANGELOG.md&quot;: &quot;9394032d2d7381daae3d5eff16505d3fcb53904955a88bf659df381a8dd876ce&quot;,
+    &quot;README.md&quot;: &quot;32460cbfd87a1148c9b180ebdb8a73f2b7c5dabe1ba0358607c589db9a16eaf1&quot;,
+    &quot;ROADMAP.md&quot;: &quot;32ff5f651b7a2c55286e592548e5418d0de98f56c2c6ae4cffdbb52ad2d503ce&quot;,
+    &quot;STATUS.md&quot;: &quot;28a3e9d6a70d94dd01905e44432347d05f08e36d9a0ed5064887931118f6bd75&quot;,
+    &quot;docs/ARCHITECTURE.md&quot;: &quot;8ca0fc3b1c8629ec48e4ddf8598cfd44b377922ce8fcb9871685e5e718dfbde7&quot;,
+    &quot;docs/IP_PROVENANCE.md&quot;: &quot;c91d8a4b8590b22d9b181327465677e35e93ed831ebf748ba683d362fe7fcf16&quot;,
+    &quot;docs/PROJECT_CHARTER.md&quot;: &quot;0d13c14b207ceba1e6dc7332d14b20ca90595ed2d28c42802713ae8b15351659&quot;,
+    &quot;docs/SECURITY.md&quot;: &quot;87b518f9892f3b750595f4c705b078d866cad000fd966b58e7d6f72e17b27d0e&quot;,
+    &quot;docs/acceptance/WP-000.md&quot;: &quot;c836b2258f5ef6787ba0b2c88018fc866b89ace38495499eebdc95159678cd93&quot;,
+    &quot;docs/decisions/ADR-000-project-foundation.md&quot;: &quot;1d0866111796a80557627fe79824f34380370e157d22f05c13c0495baac9257c&quot;,
+    &quot;docs/decisions/README.md&quot;: &quot;a30faebc1507da4c0735470c5282e1ef6344410fe441a5b14a1727449fafa04a&quot;,
+    &quot;docs/operations/README.md&quot;: &quot;e800069ef2b4c1e150a38b8f4635cb783a9fa130e4842537c1408a6dfd0e018e&quot;,
+    &quot;src/.gitkeep&quot;: &quot;e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855&quot;,
+    &quot;tests/.gitkeep&quot;: &quot;e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855&quot;
+  },
+  &quot;head&quot;: null,
+  &quot;initial_commit_created&quot;: false,
+  &quot;operation&quot;: &quot;project_bootstrap&quot;,
+  &quot;owner&quot;: &quot;Demo Owner&quot;,
+  &quot;project_name&quot;: &quot;Fictional Northstar Planner&quot;,
+  &quot;remaining_onboarding&quot;: [
+    &quot;Demo Owner reviews and authorizes the deterministic initial commit.&quot;,
+    &quot;Create a remote (private, if any) only after explicit authorization.&quot;,
+    &quot;Confirm the project charter and non-goals in docs/PROJECT_CHARTER.md.&quot;,
+    &quot;Begin working with your AI agent(s) inside the scaffolded governance structure; AGENTS.md and .prima/project.json orient them.&quot;
+  ],
+  &quot;remote_created&quot;: false,
+  &quot;repo_path&quot;: &quot;[local-demo]/fictional-northstar-planner&quot;,
+  &quot;schema_version&quot;: 1,
+  &quot;state&quot;: &quot;completed&quot;,
+  &quot;validation&quot;: {
+    &quot;acceptance_document&quot;: &quot;docs/acceptance/WP-000.md&quot;,
+    &quot;canonical_project&quot;: &quot;fictional-northstar-planner&quot;,
+    &quot;current_phase&quot;: &quot;P0&quot;,
+    &quot;current_work_package&quot;: &quot;WP-000&quot;,
+    &quot;package_status&quot;: &quot;In progress&quot;,
+    &quot;standard_version&quot;: &quot;1.0.0&quot;
+  }
+}
+
+Exit code: 0</pre><h3>Validate the scaffold</h3><p>Structural PASS does not complete the five owner review gates.</p><pre>$ prima validate fictional-northstar-planner --html-report new-pass.html
+
+{
+  &quot;acceptance_document&quot;: &quot;docs/acceptance/WP-000.md&quot;,
+  &quot;canonical_project&quot;: &quot;fictional-northstar-planner&quot;,
+  &quot;current_phase&quot;: &quot;P0&quot;,
+  &quot;current_work_package&quot;: &quot;WP-000&quot;,
+  &quot;package_status&quot;: &quot;In progress&quot;,
+  &quot;standard_version&quot;: &quot;1.0.0&quot;
+}
+
+Exit code: 0</pre><h3>Introduce a missing file</h3><p>Presenter deletes AGENTS.md only in this fictional demo. Validation should fail.</p><pre>$ remove demo AGENTS.md; prima validate fictional-northstar-planner
+
+{&quot;error&quot;: &quot;missing instructions: AGENTS.md&quot;}
+
+Exit code: 1</pre><h3>Decline the repair</h3><p>The CLI previews the write. The presenter supplies n; no files should change.</p><pre>$ prima validate fictional-northstar-planner --fix [presenter input: n]
+
+will create AGENTS.md with:
+# Agent Instructions
+
+## Scope
+
+This repository implements **Fictional Northstar Planner**. Work only within the currently
+approved work package in `STATUS.md` and its acceptance document.
+
+Do not expand scope, create adjacent products, or reinterpret the project
+charter without Demo Owner&#x27;s approval.
+
+## Authority
+
+The fixed order is Demo Owner &gt; live repository &gt; repository authority
+documents &gt; historical context.
+
+Demo Owner is the systems architect and final decision authority.
+Historical conversations and model memory never override live Git or current
+repository documents.
+
+## Required reading
+
+Before changing the repository, read:
+
+1. `.prima/project.json`
+2. `STATUS.md`
+3. `ROADMAP.md`
+4. the current work-package acceptance document
+5. relevant architecture, security, decision, operations, and IP/provenance docs
+
+## Change workflow
+
+1. Inspect live Git state before editing.
+2. Keep changes inside the approved package and repository.
+3. Record consequential design choices under `docs/decisions/`.
+4. Log consequential actions and decisions with `prima log &lt;project&gt;
+   &quot;&lt;message&gt;&quot;` (written to `.prima/agent-log.jsonl`) so a future agent
+   session has a durable record instead of relying on chat history alone.
+5. Update `STATUS.md`, acceptance evidence, `CHANGELOG.md`, and
+   `docs/IP_PROVENANCE.md` when the change affects them.
+6. Run repository-defined automated checks and report any manual gates.
+7. Do not commit, push, publish, deploy, change visibility, or select a license
+   unless Demo Owner explicitly authorizes it or an adopted repository
+   policy explicitly requires it.
+
+## Security and intellectual property
+
+- Never commit credentials, tokens, private user data, local agent state, or
+  generated secrets.
+- Treat external code, assets, datasets, research, and model-generated material
+  as provenance-bearing inputs; record material reuse and its license or usage
+  constraints in `docs/IP_PROVENANCE.md`.
+- No license is granted by this repository unless Demo Owner intentionally
+  adds one.
+- Do not present automated or model-generated output as Demo Owner&#x27;s
+  acceptance.
+
+Write this? [y/N] {&quot;error&quot;: &quot;missing instructions: AGENTS.md&quot;}
+
+VERIFIED: declined repair changed no files.
+
+Exit code: 1</pre><h3>Confirm the repair</h3><p>The same preview is followed by presenter input y. Prima restores AGENTS.md and rechecks.</p><pre>$ prima validate fictional-northstar-planner --fix --html-report new-repaired.html [presenter input: y]
+
+will create AGENTS.md with:
+# Agent Instructions
+
+## Scope
+
+This repository implements **Fictional Northstar Planner**. Work only within the currently
+approved work package in `STATUS.md` and its acceptance document.
+
+Do not expand scope, create adjacent products, or reinterpret the project
+charter without Demo Owner&#x27;s approval.
+
+## Authority
+
+The fixed order is Demo Owner &gt; live repository &gt; repository authority
+documents &gt; historical context.
+
+Demo Owner is the systems architect and final decision authority.
+Historical conversations and model memory never override live Git or current
+repository documents.
+
+## Required reading
+
+Before changing the repository, read:
+
+1. `.prima/project.json`
+2. `STATUS.md`
+3. `ROADMAP.md`
+4. the current work-package acceptance document
+5. relevant architecture, security, decision, operations, and IP/provenance docs
+
+## Change workflow
+
+1. Inspect live Git state before editing.
+2. Keep changes inside the approved package and repository.
+3. Record consequential design choices under `docs/decisions/`.
+4. Log consequential actions and decisions with `prima log &lt;project&gt;
+   &quot;&lt;message&gt;&quot;` (written to `.prima/agent-log.jsonl`) so a future agent
+   session has a durable record instead of relying on chat history alone.
+5. Update `STATUS.md`, acceptance evidence, `CHANGELOG.md`, and
+   `docs/IP_PROVENANCE.md` when the change affects them.
+6. Run repository-defined automated checks and report any manual gates.
+7. Do not commit, push, publish, deploy, change visibility, or select a license
+   unless Demo Owner explicitly authorizes it or an adopted repository
+   policy explicitly requires it.
+
+## Security and intellectual property
+
+- Never commit credentials, tokens, private user data, local agent state, or
+  generated secrets.
+- Treat external code, assets, datasets, research, and model-generated material
+  as provenance-bearing inputs; record material reuse and its license or usage
+  constraints in `docs/IP_PROVENANCE.md`.
+- No license is granted by this repository unless Demo Owner intentionally
+  adds one.
+- Do not present automated or model-generated output as Demo Owner&#x27;s
+  acceptance.
+
+Write this? [y/N] {
+  &quot;acceptance_document&quot;: &quot;docs/acceptance/WP-000.md&quot;,
+  &quot;canonical_project&quot;: &quot;fictional-northstar-planner&quot;,
+  &quot;current_phase&quot;: &quot;P0&quot;,
+  &quot;current_work_package&quot;: &quot;WP-000&quot;,
+  &quot;fixed&quot;: [
+    &quot;AGENTS.md&quot;
+  ],
+  &quot;package_status&quot;: &quot;In progress&quot;,
+  &quot;standard_version&quot;: &quot;1.0.0&quot;
+}
+
+VERIFIED: AGENTS.md restored; validation passed.
+
+Exit code: 0</pre><h3>Inspect the audit report</h3><p>Actual HTML report from this run. Project acceptance is still In progress.</p><pre>$ Open new-repaired.html
+
+Actual self-contained report generated by Prima.
+Exit code: 0</pre><h3>Check acceptance boundaries</h3><p>The scaffold is structurally valid; human review remains unfinished.</p><pre>$ Read acceptance gates; check Git remote and commit state
+
+- [ ] `owner_charter_approval` — Demo Owner approves the project charter, scope, and non-goals.
+- [ ] `architecture_baseline` — The initial architecture and stack decision are recorded.
+- [ ] `security_baseline` — Data classification and initial security posture are reviewed.
+- [ ] `validation_baseline` — Exact setup, build, test, and verification commands are documented and pass where applicable.
+- [ ] `ip_provenance_baseline` — Ownership, dependencies, external assets/data, agent contributions, and license posture are reviewed.
+
+VERIFIED: no remote, no commit.
+A structural PASS is not project acceptance.
+Exit code: 0</pre></section><section id="existing"><h2>Adopt an existing project</h2><p><a href="existing-project.mp4">Watch screen recording</a></p><h3>Start with existing work</h3><p>A fictional Python program, test, README, and changelog already exist.</p><pre>$ python src/planner.py; python -m unittest discover -s tests
+
+Fictional agenda: 60 minutes
+
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+
+Existing source:
+&quot;&quot;&quot;Fictional demo program; no production records or services.&quot;&quot;&quot;
+def total_minutes(agenda):
+    return sum(minutes for _, minutes in agenda)
+
+if __name__ == &quot;__main__&quot;:
+    print(&quot;Fictional agenda:&quot;, total_minutes([(&quot;Welcome&quot;, 10), (&quot;Workshop&quot;, 35), (&quot;Review&quot;, 15)]), &quot;minutes&quot;)
+
+Exit code: 0</pre><h3>Describe the existing project</h3><p>Use requirements that describe what exists today. Adoption does not invent its history.</p><pre>$ cat existing-config.json
+
+{
+  &quot;name&quot;: &quot;Fictional Existing Planner&quot;,
+  &quot;slug&quot;: &quot;fictional-existing-planner&quot;,
+  &quot;owner&quot;: &quot;Demo Owner&quot;,
+  &quot;description&quot;: &quot;An existing synthetic Python agenda counter. Source and tests predate this demonstration of adding Prima governance.&quot;,
+  &quot;intended_user&quot;: &quot;A fictional solo workshop organizer.&quot;,
+  &quot;value_proposition&quot;: &quot;Keep a proposed workshop tool within an explicit scope.&quot;,
+  &quot;initial_scope&quot;: &quot;Add governance around the existing local agenda counter; preserve its source and tests.&quot;,
+  &quot;non_goals&quot;: &quot;No attendee records, email, payments, production services, deployment, or real workshop operations.&quot;,
+  &quot;proposed_stack&quot;: &quot;Local Python prototype; product implementation is outside this demonstration.&quot;,
+  &quot;data_classification&quot;: &quot;Fictional demonstration; no personal, financial, or operational records.&quot;
+}
+Exit code: 0</pre><h3>Adopt without replacing source</h3><p>prima adopt adds governance files to the existing folder. It does not initialize Git.</p><pre>$ prima adopt fictional-existing-planner --config existing-config.json
+
+{
+  &quot;adopted_from_existing&quot;: true,
+  &quot;adoption_date&quot;: &quot;2026-10-01&quot;,
+  &quot;canonical_project&quot;: &quot;fictional-existing-planner&quot;,
+  &quot;created_at&quot;: &quot;2026-10-01T19:25:26.795043Z&quot;,
+  &quot;file_hashes&quot;: {
+    &quot;.prima/project.json&quot;: &quot;6af442d49ce6b44abf3ea53e618aa0229a95577643dd10199e9a650c6af2c15a&quot;,
+    &quot;AGENTS.md&quot;: &quot;98246e6a9aa07663d68d1e195da6f39193a6ff2a344c26cedcbe495de6e01661&quot;,
+    &quot;ROADMAP.md&quot;: &quot;9927d2a22571fac76bc95bef43be3f64e5f17da5b0d834525b19a56b16149336&quot;,
+    &quot;STATUS.md&quot;: &quot;28a3e9d6a70d94dd01905e44432347d05f08e36d9a0ed5064887931118f6bd75&quot;,
+    &quot;docs/ARCHITECTURE.md&quot;: &quot;8ca0fc3b1c8629ec48e4ddf8598cfd44b377922ce8fcb9871685e5e718dfbde7&quot;,
+    &quot;docs/IP_PROVENANCE.md&quot;: &quot;0f20aea3f3ae3c8a6749afee9dd64873e3a2dafb31f69a2b16d466a0cd813a55&quot;,
+    &quot;docs/PROJECT_CHARTER.md&quot;: &quot;90d98011984dc3a8eaf4b472868d790ecbf78d33086ffc61422201495f7641de&quot;,
+    &quot;docs/SECURITY.md&quot;: &quot;87b518f9892f3b750595f4c705b078d866cad000fd966b58e7d6f72e17b27d0e&quot;,
+    &quot;docs/acceptance/WP-000.md&quot;: &quot;c836b2258f5ef6787ba0b2c88018fc866b89ace38495499eebdc95159678cd93&quot;,
+    &quot;docs/decisions/ADR-000-project-foundation.md&quot;: &quot;3a9118383feaa671ce8d9284d1e5d79178a6fa3dd3efd1aabafcc0332d4c2266&quot;,
+    &quot;docs/decisions/README.md&quot;: &quot;a30faebc1507da4c0735470c5282e1ef6344410fe441a5b14a1727449fafa04a&quot;,
+    &quot;docs/operations/README.md&quot;: &quot;e800069ef2b4c1e150a38b8f4635cb783a9fa130e4842537c1408a6dfd0e018e&quot;
+  },
+  &quot;operation&quot;: &quot;project_adoption&quot;,
+  &quot;owner&quot;: &quot;Demo Owner&quot;,
+  &quot;project_name&quot;: &quot;Fictional Existing Planner&quot;,
+  &quot;remaining_onboarding&quot;: [
+    &quot;Demo Owner reviews and authorizes committing the new governance files.&quot;,
+    &quot;Run `prima validate` and resolve anything it reports (for example, this must already be a Git repository on branch main).&quot;,
+    &quot;Confirm the project charter and non-goals in docs/PROJECT_CHARTER.md actually describe this project as it exists today, not a stub.&quot;,
+    &quot;Complete WP-000&#x27;s five acceptance gates in docs/acceptance/WP-000.md, characterizing this project&#x27;s real architecture, security posture, and IP/dependency provenance.&quot;
+  ],
+  &quot;repo_path&quot;: &quot;[local-demo]/fictional-existing-planner&quot;,
+  &quot;schema_version&quot;: 1,
+  &quot;state&quot;: &quot;completed&quot;
+}
+
+Exit code: 0</pre><h3>Verify preservation</h3><p>Compare every original file, including Git files, against its saved SHA-256 hash; rerun the existing test.</p><pre>$ Compare original SHA-256 hashes; python -m unittest discover -s tests
+
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+
+SHA-256 comparison against saved original files:
+UNCHANGED  CHANGELOG.md
+UNCHANGED  README.md
+UNCHANGED  .gitignore
+UNCHANGED  tests/test_planner.py
+UNCHANGED  src/planner.py
+UNCHANGED  all original Git files
+No source files or existing documentation replaced.
+Exit code: 0</pre><h3>Validate and inspect provenance</h3><p>The manifest records that governance was added later. Five review gates remain unchecked.</p><pre>$ prima validate fictional-existing-planner --html-report existing-pass.html; inspect adoption marker
+
+{
+  &quot;acceptance_document&quot;: &quot;docs/acceptance/WP-000.md&quot;,
+  &quot;canonical_project&quot;: &quot;fictional-existing-planner&quot;,
+  &quot;current_phase&quot;: &quot;P0&quot;,
+  &quot;current_work_package&quot;: &quot;WP-000&quot;,
+  &quot;package_status&quot;: &quot;In progress&quot;,
+  &quot;standard_version&quot;: &quot;1.0.0&quot;
+}
+
+Adoption provenance:
+{
+  &quot;adopted_from_existing&quot;: true,
+  &quot;adoption_date&quot;: &quot;2026-10-01&quot;
+}
+
+Five acceptance gates: unchecked.
+Exit code: 0</pre><h3>Demonstrate a conflict</h3><p>A second adoption must refuse existing governance files without writing anything.</p><pre>$ prima adopt fictional-existing-planner --config existing-config.json
+
+{&quot;error&quot;: &quot;adoption target already has a conflicting path: AGENTS.md&quot;}
+
+VERIFIED: conflict refused; every file hash is unchanged.
+Exit code: 1</pre><h3>Inspect the audit report</h3><p>Actual report from this run. Adoption is not a retrospective approval of existing code.</p><pre>$ Open existing-pass.html
+
+Actual self-contained report generated by Prima.
+Exit code: 0</pre></section></html>
