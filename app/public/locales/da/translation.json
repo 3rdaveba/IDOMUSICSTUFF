@@ -531,6 +531,39 @@
           "Teleprompter Direction",
           "Home Studio Production"
         ]
+      },
+      "buzz-rush": {
+        "role": "Skaber og kreativ systemarkitekt",
+        "description": "Buzz Rush er et hurtigt multiplayer-quizspil for 2–8 spillere. Deltag fra mobil eller computer med en rumkode, tryk først på buzzeren, og konkurrer med uforudsigelige pointmultiplikatorer. Spillet har 1.500 spørgsmål fordelt på otte kategorier, et energisk arkadeudtryk og højst 15 spørgsmål pr. kamp. Personlige opsummeringer forklarer forkerte svar og giver links til videre læring.",
+        "dmaic": {
+          "D": "Skab et hurtigt quizspil, der kombinerer konkurrence og læring for 2–8 spillere med rumkode fra mobil eller computer. Brug buzzer-spørgsmål, et mål på 2.000 point og multiplikatorer, der giver mulighed for comeback. Skab et energisk arkadeudtryk med mørke flader, pink accenter og lyd, og integrer forklaringer, så spillerne også lærer af forkerte svar.",
+          "M": "Spiltest viste mangler i tempo, stillinger, lyd, introduktion og genbrugsværdi. Et pointmål alene kunne forlænge kampe uendeligt; de oprindelige 57 spørgsmål var for få, og nogle importerede spørgsmål var tvetydige, forældede eller uden nyttige forklaringer. Fire sekunder var for kort til at læse læringsnoter. Valideringen omfattede kapacitet, samtidig buzzing, point, værtsrettigheder, gentagelser, forklaringer og privatliv.",
+          "A": "Kampe skulle have en garanteret afslutning, synlige stillinger og en visuel introduktion til den tidsstyrede grænseflade. Værtens handlinger skulle gælde ens på alle enheder. Flere spørgsmål krævede også redaktionel gennemgang, forklaringer, kildehenvisninger og kontrol af gentagelser. Læring efter spillet skulle være privat og frivillig.",
+          "I": "Tilføjede højst 15 spørgsmål sammen med målet på 2.000 point, 200 point for korrekte svar og 100 point i straf, tilfældige ×1-, ×2- og ×3-multiplikatorer med større chance for høje multiplikatorer senere samt en nedre grænse på nul point. Indførte fem sekunder til svar, én mulighed for at overtage og stillinger med delte føringer. Udvidede lydfeedback og forhindrede gentagne lyde ved genforbindelse. Byggede en synkroniseret visuel introduktion på 20 sekunder, som kun værten kan springe over, fælles rumlukning og delingsfunktioner. Udvidede banken fra 57 til 1.500 gennemgåede spørgsmål i otte valgbare emner med låste emner under kampe og prioritering af usete spørgsmål. Alle spørgsmål fik forklaringer og læringslinks; svarvisningen blev forlænget til ti sekunder. Private opsummeringer viser kun indsendte forkerte svar, ikke timeouts eller ubesvarede spørgsmål. Spillet blev udgivet på den eksisterende URL.",
+          "C": "Den udgivne version bestod 29 automatiserede tests og en kontrol med otte spillere, inklusive samtidig deltagelse og buzzing. Svar og forklaringer skjules indtil afsløringen, og private opsummeringer nulstilles ved næste kamp. Alle 1.500 spørgsmål har kildehenviste læringslinks; genimport genskabte den gennemgåede bank og bevarede rettelser. Kreditering dokumenterer kilder, tilpasninger og licenser. Referencer er overvejende Wikipedia samt udvalgte officielle kilder, ikke uafhængig primærkildekontrol af alle fakta. Temapakker, målgruppetilpasset sværhedsgrad og flere læringsfunktioner er fremtidige muligheder."
+        },
+        "timeline": [
+          "Spilkoncept og første version",
+          "Spiltest og analyse",
+          "Gameplay, introduktion og flere spørgsmål",
+          "Automatisk test og multiplayervalidering",
+          "Udgivelse og fortsat udvikling"
+        ],
+        "tools": [
+          "ChatGPT Work",
+          "AI-assisteret udvikling",
+          "Spildesign",
+          "Multiplayerinteraktion",
+          "Design af læringsoplevelser"
+        ],
+        "outcomes": [
+          "Offentligt spil til 2–8 spillere på mobil og computer",
+          "Spørgsmålsbank udvidet fra 57 til 1.500 i otte emner",
+          "29 automatiserede tests og en kontrol med otte spillere bestået",
+          "Kampe slutter ved 2.000 point eller 15 spørgsmål",
+          "Private opsummeringer; forklaringer og links til alle 1.500 spørgsmål",
+          "Synkroniseret visuel introduktion og værtsstyrede rum"
+        ]
       }
     }
   },
@@ -637,7 +670,10 @@
     "sundayService": "Sunday Service",
     "toolsSkills": "VÆRKTØJER & KOMPETENCER",
     "watch": "Se",
-    "workflow": "Workflow"
+    "workflow": "Workflow",
+    "visitProject": "Besøg",
+    "playbuzzrush": "Spil Buzz Rush",
+    "generatedArtwork": "Genereret reklamegrafik — ikke et skærmbillede fra spillet"
   },
   "releaseCard": {
     "feature": "Feature",

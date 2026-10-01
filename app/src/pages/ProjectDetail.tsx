@@ -168,7 +168,7 @@ export default function ProjectDetail() {
           {project.streaming && project.streaming.length > 0 && (
             <div className="flex flex-wrap items-center gap-3 md:pt-2">
               <span className="text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--text-tertiary)' }}>
-                {t('projectDetail.listen')}:
+                {project.category === 'systems' ? t('projectDetail.visitProject') : t('projectDetail.listen')}:
               </span>
               {project.streaming.map((link) => (
                 <a
@@ -474,6 +474,11 @@ export default function ProjectDetail() {
                         {t(`projectDetail.${item.label.toLowerCase().replace(/\s+/g, '')}`, { defaultValue: item.label })}
                       </span>
                     </a>
+                  )}
+                  {item.caption && (
+                    <span className="absolute bottom-0 inset-x-0 bg-black/80 px-2 py-2 text-[10px] leading-snug text-white">
+                      {t('projectDetail.generatedArtwork', { defaultValue: item.caption })}
+                    </span>
                   )}
                   {!item.src && item.type !== 'link-slot' && (
                     <div className="absolute inset-0 flex flex-col items-center justify-center gap-2">

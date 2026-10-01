@@ -7,6 +7,7 @@ export interface MediaItem {
   type: 'photo-slot' | 'video-slot' | 'link-slot'
   label: string
   icon?: string
+  caption?: string
   url?: string
   src?: string
 }
@@ -47,6 +48,95 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+{
+  "id": "buzz-rush",
+  "title": "Buzz Rush - Think Fast! Learn More.",
+  "category": "systems",
+  "role": "Creator & Creative Systems Architect",
+  "status": "active",
+  "heroImage": "/images/buzz-rush.jpg",
+  "description": "Buzz Rush is a fast-paced multiplayer trivia game for 2–8 players. Join from any phone or desktop using a room code, race to the buzzer, and compete through unpredictable point multipliers. With 1,500 questions across eight categories, an energetic arcade aesthetic, and matches capped at 15 questions, every game delivers quick competition. Personalized recaps explain missed answers and provide learning links, turning each round into a chance to discover something new.",
+  "dmaic": {
+    "D": {
+      "label": "Define",
+      "text": "Create a fast-paced party game that combines friendly competition with learning. Support 2–8 players joining by room code from phones or desktops, with speed-buzzer trivia, a 2,000-point target, and multipliers that enable comebacks. Establish a high-energy arcade identity with dark backgrounds, bold pink accents, and sound. Make explanations part of the experience so players can learn even when they answer incorrectly."
+    },
+    "M": {
+      "label": "Measure",
+      "text": "Playtesting exposed gaps in pacing, standings, sound, onboarding, and replayability. A score target alone could let games run indefinitely; the original 57-question bank was too small, broad categories did not suit every group, and some imported questions lacked useful explanations or contained ambiguous or outdated information. Four-second reveals were too short for educational notes. Validation covered room capacity, simultaneous buzzing, scoring, host permissions, repetition, explanation coverage, and player privacy."
+    },
+    "A": {
+      "label": "Analyze",
+      "text": "Matches needed a guaranteed endpoint regardless of player knowledge, visible standings to give score changes context, and a visual tutorial to explain a timed interface. Host actions needed consistent authority across devices. Expanding the question bank also required editorial review, useful explanations, attributed references, and repeat management. Postgame learning needed to remain personal and optional so it would not interrupt the social experience."
+    },
+    "I": {
+      "label": "Improve",
+      "text": "Added a 15-question cap alongside the 2,000-point target, 200-point correct answers and 100-point penalties adjusted by randomized ×1, ×2, and ×3 multipliers, with higher multiplier odds later in play and a zero-point floor. Introduced five-second answers, one steal opportunity, and standings that recognize shared leaders. Expanded audio feedback and prevented duplicate sounds after polling or reconnects. Built a synchronized 20-second visual tutorial with host-only skipping, room-wide closure, and share controls. Expanded the bank from 57 to 1,500 reviewed questions across eight selectable topics, locked topic changes during matches, and prioritized unseen questions across rematches. Added explanations and learning links to every question, extended reveals to ten seconds, and built private, expandable recaps of submitted incorrect answers, excluding timeouts and unanswered questions. Published the game at its existing public URL."
+    },
+    "C": {
+      "label": "Control",
+      "text": "The published version passed 29 automated tests covering gameplay, permissions, question integrity, repeat avoidance, audio behavior, and recap privacy, plus an eight-player check covering concurrent joins and simultaneous buzzing. Answers and explanations stay hidden until reveal; private recaps clear when a new match starts. All 1,500 questions have attributed learning links, and reimporting reproduced the reviewed bank while preserving editorial corrections. Credits document sources, adaptations, and licensing. References are predominantly Wikipedia with selected official sources, not independent primary-source verification of every fact. Themed packs, audience-specific difficulty, and further learning features remain future directions."
+    }
+  },
+  "timeline": [
+    {
+      "phase": "01",
+      "label": "Game Concept & Initial Build"
+    },
+    {
+      "phase": "02",
+      "label": "Playtesting & Gap Analysis"
+    },
+    {
+      "phase": "03",
+      "label": "Gameplay, Onboarding & Question Expansion"
+    },
+    {
+      "phase": "04",
+      "label": "Automated & Multiplayer Validation"
+    },
+    {
+      "phase": "05",
+      "label": "Public Release & Continued Development"
+    }
+  ],
+  "tools": [
+    "ChatGPT Work",
+    "AI-Assisted Development",
+    "Game Design",
+    "Multiplayer Interaction",
+    "Learning Experience Design"
+  ],
+  "outcomes": [
+    "Public multiplayer game for 2–8 players on phones and desktops",
+    "Question bank expanded from 57 to 1,500 across eight selectable topics",
+    "29 automated tests passed; eight-player concurrent-join and buzzer check passed",
+    "Matches end at 2,000 points or 15 questions",
+    "Private learning recaps; explanations and attributed links for all 1,500 questions",
+    "Synchronized visual onboarding and host-controlled room management"
+  ],
+  "streaming": [
+    {
+      "platform": "Play Buzz Rush",
+      "url": "https://buzz-rush-arcade.glad-charm-9658.chatgpt.site/"
+    }
+  ],
+  "media": {
+    "items": [
+      {
+        "type": "photo-slot",
+        "label": "Generated promotional artwork — not a gameplay screenshot",
+        "caption": "Generated promotional artwork — not a gameplay screenshot",
+        "src": "/images/buzz-rush.jpg"
+      },
+      {
+        "type": "link-slot",
+        "label": "Play Buzz Rush",
+        "url": "https://buzz-rush-arcade.glad-charm-9658.chatgpt.site/"
+      }
+    ]
+  }
+},
   {
     id: 'creative-intelligence-production-system',
     title: 'Creative Intelligence Production System',

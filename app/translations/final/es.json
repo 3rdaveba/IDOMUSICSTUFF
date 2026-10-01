@@ -531,6 +531,39 @@
           "Teleprompter Direction",
           "Home Studio Production"
         ]
+      },
+      "buzz-rush": {
+        "role": "Creador y arquitecto de sistemas creativos",
+        "description": "Buzz Rush es un juego de trivia multijugador para 2–8 personas. Entra desde el móvil o el ordenador con un código de sala, pulsa el botón antes que los demás y compite con multiplicadores de puntos impredecibles. Ofrece 1.500 preguntas en ocho categorías, una estética arcade y partidas de hasta 15 preguntas. Los resúmenes personalizados explican las respuestas falladas e incluyen enlaces para seguir aprendiendo.",
+        "dmaic": {
+          "D": "Crear un juego de trivia rápido que combine competición y aprendizaje para 2–8 personas, con acceso por código desde móvil u ordenador. Usar preguntas con pulsador, una meta de 2.000 puntos y multiplicadores que permitan remontadas. Darle una identidad arcade con fondos oscuros, rosa intenso y sonido; integrar explicaciones para aprender incluso al fallar.",
+          "M": "Las pruebas revelaron problemas de ritmo, clasificación, sonido, instrucciones y rejugabilidad. La meta de puntos podía alargar partidas indefinidamente; las 57 preguntas iniciales eran insuficientes y algunas importadas eran ambiguas, obsoletas o carecían de explicaciones útiles. Cuatro segundos no bastaban para leer las notas. Se evaluaron capacidad, pulsaciones simultáneas, puntuación, permisos, repetición, explicaciones y privacidad.",
+          "A": "Las partidas necesitaban un final garantizado, clasificaciones visibles y un tutorial visual para explicar una interfaz contrarreloj. Las acciones del anfitrión debían aplicarse en todos los dispositivos. Ampliar el banco exigía revisión editorial, explicaciones, referencias y control de repeticiones. El repaso posterior debía ser privado y opcional.",
+          "I": "Se añadió un máximo de 15 preguntas junto a la meta de 2.000 puntos, 200 puntos por acierto y penalizaciones de 100, multiplicadores aleatorios ×1, ×2 y ×3 más probables al final, y un mínimo de cero puntos. Se incorporaron cinco segundos para responder, un intento de robo y clasificaciones con empates. Se amplió el sonido y se evitaron repeticiones por reconexión. Se creó un tutorial visual sincronizado de 20 segundos que solo el anfitrión puede omitir, cierre global de sala y controles para compartir. El banco creció de 57 a 1.500 preguntas revisadas en ocho temas seleccionables, con cambios bloqueados durante partidas y prioridad para preguntas no vistas. Todas incluyen explicación y enlace; la revelación dura diez segundos. Los resúmenes privados muestran solo respuestas incorrectas enviadas, excluyendo tiempos agotados y preguntas sin respuesta. El juego se publicó en su URL existente.",
+          "C": "La versión publicada superó 29 pruebas automatizadas y una comprobación con ocho jugadores, incluidas entradas y pulsaciones simultáneas. Las respuestas y explicaciones permanecen ocultas hasta su revelación y los resúmenes privados se borran al empezar otra partida. Las 1.500 preguntas tienen enlaces atribuidos; la reimportación reprodujo el banco revisado y conservó las correcciones. Los créditos documentan fuentes, adaptaciones y licencias. Predomina Wikipedia, con algunas fuentes oficiales; no se afirma verificación primaria independiente de cada dato. Los paquetes temáticos, la dificultad por público y nuevas funciones educativas quedan para el futuro."
+        },
+        "timeline": [
+          "Concepto y desarrollo inicial",
+          "Pruebas y análisis de problemas",
+          "Mejoras de juego, tutorial y preguntas",
+          "Validación automatizada y multijugador",
+          "Publicación y desarrollo continuo"
+        ],
+        "tools": [
+          "ChatGPT Work",
+          "Desarrollo asistido por IA",
+          "Diseño de juegos",
+          "Interacción multijugador",
+          "Diseño de experiencias de aprendizaje"
+        ],
+        "outcomes": [
+          "Juego público para 2–8 personas en móvil y ordenador",
+          "Banco ampliado de 57 a 1.500 preguntas en ocho temas",
+          "29 pruebas automatizadas y una comprobación con ocho jugadores superadas",
+          "Partidas limitadas a 2.000 puntos o 15 preguntas",
+          "Resúmenes privados; explicaciones y enlaces para las 1.500 preguntas",
+          "Tutorial visual sincronizado y gestión de sala por el anfitrión"
+        ]
       }
     }
   },
@@ -637,7 +670,10 @@
     "sundayService": "Sunday Service",
     "toolsSkills": "HERRAMIENTAS Y HABILIDADES",
     "watch": "Ver",
-    "workflow": "Workflow"
+    "workflow": "Workflow",
+    "visitProject": "Visitar",
+    "playbuzzrush": "Jugar a Buzz Rush",
+    "generatedArtwork": "Imagen promocional generada — no es una captura del juego"
   },
   "releaseCard": {
     "feature": "Feature",
