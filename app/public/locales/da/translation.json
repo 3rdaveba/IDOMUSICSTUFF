@@ -691,6 +691,62 @@
             "label": "Gennemgang og verifikationsnoter"
           }
         ]
+      },
+      "ledger": {
+        "title": "Ledger - Private regnskaber, klare beslutninger",
+        "role": "Systemarkitektur · Produktretning · Implementering med AI-assistance",
+        "description": "Ledger samler import af kontoudtog, kuvertbudgettering, afstemning og forbrugsanalyse i én HTML-fil, der fungerer offline. Jeg fastlægger produktkrav og designbeslutninger; AI-assistenter bidrager til implementering og tests. Den tiltænkte bruger ønsker at forstå og styre sine egne poster uden at forbinde en bankkonto eller drive en server. Denne case bruger fiktive data til at vise en fungerende arbejdsgang og de kontroller, der gør tallene efterprøvelige.",
+        "dmaic": {
+          "D": "Give folk mulighed for at gennemgå deres økonomi og samtidig bevare kontrollen over deres filer. Jeg fastlagde rammerne: ét selvstændigt browserprogram, ingen netværkskald, ingen browserlagring og udtrykkelig lagring og åbning af filer frem for automatisk lagring. Skabeloner til husholdning, virksomhed og en tom start understøtter forskellige strukturer. Det betyder, at brugerne selv importerer kontoudtog, gemmer deres arbejde og vedligeholder sikkerhedskopier.",
+          "M": "Den 1. oktober 2026 bestod den fastlåste kildekodeversion 1.903 assertions fordelt på 49 testfiler. I en særskilt Chromium-demonstration gav fire fiktive posteringer en slutsaldo på 2.150 dollars ud fra en startsaldo på 1.000, indtægter på 2.500 og udgifter på 1.350. Genimport af samme kontoudtog holdt antallet af posteringer på fire. Det er reproducerbare softwarekontroller, ikke målte kundebesparelser eller dokumentation for udbredelse.",
+          "A": "En kontosaldo, forbrug og disponible penge besvarer forskellige spørgsmål. Ledger tæller alle bogførte bankposteringer med i saldi, adskiller overførsler fra forbrug og behandler øremærkede midler som penge, der stadig findes, men har et formål. Opdeling fordeler et køb uden at duplikere bankposteringen. Tilbagebetalinger og månedstilknytning kræver egne regler. Designet gør forskellene synlige frem for at tvinge alle visninger til at vise samme total.",
+          "I": "Implementerede lokal kolonneopsætning til CSV og tekst med bankforvalg, kategoriseringsregler, overførsel af kuvertsaldi mellem måneder, opdeling af blandede køb, sammenkædning af tilbagebetalinger og overførsler samt afstemning af kontoudtog. Optagelsen importerer et fiktivt kontoudtog, gennemgår posteringerne, undgår dubletter og afstemmer med en difference på nul. En ændring af kontoudtogets saldo med 10 dollars afslører en afvigelse. Trends viser eksemplets indtægter og udgifter, og en downloadet regnskabsfil åbnes igen med posteringerne intakte. Det mere omfattende indbyggede eksempel viser også analyse af tilbagevendende udgifter og kuvertplanlægning.",
+          "C": "Fastholde rammerne med regressionstests, en integritetsrapport i programmet, et fejlregister og en brugervejledning, der holdes synkroniseret med Help. Browserafprøvningen registrerede ingen HTTP-anmodninger og ingen poster i lokal lagring eller sessionslagring. En fil med en nyere skemaversion blev afvist uden at ændre de indlæste poster. Brugeren skal fortsat gemme aktivt; der er ingen automatisk lagring eller samtidig redigering. Gældsfremskrivninger afhænger af deres forudsætninger, og skattevisninger organiserer bilag uden at give rådgivning. Brugerundersøgelser, distribution og priser er fortsat forslag uden godkendelse; denne case hævder ikke, at en beta eller en offentlig produktlancering er gennemført."
+        },
+        "timeline": [
+          "Produktkrav og ejerskab",
+          "Import og datamodel",
+          "Budgettering og afstemning",
+          "Regressions- og integritetskontrol",
+          "Demonstration med fiktive data"
+        ],
+        "tools": [
+          "Systemarkitektur",
+          "Produktkrav",
+          "Udvikling med AI-assistance",
+          "JavaScript",
+          "Offline arbejdsgange i browseren",
+          "Regressionstests",
+          "Brugerdokumentation"
+        ],
+        "outcomes": [
+          "1.903 assertions bestod fordelt på 49 testfiler",
+          "Fire fiktive posteringer afstemmes til 2.150 dollars med nul i difference",
+          "Dubletimport og en afvigelse på 10 dollars demonstreret",
+          "Lagring, genåbning og afvisning af nyere skema verificeret i Chromium"
+        ],
+        "media": [
+          {
+            "label": "Gennemgang af import, afstemning og lagring (på engelsk)",
+            "caption": "Faktisk skærmoptagelse · fire fiktive posteringer · på engelsk"
+          },
+          {
+            "label": "Afstemning af kontoudtog (på engelsk)",
+            "caption": "Det faktiske program · saldo på 2.150 dollars · nul i difference · fiktive data"
+          },
+          {
+            "label": "En afvigelse i kontoudtoget (på engelsk)",
+            "caption": "Det faktiske program · en bevidst afvigelse på 10 dollars · fiktive data"
+          },
+          {
+            "label": "Forbrugsanalyse (på engelsk)",
+            "caption": "Det faktiske program · indtægter på 2.500 og udgifter på 1.350 dollars · fiktive data"
+          },
+          {
+            "label": "Udforsk demoen og vejledningen",
+            "caption": "Selvstændigt program på engelsk, fiktive filer og vejledning på tre sprog"
+          }
+        ]
       }
     }
   },

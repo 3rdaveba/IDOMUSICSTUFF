@@ -691,6 +691,62 @@
             "label": "Guía y notas de verificación"
           }
         ]
+      },
+      "ledger": {
+        "title": "Ledger - Cuentas privadas, decisiones claras",
+        "role": "Arquitectura del sistema · Dirección del producto · Implementación con asistencia de IA",
+        "description": "Ledger reúne la importación de extractos, los presupuestos por sobres, la conciliación y el análisis del gasto en un único archivo HTML que funciona sin conexión. Defino los requisitos y las decisiones de diseño del producto; los asistentes de IA contribuyen a la implementación y las pruebas. Está pensado para quien quiere comprender y gestionar sus propios registros sin vincular una cuenta bancaria ni mantener un servidor. Este caso de estudio utiliza datos ficticios para mostrar un flujo funcional y las comprobaciones que permiten verificar sus cifras.",
+        "dmaic": {
+          "D": "Permitir que las personas examinen sus finanzas conservando el control de sus archivos. Establecí las condiciones: una aplicación autónoma de navegador, sin llamadas de red ni almacenamiento del navegador, y guardado y apertura explícitos en lugar de persistencia automática. Las plantillas doméstica, empresarial y vacía admiten distintas estructuras de registros. Esto exige que los usuarios importen sus extractos, guarden su trabajo y mantengan sus copias de seguridad.",
+          "M": "El 1 de octubre de 2026, la revisión de código fijada superó 1.903 aserciones en 49 archivos de pruebas. En una demostración independiente en Chromium, cuatro movimientos ficticios produjeron un saldo final de 2.150 dólares a partir de un saldo inicial de 1.000, ingresos de 2.500 y gastos de 1.350. Al volver a importar el mismo extracto, el número de movimientos se mantuvo en cuatro. Son comprobaciones reproducibles del software, no ahorros medidos de clientes ni evidencia de adopción.",
+          "A": "El saldo de una cuenta, el gasto y el dinero disponible responden a preguntas diferentes. Ledger cuenta todos los movimientos bancarios contabilizados para calcular los saldos, separa las transferencias del gasto y considera los fondos reservados como dinero que sigue existiendo pero tiene un destino. Las divisiones distribuyen una compra sin duplicar su movimiento bancario. Los reembolsos y la atribución mensual requieren reglas propias. El diseño mantiene visibles estas diferencias en lugar de exigir el mismo total en todas las vistas.",
+          "I": "Se implementaron la asignación local de columnas de CSV y texto con formatos bancarios predefinidos, reglas de categorización, arrastre de saldos de sobres, división de compras mixtas, vinculación de reembolsos y transferencias, y conciliación de extractos. El recorrido grabado importa un extracto ficticio, revisa sus movimientos, evita añadir duplicados y concilia el extracto con una diferencia de cero. Cambiar el saldo del extracto en 10 dólares revela una discrepancia. La vista Trends muestra los ingresos y gastos de ejemplo, y el archivo descargado vuelve a abrirse con sus movimientos intactos. El ejemplo integrado más amplio también muestra el análisis de costes recurrentes y la planificación por sobres.",
+          "C": "Mantener estas condiciones con pruebas de regresión, un informe de integridad dentro de la aplicación, un registro de defectos y un manual sincronizado con Help. Durante el ensayo en navegador no se observaron solicitudes HTTP ni entradas en el almacenamiento local o de sesión. Un archivo que declaraba una versión de esquema posterior fue rechazado sin cambiar los registros cargados. Guardar explícitamente sigue siendo esencial; no hay guardado automático ni edición simultánea. Las proyecciones de deuda dependen de sus supuestos y las vistas fiscales organizan registros, sin ofrecer asesoramiento. La investigación con usuarios, la distribución y los precios siguen siendo propuestas sin aprobar; este caso no afirma que se haya completado una beta ni un lanzamiento público del producto."
+        },
+        "timeline": [
+          "Condiciones del producto y responsabilidad",
+          "Importación y modelo de registros",
+          "Presupuestos y conciliación",
+          "Pruebas de regresión e integridad",
+          "Demostración con datos ficticios"
+        ],
+        "tools": [
+          "Arquitectura de sistemas",
+          "Requisitos del producto",
+          "Desarrollo con asistencia de IA",
+          "JavaScript",
+          "Flujos de navegador sin conexión",
+          "Pruebas de regresión",
+          "Documentación para usuarios"
+        ],
+        "outcomes": [
+          "1.903 aserciones superadas en 49 archivos de pruebas",
+          "Cuatro movimientos ficticios concilian a 2.150 dólares con diferencia cero",
+          "Demostración de importaciones duplicadas y una discrepancia de 10 dólares",
+          "Guardado, reapertura y rechazo de un esquema posterior verificados en Chromium"
+        ],
+        "media": [
+          {
+            "label": "Recorrido de importación, conciliación y guardado (en inglés)",
+            "caption": "Grabación real de la aplicación · cuatro movimientos ficticios · en inglés"
+          },
+          {
+            "label": "Conciliación del extracto (en inglés)",
+            "caption": "Aplicación real · saldo de 2.150 dólares · diferencia cero · datos ficticios"
+          },
+          {
+            "label": "Discrepancia en un extracto (en inglés)",
+            "caption": "Aplicación real · discrepancia deliberada de 10 dólares · datos ficticios"
+          },
+          {
+            "label": "Análisis del gasto (en inglés)",
+            "caption": "Aplicación real · ingresos de 2.500 y gastos de 1.350 dólares · datos ficticios"
+          },
+          {
+            "label": "Explorar la demostración y la guía",
+            "caption": "Aplicación autónoma en inglés, archivos ficticios e instrucciones en tres idiomas"
+          }
+        ]
       }
     }
   },

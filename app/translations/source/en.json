@@ -631,6 +631,62 @@
             "label": "Walkthrough & Verification Notes"
           }
         ]
+      },
+      "ledger": {
+        "title": "Ledger - Private Books, Clear Decisions",
+        "role": "System Architect · Product Direction · AI-Assisted Implementation",
+        "description": "Ledger brings statement imports, envelope budgeting, reconciliation, and spending analysis into one offline HTML file. I define the product requirements and design decisions; AI assistants contribute implementation and tests. The intended user wants to understand and manage their own records without linking a bank account or running a server. This case study uses fictional data to demonstrate a working workflow and the checks that keep its numbers accountable.",
+        "dmaic": {
+          "D": "Give people a way to inspect their finances while retaining control of their files. I established the constraints: one self-contained browser application, no network calls, no browser storage, and explicit save/open instead of automatic persistence. Household, business, and blank starters support different record structures. The tradeoff is deliberate: users import their statements, save their work, and maintain their own backups.",
+          "M": "On October 1, 2026, the pinned source revision passed 1,903 assertions across 49 test files. In a separate Chromium demonstration, four fictional transactions produced a closing balance of $2,150 from a $1,000 opening balance, $2,500 income, and $1,350 spending. Re-importing the same statement kept the transaction count at four. These are reproducible software checks, not measured customer savings or evidence of adoption.",
+          "A": "An account balance, spending, and money available to use answer different questions. Ledger counts all posted bank rows for balances, separates transfers from spending, and treats earmarked funds as money that still exists but has a purpose. Splits allocate a purchase without duplicating its bank row. Refunds and month attribution require their own rules. The design keeps these distinctions visible instead of forcing every view to report the same total.",
+          "I": "Implemented local CSV/text mapping with bank presets, categorization rules, envelope rollover, mixed-purchase splits, refund and transfer matching, and statement reconciliation. The recorded workflow imports a fictional statement, checks its transactions, rejects duplicate additions, and ties the statement to zero. Changing the statement balance by $10 exposes a discrepancy. Trends reports the sample income and spending, and a downloaded ledger reopens with its transactions intact. The richer built-in example also demonstrates recurring-cost analysis and envelope planning.",
+          "C": "Protect the boundaries with regression tests, an in-app integrity report, a defect register, and an operating manual kept in sync with Help. The browser rehearsal observed no HTTP requests and no local/session storage entries. A file claiming a newer schema was rejected without changing the loaded records. Explicit saving remains essential; there is no autosave or concurrent editing. Debt projections depend on their assumptions, and tax views organize records rather than provide advice. User research, distribution, and pricing remain unapproved proposals; this case study does not claim a completed beta or public product launch."
+        },
+        "timeline": [
+          "Product Constraints & Ownership",
+          "Import & Record Model",
+          "Budgeting & Reconciliation",
+          "Regression & Integrity Checks",
+          "Fictional Workflow Demonstration"
+        ],
+        "tools": [
+          "System Architecture",
+          "Product Requirements",
+          "AI-Assisted Development",
+          "JavaScript",
+          "Offline Browser Workflows",
+          "Regression Testing",
+          "User Documentation"
+        ],
+        "outcomes": [
+          "1,903 assertions passed across 49 test files",
+          "Four fictional records reconcile to $2,150 with a zero difference",
+          "Duplicate imports and a $10 statement discrepancy demonstrated",
+          "Save/reopen and newer-schema rejection verified in Chromium"
+        ],
+        "media": [
+          {
+            "label": "Import, reconciliation & save walkthrough (English)",
+            "caption": "Actual application recording · four fictional records · English"
+          },
+          {
+            "label": "Statement reconciliation (English)",
+            "caption": "Actual application · $2,150 balance · zero difference · fictional data"
+          },
+          {
+            "label": "A statement discrepancy (English)",
+            "caption": "Actual application · a deliberately introduced $10 mismatch · fictional data"
+          },
+          {
+            "label": "Spending analysis (English)",
+            "caption": "Actual application · $2,500 income and $1,350 spending · fictional data"
+          },
+          {
+            "label": "Explore the demo & walkthrough",
+            "caption": "Standalone English app, fictional fixtures, and instructions in three languages"
+          }
+        ]
       }
     },
     "films": {

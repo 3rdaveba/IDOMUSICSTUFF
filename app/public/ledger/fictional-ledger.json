@@ -1,0 +1,266 @@
+{
+  "v": 1,
+  "accounts": [
+    {
+      "id": "620009bwy5u4",
+      "name": "Demo checking",
+      "type": "checking",
+      "opening": 1000,
+      "limit": null
+    }
+  ],
+  "txns": [
+    {
+      "id": "ecddpyw8yaeh",
+      "acct": "620009bwy5u4",
+      "date": "2026-09-01",
+      "desc": "PAYROLL DEMO ONLY",
+      "amount": 2500,
+      "cat": "Uncategorized",
+      "owner": "",
+      "ownerManual": false,
+      "note": "",
+      "status": "",
+      "cleared": true
+    },
+    {
+      "id": "h7wp4ptbyaeh",
+      "acct": "620009bwy5u4",
+      "date": "2026-09-02",
+      "desc": "RENT PAYMENT DEMO ONLY",
+      "amount": -1200,
+      "cat": "Housing: Mortgage or Rent",
+      "owner": "",
+      "ownerManual": false,
+      "note": "",
+      "status": "",
+      "cleared": true
+    },
+    {
+      "id": "7lm2r7vuyaeh",
+      "acct": "620009bwy5u4",
+      "date": "2026-09-03",
+      "desc": "WHOLE FOODS DEMO ONLY",
+      "amount": -85.5,
+      "cat": "Household Items: Groceries",
+      "owner": "",
+      "ownerManual": false,
+      "note": "",
+      "status": "",
+      "cleared": true
+    },
+    {
+      "id": "pbnpbmyhyaeh",
+      "acct": "620009bwy5u4",
+      "date": "2026-09-04",
+      "desc": "EDISON DEMO ONLY",
+      "amount": -64.5,
+      "cat": "Utilities: Electric",
+      "owner": "",
+      "ownerManual": false,
+      "note": "",
+      "status": "",
+      "cleared": true
+    }
+  ],
+  "rules": [
+    {
+      "match": "mortgage|mtg pmt|loan servicing",
+      "cat": "Housing: Mortgage or Rent"
+    },
+    {
+      "match": "supercharg*|tesla superch*|evgo|electrify america|chargepoint|blink charg*|ev charg*",
+      "cat": "Transportation: Charging"
+    },
+    {
+      "match": "chevron|shell|arco|76|exxon*|mobil|circle k|valero|gas station",
+      "cat": "Transportation: Gas"
+    },
+    {
+      "match": "dmv|dept of motor",
+      "cat": "Transportation: Registration & Fees"
+    },
+    {
+      "match": "car wash|carwash",
+      "cat": "Transportation: Car Washes"
+    },
+    {
+      "match": "socalgas|so cal gas|natural gas",
+      "cat": "Utilities: Natural Gas"
+    },
+    {
+      "match": "edison|duke energy|pg&e|con ed*|electric co*|power co*",
+      "cat": "Utilities: Electric"
+    },
+    {
+      "match": "gardener*|landscap*|lawn care",
+      "cat": "Utilities: Yard Service"
+    },
+    {
+      "match": "verizon*|at&t|at & t|t-mobile|tmobile|sprint",
+      "cat": "Utilities: Phone"
+    },
+    {
+      "match": "spectrum|xfinity|comcast|frontier",
+      "cat": "Utilities: Internet"
+    },
+    {
+      "match": "adt|simplisafe|vivint|ring alarm",
+      "cat": "Utilities: Security System"
+    },
+    {
+      "match": "geico|state farm|progressive|allstate|farmers ins*",
+      "cat": "Insurance: Auto Insurance"
+    },
+    {
+      "match": "ralphs|vons|whole foods|trader joe|sprouts|albertson*|safeway|smart & final|smart and final|kroger|publix|wegmans|costco whse|costco wholesale",
+      "cat": "Household Items: Groceries"
+    },
+    {
+      "match": "cleaning|housekeep*|molly maid*|merry maid*",
+      "cat": "Household Items: Cleaning Services"
+    },
+    {
+      "match": "doordash|grubhub|ubereats|uber eats|postmates|burger|mcdonald*|habit|chipotle|starbucks|see's|sees candy|chick-fil|panera|in-n-out|in n out|restaurant*|pizza|taco|grill|cafe|coffee",
+      "cat": "Entertainment: Dining Out"
+    },
+    {
+      "match": "daycare|day care|kindercare|bright horizons|childcare|child care",
+      "cat": "Education: Daycare Tuition"
+    },
+    {
+      "match": "petco|petsmart|chewy|vca|banfield",
+      "cat": "Pets: Vet Visits"
+    }
+  ],
+  "payeeRules": [],
+  "splitTemplates": [],
+  "people": [],
+  "pplRules": [],
+  "funds": [],
+  "goals": [],
+  "schedules": [],
+  "taxMap": {},
+  "budget": [
+    [
+      "Housing",
+      [
+        "Mortgage or Rent"
+      ]
+    ],
+    [
+      "Transportation",
+      [
+        "Car Loan #1",
+        "Vehicle Subscription (Annual)",
+        "Charging",
+        "Registration & Fees",
+        "Gas",
+        "Car Washes",
+        "Repairs",
+        "Maintenance"
+      ]
+    ],
+    [
+      "Medical",
+      [
+        "Office Visits",
+        "Dental",
+        "Glasses/Contacts",
+        "Specialty Care",
+        "Medications",
+        "Medical Devices"
+      ]
+    ],
+    [
+      "Utilities",
+      [
+        "Natural Gas",
+        "Electric",
+        "Yard Service",
+        "Phone",
+        "Internet",
+        "Security System"
+      ]
+    ],
+    [
+      "Personal",
+      [
+        "Adult 1",
+        "Adult 2",
+        "Child 1",
+        "Child 1 Activities",
+        "Child 2"
+      ]
+    ],
+    [
+      "Entertainment",
+      [
+        "Streaming (Annual)",
+        "Smart Home (Annual)",
+        "Credit Card Fee (Annual)",
+        "Dining Out",
+        "Dates"
+      ]
+    ],
+    [
+      "Household Items",
+      [
+        "Groceries",
+        "Toiletries, Personal Supplies",
+        "Cleaning Services"
+      ]
+    ],
+    [
+      "Giving",
+      [
+        "Charities",
+        "Sponsorship",
+        "Gifts",
+        "Christmas Fund",
+        "Birthday Fund",
+        "Anniversary Fund"
+      ]
+    ],
+    [
+      "Pets",
+      [
+        "Vet Visits",
+        "Food",
+        "Medicine"
+      ]
+    ],
+    [
+      "Insurance",
+      [
+        "Auto Insurance",
+        "Home Insurance",
+        "Life Insurance",
+        "Disability Insurance",
+        "LTC Insurance"
+      ]
+    ],
+    [
+      "Debt Reduction",
+      [
+        "Student Loan 1",
+        "Student Loan 2",
+        "Personal Loan"
+      ]
+    ],
+    [
+      "Education",
+      [
+        "Daycare Tuition",
+        "School Tuition",
+        "After-school Care"
+      ]
+    ]
+  ],
+  "budgetAmounts": {},
+  "budgetOverrides": {},
+  "budgetMoves": {},
+  "overageCoverage": {},
+  "envelopeStarts": {},
+  "build": "2026-07-30"
+}

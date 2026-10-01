@@ -323,7 +323,7 @@ export default function ProjectDetail() {
                       <div className="flex-1 min-w-0">
                         <div className="flex items-baseline gap-2 mb-1">
                           <span className="text-xs font-semibold uppercase tracking-wider" style={{ color: 'var(--text-primary)' }}>
-                            {['prima', 'knwn'].includes(project.id) ? t(`projectDetail.dmaic${step.label}`) : t(`projectDetail.dmaic${key}`)}
+                            {['prima', 'knwn', 'ledger'].includes(project.id) ? t(`projectDetail.dmaic${step.label}`) : t(`projectDetail.dmaic${key}`)}
                           </span>
                           <span className="text-[11px] italic" style={{ color: 'var(--text-tertiary)' }}>
                             {t(`projectDetail.dmaicQuestion${key}`)}
@@ -484,7 +484,7 @@ export default function ProjectDetail() {
                   )}
                   {item.caption && (
                     <span className="absolute bottom-0 inset-x-0 bg-black/80 px-2 py-2 text-[10px] leading-snug text-white">
-                      {['prima', 'knwn'].includes(project.id) ? item.caption : t('projectDetail.generatedArtwork', { defaultValue: item.caption })}
+                      {['prima', 'knwn', 'ledger'].includes(project.id) ? item.caption : t('projectDetail.generatedArtwork', { defaultValue: item.caption })}
                     </span>
                   )}
                   {!item.src && item.type !== 'link-slot' && (
