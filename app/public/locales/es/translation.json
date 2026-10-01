@@ -564,6 +564,74 @@
           "Resúmenes privados; explicaciones y enlaces para las 1.500 preguntas",
           "Tutorial visual sincronizado y gestión de sala por el anfitrión"
         ]
+      },
+      "prima": {
+        "title": "Prima — Gestión de proyectos con asistencia de IA",
+        "role": "Responsable del proyecto y arquitecto de sistemas · Implementación con asistencia de IA",
+        "description": "Prima aporta un marco de gestión tanto a proyectos nuevos como a proyectos existentes que utilizan asistencia de IA. Puedes iniciar un proyecto con prima init o usar prima adopt para incorporar ese marco a un trabajo en curso. Ambas opciones hacen explícitos el alcance, las responsabilidades, las decisiones y los criterios de aceptación. Definí el propósito y los límites del proyecto, aprobé su base y tomé decisiones clave sobre el producto; los asistentes de IA contribuyeron a la implementación y la documentación. Las grabaciones muestran ambos flujos implementados con proyectos locales ficticios. Según el estado del repositorio, el lanzamiento público y la ejecución del estudio siguen pendientes.",
+        "dmaic": {
+          "D": "Ofrecer a quienes desarrollan proyectos por su cuenta una forma repetible de gestionar el trabajo con asistencia de IA, tanto al empezar de cero como al organizar un proyecto existente. Definir un responsable, un documento inicial, exclusiones del alcance, paquetes de trabajo, puntos de aceptación y registros de decisiones. Aprobé la base y conservé la autoridad final sobre el alcance y la aceptación. Prima genera archivos que un agente puede leer; no ejecuta al agente ni garantiza el cumplimiento.",
+          "M": "Usar evidencia del desarrollo antes de afirmar resultados. El 1 de octubre de 2026, una nueva ejecución local superó las 106 pruebas del repositorio; una ejecución específica también superó las 10 pruebas de adopción. Los flujos ficticios grabados ejercitan la creación de proyectos nuevos y la incorporación de proyectos existentes. Las comprobaciones cubren el rechazo y la confirmación de reparaciones, la conservación de las huellas digitales de los archivos existentes y de los archivos de Git, y el rechazo de una adopción con conflictos sin escribir cambios. Son comprobaciones de software, no mediciones de adopción por clientes ni de productividad.",
+          "A": "Empezar de cero e incorporar un marco de gestión más tarde requieren precauciones distintas. Un proyecto nuevo puede recibir una estructura completa; en uno existente hay que conservar el código, la documentación y el estado de Git. La adopción registra que el marco se añadió después y deja sin marcar los puntos de revisión. Un validador puede comprobar la estructura, pero no determinar si las decisiones o las afirmaciones de aceptación son verdaderas. Elegí limitar la reparación a archivos ausentes, con vista previa y confirmación; la implementación la restringe a cuatro funciones de archivo predefinidas. También retiré una propuesta de servicio de gestión de marcas de agua para evitar su carga operativa.",
+          "I": "Se implementaron dos vías de entrada: prima init crea un directorio de proyecto nuevo con su estructura de gestión; prima adopt añade un conjunto seleccionado de archivos de gestión a un proyecto existente sin sustituir su código, pruebas, README ni registro de cambios. Ambas permiten después validar la estructura y generar informes HTML. La grabación del proyecto nuevo muestra un archivo de instrucciones ausente, una reparación rechazada y otra confirmada. La del proyecto existente ejecuta un programa y una prueba sintéticos antes de la adopción, verifica después las huellas digitales de los archivos originales y muestra el rechazo de una adopción con conflictos.",
+          "C": "Mantener las decisiones, la evidencia de aceptación y las limitaciones disponibles para revisión. La CLI está en la versión 0.11.0; el trabajo de lanzamiento está aprobado, pero no iniciado según el estado actual del repositorio. Ambos proyectos grabados conservan cinco puntos de revisión sin marcar incluso cuando la validación estructural se supera. La adopción no combina archivos de gestión en conflicto ni aprueba trabajo anterior; la validación sigue exigiendo los documentos previstos y un repositorio Git en main. El servicio de marcas de agua nunca se desplegó y su propuesta quedó sustituida. El estudio de eficacia tiene un diseño, pero no resultados. El total de 106 pruebas incluye código conservado de un servicio inactivo; no acredita un servicio en producción."
+        },
+        "timeline": [
+          "Propósito y alcance",
+          "Flujos para proyectos nuevos y existentes",
+          "Informes y reparación confirmada",
+          "Revisión del alcance operativo",
+          "Verificación local para el portafolio"
+        ],
+        "tools": [
+          "Definición de requisitos",
+          "Diseño de flujos de trabajo",
+          "Criterios de aceptación",
+          "Desarrollo con asistencia de IA",
+          "CLI de Python",
+          "pytest",
+          "Guías de uso"
+        ],
+        "outcomes": [
+          "Dos vías implementadas: crear la estructura de proyectos nuevos o añadir un marco de gestión a los existentes",
+          "106 pruebas del repositorio superadas; 10 pruebas de adopción superadas en una ejecución específica el 1 de octubre de 2026",
+          "Grabaciones reales de pantalla verifican las decisiones de reparación, la conservación de archivos existentes y el rechazo de conflictos",
+          "Decisiones del responsable y contribuciones de IA documentadas; lanzamiento público y evidencia de impacto pendientes"
+        ],
+        "streaming": [
+          "Guía de capacidades (en inglés)",
+          "Guía de la CLI (en inglés)"
+        ],
+        "media": [
+          {
+            "label": "Grabación de un proyecto nuevo (en inglés)",
+            "caption": "Proyecto nuevo · prima init · demostración local ficticia · grabación en inglés"
+          },
+          {
+            "label": "Grabación de un proyecto existente (en inglés)",
+            "caption": "Proyecto existente · prima adopt · demostración local ficticia · grabación en inglés"
+          },
+          {
+            "label": "Informe real de una demostración ficticia (en inglés)",
+            "caption": "Captura de un informe real · proyecto ficticio · solo comprobaciones estructurales · en inglés"
+          },
+          {
+            "label": "Fallo por falta de instrucciones (en inglés)",
+            "caption": "Informe real de fallo · proyecto ficticio · en inglés"
+          },
+          {
+            "label": "Guía y salida de la CLI (en inglés)"
+          },
+          {
+            "label": "Ejemplo de informe HTML de auditoría (en inglés)"
+          },
+          {
+            "label": "Guía para proyectos nuevos y existentes (en inglés)"
+          },
+          {
+            "label": "Transcripciones de las grabaciones (en inglés)"
+          }
+        ]
       }
     }
   },
@@ -673,7 +741,8 @@
     "workflow": "Workflow",
     "visitProject": "Visitar",
     "playbuzzrush": "Jugar a Buzz Rush",
-    "generatedArtwork": "Imagen promocional generada — no es una captura del juego"
+    "generatedArtwork": "Imagen promocional generada — no es una captura del juego",
+    "close": "Cerrar"
   },
   "releaseCard": {
     "feature": "Feature",

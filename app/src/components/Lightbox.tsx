@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
+import { useTranslation } from 'react-i18next'
 import { X, ChevronLeft, ChevronRight } from 'lucide-react'
 import type { MediaItem } from '@/data/projects'
 
@@ -9,6 +10,7 @@ interface LightboxProps {
 }
 
 export default function Lightbox({ items, initialIndex, onClose }: LightboxProps) {
+  const { t } = useTranslation()
   const [index, setIndex] = useState(initialIndex)
 
   const current = items[index]
@@ -56,7 +58,7 @@ export default function Lightbox({ items, initialIndex, onClose }: LightboxProps
         }}
         className="absolute top-4 right-4 md:top-6 md:right-6 z-10 p-2 rounded-full transition-colors hover:bg-white/10"
         style={{ color: 'var(--text-primary)' }}
-        aria-label="Close"
+        aria-label={t('projectDetail.close')}
       >
         <X size={28} />
       </button>
@@ -70,7 +72,7 @@ export default function Lightbox({ items, initialIndex, onClose }: LightboxProps
           }}
           className="absolute left-2 md:left-6 z-10 p-2 rounded-full transition-colors hover:bg-white/10"
           style={{ color: 'var(--text-primary)' }}
-          aria-label="Previous"
+          aria-label={t('projectDetail.previous')}
         >
           <ChevronLeft size={36} />
         </button>
@@ -85,7 +87,7 @@ export default function Lightbox({ items, initialIndex, onClose }: LightboxProps
           }}
           className="absolute right-2 md:right-6 z-10 p-2 rounded-full transition-colors hover:bg-white/10"
           style={{ color: 'var(--text-primary)' }}
-          aria-label="Next"
+          aria-label={t('projectDetail.next')}
         >
           <ChevronRight size={36} />
         </button>

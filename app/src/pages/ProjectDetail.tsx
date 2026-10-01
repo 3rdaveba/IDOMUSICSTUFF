@@ -27,8 +27,9 @@ export default function ProjectDetail() {
   const navigate = useNavigate()
   const { t } = useTranslation()
   const project = getProjectById(id || '')
-  const pageTitle = project ? `${project.title} | Project` : 'Project'
-  const pageDesc = project?.description || 'Project details'
+  const projectTitle = project ? t(`data.projects.${project.id}.title`, { defaultValue: project.title }) : ''
+  const pageTitle = project ? `${projectTitle} | Project` : 'Project'
+  const pageDesc = project ? t(`data.projects.${project.id}.description`, { defaultValue: project.description }) : 'Project details'
   const { prev, next } = getAdjacentProjects(id || '')
 
   const heroRef = useRef<HTMLDivElement>(null)
@@ -39,9 +40,15 @@ export default function ProjectDetail() {
 
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null)
 
-  const lightboxItems = project?.media?.items.filter(
+  const mediaItems = project?.media?.items.map((item, i) => ({
+    ...item,
+    label: t(`data.projects.${project.id}.media.${i}.label`, { defaultValue: t(`projectDetail.${item.label.toLowerCase().replace(/\s+/g, '')}`, { defaultValue: item.label }) }),
+    caption: item.caption ? t(`data.projects.${project.id}.media.${i}.caption`, { defaultValue: item.caption }) : undefined,
+  })) ?? []
+
+  const lightboxItems = mediaItems.filter(
     (item) => (item.type === 'photo-slot' || item.type === 'video-slot') && item.src
-  ) ?? []
+  )
 
   useEffect(() => {
     if (lenisInstance) {
@@ -118,7 +125,7 @@ export default function ProjectDetail() {
             className="w-full h-full object-cover"
           />
         ) : (
-          <img src={project.heroImage} alt={project.title} className="w-full h-full object-cover" />
+          <img src={project.heroImage} alt={projectTitle} className="w-full h-full object-cover" />
         )}
         <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(10,9,8,0.2) 0%, rgba(10,9,8,0.85) 100%)' }} />
 
@@ -146,7 +153,7 @@ export default function ProjectDetail() {
             {t('projectDetail.breadcrumbWork')}
           </button>
           <span style={{ color: 'var(--text-tertiary)' }}>/</span>
-          <span style={{ color: 'var(--text-primary)' }}>{project.title}</span>
+          <span style={{ color: 'var(--text-primary)' }}>{projectTitle}</span>
         </nav>
 
       </div>
@@ -159,7 +166,7 @@ export default function ProjectDetail() {
               className="font-display text-3xl md:text-5xl font-bold leading-tight"
               style={{ color: 'var(--text-primary)', letterSpacing: '-0.01em' }}
             >
-              {project.title}
+              {projectTitle}
             </h1>
             <p className="mt-2 text-base md:text-lg font-light" style={{ color: 'var(--text-secondary)' }}>
               {t(`data.projects.${project.id}.role`, { defaultValue: project.role })}
@@ -170,9 +177,9 @@ export default function ProjectDetail() {
               <span className="text-xs font-medium uppercase tracking-wider" style={{ color: 'var(--text-tertiary)' }}>
                 {project.category === 'systems' ? t('projectDetail.visitProject') : t('projectDetail.listen')}:
               </span>
-              {project.streaming.map((link) => (
+              {project.streaming.map((link, i) => (
                 <a
-                  key={link.platform}
+                  key={t(`data.projects.${project.id}.streaming.${i}`, { defaultValue: link.platform })}
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -183,7 +190,7 @@ export default function ProjectDetail() {
                     border: '1px solid var(--border-color)',
                   }}
                 >
-                  {link.platform}
+                  {t(`data.projects.${project.id}.streaming.${i}`, { defaultValue: link.platform })}
                   <ExternalLink size={12} />
                 </a>
               ))}
@@ -316,7 +323,7 @@ export default function ProjectDetail() {
                       <div className="flex-1 min-w-0">
                         <div className="flex items-baseline gap-2 mb-1">
                           <span className="text-xs font-semibold uppercase tracking-wider" style={{ color: 'var(--text-primary)' }}>
-                            {project.id === 'prima' ? t(`projectDetail.dmaic${step.label}`) : t(`projectDetail.dmaic${key}`)}
+                            {['prima', 'knwn'].includes(project.id) ? t(`projectDetail.dmaic${step.label}`) : t(`projectDetail.dmaic${key}`)}
                           </span>
                           <span className="text-[11px] italic" style={{ color: 'var(--text-tertiary)' }}>
                             {t(`projectDetail.dmaicQuestion${key}`)}
@@ -357,7 +364,7 @@ export default function ProjectDetail() {
                       className="text-[11px] font-medium text-center leading-tight"
                       style={{ color: 'var(--text-secondary)' }}
                     >
-                      {t(`data.projects.${project.id}.timeline[${i}]`, { defaultValue: event.label })}
+                      {t(`data.projects.${project.id}.timeline.${i}`, { defaultValue: event.label })}
                     </span>
                   </div>
                   {i < project.timeline.length - 1 && (
@@ -389,7 +396,7 @@ export default function ProjectDetail() {
                       border: '1px solid var(--border-color)',
                     }}
                   >
-                    {t(`data.projects.${project.id}.tools[${i}]`, { defaultValue: tool })}
+                    {t(`data.projects.${project.id}.tools.${i}`, { defaultValue: tool })}
                   </span>
                 ))}
               </div>
@@ -408,7 +415,7 @@ export default function ProjectDetail() {
                   <div key={i} className="flex items-start gap-3">
                     <CheckCircle2 size={14} className="flex-shrink-0 mt-0.5" style={{ color: 'var(--accent-amber)' }} />
                     <span className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                      {t(`data.projects.${project.id}.outcomes[${i}]`, { defaultValue: outcome })}
+                      {t(`data.projects.${project.id}.outcomes.${i}`, { defaultValue: outcome })}
                     </span>
                   </div>
                 ))}
@@ -424,7 +431,7 @@ export default function ProjectDetail() {
               {t('projectDetail.mediaResources')}
             </span>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-              {project.media.items.map((item, i) => (
+              {mediaItems.map((item, i) => (
                 <div
                   key={i}
                   className={`group relative overflow-hidden rounded-md transition-all duration-200 hover:border-[var(--accent-amber)] ${item.src && item.type !== 'link-slot' ? 'cursor-pointer' : ''}`}
@@ -477,7 +484,7 @@ export default function ProjectDetail() {
                   )}
                   {item.caption && (
                     <span className="absolute bottom-0 inset-x-0 bg-black/80 px-2 py-2 text-[10px] leading-snug text-white">
-                      {project.id === 'prima' ? item.caption : t('projectDetail.generatedArtwork', { defaultValue: item.caption })}
+                      {['prima', 'knwn'].includes(project.id) ? item.caption : t('projectDetail.generatedArtwork', { defaultValue: item.caption })}
                     </span>
                   )}
                   {!item.src && item.type !== 'link-slot' && (
@@ -522,7 +529,7 @@ export default function ProjectDetail() {
                     {t('projectDetail.previous')}
                   </span>
                   <span className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>
-                    {prev.title}
+                    {t(`data.projects.${prev.id}.title`, { defaultValue: prev.title })}
                   </span>
                 </div>
               </button>
@@ -540,7 +547,7 @@ export default function ProjectDetail() {
                     {t('projectDetail.next')}
                   </span>
                   <span className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>
-                    {next.title}
+                    {t(`data.projects.${next.id}.title`, { defaultValue: next.title })}
                   </span>
                 </div>
                 <ArrowRight size={20} style={{ color: 'var(--text-tertiary)' }} className="group-hover:text-[var(--accent-amber)] transition-colors flex-shrink-0" />

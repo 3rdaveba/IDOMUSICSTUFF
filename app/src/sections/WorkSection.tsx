@@ -88,7 +88,7 @@ export default function WorkSection() {
                   <ProjectCard
                     key={project.id}
                     number={`0${i + 1}`}
-                    title={project.title}
+                    title={t(`data.projects.${project.id}.title`, { defaultValue: project.title })}
                     description={t(`data.projects.${project.id}.description`, { defaultValue: project.description })}
                     image={project.heroImage}
                     projectId={project.id}
@@ -119,7 +119,7 @@ export default function WorkSection() {
               <ProjectCard
                 key={project.id}
                 number={`0${i + 1}`}
-                title={project.title}
+                title={t(`data.projects.${project.id}.title`, { defaultValue: project.title })}
                 description={t(`data.projects.${project.id}.description`, { defaultValue: project.description })}
                 image={project.heroImage}
                 projectId={project.id}

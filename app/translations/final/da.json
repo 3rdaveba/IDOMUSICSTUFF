@@ -564,6 +564,74 @@
           "Private opsummeringer; forklaringer og links til alle 1.500 spørgsmål",
           "Synkroniseret visuel introduktion og værtsstyrede rum"
         ]
+      },
+      "prima": {
+        "title": "Prima — Styring af projekter med AI-assistance",
+        "role": "Projektejer og systemarkitekt · Implementering med AI-assistance",
+        "description": "Prima giver både nye og eksisterende projekter med AI-assistance en ramme for projektstyring. Start et nyt projekt med prima init, eller brug prima adopt til at føje styring til et igangværende projekt. Begge muligheder tydeliggør omfang, ansvar, beslutninger og acceptkriterier. Jeg definerede projektets formål og afgrænsning, godkendte fundamentet og traf centrale produktbeslutninger; AI-assistenter bidrog til implementering og dokumentation. Optagelserne viser begge implementerede arbejdsgange med fiktive lokale projekter. Ifølge repositoryets status afventer den offentlige lancering og gennemførelsen af undersøgelsen stadig.",
+        "dmaic": {
+          "D": "Give selvstændige udviklere en gentagelig måde at styre arbejde med AI-assistance på, både når de starter fra bunden og organiserer et eksisterende projekt. Definere en ejer, et projektgrundlag, afgrænsninger, arbejdspakker, godkendelsespunkter og beslutningsregistre. Jeg godkendte fundamentet og beholdt den endelige beslutningsret over omfang og accept. Prima opretter filer, som en agent kan læse; værktøjet kører ikke agenten og garanterer ikke, at reglerne bliver fulgt.",
+          "M": "Bruge dokumentation fra udviklingen, før der fremsættes påstande om effekt. Den 1. oktober 2026 bestod alle 106 tests i repositoryet ved en ny lokal kørsel; alle 10 adoptionstests bestod også ved en særskilt genkørsel. De optagede fiktive arbejdsgange afprøver oprettelse af nye projekter og tilføjelse af styring til eksisterende projekter. Kontrollerne omfatter afvist og bekræftet reparation, bevarelse af eksisterende filers hashværdier og Git-filer samt afvisning af en adoption med konflikter uden at skrive ændringer. Det er softwarekontroller, ikke målinger af kunders brug eller produktivitet.",
+          "A": "At starte fra bunden og tilføje projektstyring senere kræver forskellige forholdsregler. Et nyt projekt kan få en komplet grundstruktur; et eksisterende projekt skal bevare sin kode, dokumentation og Git-tilstand. Adoption registrerer, at styringen blev tilføjet senere, og lader kontrolpunkterne stå uden godkendelse. En validator kan kontrollere strukturen, men ikke fastslå, om beslutninger eller påstande om godkendelse er sande. Jeg valgte kun at reparere manglende filer med forhåndsvisning og bekræftelse; implementeringen begrænser det til fire foruddefinerede filroller. Jeg trak også et foreslået servicetilbud til håndtering af vandmærker tilbage for at undgå driftsbyrden.",
+          "I": "Implementeret to indgange: prima init opretter en ny projektmappe med en struktur til projektstyring; prima adopt tilføjer et udvalgt sæt styringsfiler til et eksisterende projekt uden at erstatte kode, tests, README eller ændringslog. Begge kan derefter bruge strukturvalidering og HTML-rapporter. Optagelsen af det nye projekt viser en manglende instruktionsfil, en afvist reparation og en bekræftet reparation. Optagelsen af det eksisterende projekt kører et syntetisk program og en test før adoptionen, kontrollerer de oprindelige filers hashværdier bagefter og viser afvisning af en adoption med konflikter.",
+          "C": "Holde beslutninger, dokumentation for accept og begrænsninger tilgængelige for gennemgang. CLI-versionen er 0.11.0; arbejdet med lancering er godkendt, men endnu ikke startet ifølge repositoryets aktuelle status. Begge optagede projekter har fortsat fem kontrolpunkter uden godkendelse, selv når strukturvalideringen består. Adoption sammenfletter ikke styringsfiler med konflikter og godkender ikke tidligere arbejde; valideringen kræver stadig de forventede dokumenter og et Git-repository på main. Vandmærketjenesten blev aldrig sat i drift, og forslaget er erstattet. Effektundersøgelsen har et design, men ingen resultater. De 106 tests omfatter bevaret kode til en inaktiv tjeneste og er ikke dokumentation for en produktionstjenestes sikkerhed."
+        },
+        "timeline": [
+          "Formål og omfang",
+          "Arbejdsgange for nye og eksisterende projekter",
+          "Rapporter og bekræftet reparation",
+          "Gennemgang af driftsomfang",
+          "Lokal verifikation til porteføljen"
+        ],
+        "tools": [
+          "Kravdefinition",
+          "Design af arbejdsgange",
+          "Acceptkriterier",
+          "Udvikling med AI-assistance",
+          "Python-CLI",
+          "pytest",
+          "Brugergennemgange"
+        ],
+        "outcomes": [
+          "To implementerede indgange: opret en grundstruktur til nye projekter, eller føj styring til eksisterende projekter",
+          "106 tests i repositoryet bestod; 10 adoptionstests bestod ved en særskilt genkørsel den 1. oktober 2026",
+          "Faktiske skærmoptagelser verificerer reparationsbeslutninger, bevarelse af eksisterende filer og afvisning af konflikter",
+          "Ejerens beslutninger og AI-bidrag er dokumenteret; offentlig lancering og dokumentation for effekt afventer"
+        ],
+        "streaming": [
+          "Funktionsguide (på engelsk)",
+          "CLI-gennemgang (på engelsk)"
+        ],
+        "media": [
+          {
+            "label": "Skærmoptagelse af et nyt projekt (på engelsk)",
+            "caption": "Nyt projekt · prima init · fiktiv lokal demo · optagelse på engelsk"
+          },
+          {
+            "label": "Skærmoptagelse af et eksisterende projekt (på engelsk)",
+            "caption": "Eksisterende projekt · prima adopt · fiktiv lokal demo · optagelse på engelsk"
+          },
+          {
+            "label": "Faktisk rapport fra en fiktiv demo (på engelsk)",
+            "caption": "Skærmbillede af faktisk rapport · fiktivt projekt · kun strukturkontrol · på engelsk"
+          },
+          {
+            "label": "Fejl ved manglende instruktioner (på engelsk)",
+            "caption": "Faktisk fejlrapport · fiktivt projekt · på engelsk"
+          },
+          {
+            "label": "Gennemgang og CLI-output (på engelsk)"
+          },
+          {
+            "label": "Eksempel på HTML-kontrolrapport (på engelsk)"
+          },
+          {
+            "label": "Guide til nye og eksisterende projekter (på engelsk)"
+          },
+          {
+            "label": "Transskriptioner af optagelserne (på engelsk)"
+          }
+        ]
       }
     }
   },
@@ -673,7 +741,8 @@
     "workflow": "Workflow",
     "visitProject": "Besøg",
     "playbuzzrush": "Spil Buzz Rush",
-    "generatedArtwork": "Genereret reklamegrafik — ikke et skærmbillede fra spillet"
+    "generatedArtwork": "Genereret reklamegrafik — ikke et skærmbillede fra spillet",
+    "close": "Luk"
   },
   "releaseCard": {
     "feature": "Feature",
