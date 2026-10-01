@@ -1,10 +1,10 @@
 {
   "about": {
-    "bio1": "Jeg forbinder kreativ produktion med de mennesker, processer og tekniske systemer, der skal til for at føre den ud i livet. Min erfaring spænder over underholdning, teknologi, hotelbranchen og videregående uddannelse—fra indspilninger og liveoptrædener til globale firmaevents. I dag understøtter jeg Netflix gennem Milestone Technologies og koordinerer support til events på tværs af globale markeder.",
+    "bio1": "Jeg forbinder kreativ produktion med de mennesker, processer og tekniske systemer, der skal til for at føre den ud i livet. Min erfaring spænder over underholdning, teknologi, hotelbranchen og videregående uddannelse-fra indspilninger og liveoptrædener til globale firmaevents. I dag understøtter jeg Netflix gennem Milestone Technologies og koordinerer support til events på tværs af globale markeder.",
     "bio2": "Mit arbejde handler om at understøtte kreative visioner og føre projekter fra idé til færdigt resultat med omtanke og omhu. Jeg trækker på erfaring fra forskellige fagområder for at forbinde idéer, løse problemer og udvikle praktiske måder at arbejde på. Denne portfolio giver et nærmere indblik i de projekter, jeg har bidraget til, og tankerne bag dem.",
     "headline": "Hej! Jeg hedder William, og jeg er kreativ systemarkitekt.",
     "signature": "Jeg glæder mig til at udforske, hvordan vi kan samarbejde!",
-    "signatureName": "— William \"B.A.\" Washington"
+    "signatureName": "- William \"B.A.\" Washington"
   },
   "artistWork": {
     "aboutTheArtist": "OM ARTISTEN",
@@ -225,7 +225,7 @@
           }
         ],
         "recognition": "GRAMMY® Award Winner",
-        "role": "Featured Vocalist — Original Motion Picture Soundtrack"
+        "role": "Featured Vocalist - Original Motion Picture Soundtrack"
       }
     },
     "projects": {
@@ -566,7 +566,7 @@
         ]
       },
       "prima": {
-        "title": "Prima — Styring af projekter med AI-assistance",
+        "title": "Prima - Styring af projekter med AI-assistance",
         "role": "Projektejer og systemarkitekt · Implementering med AI-assistance",
         "description": "Prima giver både nye og eksisterende projekter med AI-assistance en ramme for projektstyring. Start et nyt projekt med prima init, eller brug prima adopt til at føje styring til et igangværende projekt. Begge muligheder tydeliggør omfang, ansvar, beslutninger og acceptkriterier. Jeg definerede projektets formål og afgrænsning, godkendte fundamentet og traf centrale produktbeslutninger; AI-assistenter bidrog til implementering og dokumentation. Optagelserne viser begge implementerede arbejdsgange med fiktive lokale projekter. Ifølge repositoryets status afventer den offentlige lancering og gennemførelsen af undersøgelsen stadig.",
         "dmaic": {
@@ -630,6 +630,65 @@
           },
           {
             "label": "Transskriptioner af optagelserne (på engelsk)"
+          }
+        ]
+      },
+      "knwn": {
+        "title": "KNWN - Musikkatalog og arbejdsgange til levering",
+        "role": "Projektejer · Krav og retning for arbejdsgange · Implementering med AI-assistance",
+        "description": "KNWN samler organisering af musikkataloger, rettighedsoplysninger, dokumenter og deling med modtagere i en arbejdsgang, som brugerne kan drive på deres egen infrastruktur. Jeg ejer projektet, fastlægger kravene og leder forberedelsen af en privat beta med tre deltagere; AI-assistenter bidrog til implementering og tests. Arbejdet omfatter introduktion af deltagere, brugervejledninger og undersøgelse af troværdige, økonomisk overkommelige implementeringsmuligheder. Optagelsen viser udvalgte arbejdsgange med fiktive data. Betaen er under forberedelse; der foreligger endnu ikke dokumenterede resultater fra brugerevaluering.",
+        "dmaic": {
+          "D": "Hjælpe mennesker, der administrerer eller vurderer musik, med at organisere kataloger, holde styr på versioner og rettighedsoplysninger, klargøre dokumenter og dele med navngivne modtagere. Jeg definerede en privat beta for tre personligt inviterede voksne, som varer 30 dage fra vellykket opsætning uden softwarebetaling. Ved opstart spørges deltagerne, hvordan de arbejder med musik, hvordan de håndterer deres katalog i dag, og hvilke tre behov der betyder mest. Rollemulighederne omfatter artister og sangskrivere, producere, katalogansvarlige, licensprofessionelle og personer, der primært modtager musik; det er perspektiver, der skal afdækkes, ikke en bekræftet fordeling af deltagernes roller.",
+          "M": "Holde softwareverifikation adskilt fra brugerevaluering. Den 1. oktober 2026 bestod den demonstrerede kildekodeversion 750 tests fordelt på 84 filer; tre valgfrie lydanalysetests blev sprunget over. Typekontrol, bygning af grænsefladen og repositoryets konsistenskontrol bestod. Den planlagte beta bruger deltagernes startprioriteter, et afsluttende spørgeskema og valgfrie brugsrapporter, som deltageren gennemgår, til at vurdere nytten. Rapporterne skal indeholde begrænsede aktivitetstal og fejl uden følsomme oplysninger, ikke katalogets indhold. Spørgeskemaets endelige ordlyd og succeskriterier er endnu ikke fastlagt; der hævdes ingen betaresultater eller besparelser.",
+          "A": "Jeg satte et mål om nul ekstra infrastrukturomkostninger og krævede, at implementeringsvalg byggede på troværdige kilder. Betaens gennemførlighedsundersøgelse sammenligner officielle leverandørkilder, løbende gratis kvoter over for midlertidige kreditter samt omkostninger ud over selve serveren: lager, overførsel, backup og gendannelse. Den vurderer eksisterende personligt udstyr og en gratis cloudmulighed med tilhørende kapacitets- og tilgængelighedsbegrænsninger. Valgene støtter målet om økonomisk overkommelig katalogstyring uden at betragte en gratis server som bevis for, at hele tjenesten er gratis. Den samlede opsætning skal stadig kvalificeres inden for sine grænser.",
+          "I": "Udarbejdet udkast til deltagervejledning, opstartsspørgsmål, acceptmateriale og klargøringskontroller til en selvstyret beta. En særskilt opsætningssamtale dokumenterer en fungerende afprøvning af cloudhosting og adgang fra en telefon; det er forberedelsesevidens, ikke en færdig udrulning til deltagere. Porteføljeoptagelsen viser den testede basisversion filtrere indspilninger, gruppere to versioner og forberede modtagervilkår uden at sende et link. Et særskilt skærmbillede viser en fejl fra en manglende fil i testdataene. Det kombinerer en fungerende produktdemonstration med det praktiske arbejde, der skal hjælpe brugerne i gang.",
+          "C": "Før invitationer skal gentagelig opsætning, verificeret backup og gendannelse, afprøvning af offentlig deling, fortsættelses- og afslutningskontroller for de 30 dage, gennemgåede vilkår og endelige udgivelseskontroller være på plads. Konti og kataloger forbliver under deltagerens kontrol. Valgfrie rapporter skal gennemgås før afsendelse; de giver ikke automatisk adgang til musik eller modtagerdata. Betaplanen bevarer lokal katalogbrug, afspilning og eksport efter fravalg af fortsættelse. Dokumentationen og den senere opsætningssamtale er ikke enige om alle afsluttede forberedelsestrin, så den fungerende afprøvning adskilles fra en fuldt klargjort beta. Kerneimplementeringen og private planlægningsdokumenter indgår ikke i denne portefølje."
+        },
+        "timeline": [
+          "Krav og brugerprioriteter",
+          "Katalog og operatørens arbejdsgange",
+          "Forberedelse af privat beta",
+          "Hosting og økonomisk gennemførlighed",
+          "Verifikation og udgivelseskrav"
+        ],
+        "tools": [
+          "Kravdefinition",
+          "Design af arbejdsgange",
+          "Udvikling med AI-assistance",
+          "Gennemgang af accept",
+          "TypeScript",
+          "Automatiserede tests",
+          "Brugeroplæring"
+        ],
+        "outcomes": [
+          "Privat beta med tre deltagere i 30 dage planlagt med introduktion og vejledning",
+          "Kildebaseret gennemførlighedsundersøgelse sigter mod nul ekstra infrastrukturomkostninger; samlet kvalifikation afventer",
+          "Faktisk fiktiv demo verificerer organisering og delingsforberedelse; ingen levering til modtagere",
+          "Demoversion: 750 tests bestod, 3 blev sprunget over; betafeedback og endelig godkendelse afventer"
+        ],
+        "media": [
+          {
+            "label": "Gennemgang af katalog og deling (på engelsk)",
+            "caption": "Faktisk lokal skærmoptagelse · fiktive data · kun forberedelse af deling · på engelsk"
+          },
+          {
+            "label": "Fiktivt katalog (på engelsk)",
+            "caption": "Faktisk skærmbillede af programmet · fiktive indspilninger · på engelsk"
+          },
+          {
+            "label": "Organisering af sangversioner (på engelsk)",
+            "caption": "To fiktive versioner i ét projekt · det faktiske program · på engelsk"
+          },
+          {
+            "label": "Forberedelse af modtagervilkår (på engelsk)",
+            "caption": "Fiktiv kontakt · vilkår valgt, intet sendt · på engelsk"
+          },
+          {
+            "label": "Statusoversigt med fejl (på engelsk)",
+            "caption": "Udsnit af faktisk statusoversigt · manglende og uregistreret fil som testtilfælde · på engelsk"
+          },
+          {
+            "label": "Gennemgang og verifikationsnoter"
           }
         ]
       }
@@ -741,7 +800,7 @@
     "workflow": "Workflow",
     "visitProject": "Besøg",
     "playbuzzrush": "Spil Buzz Rush",
-    "generatedArtwork": "Genereret reklamegrafik — ikke et skærmbillede fra spillet",
+    "generatedArtwork": "Genereret reklamegrafik - ikke et skærmbillede fra spillet",
     "close": "Luk"
   },
   "releaseCard": {

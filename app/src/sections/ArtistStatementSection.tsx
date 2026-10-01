@@ -106,7 +106,7 @@ export default function ArtistStatementSection() {
               style={{ color: 'var(--text-secondary)' }}
             >
               <span className="inline-block mt-2" style={{ color: 'var(--accent-amber)' }}>
-                &mdash; {artistProfile.fullName}
+                - {artistProfile.fullName}
               </span>
             </p>
           </div>

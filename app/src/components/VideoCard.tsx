@@ -33,7 +33,7 @@ export default function VideoCard({ entry, onPlay }: VideoCardProps) {
         }
       }}
     >
-      {/* Thumbnail — 16:9 */}
+      {/* Thumbnail - 16:9 */}
       <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
         <img
           src={entry.image}

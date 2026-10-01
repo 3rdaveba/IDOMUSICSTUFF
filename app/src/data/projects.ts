@@ -49,8 +49,115 @@ export interface Project {
 
 export const projects: Project[] = [
 {
+  "id": "knwn",
+  "title": "KNWN - Music Catalog & Delivery Workflows",
+  "category": "systems",
+  "role": "Project Owner · Requirements & Workflow Direction · AI-Assisted Implementation",
+  "status": "active",
+  "heroImage": "/knwn/hero.svg",
+  "description": "KNWN brings music catalog organization, rights information, paperwork, and recipient sharing into a workflow people can operate with their own infrastructure. I own the project, define its requirements, and direct preparation for a three-person private beta; AI assistants contributed implementation and tests. The work includes participant onboarding, user guidance, and research into credible, affordable implementation options. The recording uses fictional data to demonstrate selected workflows. Beta preparation is in progress; user-validation results are not yet established.",
+  "dmaic": {
+    "D": {
+      "label": "Define",
+      "text": "Help people who manage or review music organize their catalogs, track versions and rights information, prepare paperwork, and share with named recipients. I defined a private beta for three personally invited adults, lasting 30 days from successful setup with no software fee. Onboarding asks how each person works with music, how they currently manage their catalog, and which three needs matter most. The role options cover artists and songwriters, producers, catalog managers, licensing professionals, and people who primarily receive music; these are intended perspectives to identify, not a confirmed participant-role breakdown."
+    },
+    "M": {
+      "label": "Measure",
+      "text": "Keep software verification separate from user validation. On October 1, 2026, the demonstrated source revision passed 750 tests across 84 files; three optional audio-analysis tests were skipped. Type checks, the interface build, and the repository consistency check passed. The planned beta uses onboarding priorities, a closing survey, and optional participant-reviewed usage reports to assess usefulness. Reporting is intended to cover limited activity counts and sanitized errors, not catalog contents. Final survey wording and success thresholds remain open; no beta outcomes or savings are claimed."
+    },
+    "A": {
+      "label": "Analyze",
+      "text": "I set a $0 incremental infrastructure target and required implementation choices to be grounded in credible sources. The beta feasibility work compares official provider documentation, ongoing free allowances versus temporary credits, and costs beyond compute: storage, transfer, backup, and recovery. It considers existing personal hardware and a free cloud option, including capacity and availability tradeoffs. These choices support the aim of affordable catalog management without treating a free server as proof of a free complete service. The full setup still needs qualification against its limits."
+    },
+    "I": {
+      "label": "Improve",
+      "text": "Prepared draft participant guidance, onboarding questions, acceptance materials, and readiness checks for a self-guided beta. A separate setup discussion records a cloud-hosting proof of concept and phone access; that is preparation evidence, not a completed participant rollout. The portfolio recording shows the tested baseline filtering recordings, grouping two versions, and preparing recipient terms without sending a link. A separate screenshot shows a seeded missing-file failure. This combines a working product demonstration with the practical work needed to help people start using it."
+    },
+    "C": {
+      "label": "Control",
+      "text": "Before invitations, complete repeatable setup, verified backup and recovery, public-sharing qualification, the 30-day continuation and exit controls, reviewed terms, and final release checks. Participant accounts and catalogs remain under participant control. Optional reporting must be reviewed before sending; it is not automatic access to someone’s music or recipient data. The beta plan preserves local catalog use, playback, and exports after noncontinuation. Current documentation and the later setup discussion differ on some completed preparation steps, so the proof of concept is distinguished from full beta readiness. Core implementation and private planning documents stay outside this portfolio."
+    }
+  },
+  "timeline": [
+    {
+      "phase": "01",
+      "label": "Requirements & User Priorities"
+    },
+    {
+      "phase": "02",
+      "label": "Catalog & Operator Workflows"
+    },
+    {
+      "phase": "03",
+      "label": "Private Beta Preparation"
+    },
+    {
+      "phase": "04",
+      "label": "Hosting & Cost Feasibility"
+    },
+    {
+      "phase": "05",
+      "label": "Verification & Release Gates"
+    }
+  ],
+  "tools": [
+    "Requirements Definition",
+    "Workflow Design",
+    "AI-Assisted Development",
+    "Acceptance Review",
+    "TypeScript",
+    "Automated Tests",
+    "User Enablement"
+  ],
+  "outcomes": [
+    "Three-person, 30-day private beta planned with onboarding and participant guidance",
+    "Source-based feasibility research targets $0 incremental infrastructure costs; full setup qualification pending",
+    "Actual fictional demo verifies organization and share preparation; no recipient delivery",
+    "Demo revision: 750 tests passed, 3 skipped; beta feedback and final release approval pending"
+  ],
+  "media": {
+    "items": [
+      {
+        "type": "video-slot",
+        "src": "/knwn/catalog-walkthrough.mp4",
+        "label": "Catalog and sharing walkthrough (English)",
+        "caption": "Actual local screen recording · fictional data · share preparation only · English"
+      },
+      {
+        "type": "photo-slot",
+        "src": "/knwn/catalog.png",
+        "label": "Fictional catalog (English)",
+        "caption": "Actual application screenshot · fictional recordings · English"
+      },
+      {
+        "type": "photo-slot",
+        "src": "/knwn/project.png",
+        "label": "Organizing song versions (English)",
+        "caption": "Two fictional versions in one project · actual application · English"
+      },
+      {
+        "type": "photo-slot",
+        "src": "/knwn/share-parameters.png",
+        "label": "Preparing recipient terms (English)",
+        "caption": "Fictional contact · terms selected, no share sent · English"
+      },
+      {
+        "type": "photo-slot",
+        "src": "/knwn/health-summary.png",
+        "label": "Health exception summary (English)",
+        "caption": "Cropped actual status summary · seeded missing file and untracked file · English"
+      },
+      {
+        "type": "link-slot",
+        "label": "Walkthrough & Verification Notes",
+        "url": "/knwn/walkthrough.html"
+      }
+    ]
+  }
+},
+{
   "id": "prima",
-  "title": "Prima — Governance for AI-Assisted Projects",
+  "title": "Prima - Governance for AI-Assisted Projects",
   "category": "systems",
   "role": "Project Owner & Systems Architect · AI-Assisted Implementation",
   "status": "active",
@@ -251,8 +358,8 @@ export const projects: Project[] = [
     "items": [
       {
         "type": "photo-slot",
-        "label": "Generated promotional artwork — not a gameplay screenshot",
-        "caption": "Generated promotional artwork — not a gameplay screenshot",
+        "label": "Generated promotional artwork - not a gameplay screenshot",
+        "caption": "Generated promotional artwork - not a gameplay screenshot",
         "src": "/images/buzz-rush.jpg"
       },
       {
@@ -272,10 +379,10 @@ export const projects: Project[] = [
     heroImage: 'project media/Creative Intelligence Production System/image-web.jpg',
     description: 'Build a private AI production assistant that runs 24/7, handling research, organization, and creative prep work so the human can focus on the actual art. It coordinates multiple AI models, keeps detailed logs, and has built-in guardrails so it never touches finished work without permission.',
     dmaic: {
-      D: { label: 'Define', text: 'Build a private AI system that handles creative production tasks around the clock — researching, organizing, and preparing work — so the human can focus on the actual creative decisions.' },
+      D: { label: 'Define', text: 'Build a private AI system that handles creative production tasks around the clock - researching, organizing, and preparing work - so the human can focus on the actual creative decisions.' },
       M: { label: 'Measure', text: 'Is the system running reliably? Are tasks getting finished? Is it staying in its lane (research and prep only, no touching final work)? Can every action be reviewed later?' },
-      A: { label: 'Analyze', text: 'Most creative tools still need a human babysitting every step. The challenge was building something that could work independently without risking the actual creative output — so it was designed to only observe, organize, and suggest, never to overwrite finished work.' },
-      I: { label: 'Improve', text: 'Built a modular system where different AI specialists handle different tasks (research, organization, analysis), with shared memory so they do not duplicate work. Scheduled daily runs and layered security so the system can only read and prepare — never publish or overwrite.' },
+      A: { label: 'Analyze', text: 'Most creative tools still need a human babysitting every step. The challenge was building something that could work independently without risking the actual creative output - so it was designed to only observe, organize, and suggest, never to overwrite finished work.' },
+      I: { label: 'Improve', text: 'Built a modular system where different AI specialists handle different tasks (research, organization, analysis), with shared memory so they do not duplicate work. Scheduled daily runs and layered security so the system can only read and prepare - never publish or overwrite.' },
       C: { label: 'Control', text: 'Every action is logged and reviewable. No passwords or sensitive data stored in the system. It cannot run random commands. Health checks run automatically to catch issues early.' },
     },
     timeline: [
@@ -300,7 +407,7 @@ export const projects: Project[] = [
     role: 'Creative Systems & Technology Lead',
     status: 'active',
     heroImage: 'project media/The Reimagination Engine/image.png',
-    description: 'An experimental release project where old demos and unfinished song ideas are reimagined through AI tools and released in clustered waves. Drops happen every other week in alternating three-track clusters — one wave relational, the next energetic — with performance reviewed every 45 days. The goal is to see if consistent releases alone can generate streaming revenue and organic traction without any marketing, social media presence, or paid promotion. If a track lands in the top tier of its cluster, it gets flagged for potential reproduction or licensing.',
+    description: 'An experimental release project where old demos and unfinished song ideas are reimagined through AI tools and released in clustered waves. Drops happen every other week in alternating three-track clusters - one wave relational, the next energetic - with performance reviewed every 45 days. The goal is to see if consistent releases alone can generate streaming revenue and organic traction without any marketing, social media presence, or paid promotion. If a track lands in the top tier of its cluster, it gets flagged for potential reproduction or licensing.',
     dmaic: {
       D: { label: 'Define', text: 'Take old demos and song ideas, run them through AI tools to create new iterations, and release them publicly every other week for one year with zero marketing or social media push.' },
       M: { label: 'Measure', text: 'Track streaming numbers, saves, completion rates, and listener retention across roughly 30 releases over 12 months. Every 45 days, review cluster performance to see which wave style is gaining traction and which individual tracks are rising to the top.' },
@@ -341,7 +448,7 @@ export const projects: Project[] = [
     heroVideo: 'project media/The Vocal Production Lab/new hero banner video.mp4',
     description: 'An online instructional course designed to teach intermediate music technology users what vocal production is, why it matters, and how to achieve professional vocal recordings at home or in the studio.',
     dmaic: {
-      D: { label: 'Define', text: 'Create an accessible online course that teaches vocal production concepts — from understanding the voice through recording, editing, and mixing — without requiring expensive equipment or overly complex language.' },
+      D: { label: 'Define', text: 'Create an accessible online course that teaches vocal production concepts - from understanding the voice through recording, editing, and mixing - without requiring expensive equipment or overly complex language.' },
       M: { label: 'Measure', text: 'Course completeness across 12 lessons, 3 quizzes, and 6 practical assignments; video production quality; student comprehension and engagement; and platform usability.' },
       A: { label: 'Analyze', text: 'Vocal production is a niche focus with limited consolidated learning resources. Creating engaging educational video content required solving continuity across multiple filming days, managing environmental noise, and learning an unfamiliar hosting platform.' },
       I: { label: 'Improve', text: 'Produced 16 videos including 12 lessons, an introduction, a course ending, and a trailer. Filmed in a home studio using multiple camera angles and screen recordings. Edited with motion graphics, sound design, and professional titles. Built the course on Thinkific with organized curriculum, quizzes, and downloadable audio examples compatible with any DAW.' },
@@ -375,12 +482,12 @@ export const projects: Project[] = [
   },
   {
     id: 'calby-inner-critic',
-    title: "Calby — Inner Critic's Choice Awards",
+    title: "Calby - Inner Critic's Choice Awards",
     category: 'music',
     role: 'Vocal Producer & Audio Engineer',
     status: 'complete',
     heroImage: 'images/project-calby.jpg',
-    heroVideo: 'project media/Calby \u2014 Inner Critic\'s Choice Awards/CALBY PROJECT BANNER VIDEO.mp4',
+    heroVideo: 'project media/Calby - Inner Critic\'s Choice Awards/CALBY PROJECT BANNER VIDEO.mp4',
     description: 'Vocal producer for background vocals across 12 songs on an unreleased album for Danish artist Calby. Managed vocal arrangements, talent acquisition, production coordination, and budget oversight on behalf of Sony Music Denmark and Bogs Agency.',
     dmaic: {
       D: { label: 'Define', text: 'Produce background vocal arrangements for 12 songs on Calby\'s album, managing talent, production logistics, and budget for Sony Music Denmark / Bogs Agency.' },
@@ -411,18 +518,18 @@ export const projects: Project[] = [
     ],
     media: {
       items: [
-        { type: 'photo-slot', label: 'Photo', src: 'project media/Calby \u2014 Inner Critic\'s Choice Awards/wix-image-1.png' },
-        { type: 'photo-slot', label: 'Photo', src: 'project media/Calby \u2014 Inner Critic\'s Choice Awards/wix-image-2.png' },
-        { type: 'photo-slot', label: 'Photo', src: 'project media/Calby \u2014 Inner Critic\'s Choice Awards/calby project photo 3.jpg' },
-        { type: 'photo-slot', label: 'Artwork', src: 'project media/Calby \u2014 Inner Critic\'s Choice Awards/Calby Daydream Artwork.jpg' },
-        { type: 'video-slot', label: 'Pre Production', src: 'project media/Calby \u2014 Inner Critic\'s Choice Awards/Calby - Pre Production Session 2023.mp4' },
-        { type: 'video-slot', label: 'Studio Session', src: 'project media/Calby \u2014 Inner Critic\'s Choice Awards/Calby studio session 2 .mp4' },
+        { type: 'photo-slot', label: 'Photo', src: 'project media/Calby - Inner Critic\'s Choice Awards/wix-image-1.png' },
+        { type: 'photo-slot', label: 'Photo', src: 'project media/Calby - Inner Critic\'s Choice Awards/wix-image-2.png' },
+        { type: 'photo-slot', label: 'Photo', src: 'project media/Calby - Inner Critic\'s Choice Awards/calby project photo 3.jpg' },
+        { type: 'photo-slot', label: 'Artwork', src: 'project media/Calby - Inner Critic\'s Choice Awards/Calby Daydream Artwork.jpg' },
+        { type: 'video-slot', label: 'Pre Production', src: 'project media/Calby - Inner Critic\'s Choice Awards/Calby - Pre Production Session 2023.mp4' },
+        { type: 'video-slot', label: 'Studio Session', src: 'project media/Calby - Inner Critic\'s Choice Awards/Calby studio session 2 .mp4' },
       ],
     },
   },
   {
     id: 'lukas-graham-purple',
-    title: 'Lukas Graham 3 — The Purple Album',
+    title: 'Lukas Graham 3 - The Purple Album',
     category: 'music',
     role: 'Vocal Producer & Arranger',
     status: 'complete',
@@ -509,7 +616,7 @@ export const projects: Project[] = [
   },
   {
     id: 'jimmy-gnarly-live',
-    title: 'JIMMY — A Gnarly Live Performance',
+    title: 'JIMMY - A Gnarly Live Performance',
     category: 'music',
     role: 'Vocal Producer / Choir Director',
     status: 'complete',

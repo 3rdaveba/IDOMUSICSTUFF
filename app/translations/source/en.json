@@ -17,15 +17,15 @@
   },
   "about": {
     "headline": "Hi! My name is William, and I’m a creative systems architect.",
-    "bio1": "I connect creative production with the people, processes, and technical systems needed to deliver it. My experience spans entertainment, technology, hospitality, and higher education—from recording sessions and live performances to global corporate events. Currently, I support Netflix through Milestone Technologies, coordinating support for events across global markets.",
+    "bio1": "I connect creative production with the people, processes, and technical systems needed to deliver it. My experience spans entertainment, technology, hospitality, and higher education-from recording sessions and live performances to global corporate events. Currently, I support Netflix through Milestone Technologies, coordinating support for events across global markets.",
     "bio2": "My work is rooted in supporting creative vision and guiding projects from concept to completion with intention and care. I draw on experience across disciplines to connect ideas, solve problems, and build practical ways of working. This portfolio offers a closer look at the projects I’ve contributed to and the thinking behind them.",
     "signature": "I look forward to exploring how we can work together!",
-    "signatureName": "— William \"B.A.\" Washington"
+    "signatureName": "- William \"B.A.\" Washington"
   },
   "work": {
     "line1": "SELECTED",
     "line2": "PROJECTS",
-    "intro": "A cross-section of projects spanning music production, community education, systems architecture, and creative technology — each built with the same intention: craft something meaningful, scalable, and human. Every project is presented in DMAIC format (Define, Measure, Analyze, Improve, Control) so you can see how each moves from concept to measurable outcome.",
+    "intro": "A cross-section of projects spanning music production, community education, systems architecture, and creative technology - each built with the same intention: craft something meaningful, scalable, and human. Every project is presented in DMAIC format (Define, Measure, Analyze, Improve, Control) so you can see how each moves from concept to measurable outcome.",
     "active": "Active",
     "complete": "Complete"
   },
@@ -135,7 +135,7 @@
     "backToWork": "Back to Work",
     "visitProject": "Visit",
     "playbuzzrush": "Play Buzz Rush",
-    "generatedArtwork": "Generated promotional artwork — not a gameplay screenshot",
+    "generatedArtwork": "Generated promotional artwork - not a gameplay screenshot",
     "close": "Close"
   },
   "filmDetail": {
@@ -201,7 +201,7 @@
           "Actual screen recordings verify repair decisions, preservation of existing files, and conflict refusal",
           "Documented owner decisions and AI contributions; public launch and impact evidence pending"
         ],
-        "title": "Prima — Governance for AI-Assisted Projects",
+        "title": "Prima - Governance for AI-Assisted Projects",
         "streaming": [
           "Capability Guide (English)",
           "CLI Walkthrough (English)"
@@ -270,7 +270,7 @@
         "role": "Systems Architecture & Creative AI"
       },
       "the-reimagination-engine": {
-        "description": "An experimental release project where old demos and unfinished song ideas are reimagined through AI tools and released in clustered waves. Drops happen every other week in alternating three-track clusters — one wave relational, the next energetic — with performance reviewed every 45 days. The goal is to see if consistent releases alone can generate streaming revenue and organic traction without any marketing, social media presence, or paid promotion. If a track lands in the top tier of its cluster, it gets flagged for potential reproduction or licensing.",
+        "description": "An experimental release project where old demos and unfinished song ideas are reimagined through AI tools and released in clustered waves. Drops happen every other week in alternating three-track clusters - one wave relational, the next energetic - with performance reviewed every 45 days. The goal is to see if consistent releases alone can generate streaming revenue and organic traction without any marketing, social media presence, or paid promotion. If a track lands in the top tier of its cluster, it gets flagged for potential reproduction or licensing.",
         "dmaic": {
           "D": "Take old demos and song ideas, run them through AI tools to create new iterations, and release them publicly every other week for one year with zero marketing or social media push.",
           "M": "Track streaming numbers, saves, completion rates, and listener retention across roughly 30 releases over 12 months. Every 45 days, review cluster performance to see which wave style is gaining traction and which individual tracks are rising to the top.",
@@ -475,10 +475,10 @@
       "creative-intelligence-production-system": {
         "description": "Build a private AI production assistant that runs 24/7, handling research, organization, and creative prep work so the human can focus on the actual art. It coordinates multiple AI models, keeps detailed logs, and has built-in guardrails so it never touches finished work without permission.",
         "dmaic": {
-          "D": "Build a private AI system that handles creative production tasks around the clock — researching, organizing, and preparing work — so the human can focus on the actual creative decisions.",
+          "D": "Build a private AI system that handles creative production tasks around the clock - researching, organizing, and preparing work - so the human can focus on the actual creative decisions.",
           "M": "Is the system running reliably? Are tasks getting finished? Is it staying in its lane (research and prep only, no touching final work)? Can every action be reviewed later?",
-          "A": "Most creative tools still need a human babysitting every step. The challenge was building something that could work independently without risking the actual creative output — so it was designed to only observe, organize, and suggest, never to overwrite finished work.",
-          "I": "Built a modular system where different AI specialists handle different tasks (research, organization, analysis), with shared memory so they do not duplicate work. Scheduled daily runs and layered security so the system can only read and prepare — never publish or overwrite.",
+          "A": "Most creative tools still need a human babysitting every step. The challenge was building something that could work independently without risking the actual creative output - so it was designed to only observe, organize, and suggest, never to overwrite finished work.",
+          "I": "Built a modular system where different AI specialists handle different tasks (research, organization, analysis), with shared memory so they do not duplicate work. Scheduled daily runs and layered security so the system can only read and prepare - never publish or overwrite.",
           "C": "Every action is logged and reviewable. No passwords or sensitive data stored in the system. It cannot run random commands. Health checks run automatically to catch issues early."
         },
         "timeline": [
@@ -507,7 +507,7 @@
       "vocal-production-lab": {
         "description": "An online instructional course designed to teach intermediate music technology users what vocal production is, why it matters, and how to achieve professional vocal recordings at home or in the studio.",
         "dmaic": {
-          "D": "Create an accessible online course that teaches vocal production concepts — from understanding the voice through recording, editing, and mixing — without requiring expensive equipment or overly complex language.",
+          "D": "Create an accessible online course that teaches vocal production concepts - from understanding the voice through recording, editing, and mixing - without requiring expensive equipment or overly complex language.",
           "M": "Course completeness across 12 lessons, 3 quizzes, and 6 practical assignments; video production quality; student comprehension and engagement; and platform usability.",
           "A": "Vocal production is a niche focus with limited consolidated learning resources. Creating engaging educational video content required solving continuity across multiple filming days, managing environmental noise, and learning an unfamiliar hosting platform.",
           "I": "Produced 16 videos including 12 lessons, an introduction, a course ending, and a trailer. Filmed in a home studio using multiple camera angles and screen recordings. Edited with motion graphics, sound design, and professional titles. Built the course on Thinkific with organized curriculum, quizzes, and downloadable audio examples compatible with any DAW.",
@@ -572,11 +572,70 @@
           "Private learning recaps; explanations and attributed links for all 1,500 questions",
           "Synchronized visual onboarding and host-controlled room management"
         ]
+      },
+      "knwn": {
+        "title": "KNWN - Music Catalog & Delivery Workflows",
+        "role": "Project Owner · Requirements & Workflow Direction · AI-Assisted Implementation",
+        "description": "KNWN brings music catalog organization, rights information, paperwork, and recipient sharing into a workflow people can operate with their own infrastructure. I own the project, define its requirements, and direct preparation for a three-person private beta; AI assistants contributed implementation and tests. The work includes participant onboarding, user guidance, and research into credible, affordable implementation options. The recording uses fictional data to demonstrate selected workflows. Beta preparation is in progress; user-validation results are not yet established.",
+        "dmaic": {
+          "D": "Help people who manage or review music organize their catalogs, track versions and rights information, prepare paperwork, and share with named recipients. I defined a private beta for three personally invited adults, lasting 30 days from successful setup with no software fee. Onboarding asks how each person works with music, how they currently manage their catalog, and which three needs matter most. The role options cover artists and songwriters, producers, catalog managers, licensing professionals, and people who primarily receive music; these are intended perspectives to identify, not a confirmed participant-role breakdown.",
+          "M": "Keep software verification separate from user validation. On October 1, 2026, the demonstrated source revision passed 750 tests across 84 files; three optional audio-analysis tests were skipped. Type checks, the interface build, and the repository consistency check passed. The planned beta uses onboarding priorities, a closing survey, and optional participant-reviewed usage reports to assess usefulness. Reporting is intended to cover limited activity counts and sanitized errors, not catalog contents. Final survey wording and success thresholds remain open; no beta outcomes or savings are claimed.",
+          "A": "I set a $0 incremental infrastructure target and required implementation choices to be grounded in credible sources. The beta feasibility work compares official provider documentation, ongoing free allowances versus temporary credits, and costs beyond compute: storage, transfer, backup, and recovery. It considers existing personal hardware and a free cloud option, including capacity and availability tradeoffs. These choices support the aim of affordable catalog management without treating a free server as proof of a free complete service. The full setup still needs qualification against its limits.",
+          "I": "Prepared draft participant guidance, onboarding questions, acceptance materials, and readiness checks for a self-guided beta. A separate setup discussion records a cloud-hosting proof of concept and phone access; that is preparation evidence, not a completed participant rollout. The portfolio recording shows the tested baseline filtering recordings, grouping two versions, and preparing recipient terms without sending a link. A separate screenshot shows a seeded missing-file failure. This combines a working product demonstration with the practical work needed to help people start using it.",
+          "C": "Before invitations, complete repeatable setup, verified backup and recovery, public-sharing qualification, the 30-day continuation and exit controls, reviewed terms, and final release checks. Participant accounts and catalogs remain under participant control. Optional reporting must be reviewed before sending; it is not automatic access to someone’s music or recipient data. The beta plan preserves local catalog use, playback, and exports after noncontinuation. Current documentation and the later setup discussion differ on some completed preparation steps, so the proof of concept is distinguished from full beta readiness. Core implementation and private planning documents stay outside this portfolio."
+        },
+        "timeline": [
+          "Requirements & User Priorities",
+          "Catalog & Operator Workflows",
+          "Private Beta Preparation",
+          "Hosting & Cost Feasibility",
+          "Verification & Release Gates"
+        ],
+        "tools": [
+          "Requirements Definition",
+          "Workflow Design",
+          "AI-Assisted Development",
+          "Acceptance Review",
+          "TypeScript",
+          "Automated Tests",
+          "User Enablement"
+        ],
+        "outcomes": [
+          "Three-person, 30-day private beta planned with onboarding and participant guidance",
+          "Source-based feasibility research targets $0 incremental infrastructure costs; full setup qualification pending",
+          "Actual fictional demo verifies organization and share preparation; no recipient delivery",
+          "Demo revision: 750 tests passed, 3 skipped; beta feedback and final release approval pending"
+        ],
+        "media": [
+          {
+            "label": "Catalog and sharing walkthrough (English)",
+            "caption": "Actual local screen recording · fictional data · share preparation only · English"
+          },
+          {
+            "label": "Fictional catalog (English)",
+            "caption": "Actual application screenshot · fictional recordings · English"
+          },
+          {
+            "label": "Organizing song versions (English)",
+            "caption": "Two fictional versions in one project · actual application · English"
+          },
+          {
+            "label": "Preparing recipient terms (English)",
+            "caption": "Fictional contact · terms selected, no share sent · English"
+          },
+          {
+            "label": "Health exception summary (English)",
+            "caption": "Cropped actual status summary · seeded missing file and untracked file · English"
+          },
+          {
+            "label": "Walkthrough & Verification Notes"
+          }
+        ]
       }
     },
     "films": {
       "sinners": {
-        "role": "Featured Vocalist — Original Motion Picture Soundtrack",
+        "role": "Featured Vocalist - Original Motion Picture Soundtrack",
         "recognition": "GRAMMY® Award Winner",
         "description": "Featured vocalist on the original motion picture soundtrack for Sinners, the 2025 Warner Bros. film written and directed by Ryan Coogler.",
         "details": [
@@ -601,7 +660,7 @@
         "details": [
           {
             "heading": "About the Film",
-            "text": "K-Pops! is the feature film directorial debut of Anderson .Paak, co-written with Khaila Amazan. The film stars .Paak as BJ, a washed-up musician who lands a gig with a house band in Seoul for a K-pop competition show called Wildcard. While working on the show, he discovers that one of the contestants — Tae Young, played by .Paak's real-life son Soul Rasheed — is the long-lost son he never knew he had. The cast includes Jee Young Han, Jonnie \"Dumbfoundead\" Park, Cathy Shim, Kevin Woo, and Yvette Nicole Brown. The film premiered at the Toronto International Film Festival in 2024, made its U.S. debut at Tribeca in 2025, and was released theatrically in February 2026 before streaming on Netflix."
+            "text": "K-Pops! is the feature film directorial debut of Anderson .Paak, co-written with Khaila Amazan. The film stars .Paak as BJ, a washed-up musician who lands a gig with a house band in Seoul for a K-pop competition show called Wildcard. While working on the show, he discovers that one of the contestants - Tae Young, played by .Paak's real-life son Soul Rasheed - is the long-lost son he never knew he had. The cast includes Jee Young Han, Jonnie \"Dumbfoundead\" Park, Cathy Shim, Kevin Woo, and Yvette Nicole Brown. The film premiered at the Toronto International Film Festival in 2024, made its U.S. debut at Tribeca in 2025, and was released theatrically in February 2026 before streaming on Netflix."
           },
           {
             "heading": "My Role",

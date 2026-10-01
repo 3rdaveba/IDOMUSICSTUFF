@@ -4,7 +4,7 @@
 // 2. Navigate to: app/src/data/artist-work.ts
 // 3. Tap the pencil (✎) icon
 // 4. Add/modify entries below, then commit to main
-// 5. GitHub Actions auto-builds and deploys — no computer needed
+// 5. GitHub Actions auto-builds and deploys - no computer needed
 //
 // For new YouTube videos, just paste the URL and copy an existing entry format.
 // For local image/video files, you still need a computer to upload to public/.
@@ -54,7 +54,7 @@ export const artistWork: ArtistWorkEntry[] = [
   {
     id: 'ba-one-of-a-kind',
     title: 'One of a Kind',
-    subtitle: 'Angelo Vivo — feat. B.A.',
+    subtitle: 'Angelo Vivo - feat. B.A.',
     year: 2025,
     category: 'release',
     subcategory: 'feature',
@@ -82,7 +82,7 @@ export const artistWork: ArtistWorkEntry[] = [
   {
     id: 'ba-we-get-the-party-started',
     title: 'We Get The Party Started',
-    subtitle: 'CherryNL — feat. B.A.',
+    subtitle: 'CherryNL - feat. B.A.',
     year: 2023,
     category: 'release',
     subcategory: 'feature',
@@ -182,7 +182,7 @@ export const artistWork: ArtistWorkEntry[] = [
   {
     id: 'ba-money',
     title: 'Money',
-    subtitle: 'Jae Anthonie — feat. B.A.',
+    subtitle: 'Jae Anthonie - feat. B.A.',
     year: 2020,
     category: 'release',
     subcategory: 'feature',

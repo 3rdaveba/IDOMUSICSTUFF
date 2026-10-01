@@ -4,7 +4,7 @@
 // 2. Navigate to: app/src/data/artist-profile.ts
 // 3. Tap the pencil (✎) icon
 // 4. Edit the text below, then commit to main
-// 5. GitHub Actions auto-builds and deploys — no computer needed
+// 5. GitHub Actions auto-builds and deploys - no computer needed
 // =============================================================================
 
 export const artistProfile = {

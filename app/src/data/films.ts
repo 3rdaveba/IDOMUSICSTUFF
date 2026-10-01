@@ -33,7 +33,7 @@ export const films: Film[] = [
     title: 'Sinners',
     studio: 'Warner Bros.',
     year: 2025,
-    role: 'Featured Vocalist — Original Motion Picture Soundtrack',
+    role: 'Featured Vocalist - Original Motion Picture Soundtrack',
     recognition: 'GRAMMY® Award Winner',
     description:
       'Featured vocalist on the original motion picture soundtrack for Sinners, the 2025 Warner Bros. film written and directed by Ryan Coogler.',
@@ -90,7 +90,7 @@ export const films: Film[] = [
     details: [
       {
         heading: 'About the Film',
-        text: 'K-Pops! is the feature film directorial debut of Anderson .Paak, co-written with Khaila Amazan. The film stars .Paak as BJ, a washed-up musician who lands a gig with a house band in Seoul for a K-pop competition show called Wildcard. While working on the show, he discovers that one of the contestants — Tae Young, played by .Paak\'s real-life son Soul Rasheed — is the long-lost son he never knew he had. The cast includes Jee Young Han, Jonnie "Dumbfoundead" Park, Cathy Shim, Kevin Woo, and Yvette Nicole Brown. The film premiered at the Toronto International Film Festival in 2024, made its U.S. debut at Tribeca in 2025, and was released theatrically in February 2026 before streaming on Netflix.',
+        text: 'K-Pops! is the feature film directorial debut of Anderson .Paak, co-written with Khaila Amazan. The film stars .Paak as BJ, a washed-up musician who lands a gig with a house band in Seoul for a K-pop competition show called Wildcard. While working on the show, he discovers that one of the contestants - Tae Young, played by .Paak\'s real-life son Soul Rasheed - is the long-lost son he never knew he had. The cast includes Jee Young Han, Jonnie "Dumbfoundead" Park, Cathy Shim, Kevin Woo, and Yvette Nicole Brown. The film premiered at the Toronto International Film Festival in 2024, made its U.S. debut at Tribeca in 2025, and was released theatrically in February 2026 before streaming on Netflix.',
       },
       {
         heading: 'My Role',

@@ -4,7 +4,7 @@
     "bio2": "Mi trabajo se centra en apoyar la visión creativa y guiar proyectos desde el concepto hasta su realización con intención y cuidado. Me apoyo en mi experiencia en distintas disciplinas para conectar ideas, resolver problemas y desarrollar formas prácticas de trabajar. Este portafolio ofrece una mirada más cercana a los proyectos en los que he participado y a las ideas que los sustentan.",
     "headline": "¡Hola! Me llamo William y soy arquitecto de sistemas creativos.",
     "signature": "¡Espero con ansias explorar cómo podemos trabajar juntos!",
-    "signatureName": "— William \"B.A.\" Washington"
+    "signatureName": "- William \"B.A.\" Washington"
   },
   "artistWork": {
     "aboutTheArtist": "SOBRE EL ARTISTA",
@@ -194,7 +194,7 @@
         "details": [
           {
             "heading": "Sobre la película",
-            "text": "K-Pops! es el largometraje debut como director del artista Anderson .Paak, coescrito con Khaila Amazan. La película tiene a .Paak como BJ, un músico venido a menos que consigue un trabajo con una banda de casa en Seúl para un programa de competencia de K-pop llamado Wildcard. Mientras trabaja en el programa, descubre que uno de los concursantes — Tae Young, interpretado por el hijo real de .Paak, Soul Rasheed — es el hijo perdido que nunca supo que tenía. El reparto incluye a Jee Young Han, Jonnie \"Dumbfoundead\" Park, Cathy Shim, Kevin Woo y Yvette Nicole Brown. La película se estrenó en el Toronto International Film Festival en 2024, hizo su debut en EE.UU. en Tribeca en 2025 y fue lanzada en cines en febrero de 2026 antes de transmitirse en Netflix."
+            "text": "K-Pops! es el largometraje debut como director del artista Anderson .Paak, coescrito con Khaila Amazan. La película tiene a .Paak como BJ, un músico venido a menos que consigue un trabajo con una banda de casa en Seúl para un programa de competencia de K-pop llamado Wildcard. Mientras trabaja en el programa, descubre que uno de los concursantes - Tae Young, interpretado por el hijo real de .Paak, Soul Rasheed - es el hijo perdido que nunca supo que tenía. El reparto incluye a Jee Young Han, Jonnie \"Dumbfoundead\" Park, Cathy Shim, Kevin Woo y Yvette Nicole Brown. La película se estrenó en el Toronto International Film Festival en 2024, hizo su debut en EE.UU. en Tribeca en 2025 y fue lanzada en cines en febrero de 2026 antes de transmitirse en Netflix."
           },
           {
             "heading": "Mi rol",
@@ -217,7 +217,7 @@
           },
           {
             "heading": "La música",
-            "text": "Actué como miembro de The DC6 Singers Collective, un conjunto vocal con base en Los Ángeles — junto a otros miembros que contribuyeron con voces destacadas en la banda sonora de la película, especialmente en \"This Little Light of Mine\" junto a Miles Caton y el Pleasant Valley Youth Choir of New Orleans. La banda sonora fue producida ejecutivamente por Ludwig Göransson, Ryan Coogler y Serena Göransson, y lanzada digitalmente el 18 de abril de 2025 a través de Sony Masterworks."
+            "text": "Actué como miembro de The DC6 Singers Collective, un conjunto vocal con base en Los Ángeles - junto a otros miembros que contribuyeron con voces destacadas en la banda sonora de la película, especialmente en \"This Little Light of Mine\" junto a Miles Caton y el Pleasant Valley Youth Choir of New Orleans. La banda sonora fue producida ejecutivamente por Ludwig Göransson, Ryan Coogler y Serena Göransson, y lanzada digitalmente el 18 de abril de 2025 a través de Sony Masterworks."
           },
           {
             "heading": "Reconocimiento",
@@ -225,7 +225,7 @@
           }
         ],
         "recognition": "GRAMMY® Award Winner",
-        "role": "Featured Vocalist — Original Motion Picture Soundtrack"
+        "role": "Featured Vocalist - Original Motion Picture Soundtrack"
       }
     },
     "projects": {
@@ -299,10 +299,10 @@
       "creative-intelligence-production-system": {
         "description": "Construir un asistente de producción de IA privado que funcione las 24 horas del día, 7 días a la semana, manejando investigación, organización y trabajo de preparación creativa para que el artista pueda enfocarse en el arte en sí. Coordina múltiples modelos de IA, mantiene registros detallados y tiene salvaguardas integradas para que nunca toque el trabajo terminado sin permiso.",
         "dmaic": {
-          "A": "La mayoría de las herramientas creativas todavía necesitan que un humano supervise cada paso. El desafío era construir algo que pudiera trabajar de forma independiente sin poner en riesgo el resultado creativo real — así que fue diseñado para solo observar, organizar y sugerir, nunca para sobrescribir el trabajo terminado.",
+          "A": "La mayoría de las herramientas creativas todavía necesitan que un humano supervise cada paso. El desafío era construir algo que pudiera trabajar de forma independiente sin poner en riesgo el resultado creativo real - así que fue diseñado para solo observar, organizar y sugerir, nunca para sobrescribir el trabajo terminado.",
           "C": "Cada acción se registra y es revisable. No se almacenan contraseñas ni datos sensibles en el sistema. No puede ejecutar comandos aleatorios. Las comprobaciones de salud se ejecutan automáticamente para detectar problemas a tiempo.",
-          "D": "Construir un sistema de IA privado que maneje tareas de producción creativa las 24 horas — investigando, organizando y preparando el trabajo — para que el artista pueda enfocarse en las decisiones creativas reales.",
-          "I": "Construyó un sistema modular donde diferentes especialistas de IA manejan distintas tareas (investigación, organización, análisis), con memoria compartida para que no dupliquen el trabajo. Ejecuciones diarias programadas y seguridad en capas para que el sistema solo pueda leer y preparar — nunca publicar ni sobrescribir.",
+          "D": "Construir un sistema de IA privado que maneje tareas de producción creativa las 24 horas - investigando, organizando y preparando el trabajo - para que el artista pueda enfocarse en las decisiones creativas reales.",
+          "I": "Construyó un sistema modular donde diferentes especialistas de IA manejan distintas tareas (investigación, organización, análisis), con memoria compartida para que no dupliquen el trabajo. Ejecuciones diarias programadas y seguridad en capas para que el sistema solo pueda leer y preparar - nunca publicar ni sobrescribir.",
           "M": "¿Funciona el sistema de manera confiable? ¿Se están completando las tareas? ¿Se mantiene en su carril (solo investigación y preparación, sin tocar el trabajo terminado)? ¿Se puede revisar cada acción después?"
         },
         "outcomes": [
@@ -463,7 +463,7 @@
         ]
       },
       "the-reimagination-engine": {
-        "description": "Un proyecto de lanzamiento experimental donde viejas demos e ideas de canciones sin terminar se reimaginan a través de herramientas de IA y se lanzan en oleadas agrupadas. Los lanzamientos ocurren cada dos semanas en clústeres alternos de tres canciones — una oleada relacional, la siguiente energética — con revisión de rendimiento cada 45 días. El objetivo es ver si los lanzamientos consistentes por sí solos pueden generar ingresos de streaming y tracción orgánica sin ningún marketing, presencia en redes sociales o promoción pagada. Si una canción llega al nivel superior de su clúster, se marca para posible reproducción o licenciamiento.",
+        "description": "Un proyecto de lanzamiento experimental donde viejas demos e ideas de canciones sin terminar se reimaginan a través de herramientas de IA y se lanzan en oleadas agrupadas. Los lanzamientos ocurren cada dos semanas en clústeres alternos de tres canciones - una oleada relacional, la siguiente energética - con revisión de rendimiento cada 45 días. El objetivo es ver si los lanzamientos consistentes por sí solos pueden generar ingresos de streaming y tracción orgánica sin ningún marketing, presencia en redes sociales o promoción pagada. Si una canción llega al nivel superior de su clúster, se marca para posible reproducción o licenciamiento.",
         "dmaic": {
           "A": "Comparar clústeres relacionales contra clústeres energéticos. Identificar qué canciones llegan al 20% superior de su oleada y buscar patrones en lo que resuena cuando no hay promoción externa impulsando el tráfico.",
           "C": "Después de 30 lanzamientos y un año, evaluar si el catálogo está generando ingresos de manera sostenible. Decidir si continuar, pivotar la estrategia de lanzamiento o retirar el catálogo y probar un nuevo sistema.",
@@ -501,7 +501,7 @@
         "dmaic": {
           "A": "La producción vocal es un nicho con recursos de aprendizaje consolidados limitados. Crear contenido de video educativo atractivo requirió resolver la continuidad en múltiples días de filmación, manejar el ruido ambiental y aprender una plataforma de alojamiento desconocida.",
           "C": "Curso publicado y disponible para estudiantes. Contenido organizado con objetivos claros de lección, tareas y evaluaciones. Marco diseñado para ser replicable en futuros cursos de tecnología musical y temas relacionados.",
-          "D": "Crear un curso en línea accesible que enseñe conceptos de producción vocal — desde comprender la voz hasta la grabación, edición y mezcla — sin requerir equipo costoso ni lenguaje demasiado técnico.",
+          "D": "Crear un curso en línea accesible que enseñe conceptos de producción vocal - desde comprender la voz hasta la grabación, edición y mezcla - sin requerir equipo costoso ni lenguaje demasiado técnico.",
           "I": "Produjo 16 videos que incluyen 12 lecciones, una introducción, un cierre de curso y un trailer. Filmado en un estudio casero usando múltiples ángulos de cámara y grabaciones de pantalla. Editado con motion graphics, diseño de sonido y títulos profesionales. Construyó el curso en Thinkific con currículo organizado, cuestionarios y ejemplos de audio descargables compatibles con cualquier DAW.",
           "M": "Completitud del curso a través de 12 lecciones, 3 cuestionarios y 6 tareas prácticas; calidad de producción de video; comprensión y participación de los estudiantes; y usabilidad de la plataforma."
         },
@@ -566,7 +566,7 @@
         ]
       },
       "prima": {
-        "title": "Prima — Gestión de proyectos con asistencia de IA",
+        "title": "Prima - Gestión de proyectos con asistencia de IA",
         "role": "Responsable del proyecto y arquitecto de sistemas · Implementación con asistencia de IA",
         "description": "Prima aporta un marco de gestión tanto a proyectos nuevos como a proyectos existentes que utilizan asistencia de IA. Puedes iniciar un proyecto con prima init o usar prima adopt para incorporar ese marco a un trabajo en curso. Ambas opciones hacen explícitos el alcance, las responsabilidades, las decisiones y los criterios de aceptación. Definí el propósito y los límites del proyecto, aprobé su base y tomé decisiones clave sobre el producto; los asistentes de IA contribuyeron a la implementación y la documentación. Las grabaciones muestran ambos flujos implementados con proyectos locales ficticios. Según el estado del repositorio, el lanzamiento público y la ejecución del estudio siguen pendientes.",
         "dmaic": {
@@ -630,6 +630,65 @@
           },
           {
             "label": "Transcripciones de las grabaciones (en inglés)"
+          }
+        ]
+      },
+      "knwn": {
+        "title": "KNWN - Catálogo musical y flujos de entrega",
+        "role": "Responsable del proyecto · Requisitos y dirección de flujos de trabajo · Implementación con asistencia de IA",
+        "description": "KNWN reúne la organización del catálogo musical, la información de derechos, la documentación y el envío a destinatarios en un flujo que cada persona puede operar con su propia infraestructura. Soy responsable del proyecto, defino sus requisitos y dirijo la preparación de una beta privada de tres participantes; los asistentes de IA contribuyeron a la implementación y las pruebas. El trabajo incluye incorporación de participantes, guías de uso e investigación de opciones de implementación fiables y asequibles. La grabación utiliza datos ficticios para mostrar algunos flujos. La preparación de la beta sigue en curso; todavía no hay resultados establecidos de validación con usuarios.",
+        "dmaic": {
+          "D": "Ayudar a quienes gestionan o revisan música a organizar sus catálogos, controlar versiones e información de derechos, preparar documentación y compartir con destinatarios concretos. Definí una beta privada para tres adultos invitados personalmente, con una duración de 30 días desde la configuración satisfactoria y sin coste de software. La incorporación pregunta cómo trabaja cada persona con música, cómo gestiona actualmente su catálogo y qué tres necesidades considera prioritarias. Las opciones incluyen artistas y compositores, productores, gestores de catálogos, profesionales de licencias y personas que principalmente reciben música; son perspectivas que se pretende identificar, no una distribución confirmada de los perfiles participantes.",
+          "M": "Distinguir la verificación del software de la validación con usuarios. El 1 de octubre de 2026, la revisión de código demostrada superó 750 pruebas en 84 archivos; se omitieron tres pruebas opcionales de análisis de audio. Se superaron la comprobación de tipos, la compilación de la interfaz y la comprobación de coherencia del repositorio. La beta prevista utiliza las prioridades iniciales, una encuesta final e informes de uso opcionales revisados por el participante para evaluar su utilidad. Los informes previstos incluyen recuentos limitados de actividad y errores sin datos sensibles, no el contenido del catálogo. La redacción final de la encuesta y los umbrales de éxito siguen pendientes; no se afirman resultados de la beta ni ahorros.",
+          "A": "Establecí un objetivo de cero costes incrementales de infraestructura y exigí que las decisiones de implementación se basaran en fuentes fiables. El estudio de viabilidad compara documentación oficial de proveedores, niveles gratuitos permanentes frente a créditos temporales y costes más allá del cómputo: almacenamiento, transferencia, copias de seguridad y recuperación. Considera equipos personales existentes y una opción gratuita en la nube, con sus limitaciones de capacidad y disponibilidad. Estas decisiones apoyan una gestión asequible del catálogo sin considerar que un servidor gratuito demuestra que todo el servicio lo sea. La configuración completa aún debe verificarse frente a sus límites.",
+          "I": "Se prepararon borradores de guías para participantes, preguntas de incorporación, materiales de aceptación y comprobaciones de preparación para una beta autoguiada. Una conversación separada sobre la configuración registra una prueba de concepto de alojamiento en la nube y acceso desde un teléfono; es evidencia de preparación, no de un despliegue completo para participantes. La grabación del portafolio muestra la versión verificada filtrando grabaciones, agrupando dos versiones y preparando condiciones de acceso sin enviar un enlace. Una captura independiente muestra un fallo por un archivo ausente preparado para la prueba. Esto combina una demostración funcional con el trabajo práctico necesario para ayudar a las personas a empezar a utilizar el producto.",
+          "C": "Antes de enviar invitaciones, completar una configuración repetible, copias de seguridad y recuperación verificadas, pruebas de la entrega pública, controles de continuación y salida de los 30 días, condiciones revisadas y comprobaciones finales de lanzamiento. Las cuentas y los catálogos permanecen bajo el control del participante. Los informes opcionales deben revisarse antes de enviarse; no dan acceso automático a la música ni a los datos de destinatarios. El plan conserva el uso local del catálogo, la reproducción y las exportaciones si no se continúa. La documentación y la conversación posterior difieren sobre algunos pasos ya completados, por lo que se distingue la prueba de concepto de la preparación completa de la beta. La implementación central y los documentos privados de planificación quedan fuera de este portafolio."
+        },
+        "timeline": [
+          "Requisitos y prioridades de usuarios",
+          "Catálogo y flujos del operador",
+          "Preparación de la beta privada",
+          "Viabilidad del alojamiento y los costes",
+          "Verificación y criterios de lanzamiento"
+        ],
+        "tools": [
+          "Definición de requisitos",
+          "Diseño de flujos de trabajo",
+          "Desarrollo con asistencia de IA",
+          "Revisión de aceptación",
+          "TypeScript",
+          "Pruebas automatizadas",
+          "Formación de usuarios"
+        ],
+        "outcomes": [
+          "Beta privada de tres participantes y 30 días planificada con incorporación y guías",
+          "Investigación de viabilidad con fuentes y objetivo de cero costes incrementales; verificación completa pendiente",
+          "Demostración ficticia real de organización y preparación de envíos; sin entrega a destinatarios",
+          "Revisión demostrada: 750 pruebas superadas, 3 omitidas; comentarios de la beta y aprobación final pendientes"
+        ],
+        "media": [
+          {
+            "label": "Recorrido por el catálogo y la preparación de envíos (en inglés)",
+            "caption": "Grabación real de pantalla local · datos ficticios · solo preparación · en inglés"
+          },
+          {
+            "label": "Catálogo ficticio (en inglés)",
+            "caption": "Captura real de la aplicación · grabaciones ficticias · en inglés"
+          },
+          {
+            "label": "Organización de versiones de una canción (en inglés)",
+            "caption": "Dos versiones ficticias en un proyecto · aplicación real · en inglés"
+          },
+          {
+            "label": "Preparación de condiciones de acceso (en inglés)",
+            "caption": "Contacto ficticio · condiciones seleccionadas, sin envío · en inglés"
+          },
+          {
+            "label": "Resumen del estado con incidencias (en inglés)",
+            "caption": "Recorte del resumen real · archivo ausente y archivo sin registrar preparados para la prueba · en inglés"
+          },
+          {
+            "label": "Guía y notas de verificación"
           }
         ]
       }
@@ -741,7 +800,7 @@
     "workflow": "Workflow",
     "visitProject": "Visitar",
     "playbuzzrush": "Jugar a Buzz Rush",
-    "generatedArtwork": "Imagen promocional generada — no es una captura del juego",
+    "generatedArtwork": "Imagen promocional generada - no es una captura del juego",
     "close": "Cerrar"
   },
   "releaseCard": {
@@ -765,7 +824,7 @@
   "work": {
     "active": "Activo",
     "complete": "Completado",
-    "intro": "Una muestra transversal de proyectos que abarcan producción musical, educación comunitaria, arquitectura de sistemas y tecnología creativa — cada uno construido con la misma intención: crear algo significativo, escalable y humano. Cada proyecto se presenta en formato DMAIC (Definir, Medir, Analizar, Mejorar, Controlar) para que puedas ver cómo cada uno avanza del concepto al resultado medible.",
+    "intro": "Una muestra transversal de proyectos que abarcan producción musical, educación comunitaria, arquitectura de sistemas y tecnología creativa - cada uno construido con la misma intención: crear algo significativo, escalable y humano. Cada proyecto se presenta en formato DMAIC (Definir, Medir, Analizar, Mejorar, Controlar) para que puedas ver cómo cada uno avanza del concepto al resultado medible.",
     "line1": "PROYECTOS",
     "line2": "PROYECTOS"
   }

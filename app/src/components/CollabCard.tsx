@@ -33,7 +33,7 @@ export default function CollabCard({ entry, onPlay }: CollabCardProps) {
         }
       }}
     >
-      {/* Thumbnail — square */}
+      {/* Thumbnail - square */}
       <div className="relative w-full" style={{ paddingBottom: '100%' }}>
         <img
           src={entry.image}

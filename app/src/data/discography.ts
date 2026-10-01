@@ -1,6 +1,6 @@
 // =============================================================================
 // DISCOGRAPHY & STREAMING DATA
-// Source: Chartmetric (chartmetric.com) — pulled May 14, 2026
+// Source: Chartmetric (chartmetric.com) - pulled May 14, 2026
 // Last updated: May 15, 2026
 // =============================================================================
 // TO ADD MORE RELEASES:
@@ -38,7 +38,7 @@ export interface CountryAirplay {
 }
 
 // =============================================================================
-// INDIVIDUAL TRACK DATA — from Chartmetric Summary Statistics
+// INDIVIDUAL TRACK DATA - from Chartmetric Summary Statistics
 // Ordered chronologically: newest → oldest
 // =============================================================================
 
@@ -354,7 +354,7 @@ export const discography: DiscographyEntry[] = [
 ]
 
 // =============================================================================
-// AGGREGATED STATS — sum of all tracks above
+// AGGREGATED STATS - sum of all tracks above
 // Update these whenever you add new tracks
 // =============================================================================
 
@@ -369,7 +369,7 @@ export const streamingStats = {
 }
 
 // =============================================================================
-// COUNTRY AIRPLAY — pulled from Chartmetric geographic data
+// COUNTRY AIRPLAY - pulled from Chartmetric geographic data
 // =============================================================================
 
 export const countryAirplay: CountryAirplay[] = [
