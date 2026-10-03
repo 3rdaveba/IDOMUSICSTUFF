@@ -8,6 +8,7 @@ gsap.registerPlugin(ScrollTrigger)
 export default function ContactSection() {
   const { t } = useTranslation()
   const [formState, setFormState] = useState<'idle' | 'sending' | 'success' | 'error'>('idle')
+  const [draft, setDraft] = useState<Record<string, string>>({})
   const headlineRef = useRef<HTMLHeadingElement>(null)
   const detailsRef = useRef<HTMLDivElement>(null)
   const formRef = useRef<HTMLFormElement>(null)
@@ -63,10 +64,12 @@ export default function ContactSection() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
+    if (formState === 'sending') return
     setFormState('sending')
 
     const form = e.currentTarget
     const formData = new FormData(form)
+    setDraft(Object.fromEntries(Array.from(formData.entries(), ([key, value]) => [key, String(value)])))
 
     try {
       const response = await fetch('https://formspree.io/f/mredplgz', {
@@ -144,7 +147,7 @@ export default function ContactSection() {
           {/* Right: Form */}
           <div>
             {formState === 'success' ? (
-              <div className="flex items-center justify-center h-full min-h-[300px]">
+              <div role="status" className="flex items-center justify-center h-full min-h-[300px]">
                 <h3
                   className="font-display italic text-2xl md:text-3xl font-medium text-center"
                   style={{ color: 'var(--accent-amber)' }}
@@ -153,7 +156,7 @@ export default function ContactSection() {
                 </h3>
               </div>
             ) : formState === 'error' ? (
-              <div className="flex flex-col items-center justify-center h-full min-h-[300px] space-y-4">
+              <div role="alert" className="flex flex-col items-center justify-center h-full min-h-[300px] space-y-4">
                 <h3
                   className="font-display italic text-2xl md:text-3xl font-medium text-center"
                   style={{ color: '#ef4444' }}
@@ -187,6 +190,7 @@ export default function ContactSection() {
                   <label htmlFor="name" style={labelStyle}>{t('contact.formNameLabel')}</label>
                   <input
                     id="name"
+                    defaultValue={draft.name || ''}
                     name="name"
                     type="text"
                     placeholder={t('contact.formNamePlaceholder')}
@@ -210,6 +214,7 @@ export default function ContactSection() {
                   <label htmlFor="email" style={labelStyle}>{t('contact.formEmailLabel')}</label>
                   <input
                     id="email"
+                    defaultValue={draft.email || ''}
                     name="email"
                     type="email"
                     placeholder={t('contact.formEmailPlaceholder')}
@@ -231,6 +236,7 @@ export default function ContactSection() {
                   <label htmlFor="subject" style={labelStyle}>{t('contact.formSubjectLabel')}</label>
                   <input
                     id="subject"
+                    defaultValue={draft.subject || ''}
                     name="subject"
                     type="text"
                     placeholder={t('contact.formSubjectPlaceholder')}
@@ -251,6 +257,7 @@ export default function ContactSection() {
                   <label htmlFor="message" style={labelStyle}>{t('contact.formMessageLabel')}</label>
                   <textarea
                     id="message"
+                    defaultValue={draft.message || ''}
                     name="message"
                     rows={5}
                     placeholder={t('contact.formMessagePlaceholder')}

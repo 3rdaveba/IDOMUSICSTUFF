@@ -1,4 +1,5 @@
 #!/usr/bin/env tsx
+import { unflattenLocale } from './locale-utils'
 /**
  * Translation Merge Pipeline
  *
@@ -67,35 +68,6 @@ function flatten(obj: Record<string, unknown>, prefix = '', result: Record<strin
       flatten(val as Record<string, unknown>, fullKey, result)
     }
   }
-  return result
-}
-
-function unflatten(flat: Record<string, string>): Record<string, unknown> {
-  const result: Record<string, unknown> = {}
-
-  for (const key of Object.keys(flat).sort()) {
-    const parts = key.split(/\.|\[(\d+)\]/).filter(Boolean)
-    let current: any = result
-
-    for (let i = 0; i < parts.length; i++) {
-      const part = parts[i]
-      const isIndex = /^\d+$/.test(part)
-      const isLast = i === parts.length - 1
-
-      if (isLast) {
-        current[part] = flat[key]
-      } else {
-        const nextPart = parts[i + 1]
-        const nextIsIndex = /^\d+$/.test(nextPart)
-
-        if (!(part in current)) {
-          current[part] = nextIsIndex ? [] : {}
-        }
-        current = current[part]
-      }
-    }
-  }
-
   return result
 }
 
@@ -225,7 +197,8 @@ function generateReviewLog(lang: string, disputes: Dispute[]): string {
 // ---------------------------------------------------------------------------
 const ROOT = process.cwd()
 const TRANSLATIONS_DIR = path.join(ROOT, 'translations')
-const PUBLIC_LOCALES_DIR = path.join(ROOT, 'public', 'locales')
+const CANDIDATES_DIR = path.join(ROOT, 'translations', 'candidates')
+fs.mkdirSync(CANDIDATES_DIR, { recursive: true })
 
 function run() {
   console.log('🌍 Translation Merge Pipeline\n')
@@ -268,12 +241,12 @@ function run() {
     console.log(`  Final keys:  ${Object.keys(finalFlat).length}`)
     console.log(`  Disputes:    ${disputes.length}`)
 
-    // Write final JSON
-    const finalUnflat = unflatten(finalFlat)
-    const finalPath = path.join(TRANSLATIONS_DIR, 'final', `${lang}.json`)
+    // Write a candidate for review; never replace approved translations.
+    const finalUnflat = unflattenLocale(finalFlat)
+    const finalPath = path.join(CANDIDATES_DIR, `${lang}.json`)
     fs.mkdirSync(path.dirname(finalPath), { recursive: true })
     fs.writeFileSync(finalPath, JSON.stringify(finalUnflat, null, 2) + '\n')
-    console.log(`  ✅ Final: ${finalPath}`)
+    console.log(`  ✅ Candidate: ${finalPath}`)
 
     // Write disputes JSON
     const disputesPath = path.join(TRANSLATIONS_DIR, 'disputes', `${lang}-disputes.json`)
@@ -286,18 +259,8 @@ function run() {
     fs.writeFileSync(logPath, generateReviewLog(lang, disputes))
     console.log(`  ✅ Review log: ${logPath}`)
 
-    // Copy to public/locales
-    const publicPath = path.join(PUBLIC_LOCALES_DIR, lang, 'translation.json')
-    fs.mkdirSync(path.dirname(publicPath), { recursive: true })
-    fs.writeFileSync(publicPath, JSON.stringify(finalUnflat, null, 2) + '\n')
-    console.log(`  ✅ Public locale: ${publicPath}`)
-  }
 
-  // Copy English source to public/locales/en
-  const enPublicPath = path.join(PUBLIC_LOCALES_DIR, 'en', 'translation.json')
-  fs.mkdirSync(path.dirname(enPublicPath), { recursive: true })
-  fs.writeFileSync(enPublicPath, JSON.stringify(sourceRaw, null, 2) + '\n')
-  console.log(`\n✅ English source copied to: ${enPublicPath}`)
+  }
 
   console.log('\n🎉 Done!')
 }

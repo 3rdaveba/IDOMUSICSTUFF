@@ -27,4 +27,6 @@ i18n
     },
   })
 
+i18n.on('languageChanged', language => { document.documentElement.lang = language.split('-')[0] })
+
 export default i18n

@@ -1,4 +1,5 @@
 #!/usr/bin/env tsx
+import { setLocaleValue } from './locale-utils'
 /**
  * Merge quality-checked gap translations into final files
  *
@@ -8,34 +9,6 @@
 
 import * as fs from 'fs'
 import * as path from 'path'
-
-function levenshtein(a: string, b: string): number {
-  const m = a.length
-  const n = b.length
-  if (m === 0) return n
-  if (n === 0) return m
-
-  const dp: number[][] = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0))
-
-  for (let i = 0; i <= m; i++) dp[i][0] = i
-  for (let j = 0; j <= n; j++) dp[0][j] = j
-
-  for (let i = 1; i <= m; i++) {
-    for (let j = 1; j <= n; j++) {
-      const cost = a[i - 1] === b[j - 1] ? 0 : 1
-      dp[i][j] = Math.min(dp[i - 1][j] + 1, dp[i][j - 1] + 1, dp[i - 1][j - 1] + cost)
-    }
-  }
-
-  return dp[m][n]
-}
-
-function similarity(a: string, b: string): number {
-  if (a === b) return 1
-  const maxLen = Math.max(a.length, b.length)
-  if (maxLen === 0) return 1
-  return 1 - levenshtein(a, b) / maxLen
-}
 
 function loadJson(file: string): Record<string, string> {
   if (!fs.existsSync(file)) return {}
@@ -48,9 +21,9 @@ function mergeQC(
   claude: Record<string, string>,
   codex: Record<string, string>,
   gemini: Record<string, string>
-): { merged: Record<string, string>; disputes: any[] } {
+): { merged: Record<string, string>; disputes: Array<Record<string, string>> } {
   const merged: Record<string, string> = {}
-  const disputes: any[] = []
+  const disputes: Array<Record<string, string>> = []
 
   const allKeys = new Set([
     ...Object.keys(filled),
@@ -108,7 +81,8 @@ function mergeQC(
 const ROOT = process.cwd()
 const GAPS_DIR = path.join(ROOT, 'translations', 'gaps')
 const FINAL_DIR = path.join(ROOT, 'translations', 'final')
-const PUBLIC_LOCALES_DIR = path.join(ROOT, 'public', 'locales')
+const CANDIDATES_DIR = path.join(ROOT, 'translations', 'candidates')
+fs.mkdirSync(CANDIDATES_DIR, { recursive: true })
 
 function run() {
   console.log('🔍 Quality Check Merge\n')
@@ -147,28 +121,12 @@ function run() {
 
     // Deep merge: update final with merged gap values
     for (const [flatKey, value] of Object.entries(merged)) {
-      const parts = flatKey.split(/\.|\[(\d+)\]/).filter(Boolean)
-      let cur: any = final
-      for (let i = 0; i < parts.length - 1; i++) {
-        const p = parts[i]
-        const nextIsIndex = /^\d+$/.test(parts[i + 1])
-        if (!(p in cur)) cur[p] = nextIsIndex ? [] : {}
-        cur = cur[p]
-      }
-      const last = parts[parts.length - 1]
-      if (/^\d+$/.test(last)) {
-        cur[parseInt(last)] = value
-      } else {
-        cur[last] = value
-      }
+      setLocaleValue(final, flatKey, value)
     }
 
-    fs.writeFileSync(finalPath, JSON.stringify(final, null, 2) + '\n')
-    console.log(`  ✅ Final patched: ${finalPath}`)
+    fs.writeFileSync(path.join(CANDIDATES_DIR, `${lang}.json`), JSON.stringify(final, null, 2) + '\n')
+    console.log(`  ✅ Review candidate: ${finalPath}`)
 
-    const publicPath = path.join(PUBLIC_LOCALES_DIR, lang, 'translation.json')
-    fs.writeFileSync(publicPath, JSON.stringify(final, null, 2) + '\n')
-    console.log(`  ✅ Public locale: ${publicPath}`)
 
     if (disputes.length > 0) {
       const disputesPath = path.join(GAPS_DIR, `${lang}-qc-disputes.json`)

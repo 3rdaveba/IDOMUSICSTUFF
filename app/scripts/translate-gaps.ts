@@ -73,8 +73,8 @@ async function translateGaps(lang: string, to: string) {
 
       // Small delay to avoid rate limiting
       if (i < entries.length - 1) await new Promise(r => setTimeout(r, 150))
-    } catch (err: any) {
-      console.log(`  ❌ Error translating "${text.substring(0, 40)}": ${err.message}`)
+    } catch (err: unknown) {
+      console.log(`  ❌ Error translating "${text.substring(0, 40)}": ${err instanceof Error ? err.message : String(err)}`)
       result[key] = text
       errors++
     }

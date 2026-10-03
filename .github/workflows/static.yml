@@ -33,13 +33,22 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
       - name: Install dependencies
         working-directory: ./app
         run: npm ci --legacy-peer-deps
+      - name: Lint and validate content
+        working-directory: ./app
+        run: npm run lint && npm run check:content && npm run test:content
       - name: Build
         working-directory: ./app
         run: npm run build
+      - name: Install Chromium for browser checks
+        working-directory: ./app
+        run: npx playwright install --with-deps chromium
+      - name: Browser regression checks
+        working-directory: ./app
+        run: npm run test:browser
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact

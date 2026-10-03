@@ -1,5 +1,6 @@
+import { useDialogFocus } from '@/hooks/useDialogFocus'
 import { useParams, useNavigate } from 'react-router'
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useCallback } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Helmet } from 'react-helmet-async'
 import { ArrowLeft, ArrowRight, Film, Video, ChevronLeft, ChevronRight, X, ExternalLink } from 'lucide-react'
@@ -19,19 +20,15 @@ interface LightboxProps {
 }
 
 function FilmLightbox({ items, initialIndex, onClose }: LightboxProps) {
+  const dialogRef = useDialogFocus()
   const [index, setIndex] = useState(initialIndex)
 
   const current = items[index]
   const hasPrev = index > 0
   const hasNext = index < items.length - 1
 
-  const goPrev = () => { if (hasPrev) setIndex((i) => i - 1) }
-  const goNext = () => { if (hasNext) setIndex((i) => i + 1) }
-
-  useEffect(() => {
-    document.body.style.overflow = 'hidden'
-    return () => { document.body.style.overflow = '' }
-  }, [])
+  const goPrev = useCallback(() => { if (hasPrev) setIndex((i) => i - 1) }, [hasPrev])
+  const goNext = useCallback(() => { if (hasNext) setIndex((i) => i + 1) }, [hasNext])
 
   useEffect(() => {
     const handleKey = (e: KeyboardEvent) => {
@@ -47,6 +44,11 @@ function FilmLightbox({ items, initialIndex, onClose }: LightboxProps) {
 
   return (
     <div
+      ref={dialogRef}
+      role="dialog"
+      aria-modal="true"
+      aria-label={current.label}
+      tabIndex={-1}
       className="fixed inset-0 z-50 flex items-center justify-center"
       style={{ backgroundColor: 'rgba(10,9,8,0.35)' }}
       onClick={onClose}

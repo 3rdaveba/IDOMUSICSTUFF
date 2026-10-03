@@ -132,13 +132,16 @@
       "charted": "En listas",
       "entries": {
         "future-animals-crazy-love": {
-          "role": "Productor vocal"
+          "role": "Productor vocal",
+          "milestones": []
         },
         "hedegaard-need-you": {
-          "role": "Productor vocal"
+          "role": "Productor vocal",
+          "milestones": []
         },
         "kesi-tilbage": {
-          "role": "Productor vocal"
+          "role": "Productor vocal",
+          "milestones": []
         },
         "lady-gaga-babylon": {
           "milestones": [
@@ -147,13 +150,16 @@
           "role": "Productor vocal"
         },
         "lukas-graham-hold-my-hand": {
-          "role": "Productor vocal"
+          "role": "Productor vocal",
+          "milestones": []
         },
         "lukas-graham-promise": {
-          "role": "Productor vocal"
+          "role": "Productor vocal",
+          "milestones": []
         },
         "lukas-graham-say-yes": {
-          "role": "Productor vocal"
+          "role": "Productor vocal",
+          "milestones": []
         },
         "lukas-graham-share-that-love": {
           "milestones": [
@@ -162,16 +168,20 @@
           "role": "Productor vocal"
         },
         "lukas-graham-you": {
-          "role": "Productor vocal"
+          "role": "Productor vocal",
+          "milestones": []
         },
         "lukas-graham-youre-not-the-only-one": {
-          "role": "Productor vocal"
+          "role": "Productor vocal",
+          "milestones": []
         },
         "matoma-its-christmas-time": {
-          "role": "Productor vocal"
+          "role": "Productor vocal",
+          "milestones": []
         },
         "matoma-sunday-morning": {
-          "role": "Productor vocal"
+          "role": "Productor vocal",
+          "milestones": []
         },
         "sinners-rocky-road-to-dublin": {
           "milestones": [
@@ -180,7 +190,8 @@
           "role": "Artista invitado · DC6 Singers Collective"
         },
         "sinners-this-little-light": {
-          "role": "Artista invitado · DC6 Singers Collective"
+          "role": "Artista invitado · DC6 Singers Collective",
+          "milestones": []
         }
       },
       "listen": "Escuchar",
@@ -386,11 +397,12 @@
           "Documentación y archivo"
         ],
         "tools": [
-          "Live Production",
-          "Stage Design",
-          "Pandemic Safety Protocols",
-          "Multi-Camera Capture",
-          "Creative Direction"
+          "Producción vocal",
+          "Dirección de coro",
+          "Arreglo vocal",
+          "Armonización",
+          "Dirección de ensayos",
+          "Colaboración creativa"
         ]
       },
       "lmu-gospel-choir": {
@@ -747,6 +759,62 @@
             "caption": "Aplicación autónoma en inglés, archivos ficticios e instrucciones en tres idiomas"
           }
         ]
+      },
+      "portfolio": {
+        "title": "IDOMUSICSTUFF - Un portafolio respaldado por evidencia",
+        "role": "Dirección de contenido y producto · Revisión de aceptación · Desarrollo con asistencia de IA",
+        "description": "Mi trabajo abarca música, educación, operaciones creativas y software. Este portafolio da a esos proyectos una estructura común para que el visitante comprenda el problema, mi función, las decisiones y la evidencia que las respalda. Dirijo el contenido y la presentación, reviso los resultados y utilizo asistencia de IA para la implementación. El trabajo incluye casos de estudio multilingües, demostraciones reales de productos y un proceso revisado desde la vista previa local hasta el sitio publicado.",
+        "dmaic": {
+          "D": "Presentar un trabajo variado sin pedir al visitante que adivine cómo se relacionan sus partes. Exigí una estructura DMAIC coherente, responsabilidades claras y los medios después del resumen. Cada proyecto debe explicar su propósito y mi contribución. El inglés, el español y el danés permiten consultar la presentación en tres idiomas manteniendo la misma identidad visual.",
+          "M": "El comando de verificación local supera lint, validación de contenido, cuatro pruebas de contenido, la compilación de producción y cinco flujos de navegador en Chromium. Las comprobaciones de contenido cubren 13 registros de proyectos y tres árboles de traducción. Las pruebas de navegador revisan Prima, KNWN, Ledger y el portafolio en inglés, danés y español, navegación por teclado, foco y reproducción de medios, desbordamiento móvil y respuestas de contacto simuladas. Tras actualizaciones compatibles, la auditoría de dependencias informó de cero vulnerabilidades conocidas. Son comprobaciones acotadas y puntuales, no evidencia de conversión de visitantes ni certificaciones completas de accesibilidad o seguridad.",
+          "A": "La auditoría convirtió supuestos de mantenimiento en fallos reproducibles. El botón de retorno de un proyecto desconocido llevaba a una ruta inexistente, las tarjetas no tenían semántica de enlace, los diálogos de medios no gestionaban el foco del teclado y un intento de contacto fallido descartaba el borrador. Las herramientas de traducción podían sobrescribir archivos revisados y un proyecto anterior tenía una lista de habilidades incoherente. La ejecución inicial de lint informó de 29 errores y dos advertencias. Estos hallazgos definieron mejoras concretas antes de presentar el portafolio como proyecto.",
+          "I": "Se corrigió la recuperación de rutas, se convirtieron las tarjetas en enlaces accesibles por teclado, se añadió activación de medios por teclado y gestión del foco, y se conservaron los borradores de contacto tras un fallo. El idioma del documento se actualiza al cambiar de idioma. Cuatro herramientas de traducción ahora generan candidatos para revisión sin reemplazar el texto aprobado; se añadieron comprobaciones de estructura, variables, arrays de proyectos y medios. Se resolvieron los errores de lint, se aplicaron correcciones compatibles de dependencias y se reescribió la documentación de instalación, traducción y mantenimiento según la implementación real. Se añadieron pruebas de regresión y se propusieron como requisitos del flujo de publicación.",
+          "C": "Exigir comprobaciones locales y revisión del responsable antes de publicar. Las pruebas de regresión protegen flujos seleccionados y verifican que las herramientas de traducción conserven los archivos aprobados. Las pruebas de contacto usan datos ficticios y respuestas simuladas; no envían mensajes. Los cambios propuestos en GitHub Actions ejecutan estas comprobaciones antes del despliegue, pero su ejecución alojada debe verificarse después de la aprobación. Siguen pendientes evaluaciones más amplias de navegadores, accesibilidad y rendimiento; permanece una advertencia de tamaño del paquete. El caso describe el trabajo local completado sin dar por terminadas esas evaluaciones."
+        },
+        "timeline": [
+          "Requisitos de contenido y presentación",
+          "Estructura compartida de proyectos",
+          "Casos de estudio multilingües",
+          "Demostraciones y revisión",
+          "Publicación y verificación"
+        ],
+        "tools": [
+          "Arquitectura de contenido",
+          "Dirección del producto",
+          "React",
+          "TypeScript",
+          "i18next",
+          "GSAP y Three.js",
+          "GitHub Pages",
+          "Verificación en navegador"
+        ],
+        "outcomes": [
+          "Lint, validación de contenido, compilación y nueve pruebas de regresión superados localmente",
+          "Mejoras de navegación por teclado, foco de medios, recuperación de rutas y reintento de contacto",
+          "Los candidatos de traducción conservan los archivos revisados; tres árboles de idiomas comprobados",
+          "Documentación actualizada y validación añadida al flujo de publicación propuesto"
+        ],
+        "media": [
+          {
+            "label": "Recorrido por el portafolio (inglés, danés y español)",
+            "caption": "Grabación local real · navegación, idiomas, medios y recuperación de un proyecto inexistente"
+          },
+          {
+            "label": "Biblioteca de proyectos (en inglés)",
+            "caption": "Captura real del portafolio · trabajo creativo y software con una presentación común"
+          },
+          {
+            "label": "Caso de estudio traducido (en español)",
+            "caption": "Captura real del portafolio · texto del caso de Ledger en español"
+          },
+          {
+            "label": "Evidencia en el visor de medios (en inglés)",
+            "caption": "Captura real del portafolio · la demostración de Ledger utiliza registros ficticios"
+          },
+          {
+            "label": "Guía y alcance de la verificación"
+          }
+        ]
       }
     }
   },
@@ -883,5 +951,6 @@
     "intro": "Una muestra transversal de proyectos que abarcan producción musical, educación comunitaria, arquitectura de sistemas y tecnología creativa - cada uno construido con la misma intención: crear algo significativo, escalable y humano. Cada proyecto se presenta en formato DMAIC (Definir, Medir, Analizar, Mejorar, Controlar) para que puedas ver cómo cada uno avanza del concepto al resultado medible.",
     "line1": "PROYECTOS",
     "line2": "PROYECTOS"
-  }
+  },
+  "collabCard": {}
 }

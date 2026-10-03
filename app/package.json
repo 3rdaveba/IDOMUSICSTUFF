@@ -7,7 +7,11 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "check:content": "node --import tsx scripts/check-content.ts",
+    "test:content": "node --import tsx --test tests/*.test.ts",
+    "test:browser": "node --test tests/browser.test.mjs",
+    "check": "npm run lint && npm run check:content && npm run test:content && npm run build && npm run test:browser"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
@@ -82,6 +86,7 @@
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
     "kimi-plugin-inspect-react": "^1.0.3",
+    "playwright": "1.62.1",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.19",
     "tailwindcss-animate": "^1.0.7",

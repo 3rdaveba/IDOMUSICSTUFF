@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router'
+import { Routes, Route, Navigate } from 'react-router'
 import { useLenis } from '@/hooks/useLenis'
 import ParticleCanvas from '@/components/ParticleCanvas'
 import CustomCursor from '@/components/CustomCursor'
@@ -17,6 +17,8 @@ export default function App() {
       <CustomCursor />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/work" element={<Navigate to="/" replace />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
         <Route path="/project/:id" element={<ProjectDetail />} />
         <Route path="/film/:id" element={<FilmDetail />} />
         <Route path="/artist-work" element={<ArtistWorkPage />} />

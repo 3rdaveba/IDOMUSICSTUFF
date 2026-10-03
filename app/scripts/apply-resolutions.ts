@@ -1,4 +1,5 @@
 #!/usr/bin/env tsx
+import { setLocaleValue } from './locale-utils'
 /**
  * Apply Opus dispute resolutions into final translation files
  */
@@ -9,7 +10,8 @@ import * as path from 'path'
 const ROOT = process.cwd()
 const GAPS_DIR = path.join(ROOT, 'translations', 'gaps')
 const FINAL_DIR = path.join(ROOT, 'translations', 'final')
-const PUBLIC_LOCALES_DIR = path.join(ROOT, 'public', 'locales')
+const CANDIDATES_DIR = path.join(ROOT, 'translations', 'candidates')
+fs.mkdirSync(CANDIDATES_DIR, { recursive: true })
 
 function run() {
   console.log('🔨 Applying Opus Resolutions\n')
@@ -30,31 +32,15 @@ function run() {
     const final = JSON.parse(fs.readFileSync(finalPath, 'utf-8'))
 
     for (const [flatKey, value] of Object.entries(resolved)) {
-      const parts = flatKey.split(/\.|\[(\d+)\]/).filter(Boolean)
-      let cur: any = final
-      for (let i = 0; i < parts.length - 1; i++) {
-        const p = parts[i]
-        const nextIsIndex = /^\d+$/.test(parts[i + 1])
-        if (!(p in cur)) cur[p] = nextIsIndex ? [] : {}
-        cur = cur[p]
-      }
-      const last = parts[parts.length - 1]
-      if (/^\d+$/.test(last)) {
-        cur[parseInt(last)] = value
-      } else {
-        cur[last] = value
-      }
+      setLocaleValue(final, flatKey, value)
     }
 
-    fs.writeFileSync(finalPath, JSON.stringify(final, null, 2) + '\n')
-    console.log(`  ✅ Final patched: ${finalPath}`)
+    fs.writeFileSync(path.join(CANDIDATES_DIR, `${lang}.json`), JSON.stringify(final, null, 2) + '\n')
+    console.log(`  ✅ Review candidate: ${finalPath}`)
 
-    const publicPath = path.join(PUBLIC_LOCALES_DIR, lang, 'translation.json')
-    fs.writeFileSync(publicPath, JSON.stringify(final, null, 2) + '\n')
-    console.log(`  ✅ Public locale: ${publicPath}`)
   }
 
-  console.log('\n🎉 Done! Rebuild with: npm run build')
+  console.log('\n🎉 Done! Review candidates before applying them to final and public locale files.')
 }
 
 run()

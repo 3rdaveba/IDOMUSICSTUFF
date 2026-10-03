@@ -132,13 +132,16 @@
       "charted": "På hitliste",
       "entries": {
         "future-animals-crazy-love": {
-          "role": "Vokalproducent"
+          "role": "Vokalproducent",
+          "milestones": []
         },
         "hedegaard-need-you": {
-          "role": "Vokalproducent"
+          "role": "Vokalproducent",
+          "milestones": []
         },
         "kesi-tilbage": {
-          "role": "Vokalproducent"
+          "role": "Vokalproducent",
+          "milestones": []
         },
         "lady-gaga-babylon": {
           "milestones": [
@@ -147,13 +150,16 @@
           "role": "Vokalproducent"
         },
         "lukas-graham-hold-my-hand": {
-          "role": "Vokalproducent"
+          "role": "Vokalproducent",
+          "milestones": []
         },
         "lukas-graham-promise": {
-          "role": "Vokalproducent"
+          "role": "Vokalproducent",
+          "milestones": []
         },
         "lukas-graham-say-yes": {
-          "role": "Vokalproducent"
+          "role": "Vokalproducent",
+          "milestones": []
         },
         "lukas-graham-share-that-love": {
           "milestones": [
@@ -162,16 +168,20 @@
           "role": "Vokalproducent"
         },
         "lukas-graham-you": {
-          "role": "Vokalproducent"
+          "role": "Vokalproducent",
+          "milestones": []
         },
         "lukas-graham-youre-not-the-only-one": {
-          "role": "Vokalproducent"
+          "role": "Vokalproducent",
+          "milestones": []
         },
         "matoma-its-christmas-time": {
-          "role": "Vokalproducent"
+          "role": "Vokalproducent",
+          "milestones": []
         },
         "matoma-sunday-morning": {
-          "role": "Vokalproducent"
+          "role": "Vokalproducent",
+          "milestones": []
         },
         "sinners-rocky-road-to-dublin": {
           "milestones": [
@@ -180,7 +190,8 @@
           "role": "Featured Artist · DC6 Singers Collective"
         },
         "sinners-this-little-light": {
-          "role": "Featured Artist · DC6 Singers Collective"
+          "role": "Featured Artist · DC6 Singers Collective",
+          "milestones": []
         }
       },
       "listen": "Lyt",
@@ -386,11 +397,12 @@
           "Dokumentation & arkiv"
         ],
         "tools": [
-          "Live Production",
-          "Stage Design",
-          "Pandemic Safety Protocols",
-          "Multi-Camera Capture",
-          "Creative Direction"
+          "Vokalproduktion",
+          "Korledelse",
+          "Vokalarrangement",
+          "Harmonisering",
+          "Ledelse af prøver",
+          "Kreativt samarbejde"
         ]
       },
       "lmu-gospel-choir": {
@@ -747,6 +759,62 @@
             "caption": "Selvstændigt program på engelsk, fiktive filer og vejledning på tre sprog"
           }
         ]
+      },
+      "portfolio": {
+        "title": "IDOMUSICSTUFF - En portefølje med dokumentation",
+        "role": "Retning for indhold og produkt · Acceptgennemgang · Udvikling med AI-assistance",
+        "description": "Mit arbejde spænder over musik, undervisning, kreativ drift og software. Porteføljen giver projekterne en fælles struktur, så besøgende kan forstå problemet, min rolle, beslutningerne og dokumentationen. Jeg fastlægger indhold og præsentation, gennemgår resultaterne og bruger AI-assistance til implementering. Arbejdet omfatter flersprogede cases, faktiske produktdemonstrationer og en gennemgået proces fra lokal forhåndsvisning til det offentlige websted.",
+        "dmaic": {
+          "D": "Præsentere et varieret arbejde uden at bede den besøgende gætte, hvordan delene hænger sammen. Jeg krævede en ensartet DMAIC-struktur, tydeligt ansvar og medier placeret efter oversigten. Hvert projekt skal forklare sit formål og mit bidrag. Engelsk, spansk og dansk gør præsentationen tilgængelig på tre sprog med samme visuelle identitet.",
+          "M": "Den lokale kontrolkommando består lint, indholdsvalidering, fire indholdstests, produktionsbygning og fem browserforløb i Chromium. Indholdskontrollen dækker 13 projektposter og tre oversættelsestræer. Browserkontrollerne afprøver Prima, KNWN, Ledger og porteføljen på engelsk, dansk og spansk, tastaturnavigation, fokus og afspilning i medieviseren, mobiloverløb og simulerede kontaktsvar. En afhængighedskontrol efter kompatible opdateringer rapporterede nul kendte sårbarheder. Det er afgrænsede kontroller på et bestemt tidspunkt, ikke dokumentation for besøgendes konvertering eller fuld certificering af tilgængelighed og sikkerhed.",
+          "A": "Gennemgangen gjorde antagelser om vedligeholdelse til reproducerbare fejl. Returknappen ved et ukendt projekt førte til en rute uden indhold, projektkort havde ikke linksemantik, mediedialoger styrede ikke tastaturfokus, og et mislykket kontaktforsøg kasserede kladden. Oversættelsesværktøjer kunne overskrive gennemgåede filer, og et ældre projekt havde en uoverensstemmende kompetenceliste. Den oprindelige lintkørsel rapporterede 29 fejl og to advarsler. Fundene afgrænsede konkrete forbedringer, før porteføljen blev præsenteret som et projekt.",
+          "I": "Rettede gendannelse af navigation, gjorde projektkort til links med tastaturadgang, tilføjede tastaturaktivering af medier og fokusstyring i dialoger samt bevarede kontaktkladder efter en mislykket anmodning. Dokumentsproget følger nu sprogvalget. Fire oversættelsesværktøjer laver forslag til gennemgang uden at erstatte godkendt tekst, og der er tilføjet kontrol af struktur, pladsholdere, projektarrays og medier. Lintfund blev løst, kompatible afhængighedsrettelser anvendt, og vejledninger til opsætning, oversættelse og vedligeholdelse omskrevet efter den faktiske implementering. Regressionstests blev tilføjet og foreslået som krav i udgivelsesprocessen.",
+          "C": "Kræve lokal kontrol og ejerens gennemgang før offentliggørelse. Regressionstests beskytter nu udvalgte besøgsforløb og kontrollerer, at oversættelsesværktøjerne bevarer godkendte filer. Kontakttests bruger fiktive oplysninger og simulerede svar; ingen testbeskeder sendes. De foreslåede ændringer i GitHub Actions kører kontrollerne før udgivelse, men kørslen på GitHub skal stadig verificeres efter godkendelse. Bredere browser-, tilgængeligheds- og ydelsesevaluering udestår, og en advarsel om pakkestørrelse er tilbage. Casen beskriver det afsluttede lokale arbejde uden at fremstille de resterende evalueringer som færdige."
+        },
+        "timeline": [
+          "Krav til indhold og præsentation",
+          "Fælles projektstruktur",
+          "Flersprogede cases",
+          "Demonstrationer og gennemgang",
+          "Offentliggørelse og verifikation"
+        ],
+        "tools": [
+          "Indholdsarkitektur",
+          "Produktretning",
+          "React",
+          "TypeScript",
+          "i18next",
+          "GSAP og Three.js",
+          "GitHub Pages",
+          "Browserverifikation"
+        ],
+        "outcomes": [
+          "Lint, indholdsvalidering, produktionsbygning og ni regressionstests består lokalt",
+          "Tastaturnavigation, mediefokus, rutehåndtering og kontaktgentagelse forbedret",
+          "Oversættelsesforslag bevarer gennemgåede filer; tre sprogtræer kontrolleret",
+          "Vedligeholdelsesvejledning opdateret; validering tilføjet den foreslåede udgivelsesproces"
+        ],
+        "media": [
+          {
+            "label": "Porteføljegennemgang (engelsk, dansk og spansk)",
+            "caption": "Faktisk lokal optagelse · navigation, sprogskift, medier og retur fra et ukendt projekt"
+          },
+          {
+            "label": "Projektoversigt (på engelsk)",
+            "caption": "Faktisk skærmbillede · kreativt arbejde og software i en fælles præsentation"
+          },
+          {
+            "label": "En oversat case (på spansk)",
+            "caption": "Faktisk skærmbillede · Ledger-casens tekst på spansk"
+          },
+          {
+            "label": "Dokumentation i medieviseren (på engelsk)",
+            "caption": "Faktisk skærmbillede · Ledger-demonstrationen bruger fiktive poster"
+          },
+          {
+            "label": "Gennemgang og verifikationens omfang"
+          }
+        ]
       }
     }
   },
@@ -883,5 +951,6 @@
     "intro": "Et tværsnit af projekter der spænder over musikproduktion, fællesskabsuddannelse, systemarkitektur og kreativ teknologi – hvert enkelt bygget med samme intention: at skabe noget meningsfuldt, skalerbart og menneskeligt. Hvert projekt er præsenteret i DMAIC-format (Definér, Mål, Analysér, Forbedre, Kontrollér), så du kan se, hvordan hvert enkelt bevæger sig fra idé til målbart resultat.",
     "line1": "UDVALGTE",
     "line2": "PROJEKTER"
-  }
+  },
+  "collabCard": {}
 }

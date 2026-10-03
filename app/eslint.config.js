@@ -20,4 +20,14 @@ export default defineConfig([
       globals: globals.browser,
     },
   },
+  {
+    files: ['src/components/ui/*.tsx'],
+    rules: {
+      // These library modules intentionally expose their styling helpers/context hooks.
+      // Vite may reload consumers when they change; production behavior is unaffected.
+      'react-refresh/only-export-components': ['error', { allowConstantExport: true,
+        allowExportNames: ['badgeVariants', 'buttonVariants', 'buttonGroupVariants',
+          'useFormField', 'navigationMenuTriggerStyle', 'useSidebar', 'toggleVariants'] }],
+    },
+  },
 ])

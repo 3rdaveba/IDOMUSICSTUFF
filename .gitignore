@@ -34,3 +34,6 @@ app/public/project media/**/*.mov
 app/public/project media/K-Pops!/
 app/public/project media/Sinners/
 app/public/project media/Jimmy/01 - Jimmy Luna Show Header.mp4
+
+# Generated translation proposals require review before application.
+app/translations/candidates/

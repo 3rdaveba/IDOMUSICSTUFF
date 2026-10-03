@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router'
+import { Link } from 'react-router'
 import { useTranslation } from 'react-i18next'
 
 interface ProjectCardProps {
@@ -19,13 +19,12 @@ export default function ProjectCard({
   projectId,
   category = 'music',
 }: ProjectCardProps) {
-  const navigate = useNavigate()
   const { t } = useTranslation()
 
   return (
-    <div
-      className="group cursor-pointer"
-      onClick={() => navigate(`/project/${projectId}`)}
+    <Link
+      className="group block cursor-pointer"
+      to={`/project/${projectId}`}
     >
       {/* Image container */}
       <div className="relative overflow-hidden rounded" style={{ aspectRatio: '1/1' }}>
@@ -76,6 +75,6 @@ export default function ProjectCard({
       >
         {t('projectCard.viewDetails')} &rarr;
       </span>
-    </div>
+    </Link>
   )
 }

@@ -62,6 +62,7 @@ export default function Navigation() {
     href: string,
     type: 'hash' | 'route'
   ) => {
+    if (type === 'route' && (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey)) return
     e.preventDefault()
     if (type === 'route') {
       navigate(href)
@@ -133,7 +134,7 @@ export default function Navigation() {
             return (
               <a
                 key={link.href}
-                href={link.href}
+                href={link.type === 'route' ? `#${link.href}` : link.href}
                 onClick={(e) => handleNavClick(e, link.href, link.type)}
                 className="text-nav transition-colors duration-300 relative flex-shrink-0"
                 style={{

@@ -85,3 +85,6 @@
     }
   }
 }
+
+/* Visible keyboard focus without changing the default visual presentation. */
+:focus-visible { outline: 3px solid var(--accent-amber); outline-offset: 4px; }

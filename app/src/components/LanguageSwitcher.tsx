@@ -20,8 +20,15 @@ export default function LanguageSwitcher() {
         setOpen(false)
       }
     }
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        setOpen(false)
+        containerRef.current?.querySelector('button')?.focus()
+      }
+    }
     document.addEventListener('click', onClick)
-    return () => document.removeEventListener('click', onClick)
+    document.addEventListener('keydown', onKey)
+    return () => { document.removeEventListener('click', onClick); document.removeEventListener('keydown', onKey) }
   }, [])
 
   const select = (code: string) => {
@@ -54,6 +61,8 @@ export default function LanguageSwitcher() {
           e.currentTarget.style.boxShadow = 'none'
         }}
         aria-label="Change language"
+        aria-expanded={open}
+        aria-controls="language-options"
       >
         {current.flag}
       </button>
@@ -61,6 +70,7 @@ export default function LanguageSwitcher() {
       {/* Dropdown */}
       {open && (
         <div
+          id="language-options"
           className="fixed right-6 z-40 overflow-hidden rounded-md"
           style={{
             bottom: 'calc(80px + env(safe-area-inset-bottom, 0px))',

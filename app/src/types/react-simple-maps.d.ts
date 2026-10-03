@@ -1,22 +1,22 @@
 declare module 'react-simple-maps' {
-  import { ComponentType, ReactNode, CSSProperties } from 'react'
+  import { ComponentType, ReactNode, CSSProperties, MouseEvent } from 'react'
 
   interface GeographyProps {
-    geography?: any
+    geography?: object
     key?: string
     style?: {
       default?: CSSProperties
       hover?: CSSProperties
       pressed?: CSSProperties
     }
-    onMouseEnter?: (e: any) => void
-    onMouseLeave?: (e: any) => void
-    onClick?: (e: any) => void
+    onMouseEnter?: (e: MouseEvent<SVGPathElement>) => void
+    onMouseLeave?: (e: MouseEvent<SVGPathElement>) => void
+    onClick?: (e: MouseEvent<SVGPathElement>) => void
   }
 
   interface GeographiesProps {
     geography: string | object
-    children: (data: { geographies: any[] }) => ReactNode
+    children: (data: { geographies: Array<{ rsmKey: string; properties: { ISO_A3: string; NAME: string; [key: string]: unknown }; id?: string; geometry: object }> }) => ReactNode
   }
 
   interface ComposableMapProps {
@@ -34,8 +34,8 @@ declare module 'react-simple-maps' {
     zoom?: number
     minZoom?: number
     maxZoom?: number
-    onMoveStart?: (event: any, position: { coordinates: [number, number]; zoom: number }) => void
-    onMoveEnd?: (event: any, position: { coordinates: [number, number]; zoom: number }) => void
+    onMoveStart?: (event: unknown, position: { coordinates: [number, number]; zoom: number }) => void
+    onMoveEnd?: (event: unknown, position: { coordinates: [number, number]; zoom: number }) => void
   }
 
   interface MarkerProps {

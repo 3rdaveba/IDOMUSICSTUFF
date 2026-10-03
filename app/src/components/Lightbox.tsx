@@ -1,3 +1,4 @@
+import { useDialogFocus } from '@/hooks/useDialogFocus'
 import { useState, useEffect, useCallback } from 'react'
 import { useTranslation } from 'react-i18next'
 import { X, ChevronLeft, ChevronRight } from 'lucide-react'
@@ -11,6 +12,7 @@ interface LightboxProps {
 
 export default function Lightbox({ items, initialIndex, onClose }: LightboxProps) {
   const { t } = useTranslation()
+  const dialogRef = useDialogFocus()
   const [index, setIndex] = useState(initialIndex)
 
   const current = items[index]
@@ -26,13 +28,6 @@ export default function Lightbox({ items, initialIndex, onClose }: LightboxProps
   }, [hasNext])
 
   useEffect(() => {
-    document.body.style.overflow = 'hidden'
-    return () => {
-      document.body.style.overflow = ''
-    }
-  }, [])
-
-  useEffect(() => {
     const handleKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') onClose()
       if (e.key === 'ArrowLeft') goPrev()
@@ -46,6 +41,11 @@ export default function Lightbox({ items, initialIndex, onClose }: LightboxProps
 
   return (
     <div
+      ref={dialogRef}
+      role="dialog"
+      aria-modal="true"
+      aria-label={current.label}
+      tabIndex={-1}
       className="fixed inset-0 z-50 flex items-center justify-center"
       style={{ backgroundColor: 'rgba(10,9,8,0.35)' }}
       onClick={onClose}
