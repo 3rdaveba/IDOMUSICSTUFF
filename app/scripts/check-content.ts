@@ -35,7 +35,7 @@ export function checkContent() {
       for (const field of ['role', 'description', 'dmaic', 'timeline', 'tools', 'outcomes']) assert(copy[field], `${project.id}: missing ${field}`)
       for (const field of ['timeline', 'tools', 'outcomes'] as const) assert.equal(copy[field].length, project[field].length, `${lang}/${project.id}/${field}`)
       for (const key of ['D', 'M', 'A', 'I', 'C']) assert(typeof copy.dmaic[key] === 'string' && copy.dmaic[key].trim(), `${project.id}/${key}`)
-      if (['prima', 'knwn', 'ledger', 'portfolio'].includes(project.id)) {
+      if (['prima', 'knwn', 'ledger'].includes(project.id)) {
         assert(copy.title?.trim(), `${project.id}: missing localized title`)
         assert.equal(copy.media?.length, project.media?.items.length, `${project.id}: media length`)
         project.media?.items.forEach((item, index) => {

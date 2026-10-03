@@ -688,62 +688,6 @@
             "caption": "Standalone English app, fictional fixtures, and instructions in three languages"
           }
         ]
-      },
-      "portfolio": {
-        "title": "IDOMUSICSTUFF - A Portfolio Built for Evidence",
-        "role": "Content & Product Direction · Acceptance Review · AI-Assisted Development",
-        "description": "My work spans music, education, creative operations, and software. This portfolio gives those projects a common structure so a visitor can understand the problem, my role, the decisions, and the supporting evidence. I direct the content and presentation, review the results, and use AI assistance for implementation. The work includes multilingual case studies, actual product demonstrations, and a reviewed path from local preview to the live site.",
-        "dmaic": {
-          "D": "Present a varied body of work without asking the visitor to guess how the pieces connect. I required a consistent DMAIC structure, clear ownership, and media placed after the overview. Each project needs to explain its purpose and my contribution. English, Spanish, and Danish make the presentation available in three languages while retaining the same visual identity.",
-          "M": "The local verification command passes lint, content validation, four content tests, a production build, and five Chromium browser workflows. Content checks cover 13 project records and three locale trees. Browser checks exercise the Prima, KNWN, Ledger, and portfolio pages in English, Danish, and Spanish, keyboard navigation, media focus and playback, mobile overflow, and mocked contact responses. A dependency audit after compatible updates reported zero known vulnerabilities. These are scoped, point-in-time checks, not evidence of visitor conversion or comprehensive accessibility and security certification.",
-          "A": "The audit turned maintenance assumptions into reproducible failures. An unknown-project return button led to an unmatched route, project cards lacked link semantics, media dialogs did not manage keyboard focus, and a failed contact attempt discarded the draft. Translation tools could overwrite reviewed files, while an older project had an inconsistent skills array. The existing lint run reported 29 errors and two warnings. These findings defined a concrete improvement pass before presenting the portfolio as a project.",
-          "I": "Corrected route recovery, made project cards keyboard-accessible links, added keyboard media activation and dialog focus management, and preserved contact drafts after a failed request. Updated document language when visitors switch languages. Changed four translation tools to produce review candidates without replacing approved copy, and added checks for locale structure, placeholders, project arrays, and media. Resolved lint findings, applied compatible dependency fixes, and rewrote setup, translation, and maintenance documentation around the actual implementation. Added regression checks and proposed them as prerequisites in the existing publication workflow.",
-          "C": "Require a local check and owner review before publication. Regression tests now protect selected visitor workflows and verify that translation tools preserve approved files. Contact tests use fictional input and mocked responses; no test messages are sent. Proposed GitHub Actions changes run these checks before deployment, but their hosted execution remains to be verified after approval. The site still needs broader browser, accessibility, and performance evaluation; a bundle-size advisory remains. The case study reports the completed local work without treating those remaining checks as finished."
-        },
-        "timeline": [
-          "Content & Presentation Requirements",
-          "Shared Project Structure",
-          "Multilingual Case Studies",
-          "Demonstrations & Review",
-          "Publication & Verification"
-        ],
-        "tools": [
-          "Content Architecture",
-          "Product Direction",
-          "React",
-          "TypeScript",
-          "i18next",
-          "GSAP & Three.js",
-          "GitHub Pages",
-          "Browser Verification"
-        ],
-        "outcomes": [
-          "Lint, content validation, production build, and nine regression tests pass locally",
-          "Keyboard navigation, media focus, route recovery, and contact retry improved",
-          "Translation candidate tools preserve reviewed files; three locale trees checked",
-          "Maintenance docs updated; validation added to the proposed release workflow"
-        ],
-        "media": [
-          {
-            "label": "Portfolio walkthrough (English, Danish & Spanish)",
-            "caption": "Actual local recording · navigation, language switching, media, and missing-project recovery"
-          },
-          {
-            "label": "Project library (English)",
-            "caption": "Actual portfolio screenshot · creative and software work in a shared presentation"
-          },
-          {
-            "label": "A translated case study (Spanish)",
-            "caption": "Actual portfolio screenshot · Spanish Ledger case-study copy"
-          },
-          {
-            "label": "Supporting evidence in the media viewer (English)",
-            "caption": "Actual portfolio screenshot · Ledger demonstration uses fictional records"
-          },
-          {
-            "label": "Walkthrough & verification scope"
-          }
-        ]
       }
     },
     "films": {

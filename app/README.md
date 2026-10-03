@@ -41,7 +41,7 @@ The checks cover selected workflows, not every browser, external service, access
 - `src/i18n.ts`: language loading, persistence, and document-language metadata.
 - `public/locales/{en,es,da}/translation.json`: runtime translations.
 - `translations/source/en.json` and `translations/final/{es,da}.json`: reviewed editing copies.
-- `public/{prima,knwn,ledger,portfolio}`: case-study media and standalone guides.
+- `public/{prima,knwn,ledger}`: case-study media and standalone guides.
 - `tests`: executable content and browser checks.
 - `../.github/workflows/check.yml`: validation on pull requests or manual dispatch, without deployment.
 - `../.github/workflows/static.yml`: validation and deployment to GitHub Pages on approved pushes to `main` or manual dispatch.

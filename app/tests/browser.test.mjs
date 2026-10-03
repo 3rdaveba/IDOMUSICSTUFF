@@ -51,7 +51,7 @@ test('project cards support keyboard navigation and unknown routes recover', asy
 test('reviewed project copy renders in all languages with language metadata', async () => {
   const { context, page: p } = await page()
   try {
-    for (const id of ['prima', 'knwn', 'ledger', 'portfolio']) {
+    for (const id of ['prima', 'knwn', 'ledger']) {
       await p.goto(base + '/#/project/' + id)
       for (const [lang, label] of [['en', 'English'], ['da', 'Dansk'], ['es', 'Español']]) {
         await p.getByRole('button', { name: 'Change language', exact: true }).click()
@@ -91,7 +91,7 @@ test('language picker closes with Escape and mobile pages do not overflow', asyn
   const { context, page: p } = await page()
   try {
     await p.setViewportSize({ width: 390, height: 844 })
-    for (const id of ['prima', 'knwn', 'ledger', 'portfolio']) {
+    for (const id of ['prima', 'knwn', 'ledger']) {
       await p.goto(base + '/#/project/' + id)
       await p.getByRole('heading', { name: locale('en').data.projects[id].title, exact: true }).waitFor()
       assert(await p.evaluate(() => document.documentElement.scrollWidth <= innerWidth), id)

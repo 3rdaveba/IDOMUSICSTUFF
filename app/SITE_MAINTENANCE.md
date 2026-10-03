@@ -13,7 +13,7 @@ Use this guide from `app/`. Preserve the established presentation and keep conte
 7. Run `npm run check`. Inspect the local page in all three languages and a mobile viewport. Check media playback and the guide as well as the page text. No em dashes in new portfolio copy.
 8. Prepare the copy, evidence, screenshots/recording, exact diff, limitations, and hosting implications for review. Do not claim visitor impact, accessibility compliance, or performance without the relevant measurement.
 
-Existing older project records may use their proper title from the source and generic media labels. Current checks require full localized titles/media for Prima, KNWN, Ledger, and the portfolio case study, and structural parity for all projects. Expand that coverage when adding or revising an older project.
+Existing older project records may use their proper title from the source and generic media labels. Current checks require full localized titles/media for Prima, KNWN, and Ledger, and structural parity for all projects. Expand that coverage when adding or revising an older project.
 
 ## Other content
 
